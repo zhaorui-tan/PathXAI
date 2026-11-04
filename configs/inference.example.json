@@ -1,0 +1,8 @@
+{
+  "segmentation_python": "/path/to/pathxai-segmentation-py312/bin/python",
+  "model_dir": "models",
+  "workspace": "workspace",
+  "qwen_api": "https://YOUR_API_ENDPOINT/v1",
+  "qwen_model": "YOUR_VISION_MODEL_ID",
+  "device": "cuda:0"
+}

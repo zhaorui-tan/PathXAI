@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PathXAI · Completed examples</title>
+  <style>
+    :root{color-scheme:light;--ink:#153b36;--muted:#526b66;--line:#d6e2dc;--paper:#f6f8f4;--green:#146858}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,sans-serif}
+    main{max-width:1080px;margin:auto;padding:58px 26px 34px}.eyebrow{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:700}
+    h1{font-size:clamp(34px,5vw,58px);line-height:1.12;letter-spacing:-.04em;margin:18px 0 22px;max-width:800px}h2{font-size:28px;margin:14px 0 8px}p{margin:0 0 18px}.intro{max-width:730px;font-size:20px;color:var(--muted)}
+    .meta{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 34px}.meta span{padding:6px 12px;border:1px solid var(--line);border-radius:30px;font-size:13px}
+    .cards{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{display:flex;flex-direction:column;background:white;border:1px solid var(--line);border-radius:16px;padding:30px}.label{font-size:13px;color:var(--green);font-weight:700}.card p{color:var(--muted)}.card .details{font-size:14px;margin-bottom:26px}.actions{margin-top:auto;display:flex;flex-direction:column;gap:12px}
+    a{color:var(--green);text-underline-offset:4px}.button{background:var(--green);color:white;text-align:center;padding:13px 18px;text-decoration:none;border-radius:8px;font-weight:650}.button:hover{background:#0d5043}.secondary{text-align:center;font-size:14px}a:focus-visible{outline:3px solid #d99b29;outline-offset:4px}
+    .note{padding:28px 0;border-bottom:1px solid var(--line);color:var(--muted);font-size:15px}.note h2{font-size:20px;color:var(--ink)}footer{padding-top:22px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+    @media(max-width:650px){main{padding:35px 20px}.cards{grid-template-columns:1fr}.card{padding:24px}.intro{font-size:18px}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">PathXAI · Completed examples</div>
+  <h1>Read the reports.<br>Follow the recorded runs.</h1>
+  <p class="intro">Explore two reports generated from the same public TCGA patient, using all five diagnostic slides. Both versions completed real notebook execution with D1 segmentation. No model downloads, API keys or GPU are needed to read these saved examples.</p>
+  <div class="meta"><span>Case TCGA-OR-A5JI · DX1–DX5</span><span>D1 segmentation</span><span>Recorded 4 November 2026</span></div>
+  <p><strong>Reproduction scope:</strong> ROI selection and the main diagnosis match the previous D1 runs. Generated grade and necrosis statements still have discrepancies. <a href="comparison.html">Read the result comparison and limitations →</a></p>
+  <section class="cards" aria-label="Successful report examples">
+    <article class="card">
+      <div class="label">SO1 · CORE</div><h2>The core report workflow</h2>
+      <p>Follow ROI selection, D1 segmentation, diagnostic reasoning and evidence reinspection through the final report.</p>
+      <p class="details">Completed in 28 minutes · 6 final diagnostic ROIs · 5 input slides</p>
+      <div class="actions"><a class="button" href="SO1/report.html">Open SO1 report →</a><a class="secondary" href="https://github.com/zhaorui-tan/PathXAI/blob/main/examples/notebooks/SO1_completed.ipynb">View recorded notebook on GitHub</a><a class="secondary" href="notebooks/SO1_completed.ipynb" download>Download notebook with outputs</a><a class="secondary" href="SO1/generated_long_report.txt">Read generated report text</a></div>
+    </article>
+    <article class="card">
+      <div class="label">SO4 · FULL</div><h2>The full report workflow</h2>
+      <p>Explore the workflow with KEEP knowledge retrieval and auxiliary grade evidence, alongside D1 segmentation and reinspection.</p>
+      <p class="details">Completed in 10 minutes · 6 final diagnostic ROIs · 5 input slides</p>
+      <div class="actions"><a class="button" href="SO4/report.html">Open SO4 report →</a><a class="secondary" href="https://github.com/zhaorui-tan/PathXAI/blob/main/examples/notebooks/SO4_completed.ipynb">View recorded notebook on GitHub</a><a class="secondary" href="notebooks/SO4_completed.ipynb" download>Download notebook with outputs</a><a class="secondary" href="SO4/generated_long_report.txt">Read generated report text</a></div>
+    </article>
+  </section>
+  <section class="note"><h2>What these examples show</h2><p>These are recorded patient-level executions, compared with the historical D1 demo and an existing aligned reference report. They are not a clinical accuracy benchmark. The known anatomical site was supplied before inference; no reference diagnosis was supplied. All five slides entered the candidate pool; the final ROIs came from two slides, which are displayed in the reports. The original report wording and image bytes are preserved. The notebook records retain actual outputs; repetitive heartbeat messages and feature-progress refreshes were condensed, and machine-specific paths were replaced for reading.</p><p>The completed notebooks can also be previewed directly in the GitHub repository. Use the main tutorial notebook in that repository to run your own data.</p></section>
+  <footer><span>Public TCGA sample · research software</span><a href="https://github.com/zhaorui-tan/PathXAI">Source and tutorial</a><a href="manifest.json">Example provenance and file checksums</a></footer>
+</main>
+</body>
+</html>

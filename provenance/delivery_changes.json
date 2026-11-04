@@ -1,0 +1,28 @@
+{
+  "schema": "pathxai-tutorial-delivery-changes-v1",
+  "scientific_snapshot_modified": false,
+  "changes": [
+    {
+      "path": "pathxai_demo/engine.py",
+      "imported_sha256": "e6799011bef7b961a7d5b33db65034b5b43931c9cefd35580a5de0781f8a33a2",
+      "delivery_sha256": "ade5b0415f326455ba15e2bf30eb9f6d0dd063e4a81c34ea0b15b50b409441a6",
+      "reason": "Force Agg for file-rendering child processes to isolate Jupyter inline backend."
+    },
+    {
+      "path": "assets/model_references.json",
+      "imported_sha256": "87c85e50f538a25a43cc620268247e7fedaae0e653ccbe7d2a571ac90d924872",
+      "delivery_sha256": "171fc03062850645be6644abcba3da081e797beaa2b05958af08773357312f4a",
+      "reason": "Pin the verified compact D1 adaptation instead of the original full training checkpoint."
+    },
+    {
+      "path": "pathxai_demo/api_probe.py",
+      "imported_sha256": "a78d845569e7af472b4d4c4ae63fcc1a6b358b0cff3c49755747bf6ee3ef5e0a",
+      "delivery_sha256": "a79faf7dfac67a2fdb2f7c3aeace9debbe6f799822108241f52023368aab6cf8",
+      "reason": "Allow a bounded configurable synthetic API probe timeout; notebook default 60 seconds accommodates slow or queued endpoints."
+    }
+  ],
+  "added_notices": [
+    "assets/licenses/SAM-LICENSE.txt",
+    "assets/licenses/SAM-ORIGIN.json"
+  ]
+}

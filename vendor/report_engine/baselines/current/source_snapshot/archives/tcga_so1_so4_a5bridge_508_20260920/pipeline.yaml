@@ -1,0 +1,68 @@
+paths:
+  project_root: /local/PathXAI_Agent_v2
+  shared_artifacts: /local/PathXAI_Agent_v2/shared_artifacts
+  outputs_root: /local/PathXAI_Agent_v2/PathXAI_Seg2Report/results/tcga_so1_so4_a5bridge_508_20260920
+  v1_src_root: /local/PathXAI_Agent_v2/PathXAI_Seg2Report/results/tcga_so1_so4_a5bridge_508_20260920/provenance/code/v1
+  seg_python: /local/conda_staffs/conda_envs/medsam/bin/python
+  pipeline_python: /local/conda_staffs/conda_envs/conch/bin/python
+  seg_ckpt: /local/PathXAI/baseline_experiments/medsam3/medsam3_d1_refined/a5_bridge/run_20260804_123748_stage3_tissue/best_model.pth
+  seg_cache_dir: /local/PathXAI_Agent_v2/PathXAI_Seg2Report/results/tcga_so1_so4_a5bridge_508_20260920/cache/seg_a5bridge
+  roi_cache_dir: /local/PathXAI_Agent_v2/shared_artifacts/roi_cache
+  llm_cache_dir: /local/PathXAI_Agent_v2/PathXAI_Seg2Report/results/tcga_so1_so4_a5bridge_508_20260920/cache/llm
+  keep_root: /local/datasets/public/KEEP_dataset
+llm:
+  qwen_api: 127.0.0.1:8000
+  qwen_model: E:/tanja1/qwen3.6/Qwen3.6-27B-Q6_K.gguf
+  medgemma_api: 127.0.0.1:8001
+  medgemma_model: google/medgemma-4b-it
+  report_api: ''
+  report_model: ''
+  report_max_tokens: 4096
+  read_timeout: 600
+  connect_timeout: 10
+  max_retries: 2
+  retry_backoff: 3.0
+  image_max_edge: 768
+  image_jpeg_quality: 75
+  temperature: 0.2
+  max_tokens: 4096
+segmentation:
+  enabled: true
+  device: cuda:0
+  patch_size: 4096
+  stride: 2048
+  max_rois: 11
+  use_subprocess: true
+  qc_max_images: 11
+  qc_missing_retries: 2
+  qc_cache_version: seg_qc_pair_v2
+roi:
+  candidate_rois: 20
+  selected_rois: 3
+  max_site_rois: 3
+  llm_triage_candidates: 8
+  foundation_model: conch
+  foundation_ranking_mode: diagnostic
+  foundation_tile_size: 1024
+  foundation_mpp: 0.5
+  foundation_batch_size: 16
+reinspection:
+  max_reinspection_rois: 2
+  max_reinspection_rounds: 4
+  max_zoom_depth: 1
+  max_final_rois: 11
+context_budget:
+  medgemma_max_chars: 6000
+  segmentation_max_chars: 12000
+  knowledge_max_chars: 4000
+knowledge:
+  enabled: true
+  max_disease: 5
+  max_semantic_groups: 5
+  max_captions_per_hypothesis: 3
+  max_children: 5
+session:
+  memory_version: diagnostic_session_memory_v1
+leakage:
+  known_site_from: tcga
+  min_hypotheses: 3

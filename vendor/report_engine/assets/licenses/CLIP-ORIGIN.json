@@ -1,0 +1,23 @@
+{
+  "schema": "pathxai-third-party-license-origin-v1",
+  "asset": {
+    "path": "assets/bpe_simple_vocab_16e6.txt.gz",
+    "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+    "size_bytes": 1356917
+  },
+  "upstream": {
+    "repository": "https://github.com/openai/CLIP",
+    "commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "asset_path": "clip/bpe_simple_vocab_16e6.txt.gz",
+    "asset_url": "https://raw.githubusercontent.com/openai/CLIP/d05afc436d78f1c48dc0dbf8e5980a9d471f35f6/clip/bpe_simple_vocab_16e6.txt.gz"
+  },
+  "license_notice": {
+    "identifier_observed": "MIT",
+    "copyright": "2021 OpenAI",
+    "path": "assets/licenses/CLIP-LICENSE.txt",
+    "upstream_url": "https://raw.githubusercontent.com/openai/CLIP/d05afc436d78f1c48dc0dbf8e5980a9d471f35f6/LICENSE",
+    "sha256": "987e63b32f6c89ff5160e429458a872ff048e6860b590a3912e938f9da8f14db",
+    "size_bytes": 1064
+  },
+  "scope": "Records byte identity and the upstream repository license notice for the BPE file only. It does not establish redistribution rights for SAM3, MedSAM3, model weights, or other derived code."
+}

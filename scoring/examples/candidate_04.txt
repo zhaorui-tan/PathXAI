@@ -1,0 +1,6 @@
+SYNTHETIC TRAINING TEXT — NOT A PATIENT REPORT
+Diagnosis: Fictional report D describes a yellow circle.
+Key Microscopic Findings: The imaginary circle has no measured properties.
+Stage / Grade / Prognostic Features: Not applicable to this non-clinical example.
+Limitations: This invented text has no diagnostic meaning.
+Final Summary: Demonstration text only.

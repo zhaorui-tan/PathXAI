@@ -1,0 +1,27 @@
+{
+  "schema": "pathxai-keep-references-v1",
+  "dataset": {
+    "id": "keep_dataset",
+    "repository": "Loie/KEEP_dataset",
+    "revision": "dbf19e71e7d9b6516b890cfd60e6e94baf881e23",
+    "repo_type": "dataset",
+    "source_identity_status": "local_cache_metadata_and_bytes_verified_official_lfs_metadata_not_rechecked",
+    "access_note": "Gated HF dataset. Use your own approved account and session token. Noncommercial academic use with attribution; do not redistribute or publish these files."
+  },
+  "assets": [
+    {
+      "id": "keep_disease_graph",
+      "filename": "disease_knowledge_graph.json",
+      "bytes": 9763125,
+      "sha256": "61e9f5ae3aa0743e308849401b7cfb3c2ef2e8e7b65cb3a80c9226028ea66071",
+      "role": "disease_knowledge_graph"
+    },
+    {
+      "id": "keep_semantic_groups",
+      "filename": "pathology_vl_semantic_groups.json",
+      "bytes": 92711158,
+      "sha256": "f3d3d6835dac037ac636f65665e4353310636230d9699dbe44481a1b1206d144",
+      "role": "pathology_vl_semantic_groups"
+    }
+  ]
+}

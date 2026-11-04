@@ -1,0 +1,9 @@
+{
+  "source_repository": "facebook/sam3",
+  "revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "source_file": "LICENSE",
+  "source_url": "https://huggingface.co/facebook/sam3/blob/3c879f39826c281e95690f02c7821c4de09afae7/LICENSE",
+  "bytes": 7352,
+  "sha256": "bec48f70bd37bf8280a9d1ebf01642d26086f6122ba735baa08fe03c5a6e7448",
+  "note": "Exact copy from the pinned base-model repository. Identifies the SAM license; does not assert a license for every MedSAM3 fork modification."
+}

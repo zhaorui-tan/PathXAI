@@ -1,0 +1,14 @@
+{
+  "schema": "pathxai-demo-assets-v1",
+  "assets": [
+    {
+      "id": "sam3_bpe",
+      "filename": "bpe_simple_vocab_16e6.txt.gz",
+      "bytes": 1356917,
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "source": "/local/MedSAM/MedSAM3/sam3/assets/bpe_simple_vocab_16e6.txt.gz",
+      "role": "Original SAM3 tokenizer vocabulary",
+      "redistribution_review": "Required before public release; local development copy only"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "case_id": "synthetic-case-001",
+    "anon_id": "SYNTHETIC-001",
+    "site": "example",
+    "dataset": "synthetic",
+    "slide_path": "/absolute/path/to/your/slide.svs"
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "case_id": "TCGA-OR-A5JI",
+  "case_uuid": "b7adb786-1f81-43ca-ac72-7243966cd439",
+  "project_id": "TCGA-ACC",
+  "source": "NCI Genomic Data Commons (GDC), public open-access records",
+  "inventory_query": {
+    "endpoint": "https://api.gdc.cancer.gov/files",
+    "case_filter_field": "cases.submitter_id",
+    "data_type": "Slide Image",
+    "verified_at_utc": "2026-11-04",
+    "verified_slide_count": 6
+  },
+  "known_site": "adrenal gland / adrenocortical tissue",
+  "known_site_source": {
+    "source": "NCI GDC case/project metadata",
+    "case_endpoint": "https://api.gdc.cancer.gov/cases/b7adb786-1f81-43ca-ac72-7243966cd439",
+    "project_endpoint": "https://api.gdc.cancer.gov/projects/TCGA-ACC",
+    "field": "project.primary_site",
+    "gdc_value": "Adrenal gland",
+    "normalization": "PathXAI TCGA site map for project TCGA-ACC",
+    "scope": "Anatomical prior only; no diagnosis or histology is supplied to inference."
+  },
+  "slides": [
+    {
+      "role": "diagnostic_slide",
+      "file_id": "4d61f9a0-04cb-43c7-b464-0c0493c828ec",
+      "file_name": "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53.svs",
+      "file_size": 1608042651,
+      "md5sum": "c9871041ee34769f692faa226c69bb9b",
+      "sha256": "20d9428c94b0c07f65bdeac90fd3ef4964d0bbddb32a91815d4420f819f5be01",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/4d61f9a0-04cb-43c7-b464-0c0493c828ec"
+    },
+    {
+      "role": "diagnostic_slide",
+      "file_id": "7e87c633-a4f5-4ade-8882-622fbb9e8015",
+      "file_name": "TCGA-OR-A5JI-01Z-00-DX2.CEEA791D-1475-4D2B-8E8D-9EB44D42C937.svs",
+      "file_size": 1126179951,
+      "md5sum": "c5c3a88c61941720614d3d2d83a17310",
+      "sha256": "06e6cbc8c7a4e3dd295212084e46c620fffebeb52ae050f2a37f3d2681f9f2a4",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/7e87c633-a4f5-4ade-8882-622fbb9e8015"
+    },
+    {
+      "role": "diagnostic_slide",
+      "file_id": "3a17c1be-c554-4011-9a5e-0024d48399b2",
+      "file_name": "TCGA-OR-A5JI-01Z-00-DX3.A0770B66-D219-4908-BB9B-32790497CFFE.svs",
+      "file_size": 1424877903,
+      "md5sum": "b4f95aedbcc5e8fcb8fbcac802d5da1e",
+      "sha256": "b972855a6c6ef7d756a222e4b481396d224bbe6bdc6fb027a8efa4dbe135246f",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/3a17c1be-c554-4011-9a5e-0024d48399b2"
+    },
+    {
+      "role": "diagnostic_slide",
+      "file_id": "ae7ef36e-c858-4e1c-b34b-68b40231693c",
+      "file_name": "TCGA-OR-A5JI-01Z-00-DX4.367BF4F7-454E-4954-B9C1-4CCF7B7CD52E.svs",
+      "file_size": 1862603355,
+      "md5sum": "2ff2d4ca416f75953f807634a1bc4ef0",
+      "sha256": "8df5e95caff627d38debfc297e1cb6b38d9cd41c00b57b460371de26029285c0",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/ae7ef36e-c858-4e1c-b34b-68b40231693c"
+    },
+    {
+      "role": "diagnostic_slide",
+      "file_id": "c011bbc0-d5fc-467a-8614-8c770c8ba176",
+      "file_name": "TCGA-OR-A5JI-01Z-00-DX5.4F5C6E00-2B26-432A-9C36-6C810AF0C7ED.svs",
+      "file_size": 2033751169,
+      "md5sum": "d71741ef79534ef2551c0928b5ab7635",
+      "sha256": "f9964f3ed5d4a83def5651a5f6604d5b24f59e4b44ee572e07bfe0686f065056",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/c011bbc0-d5fc-467a-8614-8c770c8ba176"
+    }
+  ],
+  "excluded_slides": [
+    {
+      "role": "other_tissue_slide_excluded_from_tutorial",
+      "file_id": "3dcd4bd2-7684-4c73-99d5-7edfbee36160",
+      "file_name": "TCGA-OR-A5JI-01A-01-TS1.11062013-D138-4097-B96E-A590775B554E.svs",
+      "file_size": 33498105,
+      "md5sum": "4ac220a62ff83b0bfb36c4e96337f0d3",
+      "sha256": "37210f63b8c3395da17f5a664f9b9ca8dc267c48de9769dee4cf107e2adc269f",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/3dcd4bd2-7684-4c73-99d5-7edfbee36160",
+      "exclusion_reason": "The previous 20-ROI diagnostic candidate set contains DX1-DX5 only; TS1 is not part of that slide set."
+    }
+  ],
+  "expected_download_bytes": 8055455029,
+  "expected_download_bytes_decimal_gb": 8.055455029,
+  "note": "Download DX1-DX5 as the patient diagnostic slide set. TS1 is the only additional GDC Slide Image in the verified case inventory and is recorded above but excluded to match the prior diagnostic inputs. No diagnosis, pathology report, or histology label is passed as inference input."
+}

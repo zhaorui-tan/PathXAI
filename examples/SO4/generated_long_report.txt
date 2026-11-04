@@ -1,0 +1,30 @@
+Specimen/Site:
+Adrenal gland / adrenocortical tissue
+
+Diagnosis:
+adrenocortical carcinoma
+
+Tumor/Lesion Description:
+The examined tissue demonstrates a solid, expansive neoplasm composed of diffuse sheets and solid nests of cells with focal trabecular arrangement. The tumor is composed of large polygonal cells with abundant eosinophilic to clear vacuolated (lipidized) cytoplasm. Segmentation analysis indicates a high neoplastic tissue fraction (up to 98.9%).
+
+Key Microscopic Findings:
+Microscopic evaluation reveals a malignant neoplasm characterized by significant cytologic atypia. Tumor cells exhibit marked nuclear pleomorphism with enlarged, vesicular nuclei and prominent nucleoli. The cells are arranged in diffuse sheets and solid nests. Scant stroma is present, with focal hemorrhage and congestion noted.
+
+Invasion/Necrosis/Margins:
+Invasion: Not definitively assessable in these ROIs; tumor appears solid and expansive.
+Necrosis: Present in focal areas within the provided fields of view.
+Margins: Not assessable from the provided images.
+
+Immunohistochemistry/Ancillary Studies:
+Not assessable from H&E ROI evidence. Recommended stains to confirm adrenocortical origin include Inhibin-alpha, Melan-A, SF-1, and Calretinin. CK7 and HepPar-1 are recommended to exclude metastasis.
+
+Stage/Grade/Prognostic Features:
+Malignancy: malignant based on the locked final diagnosis; grade: high.
+Grade: High
+The tumor exhibits features of high-grade malignancy, including significant nuclear atypia and pleomorphism. A formal Weiss score assessment requires full slide review for all 9 criteria and is not possible based on the limited ROI evidence provided.
+Subtype: adrenocortical carcinoma.
+Invasion: not definitively assessable in these ROIs; tumor appears solid and expansive.
+Necrosis: not supported by available ROI evidence.
+
+Final Summary:
+The histologic features are consistent with a high-grade adrenocortical carcinoma. The differential diagnosis includes metastatic renal cell carcinoma and metastatic hepatocellular carcinoma; however, the cytologic atypia and solid growth pattern favor a primary adrenocortical malignancy over an adenoma. Confirmation of adrenocortical origin via immunohistochemistry (Melan-A, SF-1, Inhibin-alpha) is recommended. Clinical correlation regarding hormone excess symptoms and tumor size is advised.

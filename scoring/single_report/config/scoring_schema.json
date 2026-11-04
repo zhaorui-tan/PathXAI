@@ -1,0 +1,15 @@
+{
+  "workflow": "reference_report_authoring_with_optional_model_report_scores",
+  "structured_fields": [
+    "primary_diagnosis", "broad_type", "histologic_subtype", "malignancy_status",
+    "invasive_status", "grade", "necrosis", "confidence", "not_assessable"
+  ],
+  "narrative_sections": [
+    "diagnosis", "key_microscopic_findings", "evidence_rationale", "limitations", "final_summary"
+  ],
+  "optional_review_scores": {
+    "diagnostic_correctness": {"scale": [1, 2, 3, 4, 5], "low": "incorrect", "high": "correct"},
+    "unsupported_claims": ["none", "minor", "major"]
+  },
+  "diagnostic_rois": "optional_boxes_in_level_0_slide_coordinates"
+}

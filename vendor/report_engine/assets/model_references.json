@@ -1,0 +1,30 @@
+{
+  "schema": "pathxai-model-references-v1",
+  "assets": [
+    {
+      "id": "conch",
+      "bytes": 802235437,
+      "sha256": "40a9644b9ba0e83a74576e0a5e5f7313599fa9c9cdaf3c20f8a3e271b0e9ae7c",
+      "repository": "MahmoodLab/conch",
+      "revision": "f9ca9f877171a28ade80228fb195ac5d79003357",
+      "filename": "pytorch_model.bin"
+    },
+    {
+      "id": "sam3",
+      "bytes": 3450062241,
+      "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+      "repository": "facebook/sam3",
+      "revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+      "filename": "sam3.pt"
+    },
+    {
+      "id": "seg_d1",
+      "bytes": 25256190,
+      "sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
+      "reference_run": "tcga_expansion_20260924_1200_d1",
+      "filename": "pathxai_d1_adapter.pth",
+      "source_checkpoint_sha256": "41fd1867add7049bb6305e103b275c99ec513146f9d9e3f3f845b1dc55b0d031",
+      "format": "D1 inference adaptation; unchanged base text removed after exact tensor comparison"
+    }
+  ]
+}

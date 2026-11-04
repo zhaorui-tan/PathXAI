@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PathXAI WSI Viewer</title>
+  <link rel="stylesheet" href="/static/viewer_window.css?v=20260907-1">
+</head>
+<body>
+  <header class="viewer-window-header">
+    <div>
+      <h1>Whole-slide image</h1>
+      <p id="viewerWindowSite">Select a case in the report window.</p>
+    </div>
+    <div class="viewer-window-actions">
+      <span id="viewerWindowStatus">Waiting for case</span>
+      <button id="zoomOut" type="button" title="Zoom out" aria-label="Zoom out">−</button>
+      <button id="zoomIn" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+      <button id="resetView" type="button">Reset</button>
+      <button id="toggleFullscreen" type="button">Full screen</button>
+      <button id="closeWindow" type="button">Close</button>
+    </div>
+  </header>
+  <main id="standaloneViewer" aria-label="Whole-slide image viewer">
+    <div id="viewerWindowPlaceholder">Select a case in the report window.</div>
+  </main>
+  <script src="/static/vendor/openseadragon/openseadragon.min.js"></script>
+  <script src="/static/viewer_window.js?v=20260907-1"></script>
+</body>
+</html>

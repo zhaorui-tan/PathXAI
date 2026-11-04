@@ -1,0 +1,15 @@
+[
+  {
+    "case_id": "synthetic-case-001",
+    "anon_id": "SYNTHETIC-001",
+    "site": "example",
+    "slide_path": "/absolute/path/to/your/slide.svs",
+    "reports": {
+      "candidate_01": "../../examples/candidate_01.txt",
+      "candidate_02": "../../examples/candidate_02.txt",
+      "candidate_03": "../../examples/candidate_03.txt",
+      "candidate_04": "../../examples/candidate_04.txt",
+      "candidate_05": "../../examples/candidate_05.txt"
+    }
+  }
+]

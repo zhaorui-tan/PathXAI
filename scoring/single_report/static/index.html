@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PathXAI Local Single-Report Authoring</title>
+  <link rel="stylesheet" href="/static/style.css?v=20260907-viewer-window1">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-line">
+      <h1>Single-Report Authoring</h1>
+      <span id="statusLine">Local report writing and scoring</span>
+    </div>
+    <div class="actions">
+      <span id="connectionStatus" class="connection-status" data-sync-state="idle">Ready</span>
+      <a class="button secondary" href="/api/export/csv" target="_blank">Export CSV</a>
+      <a class="button secondary" href="/api/export/jsonl" target="_blank">Export JSONL</a>
+    </div>
+  </header>
+
+  <section class="reader-session" aria-label="Active reader session">
+    <strong>Local review session</strong>
+    <label>Random session code
+      <input id="sessionReaderId" autocomplete="off" readonly>
+    </label>
+    <button id="applyReader" class="button primary" type="button">Start local session</button>
+    <span id="activeReaderStatus">A random local code separates draft records. No names are requested.</span>
+  </section>
+
+  <main class="layout">
+    <aside class="case-panel">
+      <div class="panel-title">
+        <h2>Cases</h2>
+        <input id="caseSearch" type="search" placeholder="Search case">
+      </div>
+      <div class="filters">
+        <button data-filter="all" class="chip active">All</button>
+        <button data-filter="not_started" class="chip">Not started</button>
+        <button data-filter="draft" class="chip">Draft</button>
+        <button data-filter="submitted" class="chip">Submitted</button>
+      </div>
+      <div id="caseList" class="case-list"></div>
+    </aside>
+
+    <section class="viewer-panel">
+      <div class="viewer-header">
+        <div>
+          <h2 id="caseTitle">Select a case</h2>
+          <p id="caseMeta">WSI remains on this machine. Raw slide download is disabled.</p>
+        </div>
+        <div class="viewer-controls">
+          <span id="viewerScale" class="viewer-scale">Select a slide</span>
+          <button id="zoomIn" title="Zoom in" aria-label="Zoom in">+</button>
+          <button id="zoomOut" title="Zoom out" aria-label="Zoom out">−</button>
+          <button id="resetView">Reset</button>
+          <button id="openViewerWindow" title="Open the WSI in a separate window">Open window</button>
+          <button id="toggleViewerFullscreen" title="Show the WSI workspace full screen">Full screen</button>
+        </div>
+      </div>
+      <div class="roi-toolbar">
+        <div class="roi-toolbar-title">
+          <strong>Diagnostic ROIs</strong>
+          <span id="roiCount">0 regions</span>
+        </div>
+        <label class="roi-control">ROI type
+          <select id="roiType">
+            <option value="diagnostic">Diagnostic</option>
+            <option value="invasion">Invasion / interface</option>
+            <option value="grade">Grade / atypia</option>
+            <option value="necrosis">Necrosis</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <label class="roi-control roi-note-control">ROI note
+          <input id="roiNote" placeholder="Optional finding or rationale">
+        </label>
+        <button id="drawRoi" class="button roi-draw-button" type="button">Draw ROI</button>
+      </div>
+      <div class="viewer-grid">
+        <div id="wsiViewer" class="wsi-viewer" aria-label="Whole-slide image viewer">
+          <div id="viewerPlaceholder" class="viewer-placeholder">
+            Select a case to open its whole-slide image.
+          </div>
+        </div>
+      </div>
+      <div id="roiList" class="roi-list" aria-live="polite"></div>
+    </section>
+
+    <section class="report-panel">
+      <div class="panel-title">
+        <h2>Reference Report</h2>
+        <div class="save-status" id="saveStatus">No case selected</div>
+      </div>
+
+      <fieldset>
+        <legend>Session</legend>
+        <label>Random local code <input id="readerId" readonly></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Structured Diagnosis Facts</legend>
+        <label>Primary diagnosis <input id="primaryDiagnosis"></label>
+        <label>Broad tumor type <input id="broadType" placeholder="carcinoma, lymphoma, melanoma..."></label>
+        <label>Histologic subtype <input id="histologicSubtype" placeholder="invasive ductal carcinoma..."></label>
+        <label>Malignancy status
+          <select id="malignancyStatus">
+            <option value="">Not selected</option>
+            <option>malignant</option>
+            <option>benign</option>
+            <option>borderline</option>
+            <option>not assessable</option>
+          </select>
+        </label>
+        <label>Invasive status
+          <select id="invasiveStatus">
+            <option value="">Not selected</option>
+            <option>invasive</option>
+            <option>in situ</option>
+            <option>not identified</option>
+            <option>not assessable</option>
+          </select>
+        </label>
+        <label>Grade
+          <select id="grade">
+            <option value="">Not selected</option>
+            <option>low grade / grade 1</option>
+            <option>intermediate grade / grade 2</option>
+            <option>high grade / grade 3</option>
+            <option>grade 4</option>
+            <option>not assessable</option>
+          </select>
+        </label>
+        <label>Necrosis
+          <select id="necrosis">
+            <option value="">Not selected</option>
+            <option>present</option>
+            <option>absent</option>
+            <option>focal / uncertain</option>
+            <option>not assessable</option>
+          </select>
+        </label>
+        <label>Confidence
+          <select id="confidence">
+            <option value="">Not selected</option>
+            <option>high</option>
+            <option>medium</option>
+            <option>low</option>
+          </select>
+        </label>
+        <label class="wide">Not assessable / requires additional information
+          <input id="notAssessable" placeholder="IHC, molecular, stage, margin, lymph nodes...">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Narrative Report</legend>
+        <label class="wide">Diagnosis <textarea id="sectionDiagnosis"></textarea></label>
+        <label class="wide">Key Microscopic Findings <textarea id="keyFindings"></textarea></label>
+        <label class="wide">Evidence / Rationale <textarea id="evidenceRationale"></textarea></label>
+        <label class="wide">Limitations <textarea id="limitations"></textarea></label>
+        <label class="wide">Final Summary <textarea id="finalSummary"></textarea></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Optional Model-Report Review Scores</legend>
+        <label>Diagnostic correctness
+          <select id="diagnosticCorrectness">
+            <option value="">Not scored</option>
+            <option value="1">1 - incorrect</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 - correct</option>
+          </select>
+        </label>
+        <label>Unsupported claims
+          <select id="unsupportedClaims">
+            <option value="">Not scored</option>
+            <option>none</option>
+            <option>minor</option>
+            <option>major</option>
+          </select>
+        </label>
+        <label class="wide">Notes <textarea id="notes"></textarea></label>
+      </fieldset>
+
+      <div class="form-actions">
+        <button id="saveDraft" class="button">Save Draft</button>
+        <button id="submitReport" class="button primary">Submit / Lock</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/vendor/openseadragon/openseadragon.min.js"></script>
+  <script src="/static/app.js?v=20260907-viewer-window1"></script>
+</body>
+</html>

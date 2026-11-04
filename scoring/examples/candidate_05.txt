@@ -1,0 +1,6 @@
+SYNTHETIC TRAINING TEXT — NOT A PATIENT REPORT
+Diagnosis: Fictional report E describes a blue square.
+Key Microscopic Findings: The imaginary drawing contains no tissue.
+Stage / Grade / Prognostic Features: Not applicable to this non-clinical example.
+Limitations: This invented text has no diagnostic meaning.
+Final Summary: Demonstration text only.

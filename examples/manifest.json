@@ -1,0 +1,245 @@
+{
+  "schema": "pathxai-successful-examples-v1",
+  "runs": [
+    {
+      "version": "SO1",
+      "case_id": "TCGA-OR-A5JI",
+      "slide_names": [
+        "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53.svs",
+        "TCGA-OR-A5JI-01Z-00-DX2.CEEA791D-1475-4D2B-8E8D-9EB44D42C937.svs",
+        "TCGA-OR-A5JI-01Z-00-DX3.A0770B66-D219-4908-BB9B-32790497CFFE.svs",
+        "TCGA-OR-A5JI-01Z-00-DX4.367BF4F7-454E-4954-B9C1-4CCF7B7CD52E.svs",
+        "TCGA-OR-A5JI-01Z-00-DX5.4F5C6E00-2B26-432A-9C36-6C810AF0C7ED.svs"
+      ],
+      "known_site": "adrenal gland / adrenocortical tissue",
+      "source_executed_notebook_sha256": "1c615a702dc0cbb3308166c2df5c9da93841c40a0a6bc5a27376291ad06d5d88",
+      "source_report_html_sha256": "1676704ffbd2790f1d972e95e795ba82bf2b8de0aff80ff307d552105aae7ddb",
+      "published_report_html_sha256": "cb7156a7d43441148b21913e986939ba0289d0643d19308e79311e4b9da83867",
+      "published_notebook_sha256": "0b5e77eb3837b260c0776928325ec39c83b1e32c9c19c9ac54f9306bc6415c48",
+      "report_text_sha256": "2b37dd5b287fa1a5f56e8c21ebe3a7fcda97f98acd492d100dc629483d06ef26",
+      "removed_heartbeat_lines": 1576,
+      "removed_progress_updates": 5133,
+      "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
+      "image_bytes_changed": false
+    },
+    {
+      "version": "SO4",
+      "case_id": "TCGA-OR-A5JI",
+      "slide_names": [
+        "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53.svs",
+        "TCGA-OR-A5JI-01Z-00-DX2.CEEA791D-1475-4D2B-8E8D-9EB44D42C937.svs",
+        "TCGA-OR-A5JI-01Z-00-DX3.A0770B66-D219-4908-BB9B-32790497CFFE.svs",
+        "TCGA-OR-A5JI-01Z-00-DX4.367BF4F7-454E-4954-B9C1-4CCF7B7CD52E.svs",
+        "TCGA-OR-A5JI-01Z-00-DX5.4F5C6E00-2B26-432A-9C36-6C810AF0C7ED.svs"
+      ],
+      "known_site": "adrenal gland / adrenocortical tissue",
+      "source_executed_notebook_sha256": "c9d48a56449d1da00316827cadd1b49dfa3b9b730533f42ecc23147baa1a1f46",
+      "source_report_html_sha256": "442e4efbd9c4b7983cf4d3b844b7b5d9b752f2916decc1d98a6eee772fb96727",
+      "published_report_html_sha256": "bd3fc736442c8a1fbf2dca187d4ac1ebc4215d527a14b252520e2cc2d3dee91e",
+      "published_notebook_sha256": "37d4ae06b902e35643d74822be2a439b078cd6dcab7fbd8a7ace43580f4ffb5e",
+      "report_text_sha256": "c38e3a50925266eef2e79356bb0e1748ae09536a0fe15962785679c2d9911fda",
+      "removed_heartbeat_lines": 548,
+      "removed_progress_updates": 0,
+      "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
+      "image_bytes_changed": false
+    }
+  ],
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2423,
+      "sha256": "6654375b8d58fc5d800cc8438fc3b5c4c25473f8458e408f024bb4332fd58ff7"
+    },
+    {
+      "path": "SO1/generated_long_report.txt",
+      "bytes": 2864,
+      "sha256": "2b37dd5b287fa1a5f56e8c21ebe3a7fcda97f98acd492d100dc629483d06ef26"
+    },
+    {
+      "path": "SO1/report.html",
+      "bytes": 191515,
+      "sha256": "cb7156a7d43441148b21913e986939ba0289d0643d19308e79311e4b9da83867"
+    },
+    {
+      "path": "SO4/generated_long_report.txt",
+      "bytes": 2352,
+      "sha256": "c38e3a50925266eef2e79356bb0e1748ae09536a0fe15962785679c2d9911fda"
+    },
+    {
+      "path": "SO4/report.html",
+      "bytes": 226999,
+      "sha256": "bd3fc736442c8a1fbf2dca187d4ac1ebc4215d527a14b252520e2cc2d3dee91e"
+    },
+    {
+      "path": "assets/03eb11b07596a189e410.jpg",
+      "bytes": 3460397,
+      "sha256": "03eb11b07596a189e410454ce844b40b2e4823acdb69d02a24f5bbb11d56844c"
+    },
+    {
+      "path": "assets/1a403eccbe4bf18b234e.png",
+      "bytes": 27968812,
+      "sha256": "1a403eccbe4bf18b234ed04c3ded203a4800ebdcbee449099a23a1b10aea6992"
+    },
+    {
+      "path": "assets/247765c4662924dbc8e3.png",
+      "bytes": 7006085,
+      "sha256": "247765c4662924dbc8e394816dc4a8beeee94426f39ee4ada12bfeae99ee778e"
+    },
+    {
+      "path": "assets/348cfb2ebac7281eefe3.png",
+      "bytes": 11212,
+      "sha256": "348cfb2ebac7281eefe36a7adb8112abe27256790f3b19ca705e78401632abd2"
+    },
+    {
+      "path": "assets/38316ae1e7e534a4c3c1.png",
+      "bytes": 41817,
+      "sha256": "38316ae1e7e534a4c3c14552de0d03cd9ff08abe87fff9ac6a8d29f1ed9fd9fd"
+    },
+    {
+      "path": "assets/3907eb997f546dd371b6.jpg",
+      "bytes": 421364,
+      "sha256": "3907eb997f546dd371b66fcda7081bdc2d1d248942516c045bdac8734868268a"
+    },
+    {
+      "path": "assets/3d026328d6e10e77f839.jpg",
+      "bytes": 710273,
+      "sha256": "3d026328d6e10e77f839eeb24b28e24a0f0afd8e32a397b4ddb669113a1c13ed"
+    },
+    {
+      "path": "assets/421e1fc483bbe469b97d.jpg",
+      "bytes": 577602,
+      "sha256": "421e1fc483bbe469b97ddf502b2da5553a551bf61434073e032730a8b9e0ffbb"
+    },
+    {
+      "path": "assets/52c5aad1824e598c4b77.jpg",
+      "bytes": 999633,
+      "sha256": "52c5aad1824e598c4b77210d6da8d4107c17e9a18b543a1639edba8d5d9ed728"
+    },
+    {
+      "path": "assets/5e156153c7467ad266b5.jpg",
+      "bytes": 3539940,
+      "sha256": "5e156153c7467ad266b52eaecd474b3d67bb3d5c3c0a393a5901410d3fe70fda"
+    },
+    {
+      "path": "assets/684d88a6a0d884017eae.jpg",
+      "bytes": 579927,
+      "sha256": "684d88a6a0d884017eae9cd026824c08715c40d9e263d0d66654b0833c65e6ea"
+    },
+    {
+      "path": "assets/6f49ebbcdb29b9036a80.jpg",
+      "bytes": 293591,
+      "sha256": "6f49ebbcdb29b9036a805ab1bda0f1b3e25ad283385cbbe0e571893387e8fffa"
+    },
+    {
+      "path": "assets/731848a92dd0a4aaa7d3.png",
+      "bytes": 15855,
+      "sha256": "731848a92dd0a4aaa7d33de7f45bc8eb11d603444aa9e2c52ba3f048d2f6ba48"
+    },
+    {
+      "path": "assets/73dff0027de3012dbe18.png",
+      "bytes": 9566,
+      "sha256": "73dff0027de3012dbe185b210df424c14bea953b3387029db061435b8099722d"
+    },
+    {
+      "path": "assets/767dc4a7b0804c854623.png",
+      "bytes": 48086,
+      "sha256": "767dc4a7b0804c854623489b7d8d778ccd8aab8e687f9ffb1bbb04af50add17d"
+    },
+    {
+      "path": "assets/83b122c6dec2b595421f.png",
+      "bytes": 7295446,
+      "sha256": "83b122c6dec2b595421fa4bb5e5ab6cf8a54d4103580537515a5a3a67dfe2ecd"
+    },
+    {
+      "path": "assets/8e07226d3080544f41ad.png",
+      "bytes": 6800113,
+      "sha256": "8e07226d3080544f41adde9ec7774944b08b7bfb2913d23d0eaed12acd7ac98e"
+    },
+    {
+      "path": "assets/9256b9e23f6339a9044f.jpg",
+      "bytes": 849977,
+      "sha256": "9256b9e23f6339a9044f199f9b1962cdc26245b4ede8fb4a22096e08d68325f9"
+    },
+    {
+      "path": "assets/96ce31accbc60fac174f.jpg",
+      "bytes": 3835680,
+      "sha256": "96ce31accbc60fac174f8474ea8a78f4001febad25802fbc6fa447dbf522228e"
+    },
+    {
+      "path": "assets/98ded4a230311eb08b7c.png",
+      "bytes": 31227130,
+      "sha256": "98ded4a230311eb08b7c4cbda873da4b727ce796904eef680694a17b4fdfe5f4"
+    },
+    {
+      "path": "assets/b65d282615548082d656.png",
+      "bytes": 28215178,
+      "sha256": "b65d282615548082d656c77374400c98f44e9c30b81a019f0bcada0c3a4be24a"
+    },
+    {
+      "path": "assets/be9238a355ebe39a4c12.png",
+      "bytes": 31149769,
+      "sha256": "be9238a355ebe39a4c12dc435efb3c579709feb657dcc7fc45263a2749b09e17"
+    },
+    {
+      "path": "assets/c596dc332b8b0d13c3cc.jpg",
+      "bytes": 645244,
+      "sha256": "c596dc332b8b0d13c3cc0fa6edc31746d97cff912dad398210320b647a82ba38"
+    },
+    {
+      "path": "assets/cc2d8de10562520d1d2a.png",
+      "bytes": 53929,
+      "sha256": "cc2d8de10562520d1d2a3274a8ea60bc2ec61de07393ccec5fb64b0ed86f2a25"
+    },
+    {
+      "path": "assets/d9d39611b2f7bd2bbcee.jpg",
+      "bytes": 7903,
+      "sha256": "d9d39611b2f7bd2bbceedd01f0a26bfb704a8ecf70523eb5e4e844531cdddf46"
+    },
+    {
+      "path": "assets/e541deb22fa0b49dc6c8.png",
+      "bytes": 27300587,
+      "sha256": "e541deb22fa0b49dc6c820b89c2076a119fbaa0082d74dd6edd3a01423d9e211"
+    },
+    {
+      "path": "assets/f218de39a2fe2cea28ca.jpg",
+      "bytes": 627294,
+      "sha256": "f218de39a2fe2cea28cae375ae8632f28ee5b87db80d197481a8aae54e093650"
+    },
+    {
+      "path": "assets/fbb25f0251907f34c08b.jpg",
+      "bytes": 736618,
+      "sha256": "fbb25f0251907f34c08bfe04445f4e509f05b0f1aef44fdb5a04f2c65e13c540"
+    },
+    {
+      "path": "assets/fdfbfc0c8c239aa8da62.jpg",
+      "bytes": 831908,
+      "sha256": "fdfbfc0c8c239aa8da628afc273694fa3464c29e8cb8c8540659a2f22babb7fc"
+    },
+    {
+      "path": "comparison.html",
+      "bytes": 2938,
+      "sha256": "e873bf11d7f02ff2778fda0b848fc963dc21ba8c31b9ab4d30b1ea2d52b8408b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5619,
+      "sha256": "c80fec9871cff60a1bc55524d9d40e98903b4180eb726f490e7e33c0ec480f5f"
+    },
+    {
+      "path": "notebooks/SO1_completed.ipynb",
+      "bytes": 28952,
+      "sha256": "0b5e77eb3837b260c0776928325ec39c83b1e32c9c19c9ac54f9306bc6415c48"
+    },
+    {
+      "path": "notebooks/SO4_completed.ipynb",
+      "bytes": 25905,
+      "sha256": "37d4ae06b902e35643d74822be2a439b078cd6dcab7fbd8a7ace43580f4ffb5e"
+    }
+  ],
+  "scope": "Public TCGA example outputs only; no original WSI, model weights or credentials."
+}

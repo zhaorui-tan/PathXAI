@@ -1,0 +1,6 @@
+SYNTHETIC TRAINING TEXT — NOT A PATIENT REPORT
+Diagnosis: Fictional report B describes a square-shaped paper clip.
+Key Microscopic Findings: The invented drawing contains two red dots.
+Stage / Grade / Prognostic Features: Not applicable to this non-clinical example.
+Limitations: This invented text has no diagnostic meaning.
+Final Summary: Demonstration text only.

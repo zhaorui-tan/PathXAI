@@ -1,0 +1,44 @@
+name: Publish tutorial report examples
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Check report bundle
+        run: |
+          test -f examples/index.html
+          test -f examples/comparison.html
+          test -f examples/SO1/report.html
+          test -f examples/SO4/report.html
+          test -d examples/assets
+          test -f examples/notebooks/SO1_completed.ipynb
+          test -f examples/notebooks/SO4_completed.ipynb
+
+      - name: Upload examples site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: examples
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

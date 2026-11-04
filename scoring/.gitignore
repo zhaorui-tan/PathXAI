@@ -1,0 +1,9 @@
+**/annotations/
+**/output/
+**/outputs/
+**/dzi_cache/
+**/*assignment_secret*
+**/*.crt
+**/*.key
+**/logs/
+**/__pycache__/

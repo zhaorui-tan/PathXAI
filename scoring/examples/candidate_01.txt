@@ -1,0 +1,6 @@
+SYNTHETIC TRAINING TEXT — NOT A PATIENT REPORT
+Diagnosis: Synthetic example; the specimen is described as a small blue widget.
+Key Microscopic Findings: Three imaginary circles are present in the drawing.
+Stage / Grade / Prognostic Features: Not applicable to this non-clinical example.
+Limitations: This invented text has no diagnostic meaning.
+Final Summary: Demonstration text only.

@@ -1,0 +1,6 @@
+SYNTHETIC TRAINING TEXT — NOT A PATIENT REPORT
+Diagnosis: Fictional report C describes a green triangle.
+Key Microscopic Findings: One imaginary line crosses the triangle.
+Stage / Grade / Prognostic Features: Not applicable to this non-clinical example.
+Limitations: This invented text has no diagnostic meaning.
+Final Summary: Demonstration text only.

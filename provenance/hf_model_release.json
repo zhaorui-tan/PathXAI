@@ -1,0 +1,32 @@
+{
+  "repo_id": "RayTan/PathXAI-Seg",
+  "revision": "62894f38c67e28389f43a9f7efe89dd4a40e5608",
+  "gated": false,
+  "download_verified": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3440,
+      "sha256": "fbeaa6c4c557ada9d67bd3c8d8635dea0ab8982e10681162331579eafd0422b4",
+      "matches_upload_bundle": true
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 7352,
+      "sha256": "bec48f70bd37bf8280a9d1ebf01642d26086f6122ba735baa08fe03c5a6e7448",
+      "matches_upload_bundle": true
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 2639,
+      "sha256": "fc1854a9cfe93ba5d9797ca81904a99f3ecabea2c3716b3fad98aea261d51feb",
+      "matches_upload_bundle": true
+    },
+    {
+      "path": "weights/pathxai_d1_adapter.pth",
+      "bytes": 25256190,
+      "sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
+      "matches_upload_bundle": true
+    }
+  ]
+}

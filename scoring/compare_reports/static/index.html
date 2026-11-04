@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PathXAI Local Five-Report Comparison</title>
+  <link rel="stylesheet" href="/static/style.css?v=tutorial-local-v1">
+</head>
+<body>
+  <header class="topbar">
+    <div><h1>Five-Report Comparison</h1><span id="statusLine">Local report scoring</span></div>
+    <div class="export-links"><span id="connectionStatus" class="connection-status" data-sync-state="idle">Ready</span><a href="/api/export/csv">Export CSV</a><a href="/api/export/jsonl">Export JSONL</a></div>
+  </header>
+
+  <section class="reader-bar">
+    <strong>Local session</strong>
+    <label>Random session code <input id="readerId" readonly></label>
+    <button id="startReader">Start local session</button>
+    <span id="readerStatus">No active reader</span>
+  </section>
+
+  <main class="workspace">
+    <aside class="case-sidebar">
+      <div class="sidebar-title"><h2>Cases</h2><span id="progress">0 / 0</span></div>
+      <input id="caseSearch" type="search" placeholder="Filter cases">
+      <div class="case-filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="not_started">New</button>
+        <button data-filter="draft">Draft</button>
+        <button data-filter="submitted">Done</button>
+        <button data-filter="slide_review">Recheck</button>
+      </div>
+      <div id="caseList" class="case-list"></div>
+    </aside>
+
+    <section class="review-area">
+      <div class="case-heading">
+        <div><h2 id="caseTitle">Select a case</h2><span id="caseMeta">Method identities are blinded.</span></div>
+      </div>
+      <div id="viewerDock" class="upper-grid">
+        <section class="viewer-card">
+          <div class="viewer-dock-header">
+            <strong>Whole-slide image</strong>
+            <div class="viewer-controls">
+              <button id="zoomOut" title="Zoom out">−</button>
+              <button id="zoomIn" title="Zoom in">+</button>
+              <button id="resetView">Reset</button>
+              <button id="openViewerWindow" title="Open the WSI in a separate window">Open window</button>
+              <button id="toggleViewerFullscreen" title="Show the WSI workspace full screen">Full screen</button>
+              <button id="pinViewer">Pin</button>
+              <button id="collapseViewer">Collapse</button>
+            </div>
+          </div>
+          <div class="slide-toolbar">
+            <label for="slideSelect">Patient slides</label>
+            <select id="slideSelect" disabled aria-label="Select patient slide"><option>No case selected</option></select>
+            <span id="slideLoadStatus" role="status"></span>
+          </div>
+          <div id="slideReviewNotice" class="slide-review-notice" role="status" hidden>Additional slides are available. Previous scores are preserved; this submitted case needs review.</div>
+          <div id="wsiViewer"><div class="placeholder">Select a case to view the WSI.</div></div>
+        </section>
+        <section class="instructions">
+          <h3>Independent review</h3>
+          <p>Inspect the WSI, then rate each report on its own merits.</p>
+          <ul>
+            <li>Major correction: diagnosis or management-relevant content must change.</li>
+            <li>Minor correction: clinically usable after a limited edit.</li>
+            <li>No correction: clinically acceptable as written.</li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="report-scroll-pane">
+        <section class="section-review-heading">
+          <div>
+            <h2>Section-aligned comparison</h2>
+            <p>Ranks 1–5 (1 best); ties allowed.</p>
+            <p id="pendingSummary" class="pending-summary" hidden></p>
+          </div>
+        </section>
+        <nav id="sectionJumpBar" class="section-jump-bar" aria-label="Report sections"></nav>
+        <section id="sectionComparison" class="section-comparison"></section>
+
+        <section class="report-review-heading">
+          <h2>Whole-report assessment</h2>
+          <p>Only the absolute clinical acceptability is required; safety flags are checked only when a major problem is present.</p>
+        </section>
+        <section id="reportGrid" class="report-grid"></section>
+
+        <section class="overall-card">
+          <div class="overall-ranking">
+            <strong>Overall report order</strong>
+            <div id="overallRankControl"></div>
+            <button id="deriveOverall" class="secondary" type="button">Use section ranking</button>
+          </div>
+          <label class="notes">Comparison notes <textarea id="notes" rows="2" placeholder="Optional concise rationale"></textarea></label>
+          <label id="slideReviewConfirmation" class="slide-review-confirmation" hidden><input type="checkbox" id="confirmSlideReview"> I have reviewed all available slides for this submission.</label>
+          <div class="save-actions">
+            <span id="saveStatus">No case selected</span>
+            <button id="saveDraft" class="secondary">Save draft</button>
+            <button id="submitReview">Submit / Lock</button>
+          </div>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <template id="reportTemplate">
+    <article class="report-card">
+      <h3>Report <span class="report-label"></span></h3>
+      <div class="rating-grid">
+        <label>Clinical acceptability
+          <span class="acceptability-buttons">
+            <button type="button" data-accept="no_correction">As is</button>
+            <button type="button" data-accept="minor_correction">Minor</button>
+            <button type="button" data-accept="major_correction">Major</button>
+            <button type="button" data-accept="not_usable">Unusable</button>
+          </span>
+        </label>
+        <label class="safety-check"><input type="checkbox" data-field="unsupported_major_claim"> Unsupported major claim</label>
+        <label class="safety-check"><input type="checkbox" data-field="major_visible_omission"> Major visible omission</label>
+      </div>
+    </article>
+  </template>
+
+  <script src="/static/vendor/openseadragon/openseadragon.min.js"></script>
+  <script src="/static/app.js?v=tutorial-local-v1"></script>
+</body>
+</html>

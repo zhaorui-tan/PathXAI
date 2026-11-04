@@ -1,0 +1,1855 @@
+{
+  "schema": "pathxai-tutorial-delivery-engine-v1",
+  "files": [
+    {
+      "path": "assets/bpe_simple_vocab_16e6.txt.gz",
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917
+    },
+    {
+      "path": "assets/keep_references.json",
+      "sha256": "0a86d5b8515754e695d12209daf3f5d98313ae7ab4b0e54c0230e8c7b95ccd23",
+      "bytes": 1025
+    },
+    {
+      "path": "assets/licenses/CLIP-LICENSE.txt",
+      "sha256": "987e63b32f6c89ff5160e429458a872ff048e6860b590a3912e938f9da8f14db",
+      "bytes": 1064
+    },
+    {
+      "path": "assets/licenses/CLIP-ORIGIN.json",
+      "sha256": "bc94d58e70145dafeaee208dbdd6447769d2c7c56858c39ce3c72924695af759",
+      "bytes": 1126
+    },
+    {
+      "path": "assets/licenses/SAM-LICENSE.txt",
+      "sha256": "bec48f70bd37bf8280a9d1ebf01642d26086f6122ba735baa08fe03c5a6e7448",
+      "bytes": 7352
+    },
+    {
+      "path": "assets/licenses/SAM-ORIGIN.json",
+      "sha256": "3d72fd6dafe64dd7aa1a1e5709fb4acc88526275e39f50afd5dd5906a616c074",
+      "bytes": 490
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "ea04dac49660e591d0a3e542147f0538ea8ecb2fdf8be07bb41c68c629d3f0eb",
+      "bytes": 481
+    },
+    {
+      "path": "assets/model_references.json",
+      "sha256": "171fc03062850645be6644abcba3da081e797beaa2b05958af08773357312f4a",
+      "bytes": 1068
+    },
+    {
+      "path": "baselines/current/manifest.json",
+      "sha256": "c65120a97da8dd79afc97f7cb4787197bafad559a12a7464c653f8d1fc909be4",
+      "bytes": 94625
+    },
+    {
+      "path": "baselines/current/manifest.sha256",
+      "sha256": "d699ce5a34512bc3f8d930386a4a47373a059847778d1e4ffbda5be9cf205016",
+      "bytes": 80
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_expansion_20260924_1200_d1/pipeline.yaml",
+      "sha256": "ff384432de3a0aadf33ab2b65c1ccc76b3e68e5cba30ba11029ec7d9bca370d5",
+      "bytes": 2224
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/lora_layers.py",
+      "sha256": "ebcdc57a1d2562170b04fe990ef681b1dce03ecf9649977e30775a3964324351",
+      "bytes": 20709
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/__init__.py",
+      "sha256": "7e0230eec57e2f971e43b01f97d73ce41ad6b7f5ec5e84789c5f1084b18abf57",
+      "bytes": 185
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/agent_core.py",
+      "sha256": "95c2a2fb9b6d9afc1eb5abe1dc42b3a49b4d9e68f3e60f47d02eccb22a78f46b",
+      "bytes": 26068
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/client_llm.py",
+      "sha256": "92f0acc229c058799bb27003a2a7c4dc41403cbc1ac52fb36d5c563aca44ca8c",
+      "bytes": 7685
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/client_sam3.py",
+      "sha256": "99f6a78c11fcba04ef284c0878f042231c75dcf8e47e678517b9930ec828d55d",
+      "bytes": 5097
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/boxes.py",
+      "sha256": "14cd16491396e2e1b991b57b5fea4055ac5cf7a45e6625d0a79489f7963d7a39",
+      "bytes": 14580
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/color_map.py",
+      "sha256": "71a5a89d36322305b3283e0108b79086e8a0a3c0fd547dde4385bb2d9d60b955",
+      "bytes": 3630
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/keypoints.py",
+      "sha256": "ed90285d873b129d4d229aaae0274f453341af3240bfa8d9245a395fe74edaf4",
+      "bytes": 9033
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/mask_overlap_removal.py",
+      "sha256": "b56ee1c28bda84f0179ff95a43ee505ab6d040ba98901f7799e3ec8cce81eb0d",
+      "bytes": 4806
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/masks.py",
+      "sha256": "1db297ba220d3cc78c99b9b2935c5af011505a08ef283bc3edad8ca8112ee115",
+      "bytes": 20075
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/memory.py",
+      "sha256": "0571bec9c72b0b6f7405a5683c9ef013990be4134f11d02bd2080c35224081a9",
+      "bytes": 2628
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/rle.py",
+      "sha256": "169d1898896c24ffdbb4ddf8424ee456826e430f6e163a3f708f6caa7fd2e262",
+      "bytes": 4229
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/roi_align.py",
+      "sha256": "e386ce522b277938f064f87294a9fdfcdee5d063acd790d465943cd25c0c0845",
+      "bytes": 3121
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/rotated_boxes.py",
+      "sha256": "0be2ad99a365beff57e4a4b28d0a273e237bd72491b19dadbca2eeea6490260a",
+      "bytes": 19748
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/som_utils.py",
+      "sha256": "ac23849884bad12053815e826043f083c06f1807bc183c4eaaad2c02ed726e6a",
+      "bytes": 12006
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/visualizer.py",
+      "sha256": "c706c0f359ea6de1b3152a3f26b7f18abf8a6053a5b0780cf5e90dbd2f08dac4",
+      "bytes": 63244
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/helpers/zoom_in.py",
+      "sha256": "1451978dacc0f74db1119ad967d7882f4817c65f50357bc4f29be144a93ea3bc",
+      "bytes": 6482
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/inference.py",
+      "sha256": "ec79f44298fde6607b1cbf9c38293ced4d5bd3844471c7c337bf013e9deb216a",
+      "bytes": 2236
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/agent/viz.py",
+      "sha256": "61608cdd9fa91641f40635a338f83cd54ab2658ce4ae9b317544f6738420b35b",
+      "bytes": 3942
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/cgf1_eval.py",
+      "sha256": "a35d79e314bbcbb756102593e8cfc2a2cdec80dd4084c2b3bf6ccca97e9e353c",
+      "bytes": 26245
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/coco_eval.py",
+      "sha256": "8e3a6371a5e898a35a7b3fba7bfe54892680f9ba78b015672baf5a316189a449",
+      "bytes": 36243
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/coco_eval_offline.py",
+      "sha256": "b14b16582d690fc73f7b38a0c17811ea305d93d93e231633eb0bc56c07e051c6",
+      "bytes": 6083
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/coco_reindex.py",
+      "sha256": "8735a90d60d19eb12d22c666fd144d9cd8168c0c705ad32e479b4cfb59c52e2e",
+      "bytes": 8111
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/coco_writer.py",
+      "sha256": "e5c430db7af53255cdf8e9cc2ce3e045d808aa92152413b46dbb7d051f2b88f1",
+      "bytes": 11845
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/conversion_util.py",
+      "sha256": "b08e3b293043d96d0bb6052e791860e33dbe4c764b2238c9763ac4862702e58b",
+      "bytes": 7154
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/demo_eval.py",
+      "sha256": "d7f9eb0e1f2c7283db593a3e7bba373a2ba77e8cf39fb3a2919ea3fd21b14530",
+      "bytes": 25090
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/__init__.py",
+      "sha256": "ab3f3cdd96b0de714abf67c354c9e0d93b18f45c58eee8ef918c37fd10d3b143",
+      "bytes": 15
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/run_ytvis_eval.py",
+      "sha256": "f00044ee2ffcea9ba29f9f723c3bb5a43bc00bef100934703044b2db7a442433",
+      "bytes": 5017
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/__init__.py",
+      "sha256": "3b2ae56a06e232e2425f6279642376bcb3cd1b774b164c04a553d172b34350f2",
+      "bytes": 83
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/_timing.py",
+      "sha256": "454f8714cfe30b971a4918b27b3b9f2e8efde8ce4fbc8de0970b5fea4bdc3857",
+      "bytes": 2344
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/eval.py",
+      "sha256": "f36d954daa5407e483c16e8e75f85d9990218a12ba5c5d22037e3888f04ad013",
+      "bytes": 17009
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/__init__.py",
+      "sha256": "fc96fda4502163ed5718f22a344222f5271cd0cb4afe971137f00c28ead81f43",
+      "bytes": 64
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/_base_metric.py",
+      "sha256": "c9358eae0f1e4d2d98aa19f928b3ca586cb1408d2d9b721b6b78ff8d188df5d9",
+      "bytes": 5240
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/count.py",
+      "sha256": "861b5bd039dc0f14f22bdb5af96c8a9f5a0b0fa16ec67dba07f1e61daf1a6380",
+      "bytes": 1611
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/hota.py",
+      "sha256": "11e52cddf32be47cdf1d148934de083c248b1c5b9e4cc9b068df53ba00e4d4ad",
+      "bytes": 11846
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/hota_eval_toolkit/trackeval/utils.py",
+      "sha256": "1aad242ac06c41e642e81b69021e8fbddb79fc9742604265347ea347bacfa101",
+      "bytes": 6204
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/postprocessors.py",
+      "sha256": "e3b7033d49832a640a61c1db8dfcedd38d80183623ceaf63c8f9e2838189b3fa",
+      "bytes": 28769
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/saco_veval_eval.py",
+      "sha256": "4fbbf2fd466fdf9e7a8143a9ec91c46261d96e4f764445f90fd84e1e8b5f361c",
+      "bytes": 4960
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/saco_veval_evaluators.py",
+      "sha256": "5c0257e3823aeb4538e4067c6fc622987bdc81470f7c1a4a59a5c8dc399a5bda",
+      "bytes": 37137
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/__init__.py",
+      "sha256": "7e8678ba4a76d5237b2a2299dabaa698a8f807ef7a37e4fefeebb1ca9f6d6688",
+      "bytes": 102
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/_timing.py",
+      "sha256": "007e669a566dfc4ee75242e3abed51b0d2dd03e5f0a1fbc7f56053fdfa0df904",
+      "bytes": 2355
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/config.py",
+      "sha256": "b7aff4d83a4eeb40a0fba83ceb03feb1a92fb7f9643c523f1ddebe8cd1aac2c9",
+      "bytes": 5659
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/eval.py",
+      "sha256": "29560bfce95c972258e3ea4e00651f00a18bf84121e2b5be049890290d9ad9ab",
+      "bytes": 10632
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/metrics/__init__.py",
+      "sha256": "7214ffd9cd6a78e3ba3177403f6fdcee466a449937cf6726512c9f7cbfdb3dc4",
+      "bytes": 50
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/metrics/_base_metric.py",
+      "sha256": "7c1bd1f4c33966a31344a0d3d9274b237da802d2c6e7daee1526979e7de3b332",
+      "bytes": 5185
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/metrics/teta.py",
+      "sha256": "268a7030bc086c5388331ed40b1d14f0b2121062dd24054c3debf9ac3e112cf3",
+      "bytes": 15594
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/teta_eval_toolkit/utils.py",
+      "sha256": "0d6e3378c7936c75693ca0f32014e35b3e8666414075c4f9e03bd5cdebe7bc4d",
+      "bytes": 1281
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/ytvis_coco_wrapper.py",
+      "sha256": "724c7e2f97f93ea1b988717f185cc9f221e6eded2df2336bb2e99b04c2420f40",
+      "bytes": 6059
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/eval/ytvis_eval.py",
+      "sha256": "a5107f58adce8a56f7d6c6d74cae295030754730beda244d9f99b168310b35ec",
+      "bytes": 17027
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/logger.py",
+      "sha256": "04bb9eb7eeb5079d55a685984a062f0715d76a3d8948f9f1c05a8230b704ded2",
+      "bytes": 1820
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/act_ckpt_utils.py",
+      "sha256": "3ea2eef843dd933560475d6caadb6b658297e17aee1e846294646b250d552b70",
+      "bytes": 4331
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/box_ops.py",
+      "sha256": "b8eeb15be8835d1caf6bf97cb7b86c78a1678237741f00f72c54caaf6937ce9e",
+      "bytes": 5989
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/data_misc.py",
+      "sha256": "b245774977bbb1ad408023892e235c2130dd1d61806437874aeadf4701ce6670",
+      "bytes": 6350
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/decoder.py",
+      "sha256": "c1a98f1d84c95e1935745c2584e034c5a7ab576e907fc596b79f84d1bb84b458",
+      "bytes": 36674
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/edt.py",
+      "sha256": "e59289d361ee9ade6f9bcbd42dfd834a939b86ee25ee150a799e2857e4bcb986",
+      "bytes": 8374
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/encoder.py",
+      "sha256": "9f8f413c470dcd6c8d5f8e79987e8146c40b169464a07648289794968c109ff1",
+      "bytes": 23186
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/geometry_encoders.py",
+      "sha256": "a1f52402c4f20fcd833b5b9ba375f266354c71cd4dcdeb92ff18b68737272bfc",
+      "bytes": 33585
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/io_utils.py",
+      "sha256": "a883f422297c442ec8a1faa425dba691bc3c6e81ac2e07638a73be8fe70c4d55",
+      "bytes": 26914
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/maskformer_segmentation.py",
+      "sha256": "bf19bc5a6ffbc9a706a2c7c0eeafafcdd170aa6b44869f3f1326641e25cd10c0",
+      "bytes": 11418
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/memory.py",
+      "sha256": "613864e7e917536e39e7a36ea6439139ad71c9fde8476dd27854ed5e722df02c",
+      "bytes": 6686
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/model_misc.py",
+      "sha256": "2823cbb2448fc450e7b8c11c121343d106edceff2dec9945c6ed39b2ed7f54ae",
+      "bytes": 15009
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/necks.py",
+      "sha256": "d3a96752fbca76588550c3a7b858e1d8b05184c4033e353d97988098e1dbf5b1",
+      "bytes": 4187
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/position_encoding.py",
+      "sha256": "3523232c59e970f8f8b75b226038ff58a8be8454f2eb66f70789ea4361d5c975",
+      "bytes": 4872
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam1_task_predictor.py",
+      "sha256": "e62aa62ea32cbe07ea9c1914dd6fe920f8c8ab3de7b4f91207c96760f8a12f1d",
+      "bytes": 19586
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_image.py",
+      "sha256": "f6a2f74d935d49dedb405611a2848c0d9640a12f5c25a16f9ebd9017212d9daf",
+      "bytes": 37532
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_image_processor.py",
+      "sha256": "271f25b2d72d4b37579e354a75a52ec96393bb87fe32e1272db3cc2f1e5cee03",
+      "bytes": 8917
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_tracker_base.py",
+      "sha256": "2cacc678f4d48de5cd1f2a192fe85ded3928fae39c32d7336b0171774601412c",
+      "bytes": 59277
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_tracker_utils.py",
+      "sha256": "b5d15f44eb945d5c130fcde5fac634cc26e2bfa0ca28bcfcf8dc9a8312fed57d",
+      "bytes": 18594
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_tracking_predictor.py",
+      "sha256": "63de80304508d7ab41a792c980fa3f39530ecefa53a297c055b45737a9bde872",
+      "bytes": 68817
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_video_base.py",
+      "sha256": "c69f00eaa09cb3c5c69893cc0277d68ebaa23fba7cd29c228a27456f1a422db9",
+      "bytes": 84091
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_video_inference.py",
+      "sha256": "bfa870c8141e7fde2553108a8b1bc2c5d41bc9b750c35fe92881b019ee0e4f65",
+      "bytes": 77093
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/sam3_video_predictor.py",
+      "sha256": "a229bb66a1b3ee4a8db9b51b5a2b9b998cb7b87546cd3cf7612f31e42ce578db",
+      "bytes": 22218
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/text_encoder_ve.py",
+      "sha256": "8b72a73ca67e877fe7cd870c608f7863c51f2015b28c98518cc502233e05966a",
+      "bytes": 11259
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/tokenizer_ve.py",
+      "sha256": "ca5aa97c29b4d12baf0f57533b1afd65315301b107a3deb13af122d2a4ef4cf7",
+      "bytes": 8831
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/utils/__init__.py",
+      "sha256": "2f8defde9c530d8eb9f99cd91b7739a16033148e48f225a8bb7b5a9a059e27ce",
+      "bytes": 217
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/utils/misc.py",
+      "sha256": "5ce90b3757c048434a3f97b5911a589f9b270d33a4bbaf543cf29cc84727d10d",
+      "bytes": 2521
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/utils/sam1_utils.py",
+      "sha256": "32901c4186c308dab778d621125631acd524ce56f09cfbc15d6894260b7fc40d",
+      "bytes": 5030
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/utils/sam2_utils.py",
+      "sha256": "c7c1efe16e3779ab7f0cabee54c3ccc0272cdd512a8d058b8f8afffaf1cecdc2",
+      "bytes": 8280
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/vitdet.py",
+      "sha256": "3acb47c3b2bccc03a1227189a40e8ee289f563899ea457ab2f3cd5c78beb684c",
+      "bytes": 32444
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model/vl_combiner.py",
+      "sha256": "fa2e91e3438679e16bdbc9b075814a7e671069b332bd7261554278bc312b10a6",
+      "bytes": 6450
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/model_builder.py",
+      "sha256": "397fc4a7e60f20f5aa4557c3d499b713266cc92dd1dfed71c23d17cf4edaafb2",
+      "bytes": 24907
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/__init__.py",
+      "sha256": "7cae71169245da70023b817c405d689cc497e7c699851b2ed52fd00d2998c6d6",
+      "bytes": 220
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/associate_det_trk.py",
+      "sha256": "27bff477a4f5aa6ad1d0976b0273742fe2036fdf764eac753b11c5474672154c",
+      "bytes": 5428
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/compile.py",
+      "sha256": "ab976a82638e67056c27a9777155f9f281921d677a2bd6a581f68c905d97d8ad",
+      "bytes": 3248
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/connected_components.py",
+      "sha256": "ce815603808c9bce30a059f33c5002303a76fbda6d371e00a87bf25a9c91a08a",
+      "bytes": 2870
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/fa3.py",
+      "sha256": "eea8ada3bf3f648f8688e9875be13fa656f6a330fb659bcd6dec48a389e33d3e",
+      "bytes": 828
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/masks_ops.py",
+      "sha256": "59a5fb72f9f72d0fa8d1d914ceb6ba8d40508f6d2cc55e56fbae58a05fe95338",
+      "bytes": 2752
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/nms.py",
+      "sha256": "0ba03b6c91bc66af4a8ac5d8faaebfcbae49a1e6d2e6767b392ac06cc91d1978",
+      "bytes": 3439
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/triton/connected_components.py",
+      "sha256": "63d3a990c4af3ee9647f5883f5c79b59cb2ab16805747f3ca5850e5281fdb018",
+      "bytes": 15923
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/perflib/triton/nms.py",
+      "sha256": "b09ef33cb5c683b661caa3470b39675cbb87a76022c460ed67047cddc0dce7d3",
+      "bytes": 4717
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/sam/__init__.py",
+      "sha256": "7981afdea898f8ee6234140e22f6ad97c0c112afa7469d1573ecc0d5949d2d2d",
+      "bytes": 196
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/sam/common.py",
+      "sha256": "0125ea461f17391c11bf27768eef955ce9395c90ff9f6f9420e7c1bf35f474c0",
+      "bytes": 1355
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/sam/mask_decoder.py",
+      "sha256": "c013fd88d0eb13163ccf5a25c8e52ea2304fdbce98fe7a0d468a990fa852dd76",
+      "bytes": 13409
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/sam/prompt_encoder.py",
+      "sha256": "fe86875fced4729bf90ac1a26e8f3a7c718d183537a61b73966bd7bb35b8fe41",
+      "bytes": 9262
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/sam/rope.py",
+      "sha256": "c0e5675f65779ce21ffd7bc8f59e87d0ececf4cd742b10b7ec481c0abb558a11",
+      "bytes": 5919
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/sam/transformer.py",
+      "sha256": "831ed953630dea6e2239fb45ea13b3c6ba3f81ed724ce6ae3da6714216b842be",
+      "bytes": 12848
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/eval_base.yaml",
+      "sha256": "780926d7468b7c5629e87f34911fcbfb131d0c0c157a98306fae41a3ef43c8d5",
+      "bytes": 9436
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/gold_image_evals/sam3_gold_image_attributes.yaml",
+      "sha256": "53d076657d5e4071dae1f007d52b28f841a0a664632e6e73f67a8a7c0d1240d4",
+      "bytes": 2578
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/gold_image_evals/sam3_gold_image_crowded.yaml",
+      "sha256": "9160ee1f3fad8ebcde6fd25fbf90d061bfda48554e585d24f04da2fe1c8a76a4",
+      "bytes": 2554
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/gold_image_evals/sam3_gold_image_fg_food.yaml",
+      "sha256": "55a82f314cdd5ee7a28605566da334ff80684a5a7511cb33a942b5049fc17c54",
+      "bytes": 2554
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/gold_image_evals/sam3_gold_image_fg_sports.yaml",
+      "sha256": "ae0f34dc883eefa137b90b306c6237262b838eaaeb4383c084a1d73892ee1b2b",
+      "bytes": 2650
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/gold_image_evals/sam3_gold_image_metaclip_nps.yaml",
+      "sha256": "7edcae1a5d2873bab720dc551fe68589df9bfa1ce41ad108b8862c4d6f16422d",
+      "bytes": 2578
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/gold_image_evals/sam3_gold_image_sa1b_nps.yaml",
+      "sha256": "e877030f2b7f32e46ca8203f2780e5807e232b3604f1ca46c8bc40cdd4c78e23",
+      "bytes": 2542
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/gold_image_evals/sam3_gold_image_wiki_common.yaml",
+      "sha256": "c9fa0a5fc35a2f504573064c50c41986012c8c406393bd738665d4c73ea7bf7c",
+      "bytes": 2586
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/odinw13/odinw_text_and_visual.yaml",
+      "sha256": "cdede5fff11b746a86dca410294b4a75d3f5a5c5580b39b6596e7d8a35773b7a",
+      "bytes": 9118
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/odinw13/odinw_text_only.yaml",
+      "sha256": "6d9534b194d8d9f45dd1edfdf6b08c5c0c86d965ca30d08f7dfc43d0d92ec34e",
+      "bytes": 8919
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/odinw13/odinw_text_only_positive.yaml",
+      "sha256": "2a59bed2106ffe89d98008def54b6364d8b593a104303e897e5320de3c47086f",
+      "bytes": 8921
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/odinw13/odinw_text_only_train.yaml",
+      "sha256": "4b0af1bef754225884a31ac80f12e77e558c84b032b5a561149ec8e9cca66dc9",
+      "bytes": 20996
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/odinw13/odinw_visual_only.yaml",
+      "sha256": "5829d36e1ca74950d9107381b37c46d07fa718457f3780839b1f7963d761635e",
+      "bytes": 9120
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/roboflow_v100/roboflow_v100_eval.yaml",
+      "sha256": "29487ef78f06bc02b23e244378fdc2c152c91432e423d8c3c995110ee55c37b4",
+      "bytes": 17369
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/roboflow_v100/roboflow_v100_full_ft_100_images.yaml",
+      "sha256": "ed4b24796da0c8848213a6d43559e9f20cacd62fb6c61d0efabbfa602e4ea943",
+      "bytes": 17372
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_sav_test.yaml",
+      "sha256": "f2846773b667c25a1dce9150ef72bfd2b7d4aebd45094dc5c6958703cf2281b6",
+      "bytes": 5081
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_sav_test_noheur.yaml",
+      "sha256": "d1b90a611ed47af70ec8f96f315e5341b1631627886a7a557e42d3e7400c3bd3",
+      "bytes": 5082
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_sav_val.yaml",
+      "sha256": "106a2a2a2fef9a476a3e037a6e5a46c646817a13d99620eac625ea98e0563703",
+      "bytes": 5079
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_sav_val_noheur.yaml",
+      "sha256": "d2b8c37f29bb198fd06987b0f2fdc9b08fd0bf405771301a89fc0f620ceaec47",
+      "bytes": 5080
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_test.yaml",
+      "sha256": "8197772460ea6c3295e3bc236fa200acb2f4e006dde676c77177cbbdce601fed",
+      "bytes": 5099
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_test_noheur.yaml",
+      "sha256": "1e4598d4eadb3daf612b5ee87e131cc6d6b60023a2a667ba7e09f90e6e235af4",
+      "bytes": 5100
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_val.yaml",
+      "sha256": "59777c39b5c66be3f2e98439541ed0a8df53402fff8bb8931644ea97c797eb6f",
+      "bytes": 5097
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_val_noheur.yaml",
+      "sha256": "230d18eb4975ad8f857cd713d354e54f7459455c112482deb30b6a1f1b9bf5cc",
+      "bytes": 5098
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_test.yaml",
+      "sha256": "611bfb60376fec3d42637c1aef277d24412eb82fb778eedb43c4a90968ad10e1",
+      "bytes": 5083
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_test_noheur.yaml",
+      "sha256": "4273d3e0540dc24eb0643291ba9351f438a4ff545ac44b076d2b0b80431b826a",
+      "bytes": 5084
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_val.yaml",
+      "sha256": "099eb1d10422b4bd225c942c6883e601bfc4f9401d6bbc17e36fe0e044e16bf1",
+      "bytes": 5081
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_val_noheur.yaml",
+      "sha256": "9425f321ea861a76699efe511dcc03d9818006f30112ed78a76f197bdaa4d7a9",
+      "bytes": 5082
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_bdd100k.yaml",
+      "sha256": "161331c3d8b2a9a9ba60f924a9a4d5f391bcf5a4b074c450847620a1e0375d04",
+      "bytes": 2357
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_droid.yaml",
+      "sha256": "34c4ca4377a4a51c43891ed8ee5bc8632b64f0fb2f30ff13748520baf3a9681c",
+      "bytes": 2345
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_ego4d.yaml",
+      "sha256": "21d41a0eb498a47824754c76f8568f0c80552f9a05f870c5d1a1c5651bff4ea5",
+      "bytes": 2345
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_fathomnet.yaml",
+      "sha256": "c1ce4df2ed2883f821bb4b709698d68434cd4ae75127bc870bc45893f9ef37f2",
+      "bytes": 2362
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_food_rec.yaml",
+      "sha256": "30552434937c4077c47240e1e8b14a63f4beeec53bef6b524df2444871cfa35c",
+      "bytes": 2363
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_geode.yaml",
+      "sha256": "5a5d0914be186d5bd9fcb5f7709da0b3e5bd062768970801f8e5f3e2270b4ba7",
+      "bytes": 2345
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_inaturalist.yaml",
+      "sha256": "31366b2d378edd3f97fb6625bbedef359a047bfdd8c967bbcacade4b1b3d9a28",
+      "bytes": 2381
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_nga.yaml",
+      "sha256": "2e1bc73ff85f32c06a5d6b69c8283c8df2149c8d7fd110bda93c445918953c99",
+      "bytes": 2353
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_sav.yaml",
+      "sha256": "7faa3b8664e2c234bd764b557caad384fac9f29ad6bea91ddb75e1fd20bf98ce",
+      "bytes": 2333
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/configs/silver_image_evals/sam3_silver_image_yt1b.yaml",
+      "sha256": "ca157c7fa6e59866e999f7a9caf9b654902e290d5db36385c691abac50b978a6",
+      "bytes": 2339
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/data/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/data/coco_json_loaders.py",
+      "sha256": "f7bed85a7b27da6fa0fe06f95dd9798372dde45fc50a56a15fc2586ba8b54bdc",
+      "bytes": 14471
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/data/collator.py",
+      "sha256": "62a40478c598192a619190d05d3fdb10065c05a6d91015f3223defe52582e18e",
+      "bytes": 12784
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/data/sam3_image_dataset.py",
+      "sha256": "d29a22a9e3b297cb7791e62f768c90c0e6e12cb723699e3f84b4c0d1b9621856",
+      "bytes": 19866
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/data/sam3_video_dataset.py",
+      "sha256": "92d7e63ef02fa5051f2207e926ab2eb390e68d4735119e159045ec5e0bf238bf",
+      "bytes": 15833
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/data/torch_dataset.py",
+      "sha256": "37bd234835c23c22ca6b63a94462a4e020fd3a270706ca49b560d464dca8563d",
+      "bytes": 1739
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/loss/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/loss/loss_fns.py",
+      "sha256": "ede899a2d326b1e6f8a4ad9c1b86bc913d9495d83b6392f2b8bf8720c3d0c8a0",
+      "bytes": 54478
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/loss/mask_sampling.py",
+      "sha256": "a7580f54a9e7d6d9a5efd313e2230bb2005c308a05a2e290bda1fe33500fa451",
+      "bytes": 5135
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/loss/sam3_loss.py",
+      "sha256": "19a45bde3115896a787ec77d6dcac7983018c17bb394761b7fec1f4361814e3f",
+      "bytes": 8850
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/loss/sigmoid_focal_loss.py",
+      "sha256": "bd02df0750fab1b26a32ff3a87002999eba72812e51315f609257b48499094cc",
+      "bytes": 11390
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/masks_ops.py",
+      "sha256": "e03cc39e9f9d76384def85817389486e6e7f71e330390de5b544a7eed8d409f9",
+      "bytes": 9631
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/matcher.py",
+      "sha256": "6ff91db3aaeb663fa8ca1d3c8767f03647ce1b2ae03a883a930dfe10fd4eb6b7",
+      "bytes": 34370
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/nms_helper.py",
+      "sha256": "0573d5248ae255122b3947b5861f117f814d0f980677fe3cb50ea4d489f3a606",
+      "bytes": 11489
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/optim/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/optim/optimizer.py",
+      "sha256": "9f8f13b2ab0969c3722ca6ba38efe5dceba7379fcf47d6b800b138d38bce9ae1",
+      "bytes": 19737
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/optim/schedulers.py",
+      "sha256": "99b9c814ab233ae04bbeb8c1238013c443080dcb9dcdbaa0f125b2f5d2f519d0",
+      "bytes": 1164
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/train.py",
+      "sha256": "6c7c527523d4cb057fd596fda852a9ec61ed38a0217906a593ab9209c3145e5a",
+      "bytes": 12985
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/trainer.py",
+      "sha256": "daf6f832099986864d87adfec62d69d2127399ca7b96f0ebbd2ce18caab55742",
+      "bytes": 44855
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/transforms/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/transforms/basic.py",
+      "sha256": "1dc3b43616b77150aba735871afef533cb33bb5ed35ff03d1ea46123fe828810",
+      "bytes": 15047
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/transforms/basic_for_api.py",
+      "sha256": "5d5ca500ccb3fddd4bae3731e4bc5a6d7d8eac1860995e80bdc5c2d7be9ad9af",
+      "bytes": 53796
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/transforms/filter_query_transforms.py",
+      "sha256": "206aba759f652674903a7d9b778899ae130cfbf99940d912bb2e3796ec1b3fbc",
+      "bytes": 22888
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/transforms/point_sampling.py",
+      "sha256": "5c8cb12a4f2822cfb38488060982fd8e82932b7a88da12a8c6dbe6591c539797",
+      "bytes": 13403
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/transforms/segmentation.py",
+      "sha256": "10c84b0030275c2c1138247588b67e638de5a04c88daa13cc652f70601c7db2b",
+      "bytes": 6895
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/utils/__init__.py",
+      "sha256": "1fa111b4a36c70d6045443ad170ece96b33f148c21e366ae5e3f5502f9717371",
+      "bytes": 73
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/utils/checkpoint_utils.py",
+      "sha256": "f7127f9e7f8e25677daf9180fa37cd889098d3c2e9933870db9a3ee48a68097d",
+      "bytes": 11604
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/utils/distributed.py",
+      "sha256": "8937fe092cab7e81146d99f0e7f49b21992139a3d7bcc4e49c57b95052bef37c",
+      "bytes": 19393
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/utils/logger.py",
+      "sha256": "823abbe5c3f5a66bc81ee35ed2d582b92a21abf0ef8a0ceb0d043ea1b38ad08f",
+      "bytes": 7435
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/train/utils/train_utils.py",
+      "sha256": "25d1a4d87a5d18bd88bf37bc50f6c1f9285d4903cdfa8d1e1263a187c603800c",
+      "bytes": 8746
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/sam3/visualization_utils.py",
+      "sha256": "8e889485cca58cd7d6ddd99347cc2a24e844c62a0bd436a3a96b9e68db45755a",
+      "bytes": 30454
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/seg_runtime/datasets/aggc2022_wsi.py",
+      "sha256": "d21ae3132c2da6ed7225c679ee92674081d15d341beec9e47ad190c8c1b4c0f6",
+      "bytes": 14014
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/seg_runtime/datasets/all_datasets.py",
+      "sha256": "d94bfe5b62fb59205e32ffbe35748ad54fc1b2c2b23c6b6ad7deb57df210a3e0",
+      "bytes": 53827
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/seg_runtime/datasets/check_sanity.py",
+      "sha256": "30ff86eed10e654fc98fe8c0cdd8dc7a30c324121ff5aaa2986a94ed1cab15d6",
+      "bytes": 15367
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/seg_runtime/datasets/combine_dataset.py",
+      "sha256": "a3300575f91c7e2d6b945c602c06b8ccd412d61a2de286b1cf94bc2c16f7908c",
+      "bytes": 21394
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/seg_runtime/datasets/external_eval_datasets.py",
+      "sha256": "fc3ebeedb52be78a54f9f4e831ff68b9a82c72c9de4f71b9604291d0b066ecbc",
+      "bytes": 30827
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/seg_runtime/train_medsam_FINAL.py",
+      "sha256": "faa92c0ccccd99a665ae3fbda02d59169c3009c5db6dd066e4483c26b1ed176d",
+      "bytes": 432187
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/__init__.py",
+      "sha256": "4c4607cf7db13c88e90c0e8f76cc2503bd9adb498e725ca33a488d38d48e651c",
+      "bytes": 64
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/agents/__init__.py",
+      "sha256": "ad5877db5f6ab723b1ac2905d0e3cefbd6d036c2fac8bcf46b8a7f94157181ec",
+      "bytes": 38
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/agents/evidence_graph_agent.py",
+      "sha256": "3ac90f9c0f45fb90727bc6b6475edcd0aa69c3f5d211f75ebd1be2592debc73f",
+      "bytes": 277549
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/agents/pathagent_assets.py",
+      "sha256": "1f1819c5d9855991e7438222915758d530d8f48956938e26ac8ea47ae62d1117",
+      "bytes": 4221
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/agents/pathagent_qwen.py",
+      "sha256": "b7fe550090e9b457f186fe6c2297782a764a742e6f10e5e4d085d3fd8af0da07",
+      "bytes": 33705
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/agents/pathagent_roi.py",
+      "sha256": "83f087c8bb7047690da011d1636f4ee8d2f0919317d14967dba8fd20923a373b",
+      "bytes": 5375
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/agents/staged_report_agent.py",
+      "sha256": "8847dfa7500897f6cf64961a74db9a7f10e070255a64b0b3e3b722acfd08af18",
+      "bytes": 123532
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/datasets/__init__.py",
+      "sha256": "0fbfbaf6ab65bbffd5f20bc5e253a83ae7b872b4993dc6deab0e123b94e67573",
+      "bytes": 46
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/datasets/manifest.py",
+      "sha256": "233c19134bd7dfc4074347c62c9e1d3254d2fca1597b8cf6d3cbc4f84ebe7955",
+      "bytes": 9787
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/datasets/public_dataset_scan.py",
+      "sha256": "32a503470e859ff006a464e48b79393ac31b12ca9ec5e5c4d813389f2051d771",
+      "bytes": 4946
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/datasets/report_datasets.py",
+      "sha256": "9b073cf8c8f4e5324d7d2c9392f26ba4e0854e0d16782ae87f3cdbfb3348ff75",
+      "bytes": 9016
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/datasets/splits.py",
+      "sha256": "be13d4d7785a727a6606f6933e7a2d19a919a17edd45d346f0f8c4855ecb6144",
+      "bytes": 1130
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/datasets/tcga_sites.py",
+      "sha256": "22c56e37b1556960ab8658c55d29f91d025e4d27fef47c26e8a9b8a6059c8ed2",
+      "bytes": 8304
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/datasets/wsi_caption_loader.py",
+      "sha256": "7ea1e41010047fb9223c8f6f26dd53aa47e8ea3dffb26228e1ceffb919d406af",
+      "bytes": 4450
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/__init__.py",
+      "sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+      "bytes": 26
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/diagnostic_hierarchy.py",
+      "sha256": "a04039bd183538e748900a551b1aae4554a6c70c02d3e1082696fe573e55ca47",
+      "bytes": 23505
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/pathology_metrics.py",
+      "sha256": "0cf6046ac296e4d1e7368c9ff5e4a8e33f89b579f035a1cd7c450589bba96dfa",
+      "bytes": 20160
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/pipeline_eval.py",
+      "sha256": "388688d73cec0f7bd4f050391ce6770197f99a8e3d5dd67c76405fb4f93e645d",
+      "bytes": 1087
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/reference_cleaner.py",
+      "sha256": "8a969fd21b4c738dd6a778d938fcf5c3d7ee46acab8fc9d249f11e24a391aac5",
+      "bytes": 15836
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/report_text_metrics.py",
+      "sha256": "edee43da42838d4c02526830cbf636228e2cbe6c2c08c07b03f6bacc9b1fa3b5",
+      "bytes": 36302
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/staged_metrics.py",
+      "sha256": "0ef9d374ffe7e23f75ee5f72cc438b16273211651b13ff0dd8439873cb3388b9",
+      "bytes": 17273
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/knowledge/__init__.py",
+      "sha256": "d8e2d49aad571b649a859f21cc91f686b7d1dc1ef63fbf84e1a65308a46f3d76",
+      "bytes": 35
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/knowledge/keep_retriever.py",
+      "sha256": "8391476fb1acb474df54b9a3c9f701807615eb4634ee1e4778dd11707516f35b",
+      "bytes": 20658
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/llm/__init__.py",
+      "sha256": "c3b2645ee2793b21db32e1726da5578cba7baec2ddbfed80b94778c9866ebf6f",
+      "bytes": 42
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/llm/qwen_client.py",
+      "sha256": "6d1bd3c1f48526592a1a857b78f71207d517a04570b03ef5d4e97992f774d7de",
+      "bytes": 11767
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/reporting/__init__.py",
+      "sha256": "7f10f2573100baef00ddfd6e6e663ea06bcb0cc10aaae926604027b164f44458",
+      "bytes": 46
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/reporting/baseline_report.py",
+      "sha256": "89e9e4341d90920bf3a49bb32eb5ae47d9ca55fd56f3df38b25b3b58151e6b02",
+      "bytes": 1773
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/segmentation/__init__.py",
+      "sha256": "0e7f11cde2631ec5043e86d2506fc1c396a6b2f54ae4559b235c5d971d3835f4",
+      "bytes": 29
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/segmentation/medsam_roi.py",
+      "sha256": "a5b86a131d522024598dc1c80eb15b1f889ec2dce839af0bea4bb6168b135028",
+      "bytes": 14988
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/segmentation/seg_visual.py",
+      "sha256": "64db4488cc4d73fd3c171c4ed6a3a81b3d854512c5b8457de8e2ea6a73f71089",
+      "bytes": 13259
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/storage.py",
+      "sha256": "12c493876472bad2702c91c1989460651fd1d227e32e7a1bc1df20c89787116f",
+      "bytes": 539
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/__init__.py",
+      "sha256": "a2430a0fea8917f6d938d28eeed510529858246c814eed9e31b993f531589d47",
+      "bytes": 35
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/coarse_to_fine.py",
+      "sha256": "b02bdf18768529287b3fd8ade6d57619f58cb394063a15b48f74ee22e98d38ab",
+      "bytes": 14568
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/foundation_roi.py",
+      "sha256": "b96a030181b8155f99c716f77baeb75afeaa60a492dc807628ac4c4ddf38d90b",
+      "bytes": 58344
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/lazyslide_backend.py",
+      "sha256": "e484050a0dca8f72f45f5546ff2c779dab8b0b099c236ca462f047fbe541f1f0",
+      "bytes": 6577
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/patch_sizing.py",
+      "sha256": "5b36ee0733ef85d6dd691629a7f4de2537bf5a546d8558dbd24b3a0aee26c979",
+      "bytes": 2343
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/patch_store.py",
+      "sha256": "e04a57f36d6e5db5667c5c8a818b39445823ee4ed689c79dfe72d07a6dd927e8",
+      "bytes": 1219
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/roi_candidates.py",
+      "sha256": "8005d5bc321833ff7b06a68bceb982a295aec69da453e0a0eac701efea4460b2",
+      "bytes": 2177
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/wsi/slide_reader.py",
+      "sha256": "2cfcc519b9f5ecb307cc2eef781f037b254c8e96df45d2198e114d862ba0c312",
+      "bytes": 3623
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/__init__.py",
+      "sha256": "422b99e31dca26bfe0034162e50a18ebace913989c7ee936a6cc2fb4394afde1",
+      "bytes": 1511
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/config/__init__.py",
+      "sha256": "32358ed5443134eae5b2aadcb27d8a34aec0c5be12403a69502bd34911feb681",
+      "bytes": 902
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/config/defaults.yaml",
+      "sha256": "782956d4799d52c7102f5d88759263ac9316236ac44494df326e45d89a252d40",
+      "bytes": 3402
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/config/settings.py",
+      "sha256": "82675b0598a84fdf7f9b26500541484d4ff9bfc8719eef427cc819061a3f4506",
+      "bytes": 12678
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/__init__.py",
+      "sha256": "979dac166452d0bb11004435ffd2dda5beb0095b90a197a3b12078465640a488",
+      "bytes": 872
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/eval_v2.py",
+      "sha256": "6813d2f12b5bb20a5d6605e5a7e798f9c123695e7f5d786bd1cf2fa12c7b440a",
+      "bytes": 12614
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/eval_v3.py",
+      "sha256": "56b52da4e022aa8f1bbf232470664be2fc8c73dee866d540f2137f1e8b6d1a23",
+      "bytes": 28577
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/metrics.py",
+      "sha256": "0c2f1175403fa67f444233aabe5de803881b8bd003158e4a85161008f62676b1",
+      "bytes": 53589
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/runner.py",
+      "sha256": "8b983f4c4310661245b895a07116201e10ba12d5a01bb425b314c73146129dca",
+      "bytes": 17672
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/tcga_ground_truth.py",
+      "sha256": "2ad67a6891e400daae67af12575914614c8567df59de7baf55406b5b2aefabb4",
+      "bytes": 10473
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/html_viz.py",
+      "sha256": "12628dd20e6709e0c3c6c8a45acaecf54774d0a4d2f9ca81565d0bb317f3b618",
+      "bytes": 21443
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/leakage_guard.py",
+      "sha256": "9da8295906c191e910d4e96bc76d96c9b0ac5c3dec89bdbf7f95aed9361b3096",
+      "bytes": 5072
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/llm/__init__.py",
+      "sha256": "475488f2ecee65c9993890d4c15e3a44bcd27845f364664e9c6ed78d60cc42d6",
+      "bytes": 1064
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/llm/base.py",
+      "sha256": "0267cfc11dd98c4de638dae501b34279067f75fa58e7d59715f9720bda57759e",
+      "bytes": 9059
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/llm/parsing.py",
+      "sha256": "8b72c0b3bae6208c1ff098ea1d05744955f1cc8d94cc2f7194f60d2552fac01a",
+      "bytes": 3479
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/llm/schema.py",
+      "sha256": "76c031dae7d85dfd4e770bb080e2eb24912d9003f2bfabb9660b5234e8bc613d",
+      "bytes": 6082
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/__init__.py",
+      "sha256": "4a75bc023d32b6154bba95efad15c4592783cb2a8af8ee1c1beb4e37cb43dfc1",
+      "bytes": 2511
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/base.py",
+      "sha256": "f56174271d1d88699cb4e57e528490e6c8bb70349bacb68bb7035a248fe6c00d",
+      "bytes": 9596
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/claim_seg_verifier.py",
+      "sha256": "94a3284d5d7ea5790c7009aacc99e9ccf825bdedf10a978336437d21c8dd6349",
+      "bytes": 11683
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/diagnosis.py",
+      "sha256": "c8824f5cb16f506c2d7573acd900a19ba309b4c94489b4d527f9480d326667e8",
+      "bytes": 9829
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/evidence_graph.py",
+      "sha256": "7250db11831bfd14740b8b3be967291a6f9c236523977d3a24a4f3c3bcd047f4",
+      "bytes": 20451
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/evidence_verification.py",
+      "sha256": "c1c903cbc2b310c2e5d6feb0c79727acfa299a57e90f058e31283cdb99ea17d0",
+      "bytes": 3153
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/knowledge.py",
+      "sha256": "ea1a58226951ad31c9354ae8e76fd3db4a7d202d8ad170ad6ef944836d286091",
+      "bytes": 5771
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/lineage_guard.py",
+      "sha256": "709db9ba28b10397a20db842068c2357f64f97e000f51302e551edd46828be5e",
+      "bytes": 9273
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/morphology.py",
+      "sha256": "d0aee6200ab4da6b5c47dd23951ec249c22b41a2b3a2f1e7afa6fb4efbaf0d2d",
+      "bytes": 39568
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy 2.py",
+      "sha256": "49663cf944f7ae63869730f56140ab2c8f5e9b2d620900ce7402370de6d610f3",
+      "bytes": 91032
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy.py",
+      "sha256": "9ee9bbc7d67f06f8c4260419e5dc0d08846e3ae5054ab5753b85098610364681",
+      "bytes": 57748
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator.py",
+      "sha256": "85a8d13f86aab898e66742978a730786ada481cd22f3d65e399b4416ec1236b0",
+      "bytes": 123273
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/reinspection.py",
+      "sha256": "5ccbb9a8aa6a0b6bc45c6e7c7dbbe451c3fefce1ad200be1949e55ad160b9d50",
+      "bytes": 17568
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/report_generation.py",
+      "sha256": "6551f5e3602fb5b50d2468af06d401c7194a03ed1dde0cb2600286d680f244b2",
+      "bytes": 26168
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/roi_selection.py",
+      "sha256": "5c33834b56ecaa3dbaf248b961ac783a2122b2ef173f52e5c97b8ca7146151e0",
+      "bytes": 3468
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/seg_generalization.py",
+      "sha256": "14d006a0033c7597a99b7e3ab750bde93ffef9c5152f7ca549f69d9bf8d02345",
+      "bytes": 11207
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/seg_policy.py",
+      "sha256": "dcac01446125f023a1911bd80ecaca279e8c9df7aab6939f03cedf5a3908fc23",
+      "bytes": 11756
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/segmentation.py",
+      "sha256": "c4e5ebe38d7fae3dac44084bcb6265d97fb265ea473af27c502a6992e0d27484",
+      "bytes": 3691
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/session_memory.py",
+      "sha256": "86642a5056c4fa793783c74c3525aab21fec7bf18a18992aa36d5e33c197ee4b",
+      "bytes": 4001
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/site_prediction.py",
+      "sha256": "a866f1be97cd489d6323904a33edd9c27dd64a8c26db068097114be4092bf49e",
+      "bytes": 3747
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/subtype_sufficiency.py",
+      "sha256": "a42b5d71aff062b46e7375f024348bfb50b3a44becddcd67aa9aa8e9ea3fc94b",
+      "bytes": 15681
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/wsi_thumbnail.py",
+      "sha256": "76a6c545dfc4f45eec182e61a21b7844464ada5fff07459821a67b5d52eed0d4",
+      "bytes": 7628
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/prompts/__init__.py",
+      "sha256": "260b51a5eb035a7beefd0e74b2ec48aaade99ca80bf7ad4555ef56f5be1fff1a",
+      "bytes": 59163
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/run.py",
+      "sha256": "294e72ea5bee17ba0e683b097c55dacb919d7f8e57574e0988c3a4fd86375326",
+      "bytes": 64704
+    },
+    {
+      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/pipeline.yaml",
+      "sha256": "95f802d326bb7d1234373eb470af157f36e13f86cbb8d9f912abc31a12976550",
+      "bytes": 2205
+    },
+    {
+      "path": "baselines/current/source_snapshot/external_seg_runtime/train_medsam_FINAL.py",
+      "sha256": "d9e9f99b524b7ecf09fdb30c17e4a5d365107671196e02d538d3391443bfa060",
+      "bytes": 432099
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/scripts/regenerate_report_html.py",
+      "sha256": "3e897c24297e807aebb42b8bd2ab76c7d86df12994a17c2c79d991f66f8e91b3",
+      "bytes": 3948
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/scripts/render_review_workspace_html.py",
+      "sha256": "2dd79cdb952410bb0e9ef439559ffb8a8774b2afc41ff53bfa951a79c66b866a",
+      "bytes": 87889
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/__init__.py",
+      "sha256": "4c4607cf7db13c88e90c0e8f76cc2503bd9adb498e725ca33a488d38d48e651c",
+      "bytes": 64
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/agents/__init__.py",
+      "sha256": "ad5877db5f6ab723b1ac2905d0e3cefbd6d036c2fac8bcf46b8a7f94157181ec",
+      "bytes": 38
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/agents/evidence_graph_agent.py",
+      "sha256": "3ac90f9c0f45fb90727bc6b6475edcd0aa69c3f5d211f75ebd1be2592debc73f",
+      "bytes": 277549
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/agents/pathagent_assets.py",
+      "sha256": "1f1819c5d9855991e7438222915758d530d8f48956938e26ac8ea47ae62d1117",
+      "bytes": 4221
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/agents/pathagent_qwen.py",
+      "sha256": "b7fe550090e9b457f186fe6c2297782a764a742e6f10e5e4d085d3fd8af0da07",
+      "bytes": 33705
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/agents/pathagent_roi.py",
+      "sha256": "83f087c8bb7047690da011d1636f4ee8d2f0919317d14967dba8fd20923a373b",
+      "bytes": 5375
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/agents/staged_report_agent.py",
+      "sha256": "8847dfa7500897f6cf64961a74db9a7f10e070255a64b0b3e3b722acfd08af18",
+      "bytes": 123532
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/datasets/__init__.py",
+      "sha256": "0fbfbaf6ab65bbffd5f20bc5e253a83ae7b872b4993dc6deab0e123b94e67573",
+      "bytes": 46
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/datasets/manifest.py",
+      "sha256": "233c19134bd7dfc4074347c62c9e1d3254d2fca1597b8cf6d3cbc4f84ebe7955",
+      "bytes": 9787
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/datasets/public_dataset_scan.py",
+      "sha256": "32a503470e859ff006a464e48b79393ac31b12ca9ec5e5c4d813389f2051d771",
+      "bytes": 4946
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/datasets/report_datasets.py",
+      "sha256": "9b073cf8c8f4e5324d7d2c9392f26ba4e0854e0d16782ae87f3cdbfb3348ff75",
+      "bytes": 9016
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/datasets/splits.py",
+      "sha256": "be13d4d7785a727a6606f6933e7a2d19a919a17edd45d346f0f8c4855ecb6144",
+      "bytes": 1130
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/datasets/tcga_sites.py",
+      "sha256": "22c56e37b1556960ab8658c55d29f91d025e4d27fef47c26e8a9b8a6059c8ed2",
+      "bytes": 8304
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/datasets/wsi_caption_loader.py",
+      "sha256": "7ea1e41010047fb9223c8f6f26dd53aa47e8ea3dffb26228e1ceffb919d406af",
+      "bytes": 4450
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/__init__.py",
+      "sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
+      "bytes": 26
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/diagnostic_hierarchy.py",
+      "sha256": "a04039bd183538e748900a551b1aae4554a6c70c02d3e1082696fe573e55ca47",
+      "bytes": 23505
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/pathology_metrics.py",
+      "sha256": "0cf6046ac296e4d1e7368c9ff5e4a8e33f89b579f035a1cd7c450589bba96dfa",
+      "bytes": 20160
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/pipeline_eval.py",
+      "sha256": "388688d73cec0f7bd4f050391ce6770197f99a8e3d5dd67c76405fb4f93e645d",
+      "bytes": 1087
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/reference_cleaner.py",
+      "sha256": "8a969fd21b4c738dd6a778d938fcf5c3d7ee46acab8fc9d249f11e24a391aac5",
+      "bytes": 15836
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/report_text_metrics.py",
+      "sha256": "edee43da42838d4c02526830cbf636228e2cbe6c2c08c07b03f6bacc9b1fa3b5",
+      "bytes": 36302
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/staged_metrics.py",
+      "sha256": "0ef9d374ffe7e23f75ee5f72cc438b16273211651b13ff0dd8439873cb3388b9",
+      "bytes": 17273
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/knowledge/__init__.py",
+      "sha256": "d8e2d49aad571b649a859f21cc91f686b7d1dc1ef63fbf84e1a65308a46f3d76",
+      "bytes": 35
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/knowledge/keep_retriever.py",
+      "sha256": "8391476fb1acb474df54b9a3c9f701807615eb4634ee1e4778dd11707516f35b",
+      "bytes": 20658
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/llm/__init__.py",
+      "sha256": "c3b2645ee2793b21db32e1726da5578cba7baec2ddbfed80b94778c9866ebf6f",
+      "bytes": 42
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/llm/qwen_client.py",
+      "sha256": "6d1bd3c1f48526592a1a857b78f71207d517a04570b03ef5d4e97992f774d7de",
+      "bytes": 11767
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/reporting/__init__.py",
+      "sha256": "7f10f2573100baef00ddfd6e6e663ea06bcb0cc10aaae926604027b164f44458",
+      "bytes": 46
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/reporting/baseline_report.py",
+      "sha256": "89e9e4341d90920bf3a49bb32eb5ae47d9ca55fd56f3df38b25b3b58151e6b02",
+      "bytes": 1773
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/segmentation/__init__.py",
+      "sha256": "0e7f11cde2631ec5043e86d2506fc1c396a6b2f54ae4559b235c5d971d3835f4",
+      "bytes": 29
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/segmentation/medsam_roi.py",
+      "sha256": "5e6d60e2dfca15ee3ded34cfa3db3f4052f9401e0384331e0b9f522d834d78f9",
+      "bytes": 14455
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/segmentation/seg_visual.py",
+      "sha256": "64db4488cc4d73fd3c171c4ed6a3a81b3d854512c5b8457de8e2ea6a73f71089",
+      "bytes": 13259
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/storage.py",
+      "sha256": "12c493876472bad2702c91c1989460651fd1d227e32e7a1bc1df20c89787116f",
+      "bytes": 539
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/__init__.py",
+      "sha256": "a2430a0fea8917f6d938d28eeed510529858246c814eed9e31b993f531589d47",
+      "bytes": 35
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/coarse_to_fine.py",
+      "sha256": "b02bdf18768529287b3fd8ade6d57619f58cb394063a15b48f74ee22e98d38ab",
+      "bytes": 14568
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/foundation_roi.py",
+      "sha256": "b96a030181b8155f99c716f77baeb75afeaa60a492dc807628ac4c4ddf38d90b",
+      "bytes": 58344
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/lazyslide_backend.py",
+      "sha256": "e484050a0dca8f72f45f5546ff2c779dab8b0b099c236ca462f047fbe541f1f0",
+      "bytes": 6577
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/patch_sizing.py",
+      "sha256": "5b36ee0733ef85d6dd691629a7f4de2537bf5a546d8558dbd24b3a0aee26c979",
+      "bytes": 2343
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/patch_store.py",
+      "sha256": "e04a57f36d6e5db5667c5c8a818b39445823ee4ed689c79dfe72d07a6dd927e8",
+      "bytes": 1219
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/roi_candidates.py",
+      "sha256": "8005d5bc321833ff7b06a68bceb982a295aec69da453e0a0eac701efea4460b2",
+      "bytes": 2177
+    },
+    {
+      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/wsi/slide_reader.py",
+      "sha256": "2cfcc519b9f5ecb307cc2eef781f037b254c8e96df45d2198e114d862ba0c312",
+      "bytes": 3623
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/scripts/export_report_samples_offline.py",
+      "sha256": "f25a1eb209a2e6092ac9de563ae371b22eb5b55acc62f0053598407f87748e86",
+      "bytes": 8448
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/__init__.py",
+      "sha256": "422b99e31dca26bfe0034162e50a18ebace913989c7ee936a6cc2fb4394afde1",
+      "bytes": 1511
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/config/__init__.py",
+      "sha256": "32358ed5443134eae5b2aadcb27d8a34aec0c5be12403a69502bd34911feb681",
+      "bytes": 902
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/config/defaults.yaml",
+      "sha256": "782956d4799d52c7102f5d88759263ac9316236ac44494df326e45d89a252d40",
+      "bytes": 3402
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/config/settings.py",
+      "sha256": "82675b0598a84fdf7f9b26500541484d4ff9bfc8719eef427cc819061a3f4506",
+      "bytes": 12678
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/__init__.py",
+      "sha256": "979dac166452d0bb11004435ffd2dda5beb0095b90a197a3b12078465640a488",
+      "bytes": 872
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/eval_v2.py",
+      "sha256": "6813d2f12b5bb20a5d6605e5a7e798f9c123695e7f5d786bd1cf2fa12c7b440a",
+      "bytes": 12614
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/eval_v3.py",
+      "sha256": "56b52da4e022aa8f1bbf232470664be2fc8c73dee866d540f2137f1e8b6d1a23",
+      "bytes": 28577
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/metrics.py",
+      "sha256": "0c2f1175403fa67f444233aabe5de803881b8bd003158e4a85161008f62676b1",
+      "bytes": 53589
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/runner.py",
+      "sha256": "8b983f4c4310661245b895a07116201e10ba12d5a01bb425b314c73146129dca",
+      "bytes": 17672
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/tcga_ground_truth.py",
+      "sha256": "2ad67a6891e400daae67af12575914614c8567df59de7baf55406b5b2aefabb4",
+      "bytes": 10473
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/html_viz.py",
+      "sha256": "12628dd20e6709e0c3c6c8a45acaecf54774d0a4d2f9ca81565d0bb317f3b618",
+      "bytes": 21443
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/leakage_guard.py",
+      "sha256": "9da8295906c191e910d4e96bc76d96c9b0ac5c3dec89bdbf7f95aed9361b3096",
+      "bytes": 5072
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/llm/__init__.py",
+      "sha256": "475488f2ecee65c9993890d4c15e3a44bcd27845f364664e9c6ed78d60cc42d6",
+      "bytes": 1064
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/llm/base.py",
+      "sha256": "0267cfc11dd98c4de638dae501b34279067f75fa58e7d59715f9720bda57759e",
+      "bytes": 9059
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/llm/parsing.py",
+      "sha256": "8b72c0b3bae6208c1ff098ea1d05744955f1cc8d94cc2f7194f60d2552fac01a",
+      "bytes": 3479
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/llm/schema.py",
+      "sha256": "76c031dae7d85dfd4e770bb080e2eb24912d9003f2bfabb9660b5234e8bc613d",
+      "bytes": 6082
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/__init__.py",
+      "sha256": "4a75bc023d32b6154bba95efad15c4592783cb2a8af8ee1c1beb4e37cb43dfc1",
+      "bytes": 2511
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/base.py",
+      "sha256": "f56174271d1d88699cb4e57e528490e6c8bb70349bacb68bb7035a248fe6c00d",
+      "bytes": 9596
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/claim_seg_verifier.py",
+      "sha256": "94a3284d5d7ea5790c7009aacc99e9ccf825bdedf10a978336437d21c8dd6349",
+      "bytes": 11683
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/diagnosis.py",
+      "sha256": "c8824f5cb16f506c2d7573acd900a19ba309b4c94489b4d527f9480d326667e8",
+      "bytes": 9829
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/evidence_graph.py",
+      "sha256": "7250db11831bfd14740b8b3be967291a6f9c236523977d3a24a4f3c3bcd047f4",
+      "bytes": 20451
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/evidence_verification.py",
+      "sha256": "c1c903cbc2b310c2e5d6feb0c79727acfa299a57e90f058e31283cdb99ea17d0",
+      "bytes": 3153
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/knowledge.py",
+      "sha256": "ea1a58226951ad31c9354ae8e76fd3db4a7d202d8ad170ad6ef944836d286091",
+      "bytes": 5771
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/lineage_guard.py",
+      "sha256": "709db9ba28b10397a20db842068c2357f64f97e000f51302e551edd46828be5e",
+      "bytes": 9273
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/morphology.py",
+      "sha256": "d0aee6200ab4da6b5c47dd23951ec249c22b41a2b3a2f1e7afa6fb4efbaf0d2d",
+      "bytes": 39568
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator copy 2.py",
+      "sha256": "49663cf944f7ae63869730f56140ab2c8f5e9b2d620900ce7402370de6d610f3",
+      "bytes": 91032
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator copy.py",
+      "sha256": "9ee9bbc7d67f06f8c4260419e5dc0d08846e3ae5054ab5753b85098610364681",
+      "bytes": 57748
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator.py",
+      "sha256": "85a8d13f86aab898e66742978a730786ada481cd22f3d65e399b4416ec1236b0",
+      "bytes": 123273
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/reinspection.py",
+      "sha256": "5ccbb9a8aa6a0b6bc45c6e7c7dbbe451c3fefce1ad200be1949e55ad160b9d50",
+      "bytes": 17568
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/report_generation.py",
+      "sha256": "6551f5e3602fb5b50d2468af06d401c7194a03ed1dde0cb2600286d680f244b2",
+      "bytes": 26168
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/roi_selection.py",
+      "sha256": "5c33834b56ecaa3dbaf248b961ac783a2122b2ef173f52e5c97b8ca7146151e0",
+      "bytes": 3468
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/seg_generalization.py",
+      "sha256": "14d006a0033c7597a99b7e3ab750bde93ffef9c5152f7ca549f69d9bf8d02345",
+      "bytes": 11207
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/seg_policy.py",
+      "sha256": "dcac01446125f023a1911bd80ecaca279e8c9df7aab6939f03cedf5a3908fc23",
+      "bytes": 11756
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/segmentation.py",
+      "sha256": "c4e5ebe38d7fae3dac44084bcb6265d97fb265ea473af27c502a6992e0d27484",
+      "bytes": 3691
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/session_memory.py",
+      "sha256": "86642a5056c4fa793783c74c3525aab21fec7bf18a18992aa36d5e33c197ee4b",
+      "bytes": 4001
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/site_prediction.py",
+      "sha256": "a866f1be97cd489d6323904a33edd9c27dd64a8c26db068097114be4092bf49e",
+      "bytes": 3747
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/subtype_sufficiency.py",
+      "sha256": "a42b5d71aff062b46e7375f024348bfb50b3a44becddcd67aa9aa8e9ea3fc94b",
+      "bytes": 15681
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/wsi_thumbnail.py",
+      "sha256": "76a6c545dfc4f45eec182e61a21b7844464ada5fff07459821a67b5d52eed0d4",
+      "bytes": 7628
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/prompts/__init__.py",
+      "sha256": "260b51a5eb035a7beefd0e74b2ec48aaade99ca80bf7ad4555ef56f5be1fff1a",
+      "bytes": 59163
+    },
+    {
+      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/run.py",
+      "sha256": "294e72ea5bee17ba0e683b097c55dacb919d7f8e57574e0988c3a4fd86375326",
+      "bytes": 64704
+    },
+    {
+      "path": "pathxai_demo/__init__.py",
+      "sha256": "e5e7d5effa70e8705fecffff3acf97539495ed1f63df56d2e3d2d1a4e0379c7c",
+      "bytes": 105
+    },
+    {
+      "path": "pathxai_demo/__main__.py",
+      "sha256": "540fd0a5992ca535482a9d44b2e268ce3a39bb47a0576f301214afa5ef4494b9",
+      "bytes": 51
+    },
+    {
+      "path": "pathxai_demo/adapter_provenance.py",
+      "sha256": "a072f7782a203eafa0ff54a43d5ca2caefefda09787a80fe36b926f056a3877f",
+      "bytes": 9001
+    },
+    {
+      "path": "pathxai_demo/api_probe.py",
+      "sha256": "a79faf7dfac67a2fdb2f7c3aeace9debbe6f799822108241f52023368aab6cf8",
+      "bytes": 8637
+    },
+    {
+      "path": "pathxai_demo/asset_tasks.py",
+      "sha256": "c7de21f362e84c81ac98c3b3b135f70ed69c1ec34b015792b722135c1388d203",
+      "bytes": 10520
+    },
+    {
+      "path": "pathxai_demo/assets.py",
+      "sha256": "3af251327beeb91bed6fd35f9cddba5159b4653d6cf3caba7819689346996f1d",
+      "bytes": 34923
+    },
+    {
+      "path": "pathxai_demo/config.py",
+      "sha256": "419da5b5e25f23ec74850409f1562c1597e70784e1da2a585187b146202146b2",
+      "bytes": 4767
+    },
+    {
+      "path": "pathxai_demo/engine.py",
+      "sha256": "ade5b0415f326455ba15e2bf30eb9f6d0dd063e4a81c34ea0b15b50b409441a6",
+      "bytes": 22579
+    },
+    {
+      "path": "pathxai_demo/engine_worker.py",
+      "sha256": "9e4fc3fb9b222d28bccfa63f2aaa75a0bc4d03b19185f80a6b46098ad100bbb4",
+      "bytes": 23338
+    },
+    {
+      "path": "pathxai_demo/exporting.py",
+      "sha256": "3e37c499380d84f693dba8b09161781d5fafc263b7641a2ca63ac06bef2cfb04",
+      "bytes": 11222
+    },
+    {
+      "path": "pathxai_demo/jobs.py",
+      "sha256": "ceb3328f96b5db0ddb94cb4005516441a9dea004c37d4c9fb575dd400d1a39f5",
+      "bytes": 20020
+    },
+    {
+      "path": "pathxai_demo/preparation.py",
+      "sha256": "a3e8a03e1a36fc7d11a35148208a211c0661def625b1ad32437baa7403606ffd",
+      "bytes": 12587
+    },
+    {
+      "path": "pathxai_demo/process_control.py",
+      "sha256": "0e63658bfb38f175e735f7f268ea7c24b25d08a00da06588a21f5f758271f713",
+      "bytes": 6370
+    },
+    {
+      "path": "pathxai_demo/profiles.py",
+      "sha256": "64dd643b8cb157382564fe4f3832b3093d5d000f743ee4918f2db2a865036ec1",
+      "bytes": 14858
+    },
+    {
+      "path": "pathxai_demo/provenance.py",
+      "sha256": "8028645cfed03d04e5e9de6d96e50abac3dd9fd9b4d2da34da5c78a7804496c3",
+      "bytes": 15975
+    },
+    {
+      "path": "pathxai_demo/reference_paths.py",
+      "sha256": "c82e15cf56aaa89e851934433c0855611e1e2abd3c572dbea9d5cfc3d7880517",
+      "bytes": 23298
+    },
+    {
+      "path": "pathxai_demo/replay.py",
+      "sha256": "0c87057fe5d8ba1021b4281709027e2c33c10c366069bbe54c58b0ee786b3a2c",
+      "bytes": 42061
+    },
+    {
+      "path": "pathxai_demo/reporting_worker.py",
+      "sha256": "5306847fb85d782bc9da5d4ce67928e8883857ad83b5e6f765f1f387085b313a",
+      "bytes": 32834
+    },
+    {
+      "path": "pathxai_demo/segmentation_worker.py",
+      "sha256": "cdb0717b3e5c2f558692df1ee8f63cc7fb3138287f3025499282e7d8427a930f",
+      "bytes": 3774
+    },
+    {
+      "path": "pathxai_demo/server.py",
+      "sha256": "c8a30b1eb0a7d76a32208aa02f5b553dc6aa721af4783ee585012a5075abca71",
+      "bytes": 26643
+    },
+    {
+      "path": "pathxai_demo/transport.py",
+      "sha256": "75680bef349dfabe40eccf780458f4868ba1bfb49ffe02bdfd8ce57735a25bb4",
+      "bytes": 8889
+    }
+  ]
+}

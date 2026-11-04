@@ -1,0 +1,15 @@
+{
+  "workflow": "five_report_blinded_comparison",
+  "reports_per_case": 5,
+  "per_report": {
+    "acceptability": ["no_correction", "minor_correction", "major_correction", "not_usable"],
+    "unsupported_major_claim": ["no", "yes"],
+    "major_visible_omission": ["no", "yes"]
+  },
+  "per_section": {
+    "required_ranked_domains": ["Diagnosis", "Key Microscopic Findings", "Stage / Grade / Prognostic Features"],
+    "rank_scale": {"min": 1, "max": 5, "direction": "lower_is_better", "ties_allowed": true}
+  },
+  "overall_order": {"required": true, "rank_scale": {"min": 1, "max": 5, "ties_allowed": true}},
+  "comparison_notes": "optional"
+}
