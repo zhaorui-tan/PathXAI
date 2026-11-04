@@ -48,4 +48,14 @@ Validation used an NVIDIA RTX 5090 (32 GB), the existing Python 3.12 segmentatio
 
 Qwen generation used the same model identifier and temperature as the historical run, but no fixed seed; API runtime and exact report wording are not guaranteed identical. The software completed despite limited-evidence flags, and grade/necrosis inconsistencies remain documented. The report-only evaluator also has an observed invasion-parser limitation described in [EVALUATION.md](EVALUATION.md).
 
-Inference used existing checksum-verified local model files. Afterward, the D1 bundle was uploaded to `RayTan/PathXAI-Seg` at revision `62894f38c67e28389f43a9f7efe89dd4a40e5608`; all four release files were freshly downloaded and matched the upload bundle byte-for-byte. This verifies Hub delivery separately from the recorded inference runs. See [the release record](../provenance/hf_model_release.json). GitHub Pages deployment is a separate publishing step.
+The SO1/SO4 notebook runs used existing checksum-verified local model files. Subsequent upload/download verification is recorded in [the HF release record](../provenance/hf_model_release.json).
+
+## Fresh GitHub and Hugging Face inference test
+
+On 2026-11-04, a fresh clone of public GitHub commit `2eb529101c9e3ef2beb252d8cfede05fd2b4ca74` fetched the official upstream MedSAM3 source and passed the frozen-source audit. The published download helper downloaded D1 revision `62894f38c67e28389f43a9f7efe89dd4a40e5608` into an empty HF cache, verified its SHA-256, and passed that downloaded file to the actual segmentation model builder.
+
+Model construction and inference on three 4096 × 4096 TCGA-OR-A5JI ROIs succeeded in 48.6 seconds. All three predictions used a fresh segmentation cache (`cache_hit=false`). Mask PNGs and overlay PNGs matched the prior SO1 run byte-for-byte, and class statistics were identical. See [input/output hashes and the test receipt](../provenance/hf_inference_validation.json).
+
+This test reused authorized, checksum-verified SAM3 and CONCH files and the installed environment. It did not repeat a clean dependency installation, full WSI download, or Qwen report generation. The recorded SO1/SO4 reports above remain the full report validation.
+
+The access check also found that the HF repository was initially private. It is now publicly discoverable with **manual approval required for downloads**; anonymous metadata access, blocked anonymous weight access, and authorized weight access were verified. The weight revision and bytes did not change. Readers must request D1 access and obtain separate upstream model permissions.

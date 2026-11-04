@@ -156,5 +156,12 @@
     "notebook": "passed",
     "segmentation": "passed",
     "clean_install": false
+  },
+  "remote_d1_hf_model_load_and_segmentation_tested": true,
+  "hf_inference_verification": {
+    "record": "provenance/hf_inference_validation.json",
+    "roi_count": 3,
+    "all_masks_overlays_and_class_statistics_match": true,
+    "fresh_full_report_run": false
   }
 }

@@ -10,14 +10,14 @@ The pipeline uses separate model resources:
 
 | Resource | Where to obtain it | Required for |
 | --- | --- | --- |
-| PathXAI D1 inference adapter | Hugging Face model repo [`RayTan/PathXAI-Seg`](https://huggingface.co/RayTan/PathXAI-Seg); access approval if gated | SO1 and SO4 segmentation |
+| PathXAI D1 inference adapter | Hugging Face model repo [`RayTan/PathXAI-Seg`](https://huggingface.co/RayTan/PathXAI-Seg); manual access approval required | SO1 and SO4 segmentation |
 | SAM3 base checkpoint | Directly from the gated [`facebook/sam3`](https://huggingface.co/facebook/sam3) repository, at the pinned revision in `vendor/report_engine/assets/model_references.json` | SO1 and SO4 segmentation |
 | CONCH checkpoint | Directly from the [`MahmoodLab/conch`](https://huggingface.co/MahmoodLab/conch) repository, at the pinned revision in `vendor/report_engine/assets/model_references.json` | WSI ROI selection in SO1 and SO4 |
 | KEEP knowledge files | Directly from the gated [`Loie/KEEP_dataset`](https://huggingface.co/datasets/Loie/KEEP_dataset) dataset, at the pinned revision in `vendor/report_engine/assets/keep_references.json` | SO4 only |
 
 The SAM3 and CONCH checkpoints are not hosted in the PathXAI repository. Users must request and receive access from each upstream provider and download them with their own Hugging Face account. KEEP access is required only for SO4. The notebook downloads the separate assets directly and verifies their pinned sizes and SHA-256 values; it does not substitute other weights.
 
-**D1 is published at revision `62894f38c67e28389f43a9f7efe89dd4a40e5608`.** Its four release files were downloaded again and verified byte-for-byte against the upload bundle; see [release verification](../provenance/hf_model_release.json). The notebook already selects this immutable revision. The staged adapter file is Git-ignored and is not a GitHub artifact. The model bundle includes the SAM License without an additional academic-only restriction. See [model release notes](MODEL_RELEASE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+**D1 is published at revision `62894f38c67e28389f43a9f7efe89dd4a40e5608`.** Its four release files were downloaded again and verified byte-for-byte against the upload bundle; see [release verification](../provenance/hf_model_release.json). Actual loading of this HF-downloaded adapter and fresh segmentation inference also passed; see [the inference test record](../provenance/hf_inference_validation.json). Request access on the model page and wait for approval before downloading. The notebook already selects this immutable revision. The staged adapter file is Git-ignored and is not a GitHub artifact. The model bundle includes the SAM License without an additional academic-only restriction. See [model release notes](MODEL_RELEASE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Configure the notebook
 

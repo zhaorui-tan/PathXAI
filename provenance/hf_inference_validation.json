@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "github_commit": "2eb529101c9e3ef2beb252d8cfede05fd2b4ca74",
+  "hf_repo": "RayTan/PathXAI-Seg",
+  "hf_revision": "62894f38c67e28389f43a9f7efe89dd4a40e5608",
+  "d1_sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
+  "actual_model_load_and_inference": true,
+  "fresh_prediction_cache": true,
+  "rois": [
+    {
+      "roi_id": "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53_foundation_x59277_y40483_l0_w4096_h4096",
+      "cache_hit": false,
+      "width": 4096,
+      "height": 4096,
+      "mask_sha256": "38316ae1e7e534a4c3c14552de0d03cd9ff08abe87fff9ac6a8d29f1ed9fd9fd",
+      "baseline_mask_sha256": "38316ae1e7e534a4c3c14552de0d03cd9ff08abe87fff9ac6a8d29f1ed9fd9fd",
+      "overlay_sha256": "03eb11b07596a189e410454ce844b40b2e4823acdb69d02a24f5bbb11d56844c",
+      "baseline_overlay_sha256": "03eb11b07596a189e410454ce844b40b2e4823acdb69d02a24f5bbb11d56844c",
+      "class_statistics_identical": true,
+      "mask_bytes_identical": true,
+      "overlay_bytes_identical": true
+    },
+    {
+      "roi_id": "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53_foundation_x53199_y48587_l0_w4096_h4096",
+      "cache_hit": false,
+      "width": 4096,
+      "height": 4096,
+      "mask_sha256": "cc2d8de10562520d1d2a3274a8ea60bc2ec61de07393ccec5fb64b0ed86f2a25",
+      "baseline_mask_sha256": "cc2d8de10562520d1d2a3274a8ea60bc2ec61de07393ccec5fb64b0ed86f2a25",
+      "overlay_sha256": "96ce31accbc60fac174f8474ea8a78f4001febad25802fbc6fa447dbf522228e",
+      "baseline_overlay_sha256": "96ce31accbc60fac174f8474ea8a78f4001febad25802fbc6fa447dbf522228e",
+      "class_statistics_identical": true,
+      "mask_bytes_identical": true,
+      "overlay_bytes_identical": true
+    },
+    {
+      "roi_id": "TCGA-OR-A5JI-01Z-00-DX2.CEEA791D-1475-4D2B-8E8D-9EB44D42C937_foundation_x68821_y16171_l0_w4096_h4096",
+      "cache_hit": false,
+      "width": 4096,
+      "height": 4096,
+      "mask_sha256": "767dc4a7b0804c854623489b7d8d778ccd8aab8e687f9ffb1bbb04af50add17d",
+      "baseline_mask_sha256": "767dc4a7b0804c854623489b7d8d778ccd8aab8e687f9ffb1bbb04af50add17d",
+      "overlay_sha256": "5e156153c7467ad266b52eaecd474b3d67bb3d5c3c0a393a5901410d3fe70fda",
+      "baseline_overlay_sha256": "5e156153c7467ad266b52eaecd474b3d67bb3d5c3c0a393a5901410d3fe70fda",
+      "class_statistics_identical": true,
+      "mask_bytes_identical": true,
+      "overlay_bytes_identical": true
+    }
+  ],
+  "steps": [
+    {
+      "step": "github_clone",
+      "returncode": 0,
+      "seconds": 13.557259798049927
+    },
+    {
+      "step": "upstream_bootstrap",
+      "returncode": 0,
+      "seconds": 4.529253721237183
+    },
+    {
+      "step": "source_audit",
+      "returncode": 0,
+      "seconds": 0.3157234191894531
+    },
+    {
+      "step": "model_load_and_segmentation",
+      "returncode": 0,
+      "seconds": 48.57915449142456
+    }
+  ],
+  "limits": "Existing authorized pinned SAM3 and CONCH files are reused and hash-verified. This tests segmentation, not a fresh Qwen report or clean environment install.",
+  "schema": "pathxai-hf-inference-validation-v1",
+  "date": "2026-11-04",
+  "inputs": [
+    {
+      "roi_id": "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53_foundation_x59277_y40483_l0_w4096_h4096",
+      "sha256": "e541deb22fa0b49dc6c820b89c2076a119fbaa0082d74dd6edd3a01423d9e211"
+    },
+    {
+      "roi_id": "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53_foundation_x53199_y48587_l0_w4096_h4096",
+      "sha256": "1a403eccbe4bf18b234ed04c3ded203a4800ebdcbee449099a23a1b10aea6992"
+    },
+    {
+      "roi_id": "TCGA-OR-A5JI-01Z-00-DX2.CEEA791D-1475-4D2B-8E8D-9EB44D42C937_foundation_x68821_y16171_l0_w4096_h4096",
+      "sha256": "b65d282615548082d656c77374400c98f44e9c30b81a019f0bcada0c3a4be24a"
+    }
+  ],
+  "download": {
+    "assets": {
+      "d1_path": {
+        "bytes": 25256190,
+        "sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0"
+      },
+      "sam3_path": {
+        "bytes": 3450062241,
+        "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e"
+      },
+      "conch_path": {
+        "bytes": 802235437,
+        "sha256": "40a9644b9ba0e83a74576e0a5e5f7313599fa9c9cdaf3c20f8a3e271b0e9ae7c"
+      }
+    },
+    "d1_fresh_remote_download": true,
+    "sam3_and_conch": "existing pinned authorized files, hash-verified",
+    "seconds": 5.867525100708008
+  },
+  "access_verification": {
+    "repo_id": "RayTan/PathXAI-Seg",
+    "before": {
+      "private": true,
+      "gated": false
+    },
+    "after": {
+      "private": false,
+      "gated": "manual"
+    },
+    "anonymous_metadata_visible": true,
+    "weight_revision_unchanged": true,
+    "revision": "62894f38c67e28389f43a9f7efe89dd4a40e5608",
+    "anonymous_weight_download_blocked": true,
+    "anonymous_weight_http_status": 401,
+    "authorized_weight_access_verified": true
+  },
+  "hardware": "NVIDIA RTX 5090, 32 GB",
+  "environment": "Existing Python 3.12 segmentation and Python 3.10 notebook environments",
+  "baseline": "Three initial TCGA-OR-A5JI ROIs from the recorded SO1 patient-level run",
+  "owned_processes_exited_and_gpu_lock_released": true
+}
