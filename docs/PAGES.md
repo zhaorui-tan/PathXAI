@@ -2,7 +2,7 @@
 
 `PathXAI_tutorial/` is the standalone repository root. Its manual-only Pages workflow publishes the static bundle in `examples/`: the landing page, SO1 and SO4 reports, shared assets and completed notebooks. It does not run inference, build a notebook, or publish the rest of the repository.
 
-**Deployment status: not deployed.** The GitHub repository is [`zhaorui-tan/PathXAI`](https://github.com/zhaorui-tan/PathXAI). Its known Pages URL is [https://zhaorui-tan.github.io/PathXAI/](https://zhaorui-tan.github.io/PathXAI/), but that URL must not be treated as live until a Pages deployment has completed successfully.
+**Deployment status: live.** The GitHub repository is [`zhaorui-tan/PathXAI`](https://github.com/zhaorui-tan/PathXAI), and the published viewer is [https://zhaorui-tan.github.io/PathXAI/](https://zhaorui-tan.github.io/PathXAI/). [The successful deployment](https://github.com/zhaorui-tan/PathXAI/actions/runs/41817381882) published commit `fa9f948bfe5e20d3e26b46052525e1fc35ec7986`. Seven public files, including both reports and completed notebooks, matched the committed bytes; all 29 image assets were reachable with matching sizes. See [verification](../provenance/pages_deployment.json).
 
 The notebook workflow remains local Jupyter. GitHub Pages only serves the already-created static examples; it is not a Colab, Docker or hosted-compute path.
 
@@ -10,7 +10,7 @@ The notebook workflow remains local Jupyter. GitHub Pages only serves the alread
 
 Prepare the reviewed source release using `python3 scripts/build_release.py --output-dir dist/release_for_upload` from the tutorial root. Extract `PathXAI_tutorial/` from the generated `PathXAI_tutorial_source.zip` and use its contents as the GitHub repository root, with `.github/`, `examples/` and `README.md` at the top level. The source archive uses an explicit allowlist and is authoritative for release contents. Do not upload the raw working folder: it can contain local workspace data and the separately fetched, ignored MedSAM3 runtime source.
 
-After the first successful deployment, the expected default Pages URL is **https://zhaorui-tan.github.io/PathXAI/**, with reports at `SO1/report.html` and `SO4/report.html`. These are configured destinations, not evidence that a deployment has already happened.
+The live Pages URL is **https://zhaorui-tan.github.io/PathXAI/**, with reports at `SO1/report.html` and `SO4/report.html`. The following steps document how to configure a new fork or republish future example updates.
 
 1. Commit `.github/workflows/report-pages.yml` and the complete `examples/` bundle to the repository's default branch. The bundle must include `examples/index.html`, `examples/SO1/report.html`, `examples/SO4/report.html`, the shared `examples/assets/` directory, `examples/notebooks/SO1_completed.ipynb`, and `examples/notebooks/SO4_completed.ipynb`. Both report pages reference the shared assets with `../assets` paths.
 2. On GitHub, open **Settings → Pages**. Under **Build and deployment**, set **Source** to **GitHub Actions** and save. This is the publishing source required by the [GitHub Pages custom-workflow instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).

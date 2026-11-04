@@ -10,10 +10,10 @@ The repository includes two recorded notebooks and report artifacts, which can b
 
 | Version | Completed notebook, viewable on GitHub | Generated report |
 | --- | --- | --- |
-| SO1/Core | [SO1 notebook with actual outputs](examples/notebooks/SO1_completed.ipynb) | [SO1 HTML](examples/SO1/report.html) |
-| SO4/Full | [SO4 notebook with actual outputs](examples/notebooks/SO4_completed.ipynb) | [SO4 HTML](examples/SO4/report.html) |
+| SO1/Core | [SO1 notebook with actual outputs](examples/notebooks/SO1_completed.ipynb) | [View SO1 report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
+| SO4/Full | [SO4 notebook with actual outputs](examples/notebooks/SO4_completed.ipynb) | [View SO4 report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
 
-These are completed outputs from the five-slide patient-level rerun. ROI selection and the main diagnosis match the historical D1 demo; grade/necrosis discrepancies remain. Read the [result comparison](docs/RESULT_COMPARISON.md). The known Pages URL is [https://zhaorui-tan.github.io/PathXAI/](https://zhaorui-tan.github.io/PathXAI/), but **Pages has not been deployed yet**; GitHub's file browser displays HTML source. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Enable the Pages report viewer](docs/PAGES.md).
+These are completed outputs from the five-slide patient-level rerun. ROI selection and the main diagnosis match the historical D1 demo; grade/necrosis discrepancies remain. Read the [result comparison](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the recorded reports without running inference. The deployed report and notebook files were checked against the committed artifacts. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
 
 ## Quick start
 
