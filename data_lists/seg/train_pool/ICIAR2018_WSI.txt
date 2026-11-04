@@ -1,0 +1,8 @@
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A08_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A04_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A03_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A09_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A06_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A07_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A10_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A05_image.png

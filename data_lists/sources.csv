@@ -1,0 +1,34 @@
+dataset,roles,source_url,verification_note
+ACDC_LungHP,test_external,https://acdc-lunghp.grand-challenge.org/,Official ACDC@LungHP challenge site; data description confirms tissue-level lung WSI segmentation task.
+AGGC2022_Tumor,test_external,https://aggc22.grand-challenge.org/AGGC22/,Official challenge page; states complete dataset release and access instructions.
+BCSS,heldout_pool;test_internal;train_pool;val_holdout_monitor;val_model_selection,https://github.com/PathologyDataScience/BCSS,Author repository; describes dataset download and annotations.
+CAMELYON16_WSI,supplemental,https://camelyon17.grand-challenge.org/Data/,Official CAMELYON data page provides access links for both CAMELYON16 and CAMELYON17.
+CPM15,heldout_pool;train_pool,,No official original data page verified; circulating Google Drive links were not treated as authoritative.
+CPM17,heldout_pool;train_pool,,No official original data page verified; circulating Google Drive links were not treated as authoritative.
+CRC100K,heldout_pool;train_pool;val_holdout_monitor;val_model_selection,https://zenodo.org/records/1214456,Zenodo record for NCT-CRC-HE-100K and CRC-VAL-HE-7K.
+CoNIC2022,heldout_pool;train_pool,https://conic-challenge.grand-challenge.org/,Official CoNIC challenge page describes the nuclei dataset and challenge.
+DigestPath2019,heldout_pool;test_internal;train_pool;val_holdout_monitor;val_model_selection,https://digestpath2019.grand-challenge.org/,Official challenge page describes colonoscopy tissue segmentation subset.
+GlaS,heldout_pool;test_internal;train_pool;val_holdout_monitor;val_model_selection,https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/,Warwick challenge/archive URL cited by original challenge literature; live download status not confirmed.
+ICIAR2018,heldout_pool;train_pool,https://iciar2018-challenge.grand-challenge.org/,Official BACH challenge page; dataset includes microscopy ROIs and whole-slide images.
+ICIAR2018_WSI,heldout_pool;test_internal;train_pool;val_holdout_monitor;val_model_selection,https://iciar2018-challenge.grand-challenge.org/,Official BACH challenge page; dataset includes microscopy ROIs and whole-slide images.
+Janowczyk,heldout_pool;train_pool,https://andrewjanowczyk.com/use-case-1-nuclei-segmentation/,Dataset author's nuclei segmentation use-case page; data index at https://andrewjanowczyk.com/deep-learning/.
+Kumar,heldout_pool;train_pool,https://monuseg.grand-challenge.org/Data/,"Official MoNuSeg page says its 2018 training set was previously released by Kumar et al.; local Kumar/kumar split and files are not confirmed as that exact release, so identity/version remains unresolved."
+Lizard,heldout_pool;train_pool,https://warwick.ac.uk/fac/cross_fac/tia/data/lizard,Warwick TIA source URL cited by the Lizard dataset paper.
+LungColon,heldout_pool;train_pool;val_holdout_monitor,https://github.com/tampapath/lung_colon_image_set,Dataset authors' repository; folder name matches LC25000 lung_colon_image_set.
+METU_CCTGS,test_external,https://eakbas.github.io/metu-cctgs/,Authors' project page for METU Colorectal Cancer Tumor Grade Segmentation.
+MHIST,heldout_pool;train_pool,https://bmirds.github.io/MHIST/,Authors' dataset page; gives image/annotation descriptions and access instructions.
+MoNuSAC,heldout_pool;train_pool,https://monusac-2020.grand-challenge.org/Data/,Official challenge data page describes training and test data.
+NuCLS,heldout_pool;train_pool,https://sites.google.com/view/nucls/home,NuCLS project data page; official Grand Challenge landing also at https://nucls.grand-challenge.org/NuCLS/.
+Osteosarcoma,heldout_pool;train_pool,https://www.cancerimagingarchive.net/collection/osteosarcoma-tumor-assessment/,"Official TCIA collection; 1,144 10x histology tiles and labels match local class description."
+PAIP2019,test_external,https://paip2019.grand-challenge.org/,Official challenge page; download flow is described on the site.
+PanNuke,heldout_pool;train_pool,https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke,Warwick TIA dataset page identified as the dataset source.
+PatchCamelyon17,heldout_pool;train_pool,,"Local subset (3,887 images per repository review) does not match standard PCam (327,680 patches); source/provenance unresolved."
+RINGS_Gland,test_external,https://data.mendeley.com/datasets/h8bdwrtnr5/1,Mendeley author data record describes RINGS manual annotations for prostate gland segmentation.
+RINGS_Tumor,test_external,,No distinct official RINGS tumor dataset release verified; the identified RINGS record is for prostate gland segmentation.
+SICAPv2,heldout_pool;train_pool,https://data.mendeley.com/datasets/9xxm58dvs3/1,Mendeley dataset record for SICAPv2; page has versions.
+SegPath,heldout_pool;train_pool;val_holdout_monitor;val_model_selection,https://dakomura.github.io/SegPath/,Authors' project page; linked dataset record https://zenodo.org/records/10808888.
+SkinCancer,heldout_pool;train_pool;val_holdout_monitor;val_model_selection,https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/7QCR8S,Official Heidelberg record for the 16-class skin histology patch dataset; local folder-name match/provenance is not independently established.
+TCGA,report_study;source_inventory,https://portal.gdc.cancer.gov/,"Official NCI Genomic Data Commons portal, including TCGA studies and slide image files."
+TIGER_WSI,excluded_unaligned_protocol,https://tiger.grand-challenge.org/Data/,"Official TIGER data page describes training subsets, annotations, and source cohorts."
+TNBC,heldout_pool;train_pool,https://zenodo.org/records/1174343,Original Naylor et al. Zenodo record for 50 annotated breast cancer images.
+WSSS4LUAD,heldout_pool;test_internal;train_pool;val_holdout_monitor;val_model_selection,https://wsss4luad.grand-challenge.org/WSSS4LUAD/,Official challenge page describes dataset and release notices.

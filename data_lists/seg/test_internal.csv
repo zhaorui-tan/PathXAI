@@ -1,0 +1,125 @@
+dataset,eval_index,image_id,mask_id
+BCSS,0,datasets/BCSS/rgbs_colorNormalized/TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500.png,datasets/BCSS/masks/TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500.png
+BCSS,1,datasets/BCSS/rgbs_colorNormalized/TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500.png
+BCSS,2,datasets/BCSS/rgbs_colorNormalized/TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500.png
+BCSS,3,datasets/BCSS/rgbs_colorNormalized/TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500.png,datasets/BCSS/masks/TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500.png
+BCSS,4,datasets/BCSS/rgbs_colorNormalized/TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500.png
+BCSS,5,datasets/BCSS/rgbs_colorNormalized/TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500.png
+BCSS,6,datasets/BCSS/rgbs_colorNormalized/TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500.png,datasets/BCSS/masks/TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500.png
+BCSS,7,datasets/BCSS/rgbs_colorNormalized/TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500.png
+BCSS,8,datasets/BCSS/rgbs_colorNormalized/TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500.png
+BCSS,9,datasets/BCSS/rgbs_colorNormalized/TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500.png,datasets/BCSS/masks/TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500.png
+BCSS,10,datasets/BCSS/rgbs_colorNormalized/TCGA-E2-A1LK-DX1_xmin75611_ymin27593_MPP-0.2500.png,datasets/BCSS/masks/TCGA-E2-A1LK-DX1_xmin75611_ymin27593_MPP-0.2500.png
+BCSS,11,datasets/BCSS/rgbs_colorNormalized/TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500.png
+BCSS,12,datasets/BCSS/rgbs_colorNormalized/TCGA-E2-A158-DX1_xmin56083_ymin25872_MPP-0.2500.png,datasets/BCSS/masks/TCGA-E2-A158-DX1_xmin56083_ymin25872_MPP-0.2500.png
+BCSS,13,datasets/BCSS/rgbs_colorNormalized/TCGA-AO-A128-DX1_xmin11924_ymin4831_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AO-A128-DX1_xmin11924_ymin4831_MPP-0.2500.png
+BCSS,14,datasets/BCSS/rgbs_colorNormalized/TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500.png,datasets/BCSS/masks/TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500.png
+BCSS,15,datasets/BCSS/rgbs_colorNormalized/TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500.png,datasets/BCSS/masks/TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500.png
+BCSS,16,datasets/BCSS/rgbs_colorNormalized/TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500.png
+BCSS,17,datasets/BCSS/rgbs_colorNormalized/TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500.png
+BCSS,18,datasets/BCSS/rgbs_colorNormalized/TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500.png
+BCSS,19,datasets/BCSS/rgbs_colorNormalized/TCGA-A2-A0D2-DX1_xmin96887_ymin22299_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A2-A0D2-DX1_xmin96887_ymin22299_MPP-0.2500.png
+BCSS,20,datasets/BCSS/rgbs_colorNormalized/TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500.png
+BCSS,21,datasets/BCSS/rgbs_colorNormalized/TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500.png,datasets/BCSS/masks/TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500.png
+BCSS,22,datasets/BCSS/rgbs_colorNormalized/TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500.png
+BCSS,23,datasets/BCSS/rgbs_colorNormalized/TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500.png,datasets/BCSS/masks/TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500.png
+BCSS,24,datasets/BCSS/rgbs_colorNormalized/TCGA-A7-A4SE-DX1_xmin50530_ymin11318_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A7-A4SE-DX1_xmin50530_ymin11318_MPP-0.2500.png
+BCSS,25,datasets/BCSS/rgbs_colorNormalized/TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500.png
+BCSS,26,datasets/BCSS/rgbs_colorNormalized/TCGA-AR-A0TU-DX1_xmin88352_ymin23098_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AR-A0TU-DX1_xmin88352_ymin23098_MPP-0.2500.png
+BCSS,27,datasets/BCSS/rgbs_colorNormalized/TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500.png,datasets/BCSS/masks/TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500.png
+BCSS,28,datasets/BCSS/rgbs_colorNormalized/TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500.png,datasets/BCSS/masks/TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500.png
+BCSS,29,datasets/BCSS/rgbs_colorNormalized/TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500.png
+BCSS,30,datasets/BCSS/rgbs_colorNormalized/TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500.png,datasets/BCSS/masks/TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500.png
+GlaS,31,datasets/Glas/test_b/img/testB_13.bmp,datasets/Glas/test_b/ann/testB_13.bmp.json
+GlaS,32,datasets/Glas/train/img/train_45.bmp,datasets/Glas/train/ann/train_45.bmp.json
+GlaS,33,datasets/Glas/test_b/img/testB_1.bmp,datasets/Glas/test_b/ann/testB_1.bmp.json
+GlaS,34,datasets/Glas/test_a/img/testA_11.bmp,datasets/Glas/test_a/ann/testA_11.bmp.json
+GlaS,35,datasets/Glas/test_b/img/testB_17.bmp,datasets/Glas/test_b/ann/testB_17.bmp.json
+GlaS,36,datasets/Glas/train/img/train_46.bmp,datasets/Glas/train/ann/train_46.bmp.json
+GlaS,37,datasets/Glas/train/img/train_10.bmp,datasets/Glas/train/ann/train_10.bmp.json
+GlaS,38,datasets/Glas/train/img/train_74.bmp,datasets/Glas/train/ann/train_74.bmp.json
+GlaS,39,datasets/Glas/test_a/img/testA_36.bmp,datasets/Glas/test_a/ann/testA_36.bmp.json
+GlaS,40,datasets/Glas/train/img/train_60.bmp,datasets/Glas/train/ann/train_60.bmp.json
+GlaS,41,datasets/Glas/test_a/img/testA_3.bmp,datasets/Glas/test_a/ann/testA_3.bmp.json
+GlaS,42,datasets/Glas/test_b/img/testB_2.bmp,datasets/Glas/test_b/ann/testB_2.bmp.json
+GlaS,43,datasets/Glas/train/img/train_55.bmp,datasets/Glas/train/ann/train_55.bmp.json
+GlaS,44,datasets/Glas/test_a/img/testA_8.bmp,datasets/Glas/test_a/ann/testA_8.bmp.json
+GlaS,45,datasets/Glas/test_b/img/testB_7.bmp,datasets/Glas/test_b/ann/testB_7.bmp.json
+GlaS,46,datasets/Glas/test_a/img/testA_5.bmp,datasets/Glas/test_a/ann/testA_5.bmp.json
+GlaS,47,datasets/Glas/train/img/train_63.bmp,datasets/Glas/train/ann/train_63.bmp.json
+GlaS,48,datasets/Glas/train/img/train_6.bmp,datasets/Glas/train/ann/train_6.bmp.json
+GlaS,49,datasets/Glas/train/img/train_30.bmp,datasets/Glas/train/ann/train_30.bmp.json
+GlaS,50,datasets/Glas/train/img/train_16.bmp,datasets/Glas/train/ann/train_16.bmp.json
+GlaS,51,datasets/Glas/train/img/train_17.bmp,datasets/Glas/train/ann/train_17.bmp.json
+GlaS,52,datasets/Glas/test_a/img/testA_30.bmp,datasets/Glas/test_a/ann/testA_30.bmp.json
+GlaS,53,datasets/Glas/test_b/img/testB_15.bmp,datasets/Glas/test_b/ann/testB_15.bmp.json
+GlaS,54,datasets/Glas/train/img/train_3.bmp,datasets/Glas/train/ann/train_3.bmp.json
+GlaS,55,datasets/Glas/test_a/img/testA_59.bmp,datasets/Glas/test_a/ann/testA_59.bmp.json
+GlaS,56,datasets/Glas/train/img/train_33.bmp,datasets/Glas/train/ann/train_33.bmp.json
+GlaS,57,datasets/Glas/train/img/train_41.bmp,datasets/Glas/train/ann/train_41.bmp.json
+GlaS,58,datasets/Glas/train/img/train_61.bmp,datasets/Glas/train/ann/train_61.bmp.json
+GlaS,59,datasets/Glas/train/img/train_66.bmp,datasets/Glas/train/ann/train_66.bmp.json
+GlaS,60,datasets/Glas/train/img/train_73.bmp,datasets/Glas/train/ann/train_73.bmp.json
+GlaS,61,datasets/Glas/train/img/train_15.bmp,datasets/Glas/train/ann/train_15.bmp.json
+GlaS,62,datasets/Glas/train/img/train_35.bmp,datasets/Glas/train/ann/train_35.bmp.json
+GlaS,63,datasets/Glas/test_b/img/testB_8.bmp,datasets/Glas/test_b/ann/testB_8.bmp.json
+DigestPath2019,64,datasets/DigestPath2019/tissue-train-pos-v1/D201803519_2019-05-14 15_14_44-lv1-33951-36629-2732-1964.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201803519_2019-05-14 15_14_44-lv1-33951-36629-2732-1964_mask.jpg
+DigestPath2019,65,datasets/DigestPath2019/tissue-train-pos-v1/2018_62532_1-1_2019-02-20 21_54_51-lv1-48484-29236-5435-5412.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2018_62532_1-1_2019-02-20 21_54_51-lv1-48484-29236-5435-5412_mask.jpg
+DigestPath2019,66,datasets/DigestPath2019/tissue-train-pos-v1/D20170951201_2019-05-14 14_41_50-lv1-35668-24223-3196-4870.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170951201_2019-05-14 14_41_50-lv1-35668-24223-3196-4870_mask.jpg
+DigestPath2019,67,datasets/DigestPath2019/tissue-train-pos-v1/D201802733_2019-05-14 15_48_17-lv1-36444-25037-3635-5520.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201802733_2019-05-14 15_48_17-lv1-36444-25037-3635-5520_mask.jpg
+DigestPath2019,68,datasets/DigestPath2019/tissue-train-pos-v1/18-09926A_2019-05-08 00_06_27-lv1-23990-14292-4181-5408.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-09926A_2019-05-08 00_06_27-lv1-23990-14292-4181-5408_mask.jpg
+DigestPath2019,69,datasets/DigestPath2019/tissue-train-pos-v1/D20180102901_2019-05-21 09_38_51-lv1-35281-21862-7783-5230.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20180102901_2019-05-21 09_38_51-lv1-35281-21862-7783-5230_mask.jpg
+DigestPath2019,70,datasets/DigestPath2019/tissue-train-pos-v1/2018_62532_1-1_2019-02-20 21_54_51-lv1-53445-28477-5625-5981.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2018_62532_1-1_2019-02-20 21_54_51-lv1-53445-28477-5625-5981_mask.jpg
+DigestPath2019,71,datasets/DigestPath2019/tissue-train-pos-v1/D201802734_2019-05-14 15_33_06-lv1-34389-27289-3641-4065.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201802734_2019-05-14 15_33_06-lv1-34389-27289-3641-4065_mask.jpg
+DigestPath2019,72,datasets/DigestPath2019/tissue-train-pos-v1/D20170568101_2019-05-14 12_34_44-lv1-32981-23308-6289-3057.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170568101_2019-05-14 12_34_44-lv1-32981-23308-6289-3057_mask.jpg
+DigestPath2019,73,datasets/DigestPath2019/tissue-train-pos-v1/18-09926B_2019-05-08 00_13_33-lv1-11741-24001-4020-5474.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-09926B_2019-05-08 00_13_33-lv1-11741-24001-4020-5474_mask.jpg
+DigestPath2019,74,datasets/DigestPath2019/tissue-train-pos-v1/D201711541_2019-05-21 11_28_51-lv1-39189-27851-3979-5553.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201711541_2019-05-21 11_28_51-lv1-39189-27851-3979-5553_mask.jpg
+DigestPath2019,75,datasets/DigestPath2019/tissue-train-pos-v1/D20170951201_2019-05-14 14_41_50-lv1-28397-29427-7624-5334.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170951201_2019-05-14 14_41_50-lv1-28397-29427-7624-5334_mask.jpg
+DigestPath2019,76,datasets/DigestPath2019/tissue-train-pos-v1/18-01080B_2019-05-07 21_33_52-lv1-11930-21381-3264-4008.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-01080B_2019-05-07 21_33_52-lv1-11930-21381-3264-4008_mask.jpg
+DigestPath2019,77,datasets/DigestPath2019/tissue-train-pos-v1/D20171243404_2019-05-21 11_08_16-lv1-28314-26023-5734-5120.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20171243404_2019-05-21 11_08_16-lv1-28314-26023-5734-5120_mask.jpg
+DigestPath2019,78,datasets/DigestPath2019/tissue-train-pos-v1/1800883002_2019-04-30 09_57_31-lv1-28885-30819-3472-3263.jpg,datasets/DigestPath2019/tissue-train-pos-v1/1800883002_2019-04-30 09_57_31-lv1-28885-30819-3472-3263_mask.jpg
+DigestPath2019,79,datasets/DigestPath2019/tissue-train-pos-v1/2019_04115_1-1_2019-02-20 20_13_37-lv1-40690-7875-4758-4116.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2019_04115_1-1_2019-02-20 20_13_37-lv1-40690-7875-4758-4116_mask.jpg
+DigestPath2019,80,datasets/DigestPath2019/tissue-train-pos-v1/2018_74969_1-1_2019-02-21 00_48_39-lv1-35186-14908-3285-3747.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2018_74969_1-1_2019-02-21 00_48_39-lv1-35186-14908-3285-3747_mask.jpg
+DigestPath2019,81,datasets/DigestPath2019/tissue-train-pos-v1/18-13575B_2019-05-08 01_53_27-lv1-15618-6850-9892-9644.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-13575B_2019-05-08 01_53_27-lv1-15618-6850-9892-9644_mask.jpg
+DigestPath2019,82,datasets/DigestPath2019/tissue-train-pos-v1/2018_73834_1-1_2019-02-21 00_16_28-lv1-51263-10561-2816-4137.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2018_73834_1-1_2019-02-21 00_16_28-lv1-51263-10561-2816-4137_mask.jpg
+DigestPath2019,83,datasets/DigestPath2019/tissue-train-pos-v1/D201803511_2019-05-14 15_24_16-lv1-35489-31012-3664-4696.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201803511_2019-05-14 15_24_16-lv1-35489-31012-3664-4696_mask.jpg
+DigestPath2019,84,datasets/DigestPath2019/tissue-train-pos-v1/D20170568101_2019-05-14 12_34_44-lv1-35797-21670-3404-1975.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170568101_2019-05-14 12_34_44-lv1-35797-21670-3404-1975_mask.jpg
+DigestPath2019,85,datasets/DigestPath2019/tissue-train-pos-v1/D20170503802_2019-05-14 11_50_43-lv1-36345-35501-7085-3382.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170503802_2019-05-14 11_50_43-lv1-36345-35501-7085-3382_mask.jpg
+DigestPath2019,86,datasets/DigestPath2019/tissue-train-pos-v1/D20170584502_2019-05-14 12_43_57-lv1-8718-14653-7634-8076.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170584502_2019-05-14 12_43_57-lv1-8718-14653-7634-8076_mask.jpg
+DigestPath2019,87,datasets/DigestPath2019/tissue-train-pos-v1/18-13347A_2019-05-08 01_31_58-lv1-14057-17758-5693-6244.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-13347A_2019-05-08 01_31_58-lv1-14057-17758-5693-6244_mask.jpg
+DigestPath2019,88,datasets/DigestPath2019/tissue-train-pos-v1/2019_03721_1-1_2019-02-20 19_49_57-lv1-15430-12816-2912-5396.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2019_03721_1-1_2019-02-20 19_49_57-lv1-15430-12816-2912-5396_mask.jpg
+DigestPath2019,89,datasets/DigestPath2019/tissue-train-pos-v1/D20180792401_2019-05-21 13_38_34-lv1-29203-23944-15780-12986.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20180792401_2019-05-21 13_38_34-lv1-29203-23944-15780-12986_mask.jpg
+DigestPath2019,90,datasets/DigestPath2019/tissue-train-pos-v1/2019_05944_1-1_2019-02-20 20_42_06-lv1-39021-20282-4099-4249.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2019_05944_1-1_2019-02-20 20_42_06-lv1-39021-20282-4099-4249_mask.jpg
+DigestPath2019,91,datasets/DigestPath2019/tissue-train-pos-v1/2018_83253_1-1_2019-02-20 18_38_45-lv1-4605-26032-2864-4185.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2018_83253_1-1_2019-02-20 18_38_45-lv1-4605-26032-2864-4185_mask.jpg
+DigestPath2019,92,datasets/DigestPath2019/tissue-train-pos-v1/18-14278B_2019-05-08 02_13_11-lv1-17874-10382-3996-6342.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-14278B_2019-05-08 02_13_11-lv1-17874-10382-3996-6342_mask.jpg
+DigestPath2019,93,datasets/DigestPath2019/tissue-train-pos-v1/18-13575A_2019-05-08 01_48_09-lv1-24486-16942-4263-6628.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-13575A_2019-05-08 01_48_09-lv1-24486-16942-4263-6628_mask.jpg
+DigestPath2019,94,datasets/DigestPath2019/tissue-train-pos-v1/18-04026B_2019-05-07 23_23_28-lv1-13021-19782-7330-3868.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-04026B_2019-05-07 23_23_28-lv1-13021-19782-7330-3868_mask.jpg
+DigestPath2019,95,datasets/DigestPath2019/tissue-train-pos-v1/18-01592A_2019-05-07 21_59_18-lv1-23233-12843-3775-4395.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-01592A_2019-05-07 21_59_18-lv1-23233-12843-3775-4395_mask.jpg
+DigestPath2019,96,datasets/DigestPath2019/tissue-train-pos-v1/18-01592B_2019-05-07 22_04_43-lv1-17807-19672-6802-4901.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-01592B_2019-05-07 22_04_43-lv1-17807-19672-6802-4901_mask.jpg
+DigestPath2019,97,datasets/DigestPath2019/tissue-train-pos-v1/2018_74432_1-1_2019-02-21 00_38_07-lv1-38682-26559-4011-3624.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2018_74432_1-1_2019-02-21 00_38_07-lv1-38682-26559-4011-3624_mask.jpg
+DigestPath2019,98,datasets/DigestPath2019/tissue-train-pos-v1/2019_04115_1-1_2019-02-20 20_13_37-lv1-40791-4298-4465-3509.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2019_04115_1-1_2019-02-20 20_13_37-lv1-40791-4298-4465-3509_mask.jpg
+DigestPath2019,99,datasets/DigestPath2019/tissue-train-pos-v1/18-03912B_2019-05-07 23_00_51-lv1-27843-12739-3728-6223.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-03912B_2019-05-07 23_00_51-lv1-27843-12739-3728-6223_mask.jpg
+DigestPath2019,100,datasets/DigestPath2019/tissue-train-pos-v1/2019_01246_1-1_2019-02-20 19_23_52-lv1-43392-4103-4387-2023.jpg,datasets/DigestPath2019/tissue-train-pos-v1/2019_01246_1-1_2019-02-20 19_23_52-lv1-43392-4103-4387-2023_mask.jpg
+DigestPath2019,101,datasets/DigestPath2019/tissue-train-pos-v1/D201802733_2019-05-14 15_48_17-lv1-29888-27054-2996-4638.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201802733_2019-05-14 15_48_17-lv1-29888-27054-2996-4638_mask.jpg
+DigestPath2019,102,datasets/DigestPath2019/tissue-train-pos-v1/D20180715202_2019-05-21 13_14_56-lv1-26524-21829-4504-4625.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20180715202_2019-05-21 13_14_56-lv1-26524-21829-4504-4625_mask.jpg
+DigestPath2019,103,datasets/DigestPath2019/tissue-train-pos-v1/D20170518201_2019-05-14 12_05_30-lv1-39601-28026-5393-3901.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170518201_2019-05-14 12_05_30-lv1-39601-28026-5393-3901_mask.jpg
+DigestPath2019,104,datasets/DigestPath2019/tissue-train-pos-v1/18-04842A_2019-05-07 23_36_39-lv1-15051-4296-6932-6084.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-04842A_2019-05-07 23_36_39-lv1-15051-4296-6932-6084_mask.jpg
+DigestPath2019,105,datasets/DigestPath2019/tissue-train-pos-v1/D201707788_2019-05-14 14_05_34-lv1-14456-57-11246-23473.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201707788_2019-05-14 14_05_34-lv1-14456-57-11246-23473_mask.jpg
+DigestPath2019,106,datasets/DigestPath2019/tissue-train-pos-v1/18-09530A_2019-05-07 23_50_03-lv1-36901-16600-1692-2186.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-09530A_2019-05-07 23_50_03-lv1-36901-16600-1692-2186_mask.jpg
+DigestPath2019,107,datasets/DigestPath2019/tissue-train-pos-v1/18-14278A_2019-05-08 02_07_39-lv1-8938-10396-3934-5758.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-14278A_2019-05-08 02_07_39-lv1-8938-10396-3934-5758_mask.jpg
+DigestPath2019,108,datasets/DigestPath2019/tissue-train-pos-v1/18-16638A_2019-05-08 02_54_25-lv1-18037-16370-3576-4362.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-16638A_2019-05-08 02_54_25-lv1-18037-16370-3576-4362_mask.jpg
+DigestPath2019,109,datasets/DigestPath2019/tissue-train-pos-v1/1800127001_2019-04-30 10_40_02-lv1-7573-15422-4121-2549.jpg,datasets/DigestPath2019/tissue-train-pos-v1/1800127001_2019-04-30 10_40_02-lv1-7573-15422-4121-2549_mask.jpg
+DigestPath2019,110,datasets/DigestPath2019/tissue-train-pos-v1/D201707788_2019-05-14 14_05_34-lv1-2777-15975-12688-9314.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D201707788_2019-05-14 14_05_34-lv1-2777-15975-12688-9314_mask.jpg
+DigestPath2019,111,datasets/DigestPath2019/tissue-train-pos-v1/18-01592A_2019-05-07 21_59_18-lv1-20007-8774-7056-3136.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-01592A_2019-05-07 21_59_18-lv1-20007-8774-7056-3136_mask.jpg
+DigestPath2019,112,datasets/DigestPath2019/tissue-train-pos-v1/18-04842B_2019-05-07 23_40_49-lv1-22633-15157-4325-3516.jpg,datasets/DigestPath2019/tissue-train-pos-v1/18-04842B_2019-05-07 23_40_49-lv1-22633-15157-4325-3516_mask.jpg
+DigestPath2019,113,datasets/DigestPath2019/tissue-train-pos-v1/D20170502603_2019-05-14 11_39_00-lv1-19545-91-19192-28621.jpg,datasets/DigestPath2019/tissue-train-pos-v1/D20170502603_2019-05-14 11_39_00-lv1-19545-91-19192-28621_mask.jpg
+WSSS4LUAD,114,datasets/WSSS4LUAD/2.validation/2.validation/img/05.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/05.png
+WSSS4LUAD,115,datasets/WSSS4LUAD/2.validation/2.validation/img/06.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/06.png
+WSSS4LUAD,116,datasets/WSSS4LUAD/2.validation/2.validation/img/08.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/08.png
+WSSS4LUAD,117,datasets/WSSS4LUAD/2.validation/2.validation/img/14.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/14.png
+WSSS4LUAD,118,datasets/WSSS4LUAD/2.validation/2.validation/img/15.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/15.png
+WSSS4LUAD,119,datasets/WSSS4LUAD/2.validation/2.validation/img/17.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/17.png
+WSSS4LUAD,120,datasets/WSSS4LUAD/2.validation/2.validation/img/01.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/01.png
+WSSS4LUAD,121,datasets/WSSS4LUAD/2.validation/2.validation/img/07.png,datasets/WSSS4LUAD/2.validation/2.validation/mask/07.png
+ICIAR2018_WSI,122,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A01_image.png,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A01_mask.png
+ICIAR2018_WSI,123,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A02_image.png,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A02_mask.png

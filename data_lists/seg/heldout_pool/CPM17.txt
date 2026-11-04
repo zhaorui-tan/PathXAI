@@ -1,0 +1,13 @@
+datasets/CPM17/cpm17/train/Images/image_05.png
+datasets/CPM17/cpm17/test/Images/image_02.png
+datasets/CPM17/cpm17/test/Images/image_24.png
+datasets/CPM17/cpm17/test/Images/image_11.png
+datasets/CPM17/cpm17/train/Images/image_06.png
+datasets/CPM17/cpm17/test/Images/image_29.png
+datasets/CPM17/cpm17/train/Images/image_08.png
+datasets/CPM17/cpm17/test/Images/image_31.png
+datasets/CPM17/cpm17/train/Images/image_15.png
+datasets/CPM17/cpm17/train/Images/image_17.png
+datasets/CPM17/cpm17/test/Images/image_15.png
+datasets/CPM17/cpm17/train/Images/image_01.png
+datasets/CPM17/cpm17/train/Images/image_14.png

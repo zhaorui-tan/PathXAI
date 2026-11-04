@@ -1,0 +1,3 @@
+datasets/CPM15/cpm15/Images/image_00.png
+datasets/CPM15/cpm15/Images/image_01.png
+datasets/CPM15/cpm15/Images/image_10.png

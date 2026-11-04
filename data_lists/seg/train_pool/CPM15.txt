@@ -1,0 +1,12 @@
+datasets/CPM15/cpm15/Images/image_08.png
+datasets/CPM15/cpm15/Images/image_13.png
+datasets/CPM15/cpm15/Images/image_07.png
+datasets/CPM15/cpm15/Images/image_06.png
+datasets/CPM15/cpm15/Images/image_14.png
+datasets/CPM15/cpm15/Images/image_12.png
+datasets/CPM15/cpm15/Images/image_05.png
+datasets/CPM15/cpm15/Images/image_02.png
+datasets/CPM15/cpm15/Images/image_09.png
+datasets/CPM15/cpm15/Images/image_03.png
+datasets/CPM15/cpm15/Images/image_04.png
+datasets/CPM15/cpm15/Images/image_11.png

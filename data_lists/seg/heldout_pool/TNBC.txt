@@ -1,0 +1,10 @@
+datasets/TNBC/TNBC_dataset/Slide_01/01_6.png
+datasets/TNBC/TNBC_dataset/Slide_08/08_2.png
+datasets/TNBC/TNBC_dataset/Slide_01/01_7.png
+datasets/TNBC/TNBC_dataset/Slide_02/02_2.png
+datasets/TNBC/TNBC_dataset/Slide_03/03_5.png
+datasets/TNBC/TNBC_dataset/Slide_04/04_1.png
+datasets/TNBC/TNBC_dataset/Slide_04/04_3.png
+datasets/TNBC/TNBC_dataset/Slide_01/01_2.png
+datasets/TNBC/TNBC_dataset/Slide_02/02_1.png
+datasets/TNBC/TNBC_dataset/Slide_09/09_4.png

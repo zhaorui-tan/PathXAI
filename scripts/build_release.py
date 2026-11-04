@@ -9,7 +9,7 @@ import sys
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_DIRS = {".github", "examples", "configs", "docs", "environments", "evaluation", "model_release",
+SOURCE_DIRS = {".github", "examples", "configs", "data_lists", "docs", "environments", "evaluation", "model_release",
                "pathxai_tutorial", "provenance", "scoring", "scripts", "tests", "vendor"}
 SOURCE_FILES = {"README.md", "PathXAI_report.ipynb", ".gitignore"}
 EXCLUDED_DIRS = {"__pycache__", ".ipynb_checkpoints", ".git"}
@@ -50,6 +50,7 @@ def main():
     p.add_argument("--output-dir", required=True, type=Path)
     a = p.parse_args()
     subprocess.run([sys.executable,str(ROOT / "scripts/audit_delivery.py")],check=True)
+    subprocess.run([sys.executable,str(ROOT / "scripts/audit_data_lists.py")],check=True)
     subprocess.run([sys.executable,str(ROOT / "model_release/stage_upload.py")],check=True)
     a.output_dir.mkdir(parents=True,exist_ok=True)
     source = archive(a.output_dir / "PathXAI_tutorial_source.zip",

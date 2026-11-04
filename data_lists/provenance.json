@@ -1,0 +1,399 @@
+{
+  "schema": "pathxai-public-data-source-inventory-v1",
+  "report": [
+    {
+      "cohort": "original508_development",
+      "patients": 508,
+      "slides": 1039,
+      "projects": 30,
+      "slide_types": {
+        "TS": 424,
+        "DX": 459,
+        "other": 156
+      }
+    },
+    {
+      "cohort": "new1200_confirmation",
+      "patients": 1200,
+      "slides": 3121,
+      "projects": 22,
+      "slide_types": {
+        "DX": 1337,
+        "TS": 1339,
+        "other": 445
+      }
+    }
+  ],
+  "seg_pool_counts": {
+    "train_pool": 360122,
+    "heldout_pool": 90040
+  },
+  "seg_dataset_count": 24,
+  "report_source_inventory": {
+    "patients": 9009,
+    "listed_slides": 10949,
+    "in_study_patients": 1708
+  },
+  "sources": [
+    {
+      "collection": "report",
+      "source": "PathXAI_Seg2Report/results/tcga_so1_so4_a5bridge_508_20260920/manifests/patients.jsonl",
+      "bytes": 8748023,
+      "sha256": "b1a1d3f7d41a2ee602ae1e3ec0034ae3891e3b9c74fa1be815816bb42dd598a8"
+    },
+    {
+      "collection": "report",
+      "source": "PathXAI_Seg2Report/results/tcga_expansion_20260924_1200_d1/manifests/patients.jsonl",
+      "bytes": 2005019,
+      "sha256": "ba1ddd29c21dd07677d871af69007f04c336f595bb4b84d0895104be836e19d1"
+    },
+    {
+      "collection": "report_inventory",
+      "source": "wsi_caption_report_manifest.jsonl",
+      "bytes": 83774548,
+      "sha256": "26d040da96a30c95fede8f78a70dd50e5bb0920da352d0ae118d62b5c87c52d1"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/BCSS_test.txt",
+      "bytes": 3410,
+      "sha256": "1bc3c4885b7ef6cd8a6a7727b26e95b4adbb274af9bf7be2db69b939c1cb87b1"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/BCSS_train.txt",
+      "bytes": 13188,
+      "sha256": "84a5a65316e0e70fb24e9e01658b89984460d3e67bf301fbd8d0ce849b7b8573"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CPM15_test.txt",
+      "bytes": 192,
+      "sha256": "cd3f349ea92a43a4add15ee7a1039cd417465206d78df79c7206de4dfe0d3c2c"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CPM15_train.txt",
+      "bytes": 768,
+      "sha256": "f52a00b789269ff0afc9dcc242a87e66846c23da284a4e66a804366c32948879"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CPM17_test.txt",
+      "bytes": 904,
+      "sha256": "4df97977ec8b73d5e2b54fe83a0334efd60df10ea6df78cfcaa67c430b7a5092"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CPM17_train.txt",
+      "bytes": 3544,
+      "sha256": "ad1fb3aaeb25794f327eb1f23b45a73713da115582a01f6ced81fee9aa502743"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CRC100K_test.txt",
+      "bytes": 1547794,
+      "sha256": "f1fcac5a4e6651689d5089dd8845954f0953407ccb4cecf40a95a0e8e29bf916"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CRC100K_train.txt",
+      "bytes": 6190864,
+      "sha256": "0a8db04f9809eac0acc90f1edaa56bd8cbaded956fc1ef7c8f6fd967a307bf51"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CoNIC2022_test.txt",
+      "bytes": 4761,
+      "sha256": "b17c23d27423a0c6a009952f01154515a977b32e87276d0846521ea29d621edf"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/CoNIC2022_train.txt",
+      "bytes": 19034,
+      "sha256": "2e3e8d63ef1f9fed71b6e0a6fb7878b96c69f570e4e5e3430962c49f8c76e00b"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/DigestPath2019_test.txt",
+      "bytes": 6441,
+      "sha256": "b6641bcbb192cf49dcf6abf5a290bc184d30573f0b1b1f0c4aef8a93bf28a8e9"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/DigestPath2019_train.txt",
+      "bytes": 25833,
+      "sha256": "13c43dace31424e46f296d7534df45b5c657983f92476934f36045a33d16450b"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/GlaS_test.txt",
+      "bytes": 1985,
+      "sha256": "b72059e457faa245524f75e166ed889b422ecbf0838aec256d274d64aa0de548"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/GlaS_train.txt",
+      "bytes": 7968,
+      "sha256": "0c2af5c439a6ed8324a41a556c47195e2e338059a741f0f9e0cf6ecdab898202"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/ICIAR2018_WSI_test.txt",
+      "bytes": 168,
+      "sha256": "2d0abd2d0ba870e0d73a57408a7adc4ae3e218d86dc8969d7b975ce1edc2689e"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/ICIAR2018_WSI_train.txt",
+      "bytes": 672,
+      "sha256": "7318564b43f7903a34adc42f71185b73b143a74814b81d7752edf0bb4919dedf"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/ICIAR2018_test.txt",
+      "bytes": 6457,
+      "sha256": "f2c38e8157a80807128c8926c930acffd524345cb0859d499888d1b6607a31e9"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/ICIAR2018_train.txt",
+      "bytes": 25943,
+      "sha256": "fce84d36da7ed2ccfb331c78ff96b36fbfc848f72d36fcce103104759de784e9"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Janowczyk_test.txt",
+      "bytes": 2375,
+      "sha256": "d146558dd3cb3d74613bec89b8308223bb99cfbdf345ab96774006185bf2615c"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Janowczyk_train.txt",
+      "bytes": 9156,
+      "sha256": "26870d380c99938e465b8643bba6ee613cfcd332f04d676a06d49aa18e45d0ff"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Kumar_test.txt",
+      "bytes": 518,
+      "sha256": "3dd13686c079eb845305c5ab202bcaf6fd9c4cb2e8c44edc638931bf39c7db46"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Kumar_train.txt",
+      "bytes": 2088,
+      "sha256": "61bebf37d75cd2b8a601164322e74acea57414f26b9e9b49149563a465b31d9d"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Lizard_test.txt",
+      "bytes": 3538,
+      "sha256": "c8d3f62fc33bd6c79fd2f6a3104f4c0baeac54d847bdd71f94ff1d1cb362320b"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Lizard_train.txt",
+      "bytes": 13976,
+      "sha256": "9870769da41ef77aeb128785a370246b6de72c187f7ef3c92b26f48a436b849f"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/LungColon_test.txt",
+      "bytes": 506363,
+      "sha256": "03408d9f04df5c2646e1c0d5e7a00b3021ff0eb2e6199f17fcffd4c61a539f59"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/LungColon_train.txt",
+      "bytes": 2023118,
+      "sha256": "1d274ccc016e230a93bc867b73582a95cf5ecf7f44060a71297153db9933c406"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/MHIST_test.txt",
+      "bytes": 37229,
+      "sha256": "1bc5507108a1c445a7aa45d130e1b98dd8fe918e9b5801d877b22dc880bae9b9"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/MHIST_train.txt",
+      "bytes": 148739,
+      "sha256": "3e523627e603e1cd15c6a7571d6bd3ebdd8f6aa16fb7ddda76e3ce11caaffb80"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/MoNuSAC_test.txt",
+      "bytes": 5260,
+      "sha256": "ba6bccac1d84e982a9ffb1d7cae51f6612d086992b4b93b876df6d2d04f481b2"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/MoNuSAC_train.txt",
+      "bytes": 20916,
+      "sha256": "81e7b4a8237200859edc81c47b249a8cdfbcbd704c610b7d5a8cb51a5f53e04e"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/NuCLS_test.txt",
+      "bytes": 45327,
+      "sha256": "534615aeff6d1429e9ddc3b4175d3e591126ed5b63abd265c815c1923ddd2488"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/NuCLS_train.txt",
+      "bytes": 180839,
+      "sha256": "75664f4ce42d24f5a8667201f07bf10d590bdb4ea93082d2ee09b93e342938c9"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Osteosarcoma_test.txt",
+      "bytes": 10691,
+      "sha256": "d0ad6846a8cd91024fc1af26c99819ef520dffeb15706059f758b5bc77922edc"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/Osteosarcoma_train.txt",
+      "bytes": 42645,
+      "sha256": "04c2ab79bb15c187193626d13a149dc3c314f1253a632b772c05e8335dbd9d0b"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/PanNuke_test.txt",
+      "bytes": 2432,
+      "sha256": "c59cee0cb106bd4be854214d9f5f39f96c4ad9557537825e17923b387bc3191e"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/PanNuke_train.txt",
+      "bytes": 9738,
+      "sha256": "ab87cb36996c2d3ef1737b072a9eddc127234e2c8462bacc62ca6d45bc2212fe"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/PatchCamelyon17_test.txt",
+      "bytes": 91026,
+      "sha256": "8b0f49402d2e6474d21b06b34407c838cbe47d415fe13ebb90c36961d7dd6e99"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/PatchCamelyon17_train.txt",
+      "bytes": 363753,
+      "sha256": "9e1b4614dd246b0665d3518a3fb0f82f802a8bd3713c2bf432a07db636a590c4"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/SICAPv2_test.txt",
+      "bytes": 234471,
+      "sha256": "ad3efbd4adc5f1a67a52cfd3c045ee87816771bea9e52afcfc988bdf9cfa36d8"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/SICAPv2_train.txt",
+      "bytes": 937712,
+      "sha256": "128062547d02fa2ae1d4d0bff10bfa5a3fa4fb01318c4c2a8d81eb23c0129d5d"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/SegPath_test.txt",
+      "bytes": 3098844,
+      "sha256": "37c3e3674be42f6c0d9981606fef032593ef55d2d2c727f525447fd81ae166cd"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/SegPath_train.txt",
+      "bytes": 12390415,
+      "sha256": "acb68c45616eabef2d3e9c09b48b5eadd5d399ff7b5efa9cdcf6461ea3bf2ca4"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/SkinCancer_test.txt",
+      "bytes": 3686134,
+      "sha256": "e424c0303c86e8e2ddcb8825ab1ccbb61714b9c4da29f5e3e4cd7444421a07cb"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/SkinCancer_train.txt",
+      "bytes": 14753355,
+      "sha256": "5a74e6585f267104a9b19bcd9211972fc6f3caffb856d5ae633dc9e9b53146f9"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/TNBC_test.txt",
+      "bytes": 680,
+      "sha256": "45f8283fbd132508e18380897dac6ab900a1eeeae52f5f0be318ac7e52f100f1"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/TNBC_train.txt",
+      "bytes": 2720,
+      "sha256": "e604fd7b8db6b68bdf3df136937d93a0e7682d5372fd03f25c5b10e14090f0a6"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/WSSS4LUAD_test.txt",
+      "bytes": 632,
+      "sha256": "a97f9e465e33675888572f63aa1825a4638d4e181d6380dedbb32bab249f5a02"
+    },
+    {
+      "collection": "seg",
+      "source": "datasets/splits/WSSS4LUAD_train.txt",
+      "bytes": 2528,
+      "sha256": "1ce2599d27342e02f5bd75b406c982a0cb6c6d4581958a4f79783630bdfc06e9"
+    },
+    {
+      "collection": "seg_validation_cache",
+      "source": "medsam3_combined_runs_4096_fusion_fixed_data_fixed2/stage3_ablation_group_d/setup_cache/stage3_setup_c48121970c817995.json",
+      "bytes": 6364,
+      "sha256": "4bb824875b341627f9d7eeeb3eabf9b1faae03c044e6f61deab4967e7ad84ee1"
+    },
+    {
+      "collection": "seg_validation_cache",
+      "source": "baseline_experiments/medsam3/medsam3_d1_refined/setup_cache/stage3_setup_c48121970c817995.json",
+      "bytes": 6364,
+      "sha256": "4bb824875b341627f9d7eeeb3eabf9b1faae03c044e6f61deab4967e7ad84ee1"
+    },
+    {
+      "collection": "seg_validation_identity_mapping",
+      "source": "PathXSeg/sample_id_splits/manifest.tsv",
+      "bytes": 102775757,
+      "sha256": "cda4ed395738b1f515c6723ab4a96d15485a492dc4fcdc1a3bd73cc413700540"
+    },
+    {
+      "collection": "seg_aligned_evaluation",
+      "source": "PathXSeg/results/evaluation_manifests/internal_eval_manifest_124_cases.csv",
+      "bytes": 26957,
+      "sha256": "3ab12d97642f1fc4a468f9928dbdd00e13d17fa077b87dd5c436f28e1bfbda8b"
+    },
+    {
+      "collection": "seg_aligned_evaluation",
+      "source": "PathXSeg/results/evaluation_manifests/external_patch_roi_eval_manifest.csv",
+      "bytes": 1809333,
+      "sha256": "6c415a21beae9b03d2298ff5982a985d42fded398121ecc0f09046729b3fa0f7"
+    },
+    {
+      "collection": "seg_run_config",
+      "source": "medsam3_combined_runs_4096_fusion_fixed_data_fixed2/stage3_ablation_group_d/stage3_ablation_D1/run_20260619_144518_stage3_tissue/train_config.json",
+      "bytes": 3165,
+      "sha256": "71864fb98437e8f5503adc3d63dba38a46767fb6f564f8cddaf92f6220da0606"
+    },
+    {
+      "collection": "seg_run_config",
+      "source": "baseline_experiments/medsam3/medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue/train_config.json",
+      "bytes": 3191,
+      "sha256": "23201a7a3cc699a2a1803aa458a3883890386eab1565a6b05ce1792343173801"
+    },
+    {
+      "collection": "seg_aggc_window_evaluation",
+      "source": "PathXSeg/results/evaluation_manifests/aggc2022_test_tumor_20w_seed42.csv",
+      "bytes": 892120,
+      "sha256": "11dd9f548c8aa8b837956a416af6811cd7ea3e786c36037544ad4158a8eff6cc"
+    },
+    {
+      "collection": "seg_supplemental_window_id_recovery",
+      "source": "baseline_experiments/medsam3/medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue/test_results/external_wsi_best_model_d1_final_20260804_221602_CAMELYON16_WSI_win200_stride2048/test_seg_per_image_nocond.csv",
+      "bytes": 2028728,
+      "sha256": "b19480d8c252fdcdb2210d710de5284a161c8c48ece4dab905d31380567ad025"
+    }
+  ]
+}

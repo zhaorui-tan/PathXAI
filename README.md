@@ -33,10 +33,13 @@ The patient-level sample is for a software walkthrough. The notebook supplies th
 - `vendor/report_engine/` — frozen pipeline snapshot, HTML renderer, input assets and source manifests. The MedSAM3 source subtree under `vendor/report_engine/baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/` is omitted from the public source archive; setup prepares the runtime copy separately from pinned upstream source and tutorial patches. Model weights are separate files.
 - `environments/` and [installation](docs/INSTALLATION.md) — separate Python 3.10 and 3.12 specs plus import/version checks.
 - `evaluation/` and [evaluation guide](docs/EVALUATION.md) — automatic, deterministic report-to-reference agreement metrics.
+- `data_lists/` — [public report and segmentation data lists](data_lists/README.md), including study cohorts, the complete public report source inventory, segmentation splits and evaluation windows.
 - `scoring/` and [scoring guide](scoring/README.md) — local tools for physician reference scoring and blinded comparison of five reports.
 - `model_release/` — D1 adapter manifest and Hugging Face staging materials. The adapter file is excluded from Git and published at `RayTan/PathXAI-Seg`; its verified immutable revision is recorded in `provenance/hf_model_release.json`. SAM3 and CONCH base weights are not included.
 
 ## Evaluation and human scoring
+
+The **[report data lists](data_lists/report/README.md)** include 1,708 study cases and 4,160 associated/source WSIs, plus the separately marked 9,009-case public screening inventory. The **[segmentation lists](data_lists/seg/README.md)** include all 24 recorded dataset split pools, fixed validation subsets, internal/external evaluation and supplemental window IDs. Dataset sources, counts, provenance limits and checksums accompany the lists. Raw datasets are obtained from their original providers.
 
 Automatic evaluation requires an independently curated reference for the same case; it is separate from inference and is skipped by default in the notebook. See [EVALUATION.md](docs/EVALUATION.md) for metrics and limitations. The two local scoring apps support clinician review and blinded report comparison. Their annotations are physician/user scores; they must not be confused with automatic evaluator metrics.
 

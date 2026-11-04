@@ -1,0 +1,6 @@
+datasets/Kumar/kumar/train/Images/TCGA-AR-A1AS-01Z-00-DX1.tif
+datasets/Kumar/kumar/train/Images/TCGA-B0-5711-01Z-00-DX1.tif
+datasets/Kumar/kumar/test_same/Images/TCGA-G9-6362-01Z-00-DX1.tif
+datasets/Kumar/kumar/train/Images/TCGA-18-5592-01Z-00-DX1.tif
+datasets/Kumar/kumar/train/Images/TCGA-50-5931-01Z-00-DX1.tif
+datasets/Kumar/kumar/test_same/Images/TCGA-CH-5767-01Z-00-DX1.tif

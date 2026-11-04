@@ -1,0 +1,8 @@
+datasets/WSSS4LUAD/2.validation/2.validation/img/05.png
+datasets/WSSS4LUAD/2.validation/2.validation/img/06.png
+datasets/WSSS4LUAD/2.validation/2.validation/img/08.png
+datasets/WSSS4LUAD/2.validation/2.validation/img/14.png
+datasets/WSSS4LUAD/2.validation/2.validation/img/15.png
+datasets/WSSS4LUAD/2.validation/2.validation/img/17.png
+datasets/WSSS4LUAD/2.validation/2.validation/img/01.png
+datasets/WSSS4LUAD/2.validation/2.validation/img/07.png

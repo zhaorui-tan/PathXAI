@@ -1,0 +1,2 @@
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A01_image.png
+datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A02_image.png

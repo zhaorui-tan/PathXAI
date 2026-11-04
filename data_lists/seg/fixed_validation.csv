@@ -1,0 +1,91 @@
+split,dataset,image_id,subset_of
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-EW-A1P1-DX1_xmin50567_ymin38988_MPP-0.2500.png,train_pool
+val_model_selection,DigestPath2019,datasets/DigestPath2019/tissue-train-pos-v1/D20170518201_2019-05-14 12_05_30-lv1-39509-31959-5934-5127.jpg,train_pool
+val_model_selection,DigestPath2019,datasets/DigestPath2019/tissue-train-pos-v1/D201709874_2019-05-21 12_42_42-lv1-26505-15151-4357-3590.jpg,train_pool
+val_model_selection,DigestPath2019,datasets/DigestPath2019/tissue-train-pos-v1/2018_70770_1-1_2019-02-20 23_53_21-lv1-31445-3075-5089-5065.jpg,train_pool
+val_model_selection,ICIAR2018_WSI,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A08_image.png,train_pool
+val_model_selection,ICIAR2018_WSI,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A05_image.png,train_pool
+val_model_selection,ICIAR2018_WSI,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A04_image.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/04.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/23.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/19.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-A7-A4SD-DX1_xmin53807_ymin11871_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-E2-A1LS-DX1_xmin39247_ymin47756_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-AO-A0J4-DX1_xmin17194_ymin10629_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-BH-A1F6-DX1_xmin53806_ymin49901_MPP-0.2500.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/26.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/16.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/11.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-AO-A129-DX1_xmin37502_ymin12501_MPP-0.2500.png,train_pool
+val_model_selection,ICIAR2018_WSI,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A10_image.png,train_pool
+val_model_selection,ICIAR2018_WSI,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A06_image.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/35.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/34.png,train_pool
+val_model_selection,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/02.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-HN-A2NL-DX1_xmin11931_ymin5764_MPP-0.2500.png,train_pool
+val_model_selection,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500.png,train_pool
+val_model_selection,GlaS,datasets/Glas/test_a/img/testA_12.bmp,train_pool
+val_model_selection,GlaS,datasets/Glas/train/img/train_69.bmp,train_pool
+val_model_selection,GlaS,datasets/Glas/test_a/img/testA_31.bmp,train_pool
+val_model_selection,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/tumor_skin_melanoma_melanoma/tumor_skin_melanoma_melanoma_ws_78_165.jpg,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/NORM/NORM-RISIQGPD.tif,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/BACK/BACK-HQQKYAGI.tif,train_pool
+val_model_selection,SegPath,datasets/SegPath/CD3CD20_Lymphocyte/CD3CD20_Lymphocyte_275_116736_024576_HE.png,train_pool
+val_model_selection,SegPath,datasets/SegPath/CD235a_RBC/CD235a_RBC_274_031744_046080_HE.png,train_pool
+val_model_selection,SegPath,datasets/SegPath/CD235a_RBC/CD235a_RBC_081_113664_035840_HE.png,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/TUM/TUM-KCKKWNSN.tif,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/NORM/NORM-CGMIRHWH.tif,train_pool
+val_model_selection,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/nontumor_skin_necrosis_necrosis/nontumor_skin_necrosis_necrosis_ws_372_132.jpg,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/MUS/MUS-GDSVLHDD.tif,train_pool
+val_model_selection,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/nontumor_skin_vessel_vessel/nontumor_skin_vessel_vessel_ws_165_188.jpg,train_pool
+val_model_selection,SegPath,datasets/SegPath/panCK_Epithelium/panCK_Epithelium_042_006144_010240_HE.png,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/BACK/BACK-PALFYRDT.tif,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/BACK/BACK-MKWWLQGR.tif,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/MUS/MUS-MVQKIVLA.tif,train_pool
+val_model_selection,SegPath,datasets/SegPath/CD235a_RBC/CD235a_RBC_033_074752_071680_HE.png,train_pool
+val_model_selection,SegPath,datasets/SegPath/CD235a_RBC/CD235a_RBC_167_138240_053248_HE.png,train_pool
+val_model_selection,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/nontumor_skin_elastosis_elastosis/nontumor_skin_elastosis_elastosis_ws_317_35.jpg,train_pool
+val_model_selection,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/tumor_skin_epithelial_bcc/tumor_skin_epithelial_bcc_ws_338_185.jpg,train_pool
+val_model_selection,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/BACK/BACK-IVCAKKVG.tif,train_pool
+val_holdout_monitor,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500.png,heldout_pool
+val_holdout_monitor,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500.png,heldout_pool
+val_holdout_monitor,BCSS,datasets/BCSS/rgbs_colorNormalized/TCGA-E2-A1LK-DX1_xmin75611_ymin27593_MPP-0.2500.png,heldout_pool
+val_holdout_monitor,DigestPath2019,datasets/DigestPath2019/tissue-train-pos-v1/18-04842A_2019-05-07 23_36_39-lv1-15051-4296-6932-6084.jpg,heldout_pool
+val_holdout_monitor,DigestPath2019,datasets/DigestPath2019/tissue-train-pos-v1/2018_74969_1-1_2019-02-21 00_48_39-lv1-35186-14908-3285-3747.jpg,heldout_pool
+val_holdout_monitor,DigestPath2019,datasets/DigestPath2019/tissue-train-pos-v1/18-13575B_2019-05-08 01_53_27-lv1-15618-6850-9892-9644.jpg,heldout_pool
+val_holdout_monitor,GlaS,datasets/Glas/train/img/train_17.bmp,heldout_pool
+val_holdout_monitor,GlaS,datasets/Glas/train/img/train_66.bmp,heldout_pool
+val_holdout_monitor,GlaS,datasets/Glas/train/img/train_46.bmp,heldout_pool
+val_holdout_monitor,ICIAR2018_WSI,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A01_image.png,heldout_pool
+val_holdout_monitor,ICIAR2018_WSI,datasets/ICIAR2018_BACH_Challenge/WSI_proc_10x/A02_image.png,heldout_pool
+val_holdout_monitor,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/01.png,heldout_pool
+val_holdout_monitor,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/17.png,heldout_pool
+val_holdout_monitor,WSSS4LUAD,datasets/WSSS4LUAD/2.validation/2.validation/img/15.png,heldout_pool
+val_holdout_monitor,SegPath,datasets/SegPath/aSMA_SmoothMuscle/aSMA_SmoothMuscle_273_098304_065536_HE.png,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/NORM/NORM-REERDRTR.tif,heldout_pool
+val_holdout_monitor,SegPath,datasets/SegPath/panCK_Epithelium/panCK_Epithelium_313_118784_067584_HE.png,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/MUC/MUC-VVNYFWFD.tif,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/NORM/NORM-AKIEAEVQ.tif,heldout_pool
+val_holdout_monitor,SegPath,datasets/SegPath/CD235a_RBC/CD235a_RBC_343_071680_043008_HE.png,heldout_pool
+val_holdout_monitor,SegPath,datasets/SegPath/MNDA_MyeloidCell/MNDA_MyeloidCell_260_101376_021504_HE.png,heldout_pool
+val_holdout_monitor,LungColon,datasets/lung_colon_image_set/Train and Validation Set/lung_scc/lungscc2696.jpeg,heldout_pool
+val_holdout_monitor,SegPath,datasets/SegPath/CD3CD20_Lymphocyte/CD3CD20_Lymphocyte_275_080896_074752_HE.png,heldout_pool
+val_holdout_monitor,LungColon,datasets/lung_colon_image_set/Train and Validation Set/colon_aca/colonca2235.jpeg,heldout_pool
+val_holdout_monitor,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/nontumor_skin_sweatglands_sweatglands/nontumor_skin_sweatglands_sweatglands_ws_232_81.jpg,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/STR/STR-ENTDVENL.tif,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/BACK/BACK-KFDGWIDR.tif,heldout_pool
+val_holdout_monitor,SegPath,datasets/SegPath/panCK_Epithelium/panCK_Epithelium_166_076800_033792_HE.png,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/BACK/BACK-KAERIMFD.tif,heldout_pool
+val_holdout_monitor,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/tumor_skin_epithelial_bcc/tumor_skin_epithelial_bcc_ws_36_110.jpg,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/BACK/BACK-LQLPGVNI.tif,heldout_pool
+val_holdout_monitor,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/nontumor_skin_epidermis_epidermis/nontumor_skin_epidermis_epidermis_ws_270_25.jpg,heldout_pool
+val_holdout_monitor,CRC100K,datasets/CRC100K/NCT-CRC-HE-100K/LYM/LYM-VCFNPFRY.tif,heldout_pool
+val_holdout_monitor,SkinCancer,datasets/SkinCancer/SkinCancer/data/tiles/nontumor_skin_chondraltissue_chondraltissue/nontumor_skin_chondraltissue_chondraltissue_ws_351_633.jpg,heldout_pool

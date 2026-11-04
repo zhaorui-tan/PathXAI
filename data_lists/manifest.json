@@ -1,0 +1,403 @@
+{
+  "schema": "pathxai-public-data-lists-v1",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2922,
+      "sha256": "45e3e3a2602d08aa6b70981ad96bc951a537e3c3c3c13efa3a90d7b2f4517303"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 13585,
+      "sha256": "0e381a706a16ee99d60ebe5bb2d205dd6edc3d6b671553bc7f8a8acd32d7cd60"
+    },
+    {
+      "path": "report/README.md",
+      "bytes": 3026,
+      "sha256": "0b4f7b25a254fb14aefb1eaee149eb6b031bcc9edf22ae9bea993011917cf5cc"
+    },
+    {
+      "path": "report/new1200_confirmation.txt",
+      "bytes": 15600,
+      "sha256": "fc1d7e38b1c3bc9d656d47f07ba30e408ff657096006493e9f86553ca9b0be00",
+      "records": 1200
+    },
+    {
+      "path": "report/original508_development.txt",
+      "bytes": 6604,
+      "sha256": "95bdfd76fed582102601e520df0b87b00c3529778188eb3833b455aa82ca3245",
+      "records": 508
+    },
+    {
+      "path": "report/patients.csv",
+      "bytes": 82106,
+      "sha256": "0e5f5a47de4ddca22389869bbe824da1b0859dc0e6eaaf42800e551883b15707",
+      "records": 1708
+    },
+    {
+      "path": "report/project_counts.csv",
+      "bytes": 1872,
+      "sha256": "c2d992300d56ee9c07930571aaf804678e8859ed3015ea54e1407e23476467b2",
+      "records": 52
+    },
+    {
+      "path": "report/slides.csv",
+      "bytes": 1039289,
+      "sha256": "b69b75363e8383238017ffa152cb5816c21040cc38077babf9aca111da53452d",
+      "records": 4160
+    },
+    {
+      "path": "report/source_inventory_patients.csv",
+      "bytes": 242429,
+      "sha256": "8c549416bfe1ab9e7923b2a83ad148fa3bbd01bb5dd8b50d063f0e4dfaba7f86",
+      "records": 9009
+    },
+    {
+      "path": "report/source_inventory_slides.csv",
+      "bytes": 2145050,
+      "sha256": "6c4dd528e06d94640e8c9a0e9c7e4315f79fa4065f9cbfb24018585556ce9be1",
+      "records": 10949
+    },
+    {
+      "path": "seg/README.md",
+      "bytes": 4560,
+      "sha256": "9b40c9760ef138783ac53bfdf62e44525ba4f5d79d9197f5780a23ebfcc05ba0"
+    },
+    {
+      "path": "seg/aggc_specimens.csv",
+      "bytes": 1306,
+      "sha256": "81b91cae1f48737cd92bae26913012db4e7f3e209d69c04f77f1023118d17542",
+      "records": 73
+    },
+    {
+      "path": "seg/aggc_windows.csv",
+      "bytes": 772786,
+      "sha256": "2711e583972dd85710ffbd4e6bf38d49ddf9dd09975b2ecc3eac971bb5324695",
+      "records": 2539
+    },
+    {
+      "path": "seg/counts.csv",
+      "bytes": 4746,
+      "sha256": "40cb536d1f2661e0f6d86fba558f7209b61d4663aa91f7e9bb4ce23032bb818f",
+      "records": 77
+    },
+    {
+      "path": "seg/fixed_validation.csv",
+      "bytes": 10339,
+      "sha256": "75b440f3d172fb66ea4c872beedd65d616080c05f3134181b5b7db7c0722fae9",
+      "records": 90
+    },
+    {
+      "path": "seg/heldout_pool/BCSS.txt",
+      "bytes": 2697,
+      "sha256": "2d9343689d2424c52f7229eee16c35ca5c3dc610f5edb5eaf421775645ce7e9a",
+      "records": 31
+    },
+    {
+      "path": "seg/heldout_pool/CPM15.txt",
+      "bytes": 123,
+      "sha256": "d6db8fd59bd2c5588be3ecdc98e3566a0e6d85b1ed6becadb5ba97e6e7c90418",
+      "records": 3
+    },
+    {
+      "path": "seg/heldout_pool/CPM17.txt",
+      "bytes": 605,
+      "sha256": "7533fb2298304d8c7edbaa4843d9a80f453be73ca31f1167d1f6021931821faa",
+      "records": 13
+    },
+    {
+      "path": "seg/heldout_pool/CRC100K.txt",
+      "bytes": 1087794,
+      "sha256": "24dd1e70571af57ad441f5ff0bacf50cae6637c9b415c18d31bd83b7a1ea0c6c",
+      "records": 20000
+    },
+    {
+      "path": "seg/heldout_pool/CoNIC2022.txt",
+      "bytes": 4761,
+      "sha256": "b17c23d27423a0c6a009952f01154515a977b32e87276d0846521ea29d621edf",
+      "records": 997
+    },
+    {
+      "path": "seg/heldout_pool/DigestPath2019.txt",
+      "bytes": 5291,
+      "sha256": "f7e8ffcd4db6b06857337449bd166c12098382ad506ed401dcb232ba54e7475d",
+      "records": 50
+    },
+    {
+      "path": "seg/heldout_pool/GlaS.txt",
+      "bytes": 1226,
+      "sha256": "f664f471bca50f1dae7e5f006606195d75b49b8f5886cf27a72108c5f9e8aa07",
+      "records": 33
+    },
+    {
+      "path": "seg/heldout_pool/ICIAR2018.txt",
+      "bytes": 4617,
+      "sha256": "12e7489f2ac3050e53f964cf5c5c42d64dc1d624f8895ba94552720860a282ab",
+      "records": 80
+    },
+    {
+      "path": "seg/heldout_pool/ICIAR2018_WSI.txt",
+      "bytes": 122,
+      "sha256": "45382ac1b8050a55c2ea97b1c68eb9495d99b7901413cedbc529870082b906b9",
+      "records": 2
+    },
+    {
+      "path": "seg/heldout_pool/Janowczyk.txt",
+      "bytes": 1708,
+      "sha256": "fe42c1cccb201a20956ea435c623aa2dc30dea734e26619828748e6cd7222cb0",
+      "records": 29
+    },
+    {
+      "path": "seg/heldout_pool/Kumar.txt",
+      "bytes": 380,
+      "sha256": "bc0a593b8cb63f99ab49d347d3d89a0bd1296bdc0349bfaebaf7249a99823233",
+      "records": 6
+    },
+    {
+      "path": "seg/heldout_pool/Lizard.txt",
+      "bytes": 2434,
+      "sha256": "7a3f7b9198e32e47b1da3a3c7548726d69a2f7dd5a3fe953e557f0f3ac1a74fd",
+      "records": 48
+    },
+    {
+      "path": "seg/heldout_pool/LungColon.txt",
+      "bytes": 391363,
+      "sha256": "51edb55b622c753cf7063a85c9d412a8357fb98ec8d503e1ee5e13b7414d334f",
+      "records": 5000
+    },
+    {
+      "path": "seg/heldout_pool/MHIST.txt",
+      "bytes": 22716,
+      "sha256": "15c32b29b5f7d454c10d9419c30958501e41de90aa6a187bdf78fead55dacd01",
+      "records": 631
+    },
+    {
+      "path": "seg/heldout_pool/MoNuSAC.txt",
+      "bytes": 4294,
+      "sha256": "e168d76e1a80d8c7302f17e68f6632bd3bc3549eed6af927d9d05ff45e931708",
+      "records": 42
+    },
+    {
+      "path": "seg/heldout_pool/NuCLS.txt",
+      "bytes": 39163,
+      "sha256": "c5ae6dad7f51596be130ea9da9eafa1616206363984eadc8bb7319fd049ec5be",
+      "records": 268
+    },
+    {
+      "path": "seg/heldout_pool/Osteosarcoma.txt",
+      "bytes": 8161,
+      "sha256": "fe056c5245d31fcb545250f36196a1fc5c467f5924db55c144a9c92f779d2a29",
+      "records": 110
+    },
+    {
+      "path": "seg/heldout_pool/PanNuke.txt",
+      "bytes": 2432,
+      "sha256": "c59cee0cb106bd4be854214d9f5f39f96c4ad9557537825e17923b387bc3191e",
+      "records": 532
+    },
+    {
+      "path": "seg/heldout_pool/PatchCamelyon17.txt",
+      "bytes": 73132,
+      "sha256": "160e41e92830ef2ce699cb3e87581bc85f12c2eb7df5f90382068cf18a27c5ac",
+      "records": 778
+    },
+    {
+      "path": "seg/heldout_pool/SICAPv2.txt",
+      "bytes": 148060,
+      "sha256": "71bc12ffb37913caf8414d587fb28e18db92462f87cdabd3c643066bdcef65fd",
+      "records": 3757
+    },
+    {
+      "path": "seg/heldout_pool/SegPath.txt",
+      "bytes": 2368870,
+      "sha256": "e95ef4ea595b90804ff0923428b91d50ae765847e6163199211e8caaa0cc7682",
+      "records": 31738
+    },
+    {
+      "path": "seg/heldout_pool/SkinCancer.txt",
+      "bytes": 3091032,
+      "sha256": "0c50c9a4fe3fc4f0af3fcc2536b6106ca7359a4df8e6c8ccf30501f7ebaff29a",
+      "records": 25874
+    },
+    {
+      "path": "seg/heldout_pool/TNBC.txt",
+      "bytes": 450,
+      "sha256": "96326db031364c143c7153bd60d927042fe2d9baae22020dbb6f25746e8da375",
+      "records": 10
+    },
+    {
+      "path": "seg/heldout_pool/WSSS4LUAD.txt",
+      "bytes": 448,
+      "sha256": "773ceb245e30caedf8bf678c9fbf74b990d025f4586a07ef4dabb8a98f874c58",
+      "records": 8
+    },
+    {
+      "path": "seg/supplemental_camelyon16_windows.csv",
+      "bytes": 667058,
+      "sha256": "f4d36b81178f71e3f3972cb75842fcf43f16099a5b2a4af34fbfe83e46997b6b",
+      "records": 9800
+    },
+    {
+      "path": "seg/test_external.csv",
+      "bytes": 1291576,
+      "sha256": "cb5c05fd8e95c34798f91603a8463bd2258e54d637cba6242d8194a8d3a85a96",
+      "records": 11016
+    },
+    {
+      "path": "seg/test_internal.csv",
+      "bytes": 21124,
+      "sha256": "8e2326dc0fad973fcb089b1725a82b6f6ceedc5b76b03bd2f17500e70d231387",
+      "records": 124
+    },
+    {
+      "path": "seg/train_pool/BCSS.txt",
+      "bytes": 10428,
+      "sha256": "dcefc7dd8141762a654c0c2e22347d0a422afd454419cd230a89c5c013a6f6d7",
+      "records": 120
+    },
+    {
+      "path": "seg/train_pool/CPM15.txt",
+      "bytes": 492,
+      "sha256": "3cf13f21c6c2a41fc1da9d2d27bc89c1d8934f0a82e58b2d6bde6eb3ff59c062",
+      "records": 12
+    },
+    {
+      "path": "seg/train_pool/CPM17.txt",
+      "bytes": 2371,
+      "sha256": "3855f977a833f4097c46de738751a1990035e6f1a1ac5b8b3b7656503b80575c",
+      "records": 51
+    },
+    {
+      "path": "seg/train_pool/CRC100K.txt",
+      "bytes": 4350864,
+      "sha256": "1e3d72b9ab82252410af6591497c7d239be54f02d93699757bd11422a8ba5f67",
+      "records": 80000
+    },
+    {
+      "path": "seg/train_pool/CoNIC2022.txt",
+      "bytes": 19034,
+      "sha256": "2e3e8d63ef1f9fed71b6e0a6fb7878b96c69f570e4e5e3430962c49f8c76e00b",
+      "records": 3984
+    },
+    {
+      "path": "seg/train_pool/DigestPath2019.txt",
+      "bytes": 21233,
+      "sha256": "efb3c806ad7f1c71b17a5980c8469c1f21f9a5cc8646ae1061af4b66700b1fb9",
+      "records": 200
+    },
+    {
+      "path": "seg/train_pool/GlaS.txt",
+      "bytes": 4932,
+      "sha256": "f2554e473bc127d791d5add1f6f759dbd7f30d1f715f005ef6ebdd8989954552",
+      "records": 132
+    },
+    {
+      "path": "seg/train_pool/ICIAR2018.txt",
+      "bytes": 18583,
+      "sha256": "997ebcc01d750ed9d23b2915042ebbef6f9f443ba71a75bb6776e14b76e66355",
+      "records": 320
+    },
+    {
+      "path": "seg/train_pool/ICIAR2018_WSI.txt",
+      "bytes": 488,
+      "sha256": "a9952f14c677c584b7cd55886a2f72bc5f0834a46f5f2a956f41c45cdc2bcf11",
+      "records": 8
+    },
+    {
+      "path": "seg/train_pool/Janowczyk.txt",
+      "bytes": 6580,
+      "sha256": "325da3559bd2ee7e694c97865e304cbf1d7678f7e0e9b0335b96090d3b199c43",
+      "records": 112
+    },
+    {
+      "path": "seg/train_pool/Kumar.txt",
+      "bytes": 1536,
+      "sha256": "8454ae542fe758d37783a95e3f920f1fd98a136a4dcda283a1c86b09ddb9c218",
+      "records": 24
+    },
+    {
+      "path": "seg/train_pool/Lizard.txt",
+      "bytes": 9606,
+      "sha256": "903e4fb4ebd505289546870d003e08914b0b533cbb0728231122923fdfff0399",
+      "records": 190
+    },
+    {
+      "path": "seg/train_pool/LungColon.txt",
+      "bytes": 1563118,
+      "sha256": "836cd85b420ece422a738f310cc37e8b40f6beb52d31aa6140ac22dd23ebfec9",
+      "records": 20000
+    },
+    {
+      "path": "seg/train_pool/MHIST.txt",
+      "bytes": 90756,
+      "sha256": "dde86a175bca2de126a3996e514b639a666ede94e2711098b2b26b03b1cc930c",
+      "records": 2521
+    },
+    {
+      "path": "seg/train_pool/MoNuSAC.txt",
+      "bytes": 17075,
+      "sha256": "e8f825d3f95d2253eb46a4f2aad2fa9b9b183eed61fc0dc92eeaae3d68e07eb5",
+      "records": 167
+    },
+    {
+      "path": "seg/train_pool/NuCLS.txt",
+      "bytes": 156252,
+      "sha256": "3c5d7001f3b65eff6ae830304b09fc47c186ec15ecad51aea1d3578df052c956",
+      "records": 1069
+    },
+    {
+      "path": "seg/train_pool/Osteosarcoma.txt",
+      "bytes": 32594,
+      "sha256": "a1ce6767a6fc62f1709d1f5eeefd6dbbecad54677a1f5989a519fa66e0c46f26",
+      "records": 437
+    },
+    {
+      "path": "seg/train_pool/PanNuke.txt",
+      "bytes": 9738,
+      "sha256": "ab87cb36996c2d3ef1737b072a9eddc127234e2c8462bacc62ca6d45bc2212fe",
+      "records": 2124
+    },
+    {
+      "path": "seg/train_pool/PatchCamelyon17.txt",
+      "bytes": 292246,
+      "sha256": "e357d062cd4c94242b71a922b2f6de05893fe205b9cd944099fc69604465642e",
+      "records": 3109
+    },
+    {
+      "path": "seg/train_pool/SICAPv2.txt",
+      "bytes": 592114,
+      "sha256": "2ebf0b5c8399f49d43ae53fbe43f9114974f4e9cf3ca695e80683b822d27d9c1",
+      "records": 15026
+    },
+    {
+      "path": "seg/train_pool/SegPath.txt",
+      "bytes": 9470588,
+      "sha256": "5c261d6f3ffd6ee78ac7acc437066be1396f2dfee1e936e0e9fb8d75e9117f3a",
+      "records": 126949
+    },
+    {
+      "path": "seg/train_pool/SkinCancer.txt",
+      "bytes": 12372970,
+      "sha256": "46999c478e566a552053163b897fcfbee6693255492ef2a44af8b5d94f41cb00",
+      "records": 103495
+    },
+    {
+      "path": "seg/train_pool/TNBC.txt",
+      "bytes": 1800,
+      "sha256": "958bace79e86a2ea945748b585f53c9890a9ebabf9bd0b8abfaee6b9c5810053",
+      "records": 40
+    },
+    {
+      "path": "seg/train_pool/WSSS4LUAD.txt",
+      "bytes": 1792,
+      "sha256": "39253653fc0f24e8ec4f9b7c8ca84f1647ebeef82769b5e3dbd82f1831629dc2",
+      "records": 32
+    },
+    {
+      "path": "sources.csv",
+      "bytes": 5839,
+      "sha256": "dce3155def1185fe3cabe2c08edc257eae749b6186787ebce17a87568cb22fb7",
+      "records": 33
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+split,dataset,entries,unit,supervision
+heldout_pool,BCSS,31,source_image,pixel-level
+train_pool,BCSS,120,source_image,pixel-level
+heldout_pool,CPM15,3,source_image,auxiliary image-level
+train_pool,CPM15,12,source_image,auxiliary image-level
+heldout_pool,CPM17,13,source_image,auxiliary image-level
+train_pool,CPM17,51,source_image,auxiliary image-level
+heldout_pool,CRC100K,20000,source_image,auxiliary image-level
+train_pool,CRC100K,80000,source_image,auxiliary image-level
+heldout_pool,CoNIC2022,997,array_index,auxiliary image-level
+train_pool,CoNIC2022,3984,array_index,auxiliary image-level
+heldout_pool,DigestPath2019,50,source_image,pixel-level
+train_pool,DigestPath2019,200,source_image,pixel-level
+heldout_pool,GlaS,33,source_image,pixel-level
+train_pool,GlaS,132,source_image,pixel-level
+heldout_pool,ICIAR2018_WSI,2,source_image,pixel-level
+train_pool,ICIAR2018_WSI,8,source_image,pixel-level
+heldout_pool,ICIAR2018,80,source_image,auxiliary image-level
+train_pool,ICIAR2018,320,source_image,auxiliary image-level
+heldout_pool,Janowczyk,29,source_image,auxiliary image-level
+train_pool,Janowczyk,112,source_image,auxiliary image-level
+heldout_pool,Kumar,6,source_image,auxiliary image-level
+train_pool,Kumar,24,source_image,auxiliary image-level
+heldout_pool,Lizard,48,source_image,auxiliary image-level
+train_pool,Lizard,190,source_image,auxiliary image-level
+heldout_pool,LungColon,5000,source_image,auxiliary image-level
+train_pool,LungColon,20000,source_image,auxiliary image-level
+heldout_pool,MHIST,631,source_image,auxiliary image-level
+train_pool,MHIST,2521,source_image,auxiliary image-level
+heldout_pool,MoNuSAC,42,source_image,auxiliary image-level
+train_pool,MoNuSAC,167,source_image,auxiliary image-level
+heldout_pool,NuCLS,268,source_image,auxiliary image-level
+train_pool,NuCLS,1069,source_image,auxiliary image-level
+heldout_pool,Osteosarcoma,110,source_image,auxiliary image-level
+train_pool,Osteosarcoma,437,source_image,auxiliary image-level
+heldout_pool,PanNuke,532,array_index,auxiliary image-level
+train_pool,PanNuke,2124,array_index,auxiliary image-level
+heldout_pool,PatchCamelyon17,778,source_image,auxiliary image-level
+train_pool,PatchCamelyon17,3109,source_image,auxiliary image-level
+heldout_pool,SICAPv2,3757,source_image,auxiliary image-level
+train_pool,SICAPv2,15026,source_image,auxiliary image-level
+heldout_pool,SegPath,31738,source_image,auxiliary image-level
+train_pool,SegPath,126949,source_image,auxiliary image-level
+heldout_pool,SkinCancer,25874,source_image,auxiliary image-level
+train_pool,SkinCancer,103495,source_image,auxiliary image-level
+heldout_pool,TNBC,10,source_image,auxiliary image-level
+train_pool,TNBC,40,source_image,auxiliary image-level
+heldout_pool,WSSS4LUAD,8,source_image,pixel-level
+train_pool,WSSS4LUAD,32,source_image,pixel-level
+val_model_selection,BCSS,16,source_image,pixel-level
+val_model_selection,CRC100K,9,source_image,auxiliary image-level
+val_model_selection,DigestPath2019,3,source_image,pixel-level
+val_model_selection,GlaS,3,source_image,pixel-level
+val_model_selection,ICIAR2018_WSI,5,source_image,pixel-level
+val_model_selection,SegPath,6,source_image,auxiliary image-level
+val_model_selection,SkinCancer,5,source_image,auxiliary image-level
+val_model_selection,WSSS4LUAD,9,source_image,pixel-level
+val_holdout_monitor,BCSS,3,source_image,pixel-level
+val_holdout_monitor,CRC100K,8,source_image,auxiliary image-level
+val_holdout_monitor,DigestPath2019,3,source_image,pixel-level
+val_holdout_monitor,GlaS,3,source_image,pixel-level
+val_holdout_monitor,ICIAR2018_WSI,2,source_image,pixel-level
+val_holdout_monitor,LungColon,2,source_image,auxiliary image-level
+val_holdout_monitor,SegPath,6,source_image,auxiliary image-level
+val_holdout_monitor,SkinCancer,4,source_image,auxiliary image-level
+val_holdout_monitor,WSSS4LUAD,3,source_image,pixel-level
+test_internal,BCSS,31,source_image_or_window,pixel-level evaluation
+test_internal,DigestPath2019,50,source_image_or_window,pixel-level evaluation
+test_internal,GlaS,33,source_image_or_window,pixel-level evaluation
+test_internal,ICIAR2018_WSI,2,source_image_or_window,pixel-level evaluation
+test_internal,WSSS4LUAD,8,source_image_or_window,pixel-level evaluation
+test_external,ACDC_LungHP,5000,source_image_or_window,pixel-level evaluation
+test_external,METU_CCTGS,16,source_image_or_window,pixel-level evaluation
+test_external,PAIP2019,5000,source_image_or_window,pixel-level evaluation
+test_external,RINGS_Gland,500,source_image_or_window,pixel-level evaluation
+test_external,RINGS_Tumor,500,source_image_or_window,pixel-level evaluation
+test_external,AGGC2022_Tumor,2539,window (73 specimens; 128 slide IDs),pixel-level evaluation
+supplemental,CAMELYON16_WSI,9800,window (49 slides),pixel-level evaluation
