@@ -1,5 +1,6 @@
 # PathXAI: TCGA patient to pathology report
 PREPRINT PAPER WILL BE ONLINE SOON :)
+
 This repository contains a local Jupyter workflow for running PathXAI on a patient-level set of whole-slide images (WSIs) and exporting one portable `report.html` for the case. It supports **SO1/Core** and **SO4/Full**. Both use the refined D1 segmentation adaptation; SO4 also requires the KEEP knowledge resources.
 
 The workflow uses a local notebook and two local Python environments. It does not use Colab or Docker. The report pipeline calls a vision-capable Qwen API that you configure; selected ROI images and report prompts are sent to that endpoint. Check your data-handling requirements before running it on private slides.
