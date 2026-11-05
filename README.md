@@ -15,6 +15,8 @@ The repository includes two recorded notebooks and report artifacts, which can b
 
 These are recorded SO1 and SO4 outputs for TCGA-OR-A5LL. Read the [execution summary](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the recorded reports without running inference. The deployed report and notebook files were checked against the committed artifacts. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
 
+**Qwen output variability:** Report wording and details may vary with the Qwen model version, deployment configuration and sampling parameters. Repeated runs may produce different outputs even with the same input slides.
+
 ## Quick start
 
 1. From the checkout root, run `python3 scripts/fetch_medsam_source.py` to prepare the external MedSAM3 runtime source required by segmentation. This uses the pinned upstream source and tutorial patches; it needs network access but does not download model weights or require a GPU. Run it before environment import checks or opening the notebook. See [installation](docs/INSTALLATION.md).
