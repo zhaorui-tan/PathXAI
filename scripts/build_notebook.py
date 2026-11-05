@@ -1,4 +1,4 @@
-"""Generate the distributable notebook without outputs or credentials."""
+"""Build a notebook template; preserve published execution outputs by default."""
 from pathlib import Path
 import json
 
@@ -41,7 +41,7 @@ The current notebook kernel runs the report/CONCH pipeline. The D1 repository is
 the published immutable revision is filled in below. Obtain your own access to the separate upstream models before downloading.
 The optional local model configuration is documented in [the inference guide](docs/INFERENCE.md).
 """)
-code("""VERSION = os.environ.get('PATHXAI_VERSION', 'SO1')  # SO1 = PathXAI(core); SO4 = PathXAI
+code("""VERSION = os.environ.get('PATHXAI_VERSION', 'SO4')  # SO1 = PathXAI(core); SO4 = PathXAI
 SEGMENTATION_PYTHON = os.environ.get('PATHXAI_SEG_PYTHON', '/path/to/pathxai-segmentation-py312/bin/python')
 D1_REPO_ID = os.environ.get('PATHXAI_D1_REPO', 'RayTan/PathXAI-Seg')
 D1_REVISION = os.environ.get('PATHXAI_D1_REVISION', 'abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f')  # immutable 40-character HF commit
@@ -130,13 +130,23 @@ md("""## 6. Open/export the report
 Keep the HTML together with its `assets/` directory. Download/copy the whole portable folder to share the report.
 The raw scientific outputs and exact configuration/provenance are retained beside it.
 """)
-code("""from IPython.display import FileLink, display
+code("""from IPython.display import FileLink, Markdown, display
+import hashlib
 report_html = Path(result['report_html'])
 try:
     display(FileLink(str(report_html.relative_to(ROOT))))
 except ValueError:
     print('Report outside the Jupyter root; open it locally:', report_html)
 print('Portable report folder:', report_html.parent)
+print('Report HTML SHA-256:', hashlib.sha256(report_html.read_bytes()).hexdigest())
+print('Report text SHA-256:', hashlib.sha256(Path(result['report_text']).read_bytes()).hexdigest())
+pipeline = json.loads(Path(result['pipeline_result']).read_text())
+diagnosis = pipeline['diagnosis_prediction']
+print('Diagnosis:', diagnosis['primary_diagnosis'])
+print('Malignancy:', diagnosis['malignancy'])
+print('Grade:', diagnosis['grade'])
+print('Confidence:', diagnosis['confidence'])
+display(Markdown(Path(result['report_text']).read_text()))
 """, "output")
 md("""## 7. Optional automatic report evaluation
 
@@ -163,4 +173,19 @@ notebook = {"cells": cells, "metadata": {"kernelspec": {"display_name": "Python 
     "language": "python", "name": "pathxai"}, "language_info": {"name": "python", "version": "3.10"}},
     "nbformat": 4, "nbformat_minor": 5}
 if __name__ == '__main__':
-    (ROOT / 'PathXAI_report.ipynb').write_text(json.dumps(notebook, indent=2, ensure_ascii=False) + '\n')
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output', type=Path, default=ROOT / 'PathXAI_report.ipynb')
+    parser.add_argument('--clear-outputs', action='store_true', help='Explicitly replace an executed notebook with a blank template')
+    args = parser.parse_args()
+    if args.output.exists() and not args.clear_outputs:
+        previous = json.loads(args.output.read_text())
+        old_code = [c for c in previous['cells'] if c['cell_type'] == 'code']
+        if any(c.get('outputs') or c.get('execution_count') is not None for c in old_code):
+            old_sources = [''.join(c['source']) for c in old_code]
+            new_sources = [''.join(c['source']) for c in cells if c['cell_type'] == 'code']
+            if old_sources != new_sources:
+                raise SystemExit('Template code changed. Build to a new --output path and execute it before publication.')
+            print('Preserved the existing executed notebook and outputs.')
+            raise SystemExit(0)
+    args.output.write_text(json.dumps(notebook, indent=2, ensure_ascii=False) + '\n')

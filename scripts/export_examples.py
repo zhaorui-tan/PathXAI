@@ -24,6 +24,7 @@ def main():
         p.add_argument("--" + name.replace("_", "-"), type=Path, required=True)
     p.add_argument("--output", type=Path, default=ROOT / "examples")
     p.add_argument("--notebook-kind", choices=("inference", "recorded-run"), default="inference")
+    p.add_argument("--main-notebook", type=Path, help="Also publish the executed SO4 notebook at this repository-root path")
     args = p.parse_args()
     out = args.output.resolve()
     if out.exists() and any(out.iterdir()):
@@ -45,6 +46,8 @@ def main():
         if not export.get("clinical_and_evidence_text_unchanged"):
             raise ValueError("The source run lacks a successful export audit")
         case = outcome["case_id"]
+        if export.get("case_id") != case or export.get("folder") != "report":
+            raise ValueError("Export audit does not match the requested case/report")
         run_record = json.loads((run / "tutorial_run.json").read_text())
         case_input = run_record["case"]
         slide_names = [Path(name).name for name in case_input["slide_paths"]]
@@ -86,6 +89,9 @@ def main():
             raise ValueError("Published HTML must preserve all rendered text")
         (dest / "report.html").write_text(published_html)
         report_text = run / "cases" / case / "generated_long_report.txt"
+        expected_text = {Path(name).name: digest for name, digest in export.get("source_artifact_hashes", {}).items()}
+        if expected_text.get("generated_long_report.txt") != sha(report_text):
+            raise ValueError("Report text differs from the original export audit")
         shutil.copyfile(report_text, dest / "generated_long_report.txt")
         nb = json.loads(notebook.read_text())
         if any(o.get("output_type") == "error" for c in nb["cells"] for o in c.get("outputs", [])):
@@ -141,7 +147,7 @@ def main():
                     value["text"] = clean("".join(value["text"]))
                     if not value["text"]:
                         continue
-                for mime in ("text/plain", "text/html"):
+                for mime in ("text/plain", "text/html", "text/markdown"):
                     if mime in value.get("data", {}):
                         value["data"][mime] = clean("".join(value["data"][mime]))
                 if (outputs and value.get("output_type") == "stream"
@@ -154,11 +160,13 @@ def main():
         recording_label = "Recorded inference run" if args.notebook_kind == "recorded-run" else "Recorded notebook execution"
         recording_note = ("This notebook displays the saved progress and report from an execution of the tutorial Python API. "
                           "Use the main tutorial notebook to run new inference.\n\n") if args.notebook_kind == "recorded-run" else ""
-        header = f"""# {display_name} recorded example
+        example_kind = "recorded example" if args.notebook_kind == "recorded-run" else "executed example"
+        header = f"""# {display_name} {example_kind}
 
 {recording_label} for **{case}**, dated {run_date}.
 Version: **{display_name}**; refined D1 segmentation with separately obtained SAM3 base weights;
-vision model: **Qwen3.6-27B-Q6_K**. The run used {len(slide_names)} checksum-verified source slides
+vision model: **Qwen3.6-27B-Q6_K**. To rerun this variant, set `VERSION = "{version}"` in the configuration cell.
+The run used {len(slide_names)} checksum-verified source slides
 and the pinned candidate ROIs. Anatomical site: **{known_site or 'not supplied'}**.
 
 {recording_note}Code cells, execution counts and outputs are retained. Machine-specific output paths are
@@ -167,10 +175,18 @@ normalized, and repeated progress lines are condensed for display.
 [View HTML report](https://zhaorui-tan.github.io/PathXAI/{version}/report.html) · [Report text](../{version}/generated_long_report.txt) ·
 [Run your own case](../../PathXAI_report.ipynb)
 """
-        nb["cells"].insert(0, {"cell_type":"markdown", "id":f"record-{version.lower()}",
-                               "metadata":{}, "source":header})
-        nb["cells"].append({"cell_type":"markdown", "id":f"saved-report-{version.lower()}",
-                            "metadata":{}, "source":"## Saved generated report\n\nThe following text was copied from this run's `generated_long_report.txt`.\n\n```text\n" + report_text.read_text().rstrip() + "\n```\n"})
+        if args.notebook_kind == "inference" and nb["cells"][0]["cell_type"] == "markdown":
+            original_intro = "".join(nb["cells"][0]["source"]).split("\n", 1)[1]
+            nb["cells"][0]["source"] = header + original_intro
+        else:
+            nb["cells"].insert(0, {"cell_type":"markdown", "id":f"record-{version.lower()}",
+                                   "metadata":{}, "source":header})
+        if args.notebook_kind == "recorded-run":
+            nb["cells"].append({"cell_type":"markdown", "id":f"saved-report-{version.lower()}",
+                                "metadata":{}, "source":"## Saved generated report\n\n```text\n" + report_text.read_text().rstrip() + "\n```\n"})
+        else:
+            nb["cells"].append({"cell_type":"markdown", "id":f"published-report-{version.lower()}",
+                                "metadata":{}, "source":f"**[Open the HTML generated by this run](https://zhaorui-tan.github.io/PathXAI/{version}/report.html)**"})
         nb["metadata"]["pathxai_example"] = {
             "version":version, "case_id":case, "notebook_kind":args.notebook_kind, "source_executed_notebook_sha256":sha(notebook),
             "report_text_sha256":sha(report_text), "removed_heartbeat_lines":removed_heartbeats,
@@ -181,6 +197,18 @@ normalized, and repeated progress lines are condensed for display.
         notebook_dest = out / "notebooks" / f"{version}_completed.ipynb"
         nbformat.write(nbformat.from_dict(nb), notebook_dest)
         nbformat.validate(nbformat.read(notebook_dest, as_version=4))
+        if args.main_notebook and version == "SO4":
+            main_nb = copy.deepcopy(nb)
+            for cell in main_nb["cells"]:
+                if cell["cell_type"] == "markdown":
+                    cell["source"] = "".join(cell["source"]).replace("../SO4/", "examples/SO4/").replace("[Run your own case](../../PathXAI_report.ipynb)", "[Configuration guide](docs/INFERENCE.md)")
+                for output in cell.get("outputs", []):
+                    if "text" in output:
+                        output["text"] = "".join(output["text"]).replace("../SO4", "examples/SO4")
+                    for mime in ("text/html", "text/plain", "text/markdown"):
+                        if mime in output.get("data", {}):
+                            output["data"][mime] = "".join(output["data"][mime]).replace("../SO4", "examples/SO4")
+            nbformat.write(nbformat.from_dict(main_nb), args.main_notebook)
         entries.append({"version":version, "case_id":case, "notebook_kind":args.notebook_kind,
                         "slide_names":slide_names, "known_site":known_site,
                         "source_executed_notebook_sha256":sha(notebook),

@@ -1,6 +1,6 @@
 # Reproducibility and source identity
 
-The main tutorial notebook runs fresh inference with the frozen PathXAI(core) or PathXAI profile and the D1 adaptation; it does not replay archived report text. The committed PathXAI(core) and PathXAI example notebooks are read-only recorded-run views with captured progress and reports. Those runs were executed through the same tutorial Python API, not inside the example notebook cells. A Qwen service can produce different results across model versions, quantizations, hardware and calls; record its model ID and configuration with each result. This delivery is not a claim of byte-identical reproduction of historical paper results.
+The main tutorial notebook contains the executed PathXAI (SO4) inference for TCGA-OR-A5LL using the frozen PathXAI profile and refined D1 adaptation. The committed PathXAI(core) and PathXAI example notebooks contain the executed SO1 and SO4 inference workflows, with outputs preserved. Notebook metadata and the publication manifest link the execution to the run record, generated report text and published HTML checksums. Qwen can produce different results across model versions, quantizations, hardware and calls; record its model ID and configuration with each result. This delivery is not a claim of byte-identical reproduction of historical paper results.
 
 ## Fixed inputs
 
@@ -33,7 +33,7 @@ Every run uses a new output directory. For patient-level inference, `tutorial_ru
 
 The notebook supplies the sample's known adrenal gland / adrenocortical site from pinned metadata; it does not infer the site from a TCGA identifier. For your own data, provide `known_site` only when the anatomical sampling site was independently known before inference. The complete set of one patient's slides contributes to one report. Automatic evaluation happens after report generation, against an independent reference, and never feeds that reference back into inference.
 
-The runnable sample and recorded PathXAI(core)/PathXAI outputs use TCGA-OR-A5LL with all six pinned source slides, refined D1 segmentation and the documented adrenal gland / adrenocortical site. The example notebooks show captured run progress and reports; use the main `PathXAI_report.ipynb` for fresh inference. See [validation](VALIDATION.md) and [the execution summary](RESULT_COMPARISON.md) for the recorded execution scope and artifact provenance.
+The executed PathXAI(core)/PathXAI notebooks and outputs use TCGA-OR-A5LL with all six pinned source slides, refined D1 segmentation and the documented adrenal gland / adrenocortical site. The main `PathXAI_report.ipynb` records the SO4 PathXAI execution. See [validation](VALIDATION.md) and [the execution summary](RESULT_COMPARISON.md) for execution scope and artifact provenance.
 
 The environment specifications record observed direct dependency versions and separate the Python 3.10 pipeline from Python 3.12 segmentation. They are not a complete transitive lockfile or proof of a clean installation. See [validation](VALIDATION.md) for checks actually performed.
 

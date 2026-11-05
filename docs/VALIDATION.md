@@ -2,14 +2,14 @@
 
 TCGA-OR-A5LL: six source slides (DX1–DX5 and TS1), 20 pinned candidate ROIs, and the documented adrenal gland / adrenocortical site.
 
-| Version | Report runtime | Pipeline runtime | Final ROIs | Input slides |
+| Version | Notebook runtime | Pipeline runtime | Final ROIs | Input slides |
 | --- | ---: | ---: | ---: | ---: |
-| PathXAI(core) | 545.5 s | 528.2 s | 6 | 6 |
-| PathXAI | 513.3 s | 510.6 s | 6 | 6 |
+| PathXAI(core) | 794.3 s | 515.7 s | 6 | 6 |
+| PathXAI | 939.9 s | 574.6 s | 6 | 6 |
 
-Both runs completed through the tutorial Python API using a freshly downloaded, checksum-verified HF refined D1 adapter and the separately pinned SAM3 base. All six WSI hashes and all 20 reconstructed candidate crops matched the pinned inputs. Exported report text and image bytes were verified against the original run outputs.
+Both runs completed through executed tutorial notebooks using a checksum-verified HF refined D1 adapter from the previous fresh HF download and the separately pinned SAM3 base. The main notebook records the SO4 PathXAI execution; the completed example notebooks record SO1 and SO4. All six WSI hashes and all 20 reconstructed candidate crops matched the pinned inputs. Exported report text and image bytes were verified against the original run outputs.
 
-The example notebooks display these captured runs; their display cells were separately executed successfully. The main `PathXAI_report.ipynb` invokes the same API for fresh inference.
+The notebook execution outputs, run records and HTML report checksums are published together to show which run produced each report. Qwen outputs can vary across model versions, quantizations, hardware and calls.
 
 [Recorded outputs and HTML reports](../examples/README.md) · [Machine-readable validation](../provenance/validation_results.json)
 

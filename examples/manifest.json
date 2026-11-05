@@ -4,7 +4,7 @@
     {
       "version": "SO1",
       "case_id": "TCGA-OR-A5LL",
-      "notebook_kind": "recorded-run",
+      "notebook_kind": "inference",
       "slide_names": [
         "TCGA-OR-A5LL-01Z-00-DX2.CABC0142-8C39-4801-8256-03129F111343.svs",
         "TCGA-OR-A5LL-01Z-00-DX4.97ED4791-E6C4-4EF3-AB1C-7063616ECD1C.svs",
@@ -14,21 +14,21 @@
         "TCGA-OR-A5LL-01Z-00-DX5.6FAD467E-BFE7-46D8-91BD-3B463486923B.svs"
       ],
       "known_site": "adrenal gland / adrenocortical tissue",
-      "source_executed_notebook_sha256": "6e92e9a93ae373bf5d6fedf75ed277332e06668d8687cf2c9d2c707406a208ba",
-      "source_report_html_sha256": "2980c149a735d4928d0dc31639ac29dd268f0b471371819c646b5742339d7db2",
-      "published_report_html_sha256": "84b6796d35ac82d563581f3ac86a299655865188f5075940fd9b5d149f3a6391",
-      "published_notebook_sha256": "0e2788cc695c142c7ca659e84eb24d6b7d73fc16a42bfd692c0ed5956fdbc55c",
-      "report_text_sha256": "a7458b298a19e72aae6547fb9d0b6df088265814851df2869dbb89ff5454bbc3",
-      "removed_heartbeat_lines": 0,
+      "source_executed_notebook_sha256": "ea7a0d25bbeb25ec2a2b2ccbd5f749b03c991f89aa98481b413928ea1ccbb2ae",
+      "source_report_html_sha256": "615df6e74923b54ec01bf40a790f634190074720f9501934b4fee47735b19074",
+      "published_report_html_sha256": "5e5b708a9ca3d1b6e0fd5f011582468a748e7ebd762d2af8cd19a8a59f125e4c",
+      "published_notebook_sha256": "85a86fca4b49ef22f73bb130b1e16ceb8b1dc6b80d3eebcc71efc288e831b5a6",
+      "report_text_sha256": "09125fac1faa03865d7997b9ef7582f556ca89c7938407050a7117a9b108fe66",
+      "removed_heartbeat_lines": 517,
       "removed_progress_updates": 0,
-      "html_change": "Asset references relocated for deduplication; public product titles use PathXAI(core) and PathXAI. Clinical text and image bytes unchanged.",
+      "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
       "image_bytes_changed": false,
       "display_name": "PathXAI(core)"
     },
     {
       "version": "SO4",
       "case_id": "TCGA-OR-A5LL",
-      "notebook_kind": "recorded-run",
+      "notebook_kind": "inference",
       "slide_names": [
         "TCGA-OR-A5LL-01Z-00-DX2.CABC0142-8C39-4801-8256-03129F111343.svs",
         "TCGA-OR-A5LL-01Z-00-DX4.97ED4791-E6C4-4EF3-AB1C-7063616ECD1C.svs",
@@ -38,14 +38,14 @@
         "TCGA-OR-A5LL-01Z-00-DX5.6FAD467E-BFE7-46D8-91BD-3B463486923B.svs"
       ],
       "known_site": "adrenal gland / adrenocortical tissue",
-      "source_executed_notebook_sha256": "eee30dbc8425b29ca94fb9405c5b3190695abdd092f5c56659d9bee204f85d2b",
-      "source_report_html_sha256": "9fa6277622d49b8f155258e572e54198a4bc7cd57eb76aef40eb7561873913aa",
-      "published_report_html_sha256": "6f24b87a34d1e68c0caa2d8441c21ffcf9358cb04633d739408444e016c60035",
-      "published_notebook_sha256": "7718793bd122b4808547e439dc442bccda2f610c2ab3a2aaea3b6f126e122ab2",
-      "report_text_sha256": "839f80c82770a5936d975d06a61f9d68c4c092b94810314bb9b82180faf48aaa",
-      "removed_heartbeat_lines": 0,
+      "source_executed_notebook_sha256": "f404051219aca199cd7ba84f5b572acdd1bd8270093d4a29caf4559ea9f59ca9",
+      "source_report_html_sha256": "290c57c1403152bb5d9cdcb486b10093a473217b7fc647785efceb022dec7d47",
+      "published_report_html_sha256": "738e23ce8619234c0d82d867fdc572c758ec02b7dfb9ed23a633c5cd41a31ca8",
+      "published_notebook_sha256": "ce1be289b5fef6bb146da08a43caa420a411d7ad8024d5e41a33864a671ebdc0",
+      "report_text_sha256": "179c5fc450879c8cab3ebc330e0535fa5b28eefa9b7b754bc7b1ac6bef340666",
+      "removed_heartbeat_lines": 578,
       "removed_progress_updates": 0,
-      "html_change": "Asset references relocated for deduplication; public product titles use PathXAI(core) and PathXAI. Clinical text and image bytes unchanged.",
+      "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
       "image_bytes_changed": false,
       "display_name": "PathXAI"
     }
@@ -58,38 +58,38 @@
     },
     {
       "path": "README.md",
-      "bytes": 1286,
-      "sha256": "d36861c2e8dfbeb0bf3d9cf5e7af1f7267d5c4373e868f287071311623143aef"
+      "bytes": 1414,
+      "sha256": "cb2245bf48995027f368f0f85e4f466d8218dbf1bb19f66e47a22fd93acc3890"
     },
     {
       "path": "SO1/generated_long_report.txt",
-      "bytes": 2777,
-      "sha256": "a7458b298a19e72aae6547fb9d0b6df088265814851df2869dbb89ff5454bbc3"
+      "bytes": 1912,
+      "sha256": "09125fac1faa03865d7997b9ef7582f556ca89c7938407050a7117a9b108fe66"
     },
     {
       "path": "SO1/report.html",
-      "bytes": 189630,
-      "sha256": "84b6796d35ac82d563581f3ac86a299655865188f5075940fd9b5d149f3a6391"
+      "bytes": 189282,
+      "sha256": "5e5b708a9ca3d1b6e0fd5f011582468a748e7ebd762d2af8cd19a8a59f125e4c"
     },
     {
       "path": "SO1/run_record.json",
-      "bytes": 4174,
-      "sha256": "9e4f92f50d70068939963dacee0fd2200a6ceb856b2759ceafee340af49f4d04"
+      "bytes": 4347,
+      "sha256": "ba96397eb839b3b461f501ea96ae060ae20efb012da41885b758acdcd8429165"
     },
     {
       "path": "SO4/generated_long_report.txt",
-      "bytes": 2521,
-      "sha256": "839f80c82770a5936d975d06a61f9d68c4c092b94810314bb9b82180faf48aaa"
+      "bytes": 2685,
+      "sha256": "179c5fc450879c8cab3ebc330e0535fa5b28eefa9b7b754bc7b1ac6bef340666"
     },
     {
       "path": "SO4/report.html",
-      "bytes": 223819,
-      "sha256": "6f24b87a34d1e68c0caa2d8441c21ffcf9358cb04633d739408444e016c60035"
+      "bytes": 223506,
+      "sha256": "738e23ce8619234c0d82d867fdc572c758ec02b7dfb9ed23a633c5cd41a31ca8"
     },
     {
       "path": "SO4/run_record.json",
-      "bytes": 4683,
-      "sha256": "b096d34150f1e2a3b001d5a420a38949ec0f429925296e0d7747cd98e6eedbf1"
+      "bytes": 4853,
+      "sha256": "de5833c5af6bd3bed94543b88f7d620dfc160366b900c0b768ae287d3ff23f77"
     },
     {
       "path": "assets/005808aa7419f838a0b2.png",
@@ -117,19 +117,9 @@
       "sha256": "111d9a0cca233256e3bae924c01903847e5ebd66d58dc5cedb3e7bf733711add"
     },
     {
-      "path": "assets/320db1492488c55c2f7b.jpg",
-      "bytes": 127457,
-      "sha256": "320db1492488c55c2f7bffa8488cdbfe2038b2c6649b19715948aa71dc83cb86"
-    },
-    {
       "path": "assets/374741c6f620d6220e4f.jpg",
       "bytes": 2544086,
       "sha256": "374741c6f620d6220e4f670172a4e4cbe3d3fcde970a1602ba8138e7183d2a82"
-    },
-    {
-      "path": "assets/3c93ad64147f0c28a90e.png",
-      "bytes": 4822362,
-      "sha256": "3c93ad64147f0c28a90e0144f20cfc9375e6f6b3276d4f184a4ec699b8d561bb"
     },
     {
       "path": "assets/41a56adee7b529ba4c81.jpg",
@@ -177,11 +167,6 @@
       "sha256": "6fdbefe6a87e1d665c0b3601405b76c2801c73846bbc500f0c2b98a1b6fda039"
     },
     {
-      "path": "assets/79f0c7880f9f60a72809.jpg",
-      "bytes": 459898,
-      "sha256": "79f0c7880f9f60a72809a3e3f92b4b04ae93eca0a9178b85e4dad7a7def9ff2b"
-    },
-    {
       "path": "assets/7cb23877b87ad2865f4d.png",
       "bytes": 27550531,
       "sha256": "7cb23877b87ad2865f4d91e5dd6bb7cfed4981269f2a99f3f4ca734e24a2104d"
@@ -195,16 +180,6 @@
       "path": "assets/8fef56e3111ba72105ae.png",
       "bytes": 19333,
       "sha256": "8fef56e3111ba72105aea91fe2309086495bc8128d23152e6023711838836f06"
-    },
-    {
-      "path": "assets/92a1f9d0e8a6424d7264.jpg",
-      "bytes": 2248709,
-      "sha256": "92a1f9d0e8a6424d726447739aa2d5d2e704d6678722e561085bbd56fcb9f948"
-    },
-    {
-      "path": "assets/9816d226ce8e0fbd4c8c.jpg",
-      "bytes": 468754,
-      "sha256": "9816d226ce8e0fbd4c8c3aefb2465437a931bd53a22923aa50580887aabb865b"
     },
     {
       "path": "assets/a1a2efd964abdbaea41b.png",
@@ -225,16 +200,6 @@
       "path": "assets/bb71c110b5845abd7d63.png",
       "bytes": 53316,
       "sha256": "bb71c110b5845abd7d639b7256894d89e8868303003377a1564dc71318bb4c2f"
-    },
-    {
-      "path": "assets/bd2d2d17098b182a6240.png",
-      "bytes": 16066,
-      "sha256": "bd2d2d17098b182a6240b1152e7217fa1221b94dcbf34e179ed7edb5f50687b0"
-    },
-    {
-      "path": "assets/bfe4114c13365a97d766.jpg",
-      "bytes": 409310,
-      "sha256": "bfe4114c13365a97d7662908dc0cf81cef220ed66fbdd701f86ef05689a243f6"
     },
     {
       "path": "assets/c1a508e177bf251db193.jpg",
@@ -262,16 +227,6 @@
       "sha256": "dbdb953f937de43772d9a6bfb2920ec1ffbd0a71c82c775014b5ab14497ac1f2"
     },
     {
-      "path": "assets/e36b0aa9b5f1df68ad96.jpg",
-      "bytes": 680671,
-      "sha256": "e36b0aa9b5f1df68ad96d62d57d1b100216ac97ec0a5fa4b1fb779d0d60f567d"
-    },
-    {
-      "path": "assets/ea6d7355458131d56cd6.png",
-      "bytes": 159233,
-      "sha256": "ea6d7355458131d56cd65a9d595715fb3f26b83bc9ea714e3b31da15cd753471"
-    },
-    {
       "path": "assets/ec532a0da30d73ad3f84.jpg",
       "bytes": 716258,
       "sha256": "ec532a0da30d73ad3f84dfcd7c7f4ce921d1ee9ee3515ebd2b01ccbbccc76686"
@@ -283,23 +238,23 @@
     },
     {
       "path": "comparison.html",
-      "bytes": 1240,
-      "sha256": "79bfcfb2c7c5c85143f1c9437cdfd8ad5f4750c45c42665a752510f0569ac12d"
+      "bytes": 1221,
+      "sha256": "9cbe8171c3e0d22488f23fc07c0cb945e1ec6de3d688b31d57959946e7c322a4"
     },
     {
       "path": "index.html",
-      "bytes": 4885,
-      "sha256": "0d759ba200578642d0999eaad69e9549771b75e27946dfcb4b031cd58c06cdf6"
+      "bytes": 5014,
+      "sha256": "de44cb8235a2ef7292f35d6f157cfc6a3cc18fd7330e33688cccb8ac492cee8c"
     },
     {
       "path": "notebooks/SO1_completed.ipynb",
-      "bytes": 12340,
-      "sha256": "0e2788cc695c142c7ca659e84eb24d6b7d73fc16a42bfd692c0ed5956fdbc55c"
+      "bytes": 27456,
+      "sha256": "85a86fca4b49ef22f73bb130b1e16ceb8b1dc6b80d3eebcc71efc288e831b5a6"
     },
     {
       "path": "notebooks/SO4_completed.ipynb",
-      "bytes": 12573,
-      "sha256": "7718793bd122b4808547e439dc442bccda2f610c2ab3a2aaea3b6f126e122ab2"
+      "bytes": 28853,
+      "sha256": "ce1be289b5fef6bb146da08a43caa420a411d7ad8024d5e41a33864a671ebdc0"
     }
   ],
   "scope": "Public TCGA example outputs only; no original WSI, model weights or credentials."

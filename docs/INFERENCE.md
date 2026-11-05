@@ -1,6 +1,6 @@
 # Local inference guide
 
-The main `PathXAI_report.ipynb` notebook runs a new WSI inference and exports a portable HTML report. The PathXAI(core) and PathXAI example notebooks are read-only recorded-run views with captured progress and reports; their inference was run through the same tutorial Python API, not inside those notebook cells. This guide covers model/API configuration, variant selection and outputs. Environment setup is in [INSTALLATION.md](INSTALLATION.md).
+The main `PathXAI_report.ipynb` contains the executed SO4 PathXAI workflow for TCGA-OR-A5LL, including its notebook outputs and report export. The PathXAI(core) and PathXAI example notebooks contain the corresponding executed SO1 and SO4 inference workflows. Their published provenance connects each notebook execution to its run record, report text and HTML checksum. This guide covers model/API configuration, variant selection and outputs. Environment setup is in [INSTALLATION.md](INSTALLATION.md).
 
 ## Access and prerequisites
 

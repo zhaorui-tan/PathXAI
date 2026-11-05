@@ -7,14 +7,14 @@ The workflow uses a local notebook and two local Python environments. It does no
 
 ## Review the committed example artifacts
 
-The repository includes two notebooks showing captured progress and final reports from runs of the tutorial Python API. They can be read without installing anything or obtaining model access; use `PathXAI_report.ipynb` for fresh inference.
+The repository includes executed inference notebooks for PathXAI(core) and PathXAI on TCGA-OR-A5LL. The main [PathXAI_report.ipynb](PathXAI_report.ipynb) contains the executed PathXAI (SO4) workflow and its outputs; the completed notebooks preserve the corresponding SO1 and SO4 executions. They can be read without installing anything or obtaining model access.
 
-| Version | Recorded-run notebook, viewable on GitHub | Generated report |
+| Version | Executed inference notebook, viewable on GitHub | Generated report |
 | --- | --- | --- |
-| PathXAI(core) | [Recorded PathXAI(core) run notebook with captured outputs](examples/notebooks/SO1_completed.ipynb) | [View PathXAI(core) report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
-| PathXAI | [Recorded PathXAI run notebook with captured outputs](examples/notebooks/SO4_completed.ipynb) | [View PathXAI report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
+| PathXAI(core) | [Executed PathXAI(core) inference notebook](examples/notebooks/SO1_completed.ipynb) | [View PathXAI(core) report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
+| PathXAI | [Executed PathXAI inference notebook](PathXAI_report.ipynb) | [View PathXAI report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
 
-The linked reports and notebooks with recorded outputs are from PathXAI(core) and PathXAI runs for TCGA-OR-A5LL, using refined D1 segmentation and six pinned source slides. Read the [execution summary](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the currently deployed reports without running inference. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
+The linked notebooks execute PathXAI(core) and PathXAI inference for TCGA-OR-A5LL, using refined D1 segmentation and the six pinned source slides. Their outputs include the generated report location and run evidence; each HTML report is linked to its run by the published provenance and checksums. Read the [execution summary](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the reports. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
 
 **Qwen output variability:** Report wording and details may vary with the Qwen model version, deployment configuration and sampling parameters. Repeated runs may produce different outputs even with the same input slides.
 
@@ -26,12 +26,12 @@ The linked reports and notebooks with recorded outputs are from PathXAI(core) an
 4. Set the Qwen API base URL, model ID and credential in environment variables or provide the API key at the notebook's secure prompt. Do not store credentials in notebook cells or configuration files.
 5. Start Jupyter from this directory with the Python 3.10 environment and open [PathXAI_report.ipynb](PathXAI_report.ipynb). The notebook downloads and verifies all six pinned source WSIs for TCGA-OR-A5LL (adrenal gland / adrenocortical tissue) from the NCI Genomic Data Commons: DX1–DX5 and TS1, totaling 11,156,338,264 bytes (about 10.39 GiB). The GDC inventory matches these six slides, with none excluded. It runs the selected variant and exports one patient-level `report.html` plus its assets.
 
-The notebook supplies the known anatomical site from the pinned sample metadata. The notebooks with recorded outputs and reports are available in [examples](examples/README.md); see [validation](docs/VALIDATION.md) for the recorded run details.
+The notebooks supply the known anatomical site from the pinned sample metadata. Executed notebooks and reports are available in [examples](examples/README.md); see [validation](docs/VALIDATION.md) for execution details.
 
 ## Repository contents
 
-- `PathXAI_report.ipynb` — local Jupyter workflow for sample download, API check, inference, HTML export and optional report evaluation.
-- `examples/` — two recorded-run notebooks with captured progress and reports, actual HTML reports and their unchanged shared image assets; also the static GitHub Pages site. Use `PathXAI_report.ipynb` for fresh inference.
+- `PathXAI_report.ipynb` — executed SO4 PathXAI notebook for sample download, API check, inference, HTML export and optional report evaluation; clear outputs before running it for a fresh case.
+- `examples/` — executed SO1 and SO4 inference notebooks, reports and shared image assets; also the static GitHub Pages site.
 - `pathxai_tutorial/` — helpers for checksum-verified patient-slide download, model access, inference configuration and report generation.
 - `vendor/report_engine/` — frozen pipeline snapshot, HTML renderer, input assets and source manifests. The MedSAM3 source subtree under `vendor/report_engine/baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/` is omitted from the public source archive; setup prepares the runtime copy separately from pinned upstream source and tutorial patches. Model weights are separate files.
 - `environments/` and [installation](docs/INSTALLATION.md) — separate Python 3.10 and 3.12 specs plus import/version checks.

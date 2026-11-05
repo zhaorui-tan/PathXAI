@@ -1,5 +1,5 @@
 {
-  "schema": "pathxai-tutorial-validation-v5",
+  "schema": "pathxai-tutorial-validation-v6",
   "date": "2026-11-05",
   "case_id": "TCGA-OR-A5LL",
   "sample_manifest": "configs/sample_tcga.json",
@@ -10,35 +10,69 @@
   "runs": [
     {
       "version": "SO1",
+      "display_name": "PathXAI(core)",
       "execution_status": "passed",
-      "execution_method": "tutorial Python API",
-      "report_seconds": 545.5302631855011,
-      "pipeline_seconds": 528.1614207520033,
-      "input_slide_count": 6,
-      "candidate_count": 20,
-      "selected_rois": 6,
-      "displayed_wsi_count": 3,
-      "masks_available": true,
-      "pipeline_errors": [],
-      "report_text_sha256": "a7458b298a19e72aae6547fb9d0b6df088265814851df2869dbb89ff5454bbc3",
-      "source_report_html_sha256": "2980c149a735d4928d0dc31639ac29dd268f0b471371819c646b5742339d7db2",
-      "recorded_run_notebook_executed": true
-    },
-    {
-      "version": "SO4",
-      "execution_status": "passed",
-      "execution_method": "tutorial Python API",
-      "report_seconds": 513.284795999527,
-      "pipeline_seconds": 510.5886618090153,
+      "execution_method": "Jupyter notebook via nbclient",
+      "notebook_seconds": 794.3255612850189,
+      "pipeline_seconds": 515.6979556449805,
       "input_slide_count": 6,
       "candidate_count": 20,
       "selected_rois": 6,
       "displayed_wsi_count": 2,
       "masks_available": true,
       "pipeline_errors": [],
-      "report_text_sha256": "839f80c82770a5936d975d06a61f9d68c4c092b94810314bb9b82180faf48aaa",
-      "source_report_html_sha256": "9fa6277622d49b8f155258e572e54198a4bc7cd57eb76aef40eb7561873913aa",
-      "recorded_run_notebook_executed": true
+      "diagnosis_summary": {
+        "primary_diagnosis": "Adrenocortical carcinoma",
+        "malignancy": "malignant",
+        "grade": "high",
+        "confidence": "high"
+      },
+      "report_text_sha256": "09125fac1faa03865d7997b9ef7582f556ca89c7938407050a7117a9b108fe66",
+      "source_report_html_sha256": "615df6e74923b54ec01bf40a790f634190074720f9501934b4fee47735b19074",
+      "source_executed_notebook_sha256": "ea7a0d25bbeb25ec2a2b2ccbd5f749b03c991f89aa98481b413928ea1ccbb2ae",
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "version": "SO4",
+      "display_name": "PathXAI",
+      "execution_status": "passed",
+      "execution_method": "Jupyter notebook via nbclient",
+      "notebook_seconds": 939.8722684383392,
+      "pipeline_seconds": 574.6021186830476,
+      "input_slide_count": 6,
+      "candidate_count": 20,
+      "selected_rois": 6,
+      "displayed_wsi_count": 2,
+      "masks_available": true,
+      "pipeline_errors": [],
+      "diagnosis_summary": {
+        "primary_diagnosis": "Adrenocortical carcinoma",
+        "malignancy": "malignant",
+        "grade": "high",
+        "confidence": "high"
+      },
+      "report_text_sha256": "179c5fc450879c8cab3ebc330e0535fa5b28eefa9b7b754bc7b1ac6bef340666",
+      "source_report_html_sha256": "290c57c1403152bb5d9cdcb486b10093a473217b7fc647785efceb022dec7d47",
+      "source_executed_notebook_sha256": "f404051219aca199cd7ba84f5b572acdd1bd8270093d4a29caf4559ea9f59ca9",
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
     }
   ],
   "candidate_reconstruction": {
@@ -47,7 +81,7 @@
     "manifest": "configs/sample_candidates.json"
   },
   "d1_hf_revision": "abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
-  "fresh_hf_download_verified": true,
+  "fresh_hf_download_verified": false,
   "refined_checkpoint_identity": {
     "repo_id": "RayTan/PathXAI-Seg",
     "revision": "abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
@@ -57,5 +91,10 @@
     "source_lineage": "medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue",
     "url": "https://huggingface.co/RayTan/PathXAI-Seg/commit/abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
     "gated": "manual"
-  }
+  },
+  "previous_fresh_hf_download_verified": true,
+  "checkpoint_loading": "Reused the prior fresh HF download; adapter SHA-256 rechecked before execution and model contracts checked inside the notebook run.",
+  "source_notebook_sha256": "0a64fc8a9b0cd1ea7574d8e581346e5ead605b49d65facc877f3d858580f5f59",
+  "main_notebook_version": "SO4",
+  "main_notebook_sha256": "735c4b786133210307a64875a4c4e04c57fab8a56edeae7388cc79db0308645c"
 }

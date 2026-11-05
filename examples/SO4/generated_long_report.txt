@@ -2,29 +2,29 @@ Specimen/Site:
 Adrenal gland / adrenocortical tissue
 
 Diagnosis:
-adrenocortical carcinoma
+Adrenocortical carcinoma
 
 Tumor/Lesion Description:
-The submitted tissue sections demonstrate a neoplastic proliferation of adrenocortical origin. The tumor is composed of diffuse sheets and nests of large polygonal cells with abundant eosinophilic to vacuolated (lipid-rich) cytoplasm. The neoplastic cells exhibit marked nuclear pleomorphism, hyperchromasia, and prominent nucleoli. The tumor architecture is solid, lacking the organized zonation of normal adrenal cortex.
+The submitted tissue sections demonstrate a neoplastic proliferation of adrenocortical origin. The tumor is composed of diffuse sheets and nests of large polygonal cells with abundant eosinophilic to vacuolated (lipid-rich) cytoplasm. The neoplastic cells exhibit marked nuclear pleomorphism, hyperchromasia, and prominent nucleoli. Segmentation analysis confirms a high neoplastic cell fraction (up to 98.2% in sampled ROIs) with minimal interspersed connective tissue stroma.
 
 Key Microscopic Findings:
-Microscopic examination reveals a high-grade neoplasm characterized by significant cytologic atypia. The tumor cells display irregular nuclear contours and prominent nucleoli. There is evidence of extensive geographic necrosis, characterized by large areas of eosinophilic debris and loss of cellular detail, surrounded by viable tumor cells. Segmentation analysis supports a high neoplastic burden (up to 98.2% in sampled ROIs) with associated necrotic tissue. Hemorrhage is present within the tumor stroma.
+Microscopic examination reveals a high-grade neoplasm characterized by diffuse sheets of atypical adrenocortical cells. The cells display enlarged, irregular nuclei with prominent nucleoli. The tumor architecture is disorganized, with cells arranged in solid nests and trabeculae. There is a distinct lack of the organized zonation seen in normal adrenal cortex.
 
 Invasion/Necrosis/Margins:
-Necrosis: Extensive geographic necrosis is present.
-Invasion: Capsular and venous invasion are not assessable from H&E ROI evidence.
+Necrosis: Extensive geographic necrosis is present, characterized by large areas of eosinophilic cellular debris and loss of nuclear detail.
+Invasion: Assessment of capsular invasion, vascular invasion, and invasion into adjacent normal adrenal tissue is not assessable from H&E ROI evidence.
 Margins: Surgical margins are not assessable from H&E ROI evidence.
 
 Immunohistochemistry/Ancillary Studies:
-Not assessable from H&E ROI evidence.
-Recommended stains to confirm adrenocortical lineage and exclude metastasis: Inhibin-alpha, Melan-A, SF-1, Calretinin, and Ki-67.
+Not assessable from H&E ROI evidence. Recommended stains to confirm adrenocortical lineage and exclude metastasis include Melan-A, SF-1, Inhibin-alpha, and Synaptophysin.
 
 Stage/Grade/Prognostic Features:
 Malignancy: malignant based on the locked final diagnosis; grade: high.
-Grade: High grade.
-Prognostic Features: The presence of extensive necrosis and high-grade cytologic features (pleomorphism, atypia) are consistent with a high-grade malignancy. Clinical hormone levels (Cortisol, Aldosterone, Androgens) are not provided.
+Grade: High (Malignant). The tumor exhibits features of high-grade malignancy, including extensive necrosis and marked cytologic atypia.
+Stage: Not assessable from H&E ROI evidence.
+Prognostic Features: The presence of extensive necrosis and high-grade cytologic features are associated with aggressive behavior.
 Subtype: adrenocortical carcinoma.
-Invasion: not assessable from ROI images alone.
+Invasion: not assessable from ROI images.
 
 Final Summary:
-The morphologic features are diagnostic of a high-grade adrenocortical carcinoma. The diagnosis is supported by the presence of marked cytologic atypia, extensive geographic necrosis, and a solid growth pattern of lipid-rich cells. Differential diagnoses such as metastatic renal cell carcinoma and metastatic melanoma are considered but are less likely given the specific cytologic features; however, immunohistochemistry is recommended for definitive confirmation. Adrenocortical adenoma is excluded based on the high-grade features and necrosis.
+The morphologic features are consistent with a high-grade Adrenocortical carcinoma. The diagnosis is supported by the presence of extensive geographic necrosis and marked cytologic atypia within an adrenocortical neoplasm. Differential diagnoses such as metastatic renal cell carcinoma, atypical adrenocortical adenoma, and pheochromocytoma are considered; however, the extent of necrosis and high-grade features favor carcinoma. Confirmation of lineage and exclusion of metastasis would require immunohistochemical staining (e.g., Melan-A, SF-1, Inhibin-alpha) and clinical correlation.

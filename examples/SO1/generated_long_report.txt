@@ -5,27 +5,19 @@ Diagnosis:
 Adrenocortical carcinoma
 
 Tumor/Lesion Description:
-The submitted tissue sections demonstrate a neoplastic proliferation consistent with adrenocortical origin. The tumor is composed of solid sheets and nests of large polygonal cells with abundant eosinophilic to clear (lipidized) cytoplasm. The neoplastic cells exhibit marked nuclear pleomorphism, hyperchromasia, and prominent nucleoli. Segmentation analysis indicates a high tumor burden across the sampled regions (Neoplastic fraction up to 97.0%).
+The submitted tissue sections demonstrate a neoplastic proliferation of large polygonal cells with abundant eosinophilic to clear vacuolated cytoplasm, consistent with adrenocortical differentiation. The tumor cells are arranged in diffuse sheets and solid nests. Segmentation analysis confirms a high neoplastic burden (up to 98.2% in sampled ROIs) with minimal intervening stroma.
 
 Key Microscopic Findings:
-- **Architecture:** The tumor displays a diffuse growth pattern with solid sheets and nests of cells separated by thin fibrovascular septa.
-- **Cytology:** Tumor cells are large with distinct cell borders. Cytoplasm varies from granular eosinophilic to clear/vacuolated.
-- **Nuclear Features:** Nuclei are enlarged and pleomorphic with prominent nucleoli.
-- **Stroma:** Delicate fibrovascular septa separate the nests of tumor cells. Stromal inflammation is minimal.
+The neoplastic cells exhibit significant cytologic atypia, characterized by marked nuclear pleomorphism, hyperchromasia, and prominent nucleoli. The chromatin pattern is coarse and irregular. The architectural pattern is diffuse and solid, lacking the organized zonation of normal adrenal cortex. Stromal inflammation is minimal.
 
 Invasion/Necrosis/Margins:
-- **Necrosis:** Foci of necrosis are present within the tumor (segmentation "Dead" class fractions up to 13.7%).
-- **Invasion:** Definitive evidence of vascular invasion or capsular invasion is not assessable from H&E ROI evidence.
-- **Margins:** Surgical margins are not assessable from H&E ROI evidence.
+Extensive geographic necrosis is present within the tumor parenchyma (segmentation "Dead" class up to 13.7%). Definitive evidence of capsular invasion, vascular invasion, or surgical margin status is not assessable from H&E ROI evidence.
 
 Immunohistochemistry/Ancillary Studies:
-Not assessable from H&E ROI evidence. Recommended stains to confirm adrenocortical lineage and exclude metastatic carcinoma include inhibin-alpha, melan-A, SF-1, calretinin, CK7, HepPar-1, CD10, and Ki-67.
+Not assessable from H&E ROI evidence. Recommended stains to confirm adrenocortical lineage and exclude metastasis include Inhibin-alpha, Melan-A, SF-1, and Synaptophysin.
 
 Stage/Grade/Prognostic Features:
 Malignancy: malignant based on the final diagnosis; exact grade, Weiss score, stage, and prognostic risk are not assessable from current H&E ROI evidence.
-- **Malignancy:** Malignant.
-- **Grade:** High grade.
-- **Prognostic Assessment:** The diagnosis of Adrenocortical Carcinoma is supported by the presence of significant nuclear atypia and necrosis. However, a definitive Weiss score cannot be calculated as mitotic count, atypical mitoses, and clear evidence of capsular/vascular invasion are not assessable from H&E ROI evidence.
 
 Final Summary:
-The histologic features are consistent with Adrenocortical Carcinoma. The tumor is composed of atypical adrenocortical cells with necrosis. While the morphology supports a malignant diagnosis, the absence of a complete Weiss score assessment (specifically mitotic count and vascular invasion) and lack of immunohistochemical confirmation limits the precision of the grading. Differential diagnoses such as metastatic renal cell carcinoma or hepatocellular carcinoma should be excluded with appropriate clinical correlation and immunohistochemistry.
+The morphologic features are diagnostic of Adrenocortical carcinoma. The differential diagnoses of metastatic renal cell carcinoma and metastatic melanoma are considered but less likely given the specific cytologic features; however, immunohistochemistry is required for definitive exclusion. Clinical correlation regarding tumor size and hormonal activity is recommended.
