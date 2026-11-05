@@ -87,6 +87,8 @@ def config_defaults(*, workspace: str | Path | None = None) -> dict[str, Any]:
         "foundation_model_path": discover_asset_path("conch", app_root=app_root),
         "trace_mode": "record",
         "trace_path": "",
+        "identifier_mode": "preserve",
+        "identifier_map_path": "",
         "legacy_response_order_recovery": False,
         "output_root": str(workspace / "runs"),
     }
@@ -248,6 +250,19 @@ def validate_config(config: dict[str, Any]) -> dict[str, Any]:
     trace_mode_ok = str(cfg.get("trace_mode") or "record") in {"record", "replay", "off"}
     trace_path_ok = str(cfg.get("trace_mode") or "record") != "replay" or bool(cfg.get("trace_path") and Path(str(cfg["trace_path"])).is_file())
     check("trace_mode", trace_mode_ok and trace_path_ok, "Trace mode configured" if trace_mode_ok and trace_path_ok else "Use record/off, or replay with an existing trace file")
+    identifier_mode = str(cfg.get("identifier_mode") or "preserve")
+    identifier_map = str(cfg.get("identifier_map_path") or "")
+    identifier_ok = identifier_mode in {"preserve", "pseudonymize"}
+    if identifier_mode == "preserve":
+        identifier_ok = identifier_ok and not identifier_map
+    else:
+        identifier_ok = identifier_ok and str(cfg.get("trace_mode") or "record") in {"record", "replay"}
+        identifier_ok = identifier_ok and (not identifier_map or Path(identifier_map).is_file())
+        if str(cfg.get("trace_mode") or "record") == "replay":
+            identifier_ok = identifier_ok and bool(identifier_map)
+    check("identifier_mode", identifier_ok,
+          "Identifier handling configured" if identifier_ok else
+          "Use preserve without a map, or pseudonymize with record/replay; replay requires the original private map")
     recovery_flag_ok = isinstance(cfg.get("legacy_response_order_recovery"), bool)
     check("legacy_response_order_recovery", recovery_flag_ok,
           "Legacy response-order recovery is an explicit boolean" if recovery_flag_ok

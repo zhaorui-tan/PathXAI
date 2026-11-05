@@ -257,6 +257,7 @@ def _run(request: dict[str, Any]) -> dict[str, Any]:
                 "engine_root", "v1_root", "segmentation_source_root", "pathxai_root", "medsam3_root",
                 "sam3_bpe", "pipeline_python", "seg_python", "seg_ckpt", "keep_root", "roi_cache_dir", "seg_cache_dir", "llm_cache_dir",
                 "sam3_checkpoint", "runtime_cache_dir", "trace_mode", "trace_path",
+                "identifier_mode", "identifier_map_path",
                 "shared_artifacts", "device", "qwen_api", "qwen_model", "foundation_model_path",
             )
         },
@@ -371,6 +372,11 @@ def _run(request: dict[str, Any]) -> dict[str, Any]:
         replay_network_guard.set_observer(stages_llm.record_network_block)
     else:
         stages_llm = None
+    from pathxai_demo.identifiers import configure_identifiers
+    stages_llm, identifier_metadata = configure_identifiers(
+        stages_llm, config=config, case=case, candidates=candidates, output_dir=out_dir)
+    resolved["identifier_handling"] = identifier_metadata
+    profile_path.write_text(json.dumps(resolved, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
     result = run_single_case(
         settings,
         str(case.get("case_id") or case.get("id")),
@@ -405,12 +411,19 @@ def _run(request: dict[str, Any]) -> dict[str, Any]:
                       "network_fallback": False if trace_mode == "replay" else None}
     if trace_mode == "replay":
         trace_metadata["legacy_response_order_recovery"] = stages_llm.recovery_receipt
+        trace_metadata["recording_events"] = stages_llm.recording_events_receipt
         trace_metadata["replay_network_guard"] = replay_network_guard.receipt()
         trace_metadata["replay_progress"] = stages_llm.progress_receipt
     if trace_path.is_file():
         trace_bytes = trace_path.read_bytes()
         trace_metadata.update(sha256=hashlib.sha256(trace_bytes).hexdigest(),
                               recorded_requests=sum(bool(line.strip()) for line in trace_bytes.splitlines()))
+    if trace_mode == "record" and stages_llm.events_path.is_file():
+        event_bytes = stages_llm.events_path.read_bytes()
+        trace_metadata["request_events"] = {
+            "path": str(stages_llm.events_path), "sha256": hashlib.sha256(event_bytes).hexdigest(),
+            "events": sum(bool(line.strip()) for line in event_bytes.splitlines()),
+            "intermediate_retry_response_bodies": "not_consumed", "image_bytes": "hashes_only"}
     if trace_mode == "replay":
         trace_metadata.update(consumed_requests=stages_llm.consumed, remaining_requests=stages_llm.remaining)
     (out_dir / "llm_trace_metadata.json").write_text(json.dumps(trace_metadata, indent=2) + "\n", encoding="utf-8")
