@@ -1,141 +1,216 @@
 {
   "site_url": "https://zhaorui-tan.github.io/PathXAI/",
-  "deployment_run": "https://github.com/zhaorui-tan/PathXAI/actions/runs/41817381882",
-  "source_commit": "fa9f948bfe5e20d3e26b46052525e1fc35ec7986",
+  "deployment_run": "https://github.com/zhaorui-tan/PathXAI/actions/runs/41957273581",
+  "source_commit": "c75ab062547dc3301d9f29b80a50a5f8f4c88f4d",
+  "case_id": "TCGA-OR-A5LL",
   "pages": [
     {
       "path": "index.html",
       "http_ok": true,
-      "bytes": 5619,
-      "sha256": "c80fec9871cff60a1bc55524d9d40e98903b4180eb726f490e7e33c0ec480f5f",
+      "bytes": 5021,
+      "sha256": "2b602c66521e46df6f6469df8e4715f567bf437b274dd5b645625d8088d90953",
       "matches_committed_file": true
     },
     {
       "path": "comparison.html",
       "http_ok": true,
-      "bytes": 2938,
-      "sha256": "e873bf11d7f02ff2778fda0b848fc963dc21ba8c31b9ab4d30b1ea2d52b8408b",
+      "bytes": 1213,
+      "sha256": "47516f995a6225b6946a4855286bd607d1fc91000e9455b13f58132c029a89fd",
       "matches_committed_file": true
     },
     {
       "path": "SO1/report.html",
       "http_ok": true,
-      "bytes": 191515,
-      "sha256": "cb7156a7d43441148b21913e986939ba0289d0643d19308e79311e4b9da83867",
+      "bytes": 201620,
+      "sha256": "c75f11374415476784c6fe3e3dee93c6bdee593fb2cd1d8cee8337ded325f683",
       "matches_committed_file": true
     },
     {
       "path": "SO4/report.html",
       "http_ok": true,
-      "bytes": 226999,
-      "sha256": "bd3fc736442c8a1fbf2dca187d4ac1ebc4215d527a14b252520e2cc2d3dee91e",
+      "bytes": 235834,
+      "sha256": "eb0764c5625616635ace186c890b83cd2c4157e8b5833a376e9568f36487c6a3",
+      "matches_committed_file": true
+    },
+    {
+      "path": "SO1/generated_long_report.txt",
+      "http_ok": true,
+      "bytes": 2209,
+      "sha256": "ec1050a61e43d9280b3e92b8177cf258565cc96fd962633cc9e6d91ccf3de482",
+      "matches_committed_file": true
+    },
+    {
+      "path": "SO4/generated_long_report.txt",
+      "http_ok": true,
+      "bytes": 2723,
+      "sha256": "4fcc7697f4b5097d058e19b51f0a33da6de4468243dc775357d8c75f8f5c2405",
       "matches_committed_file": true
     },
     {
       "path": "notebooks/SO1_completed.ipynb",
       "http_ok": true,
-      "bytes": 28952,
-      "sha256": "0b5e77eb3837b260c0776928325ec39c83b1e32c9c19c9ac54f9306bc6415c48",
+      "bytes": 28964,
+      "sha256": "f3ec617fd87ce02055ab8967a537ecc3e81a4e3f691f45bb15d89bc7bcf03538",
       "matches_committed_file": true
     },
     {
       "path": "notebooks/SO4_completed.ipynb",
       "http_ok": true,
-      "bytes": 25905,
-      "sha256": "37d4ae06b902e35643d74822be2a439b078cd6dcab7fbd8a7ace43580f4ffb5e",
+      "bytes": 25849,
+      "sha256": "308757242d2ae5d11b589fb7e2f26bfea8d676b360af49839bc80a023be62840",
       "matches_committed_file": true
     },
     {
       "path": "manifest.json",
       "http_ok": true,
-      "bytes": 9158,
-      "sha256": "b8568b19ff4efd6d20d255a1efbfbffb6ed46e1c0ad26e0af6335cb7b1308b46",
+      "bytes": 9162,
+      "sha256": "a2e5a3016b04b9339567deea364c69c1ebcf0b4db1e57703acf42ef8ed524c19",
       "matches_committed_file": true
     }
   ],
   "assets": [
     {
-      "path": "assets/3d026328d6e10e77f839.jpg",
+      "path": "assets/018825ca8d05757b060e.jpg",
       "http_ok": true,
-      "content_length": 710273,
+      "content_length": 808304,
       "size_matches": true
     },
     {
-      "path": "assets/fdfbfc0c8c239aa8da62.jpg",
+      "path": "assets/1ce179f3ff48491eb9cb.png",
       "http_ok": true,
-      "content_length": 831908,
+      "content_length": 8391546,
       "size_matches": true
     },
     {
-      "path": "assets/5e156153c7467ad266b5.jpg",
+      "path": "assets/2ec850ec313ac993ef41.png",
       "http_ok": true,
-      "content_length": 3539940,
+      "content_length": 32357664,
       "size_matches": true
     },
     {
-      "path": "assets/38316ae1e7e534a4c3c1.png",
+      "path": "assets/30066a90cdda3612f5b0.png",
       "http_ok": true,
-      "content_length": 41817,
+      "content_length": 8196011,
       "size_matches": true
     },
     {
-      "path": "assets/96ce31accbc60fac174f.jpg",
+      "path": "assets/3cf3fa21347bb26174fb.png",
       "http_ok": true,
-      "content_length": 3835680,
+      "content_length": 12036,
       "size_matches": true
     },
     {
-      "path": "assets/e541deb22fa0b49dc6c8.png",
+      "path": "assets/4141a6f84bc2d732bb53.png",
       "http_ok": true,
-      "content_length": 27300587,
+      "content_length": 72144,
       "size_matches": true
     },
     {
-      "path": "assets/cc2d8de10562520d1d2a.png",
+      "path": "assets/456c82c9e31469b4eb4c.jpg",
       "http_ok": true,
-      "content_length": 53929,
+      "content_length": 817938,
       "size_matches": true
     },
     {
-      "path": "assets/421e1fc483bbe469b97d.jpg",
+      "path": "assets/4ea0e2a7ef6d6e4b9435.jpg",
       "http_ok": true,
-      "content_length": 577602,
+      "content_length": 4776222,
       "size_matches": true
     },
     {
-      "path": "assets/fbb25f0251907f34c08b.jpg",
+      "path": "assets/50caddf8655d4676636b.png",
       "http_ok": true,
-      "content_length": 736618,
+      "content_length": 19792,
       "size_matches": true
     },
     {
-      "path": "assets/684d88a6a0d884017eae.jpg",
+      "path": "assets/54137b431b2ecace6883.jpg",
       "http_ok": true,
-      "content_length": 579927,
+      "content_length": 4828643,
       "size_matches": true
     },
     {
-      "path": "assets/1a403eccbe4bf18b234e.png",
+      "path": "assets/55bf68b2d34367b94195.jpg",
       "http_ok": true,
-      "content_length": 27968812,
+      "content_length": 610897,
       "size_matches": true
     },
     {
-      "path": "assets/767dc4a7b0804c854623.png",
+      "path": "assets/5fdec02635d894923dcf.png",
       "http_ok": true,
-      "content_length": 48086,
+      "content_length": 32571805,
       "size_matches": true
     },
     {
-      "path": "assets/8e07226d3080544f41ad.png",
+      "path": "assets/60d8960add6429435887.jpg",
       "http_ok": true,
-      "content_length": 6800113,
+      "content_length": 680846,
       "size_matches": true
     },
     {
-      "path": "assets/348cfb2ebac7281eefe3.png",
+      "path": "assets/63f72c030d8dfc228313.png",
       "http_ok": true,
-      "content_length": 11212,
+      "content_length": 82960,
+      "size_matches": true
+    },
+    {
+      "path": "assets/665054280d8727b27b0f.jpg",
+      "http_ok": true,
+      "content_length": 1193486,
+      "size_matches": true
+    },
+    {
+      "path": "assets/6d2719037c5bed2ba234.jpg",
+      "http_ok": true,
+      "content_length": 814607,
+      "size_matches": true
+    },
+    {
+      "path": "assets/940e1aecefae7203e334.png",
+      "http_ok": true,
+      "content_length": 33099224,
+      "size_matches": true
+    },
+    {
+      "path": "assets/96dfdcf15f0b16694255.jpg",
+      "http_ok": true,
+      "content_length": 847395,
+      "size_matches": true
+    },
+    {
+      "path": "assets/97bebf98b906d96ee032.jpg",
+      "http_ok": true,
+      "content_length": 1204468,
+      "size_matches": true
+    },
+    {
+      "path": "assets/9afcf1793f82fe7ea8e0.png",
+      "http_ok": true,
+      "content_length": 51784,
+      "size_matches": true
+    },
+    {
+      "path": "assets/a1fcff86a76df7394eaa.png",
+      "http_ok": true,
+      "content_length": 8408536,
+      "size_matches": true
+    },
+    {
+      "path": "assets/b8c10492422b8f2322b3.jpg",
+      "http_ok": true,
+      "content_length": 792503,
+      "size_matches": true
+    },
+    {
+      "path": "assets/cb92afe1b601915ca1be.jpg",
+      "http_ok": true,
+      "content_length": 1150379,
+      "size_matches": true
+    },
+    {
+      "path": "assets/d217826a25a32a047456.png",
+      "http_ok": true,
+      "content_length": 31259486,
       "size_matches": true
     },
     {
@@ -145,87 +220,27 @@
       "size_matches": true
     },
     {
-      "path": "assets/52c5aad1824e598c4b77.jpg",
+      "path": "assets/e027e11d4553c2ee22bb.png",
       "http_ok": true,
-      "content_length": 999633,
+      "content_length": 23665,
       "size_matches": true
     },
     {
-      "path": "assets/be9238a355ebe39a4c12.png",
+      "path": "assets/e60b73cef71eda5e61dc.png",
       "http_ok": true,
-      "content_length": 31149769,
+      "content_length": 33154942,
       "size_matches": true
     },
     {
-      "path": "assets/c596dc332b8b0d13c3cc.jpg",
+      "path": "assets/ee35e4a4c76226d65265.jpg",
       "http_ok": true,
-      "content_length": 645244,
+      "content_length": 4598934,
       "size_matches": true
     },
     {
-      "path": "assets/9256b9e23f6339a9044f.jpg",
+      "path": "assets/f67dd39fcb823197c805.jpg",
       "http_ok": true,
-      "content_length": 849977,
-      "size_matches": true
-    },
-    {
-      "path": "assets/03eb11b07596a189e410.jpg",
-      "http_ok": true,
-      "content_length": 3460397,
-      "size_matches": true
-    },
-    {
-      "path": "assets/247765c4662924dbc8e3.png",
-      "http_ok": true,
-      "content_length": 7006085,
-      "size_matches": true
-    },
-    {
-      "path": "assets/83b122c6dec2b595421f.png",
-      "http_ok": true,
-      "content_length": 7295446,
-      "size_matches": true
-    },
-    {
-      "path": "assets/b65d282615548082d656.png",
-      "http_ok": true,
-      "content_length": 28215178,
-      "size_matches": true
-    },
-    {
-      "path": "assets/f218de39a2fe2cea28ca.jpg",
-      "http_ok": true,
-      "content_length": 627294,
-      "size_matches": true
-    },
-    {
-      "path": "assets/6f49ebbcdb29b9036a80.jpg",
-      "http_ok": true,
-      "content_length": 293591,
-      "size_matches": true
-    },
-    {
-      "path": "assets/731848a92dd0a4aaa7d3.png",
-      "http_ok": true,
-      "content_length": 15855,
-      "size_matches": true
-    },
-    {
-      "path": "assets/73dff0027de3012dbe18.png",
-      "http_ok": true,
-      "content_length": 9566,
-      "size_matches": true
-    },
-    {
-      "path": "assets/98ded4a230311eb08b7c.png",
-      "http_ok": true,
-      "content_length": 31227130,
-      "size_matches": true
-    },
-    {
-      "path": "assets/3907eb997f546dd371b6.jpg",
-      "http_ok": true,
-      "content_length": 421364,
+      "content_length": 845169,
       "size_matches": true
     }
   ],

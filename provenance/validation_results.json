@@ -24,7 +24,9 @@
       "worker_cleanup": "verified_no_active_group_members",
       "source_executed_notebook_sha256": "40f4181b44d37db4fbf0f3f9823c802d9911986ba484fbf79cb0da215851e4ff",
       "recorded_api_requests": 22,
-      "actual_prompt_contains_tcga_project_label": false
+      "actual_prompt_contains_tcga_project_label": false,
+      "published_report_html_sha256": "c75f11374415476784c6fe3e3dee93c6bdee593fb2cd1d8cee8337ded325f683",
+      "published_notebook_sha256": "f3ec617fd87ce02055ab8967a537ecc3e81a4e3f691f45bb15d89bc7bcf03538"
     },
     {
       "version": "SO4",
@@ -42,7 +44,9 @@
       "worker_cleanup": "verified_no_active_group_members",
       "source_executed_notebook_sha256": "538eaeddc80831763ffc2dfaa6a585b47fe500b0145913d3e3483a327ab4b612",
       "recorded_api_requests": 22,
-      "actual_prompt_contains_tcga_project_label": false
+      "actual_prompt_contains_tcga_project_label": false,
+      "published_report_html_sha256": "eb0764c5625616635ace186c890b83cd2c4157e8b5833a376e9568f36487c6a3",
+      "published_notebook_sha256": "308757242d2ae5d11b589fb7e2f26bfea8d676b360af49839bc80a023be62840"
     }
   ],
   "sample_manifest_sha256": "7c53006937420052f547938dfa2d4daf2612eae1235220bb3af04e89c9e6d813",
@@ -109,5 +113,6 @@
     ],
     "failed_required_requests": [],
     "server_stopped": true
-  }
+  },
+  "report_html_sha256_scope": "Original portable export; published_report_html_sha256 covers the examples HTML with relocated asset URLs."
 }
