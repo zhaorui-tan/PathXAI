@@ -258,21 +258,331 @@ FINDINGS = {
 }
 CRITICAL = {"invasion", "necrosis", "lymphovascular_invasion", "perineural_invasion", "metastasis"}
 
+# Inflammatory-cell infiltration does not establish tumour invasion. Exclude
+# only the matched phrase, retaining separate tumour-invasion statements.
+IMMUNE_INFILTRATION = re.compile(
+    r"\b(?:lymphocytic|inflammatory)(?:\s+(?:cell|cells))?\s+infiltrat(?:e|es|ing|ion|ive)\b", re.I)
+
+
+
+# Keep shared negative lists intact. Only separate coordinated finding statements
+# when the left subject has its own overt copula and the right finding precedes
+# another copula. Diagnosis and grade extraction retain their original scope.
+_FINDING_TERM = re.compile("|".join(FINDINGS.values()), re.I)
+_FINDING_COPULA = re.compile(r"\b(?:is|are|was|were)\b", re.I)
+_FINDING_EXPLICIT_STATE = re.compile(
+    r"\s*(?:present|absent|frequent|rare|prominent|abundant|minimal|predominant|evident|observed|identified|seen|"
+    r"not (?:assessable|seen|identified|present|detected|observed|demonstrated|recognized))\b", re.I)
+_FINDING_DEPENDENT = re.compile(r"\b(?:although|though|while|whereas|because|as|if|unless|which|whether|respectively)\b", re.I)
+_FINDING_COORDINATOR = re.compile(r",\s*(?:and\s+)?|\s+and\s+", re.I)
+
+
+def finding_clauses(text: str) -> list[str]:
+    result = []
+    for sentence in clauses(text):
+        first = _FINDING_TERM.search(sentence)
+        leading = sentence[:first.start()] if first else sentence
+        # A leading uncertainty or conditional can govern both predicates.
+        # A hypothetical qualifier anywhere already excludes the original clause.
+        if HYPOTHETICAL.search(sentence) or UNKNOWN.search(leading) or UNCERTAIN.search(leading) or _FINDING_COPULA.search(leading) or re.search(r"\b(?:if|unless|whether|that|cannot|unclear)\b", leading, re.I):
+            result.append(sentence)
+            continue
+        start = 0
+        for cut in _FINDING_COORDINATOR.finditer(sentence):
+            prefix = sentence[:cut.start()]
+            # Do not split a parenthetical list into independent assertions.
+            if prefix.count("(") != prefix.count(")") or prefix.count("[") != prefix.count("]"):
+                continue
+            left, right = sentence[start:cut.start()], sentence[cut.end():]
+            terms = list(_FINDING_TERM.finditer(left))
+            left_predicate = _FINDING_COPULA.search(left, terms[-1].end()) if terms else None
+            if left_predicate is None or not _FINDING_EXPLICIT_STATE.match(left, left_predicate.end()):
+                continue
+            if _FINDING_DEPENDENT.search(left):
+                continue
+            first_term = _FINDING_TERM.search(right)
+            first_copula = _FINDING_COPULA.search(right)
+            if first_term is None or first_copula is None or first_term.end() > first_copula.start():
+                continue
+            if _FINDING_DEPENDENT.search(right[:first_term.start()]):
+                continue
+            right_state = _FINDING_EXPLICIT_STATE.match(right, first_copula.end())
+            if right_state is None:
+                continue
+            remainder = right[right_state.end():]
+            if UNKNOWN.search(remainder) or UNCERTAIN.search(remainder) or _FINDING_DEPENDENT.search(remainder) or re.search(r"\b(?:both|neither)\b", remainder, re.I):
+                continue
+            # A relative/modifying clause is not a separate finding predicate.
+            subject_tail = right[first_term.end():first_copula.start()]
+            if not re.fullmatch(r"\s*(?:(?:architecture|growth|pattern|patterns|formation|features|activity)\s*)?", subject_tail, re.I):
+                continue
+            result.append(left.strip())
+            start = cut.end()
+        result.append(sentence[start:].strip())
+    return result
+
+
+def _independent_later_assessment(clause, end, qualifier_start):
+    between = clause[end:qualifier_start]
+    state = r"\s*(?:(?:is|are|was|were)\s+)?(?:present|absent|frequent|rare|prominent|abundant|minimal|predominant|evident|observed|identified|seen|not (?:seen|identified|present|detected|observed|demonstrated|recognized))\b"
+    subject = r"\s*(?:(?:the|definitive|pathologic|pathological|precise|final)\s+)*(?:staging|stage|grading|grade|diagnosis|margin(?:s| status)?|nodal status|primary site)\s*"
+    for cut in _FINDING_COORDINATOR.finditer(between):
+        left, right = between[:cut.start()], between[cut.end():]
+        if (re.match(state, left, re.I)
+                and not _FINDING_DEPENDENT.search(left)
+                and not re.search(r"[()\[\]]", left)
+                and re.fullmatch(subject, right, re.I)):
+            return True
+    return False
+
+
+def _uncertainty_has_other_subject(clause: str, end: int, qualifier_start: int) -> bool:
+    """Do not attach a later explanatory diagnosis or artefact to an observation."""
+    between = clause[end:qualifier_start]
+    # Recognize named diagnostic/technical subjects only. Locatives and anaphora
+    # such as '(in these fields, its presence cannot be excluded)' still qualify
+    # the finding, even though the parenthetical contains additional words.
+    other_subject = r"(?:(?:the|a|an)\s+)?(?:(?:fixation|processing|staining)\s+art[ie]facts?|(?:low-grade|diagnostic)\s+mimics?|(?:presence|absence) of (?:a )?basal cell(?:s| layer))"
+    opening = between.rfind('(')
+    if opening > between.rfind(')'):
+        inner = between[opening + 1:].strip()
+        subject = re.split(r",|\b(?:though|although|whereas)\b", inner, flags=re.I)[-1].strip()
+        if re.fullmatch(other_subject, subject, re.I):
+            return True
+        if (re.match(r"\s*(?:is|are|was|were)\s+(?:clearly\s+)?present\b", between, re.I)
+                and re.fullmatch(r"(?:its|the)\s+(?:extent|size|distribution)", subject, re.I)):
+            return True
+    # Described morphology may suggest a diagnosis/grade whose identity is
+    # uncertain; that does not make the described morphology uncertain.
+    if re.search(r"\b(?:raises?|suggests?|supports?|indicates?)\b.*\b(?:possibility|diagnosis|grade|gleason|component)\b", between, re.I):
+        return True
+    # A dependent clause with its own named subject keeps its own qualifier.
+    # Anaphoric subjects ('this', 'both findings') can refer back to the finding.
+    for cut in re.finditer(r"\b(?:though|although|whereas)\b", between, re.I):
+        subject = between[cut.end():].strip(' ,')
+        if re.fullmatch(other_subject, subject, re.I):
+            return True
+    return False
+
+
+def _finding_nominal_list(text: str) -> bool:
+    """A bounded noun list, without an independent predicate or relative clause."""
+    residual = _FINDING_TERM.sub("", text)
+    residual = re.sub(
+        r"\b(?:and|or|a|an|the|tumor|tumour|distant|regional|lymph|node|nodes|stromal|"
+        r"definite|overt|focal|extensive|geographic|atypical|multipolar|architecture|growth|"
+        r"patterns?|formation|features|activity|capsular|venous|sinusoidal|lymphatic|"
+        r"vascular|blood|sanguineous|angiovascular|mediastinal|fat|cytologic|atypia)\b|[,/:\s]", "", residual, flags=re.I)
+    return not residual
+
+
+def _negative_lvi_branches(clause: str) -> set[str]:
+    """Vessel types explicitly denied by a bounded, unqualified assertion."""
+    # Parenthetical vessel sizes describe the same lymphatic/blood branches.
+    clause = re.sub(r"\s*\((?:large|small) vessels?\)", "", clause, flags=re.I)
+    # A complete negative assertion may follow an unrelated complete finding.
+    # Do not strip a leading uncertainty qualifier or a conditional premise.
+    joined = re.search(r"\s+and\s+(?=no\s+(?:evidence\s+of\s+)?)", clause, re.I)
+    if (joined and re.search(r"\b(?:is|are|was|were)\b", clause[:joined.start()], re.I)
+            and not UNCERTAIN.search(clause[:joined.start()])
+            and not UNKNOWN.search(clause[:joined.start()])
+            and not re.search(r"\b(?:if|whether|unless)\b", clause[:joined.start()], re.I)
+            and not HYPOTHETICAL.search(clause[:joined.start()])):
+        tail_branches = _negative_lvi_branches(clause[joined.end():])
+        if tail_branches:
+            return tail_branches
+    subject = r"(?P<subject>(?:(?:lymphovascular|angiolymphatic|lymphatic|blood|sanguineous|venous|vascular|angiovascular|invasion|and|or|of)\b[\s,/]*)+)"
+    location = r"(?:\s+in\s+(?:the\s+)?(?:(?:examined|sampled|available|provided|submitted|these|this)\s+)+(?:fields?|sections?|material|samples?|tissue|ROIs?|specimens?))?"
+    match = re.fullmatch(
+        r"\s*(?:(?:there\s+is\s+)?no\s+(?:evidence\s+of\s+)?" + subject
+        + r"(?:\s+(?:is|are)\s+(?:identified|seen|present|detected|observed))?|"
+        + subject.replace('subject', 'post_subject')
+        + r"\s*:?\s*(?:(?:is|are|was|were)\s+)?(?:absent|not\s+(?:identified|seen|present|detected|observed)))" + location
+        + r"(?:,\s*(?:although|though)\s+sampling\s+is\s+limited)?\s*", clause, re.I)
+    if not match:
+        # Independently stated negatives may jointly cover both vessel types.
+        parts = re.split(r",\s*(?:and\s+)?|\s+and\s+", clause, flags=re.I)
+        if len(parts) > 1:
+            branches = [_negative_lvi_branches(part) for part in parts]
+            if all(branches):
+                return set().union(*branches)
+        return set()
+    covered = match.group('subject') or match.group('post_subject')
+    if re.search(r"\b(?:lymphovascular|angiolymphatic)\b", covered, re.I):
+        return {'lymphatic', 'blood'}
+    branches = set()
+    if re.search(r"\blymphatic\b", covered, re.I):
+        branches.add('lymphatic')
+    if re.search(r"\b(?:blood|sanguineous|venous|angiovascular)\b", covered, re.I):
+        branches.add('blood')
+    return branches
+
+
+def _negative_is_narrower_than_finding(clause: str, start: int, end: int, key: str) -> bool:
+    """A negative subtype/extent statement cannot negate the broader concept."""
+    prefix = re.split(r"[,;]|\b(?:and|but)\b", clause[:start], flags=re.I)[-1]
+    # 'Prominent nucleoli' is itself a qualified vocabulary concept. A degree
+    # modifier on the preceding alternative does not qualify this entire term:
+    # 'no significant pleomorphism or prominent nucleoli'. Other coordinated
+    # heads can share their modifier ('no significant papillary or glandular
+    # architecture'), so do not split every 'or'.
+    if key == 'nucleoli':
+        prefix = re.split(r"\bor\b", prefix, flags=re.I)[-1]
+    if re.search(r"\b(?:extensive|geographic|dominant|significant|abundant|conspicuous)\s+(?:[\w-]+\s+){0,2}$", prefix, re.I):
+        return True
+    if key == 'mitoses' and re.search(r"\b(?:atypical|multipolar)\s+(?:[\w-]+\s+){0,2}$", prefix, re.I):
+        return True
+    if key == 'necrosis' and re.search(r"\bpseudo-?palisading\s*$", prefix, re.I):
+        return True
+    if key == 'invasion':
+        # Unavailable invasion measurements or interfaces do not deny invasion.
+        if re.search(r'\b(?:depth|extent|pattern|interface) of\s*$', prefix, re.I):
+            return True
+        if re.match(r'\s+(?:interface|depth|extent|pattern)\b', clause[end:], re.I):
+            return True
+        sites = r"(?:muscularis propria|detrusor|muscle|lamina propria|submucosa[l]?|sinusoidal|venous|renal vein|capsular|mediastinal fat|pleural|serosal|vascular|lymphatic|perineural)"
+        if re.search(r"\b" + sites + r"(?:-level)?\s*(?:\([^)]*\)\s*)?$", prefix, re.I):
+            return True
+        if re.match(r"\s+(?:of|into|through|involving)\s+(?:the\s+)?" + sites + r"\b", clause[end:], re.I):
+            return True
+    if key == 'lymphovascular_invasion':
+        if len(_negative_lvi_branches(clause)) == 2:
+            return False
+        if re.match(r"lymphatic invasion\b", clause[start:end], re.I):
+            return True
+        if re.search(r"\b(?:lymphatic|sanguineous|blood|venous)\s*$", prefix, re.I):
+            return True
+    return False
+
+
+def finding_polarity(clause: str, start: int, end: int) -> str:
+    value = polarity(clause, start, end)
+    # Naming items that require assessment does not assert their presence.
+    assessment = re.search(r"(?:\b(?:requires?|needs?)\s+(?:further\s+)?|^\s*(?:further\s+)?)assessment of\s+", clause[:start], re.I)
+    if assessment and _finding_nominal_list(clause[assessment.end():end]):
+        # A subsequent relative clause or repeated subject may explicitly report
+        # the observation. 'Requires assessment' must not erase that assertion.
+        following = clause[end:]
+        relative = re.search(r"\s*,?\s*(?:which|that)\s+(?P<copula>is|are|was|were)\s+(?:(?:clearly|definitely)\s+)?", following, re.I)
+        if relative and not _finding_nominal_list(following[:relative.start()]):
+            relative = None
+        if (relative and relative.group('copula').lower() in {'is', 'was'}
+                and not re.fullmatch(r"\s*(?:(?:architecture|growth|pattern|formation|activity)\s*)?", following[:relative.start()], re.I)):
+            # A singular predicate on the last head does not assert every item
+            # in the assessment list ('necrosis and mitotic activity, which is rare').
+            relative = None
+        repeated = re.search(re.escape(clause[start:end]), clause[assessment.end():start], re.I)
+        direct = re.match(r"\s*(?:is|are|was|were)\s+(?:(?:clearly|definitely)\s+)?", following, re.I)
+        explicit = relative or (direct if repeated else None)
+        if not explicit or not _FINDING_EXPLICIT_STATE.match(following, explicit.end()):
+            return "uncertain"
+        observation = clause[start:end] + ' ' + following[explicit.end():]
+        return finding_polarity(observation, 0, end - start)
+    # A request to confirm presence/absence is not an observation of presence.
+    confirmation = re.match(r"\s*,?\s*confirmation of (?:the )?(?:absence|presence) of\s+", clause, re.I)
+    if (confirmation and confirmation.end() <= start
+            and _finding_nominal_list(clause[confirmation.end():end])
+            and re.match(r"\s+(?:requires?|needs?)\s+(?:full\s+slide\s+review|further\s+(?:review|assessment|evaluation))\b", clause[end:], re.I)):
+        return "uncertain"
+    uncertainty = r"\bnot (?:identified|seen)\s*/\s*(?:assessable|evaluable)\b|\bcannot be (?:confirmed|excluded|assessed|evaluated|determined)\b"
+    for qualifier in re.finditer(uncertainty, clause, re.I):
+        if qualifier.start() < end:
+            continue
+        if _uncertainty_has_other_subject(clause, end, qualifier.start()):
+            continue
+        if not _FINDING_TERM.search(clause[end:qualifier.start()]):
+            if _independent_later_assessment(clause, end, qualifier.start()):
+                continue
+            return "uncertain"
+        # An assessment qualifier also governs a shared subject list, but not
+        # another earlier complete assertion such as "necrosis is present".
+        subject = re.sub(r"\b(?:is|are|was|were)\s*$", "", clause[:qualifier.start()], flags=re.I)
+        # Parentheses may repeat a bare finding label without asserting it.
+        if _finding_nominal_list(subject.replace('(', '').replace(')', '')):
+            return "uncertain"
+    if value == "uncertain" or re.search(r"\brespectively\b", clause, re.I):
+        return value
+    # Negation may govern a long, uninterrupted noun list beyond the legacy
+    # character window. A finite predicate breaks this shared scope.
+    negative_list = re.match(r"\s*(?:there\s+is\s+)?no\s+(?:evidence\s+of\s+)?", clause, re.I)
+    if negative_list and _finding_nominal_list(clause[negative_list.end():end]):
+        return "absent"
+    absence = r"(?:absent\b|not (?:seen|identified|present|detected|observed|demonstrated|recognized)\b|negative(?=\s*(?:[,;:.)]|$)))"
+    tail = clause[end:]
+    # Some vocabulary entries are adjectives; retain their nominal head when
+    # locating a predicate (for example, "papillary architecture is absent").
+    direct = re.match(r"\s*:?[ \t]*(?:(?:architecture|growth|patterns?|formation|features|activity)\s+(?:is|are|was|were)\s+|(?:(?:is|are|was|were)\s+)?)" + absence, tail, re.I)
+    # An absence predicate does not negate findings stated elsewhere in the same
+    # observation, or a relationship such as being seen together.
+    mixed = r"\b(?:present|positive|seen|identified|detected|observed|demonstrated|frequent|rare|prominent|abundant|minimal|predominant|evident|visible|detectable|together|simultaneously|concurrently|concomitantly|cooccur|coexist|associated|association|combination|conjunction|same|except|with)\b"
+    nonuniversal = r"\b(?:all|every)\b"
+    if (direct and not re.search(mixed, tail[direct.end():], re.I)
+            and not (re.search(r"\bnot\b", direct.group(), re.I) and re.search(nonuniversal, tail[direct.end():], re.I))
+            and not _FINDING_DEPENDENT.search(tail[direct.end():])):
+        return "absent"
+    # A shared negative predicate governs each member of a coordinated subject.
+    predicate = _FINDING_COPULA.search(tail)
+    if predicate:
+        between = tail[:predicate.start()]
+        between = re.sub(r"^\s*(?:architecture|growth|patterns?|formation|features|activity)\s*(?=,|and\b|or\b)", "", between, flags=re.I)
+        nominal_subject = _finding_nominal_list(clause[:end+predicate.start()])
+        negative = re.match(r"\s*" + absence, tail[predicate.end():], re.I)
+        if (nominal_subject and negative
+                and not (re.search(r"\bnot\b", negative.group(), re.I) and re.search(nonuniversal, tail[predicate.end()+negative.end():], re.I))
+                and not re.search(mixed, tail[predicate.end()+negative.end():], re.I)
+                and not _FINDING_DEPENDENT.search(tail[predicate.end()+negative.end():])
+                and re.match(r"\s*(?:,|and\b|or\b)", between, re.I)
+                and _FINDING_TERM.search(between)
+                and not _FINDING_DEPENDENT.search(between)
+                and not re.search(r"[()\[\]]", between)
+                and not re.search(r"\b(?:with|of|in|that|which|where|when|associated|due|within|if|whether)\b", between, re.I)
+                and re.match(r"\s*" + absence, tail[predicate.end():], re.I)):
+            return "absent"
+    return value
+
 
 def finding(text: str, key: str) -> dict:
     hits = []
-    for c in clauses(text):
+    negative_branches = {}
+    for c in finding_clauses(text):
         if HYPOTHETICAL.search(c):
             continue
         if key == "invasion":
             # General stromal invasion is not the same field as LVI/PNI.
-            c = re.sub(r"(?:lymphovascular|angiolymphatic|vascular|lymphatic|perineural|capsular) invasion", "", c, flags=re.I)
+            c = re.sub(r"(?:lymphovascular|angiolymphatic|vascular|lymphatic|perineural|neural|capsular)(?: vessels?)? (?:penetration\s*/\s*)?(?:invasion|infiltrat(?:ion|ive|ing|es?))\b", "", c, flags=re.I)
+        if key == 'lymphovascular_invasion':
+            for branch in _negative_lvi_branches(c):
+                negative_branches[branch] = c
+        immune_spans = [m.span() for m in IMMUNE_INFILTRATION.finditer(c)] if key == "invasion" else []
         for m in re.finditer(FINDINGS[key], c, re.I):
-            p = polarity(c, m.start(), m.end())
+            # A bare field label repeated by its body is not another assertion.
+            tail = c[m.end():]
+            colon = re.match(r"\s*:\s*", tail)
+            if not c[:m.start()].strip() and colon:
+                body = tail[colon.end():]
+                repeated = re.search(FINDINGS[key], body, re.I)
+                prefix = re.sub(r"^\s*no\s+", "", body[:repeated.start()], flags=re.I) if repeated else None
+                if repeated and _finding_nominal_list(prefix):
+                    continue
+            if any(start <= m.start() and m.end() <= end for start, end in immune_spans):
+                continue
+            p = finding_polarity(c, m.start(), m.end())
+            if key == 'lymphovascular_invasion' and len(_negative_lvi_branches(c)) == 2:
+                p = 'absent'
             if key == 'invasion' and re.search(r"non[ -]?invasive", c, re.I):
                 p = 'absent'
+            if key == 'lymphovascular_invasion' and p == 'absent':
+                for branch in _negative_lvi_branches(c):
+                    negative_branches[branch] = c
+            if p == 'absent' and _negative_is_narrower_than_finding(c, m.start(), m.end(), key):
+                p = 'uncertain'
             hits.append(dict(value=p if p != "uncertain" else None, text=c,
                              status="asserted" if p != "uncertain" else "uncertain"))
+    # Separate explicit denials of the two vessel types jointly deny LVI.
+    # Keep isolated subtype denials uncertain at the broader finding level.
+    if len(negative_branches) == 2 and not any(h['value'] == 'absent' for h in hits):
+        hits.append(dict(value='absent', status='asserted',
+                         text='; '.join(dict.fromkeys(negative_branches.values()))))
     return resolve(hits, binary=True)
 
 

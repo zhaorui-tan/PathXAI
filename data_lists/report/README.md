@@ -1,27 +1,21 @@
 # Report data lists
 
-## Main study cohorts
+These are the **final public case lists used in the manuscript**.
 
-| Cohort | Cases | TCGA projects | Listed source WSIs |
+| Analysis group | Cases | TCGA projects | Listed source WSIs |
 | --- | --- | --- | --- |
-| [original508_development](original508_development.txt) | 508 | 30 | 1,039 |
-| [new1200_confirmation](new1200_confirmation.txt) | 1,200 | 22 | 3,121 |
-| Total, disjoint cases | 1,708 | Projects overlap across cohorts | 4,160 |
+| [Public development subset](public_development456.txt) | 456 | 27 | 934 |
+| [Public evaluation cohort](public_evaluation1200.txt) | 1,200 | 22 | 3,121 |
+| Combined, disjoint cases | 1,656 | Projects overlap across groups | 4,055 |
 
-[patients.csv](patients.csv) has one row per study case; [slides.csv](slides.csv) has one row per source WSI association. [project_counts.csv](project_counts.csv) gives cohort-by-project counts. The SO1/SO4 and A5/D1 runs share these cohort definitions; they are not additional independent patient sets.
+The 456-case subset was used for method development and component comparisons. The 1,200-case cohort supplies the primary public evaluation. Group membership is fixed independently of an individual method's output availability; metric-specific reference applicability can give smaller denominators. SO1/Core and SO4/Full use these same case definitions.
 
-For **original508**, the frozen report manifest contains precomputed candidate ROIs, not a complete WSI inventory. The full case-associated WSI list was recovered from the public Wsi-Caption source manifest. Of its 1,039 WSIs, **822** are represented among the frozen candidate ROIs; `in_frozen_roi_candidates` distinguishes them. The remaining 217 are source associations, not proven model inputs. `list_scope=case_association_inventory` preserves this distinction.
+[patients.csv](patients.csv) has one row per included case; [slides.csv](slides.csv) lists the corresponding source WSI associations; [project_counts.csv](project_counts.csv) gives group-by-project counts. The technically unusable case TCGA-AA-3939 is excluded from every final list. The older development and screening inventories are not part of this release.
 
-For **new1200**, all 3,121 WSIs come from the frozen patient manifest's `slide_paths`. `recorded_primary_slide` identifies the preferred WSI recorded in that manifest. This is the frozen source inventory, not a claim that every source slide yielded an ROI in every generated report. The original, A5-bridge and D1 expansion manifests have identical bytes. These lists retain DX, TS and other source slide types rather than applying the tutorial's five-DX sample policy to the entire study.
-
-## Complete public source inventory
-
-[source_inventory_patients.csv](source_inventory_patients.csv) contains all **9,009** public TCGA cases in the source manifest. [source_inventory_slides.csv](source_inventory_slides.csv) contains its **10,949** listed WSIs. Some source cases have no listed WSI; `listed_slide_count=0` preserves those entries.
-
-The 1,708 study cases are included and marked `in_report_study=1`. The other **7,301** cases belong to the source/screening inventory; they must not be counted as cases evaluated in the released report study. This flag does not describe participation in unrelated historical experiments.
+For the development subset, case-associated slides were recovered from the public WsiCaption source manifest; `in_frozen_roi_candidates` identifies which slides were represented among the saved ROI candidates. For the evaluation cohort, `recorded_primary_slide` identifies the preferred WSI in the patient manifest. `source_slide_count` counts the associations actually listed here. A listed slide need not have contributed an ROI to every report. DX, TS and other source slide types are retained.
 
 ## Obtaining the data
 
-Use the [NCI GDC portal](https://portal.gdc.cancer.gov/) or the `download_url` derived from each recorded GDC file ID. The filenames and UUIDs are taken from the source manifests; all 10,949 files were not re-downloaded or revalidated against the live GDC API during this list export. For the runnable, checksum-verified tutorial sample, use [sample_tcga.json](../../configs/sample_tcga.json) and the notebook downloader.
+Use the [NCI GDC portal](https://portal.gdc.cancer.gov/) or each row's `download_url`. GDC filenames and UUIDs identify the source WSIs; the list export does not re-download them. For the runnable tutorial case, use [sample_tcga.json](../../configs/sample_tcga.json) and the notebook downloader.
 
-`slide_type` classifies the filename's DX/TS token, including letter suffixes such as TSA; it is not a pathology label. Local machine paths, report text and clinical reference text are omitted. Project names are metadata for cohort auditing: do not feed a TCGA project label into the diagnostic prompt as a known diagnosis.
+These files contain public identifiers and source associations, not images, clinical report text or private cases. TCGA project labels support cohort auditing and evaluation; they are not supplied as a known diagnosis to inference. Source hashes and the inclusion-list version are recorded in [provenance.json](../provenance.json).

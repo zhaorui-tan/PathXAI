@@ -1,0 +1,19 @@
+{
+  "schema": "pathxai_evaluation_source_snapshot_v1",
+  "source_version": "eval_v4_report_only_20261104_r6_candidate",
+  "release_role": "Frozen manuscript implementation; internal candidate suffix retained verbatim",
+  "source_directory": "evidence/report_eval_v4_20261104_r6/code",
+  "completion_receipt": "qa/report_extractor_repair_20261104/publication_sync/completion_receipt.json",
+  "completion_receipt_sha256": "0070afa475c7f93db380dc4934011791761639ed1fa6d1be36a434c1995a26d0",
+  "source_sha256": {
+    "eval_v3.py": "35ab2e8b086277d6088cb1ae674b0093fbc79e0042356493d366472f07e32bb1",
+    "eval_v4.py": "85d6851370640af6c9ec1f76ddbf08f06306d82cb2f76545ee7669da2cc61069",
+    "diagnostic_text.py": "de461368b444990ea80a0e07167aef8070eceb0658c2b3d25c0a760a168af85c",
+    "subtype_ontology_v4.py": "aba512bd2f20276fa8f6420740d2b40133567bc93a64f6a3203a41619c3ed100",
+    "tcga_ground_truth.py": "2ad67a6891e400daae67af12575914614c8567df59de7baf55406b5b2aefabb4"
+  },
+  "finding_audit_source": "qa/report_interval_revision_20261105/candidate_aggregate_v4.py:147-186",
+  "finding_audit_source_sha256": "b72748fa6d2cb8f1393e1a19f8ae161ba9953b7e0d37d400547d61826c1a33f4",
+  "source_contract_tests": "test_eval_v4.py (only package import adapted)",
+  "synthetic_parser_tests": "TextMeaningTests and AdversarialMeaningTests from qa/report_extractor_repair_20261104/test_candidate.py; fixture fields minimized to test inputs and expectations"
+}

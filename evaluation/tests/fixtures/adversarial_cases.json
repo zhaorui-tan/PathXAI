@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "id": "passive_uncertainty",
+      "input": "Diagnosis: thymoma cannot be excluded."
+    },
+    {
+      "id": "expanded_negation",
+      "input": "Diagnosis: no residual thymoma."
+    },
+    {
+      "id": "denial_phrase",
+      "input": "Diagnosis: no evidence to support thymoma."
+    },
+    {
+      "id": "backward_negative_scope",
+      "input": "Diagnosis: thymoma; negative for thymic carcinoma."
+    },
+    {
+      "id": "backward_uncertainty_scope",
+      "input": "Diagnosis: thymoma; possible thymic carcinoma."
+    },
+    {
+      "id": "hidden_genuine_conflict",
+      "input": "Diagnosis: thymoma, grade unknown; thymic carcinoma is present."
+    },
+    {
+      "id": "multiline_differential",
+      "input": "Diagnosis: differential diagnoses include:\n- thymoma\n- thymic carcinoma"
+    },
+    {
+      "id": "lost_postgrade_uncertainty",
+      "input": "Diagnosis: thymoma, grade 2, subtype uncertain."
+    },
+    {
+      "id": "node_scope_overreach",
+      "input": "Diagnosis: no lymph node involvement; no thymoma is identified."
+    },
+    {
+      "id": "uncertainty_downgraded_to_missing",
+      "input": "Diagnosis: cannot exclude thymoma."
+    },
+    {
+      "id": "comment_explicit_revision",
+      "input": "Diagnosis: thymoma.\nComment: The diagnosis of thymoma is retracted. Final diagnosis is thymic carcinoma."
+    }
+  ],
+  "controls": [
+    {
+      "id": "true_conflict_control",
+      "input": "Diagnosis: thymoma and thymic carcinoma are present."
+    }
+  ]
+}

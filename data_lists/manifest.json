@@ -1,62 +1,50 @@
 {
-  "schema": "pathxai-public-data-lists-v1",
+  "schema": "pathxai-public-data-lists-v2",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2922,
-      "sha256": "45e3e3a2602d08aa6b70981ad96bc951a537e3c3c3c13efa3a90d7b2f4517303"
+      "bytes": 2766,
+      "sha256": "4bada75e2dff846c9d9875c06578284b7be9456ebd3b7732d2b77a8156bfed28"
     },
     {
       "path": "provenance.json",
-      "bytes": 13585,
-      "sha256": "0e381a706a16ee99d60ebe5bb2d205dd6edc3d6b671553bc7f8a8acd32d7cd60"
+      "bytes": 13799,
+      "sha256": "5ecd1e6d59f2e6ffee71cc5a9453ef59a58a340b877437f2368cdf7b4961015d"
     },
     {
       "path": "report/README.md",
-      "bytes": 3026,
-      "sha256": "0b4f7b25a254fb14aefb1eaee149eb6b031bcc9edf22ae9bea993011917cf5cc"
+      "bytes": 2281,
+      "sha256": "dd8c614f3869ffd7d0032a6bffa910374cc3519e5424620192d732b9df669996"
     },
     {
-      "path": "report/new1200_confirmation.txt",
+      "path": "report/patients.csv",
+      "bytes": 79742,
+      "sha256": "bbbed95d5cead20e69bc606c56059a17d18746d9cd7526ade55f3c90dea245ef",
+      "records": 1656
+    },
+    {
+      "path": "report/project_counts.csv",
+      "bytes": 1729,
+      "sha256": "72d2239c986fe995994cd2b582722bda12046ce4ce6b068f4f976e261116dadb",
+      "records": 49
+    },
+    {
+      "path": "report/public_development456.txt",
+      "bytes": 5928,
+      "sha256": "6843065b8aa58c1685fa5c90e0677caa979f7a3fd26e7659b8e04b0badaf3d91",
+      "records": 456
+    },
+    {
+      "path": "report/public_evaluation1200.txt",
       "bytes": 15600,
       "sha256": "fc1d7e38b1c3bc9d656d47f07ba30e408ff657096006493e9f86553ca9b0be00",
       "records": 1200
     },
     {
-      "path": "report/original508_development.txt",
-      "bytes": 6604,
-      "sha256": "95bdfd76fed582102601e520df0b87b00c3529778188eb3833b455aa82ca3245",
-      "records": 508
-    },
-    {
-      "path": "report/patients.csv",
-      "bytes": 82106,
-      "sha256": "0e5f5a47de4ddca22389869bbe824da1b0859dc0e6eaaf42800e551883b15707",
-      "records": 1708
-    },
-    {
-      "path": "report/project_counts.csv",
-      "bytes": 1872,
-      "sha256": "c2d992300d56ee9c07930571aaf804678e8859ed3015ea54e1407e23476467b2",
-      "records": 52
-    },
-    {
       "path": "report/slides.csv",
-      "bytes": 1039289,
-      "sha256": "b69b75363e8383238017ffa152cb5816c21040cc38077babf9aca111da53452d",
-      "records": 4160
-    },
-    {
-      "path": "report/source_inventory_patients.csv",
-      "bytes": 242429,
-      "sha256": "8c549416bfe1ab9e7923b2a83ad148fa3bbd01bb5dd8b50d063f0e4dfaba7f86",
-      "records": 9009
-    },
-    {
-      "path": "report/source_inventory_slides.csv",
-      "bytes": 2145050,
-      "sha256": "6c4dd528e06d94640e8c9a0e9c7e4315f79fa4065f9cbfb24018585556ce9be1",
-      "records": 10949
+      "bytes": 1014184,
+      "sha256": "3da3ba8c16bd20a981f8f7f24dc2ecb29566a4e7aa0a7bb6b8f60dd664728d25",
+      "records": 4055
     },
     {
       "path": "seg/README.md",
@@ -395,8 +383,8 @@
     },
     {
       "path": "sources.csv",
-      "bytes": 5839,
-      "sha256": "dce3155def1185fe3cabe2c08edc257eae749b6186787ebce17a87568cb22fb7",
+      "bytes": 5822,
+      "sha256": "4e2d3663c8595fdf74eb6d58874f3c602c8f27786c8729190ea32debd4dba98d",
       "records": 33
     }
   ]

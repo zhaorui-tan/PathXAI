@@ -2,7 +2,7 @@
 """Export identifiers only from the study's local source inventories.
 
 Requires the publisher's original manifests, not model weights or inference.
-Run with --project-root, --seg-root, --report-inventory and --output.
+Run with source manifests, --final-report-cases and --output.
 No source dataset, split, report or model file is modified.
 """
 import argparse
@@ -52,6 +52,8 @@ def main():
     parser.add_argument("--report-inventory", type=Path, required=True)
     parser.add_argument("--source-links", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--final-report-cases", type=Path, required=True,
+                        help="Final released report/patients.csv; membership is never inferred from outputs")
     args = parser.parse_args()
     out = args.output
     out.mkdir(parents=True, exist_ok=True)
@@ -69,18 +71,30 @@ def main():
     source(args.project_root / EXPANSION, args.project_root, "report")
     source(args.report_inventory, args.report_inventory.parent, "report_inventory")
     inventory = {r["case_id"]: r for r in rows(args.report_inventory)}
+    with args.final_report_cases.open() as stream:
+        included = {r["case_id"]: r["cohort"] for r in csv.DictReader(stream)}
+    assert len(included) == 1656 and "TCGA-AA-3939" not in included
+    assert Counter(included.values()) == {"public_development456":456,"public_evaluation1200":1200}
+    original = [r for r in original if r["case_id"] in included]
+    expansion = [r for r in expansion if r["case_id"] in included]
+    assert len(original) == 456 and len(expansion) == 1200
+    assert all(included[r["case_id"]] == "public_development456" for r in original)
+    assert all(included[r["case_id"]] == "public_evaluation1200" for r in expansion)
+    for name in ("original508_development.txt", "new1200_confirmation.txt",
+                 "source_inventory_patients.csv", "source_inventory_slides.csv"):
+        (out / "report" / name).unlink(missing_ok=True)
     patients, slides, summaries = [], [], []
     seen_cases = set()
-    for cohort, records in [("original508_development", original), ("new1200_confirmation", expansion)]:
+    for cohort, records in [("public_development456", original), ("public_evaluation1200", expansion)]:
         start = len(slides)
         for row in records:
             case = row["case_id"]
             assert re.fullmatch(r"TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}", case) and case not in seen_cases
             seen_cases.add(case)
             candidates = {r["metadata"]["slide_path"] for r in row.get("candidate_rois", [])}
-            paths = sorted(set(inventory[case]["metadata"]["slide_paths"])) if cohort.startswith("original") else list(dict.fromkeys(row["slide_paths"]))
+            paths = sorted(set(inventory[case]["metadata"]["slide_paths"])) if cohort == "public_development456" else list(dict.fromkeys(row["slide_paths"]))
             assert candidates <= set(paths)
-            if cohort.startswith("new"):
+            if cohort == "public_evaluation1200":
                 assert set(paths) == set(inventory[case]["metadata"]["slide_paths"])
             patients.append({"cohort": cohort, "case_id": case, "project_id": row["cancer_type"],
                              "source_slide_count": len(paths), "candidate_slide_count": len(candidates) if candidates else ""})
@@ -94,9 +108,9 @@ def main():
                                "file_name": p.name, "gdc_file_id": file_id,
                                "slide_type": material.group(1) if material else "other",
                                "download_url": "https://api.gdc.cancer.gov/data/" + file_id,
-                               "in_frozen_roi_candidates": int(path in candidates) if cohort.startswith("original") else "",
-                               "recorded_primary_slide": int(path == row.get("slide_path")) if cohort.startswith("new") else "",
-                               "list_scope": "case_association_inventory" if cohort.startswith("original") else "frozen_source_wsi_inventory"})
+                               "in_frozen_roi_candidates": int(path in candidates) if cohort == "public_development456" else "",
+                               "recorded_primary_slide": int(path == row.get("slide_path")) if cohort == "public_evaluation1200" else "",
+                               "list_scope": "case_association_inventory" if cohort == "public_development456" else "frozen_source_wsi_inventory"})
         subset = slides[start:]
         summaries.append({"cohort": cohort, "patients": len(records), "slides": len(subset),
                           "projects": len({r["cancer_type"] for r in records}),
@@ -104,33 +118,12 @@ def main():
         p = out / "report" / (cohort + ".txt")
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text("\n".join(sorted(r["case_id"] for r in records)) + "\n")
-    assert len(slides) == 4160
+    assert len(slides) == 4055
     write_csv(out / "report/patients.csv", patients, list(patients[0]))
     write_csv(out / "report/slides.csv", slides, list(slides[0]))
     project_counts = Counter((r["cohort"], r["project_id"]) for r in patients)
     write_csv(out / "report/project_counts.csv", [{"cohort": c, "project_id": p, "patients": n}
               for (c, p), n in sorted(project_counts.items())], ["cohort", "project_id", "patients"])
-
-    # Also disclose the complete public screening inventory, separately from
-    # the confirmed report cohorts. Do not export source report text.
-    inventory_patients, inventory_slides = [], []
-    for case, row in sorted(inventory.items()):
-        assert re.fullmatch(r"TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}", case)
-        paths = sorted(set(row["metadata"].get("slide_paths", [])))
-        inventory_patients.append({"case_id": case, "project_id": row["metadata"]["cancer_type"],
-                                   "listed_slide_count": len(paths), "in_report_study": int(case in seen_cases)})
-        for path in paths:
-            p = Path(path)
-            assert p.name.startswith(case + "-") and p.suffix.lower() == ".svs"
-            file_id = p.parent.name
-            if not re.fullmatch(r"[0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}", file_id):
-                file_id = ""
-            inventory_slides.append({"case_id": case, "project_id": row["metadata"]["cancer_type"],
-                                     "file_name": p.name, "gdc_file_id": file_id,
-                                     "in_report_study": int(case in seen_cases),
-                                     "download_url": "https://api.gdc.cancer.gov/data/" + file_id if file_id else ""})
-    write_csv(out / "report/source_inventory_patients.csv", inventory_patients, list(inventory_patients[0]))
-    write_csv(out / "report/source_inventory_slides.csv", inventory_slides, list(inventory_slides[0]))
 
     # Segmentation: preserve all recorded train/held-out list entries and order.
     counts, split_sets = [], {}
@@ -227,18 +220,18 @@ def main():
         for dataset in aliases.get(row["dataset"], [row["dataset"]]):
             roles = sorted({r["split"] for r in counts if r["dataset"] == dataset})
             if dataset == "TCGA":
-                roles = ["report_study", "source_inventory"]
+                roles = ["report_study"]
             if dataset == "TIGER_WSI":
                 roles = ["excluded_unaligned_protocol"]
             catalog.append({"dataset": dataset, "roles": ";".join(roles),
                             "source_url": row["source_url"] or "", "verification_note": row["verification_note"]})
     assert {r["dataset"] for r in counts} <= {r["dataset"] for r in catalog}
     write_csv(out / "sources.csv", sorted(catalog, key=lambda r: r["dataset"]), list(catalog[0]))
-    result = {"schema": "pathxai-public-data-source-inventory-v1", "report": summaries,
+    result = {"schema": "pathxai-public-data-lists-v2", "report": summaries,
               "seg_pool_counts": {split: sum(r["entries"] for r in counts if r["split"] == split)
                                   for split in ["train_pool", "heldout_pool"]},
               "seg_dataset_count": len({d for d, _ in split_sets}),
-              "report_source_inventory": {"patients": len(inventory_patients), "listed_slides": len(inventory_slides), "in_study_patients": len(seen_cases)},
+              "report_membership": {"cases": len(included), "inclusion_sha256": sha(args.final_report_cases)},
               "sources": sources}
     (out / "provenance.json").write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps({k: v for k, v in result.items() if k != "sources"}, indent=2))

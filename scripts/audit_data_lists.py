@@ -21,35 +21,39 @@ def require(condition, message):
         raise ValueError(message)
 
 
-def structural_checks():
+def report_checks():
     patients = table("report/patients.csv")
     ids = {r["case_id"] for r in patients}
-    require(len(ids) == len(patients) == 1708, "Report study must have 1708 unique cases")
-    require(Counter(r["cohort"] for r in patients) == {"original508_development": 508, "new1200_confirmation": 1200}, "Report cohort counts differ")
-    for p in ROOT.glob("report/*.txt"):
-        expected = {r["case_id"] for r in patients if r["cohort"] == p.stem}
-        require(set(p.read_text().splitlines()) == expected, "Case TXT differs from CSV: " + p.name)
+    expected = {"public_development456": 456, "public_evaluation1200": 1200}
+    require(len(ids) == len(patients) == 1656, "Report release must have 1656 unique cases")
+    require(Counter(r["cohort"] for r in patients) == expected, "Final report group counts differ")
+    require("TCGA-AA-3939" not in ids, "Excluded corrupt case in final release")
+    require({p.stem for p in (ROOT / "report").glob("*.txt")} == set(expected), "Unexpected or missing report case list")
+    require(not list((ROOT / "report").glob("source_inventory*")), "Obsolete screening inventory remains")
+    for cohort in expected:
+        values = (ROOT / "report" / (cohort + ".txt")).read_text().splitlines()
+        require(len(values) == len(set(values)) == expected[cohort], "Duplicate or incorrect list length")
+        require(set(values) == {r["case_id"] for r in patients if r["cohort"] == cohort}, "TXT/CSV membership differs")
     slides = table("report/slides.csv")
-    require(len(slides) == len({r["gdc_file_id"] for r in slides}) == 4160, "Study WSI count/uniqueness differs")
-    require({r["case_id"] for r in slides} == ids, "Study WSI case coverage differs")
-    require(sum(r["in_frozen_roi_candidates"] == "1" for r in slides) == 822, "Original frozen ROI slide count differs")
-    require(sum(r["recorded_primary_slide"] == "1" for r in slides) == 1200, "Confirmation primary-slide count differs")
+    require(len(slides) == len({r["gdc_file_id"] for r in slides}) == 4055, "Listed WSI count/uniqueness differs")
+    require({r["case_id"] for r in slides} == ids, "WSI case coverage differs")
+    require(sum(r["in_frozen_roi_candidates"] == "1" for r in slides) == 745, "Development candidate-slide count differs")
+    require(sum(r["recorded_primary_slide"] == "1" for r in slides) == 1200, "Evaluation primary-slide count differs")
     per_case = Counter(r["case_id"] for r in slides)
+    indexed = {r["case_id"]: r for r in patients}
     for row in patients:
         require(per_case[row["case_id"]] == int(row["source_slide_count"]), "Patient WSI count differs")
-    inventory = table("report/source_inventory_patients.csv")
-    require(len(inventory) == len({r["case_id"] for r in inventory}) == 9009, "Source case inventory differs")
-    require({r["case_id"] for r in inventory if r["in_report_study"] == "1"} == ids, "Source/study membership differs")
-    inventory_slides = table("report/source_inventory_slides.csv")
-    require(len(inventory_slides) == 10949, "Source WSI inventory count differs")
-    require({r["gdc_file_id"] for r in inventory_slides if r["in_report_study"] == "1"} == {r["gdc_file_id"] for r in slides}, "Source/study WSI inventory differs")
-    for row in inventory:
-        require(re.fullmatch(r"TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}", row["case_id"]), "Non-TCGA identifier in public report list")
-    for row in inventory_slides:
+        require(re.fullmatch(r"TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}", row["case_id"]), "Non-TCGA identifier")
+    for row in slides:
         require(row["file_name"].startswith(row["case_id"] + "-"), "WSI filename/case identity differs")
-        if row["gdc_file_id"]:
-            require(row["download_url"] == "https://api.gdc.cancer.gov/data/" + row["gdc_file_id"], "GDC URL differs from ID")
+        require(row["cohort"] == indexed[row["case_id"]]["cohort"], "Slide group mismatch")
+        require(row["project_id"] == indexed[row["case_id"]]["project_id"], "Slide project mismatch")
+        require(row["download_url"] == "https://api.gdc.cancer.gov/data/" + row["gdc_file_id"], "GDC URL differs from ID")
+    actual_counts = {(r["cohort"],r["project_id"]): int(r["patients"]) for r in table("report/project_counts.csv")}
+    require(actual_counts == Counter((r["cohort"],r["project_id"]) for r in patients), "Project counts differ")
 
+
+def segmentation_checks():
     counts = table("seg/counts.csv")
     pools = {}
     for split, expected_total in [("train_pool", 360122), ("heldout_pool", 90040)]:
@@ -88,10 +92,12 @@ def structural_checks():
     require({r["dataset"] for r in counts} <= {r["dataset"] for r in table("sources.csv")}, "Dataset missing from source index")
 
 
-def file_inventory():
+def file_inventory(report_only=False):
     output = []
     for path in sorted(ROOT.rglob("*")):
         if not path.is_file() or path == ROOT / "manifest.json":
+            continue
+        if report_only and path.relative_to(ROOT).parts[0] == "seg":
             continue
         require(not path.is_symlink(), "Unexpected symlink in public lists")
         data = path.read_bytes()
@@ -112,14 +118,21 @@ def file_inventory():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--write-manifest", action="store_true", help="Publisher: record hashes after structural checks pass")
+    parser.add_argument("--report-only", action="store_true", help="Check final public report lists without segmentation files")
     args = parser.parse_args()
-    structural_checks()
-    inventory = file_inventory()
+    if args.report_only and args.write_manifest:
+        parser.error("--write-manifest requires the complete checkout")
+    report_checks()
+    if not args.report_only:
+        segmentation_checks()
+    inventory = file_inventory(args.report_only)
     if args.write_manifest:
-        (ROOT / "manifest.json").write_text(json.dumps({"schema": "pathxai-public-data-lists-v1", "files": inventory}, indent=2) + "\n")
+        (ROOT / "manifest.json").write_text(json.dumps({"schema": "pathxai-public-data-lists-v2", "files": inventory}, indent=2) + "\n")
     expected = json.loads((ROOT / "manifest.json").read_text())["files"]
+    if args.report_only:
+        expected = [r for r in expected if not r["path"].startswith("seg/")]
     require(expected == inventory, "Released list files differ from manifest")
-    print(f"Verified {len(inventory)} public-list files, source/study membership, split disjointness, validation subsets and evaluation identities.")
+    print(f"Verified {len(inventory)} public-list files, final report membership and identities{' plus segmentation checks' if not args.report_only else ''}.")
 
 
 if __name__ == "__main__":

@@ -1,50 +1,64 @@
 # Report evaluation
 
-The tutorial evaluator scores a generated report against a user-supplied reference. It runs locally, makes no model/API calls, and does not require model weights. The packaged code under `evaluation/vendor/` is a snapshot of the current deterministic report-only evaluator in `src/pathxai_agent_v2/eval/` (`eval_v4_report_only_20261017_r5`). Prefer `generated_long_report.txt` for evaluation. For PathXAI `report.html`, the wrapper extracts only final-report rows, excluding differential diagnoses, evidence panels and reference panels. Other HTML inputs must contain only the report being assessed. The versioned source modules are included so this evaluation package can run independently of the rest of the pipeline.
+This package runs the frozen manuscript report evaluator locally using only the Python standard library. It makes no model/API calls and generates no reports. The five modules in `evaluation/vendor/` are byte-identical to `evidence/report_eval_v4_20261104_r6/code/`, selected by the manuscript publication completion receipt dated 2026-11-05. The exact internal version is `eval_v4_report_only_20261104_r6_candidate`; the `candidate` suffix is retained for reproducibility and identifies the frozen manuscript implementation. `evaluation/version.json` records all five source hashes.
 
-## Inputs
+## Inputs and run
 
-Provide a generated HTML or plain-text report and its matching reference report. The reference must come from an independently curated/physician reference source; this repository includes generated example reports but does not redistribute the original clinical reference report. If the reference is structured JSON, use an object with a `text` string and optional `structured` object. The `structured` keys follow the evaluator's existing convention: `primary_diagnosis`, `histologic_subtype`, `broad_type`, `malignancy_status`, `grade`, `invasive_status`, and `necrosis`.
+Supply a generated report and its matching independent reference. Prefer `generated_long_report.txt`. For PathXAI `report.html`, the wrapper extracts final-report rows and excludes differential diagnoses, evidence and reference panels. Other HTML inputs must contain only the report being assessed. Plain text is read directly. Original clinical references are not redistributed here.
 
-An optional `--cancer-type TCGA-...` sets anatomy context for interpreting report language and computes a separate TCGA cohort compatibility field. It does not fill in patient histology or replace the independently supplied reference. Without this argument, strict report/reference subtype agreement is still computed, but anatomy context is absent.
-
-## Run
-
-From the tutorial repository root (no third-party dependencies are needed), run:
+From the repository root:
 
 ```bash
 python3 evaluation/run_evaluation.py \
-  --report path/to/report.html \
+  --report path/to/generated_long_report.txt \
   --reference path/to/reference.txt \
   --cancer-type TCGA-BRCA \
   --output evaluation/result.json
 ```
 
-For structured JSON reference input:
+For JSON references, add `--reference-format json`; the file must be an object with a `text` string and optional `structured` object. Supported structured fields are `primary_diagnosis`, `histologic_subtype`, `broad_type`, `malignancy_status`, `grade`, `invasive_status`, and `necrosis`. Keep the supplied reference independent of the generated report.
+
+`--cancer-type TCGA-...` supplies anatomy and a separate TCGA cohort compatibility target. It does not supply the patient's exact histologic subtype. `--site breast` (or another supported anatomy, such as `kidney`) supplies anatomy without a TCGA cohort target. Use `--diagnosis-only` when findings/grade/narrative were not assessed; their manuscript metrics are then `null`.
+
+## Manuscript metric mapping
+
+The detailed JSON preserves the frozen evaluator's original `metrics` and adds `manuscript_metrics`. The five main public evaluation measures map to these per-case outputs (all nested keys below start at the JSON root):
+
+| Paper measure | Exact output key | Meaning |
+| --- | --- | --- |
+| Cancer family match rate | `metrics.cohort_compatibility` (also `manuscript_metrics.diagnostic_mapping.cohort_compatibility`) | Compatibility with the supplied TCGA cancer-family target. |
+| Exact diagnosis match rate | `metrics.subtype` (also `manuscript_metrics.reference_specific_diagnostic_mapping.strict_subtype`) | Exact normalized histologic-entity agreement with the independent case reference. |
+| Finding F1 | `manuscript_metrics.findings.finding_f1` | 2C/(D+A). |
+| Finding recall | `manuscript_metrics.findings.correct_fact_coverage` | C/D. |
+| Finding contradiction rate | `manuscript_metrics.findings.contradiction_asserted` | E/A. |
+
+Public cohort percentages are 100 times the equally weighted mean of applicable per-case scores, without cancer-type weighting. A definite, specific reference is required for Exact diagnosis match rate. Inapplicable references are excluded; applicable cases with missing, uncertain, conflicting or incompatible diagnostic predictions score zero. Finding applicability follows the denominators below. Cohort compatibility does not establish the exact patient subtype. Anatomy-conditioned synonyms are accepted for exact matching, while distinct sibling diagnoses remain distinct. The released scorer does not implement the separate private cohort family-matching analysis.
+
+Additional diagnostic composites are retained: `metrics.diagnosis` (also `manuscript_metrics.reference_specific_diagnostic_mapping.diagnosis`) weights broad diagnosis, strict subtype and malignancy over applicable reference fields. `metrics.diagnosis_cohort` (also `manuscript_metrics.diagnostic_mapping.diagnosis_cohort`) substitutes cohort compatibility for the subtype component. The latter is used in the tissue-input workflow policy analysis; it is not one of the five main public measures above.
+
+`manuscript_metrics.findings` uses the manuscript aggregate's exact finding audit. Let **D** be reference-documented binary findings (asserted present/absent), **A** those with an asserted prediction, **C** matching assertions and **E** opposite assertions:
+
+| Finding output | Formula | Undefined when |
+| --- | --- | --- |
+| `finding_f1` | 2C/(D+A) | D+A=0 |
+| `assertion_coverage` | A/D | D=0 |
+| `correct_fact_coverage` | C/D | D=0 |
+| `contradiction_asserted` | E/A | A=0 |
+
+Missing, uncertain and conflicting predictions are counted separately. Assertions on undocumented reference findings are unverified; they are not included in A/C/E. **The manuscript Finding contradiction rate is `manuscript_metrics.findings.contradiction_asserted` (E/A).** The preserved legacy `metrics.contradiction_rate` uses D as its denominator; it is not the manuscript Finding contradiction rate.
+
+`manuscript_metrics.grade` retains per-case exact, ordinal and compatible-coverage outputs. **Balanced grade accuracy** (`class_balanced_grade`) requires a cohort: within each grading system, compute exact correctness within each represented reference grade, then average those grade-specific accuracies equally. Missing/incompatible predictions count as incorrect; grading systems are reported separately. A single report/reference pair cannot determine that cohort score, so this wrapper returns `null` for it. Per-case exact and ordinal values are sensitivity inputs. This package does not add cohort aggregation or confidence interval estimation. Individual output cannot provide a cohort percentage or its confidence interval; those require the applicable case set and the manuscript's metric-specific interval procedure.
+
+## Interpretation and provenance
+
+Scores measure automatic report-to-reference agreement. A `null` score means the metric is not applicable, not documented or not assessed; it is not zero. The parser distinguishes assertions, uncertainty, contradictions and missing findings, but classifications require review. Narrative ROUGE overlap is descriptive. Physician scoring requires a separate prespecified rubric and qualified review; automatic metrics are not physician scores or clinical validation.
+
+The result records evaluator/terminology versions, input SHA-256 hashes, hashes of all five scorer modules, the manuscript metric helper hash, context and applicability/QA fields. Preserve the detailed JSON with the input versions. The included tests and fixtures contain synthetic examples only; private reports and case-level clinical metadata are excluded.
+
+## Tests
 
 ```bash
-python3 evaluation/run_evaluation.py \
-  --report path/to/report.html \
-  --reference path/to/reference.json \
-  --reference-format json \
-  --output evaluation/result.json
+python3 -m unittest discover -s evaluation/tests -t .
 ```
 
-Use `--diagnosis-only` when the reference or assessment covers diagnosis alone. This suppresses narrative and morphology/finding metrics that would otherwise be misleading. The evaluator uses only the Python standard library.
-
-The detailed JSON includes per-field applicability, coverage, exact agreement, abstention/QA flags, metric scope, report/reference SHA-256 hashes, and the evaluator/terminology versions. A `null` score means the reference field is not applicable or was not documented; it is not a zero. Preserve the JSON alongside the input versions when reporting results.
-
-## What the scores mean
-
-This is automatic **report-to-reference agreement**, not a clinical quality determination. The v4 schema preserves v3 metrics except the subtype field, which uses method-blind synonym normalization and anatomy context; strict subtype agreement and TCGA cohort compatibility are distinct fields. TCGA compatibility measures cohort membership, not exact patient subtype. The diagnosis composite is weighted across reference-applicable broad diagnosis, subtype, and malignancy fields. The parser attempts to distinguish assertions, uncertainty, contradictions and missing findings, but its classifications require review. Narrative ROUGE overlap is descriptive and should not stand in for clinical correctness.
-
-**Physician scoring is separate.** Clinician review requires a prespecified rubric, blinded review where appropriate, qualified reviewers, and adjudication rules. Do not present automatic evaluator metrics as physician scores, diagnostic accuracy in clinical practice, or validation for patient care.
-
-## Dependencies and tests
-
-The evaluation wrapper has no third-party dependency. From the repository root, run its focused tests with:
-
-```bash
-python3 -m unittest evaluation.tests.test_run_evaluation
-```
-
+The suite includes the frozen scientific contracts (only package imports adapted), synthetic parser counterexamples, synonym/sibling checks, plain-text and PathXAI HTML CLI runs, exact wrapper/scorer parity, and the distinct manuscript/legacy finding denominators.

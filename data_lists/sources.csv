@@ -28,7 +28,7 @@ RINGS_Tumor,test_external,,No distinct official RINGS tumor dataset release veri
 SICAPv2,heldout_pool;train_pool,https://data.mendeley.com/datasets/9xxm58dvs3/1,Mendeley dataset record for SICAPv2; page has versions.
 SegPath,heldout_pool;train_pool;val_holdout_monitor;val_model_selection,https://dakomura.github.io/SegPath/,Authors' project page; linked dataset record https://zenodo.org/records/10808888.
 SkinCancer,heldout_pool;train_pool;val_holdout_monitor;val_model_selection,https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/7QCR8S,Official Heidelberg record for the 16-class skin histology patch dataset; local folder-name match/provenance is not independently established.
-TCGA,report_study;source_inventory,https://portal.gdc.cancer.gov/,"Official NCI Genomic Data Commons portal, including TCGA studies and slide image files."
+TCGA,report_study,https://portal.gdc.cancer.gov/,"Official NCI Genomic Data Commons portal, including TCGA studies and slide image files."
 TIGER_WSI,excluded_unaligned_protocol,https://tiger.grand-challenge.org/Data/,"Official TIGER data page describes training subsets, annotations, and source cohorts."
 TNBC,heldout_pool;train_pool,https://zenodo.org/records/1174343,Original Naylor et al. Zenodo record for 50 annotated breast cancer images.
 WSSS4LUAD,heldout_pool;test_internal;train_pool;val_holdout_monitor;val_model_selection,https://wsss4luad.grand-challenge.org/WSSS4LUAD/,Official challenge page describes dataset and release notices.

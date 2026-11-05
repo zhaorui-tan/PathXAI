@@ -1,19 +1,19 @@
 {
-  "schema": "pathxai-public-data-source-inventory-v1",
+  "schema": "pathxai-public-data-lists-v2",
   "report": [
     {
-      "cohort": "original508_development",
-      "patients": 508,
-      "slides": 1039,
-      "projects": 30,
+      "cohort": "public_development456",
+      "patients": 456,
+      "slides": 934,
+      "projects": 27,
       "slide_types": {
-        "TS": 424,
-        "DX": 459,
-        "other": 156
+        "other": 155,
+        "TS": 374,
+        "DX": 405
       }
     },
     {
-      "cohort": "new1200_confirmation",
+      "cohort": "public_evaluation1200",
       "patients": 1200,
       "slides": 3121,
       "projects": 22,
@@ -29,30 +29,7 @@
     "heldout_pool": 90040
   },
   "seg_dataset_count": 24,
-  "report_source_inventory": {
-    "patients": 9009,
-    "listed_slides": 10949,
-    "in_study_patients": 1708
-  },
   "sources": [
-    {
-      "collection": "report",
-      "source": "PathXAI_Seg2Report/results/tcga_so1_so4_a5bridge_508_20260920/manifests/patients.jsonl",
-      "bytes": 8748023,
-      "sha256": "b1a1d3f7d41a2ee602ae1e3ec0034ae3891e3b9c74fa1be815816bb42dd598a8"
-    },
-    {
-      "collection": "report",
-      "source": "PathXAI_Seg2Report/results/tcga_expansion_20260924_1200_d1/manifests/patients.jsonl",
-      "bytes": 2005019,
-      "sha256": "ba1ddd29c21dd07677d871af69007f04c336f595bb4b84d0895104be836e19d1"
-    },
-    {
-      "collection": "report_inventory",
-      "source": "wsi_caption_report_manifest.jsonl",
-      "bytes": 83774548,
-      "sha256": "26d040da96a30c95fede8f78a70dd50e5bb0920da352d0ae118d62b5c87c52d1"
-    },
     {
       "collection": "seg",
       "source": "datasets/splits/BCSS_test.txt",
@@ -395,5 +372,26 @@
       "bytes": 2028728,
       "sha256": "b19480d8c252fdcdb2210d710de5284a161c8c48ece4dab905d31380567ad025"
     }
-  ]
+  ],
+  "report_membership": {
+    "release": "manuscript-20261105",
+    "cases": 1656,
+    "development_cases": 456,
+    "evaluation_cases": 1200,
+    "authoritative_membership_sha256": "23ca0519def00764cfbbdcfc79efa752a1e265e229da9a9315ac904f83d2721e",
+    "excluded_case_ids": [
+      "TCGA-AA-3939"
+    ],
+    "selection": "Final manuscript inclusion list; source-eligibility exclusions already applied.",
+    "slide_associations": {
+      "source_commit": "45c6ff3fea4fdf2fd05a8293471540265ceb21cd",
+      "source_git_blob": "afe602613781f6d42ec9ce584f51a5dab1d84b8e",
+      "selection": "Filter source WSI associations by final included case IDs.",
+      "listed_slides": 4055,
+      "scope": "Recoverable source WSI associations for final included cases",
+      "manuscript_aggregate_associations": 4058,
+      "unreconciled_associations": 3,
+      "reconciliation_note": "The development aggregate contains three additional associations; the corresponding per-case source inventory is unavailable in this release. Final patient membership is complete."
+    }
+  }
 }

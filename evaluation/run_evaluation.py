@@ -12,9 +12,11 @@ from typing import Any
 
 if __package__:
     from .vendor import eval_v4
+    from .manuscript_metrics import manuscript_metrics
 else:  # Allow the documented ``python PathXAI_tutorial/evaluation/run_evaluation.py`` form.
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from vendor import eval_v4
+    from manuscript_metrics import manuscript_metrics
 
 
 class _VisibleText(HTMLParser):
@@ -107,12 +109,13 @@ def _read_reference(path: Path, fmt: str) -> tuple[str, dict[str, Any] | None]:
 
 
 def evaluate_paths(report_path: Path, reference_path: Path, *, cancer_type: str | None = None,
-                   reference_format: str = "text", diagnosis_only: bool = False) -> dict[str, Any]:
+                   reference_format: str = "text", diagnosis_only: bool = False,
+                   site: str | None = None) -> dict[str, Any]:
     report = visible_report_text(report_path)
     ref_text, structured = _read_reference(reference_path, reference_format)
     if not report or not ref_text:
         raise ValueError("Both report and independent reference text must be non-empty")
-    reference = eval_v4.reference(ref_text, structured=structured, cancer_type=cancer_type)
+    reference = eval_v4.reference(ref_text, structured=structured, cancer_type=cancer_type, site=site)
     result = eval_v4.evaluate(
         report,
         reference,
@@ -120,6 +123,7 @@ def evaluate_paths(report_path: Path, reference_path: Path, *, cancer_type: str 
         diagnosis_only=diagnosis_only,
         narrative_reference=not diagnosis_only,
     )
+    result["manuscript_metrics"] = manuscript_metrics(result)
     result["run_metadata"] = {
         "evaluator": eval_v4.VERSION,
         "terminology": result.get("terminology_version"),
@@ -129,9 +133,11 @@ def evaluate_paths(report_path: Path, reference_path: Path, *, cancer_type: str 
         "reference_sha256": _sha256(reference_path),
         "evaluator_source_sha256": {
             name: _sha256(Path(__file__).resolve().parent / "vendor" / name)
-            for name in ("eval_v3.py", "eval_v4.py", "subtype_ontology_v4.py", "tcga_ground_truth.py")
+            for name in ("eval_v3.py", "eval_v4.py", "diagnostic_text.py", "subtype_ontology_v4.py", "tcga_ground_truth.py")
         },
+        "manuscript_metrics_source_sha256": _sha256(Path(__file__).resolve().parent / "manuscript_metrics.py"),
         "cancer_type_context": cancer_type,
+        "site_context": site,
         "reference_format": reference_format,
         "diagnosis_only": diagnosis_only,
         "evaluated_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -145,6 +151,7 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--reference", required=True, type=Path, help="Reference report (.txt) or JSON reference")
     parser.add_argument("--reference-format", choices=("text", "json"), default="text")
     parser.add_argument("--cancer-type", help="Optional TCGA project code, e.g. TCGA-BRCA; provides anatomy context only")
+    parser.add_argument("--site", help="Optional anatomy context, e.g. breast or kidney")
     parser.add_argument("--diagnosis-only", action="store_true", help="Suppress narrative/finding metrics when only diagnosis was assessed")
     parser.add_argument("--output", required=True, type=Path, help="Path for detailed JSON result")
     return parser
@@ -156,7 +163,8 @@ def main(argv: list[str] | None = None) -> int:
         if not path.is_file():
             raise SystemExit(f"{label} file not found: {path}")
     result = evaluate_paths(args.report, args.reference, cancer_type=args.cancer_type,
-                            reference_format=args.reference_format, diagnosis_only=args.diagnosis_only)
+                            reference_format=args.reference_format, diagnosis_only=args.diagnosis_only,
+                            site=args.site)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     metrics = result["metrics"]
@@ -164,9 +172,13 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Diagnosis agreement: {metrics.get('diagnosis')}")
     print(f"Strict subtype agreement: {metrics.get('subtype')}")
     print(f"TCGA cohort compatibility: {metrics.get('cohort_compatibility')}")
+    print(f"Cohort diagnosis composite: {metrics.get('diagnosis_cohort')}")
+    findings = result["manuscript_metrics"]["findings"]
+    print(f"Finding contradiction among asserted predictions (E/A): {findings['contradiction_asserted'] if findings else None}")
     print(f"Detailed result: {args.output}")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

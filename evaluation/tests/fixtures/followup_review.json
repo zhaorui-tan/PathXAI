@@ -1,0 +1,100 @@
+{
+  "unseen_boundary_cases": [
+    {
+      "id": "coordinated_absence",
+      "input": "Diagnosis: no thymoma or thymic carcinoma.",
+      "expected": {
+        "value": null,
+        "status": "absent"
+      }
+    },
+    {
+      "id": "coordinated_uncertainty",
+      "input": "Diagnosis: thymoma is present and possible thymic carcinoma.",
+      "expected": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "contrast_not",
+      "input": "Diagnosis: thymoma, but not thymic carcinoma.",
+      "expected": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "recognized_differential_heading",
+      "input": "Diagnosis: thymoma\nDifferential diagnoses:\n- thymic carcinoma",
+      "expected": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "bullet_diagnosis_reset",
+      "input": "Diagnosis: differential diagnoses include:\n- thymic carcinoma\n- Diagnosis: thymoma",
+      "expected": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "grade_uncertain",
+      "input": "Diagnosis: thymoma, grade uncertain.",
+      "expected": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "grade_cannot_determine",
+      "input": "Diagnosis: thymoma, grade cannot be determined.",
+      "expected": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "primary_summary_siblings",
+      "input": "Diagnosis: thymoma\nFinal Summary: thymic carcinoma.",
+      "expected": {
+        "value": null,
+        "status": "conflict"
+      },
+      "expected_under_confirmed_default_policy": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "primary_summary_denial",
+      "input": "Diagnosis: thymoma\nFinal Summary: no thymoma is identified.",
+      "expected": {
+        "value": null,
+        "status": "conflict"
+      },
+      "expected_under_confirmed_default_policy": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "list_reset_control",
+      "input": "Diagnosis: differential diagnoses include:\n- thymic carcinoma\nFinal diagnosis: thymoma",
+      "expected": {
+        "value": "thymoma",
+        "status": "asserted"
+      }
+    },
+    {
+      "id": "coordinated_double_no_control",
+      "input": "Diagnosis: no thymoma and no thymic carcinoma.",
+      "expected": {
+        "value": null,
+        "status": "absent"
+      }
+    }
+  ]
+}

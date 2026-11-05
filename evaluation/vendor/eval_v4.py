@@ -1,6 +1,7 @@
 """Synonym-aware reference agreement, with separate TCGA compatibility.
 
-V3 is unmodified and supplies every non-subtype metric. V4 independently
+The shared extraction module supplies the non-subtype metrics and excludes
+inflammatory-cell infiltration from tumour invasion. V4 independently
 normalizes report/reference diagnoses with one method-blind terminology.
 Patient subtype is never filled in using its TCGA project label.
 """
@@ -11,10 +12,11 @@ import hashlib
 import re
 
 from . import eval_v3 as legacy
+from . import diagnostic_text
 from . import subtype_ontology_v4 as ontology
 from .tcga_ground_truth import ground_truth_for
 
-VERSION = "eval_v4_report_only_20261017_r5"
+VERSION = "eval_v4_report_only_20261104_r6_candidate"
 DIAGNOSIS_WEIGHTS = dict(legacy.DIAGNOSIS_WEIGHTS)
 EXTRA_EXCLUDED = {"clinical history", "history", "clinical information", "past medical history",
                   "previous diagnosis", "prior diagnosis", "patient history"}
@@ -24,84 +26,10 @@ ABSTENTION = re.compile(r"\b(?:favou?rs?|most likely|likely|probable|presumptive
 TRAILING_OTHER_FIELD = re.compile(r"\b(?:grade|grading|stage|staging|fuhrman|gleason|isup|nottingham|"
                                   r"margins?|necrosis|invasion|mitotic count)\b", re.I)
 SUBTYPE_FIELD = re.compile(r"^(?:histologic(?:al)?\s+)?subtype\s*:\s*(.*)$", re.I)
-LOCAL_TARGET = (r"(?:lymph\s+nodes?|sentinel\s+nodes?|"
-                r"(?:(?:surgical|resection|inked|deep|peripheral)\s+)?margins?)")
-LOCAL_DENIAL_BEFORE = re.compile(
-    LOCAL_TARGET + r"(?:\s+(?:are|is|were|was|remain|all|examined|sampled|regional|reported|found|as)){0,5}"
-    r"\s+(?:negative(?:\s+for)?|free\s+of|show\s+no|without)"
-    r"(?:\s+(?:metastatic|residual|invasive|tumor|and|any|evidence|of)){0,5}\s*$", re.I)
-LOCAL_DENIAL_AFTER = re.compile(
-    r"^(?:\s+(?:is|was|are|were|present|identified|seen|found|not|detected)){0,5}"
-    r"\s+(?:in|within|at|from)\s+(?:the\s+)?"
-    r"(?:(?:sampled|regional|sentinel|axillary|surgical|resection|inked|deep|peripheral)\s+)*"
-    + LOCAL_TARGET + r"\b", re.I)
-DISTINCT_COMPONENT = re.compile(
-    r"\b(?:separate|independent|another primary|not (?:an? )?associated|without association)\b", re.I)
 
 
-def _local_denial(clause, start, end):
-    """A negative margin/node is not a denial of the patient's primary tumor."""
-    tail = clause[end:]
-    after = LOCAL_DENIAL_AFTER.search(tail)
-    if after:
-        # A coordinated nonlocal target must not be silently discarded.
-        return not tail[after.end():].strip(" .,:;()")
-    return bool(LOCAL_DENIAL_BEFORE.search(clause[max(0, start - 140):start])
-                and not tail.strip(" .,:;()"))
-
-
-def _associated_component(hit):
-    text = legacy.normalize(hit["text"])
-    if DISTINCT_COMPONENT.search(text):
-        return False
-    start, end = hit["normalized_span"]
-    before, after = text[:start], text[end:]
-    return bool(re.search(r"\b(?:associated|accompanying|concomitant|coexisting)\s+$", before)
-                or re.match(r"\s+(?:(?:was|is)\s+)?also\s+(?:present|identified|seen)\b", after)
-                or re.match(r"\s+(?:component\s+)?(?:was|is)\s+(?:associated|concomitant|coexisting)\b", after))
-
-
-def _diagnosis_text(text):
-    text = re.sub(r"<think>.*?(?:</think>|$)", "", str(text), flags=re.I | re.S)
-    rewritten = []
-    for line in text.splitlines():
-        stripped = re.sub(r"^\s*(?:#{1,6}\s*|\d+[.)]\s*|[-*]\s+)", "", line).replace("**", "").strip()
-        title, sep, body = stripped.partition(":")
-        heading = title.lower().strip()
-        if heading in EXTRA_EXCLUDED:
-            line = "Differential diagnoses:" + (body if sep else "")
-        elif heading in EXTRA_DIAGNOSIS:
-            line = "Diagnosis:" + (body if sep else "")
-        rewritten.append(line)
-    sections = legacy.sections("\n".join(rewritten))
-    scoped = legacy.diagnosis_scope(sections)
-    # Report templates can put an explicit subtype in the grade/findings section.
-    # Retain only that labelled field, never the surrounding narrative/history.
-    extra_subtypes = []
-    pending_section = None
-    for section, value in sections:
-        if section in ("site", "excluded"):
-            pending_section = None
-            continue
-        field = SUBTYPE_FIELD.match(value)
-        if field:
-            pending_section = section if not field[1].strip() else None
-            if field[1].strip() and section != "diagnosis":
-                extra_subtypes.append(field[1].strip())
-        elif pending_section is not None:
-            if section == pending_section and ":" not in value and section != "diagnosis":
-                extra_subtypes.append(value)
-            pending_section = None
-    scoped = "\n".join([scoped, *extra_subtypes])
-    selected = []
-    for clause in legacy.clauses(scoped):
-        if re.match(r"(?:broad(?: type| lineage)?|malignancy(?: status)?|grade|confidence|site|specimen)\s*:", clause, re.I):
-            continue
-        # Associated in-situ components do not replace the invasive primary.
-        clause = re.split(r"\bwith\s+(?:(?:focal|associated)\s+)?(?:dcis\b|ductal carcinoma in situ\b)",
-                          clause, maxsplit=1, flags=re.I)[0]
-        selected.append(clause)
-    return "\n".join(selected)
+def _diagnosis_text(text, *, include_summary=False):
+    return diagnostic_text.diagnosis_text(text, include_summary=include_summary)
 
 
 def _organ_conflict(context, entity, text):
@@ -120,28 +48,37 @@ def _organ_conflict(context, entity, text):
         return False
     # An incompatible organ adjective directly qualifying a carcinoma is
     # stronger than an incidental organ mention elsewhere in the report.
-    normalized = legacy.normalize(text)
+    # A specimen title ends at its colon; an organ in that title is not an
+    # adjective modifying a diagnosis in the following field.
+    normalized_parts = [legacy.normalize(part) for part in re.split(r'[:;]', text)]
     for organ in explicit - allowed:
         for alias in ontology.ORGAN_ALIASES[organ]:
             pattern = r"\b" + re.escape(alias) + r"\s+(?:\w+\s+){0,4}(?:carcinoma|adenocarcinoma|cancer)\b"
-            if re.search(pattern, normalized):
+            if any(re.search(pattern, part) for part in normalized_parts):
                 return True
     return bool(explicit and not explicit & allowed)
 
 
-def extract_subtype(report, *, context=None):
-    scope = _diagnosis_text(report)
+def extract_subtype(report, *, context=None, include_summary=False):
+    scope = _diagnosis_text(report, include_summary=include_summary)
     hits = []
-    for clause in legacy.clauses(scope):
+    for clause in diagnostic_text.sentences(scope):
         normalized = legacy.normalize(clause)
         matches = []
         for entity, alias, pattern in ontology.ALIASES:
-            matches.extend((m.start(), m.end(), entity, alias) for m in pattern.finditer(normalized))
+            matches.extend((m.start(), m.end(), entity, alias) for m in pattern.finditer(normalized)
+                           if not (entity == 'small cell neuroendocrine carcinoma' and
+                                   re.search(r'\bnon\s*$',normalized[:m.start()])))
         # Context resolves anatomy, not histology: generic RCC stays generic RCC.
+        origin=re.search(r'\b(?:from|originating in|primary in)\s+(.+)',clause,re.I)
+        explicit_origins=ontology.organs_in(origin[1]) if origin else set()
+        contextual_allowed=not explicit_origins or explicit_origins == {context}
         for alias, entity in ontology.CONTEXTUAL_ALIASES.get(context, {}).items():
-            if entity:
+            if entity and contextual_allowed:
                 pattern = r"(?<!\w)" + re.escape(legacy.normalize(alias)) + r"(?!\w)"
-                matches.extend((m.start(), m.end(), entity, alias) for m in re.finditer(pattern, normalized))
+                matches.extend((m.start(), m.end(), entity, alias) for m in re.finditer(pattern, normalized)
+                               if not (entity == 'small cell neuroendocrine carcinoma' and
+                                       re.search(r'\bnon\s*$',normalized[:m.start()])))
         # Prefer a whole named entity to nested generic tokens, retaining
         # disjoint sibling entities so a multi-diagnosis list cannot cherry-pick.
         selected = []
@@ -151,37 +88,49 @@ def extract_subtype(report, *, context=None):
                 continue
             selected.append((start, end, entity, alias))
         for start, end, entity, alias in selected:
-            # Uncertainty about a trailing grade is not uncertainty about an
-            # already named histology (e.g. "clear-cell RCC, grade unknown").
-            tail = normalized[end:]
-            next_field = TRAILING_OTHER_FIELD.search(tail)
-            confidence_text = normalized[:end] + (tail[:next_field.start()] if next_field else tail)
-            if legacy.HYPOTHETICAL.search(confidence_text):
-                status = "hypothetical"
-            else:
-                status = legacy.polarity(confidence_text, start, end)
-                if status == "present":
-                    status = "uncertain" if ABSTENTION.search(confidence_text) else "asserted"
-                elif status == "absent" and _local_denial(normalized, start, end):
-                    status = "local_absence"
+            status = diagnostic_text.assertion_status(clause, start, end,
+                                                       entity_spans=[m[:2] for m in selected],
+                                                       broad_entity=not ontology.is_specific(entity))
             if "invasive" in entity and re.search(r"\bnon\s*$", normalized[:start]):
                 status = "absent"
             if status == "asserted" and _organ_conflict(context, entity, clause):
                 status = "organ_conflict"
             hits.append(dict(value=entity, alias=alias, text=clause, status=status,
-                             normalized_span=[start, end]))
+                             normalized_span=[start, end],
+                             restrictions=diagnostic_text.entity_restrictions(clause, start, end)))
     invasive_primary = any(hit["status"] == "asserted" and
-                           ontology.is_a(hit["value"], "invasive breast carcinoma") for hit in hits)
+                           ontology.is_a(hit["value"], "invasive breast carcinoma")
+                           for hit in hits)
     if invasive_primary:
         for hit in hits:
-            if (hit["status"] == "asserted" and
-                    hit["value"] in ("ductal carcinoma in situ", "lobular carcinoma in situ")
-                    and _associated_component(hit)):
-                hit["status"] = "associated_lesion"
+            before = legacy.normalize(hit["text"])[:hit["normalized_span"][0]]
+            if hit["value"] == "ductal carcinoma in situ" and re.search(
+                r"\b(?:with|associated)\s+(?:(?:associated|focal|extensive|significant|high grade|low grade|intermediate grade)\s+)*$", before):
+                hit["status"] = "associated_component"
+        # A parenthetical abbreviation inherits the status of the same full name.
+        for hit in hits:
+            if hit["value"] != "ductal carcinoma in situ":
+                continue
+            for previous in hits:
+                if (previous["value"] == hit["value"] and previous["text"] == hit["text"] and
+                        previous["status"] == "associated_component" and
+                        previous["normalized_span"][1] < hit["normalized_span"][0] and
+                        not legacy.normalize(hit["text"])[previous["normalized_span"][1]:hit["normalized_span"][0]].strip()):
+                    hit["status"] = "associated_component"
     certain = [hit for hit in hits if hit["status"] == "asserted"]
     for hit in certain:
-        if any(hit["value"] != other["value"] and ontology.is_a(other["value"], hit["value"])
-               for other in certain):
+        # Invasion is a separate attribute of the generic carcinoma label.
+        # An explicit invasive carcinoma description and a named carcinoma
+        # subtype can coexist even where the frozen taxonomy does not list
+        # invasion as an ancestor. An in-situ assertion remains distinct.
+        generic_invasive = hit["value"] == "invasive carcinoma" and any(
+            other["value"] not in ("carcinoma", "invasive carcinoma") and
+            ontology.is_a(other["value"], "carcinoma") and
+            not {'in_situ','non_invasive'}.intersection(other.get('restrictions', []))
+            for other in certain)
+        if generic_invasive or any(
+                hit["value"] != other["value"] and ontology.is_a(other["value"], hit["value"])
+                for other in certain):
             hit["status"] = "parent_label"
     values = sorted({hit["value"] for hit in hits if hit["status"] == "asserted"})
     denials = [hit for hit in hits if hit["status"] == "absent"]
@@ -192,6 +141,12 @@ def extract_subtype(report, *, context=None):
             positive_organs = set().union(*(ontology.organs_in(hit["text"]) for hit in hits
                                             if hit["value"] == value and hit["status"] == "asserted"))
         for denial in denials:
+            # Denial of an in-situ component does not deny a broader/invasive
+            # assertion of the same entity; a matching restriction still conflicts.
+            if denial.get("restrictions") and not any(
+                h["value"] == value and h["status"] == "asserted" and
+                set(denial["restrictions"]).issubset(h.get("restrictions", [])) for h in hits):
+                continue
             negative_organs = ontology.organs_in(denial["text"])
             if positive_organs and negative_organs and not positive_organs & negative_organs:
                 continue
@@ -264,12 +219,27 @@ def _cohort_field(prediction, meta):
     members = ontology.COHORT_MEMBERS.get(code)
     covered = prediction["status"] == "asserted" and prediction["value"] is not None
     compatible = bool(covered and members and any(ontology.is_a(prediction["value"], m) for m in members))
-    # An in-situ diagnosis cannot establish membership of an invasive cohort.
-    if code == "BRCA" and re.search(r"\bin situ\b", prediction["diagnosis_text"], re.I):
-        if not re.search(r"(?<!non )\binvasive\b|\binfiltrating\b", prediction["diagnosis_text"], re.I):
+    # Apply cohort restrictions to affirmative diagnostic assertions; a
+    # differential or negated in-situ/grade-IV mention is not that diagnosis.
+    affirmative = [h for h in prediction['evidence']
+                   if h['status'] in ('asserted','parent_label')]
+    if code == "BRCA":
+        in_situ = any(h['value'] == 'ductal carcinoma in situ' or
+                      {'in_situ','non_invasive'}.intersection(h.get('restrictions', []))
+                      for h in affirmative)
+        invasive = any(ontology.is_a(h['value'],'invasive breast carcinoma') or
+                       'invasive' in h.get('restrictions', []) for h in affirmative)
+        if in_situ and not invasive:
             compatible = False
-    if code == "LGG" and re.search(r"\b(?:who\s*)?grade\s*(?:iv|4)\b", prediction["diagnosis_text"], re.I):
-        compatible = False
+    if code == "LGG":
+        for clause in diagnostic_text.sentences(prediction['diagnosis_text']):
+            normalized = legacy.normalize(clause)
+            spans = [h['normalized_span'] for h in prediction['evidence']
+                     if h['text'] == clause and 'normalized_span' in h]
+            for match in re.finditer(r'\b(?:who\s*)?grade\s*(?:iv|4)\b',normalized):
+                if diagnostic_text.assertion_status(clause,match.start(),match.end(),
+                                                   entity_spans=spans) == 'asserted':
+                    compatible = False
     return dict(prediction=prediction["value"], reference="TCGA-"+code if members else None,
                 accepted_entities=list(members or ()), applicable=members is not None, covered=covered,
                 score=float(compatible) if members is not None else None,
