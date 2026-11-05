@@ -14,10 +14,9 @@ md("""# PathXAI: a TCGA patient to an HTML report
 
 Run this notebook on your own NVIDIA GPU computer/server after following [installation](docs/INSTALLATION.md).
 Choose SO1/Core or SO4/Full; both use D1 segmentation internally. This is real inference, not a stored-report viewer.
-The public sample is the patient-level diagnostic slide set for TCGA-OR-A5JI, with a documented
+The public sample is the patient-level diagnostic slide set for TCGA-OR-A5LL, with a documented
 anatomical site supplied before inference. All downloaded slides contribute to one patient candidate
 pool and one report. The exact slide inventory, sizes and checksums are pinned in `configs/sample_tcga.json`.
-The workflow matches the historical patient input scope; stochastic API generation need not reproduce exact wording.
 
 Obtain your own access to SAM3, CONCH, and PathXAI D1 on Hugging Face. SO4 additionally needs KEEP access.
 Supply a vision-capable Qwen API endpoint/model and credentials. Selected ROI images are sent to that API.

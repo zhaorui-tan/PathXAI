@@ -3,42 +3,42 @@
   "runs": [
     {
       "version": "SO1",
-      "case_id": "TCGA-OR-A5JI",
+      "case_id": "TCGA-OR-A5LL",
       "slide_names": [
-        "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53.svs",
-        "TCGA-OR-A5JI-01Z-00-DX2.CEEA791D-1475-4D2B-8E8D-9EB44D42C937.svs",
-        "TCGA-OR-A5JI-01Z-00-DX3.A0770B66-D219-4908-BB9B-32790497CFFE.svs",
-        "TCGA-OR-A5JI-01Z-00-DX4.367BF4F7-454E-4954-B9C1-4CCF7B7CD52E.svs",
-        "TCGA-OR-A5JI-01Z-00-DX5.4F5C6E00-2B26-432A-9C36-6C810AF0C7ED.svs"
+        "TCGA-OR-A5LL-01Z-00-DX1.08588029-C532-4CDD-B945-251315EFF5C0.svs",
+        "TCGA-OR-A5LL-01Z-00-DX2.CABC0142-8C39-4801-8256-03129F111343.svs",
+        "TCGA-OR-A5LL-01Z-00-DX3.C91BD8F0-1BBB-4585-90A1-5DB388DBC8F4.svs",
+        "TCGA-OR-A5LL-01Z-00-DX4.97ED4791-E6C4-4EF3-AB1C-7063616ECD1C.svs",
+        "TCGA-OR-A5LL-01Z-00-DX5.6FAD467E-BFE7-46D8-91BD-3B463486923B.svs"
       ],
       "known_site": "adrenal gland / adrenocortical tissue",
-      "source_executed_notebook_sha256": "1c615a702dc0cbb3308166c2df5c9da93841c40a0a6bc5a27376291ad06d5d88",
-      "source_report_html_sha256": "1676704ffbd2790f1d972e95e795ba82bf2b8de0aff80ff307d552105aae7ddb",
-      "published_report_html_sha256": "cb7156a7d43441148b21913e986939ba0289d0643d19308e79311e4b9da83867",
-      "published_notebook_sha256": "0b5e77eb3837b260c0776928325ec39c83b1e32c9c19c9ac54f9306bc6415c48",
-      "report_text_sha256": "2b37dd5b287fa1a5f56e8c21ebe3a7fcda97f98acd492d100dc629483d06ef26",
-      "removed_heartbeat_lines": 1576,
-      "removed_progress_updates": 5133,
+      "source_executed_notebook_sha256": "40f4181b44d37db4fbf0f3f9823c802d9911986ba484fbf79cb0da215851e4ff",
+      "source_report_html_sha256": "2db901e8f7bf13a254ed4707001504d23a6989de2053e60f6043e972c31fb535",
+      "published_report_html_sha256": "c75f11374415476784c6fe3e3dee93c6bdee593fb2cd1d8cee8337ded325f683",
+      "published_notebook_sha256": "f3ec617fd87ce02055ab8967a537ecc3e81a4e3f691f45bb15d89bc7bcf03538",
+      "report_text_sha256": "ec1050a61e43d9280b3e92b8177cf258565cc96fd962633cc9e6d91ccf3de482",
+      "removed_heartbeat_lines": 1321,
+      "removed_progress_updates": 3812,
       "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
       "image_bytes_changed": false
     },
     {
       "version": "SO4",
-      "case_id": "TCGA-OR-A5JI",
+      "case_id": "TCGA-OR-A5LL",
       "slide_names": [
-        "TCGA-OR-A5JI-01Z-00-DX1.E133042C-62B2-4015-853B-436830988A53.svs",
-        "TCGA-OR-A5JI-01Z-00-DX2.CEEA791D-1475-4D2B-8E8D-9EB44D42C937.svs",
-        "TCGA-OR-A5JI-01Z-00-DX3.A0770B66-D219-4908-BB9B-32790497CFFE.svs",
-        "TCGA-OR-A5JI-01Z-00-DX4.367BF4F7-454E-4954-B9C1-4CCF7B7CD52E.svs",
-        "TCGA-OR-A5JI-01Z-00-DX5.4F5C6E00-2B26-432A-9C36-6C810AF0C7ED.svs"
+        "TCGA-OR-A5LL-01Z-00-DX1.08588029-C532-4CDD-B945-251315EFF5C0.svs",
+        "TCGA-OR-A5LL-01Z-00-DX2.CABC0142-8C39-4801-8256-03129F111343.svs",
+        "TCGA-OR-A5LL-01Z-00-DX3.C91BD8F0-1BBB-4585-90A1-5DB388DBC8F4.svs",
+        "TCGA-OR-A5LL-01Z-00-DX4.97ED4791-E6C4-4EF3-AB1C-7063616ECD1C.svs",
+        "TCGA-OR-A5LL-01Z-00-DX5.6FAD467E-BFE7-46D8-91BD-3B463486923B.svs"
       ],
       "known_site": "adrenal gland / adrenocortical tissue",
-      "source_executed_notebook_sha256": "c9d48a56449d1da00316827cadd1b49dfa3b9b730533f42ecc23147baa1a1f46",
-      "source_report_html_sha256": "442e4efbd9c4b7983cf4d3b844b7b5d9b752f2916decc1d98a6eee772fb96727",
-      "published_report_html_sha256": "bd3fc736442c8a1fbf2dca187d4ac1ebc4215d527a14b252520e2cc2d3dee91e",
-      "published_notebook_sha256": "37d4ae06b902e35643d74822be2a439b078cd6dcab7fbd8a7ace43580f4ffb5e",
-      "report_text_sha256": "c38e3a50925266eef2e79356bb0e1748ae09536a0fe15962785679c2d9911fda",
-      "removed_heartbeat_lines": 548,
+      "source_executed_notebook_sha256": "538eaeddc80831763ffc2dfaa6a585b47fe500b0145913d3e3483a327ab4b612",
+      "source_report_html_sha256": "fa1269f150b21da14bc5c7abacd1a5580bb737b48865c370ab3472f251cace60",
+      "published_report_html_sha256": "eb0764c5625616635ace186c890b83cd2c4157e8b5833a376e9568f36487c6a3",
+      "published_notebook_sha256": "308757242d2ae5d11b589fb7e2f26bfea8d676b360af49839bc80a023be62840",
+      "report_text_sha256": "4fcc7697f4b5097d058e19b51f0a33da6de4468243dc775357d8c75f8f5c2405",
+      "removed_heartbeat_lines": 657,
       "removed_progress_updates": 0,
       "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
       "image_bytes_changed": false
@@ -52,148 +52,148 @@
     },
     {
       "path": "README.md",
-      "bytes": 2423,
-      "sha256": "6654375b8d58fc5d800cc8438fc3b5c4c25473f8458e408f024bb4332fd58ff7"
+      "bytes": 1104,
+      "sha256": "bc6eba420ded3ac5f13ac05e042ba77e2f20264d2b7b2268a0c9a33c8afa38eb"
     },
     {
       "path": "SO1/generated_long_report.txt",
-      "bytes": 2864,
-      "sha256": "2b37dd5b287fa1a5f56e8c21ebe3a7fcda97f98acd492d100dc629483d06ef26"
+      "bytes": 2209,
+      "sha256": "ec1050a61e43d9280b3e92b8177cf258565cc96fd962633cc9e6d91ccf3de482"
     },
     {
       "path": "SO1/report.html",
-      "bytes": 191515,
-      "sha256": "cb7156a7d43441148b21913e986939ba0289d0643d19308e79311e4b9da83867"
+      "bytes": 201620,
+      "sha256": "c75f11374415476784c6fe3e3dee93c6bdee593fb2cd1d8cee8337ded325f683"
     },
     {
       "path": "SO4/generated_long_report.txt",
-      "bytes": 2352,
-      "sha256": "c38e3a50925266eef2e79356bb0e1748ae09536a0fe15962785679c2d9911fda"
+      "bytes": 2723,
+      "sha256": "4fcc7697f4b5097d058e19b51f0a33da6de4468243dc775357d8c75f8f5c2405"
     },
     {
       "path": "SO4/report.html",
-      "bytes": 226999,
-      "sha256": "bd3fc736442c8a1fbf2dca187d4ac1ebc4215d527a14b252520e2cc2d3dee91e"
+      "bytes": 235834,
+      "sha256": "eb0764c5625616635ace186c890b83cd2c4157e8b5833a376e9568f36487c6a3"
     },
     {
-      "path": "assets/03eb11b07596a189e410.jpg",
-      "bytes": 3460397,
-      "sha256": "03eb11b07596a189e410454ce844b40b2e4823acdb69d02a24f5bbb11d56844c"
+      "path": "assets/018825ca8d05757b060e.jpg",
+      "bytes": 808304,
+      "sha256": "018825ca8d05757b060e10bb243303b7aa0a0811aef1f258a5ac52e47fffb611"
     },
     {
-      "path": "assets/1a403eccbe4bf18b234e.png",
-      "bytes": 27968812,
-      "sha256": "1a403eccbe4bf18b234ed04c3ded203a4800ebdcbee449099a23a1b10aea6992"
+      "path": "assets/1ce179f3ff48491eb9cb.png",
+      "bytes": 8391546,
+      "sha256": "1ce179f3ff48491eb9cb7b209c657d433753422ee5f043af3763c5d46c7c9715"
     },
     {
-      "path": "assets/247765c4662924dbc8e3.png",
-      "bytes": 7006085,
-      "sha256": "247765c4662924dbc8e394816dc4a8beeee94426f39ee4ada12bfeae99ee778e"
+      "path": "assets/2ec850ec313ac993ef41.png",
+      "bytes": 32357664,
+      "sha256": "2ec850ec313ac993ef415d746a6aba5fecf84625b366a85612e75dbfb2646eff"
     },
     {
-      "path": "assets/348cfb2ebac7281eefe3.png",
-      "bytes": 11212,
-      "sha256": "348cfb2ebac7281eefe36a7adb8112abe27256790f3b19ca705e78401632abd2"
+      "path": "assets/30066a90cdda3612f5b0.png",
+      "bytes": 8196011,
+      "sha256": "30066a90cdda3612f5b012ecb8b21943b932d72c33105f17b016ccbf28e939a8"
     },
     {
-      "path": "assets/38316ae1e7e534a4c3c1.png",
-      "bytes": 41817,
-      "sha256": "38316ae1e7e534a4c3c14552de0d03cd9ff08abe87fff9ac6a8d29f1ed9fd9fd"
+      "path": "assets/3cf3fa21347bb26174fb.png",
+      "bytes": 12036,
+      "sha256": "3cf3fa21347bb26174fbaff2e3a5f2a26390dde6a3dd9f2ff62cd6196140c576"
     },
     {
-      "path": "assets/3907eb997f546dd371b6.jpg",
-      "bytes": 421364,
-      "sha256": "3907eb997f546dd371b66fcda7081bdc2d1d248942516c045bdac8734868268a"
+      "path": "assets/4141a6f84bc2d732bb53.png",
+      "bytes": 72144,
+      "sha256": "4141a6f84bc2d732bb536e29264482bc92f0d87e7d9fb977023d4f9651c7f5f0"
     },
     {
-      "path": "assets/3d026328d6e10e77f839.jpg",
-      "bytes": 710273,
-      "sha256": "3d026328d6e10e77f839eeb24b28e24a0f0afd8e32a397b4ddb669113a1c13ed"
+      "path": "assets/456c82c9e31469b4eb4c.jpg",
+      "bytes": 817938,
+      "sha256": "456c82c9e31469b4eb4c95f434b8e937e3e715a4a4f2118c9532b5125e1034d4"
     },
     {
-      "path": "assets/421e1fc483bbe469b97d.jpg",
-      "bytes": 577602,
-      "sha256": "421e1fc483bbe469b97ddf502b2da5553a551bf61434073e032730a8b9e0ffbb"
+      "path": "assets/4ea0e2a7ef6d6e4b9435.jpg",
+      "bytes": 4776222,
+      "sha256": "4ea0e2a7ef6d6e4b943537d0100070bc7dc4c37fe296e19168d6b21a36d05f88"
     },
     {
-      "path": "assets/52c5aad1824e598c4b77.jpg",
-      "bytes": 999633,
-      "sha256": "52c5aad1824e598c4b77210d6da8d4107c17e9a18b543a1639edba8d5d9ed728"
+      "path": "assets/50caddf8655d4676636b.png",
+      "bytes": 19792,
+      "sha256": "50caddf8655d4676636b62b93fdd831ed89fc4b152bc5fcadb46c6231ae30371"
     },
     {
-      "path": "assets/5e156153c7467ad266b5.jpg",
-      "bytes": 3539940,
-      "sha256": "5e156153c7467ad266b52eaecd474b3d67bb3d5c3c0a393a5901410d3fe70fda"
+      "path": "assets/54137b431b2ecace6883.jpg",
+      "bytes": 4828643,
+      "sha256": "54137b431b2ecace688394411bdf11f3122c359e1f8850a21c247a9afe5b9f16"
     },
     {
-      "path": "assets/684d88a6a0d884017eae.jpg",
-      "bytes": 579927,
-      "sha256": "684d88a6a0d884017eae9cd026824c08715c40d9e263d0d66654b0833c65e6ea"
+      "path": "assets/55bf68b2d34367b94195.jpg",
+      "bytes": 610897,
+      "sha256": "55bf68b2d34367b941957c5e07013064e2095fe091cb28f605ff72cf2ee67fcb"
     },
     {
-      "path": "assets/6f49ebbcdb29b9036a80.jpg",
-      "bytes": 293591,
-      "sha256": "6f49ebbcdb29b9036a805ab1bda0f1b3e25ad283385cbbe0e571893387e8fffa"
+      "path": "assets/5fdec02635d894923dcf.png",
+      "bytes": 32571805,
+      "sha256": "5fdec02635d894923dcf42a9693861eea8e30313019f05130c756cf1e74dbf47"
     },
     {
-      "path": "assets/731848a92dd0a4aaa7d3.png",
-      "bytes": 15855,
-      "sha256": "731848a92dd0a4aaa7d33de7f45bc8eb11d603444aa9e2c52ba3f048d2f6ba48"
+      "path": "assets/60d8960add6429435887.jpg",
+      "bytes": 680846,
+      "sha256": "60d8960add64294358875334e918d84a8ecf24af9aabd55e007b4fe619e3c0e8"
     },
     {
-      "path": "assets/73dff0027de3012dbe18.png",
-      "bytes": 9566,
-      "sha256": "73dff0027de3012dbe185b210df424c14bea953b3387029db061435b8099722d"
+      "path": "assets/63f72c030d8dfc228313.png",
+      "bytes": 82960,
+      "sha256": "63f72c030d8dfc228313c15e573679dbbe29c9c8f3a9e49b6cc547db4f0a7cdc"
     },
     {
-      "path": "assets/767dc4a7b0804c854623.png",
-      "bytes": 48086,
-      "sha256": "767dc4a7b0804c854623489b7d8d778ccd8aab8e687f9ffb1bbb04af50add17d"
+      "path": "assets/665054280d8727b27b0f.jpg",
+      "bytes": 1193486,
+      "sha256": "665054280d8727b27b0f5c13af070fc7050a5f01836274c669c8a200f5fe25c4"
     },
     {
-      "path": "assets/83b122c6dec2b595421f.png",
-      "bytes": 7295446,
-      "sha256": "83b122c6dec2b595421fa4bb5e5ab6cf8a54d4103580537515a5a3a67dfe2ecd"
+      "path": "assets/6d2719037c5bed2ba234.jpg",
+      "bytes": 814607,
+      "sha256": "6d2719037c5bed2ba234d86a74706403c478958669083d180a551d2c0cc3c1a6"
     },
     {
-      "path": "assets/8e07226d3080544f41ad.png",
-      "bytes": 6800113,
-      "sha256": "8e07226d3080544f41adde9ec7774944b08b7bfb2913d23d0eaed12acd7ac98e"
+      "path": "assets/940e1aecefae7203e334.png",
+      "bytes": 33099224,
+      "sha256": "940e1aecefae7203e334fbf5ef34fb97029c672dc6d4909258e79f512ccb1f68"
     },
     {
-      "path": "assets/9256b9e23f6339a9044f.jpg",
-      "bytes": 849977,
-      "sha256": "9256b9e23f6339a9044f199f9b1962cdc26245b4ede8fb4a22096e08d68325f9"
+      "path": "assets/96dfdcf15f0b16694255.jpg",
+      "bytes": 847395,
+      "sha256": "96dfdcf15f0b16694255e346c4744a7cc5f5351176e7bb8fc3068ac7bab9949d"
     },
     {
-      "path": "assets/96ce31accbc60fac174f.jpg",
-      "bytes": 3835680,
-      "sha256": "96ce31accbc60fac174f8474ea8a78f4001febad25802fbc6fa447dbf522228e"
+      "path": "assets/97bebf98b906d96ee032.jpg",
+      "bytes": 1204468,
+      "sha256": "97bebf98b906d96ee032799c30c6481a3f2a98f6a356c06e536125fec337eb16"
     },
     {
-      "path": "assets/98ded4a230311eb08b7c.png",
-      "bytes": 31227130,
-      "sha256": "98ded4a230311eb08b7c4cbda873da4b727ce796904eef680694a17b4fdfe5f4"
+      "path": "assets/9afcf1793f82fe7ea8e0.png",
+      "bytes": 51784,
+      "sha256": "9afcf1793f82fe7ea8e0b282acd610d6a3b29f029cebbc8fb81155b339fe8f45"
     },
     {
-      "path": "assets/b65d282615548082d656.png",
-      "bytes": 28215178,
-      "sha256": "b65d282615548082d656c77374400c98f44e9c30b81a019f0bcada0c3a4be24a"
+      "path": "assets/a1fcff86a76df7394eaa.png",
+      "bytes": 8408536,
+      "sha256": "a1fcff86a76df7394eaaa4e619346028e84a6f7a3282a71afcfbaf173d447846"
     },
     {
-      "path": "assets/be9238a355ebe39a4c12.png",
-      "bytes": 31149769,
-      "sha256": "be9238a355ebe39a4c12dc435efb3c579709feb657dcc7fc45263a2749b09e17"
+      "path": "assets/b8c10492422b8f2322b3.jpg",
+      "bytes": 792503,
+      "sha256": "b8c10492422b8f2322b36d16d9abc33810a575defaa1ff95acb872bbe3ddf4f3"
     },
     {
-      "path": "assets/c596dc332b8b0d13c3cc.jpg",
-      "bytes": 645244,
-      "sha256": "c596dc332b8b0d13c3cc0fa6edc31746d97cff912dad398210320b647a82ba38"
+      "path": "assets/cb92afe1b601915ca1be.jpg",
+      "bytes": 1150379,
+      "sha256": "cb92afe1b601915ca1be967c67e2ede84bd574a30080681eac8cc308d6cc7b27"
     },
     {
-      "path": "assets/cc2d8de10562520d1d2a.png",
-      "bytes": 53929,
-      "sha256": "cc2d8de10562520d1d2a3274a8ea60bc2ec61de07393ccec5fb64b0ed86f2a25"
+      "path": "assets/d217826a25a32a047456.png",
+      "bytes": 31259486,
+      "sha256": "d217826a25a32a0474567a6316686a4039b3952fa2aad947f05cbc6118d42cdd"
     },
     {
       "path": "assets/d9d39611b2f7bd2bbcee.jpg",
@@ -201,44 +201,44 @@
       "sha256": "d9d39611b2f7bd2bbceedd01f0a26bfb704a8ecf70523eb5e4e844531cdddf46"
     },
     {
-      "path": "assets/e541deb22fa0b49dc6c8.png",
-      "bytes": 27300587,
-      "sha256": "e541deb22fa0b49dc6c820b89c2076a119fbaa0082d74dd6edd3a01423d9e211"
+      "path": "assets/e027e11d4553c2ee22bb.png",
+      "bytes": 23665,
+      "sha256": "e027e11d4553c2ee22bb37711da4ed899c053e5153923cbf31b3ca24b3efd433"
     },
     {
-      "path": "assets/f218de39a2fe2cea28ca.jpg",
-      "bytes": 627294,
-      "sha256": "f218de39a2fe2cea28cae375ae8632f28ee5b87db80d197481a8aae54e093650"
+      "path": "assets/e60b73cef71eda5e61dc.png",
+      "bytes": 33154942,
+      "sha256": "e60b73cef71eda5e61dc131f89a75a59d275369eda27b35e3b2ebc8e7635401d"
     },
     {
-      "path": "assets/fbb25f0251907f34c08b.jpg",
-      "bytes": 736618,
-      "sha256": "fbb25f0251907f34c08bfe04445f4e509f05b0f1aef44fdb5a04f2c65e13c540"
+      "path": "assets/ee35e4a4c76226d65265.jpg",
+      "bytes": 4598934,
+      "sha256": "ee35e4a4c76226d65265e27bd5125a63eadfa9611006cf7732aa55045ee340ea"
     },
     {
-      "path": "assets/fdfbfc0c8c239aa8da62.jpg",
-      "bytes": 831908,
-      "sha256": "fdfbfc0c8c239aa8da628afc273694fa3464c29e8cb8c8540659a2f22babb7fc"
+      "path": "assets/f67dd39fcb823197c805.jpg",
+      "bytes": 845169,
+      "sha256": "f67dd39fcb823197c805f7fe7604caba358e115eecc861e2a95a26f6b60a35be"
     },
     {
       "path": "comparison.html",
-      "bytes": 2938,
-      "sha256": "e873bf11d7f02ff2778fda0b848fc963dc21ba8c31b9ab4d30b1ea2d52b8408b"
+      "bytes": 1213,
+      "sha256": "47516f995a6225b6946a4855286bd607d1fc91000e9455b13f58132c029a89fd"
     },
     {
       "path": "index.html",
-      "bytes": 5619,
-      "sha256": "c80fec9871cff60a1bc55524d9d40e98903b4180eb726f490e7e33c0ec480f5f"
+      "bytes": 5021,
+      "sha256": "2b602c66521e46df6f6469df8e4715f567bf437b274dd5b645625d8088d90953"
     },
     {
       "path": "notebooks/SO1_completed.ipynb",
-      "bytes": 28952,
-      "sha256": "0b5e77eb3837b260c0776928325ec39c83b1e32c9c19c9ac54f9306bc6415c48"
+      "bytes": 28964,
+      "sha256": "f3ec617fd87ce02055ab8967a537ecc3e81a4e3f691f45bb15d89bc7bcf03538"
     },
     {
       "path": "notebooks/SO4_completed.ipynb",
-      "bytes": 25905,
-      "sha256": "37d4ae06b902e35643d74822be2a439b078cd6dcab7fbd8a7ace43580f4ffb5e"
+      "bytes": 25849,
+      "sha256": "308757242d2ae5d11b589fb7e2f26bfea8d676b360af49839bc80a023be62840"
     }
   ],
   "scope": "Public TCGA example outputs only; no original WSI, model weights or credentials."

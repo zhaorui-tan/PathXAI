@@ -159,8 +159,7 @@ GitHub previews this notebook. To view the HTML as a page, use the repository's 
 or download the full examples folder and open the report locally. To run your own case, use the
 clean [main notebook](../../PathXAI_report.ipynb), not this archived execution record.
 
-Completion does not imply every generated clinical statement is correct. Read the
-[result comparison](../../docs/RESULT_COMPARISON.md) for the historical comparison and known discrepancies.
+See the [execution summary](../../docs/RESULT_COMPARISON.md) for the recorded run details.
 """
         nb["cells"].insert(0, {"cell_type":"markdown", "id":f"record-{version.lower()}",
                                "metadata":{}, "source":header})

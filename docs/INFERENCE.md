@@ -40,9 +40,9 @@ Alternatively, `PATHXAI_LOCAL_MODEL_CONFIG` can point to a local JSON file with 
 
 ## Run the sample
 
-The sample helper downloads the five pinned diagnostic slides DX1–DX5 for one open TCGA patient from NCI GDC. Together they total 8,055,455,029 bytes (about 7.50 GiB). They are checked against the pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the list of verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper recursively searches that directory for the pinned filenames and verifies every expected slide before returning. The extra TS1 slide is excluded: this input set follows the historical five-diagnostic-slide scope.
+The sample helper downloads the 5 pinned diagnostic slides listed in `configs/sample_tcga.json` for TCGA-OR-A5LL. Together they total 10,988,208,661 bytes (10.23 GiB). They are checked against pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper searches that directory for the pinned filenames and verifies each expected slide.
 
-`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes the complete list and known anatomical site to one `run_report(...)` call, so all five slides contribute to one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
+`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes the complete list and known anatomical site to one `run_report(...)` call, so all 5 slides contribute to one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
 
 For your own data, provide all WSI paths for one patient and the anatomical sampling site that you knew independently before inference. For example:
 

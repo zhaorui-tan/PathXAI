@@ -1,272 +1,34 @@
 {
-  "schema": "pathxai_patient_reproduction_provenance_v1",
-  "public_summary": {
-    "schema": "pathxai_patient_validation_public_summary_v1",
-    "evaluator": "eval_v4_report_only_20261017_r5",
-    "reference_sha256": "7db91b3b25816b13cdd6c84fe842ad416a1ff2c13de269191d110562f1cd3ec9",
-    "reference_source_type": "aligned image-only report",
-    "variants": {
-      "SO1": {
-        "runs": {
-          "new_five_slide_rerun": {
-            "candidate_roi_count": 20,
-            "candidate_counts_by_slide": {"DX1": 3, "DX2": 4, "DX4": 6, "DX3": 4, "DX5": 3},
-            "candidate_roi_hash_path_normalized": "6080e8aec4171f99014ae82c900792885ca370aa67f18f1a4a9fdd442a2627a8",
-            "initial_selected_count": 3,
-            "final_selected_count": 6,
-            "main_diagnosis": "Adrenocortical carcinoma",
-            "structured_fields": {"grade": "high", "necrosis": "present", "invasion": "not assessable from H&E images"},
-            "potential_structured_report_conflicts": [],
-            "pipeline_error_count": 0,
-            "evaluation_schema": "eval_v4_report_only_20261017_r5",
-            "metrics": {
-              "broad": 1.0, "subtype": 1.0, "malignancy": 1.0, "diagnosis": 1.0,
-              "invasion": 1.0, "necrosis": 0.0, "grade_exact": 0.0, "grade_ordinal": 0.0,
-              "grade_coverage": 1.0, "reference_coverage": 1.0,
-              "morphology_fact_f1": 0.6666666666666666, "critical_positive_recall": null,
-              "contradiction_rate": 0.3333333333333333,
-              "rouge1_f1": 0.38699690402476783, "rouge2_f1": 0.11801242236024845,
-              "cohort_compatibility": 1.0, "subtype_reference_coverage": 1.0,
-              "reference_coverage_v4": 1.0, "diagnosis_cohort": 1.0
-            },
-            "evaluator_prediction_summary": {
-              "normalized_subtype_entity": "adrenocortical carcinoma", "subtype_status": "asserted",
-              "broad_type": "carcinoma", "malignancy": "malignant", "grade": "histologic3:3"
-            },
-            "evaluator_qa_flags": [],
-            "matches_reference_main_diagnosis": true,
-            "residual_reference_discrepancies": ["grade_exact", "necrosis"]
-          },
-          "d1_baseline": {
-            "candidate_roi_count": 20,
-            "candidate_counts_by_slide": {"DX1": 3, "DX2": 4, "DX4": 6, "DX3": 4, "DX5": 3},
-            "candidate_roi_hash_path_normalized": "6080e8aec4171f99014ae82c900792885ca370aa67f18f1a4a9fdd442a2627a8",
-            "initial_selected_count": 3,
-            "final_selected_count": 6,
-            "main_diagnosis": "Adrenocortical carcinoma",
-            "structured_fields": {
-              "grade": "high grade", "necrosis": "present",
-              "invasion": "Not definitively assessable in these ROIs, though tumor necrosis is a criterion for malignancy."
-            },
-            "potential_structured_report_conflicts": [],
-            "pipeline_error_count": 0,
-            "evaluation_schema": "eval_v4_report_only_20261017_r5",
-            "metrics": {
-              "broad": 1.0, "subtype": 1.0, "malignancy": 1.0, "diagnosis": 1.0,
-              "invasion": 0.0, "necrosis": 0.0, "grade_exact": 0.0, "grade_ordinal": 0.0,
-              "grade_coverage": 1.0, "reference_coverage": 0.8333333333333334,
-              "morphology_fact_f1": 0.0, "critical_positive_recall": null,
-              "contradiction_rate": 0.3333333333333333,
-              "rouge1_f1": 0.36515912897822445, "rouge2_f1": 0.10756302521008404,
-              "cohort_compatibility": 1.0, "subtype_reference_coverage": 1.0,
-              "reference_coverage_v4": 0.8333333333333334, "diagnosis_cohort": 1.0
-            },
-            "evaluator_prediction_summary": {
-              "normalized_subtype_entity": "adrenocortical carcinoma", "subtype_status": "asserted",
-              "broad_type": "carcinoma", "malignancy": "malignant", "grade": "histologic3:3"
-            },
-            "evaluator_qa_flags": [],
-            "matches_reference_main_diagnosis": true,
-            "residual_reference_discrepancies": ["grade_exact", "invasion", "necrosis"]
-          },
-          "prior_dx1_only": {
-            "candidate_roi_count": 20,
-            "candidate_counts_by_slide": {"DX1": 20},
-            "candidate_roi_hash_path_normalized": "f4e29b959b9eb709c44d96f85aeb803169e8647e1a3940c9345a4ee061e912a8",
-            "initial_selected_count": 3,
-            "final_selected_count": 6,
-            "main_diagnosis": "Hepatocellular carcinoma",
-            "structured_fields": {
-              "grade": "moderately differentiated", "necrosis": "absent",
-              "invasion": "Vascular invasion is present, with tumor emboli identified within large vascular channels"
-            },
-            "potential_structured_report_conflicts": [{
-              "field": "necrosis", "structured_value": "absent", "packaged_evaluator_report_value": "present",
-              "basis": "heuristic equality check; verify against exact report section text"
-            }],
-            "pipeline_error_count": 0,
-            "evaluation_schema": "eval_v4_report_only_20261017_r5",
-            "metrics": {
-              "broad": 1.0, "subtype": 0.0, "malignancy": 1.0, "diagnosis": 0.5882352941176471,
-              "invasion": 0.0, "necrosis": 0.0, "grade_exact": 0.0, "grade_ordinal": 0.0,
-              "grade_coverage": 0.0, "reference_coverage": 0.6666666666666666,
-              "morphology_fact_f1": 0.0, "critical_positive_recall": null,
-              "contradiction_rate": 0.6666666666666666,
-              "rouge1_f1": 0.39790575916230364, "rouge2_f1": 0.12609457092819615,
-              "cohort_compatibility": 0.0, "subtype_reference_coverage": 1.0,
-              "reference_coverage_v4": 0.5, "diagnosis_cohort": 0.5882352941176471
-            },
-            "evaluator_prediction_summary": {
-              "normalized_subtype_entity": null, "subtype_status": "organ_conflict",
-              "broad_type": "carcinoma", "malignancy": "malignant", "grade": null
-            },
-            "evaluator_qa_flags": ["prediction.grade.missing", "v4_subtype_prediction_organ_conflict"],
-            "matches_reference_main_diagnosis": false,
-            "residual_reference_discrepancies": ["grade_exact", "invasion", "necrosis"]
-          }
-        },
-        "comparisons": {
-          "candidate_pool_hash_matches_d1": true,
-          "candidate_roi_ids_order_match_d1": true,
-          "initial_selected_roi_ids_order_match_d1": true,
-          "final_selected_roi_ids_order_match_d1": true,
-          "primary_diagnosis_exact_label_matches_d1": true,
-          "main_diagnosis_semantic_entity_matches_d1": true,
-          "candidate_pool_hash_matches_prior_dx1_only": false,
-          "primary_diagnosis_exact_label_matches_prior_dx1_only": false,
-          "main_diagnosis_semantic_entity_matches_prior_dx1_only": false
-        },
-        "main_diagnosis_reproduced_from_d1": true,
-        "candidate_selection_reproduced_from_d1": true
-      },
-      "SO4": {
-        "runs": {
-          "new_five_slide_rerun": {
-            "candidate_roi_count": 20,
-            "candidate_counts_by_slide": {"DX1": 3, "DX2": 4, "DX4": 6, "DX3": 4, "DX5": 3},
-            "candidate_roi_hash_path_normalized": "6080e8aec4171f99014ae82c900792885ca370aa67f18f1a4a9fdd442a2627a8",
-            "initial_selected_count": 3,
-            "final_selected_count": 6,
-            "main_diagnosis": "adrenocortical carcinoma",
-            "structured_fields": {
-              "grade": "high", "necrosis": "absent in the provided fields of view",
-              "invasion": "not definitively assessable in these ROIs; tumor appears solid and expansive"
-            },
-            "potential_structured_report_conflicts": [],
-            "pipeline_error_count": 0,
-            "evaluation_schema": "eval_v4_report_only_20261017_r5",
-            "metrics": {
-              "broad": 1.0, "subtype": 1.0, "malignancy": 1.0, "diagnosis": 1.0,
-              "invasion": 0.0, "necrosis": 0.0, "grade_exact": 0.0, "grade_ordinal": 0.0,
-              "grade_coverage": 1.0, "reference_coverage": 1.0,
-              "morphology_fact_f1": 0.0, "critical_positive_recall": null,
-              "contradiction_rate": 0.6666666666666666,
-              "rouge1_f1": 0.3515358361774744, "rouge2_f1": 0.0958904109589041,
-              "cohort_compatibility": 1.0, "subtype_reference_coverage": 1.0,
-              "reference_coverage_v4": 1.0, "diagnosis_cohort": 1.0
-            },
-            "evaluator_prediction_summary": {
-              "normalized_subtype_entity": "adrenocortical carcinoma", "subtype_status": "asserted",
-              "broad_type": "carcinoma", "malignancy": "malignant", "grade": "histologic3:3"
-            },
-            "evaluator_qa_flags": [],
-            "matches_reference_main_diagnosis": true,
-            "residual_reference_discrepancies": ["grade_exact", "invasion", "necrosis"]
-          },
-          "d1_baseline": {
-            "candidate_roi_count": 20,
-            "candidate_counts_by_slide": {"DX1": 3, "DX2": 4, "DX4": 6, "DX3": 4, "DX5": 3},
-            "candidate_roi_hash_path_normalized": "6080e8aec4171f99014ae82c900792885ca370aa67f18f1a4a9fdd442a2627a8",
-            "initial_selected_count": 3,
-            "final_selected_count": 6,
-            "main_diagnosis": "Adrenocortical carcinoma",
-            "structured_fields": {
-              "grade": "high", "necrosis": "present", "invasion": "not assessable from H&E images"
-            },
-            "potential_structured_report_conflicts": [],
-            "pipeline_error_count": 0,
-            "evaluation_schema": "eval_v4_report_only_20261017_r5",
-            "metrics": {
-              "broad": 1.0, "subtype": 1.0, "malignancy": 1.0, "diagnosis": 1.0,
-              "invasion": 0.0, "necrosis": 0.0, "grade_exact": 0.0, "grade_ordinal": 0.0,
-              "grade_coverage": 1.0, "reference_coverage": 1.0,
-              "morphology_fact_f1": 0.0, "critical_positive_recall": null,
-              "contradiction_rate": 0.6666666666666666,
-              "rouge1_f1": 0.37435008665511266, "rouge2_f1": 0.11478260869565217,
-              "cohort_compatibility": 1.0, "subtype_reference_coverage": 1.0,
-              "reference_coverage_v4": 1.0, "diagnosis_cohort": 1.0
-            },
-            "evaluator_prediction_summary": {
-              "normalized_subtype_entity": "adrenocortical carcinoma", "subtype_status": "asserted",
-              "broad_type": "carcinoma", "malignancy": "malignant", "grade": "histologic3:3"
-            },
-            "evaluator_qa_flags": [],
-            "matches_reference_main_diagnosis": true,
-            "residual_reference_discrepancies": ["grade_exact", "invasion", "necrosis"]
-          },
-          "prior_dx1_only": {
-            "candidate_roi_count": 20,
-            "candidate_counts_by_slide": {"DX1": 20},
-            "candidate_roi_hash_path_normalized": "f4e29b959b9eb709c44d96f85aeb803169e8647e1a3940c9345a4ee061e912a8",
-            "initial_selected_count": 3,
-            "final_selected_count": 7,
-            "main_diagnosis": "Hepatocellular carcinoma",
-            "structured_fields": {
-              "grade": "moderately differentiated", "necrosis": "absent",
-              "invasion": "Infiltrative growth pattern replacing adjacent liver tissue"
-            },
-            "potential_structured_report_conflicts": [{
-              "field": "necrosis", "structured_value": "absent", "packaged_evaluator_report_value": "present",
-              "basis": "heuristic equality check; verify against exact report section text"
-            }],
-            "pipeline_error_count": 0,
-            "evaluation_schema": "eval_v4_report_only_20261017_r5",
-            "metrics": {
-              "broad": 1.0, "subtype": 0.0, "malignancy": 1.0, "diagnosis": 0.5882352941176471,
-              "invasion": 0.0, "necrosis": 0.0, "grade_exact": 0.0, "grade_ordinal": 0.5,
-              "grade_coverage": 1.0, "reference_coverage": 1.0,
-              "morphology_fact_f1": 0.0, "critical_positive_recall": null,
-              "contradiction_rate": 0.6666666666666666,
-              "rouge1_f1": 0.3714759535655058, "rouge2_f1": 0.11980033277870217,
-              "cohort_compatibility": 0.0, "subtype_reference_coverage": 1.0,
-              "reference_coverage_v4": 0.8333333333333334, "diagnosis_cohort": 0.5882352941176471
-            },
-            "evaluator_prediction_summary": {
-              "normalized_subtype_entity": null, "subtype_status": "organ_conflict",
-              "broad_type": "carcinoma", "malignancy": "malignant", "grade": "histologic3:2"
-            },
-            "evaluator_qa_flags": ["v4_subtype_prediction_organ_conflict"],
-            "matches_reference_main_diagnosis": false,
-            "residual_reference_discrepancies": ["grade_exact", "invasion", "necrosis"]
-          }
-        },
-        "comparisons": {
-          "candidate_pool_hash_matches_d1": true,
-          "candidate_roi_ids_order_match_d1": true,
-          "initial_selected_roi_ids_order_match_d1": true,
-          "final_selected_roi_ids_order_match_d1": true,
-          "primary_diagnosis_exact_label_matches_d1": false,
-          "main_diagnosis_semantic_entity_matches_d1": true,
-          "candidate_pool_hash_matches_prior_dx1_only": false,
-          "primary_diagnosis_exact_label_matches_prior_dx1_only": false,
-          "main_diagnosis_semantic_entity_matches_prior_dx1_only": false
-        },
-        "main_diagnosis_reproduced_from_d1": true,
-        "candidate_selection_reproduced_from_d1": true
-      }
+  "case_id": "TCGA-OR-A5LL",
+  "scope": "A5LL SO1/SO4 run artifacts",
+  "runs": [
+    {
+      "version": "SO1",
+      "execution_status": "passed",
+      "notebook_seconds": 1429.2057967185974,
+      "pipeline_seconds": 515.3300607799902,
+      "input_slide_count": 5,
+      "candidate_count": 20,
+      "selected_rois": 6,
+      "displayed_wsi_count": 2,
+      "masks_available": true,
+      "pipeline_errors": [],
+      "report_text_sha256": "ec1050a61e43d9280b3e92b8177cf258565cc96fd962633cc9e6d91ccf3de482",
+      "report_html_sha256": "2db901e8f7bf13a254ed4707001504d23a6989de2053e60f6043e972c31fb535"
+    },
+    {
+      "version": "SO4",
+      "execution_status": "passed",
+      "notebook_seconds": 1031.376190662384,
+      "pipeline_seconds": 647.1828961140127,
+      "input_slide_count": 5,
+      "candidate_count": 20,
+      "selected_rois": 6,
+      "displayed_wsi_count": 2,
+      "masks_available": true,
+      "pipeline_errors": [],
+      "report_text_sha256": "4fcc7697f4b5097d058e19b51f0a33da6de4468243dc775357d8c75f8f5c2405",
+      "report_html_sha256": "fa1269f150b21da14bc5c7abacd1a5580bb737b48865c370ab3472f251cace60"
     }
-  },
-  "baseline_scope": {
-    "identity": "PathXAI_demo validation_core_seeded_record_20261015 and validation_full_seeded_record_20261015",
-    "interpretation": "Same-case D1 demo baseline for SO1 core and SO4 full; not a report from tcga_expansion_20260924_1200_d1.",
-    "model_source_checkpoint_sha256": "41fd1867add7049bb6305e103b275c99ec513146f9d9e3f3f845b1dc55b0d031",
-    "tutorial_adapter_sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
-    "code_note": "Candidate generation and selection are exactly matched by normalized ROI records and ordered initial/final IDs; source/runtime manifests differ, so this is not a byte-identical software run."
-  },
-  "inference_inputs": {
-    "slides_per_variant": 5,
-    "slide_set": ["DX1", "DX2", "DX3", "DX4", "DX5"],
-    "explicit_known_site": "adrenal gland / adrenocortical tissue",
-    "reference_diagnosis_provided_to_inference": false,
-    "qwen_model_identifier_matches_baseline": true,
-    "temperature_matches_baseline": 0.2,
-    "deterministic_text_reproduction_claimed": false
-  },
-  "manual_quality_notes": {
-    "reference_summary": "The aligned image-only report describes low-grade adrenal cortical carcinoma, no coagulative necrosis, and no vascular or sinusoidal invasion. The reference report itself is not reproduced here.",
-    "SO1": [
-      "The canonical main diagnosis and all candidate/initial/final ROI IDs match the D1 SO1 baseline.",
-      "The generated report says exact grade is not assessable, then states Grade: High; structured grade is high.",
-      "The generated report describes extensive necrosis; structured necrosis is present, contrary to the reference.",
-      "The report says capsular/vascular invasion is not assessable. Evaluator invasion score 1.0 is a parser-derived match and is not clinical evidence of absent invasion."
-    ],
-    "SO4": [
-      "The canonical main diagnosis and all candidate/initial/final ROI IDs match the D1 SO4 baseline; the raw primary-diagnosis label differs only by capitalization.",
-      "The generated report calls the grade High, contrary to the low-grade reference.",
-      "The generated report states focal necrosis is present and later says necrosis is not supported; the structured field says absent. Evaluator necrosis score is 0.0.",
-      "The report says invasion is not definitively assessable; the reference reports no vascular or sinusoidal invasion."
-    ],
-    "prior_DX1_only": "Both earlier single-slide tutorial runs used 20 candidates from DX1 alone and reported hepatocellular carcinoma. The five-slide reruns restore the full D1 candidate pool; the earlier HCC outputs are not treated as full-case D1 baselines.",
-    "evaluation_limits": "eval_v4_report_only_20261017_r5 is automatic report-to-reference agreement. It is not physician scoring, clinical accuracy, or a clinical validation result. No physician scoring was performed."
-  }
+  ]
 }

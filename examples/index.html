@@ -20,24 +20,24 @@
 <main>
   <div class="eyebrow">PathXAI · Completed examples</div>
   <h1>Read the reports.<br>Follow the recorded runs.</h1>
-  <p class="intro">Explore two reports generated from the same public TCGA patient, using all five diagnostic slides. Both versions completed real notebook execution with D1 segmentation. No model downloads, API keys or GPU are needed to read these saved examples.</p>
-  <div class="meta"><span>Case TCGA-OR-A5JI · DX1–DX5</span><span>D1 segmentation</span><span>Recorded 4 November 2026</span></div>
-  <p><strong>Reproduction scope:</strong> ROI selection and the main diagnosis match the previous D1 runs. Generated grade and necrosis statements still have discrepancies. <a href="comparison.html">Read the result comparison and limitations →</a></p>
+  <p class="intro">Read two recorded PathXAI runs for public TCGA case TCGA-OR-A5LL. The sample contains 5 diagnostic slides (10,988,208,661 bytes; 10.23 GiB). No model downloads, API keys or GPU are needed to read these saved examples.</p>
+  <div class="meta"><span>Case TCGA-OR-A5LL · 5 slides</span><span>D1 segmentation</span><span>Recorded 2026-11-05</span></div>
+  <p>Both SO1/Core and SO4/Full completed notebook execution and report export. <a href="comparison.html">Read the execution summary →</a></p>
   <section class="cards" aria-label="Successful report examples">
     <article class="card">
       <div class="label">SO1 · CORE</div><h2>The core report workflow</h2>
       <p>Follow ROI selection, D1 segmentation, diagnostic reasoning and evidence reinspection through the final report.</p>
-      <p class="details">Completed in 28 minutes · 6 final diagnostic ROIs · 5 input slides</p>
+      <p class="details">Completed in 24 minutes · 6 final diagnostic ROIs · 5 input slides</p>
       <div class="actions"><a class="button" href="SO1/report.html">Open SO1 report →</a><a class="secondary" href="https://github.com/zhaorui-tan/PathXAI/blob/main/examples/notebooks/SO1_completed.ipynb">View recorded notebook on GitHub</a><a class="secondary" href="notebooks/SO1_completed.ipynb" download>Download notebook with outputs</a><a class="secondary" href="SO1/generated_long_report.txt">Read generated report text</a></div>
     </article>
     <article class="card">
       <div class="label">SO4 · FULL</div><h2>The full report workflow</h2>
       <p>Explore the workflow with KEEP knowledge retrieval and auxiliary grade evidence, alongside D1 segmentation and reinspection.</p>
-      <p class="details">Completed in 10 minutes · 6 final diagnostic ROIs · 5 input slides</p>
+      <p class="details">Completed in 17 minutes · 6 final diagnostic ROIs · 5 input slides</p>
       <div class="actions"><a class="button" href="SO4/report.html">Open SO4 report →</a><a class="secondary" href="https://github.com/zhaorui-tan/PathXAI/blob/main/examples/notebooks/SO4_completed.ipynb">View recorded notebook on GitHub</a><a class="secondary" href="notebooks/SO4_completed.ipynb" download>Download notebook with outputs</a><a class="secondary" href="SO4/generated_long_report.txt">Read generated report text</a></div>
     </article>
   </section>
-  <section class="note"><h2>What these examples show</h2><p>These are recorded patient-level executions, compared with the historical D1 demo and an existing aligned reference report. They are not a clinical accuracy benchmark. The known anatomical site was supplied before inference; no reference diagnosis was supplied. All five slides entered the candidate pool; the final ROIs came from two slides, which are displayed in the reports. The original report wording and image bytes are preserved. The notebook records retain actual outputs; repetitive heartbeat messages and feature-progress refreshes were condensed, and machine-specific paths were replaced for reading.</p><p>The completed notebooks can also be previewed directly in the GitHub repository. Use the main tutorial notebook in that repository to run your own data.</p></section>
+  <section class="note"><h2>What these examples show</h2><p>These are recorded software executions for TCGA-OR-A5LL. The notebooks retain actual outputs; presentation cleanup is described in each notebook and in the examples README. The reports show the outputs produced by the configured pipeline.</p><p>Use the main tutorial notebook in this repository to run your own data.</p></section>
   <footer><span>Public TCGA sample · research software</span><a href="https://github.com/zhaorui-tan/PathXAI">Source and tutorial</a><a href="manifest.json">Example provenance and file checksums</a></footer>
 </main>
 </body>

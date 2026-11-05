@@ -29,7 +29,7 @@ def _slide(case_id, file_name, payload, index, role="diagnostic_slide"):
 
 
 def _small_manifest():
-    case_id = "TCGA-OR-A5JI"
+    case_id = "TCGA-OR-A5LL"
     slides = [
         _slide(case_id, f"{case_id}-01Z-00-DX{i}.svs", f"slide-{i}".encode(), i)
         for i in range(1, 3)
@@ -61,7 +61,7 @@ class PatientSampleTests(unittest.TestCase):
         self.assertTrue(all(len(x["sha256"]) == 64 and len(x["md5sum"]) == 32
                             for x in manifest["slides"]))
         self.assertTrue(manifest["excluded_slides"][0]["file_name"].endswith(
-            "TS1.11062013-D138-4097-B96E-A590775B554E.svs"
+            "TS1.852B5675-3534-4684-9FA3-2A03A6199B4E.svs"
         ))
 
     def test_download_patient_recursively_reuses_hash_verified_inventory(self):

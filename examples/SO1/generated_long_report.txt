@@ -5,28 +5,21 @@ Diagnosis:
 Adrenocortical carcinoma
 
 Tumor/Lesion Description:
-The submitted tissue sections demonstrate a hypercellular neoplasm composed of diffuse solid sheets of cells with focal trabecular arrangement. The tumor cells are large and polygonal with abundant eosinophilic to vacuolated (lipid-rich) cytoplasm. The nuclei exhibit marked pleomorphism, hyperchromasia, and prominent nucleoli. Segmentation analysis indicates a high neoplastic burden (up to 98.9% in sampled ROIs).
+The submitted tissue sections demonstrate a neoplastic proliferation of polygonal cells with abundant eosinophilic to clear, vacuolated cytoplasm, consistent with adrenocortical differentiation. The tumor cells are arranged in solid sheets and nests separated by fibrous trabeculae. Segmentation analysis indicates a high neoplastic burden across the evaluated regions of interest.
 
 Key Microscopic Findings:
-- **Architecture:** The tumor displays diffuse solid sheets of cells with focal trabecular arrangement.
-- **Cytology:** Tumor cells are large and polygonal with abundant eosinophilic to vacuolated (lipid-rich) cytoplasm. Marked nuclear pleomorphism, hyperchromasia, and prominent nucleoli are evident.
-- **Necrosis:** Extensive areas of tumor necrosis are present. Segmentation data supports the presence of significant necrotic/dead tissue fractions (up to 44.6% in specific ROIs).
-- **Hemorrhage:** Hemorrhage is present within the tumor parenchyma.
-- **Stroma:** Minimal stroma is observed.
+Microscopic examination reveals a cellular neoplasm composed of large polygonal cells with abundant eosinophilic to clear vacuolated (lipidized) cytoplasm. There is marked nuclear pleomorphism with hyperchromasia and prominent nucleoli. Fibrous septa are present separating the tumor nests.
 
 Invasion/Necrosis/Margins:
-- **Necrosis:** Extensive necrosis is identified within the tumor parenchyma.
-- **Invasion:** Definitive evidence of capsular invasion, vascular invasion, or invasion into adjacent adipose tissue is not assessable from H&E ROI evidence.
-- **Margins:** Surgical margins are not assessable from H&E ROI evidence.
+Necrosis is not supported by available ROI evidence. Definitive evidence of capsular invasion or vascular invasion is not visible in the current field.
 
 Immunohistochemistry/Ancillary Studies:
-Not assessable from H&E images. Recommended stains to confirm adrenocortical lineage and exclude differential diagnoses include Inhibin-alpha, Melan-A, SF-1, Synaptophysin, CK7, CD10, and HepPar-1.
+Not assessable from H&E images. Recommended stains to confirm adrenocortical origin and exclude metastatic carcinoma include Melan-A, SF-1, Inhibin-alpha, and Calretinin.
 
 Stage/Grade/Prognostic Features:
 Malignancy: malignant based on the final diagnosis; exact grade, Weiss score, stage, and prognostic risk are not assessable from current H&E ROI evidence.
-- **Malignancy:** Malignant.
-- **Grade:** High.
-- **Assessment:** The diagnosis of Adrenocortical Carcinoma is supported by the presence of significant nuclear atypia, extensive necrosis, and hemorrhage. However, a complete Weiss score assessment cannot be performed as key criteria (such as mitotic count, atypical mitoses, and definitive capsular/vascular invasion) are not assessable from H&E ROI evidence.
+Grade: High
+The tumor exhibits features consistent with a high-grade malignancy, including significant nuclear atypia. A formal Weiss score calculation is not possible from the provided limited fields of view due to the inability to accurately count mitotic figures or definitively assess capsular/vascular invasion.
 
 Final Summary:
-The histologic features are consistent with a high-grade adrenocortical carcinoma. The tumor is characterized by significant nuclear atypia, extensive necrosis, and hemorrhage. While the morphology strongly favors malignancy, the provided images do not allow for the confirmation of definitive invasive criteria (capsular or vascular invasion) required for a complete Weiss score. Differential diagnoses such as metastatic renal cell carcinoma or hepatocellular carcinoma should be excluded via immunohistochemistry.
+The histologic features are diagnostic of Adrenocortical carcinoma. The diagnosis is supported by the presence of a neoplastic adrenocortical proliferation with high-grade cytologic atypia. While the morphology strongly favors carcinoma over adenoma, the definitive application of the Weiss criteria is limited by the available field of view. Differential diagnoses such as metastatic renal cell carcinoma or hepatocellular carcinoma should be excluded via immunohistochemistry.

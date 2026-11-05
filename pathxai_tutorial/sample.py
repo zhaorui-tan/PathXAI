@@ -1,4 +1,4 @@
-"""Download the pinned TCGA-OR-A5JI diagnostic WSI set from NCI GDC."""
+"""Download the pinned TCGA-OR-A5LL diagnostic WSI set from NCI GDC."""
 
 import hashlib
 import json
@@ -216,7 +216,7 @@ def download_patient(data_dir="data", *, existing_dir=None, progress=print):
     ``existing_dir`` is searched recursively. Matching files are reused only
     after exact size, GDC MD5 and pinned SHA-256 checks. Missing slides are
     downloaded into ``data_dir``. TS1 is pinned as an excluded non-DX tissue
-    slide because the historical ROI set and tutorial input use DX1–DX5 only.
+    slide; the tutorial uses the diagnostic DX1–DX5 set.
     """
     manifest = sample_metadata()
     _validate_live_inventory(manifest)

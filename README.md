@@ -13,7 +13,7 @@ The repository includes two recorded notebooks and report artifacts, which can b
 | SO1/Core | [SO1 notebook with actual outputs](examples/notebooks/SO1_completed.ipynb) | [View SO1 report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
 | SO4/Full | [SO4 notebook with actual outputs](examples/notebooks/SO4_completed.ipynb) | [View SO4 report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
 
-These are completed outputs from the five-slide patient-level rerun. ROI selection and the main diagnosis match the historical D1 demo; grade/necrosis discrepancies remain. Read the [result comparison](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the recorded reports without running inference. The deployed report and notebook files were checked against the committed artifacts. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
+These are recorded SO1 and SO4 outputs for TCGA-OR-A5LL. Read the [execution summary](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the recorded reports without running inference. The deployed report and notebook files were checked against the committed artifacts. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
 
 ## Quick start
 
@@ -21,9 +21,9 @@ These are completed outputs from the five-slide patient-level rerun. ROI selecti
 2. Create the Python 3.10 notebook/pipeline and Python 3.12 segmentation environments as described in [installation](docs/INSTALLATION.md).
 3. Request approval for [PathXAI D1](https://huggingface.co/RayTan/PathXAI-Seg) and obtain your own authorized access to the separate SAM3 and CONCH models. The D1 adapter is published at [RayTan/PathXAI-Seg](https://huggingface.co/RayTan/PathXAI-Seg/tree/62894f38c67e28389f43a9f7efe89dd4a40e5608); the notebook pins its verified immutable revision. SO4 additionally requires access to the gated KEEP dataset. See the [inference guide](docs/INFERENCE.md) for the current release state and configuration.
 4. Set the Qwen API base URL, model ID and credential in environment variables or provide the API key at the notebook's secure prompt. Do not store credentials in notebook cells or configuration files.
-5. Start Jupyter from this directory with the Python 3.10 environment and open [PathXAI_report.ipynb](PathXAI_report.ipynb). The notebook downloads and verifies the five pinned diagnostic slides DX1–DX5 for one open TCGA patient from the NCI Genomic Data Commons (8,055,455,029 bytes total, about 7.50 GiB), runs one selected variant across the complete slide set, and exports one patient-level `report.html` plus its assets. The additional TS1 slide is excluded to match the historical five-diagnostic-slide scope.
+5. Start Jupyter from this directory with the Python 3.10 environment and open [PathXAI_report.ipynb](PathXAI_report.ipynb). The notebook downloads and verifies the 5 pinned diagnostic slides for TCGA-OR-A5LL from the NCI Genomic Data Commons (10,988,208,661 bytes; 10.23 GiB), runs the selected variant across the slide set, and exports one patient-level `report.html` plus its assets.
 
-The patient-level sample is for a software walkthrough. The notebook supplies the known anatomical site from pinned metadata and does not pass the TCGA project label or a reference diagnosis to the report generator. The sample does not contain a verified reference report. The included completed notebooks and HTML reports come from the five-slide rerun; see [validation](docs/VALIDATION.md) for its exact scope.
+The notebook supplies the known anatomical site from the pinned sample metadata. The completed notebooks and reports are available in [examples](examples/README.md); see [validation](docs/VALIDATION.md) for the recorded run details.
 
 ## Repository contents
 
