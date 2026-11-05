@@ -1306,16 +1306,6 @@
         "sha256": "d0aee6200ab4da6b5c47dd23951ec249c22b41a2b3a2f1e7afa6fb4efbaf0d2d",
         "size_bytes": 39568
       },
-      "archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy 2.py": {
-        "origin": "reviewed frozen source snapshot",
-        "sha256": "49663cf944f7ae63869730f56140ab2c8f5e9b2d620900ce7402370de6d610f3",
-        "size_bytes": 91032
-      },
-      "archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy.py": {
-        "origin": "reviewed frozen source snapshot",
-        "sha256": "9ee9bbc7d67f06f8c4260419e5dc0d08846e3ae5054ab5753b85098610364681",
-        "size_bytes": 57748
-      },
       "archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator.py": {
         "origin": "reviewed frozen source snapshot",
         "sha256": "85a8d13f86aab898e66742978a730786ada481cd22f3d65e399b4416ec1236b0",
@@ -1725,16 +1715,6 @@
         "origin": "reviewed frozen source snapshot",
         "sha256": "d0aee6200ab4da6b5c47dd23951ec249c22b41a2b3a2f1e7afa6fb4efbaf0d2d",
         "size_bytes": 39568
-      },
-      "v2/src/pathxai_agent_v2/pipeline/orchestrator copy 2.py": {
-        "origin": "reviewed frozen source snapshot",
-        "sha256": "49663cf944f7ae63869730f56140ab2c8f5e9b2d620900ce7402370de6d610f3",
-        "size_bytes": 91032
-      },
-      "v2/src/pathxai_agent_v2/pipeline/orchestrator copy.py": {
-        "origin": "reviewed frozen source snapshot",
-        "sha256": "9ee9bbc7d67f06f8c4260419e5dc0d08846e3ae5054ab5753b85098610364681",
-        "size_bytes": 57748
       },
       "v2/src/pathxai_agent_v2/pipeline/orchestrator.py": {
         "origin": "reviewed frozen source snapshot",

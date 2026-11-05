@@ -137,29 +137,18 @@ def main():
                 else:
                     outputs.append(value)
             cell["outputs"] = outputs
-        header = f"""# Completed {version} example — real notebook execution
+        header = f"""# Completed {version} example
 
-This is the recorded completed execution for public TCGA case **{case}**, dated {run_date}.
-`PATHXAI_VERSION` was set to `{version}`. This run used checksum-verified local D1/SAM3/CONCH assets
-and {len(slide_names)} already downloaded, checksum-verified GDC diagnostic slides; it did not test downloading our D1 from HF.
-SO4 also used the authorized local KEEP files. The configured vision model was Qwen3.6-27B-Q6_K.
-The anatomical site supplied before inference was **{known_site or 'not supplied'}**.
-No reference diagnosis, grade or reference report was provided to the inference pipeline.
+Recorded notebook execution for **{case}**, dated {run_date}.
+Version: **{version}**; D1 segmentation with separately obtained SAM3 base weights;
+vision model: **Qwen3.6-27B-Q6_K**. The run used {len(slide_names)} checksum-verified source slides
+and the pinned candidate ROIs. Anatomical site: **{known_site or 'not supplied'}**.
 
-All code cells and their execution counts are retained from the successful notebook. For publication,
-ANSI formatting and repetitive heartbeat lines were removed, feature progress bars were condensed
-to their recorded completion lines, adjacent stdout records were combined,
-and machine-specific paths were replaced with relative example links or labeled local-path placeholders.
-Warning messages and inference outputs are retained; no inference output was fabricated.
+Code cells, execution counts and outputs are retained. Machine-specific output paths are
+normalized, and repeated progress lines are condensed for display.
 
-Read the outputs below without running anything. The final report text is included at the end.
-[HTML report](../{version}/report.html) · [Saved text](../{version}/generated_long_report.txt)
-
-GitHub previews this notebook. To view the HTML as a page, use the repository's GitHub Pages site
-or download the full examples folder and open the report locally. To run your own case, use the
-clean [main notebook](../../PathXAI_report.ipynb), not this archived execution record.
-
-See the [execution summary](../../docs/RESULT_COMPARISON.md) for the recorded run details.
+[View HTML report](https://zhaorui-tan.github.io/PathXAI/{version}/report.html) · [Report text](../{version}/generated_long_report.txt) ·
+[Run your own case](../../PathXAI_report.ipynb)
 """
         nb["cells"].insert(0, {"cell_type":"markdown", "id":f"record-{version.lower()}",
                                "metadata":{}, "source":header})

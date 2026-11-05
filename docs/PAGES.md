@@ -2,7 +2,7 @@
 
 `PathXAI_tutorial/` is the standalone repository root. Its manual-only Pages workflow publishes the static bundle in `examples/`: the landing page, SO1 and SO4 reports, shared assets and completed notebooks. It does not run inference, build a notebook, or publish the rest of the repository.
 
-**Deployment status: live.** The GitHub repository is [`zhaorui-tan/PathXAI`](https://github.com/zhaorui-tan/PathXAI), and the published viewer is [https://zhaorui-tan.github.io/PathXAI/](https://zhaorui-tan.github.io/PathXAI/). [The successful deployment](https://github.com/zhaorui-tan/PathXAI/actions/runs/41817381882) published commit `fa9f948bfe5e20d3e26b46052525e1fc35ec7986`. Seven public files, including both reports and completed notebooks, matched the committed bytes; all 29 image assets were reachable with matching sizes. See [verification](../provenance/pages_deployment.json).
+The repository is [`zhaorui-tan/PathXAI`](https://github.com/zhaorui-tan/PathXAI). View the published reports at [the Pages site](https://zhaorui-tan.github.io/PathXAI/) and deployment runs in [GitHub Actions](https://github.com/zhaorui-tan/PathXAI/actions/workflows/report-pages.yml).
 
 The notebook workflow remains local Jupyter. GitHub Pages only serves the already-created static examples; it is not a Colab, Docker or hosted-compute path.
 

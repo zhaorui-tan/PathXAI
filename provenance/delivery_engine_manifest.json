@@ -43,12 +43,12 @@
     },
     {
       "path": "baselines/current/manifest.json",
-      "sha256": "c65120a97da8dd79afc97f7cb4787197bafad559a12a7464c653f8d1fc909be4",
-      "bytes": 94625
+      "sha256": "29a893cd9c5368065d3588b373ddbc161eb41e965085e4430699ce27ab86dab2",
+      "bytes": 93567
     },
     {
       "path": "baselines/current/manifest.sha256",
-      "sha256": "d699ce5a34512bc3f8d930386a4a47373a059847778d1e4ffbda5be9cf205016",
+      "sha256": "30a3bb2af421dcc6459ce19f800962d84ace2ff5137a693b97509305f83028e0",
       "bytes": 80
     },
     {
@@ -1252,16 +1252,6 @@
       "bytes": 39568
     },
     {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy 2.py",
-      "sha256": "49663cf944f7ae63869730f56140ab2c8f5e9b2d620900ce7402370de6d610f3",
-      "bytes": 91032
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy.py",
-      "sha256": "9ee9bbc7d67f06f8c4260419e5dc0d08846e3ae5054ab5753b85098610364681",
-      "bytes": 57748
-    },
-    {
       "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator.py",
       "sha256": "85a8d13f86aab898e66742978a730786ada481cd22f3d65e399b4416ec1236b0",
       "bytes": 123273
@@ -1672,16 +1662,6 @@
       "bytes": 39568
     },
     {
-      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator copy 2.py",
-      "sha256": "49663cf944f7ae63869730f56140ab2c8f5e9b2d620900ce7402370de6d610f3",
-      "bytes": 91032
-    },
-    {
-      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator copy.py",
-      "sha256": "9ee9bbc7d67f06f8c4260419e5dc0d08846e3ae5054ab5753b85098610364681",
-      "bytes": 57748
-    },
-    {
       "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator.py",
       "sha256": "85a8d13f86aab898e66742978a730786ada481cd22f3d65e399b4416ec1236b0",
       "bytes": 123273
@@ -1788,8 +1768,8 @@
     },
     {
       "path": "pathxai_demo/engine_worker.py",
-      "sha256": "9e4fc3fb9b222d28bccfa63f2aaa75a0bc4d03b19185f80a6b46098ad100bbb4",
-      "bytes": 23338
+      "sha256": "e7519866f355be4716c1a75fb75c77ced89e777ac4974e3bd635b2480de3f8d6",
+      "bytes": 23375
     },
     {
       "path": "pathxai_demo/exporting.py",

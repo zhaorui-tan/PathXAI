@@ -1,118 +1,66 @@
 {
-  "schema": "pathxai-tutorial-validation-v3",
+  "schema": "pathxai-tutorial-validation-v4",
   "date": "2026-11-05",
   "case_id": "TCGA-OR-A5LL",
   "sample_manifest": "configs/sample_tcga.json",
-  "slide_count": 5,
-  "sample_bytes": 10988208661,
+  "slide_count": 6,
+  "sample_bytes": 11156338264,
   "reference_diagnosis_supplied_to_inference": false,
   "clean_install_tested": false,
   "runs": [
     {
       "version": "SO1",
       "execution_status": "passed",
-      "notebook_seconds": 1429.2057967185974,
-      "pipeline_seconds": 515.3300607799902,
-      "input_slide_count": 5,
+      "notebook_seconds": 908.3929736614227,
+      "pipeline_seconds": 522.8910488410038,
+      "input_slide_count": 6,
       "candidate_count": 20,
       "selected_rois": 6,
       "displayed_wsi_count": 2,
       "masks_available": true,
       "pipeline_errors": [],
-      "report_text_sha256": "ec1050a61e43d9280b3e92b8177cf258565cc96fd962633cc9e6d91ccf3de482",
-      "report_html_sha256": "2db901e8f7bf13a254ed4707001504d23a6989de2053e60f6043e972c31fb535",
-      "worker_cleanup": "verified_no_active_group_members",
-      "source_executed_notebook_sha256": "40f4181b44d37db4fbf0f3f9823c802d9911986ba484fbf79cb0da215851e4ff",
-      "recorded_api_requests": 22,
-      "actual_prompt_contains_tcga_project_label": false,
-      "published_report_html_sha256": "c75f11374415476784c6fe3e3dee93c6bdee593fb2cd1d8cee8337ded325f683",
-      "published_notebook_sha256": "f3ec617fd87ce02055ab8967a537ecc3e81a4e3f691f45bb15d89bc7bcf03538"
+      "report_text_sha256": "cea655a51410aa31b6c395318e4faad1959e1c466169f455c320a863a6e64d17",
+      "source_report_html_sha256": "73fbb777ea6dbaa22e04ebb799e3a0b0417200b1e82a7ea3720a135d0f7d62ac"
     },
     {
       "version": "SO4",
       "execution_status": "passed",
-      "notebook_seconds": 1031.376190662384,
-      "pipeline_seconds": 647.1828961140127,
-      "input_slide_count": 5,
+      "notebook_seconds": 740.2076404094696,
+      "pipeline_seconds": 517.1222530780069,
+      "input_slide_count": 6,
       "candidate_count": 20,
       "selected_rois": 6,
       "displayed_wsi_count": 2,
       "masks_available": true,
       "pipeline_errors": [],
-      "report_text_sha256": "4fcc7697f4b5097d058e19b51f0a33da6de4468243dc775357d8c75f8f5c2405",
-      "report_html_sha256": "fa1269f150b21da14bc5c7abacd1a5580bb737b48865c370ab3472f251cace60",
-      "worker_cleanup": "verified_no_active_group_members",
-      "source_executed_notebook_sha256": "538eaeddc80831763ffc2dfaa6a585b47fe500b0145913d3e3483a327ab4b612",
-      "recorded_api_requests": 22,
-      "actual_prompt_contains_tcga_project_label": false,
-      "published_report_html_sha256": "eb0764c5625616635ace186c890b83cd2c4157e8b5833a376e9568f36487c6a3",
-      "published_notebook_sha256": "308757242d2ae5d11b589fb7e2f26bfea8d676b360af49839bc80a023be62840"
+      "report_text_sha256": "abff0deae8f59ab7ddf8706ff2afa7f5dcc35cee882a0c79af8dcb8b8c61ce6d",
+      "source_report_html_sha256": "f43be9ce1723af16e0cd8a1e4031b7f64768ff5cee1ca392e69d47bf93c082e3"
     }
   ],
-  "sample_manifest_sha256": "7c53006937420052f547938dfa2d4daf2612eae1235220bb3af04e89c9e6d813",
-  "known_site": "adrenal gland / adrenocortical tissue",
-  "d1_adapter_sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
-  "d1_source": {
-    "repo": "RayTan/PathXAI-Seg",
-    "revision": "62894f38c67e28389f43a9f7efe89dd4a40e5608",
-    "delivery": "Verified file previously downloaded from HF, reused by both runs"
+  "candidate_reconstruction": {
+    "count": 20,
+    "decoded_pixels_and_png_bytes_equal": true,
+    "manifest": "configs/sample_candidates.json"
   },
-  "independent_tests": {
-    "delivery_and_patient_download": 9,
-    "evaluation": 3,
-    "scoring": 2,
-    "total": 14,
+  "d1_hf_revision": "62894f38c67e28389f43a9f7efe89dd4a40e5608",
+  "original_input_and_segmentation_checks": {
+    "SO1": {
+      "ordered_candidates_equal": true,
+      "initial_roi_order_equal": true,
+      "final_roi_order_equal": true,
+      "roi_count": 6,
+      "mask_overlay_and_stats_equal": true
+    },
+    "SO4": {
+      "ordered_candidates_equal": true,
+      "initial_roi_order_equal": true,
+      "final_roi_order_equal": true,
+      "roi_count": 6,
+      "mask_overlay_and_stats_equal": true
+    }
+  },
+  "delivery_tests": {
+    "passed": 13,
     "failed": 0
-  },
-  "data_verification": {
-    "all_five_local_size_md5_sha256_checks": true,
-    "live_gdc_inventory_verified": true,
-    "all_remote_4k_prefix_checks": true,
-    "fresh_full_network_download": false
-  },
-  "api_queue_restored_after_completion": true,
-  "hardware": "NVIDIA RTX 5090, 32 GB",
-  "qwen_model": "Qwen3.6-27B-Q6_K.gguf",
-  "static_report_browser_check": {
-    "pages": [
-      {
-        "page": "index.html",
-        "exit_code": 0,
-        "screenshot_exists": true,
-        "dom_contains_title": true,
-        "javascript_errors": []
-      },
-      {
-        "page": "SO1/report.html",
-        "exit_code": 0,
-        "screenshot_exists": true,
-        "dom_contains_title": true,
-        "javascript_errors": []
-      },
-      {
-        "page": "SO4/report.html",
-        "exit_code": 0,
-        "screenshot_exists": true,
-        "dom_contains_title": true,
-        "javascript_errors": []
-      }
-    ],
-    "failed_http_requests": [
-      {
-        "path": "/favicon.ico",
-        "status": 404
-      },
-      {
-        "path": "/favicon.ico",
-        "status": 404
-      },
-      {
-        "path": "/favicon.ico",
-        "status": 404
-      }
-    ],
-    "failed_required_requests": [],
-    "server_stopped": true
-  },
-  "report_html_sha256_scope": "Original portable export; published_report_html_sha256 covers the examples HTML with relocated asset URLs."
+  }
 }

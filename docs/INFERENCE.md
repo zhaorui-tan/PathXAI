@@ -17,7 +17,7 @@ The pipeline uses separate model resources:
 
 The SAM3 and CONCH checkpoints are not hosted in the PathXAI repository. Users must request and receive access from each upstream provider and download them with their own Hugging Face account. KEEP access is required only for SO4. The notebook downloads the separate assets directly and verifies their pinned sizes and SHA-256 values; it does not substitute other weights.
 
-**D1 is published at revision `62894f38c67e28389f43a9f7efe89dd4a40e5608`.** Its four release files were downloaded again and verified byte-for-byte against the upload bundle; see [release verification](../provenance/hf_model_release.json). Actual loading of this HF-downloaded adapter and fresh segmentation inference also passed; see [the inference test record](../provenance/hf_inference_validation.json). Request access on the model page and wait for approval before downloading. The notebook already selects this immutable revision. The staged adapter file is Git-ignored and is not a GitHub artifact. The model bundle includes the SAM License without an additional academic-only restriction. See [model release notes](MODEL_RELEASE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+**D1 is published at revision `62894f38c67e28389f43a9f7efe89dd4a40e5608`.** Its four release files were verified byte-for-byte against the upload bundle; see [release verification](../provenance/hf_model_release.json). Request access on the model page and wait for approval before downloading. The notebook selects this immutable revision. The staged adapter file is Git-ignored and is not a GitHub artifact. The model bundle includes the SAM License without an additional academic-only restriction. See [model release notes](MODEL_RELEASE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Configure the notebook
 
@@ -40,9 +40,11 @@ Alternatively, `PATHXAI_LOCAL_MODEL_CONFIG` can point to a local JSON file with 
 
 ## Run the sample
 
-The sample helper downloads the 5 pinned diagnostic slides listed in `configs/sample_tcga.json` for TCGA-OR-A5LL. Together they total 10,988,208,661 bytes (10.23 GiB). They are checked against pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper searches that directory for the pinned filenames and verifies each expected slide.
+The sample helper downloads the 6 pinned slides (DX1–DX5 and TS1) listed in `configs/sample_tcga.json` for TCGA-OR-A5LL. Together they total 11,156,338,264 bytes (10.39 GiB). They are checked against pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper searches that directory for the pinned filenames and verifies each expected slide.
 
-`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes the complete list and known anatomical site to one `run_report(...)` call, so all 5 slides contribute to one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
+`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes the complete list and known anatomical site to one `run_report(...)` call, so the six-slide input produces one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
+
+The sample uses `prepare_sample_candidates(slides, output_dir)` to reconstruct the 20 pinned candidate crops in `configs/sample_candidates.json`. Their coordinates, order and pixel hashes are checked before inference. Pass the returned list as `candidate_rois` and preserve the sample's `known_site_source` marker from its manifest.
 
 For your own data, provide all WSI paths for one patient and the anatomical sampling site that you knew independently before inference. For example:
 

@@ -14,7 +14,7 @@ python3 scripts/fetch_medsam_source.py
 
 The script obtains the pinned upstream MedSAM3 source and applies the two tutorial patches needed by this runtime. It uses Python's standard library and network access; it does not install packages, fetch model weights, require a GPU, or change the frozen scientific snapshot. The fetched files and patch provenance are recorded in `provenance/external_medsam_source.json`. See [third-party notices](THIRD_PARTY_NOTICES.md) for licensing context.
 
-Allow at least 10,988,208,661 bytes (10.23 GiB) for the 5 pinned diagnostic WSI files, plus additional space for resumable partial downloads, derived tiles/caches, models and inference outputs. Keep temporary and output storage on a volume with sufficient free space before starting a full run. The sample input is the diagnostic-slide set listed in the pinned manifest.
+Allow at least 11,156,338,264 bytes (10.39 GiB) for the 6 pinned WSI files (DX1–DX5 and TS1), plus additional space for resumable partial downloads, derived tiles/caches, models and inference outputs. Keep temporary and output storage on a volume with sufficient free space before starting a full run. The sample input is the six-slide set listed in the pinned manifest.
 
 ## Python 3.10 notebook and pipeline environment
 

@@ -54,15 +54,13 @@ class PatientSampleTests(unittest.TestCase):
         self.assertEqual(manifest["known_site"], "adrenal gland / adrenocortical tissue")
         self.assertNotIn("diagnosis", manifest)
         self.assertEqual(
-            [next(part for part in x["file_name"].split(".")[0].split("-") if part.startswith("DX"))
+            [next(part for part in x["file_name"].split(".")[0].split("-") if part.startswith(("DX", "TS")))
              for x in manifest["slides"]],
-            ["DX1", "DX2", "DX3", "DX4", "DX5"],
+            ["DX2", "DX4", "DX3", "TS1", "DX1", "DX5"],
         )
         self.assertTrue(all(len(x["sha256"]) == 64 and len(x["md5sum"]) == 32
                             for x in manifest["slides"]))
-        self.assertTrue(manifest["excluded_slides"][0]["file_name"].endswith(
-            "TS1.852B5675-3534-4684-9FA3-2A03A6199B4E.svs"
-        ))
+        self.assertEqual(manifest["excluded_slides"], [])
 
     def test_download_patient_recursively_reuses_hash_verified_inventory(self):
         manifest = _small_manifest()

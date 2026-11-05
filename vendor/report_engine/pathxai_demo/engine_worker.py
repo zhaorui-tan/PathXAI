@@ -311,8 +311,8 @@ def _run(request: dict[str, Any]) -> dict[str, Any]:
     _emit(stage="engine", message=f"Starting original {mode.upper()} pipeline ({profile['ablation']})", candidate_count=len(candidates))
     known_site = case.get("known_site")
     known_site_source = str(case.get("known_site_source") or "user") if known_site else None
-    if known_site_source not in {None, "user", "tcga"}:
-        raise ValueError("known_site_source must be 'user' or 'tcga' when known_site is provided")
+    if known_site_source not in {None, "user", "tcga", "tcga_site_only"}:
+        raise ValueError("known_site_source must be 'user', 'tcga', or 'tcga_site_only' when known_site is provided")
     priors = DiagnosisPriors(known_site=known_site, known_site_source=known_site_source)
     candidates = _attach_slide_paths_to_candidates(candidates, settings)
     requested_seg_cache = Path(str(config["seg_cache_dir"])).expanduser().resolve()

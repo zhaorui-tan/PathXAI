@@ -1,4 +1,4 @@
-"""Download the pinned TCGA-OR-A5LL diagnostic WSI set from NCI GDC."""
+"""Download the pinned TCGA-OR-A5LL source WSI set from NCI GDC."""
 
 import hashlib
 import json
@@ -56,7 +56,7 @@ def verify_slide(path, slide=None):
 
 
 def verify_sample(path):
-    """Backward-compatible verifier for the original DX1 sample file."""
+    """Backward-compatible verifier for the first pinned sample file."""
     return verify_slide(path, sample_metadata()["slides"][0])
 
 
@@ -211,12 +211,11 @@ def _download_one(slide, destination, progress=print):
 
 
 def download_patient(data_dir="data", *, existing_dir=None, progress=print):
-    """Return the five pinned DX1–DX5 diagnostic slide paths in manifest order.
+    """Return all pinned patient slide paths in their recorded manifest order.
 
     ``existing_dir`` is searched recursively. Matching files are reused only
     after exact size, GDC MD5 and pinned SHA-256 checks. Missing slides are
-    downloaded into ``data_dir``. TS1 is pinned as an excluded non-DX tissue
-    slide; the tutorial uses the diagnostic DX1–DX5 set.
+    downloaded into ``data_dir``. The sample includes the five DX slides and TS1.
     """
     manifest = sample_metadata()
     _validate_live_inventory(manifest)
@@ -236,9 +235,9 @@ def download_patient(data_dir="data", *, existing_dir=None, progress=print):
 
 
 def download_sample(data_dir="data", *, existing_file=None, existing_dir=None, progress=print):
-    """Backward-compatible DX1-only download helper.
+    """Backward-compatible single-slide download helper.
 
-    New callers should use :func:`download_patient` to obtain all five slides.
+    New callers should use :func:`download_patient` to obtain the complete patient slide set.
     """
     manifest = sample_metadata()
     if "slides" not in manifest:

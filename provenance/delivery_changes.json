@@ -1,6 +1,6 @@
 {
   "schema": "pathxai-tutorial-delivery-changes-v1",
-  "scientific_snapshot_modified": false,
+  "scientific_snapshot_modified": true,
   "changes": [
     {
       "path": "pathxai_demo/engine.py",
@@ -19,10 +19,26 @@
       "imported_sha256": "a78d845569e7af472b4d4c4ae63fcc1a6b358b0cff3c49755747bf6ee3ef5e0a",
       "delivery_sha256": "a79faf7dfac67a2fdb2f7c3aeace9debbe6f799822108241f52023368aab6cf8",
       "reason": "Allow a bounded configurable synthetic API probe timeout; notebook default 60 seconds accommodates slow or queued endpoints."
+    },
+    {
+      "path": "pathxai_demo/engine_worker.py",
+      "imported_sha256": "9e4fc3fb9b222d28bccfa63f2aaa75a0bc4d03b19185f80a6b46098ad100bbb4",
+      "delivery_sha256": "e7519866f355be4716c1a75fb75c77ced89e777ac4974e3bd635b2480de3f8d6",
+      "reason": "Accept the recorded tcga_site_only anatomical-prior marker without translating it; scientific pipeline code unchanged."
     }
   ],
   "added_notices": [
     "assets/licenses/SAM-LICENSE.txt",
     "assets/licenses/SAM-ORIGIN.json"
-  ]
+  ],
+  "scientific_runtime_code_modified": false,
+  "snapshot_cleanup": {
+    "removed_unused_backup_files": [
+      "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy 2.py",
+      "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/pipeline/orchestrator copy.py",
+      "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator copy 2.py",
+      "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/pipeline/orchestrator copy.py"
+    ],
+    "retained_source_bytes_unchanged": true
+  }
 }

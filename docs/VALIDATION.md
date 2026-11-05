@@ -1,16 +1,14 @@
-# Validation record for TCGA-OR-A5LL
+# Validated sample execution
 
-SO1/Core and SO4/Full completed notebook execution and report export for the 5 diagnostic slides listed in `configs/sample_tcga.json` (10,988,208,661 bytes; 10.23 GiB). The notebook receives the sample's configured anatomical site.
+TCGA-OR-A5LL: six source slides (DX1–DX5 and TS1), 20 pinned candidate ROIs, and the documented anatomical site.
 
-## Recorded runs
+| Version | Notebook runtime | Pipeline runtime | Final ROIs | D1 segmentation |
+| --- | ---: | ---: | ---: | --- |
+| SO1 | 908.4 s | 522.9 s | 6 | passed |
+| SO4 | 740.2 s | 517.1 s | 6 | passed |
 
-| Version | Notebook runtime | Pipeline runtime | Candidate ROIs | Final ROIs | Displayed WSIs | D1 segmentation |
-| --- | ---: | ---: | ---: | ---: | ---: | --- |
-| SO1 | 1429.2 s | 515.3 s | 20 | 6 | 2 | true |
-| SO4 | 1031.4 s | 647.2 s | 20 | 6 | 2 | true |
+The runs loaded the verified HF D1 adapter with the separately pinned SAM3 base. Source WSIs and all 20 candidate crops passed checksum verification. The frozen SO1/SO4 inference code generated the reports; exported clinical text and image bytes were checked against those outputs.
 
-Environment specifications were not installed from scratch for these runs (clean install tested: false).
+[Completed notebooks and HTML reports](../examples/README.md) · [Machine-readable validation](../provenance/validation_results.json)
 
-## Historical standalone model-load check
-
-A separate test on 2026-11-04 loaded the published D1 adapter and ran segmentation on three TCGA-OR-A5JI ROIs. That historical A5JI test reported its own mask-output comparison; it is not an A5LL result. See [the archived test receipt](../provenance/hf_inference_validation.json).
+Environment specifications describe the runtime used. A fresh installation of all specifications was not tested.

@@ -43,7 +43,8 @@ def check_api(config, *, timeout_seconds=60):
     return probe_api(config, timeout_seconds=timeout_seconds)
 
 def run_report(config, *, slide_paths, case_id, version="SO1", output_dir=None,
-               known_site="", max_seconds=3600, progress=print):
+               known_site="", known_site_source="user", candidate_rois=None,
+               max_seconds=3600, progress=print):
     """Run real WSI→CONCH→D1→Qwen→HTML, one case and one variant at a time.
 
     output_dir must be new. References/diagnosis labels are not accepted here.
@@ -81,7 +82,14 @@ def run_report(config, *, slide_paths, case_id, version="SO1", output_dir=None,
             stream.write(line + "\n")
         if progress:
             progress(clean(f"[{item.get('stage', 'run')}] {item.get('message', '')}"))
-    case = {"case_id": case_id, "mode": mode, "slide_paths": slides, "known_site": known_site}
+    if known_site_source not in {"user", "tcga", "tcga_site_only"}:
+        raise ValueError("Unsupported known_site_source")
+    if candidate_rois is not None and (not isinstance(candidate_rois, list) or not candidate_rois):
+        raise ValueError("candidate_rois must be a non-empty list when supplied")
+    case = {"case_id": case_id, "mode": mode, "slide_paths": slides, "known_site": known_site,
+            "known_site_source": known_site_source}
+    if candidate_rois is not None:
+        case["candidate_rois"] = candidate_rois
     save("tutorial_run.json", {"case": case, "version": version, "started_utc": datetime.now(timezone.utc).isoformat(),
          "max_seconds": max_seconds, "workers": 1, "qwen_api": config.get("qwen_api"), "qwen_model": config.get("qwen_model"),
          "pipeline_python": config.get("pipeline_python"), "seg_python": config.get("seg_python"),

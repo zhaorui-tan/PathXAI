@@ -38,8 +38,6 @@ The detailed JSON includes per-field applicability, coverage, exact agreement, a
 
 This is automatic **report-to-reference agreement**, not a clinical quality determination. The v4 schema preserves v3 metrics except the subtype field, which uses method-blind synonym normalization and anatomy context; strict subtype agreement and TCGA cohort compatibility are distinct fields. TCGA compatibility measures cohort membership, not exact patient subtype. The diagnosis composite is weighted across reference-applicable broad diagnosis, subtype, and malignancy fields. The parser attempts to distinguish assertions, uncertainty, contradictions and missing findings, but its classifications require review. Narrative ROUGE overlap is descriptive and should not stand in for clinical correctness.
 
-**Historical parser limitation (A5JI):** the prior SO1 example received an invasion agreement score of 1.0 although its report said invasion was not assessable. The parser maps other language about unconfirmed invasive criteria to absence. The frozen evaluator is retained for comparison with prior results.
-
 **Physician scoring is separate.** Clinician review requires a prespecified rubric, blinded review where appropriate, qualified reviewers, and adjudication rules. Do not present automatic evaluator metrics as physician scores, diagnostic accuracy in clinical practice, or validation for patient care.
 
 ## Dependencies and tests

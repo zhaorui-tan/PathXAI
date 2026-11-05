@@ -14,9 +14,8 @@ md("""# PathXAI: a TCGA patient to an HTML report
 
 Run this notebook on your own NVIDIA GPU computer/server after following [installation](docs/INSTALLATION.md).
 Choose SO1/Core or SO4/Full; both use D1 segmentation internally. This is real inference, not a stored-report viewer.
-The public sample is the patient-level diagnostic slide set for TCGA-OR-A5LL, with a documented
-anatomical site supplied before inference. All downloaded slides contribute to one patient candidate
-pool and one report. The exact slide inventory, sizes and checksums are pinned in `configs/sample_tcga.json`.
+The public sample is the six-slide patient input for TCGA-OR-A5LL, with a documented
+anatomical site supplied before inference. The source slides and pinned candidate regions produce one patient report. The exact slide inventory, sizes and checksums are pinned in `configs/sample_tcga.json`.
 
 Obtain your own access to SAM3, CONCH, and PathXAI D1 on Hugging Face. SO4 additionally needs KEEP access.
 Supply a vision-capable Qwen API endpoint/model and credentials. Selected ROI images are sent to that API.
@@ -31,7 +30,7 @@ if ROOT is None:
     raise RuntimeError('Start Jupyter from the PathXAI_tutorial repository directory.')
 os.chdir(ROOT)
 sys.path.insert(0, str(ROOT))
-from pathxai_tutorial import download_patient, sample_metadata, make_config, check_api, run_report
+from pathxai_tutorial import download_patient, sample_metadata, prepare_sample_candidates, make_config, check_api, run_report
 from pathxai_tutorial.models import download_models
 print('Tutorial:', ROOT.name)
 """, "setup")
@@ -85,12 +84,16 @@ The downloader checks every pinned GDC record, file size, MD5 and SHA-256. Inter
 If you already have the slide set, set `PATHXAI_SAMPLE_DIR` to its parent directory (nested GDC UUID folders
 are supported). Every expected slide must pass verification; an incomplete patient is never run silently.
 For your own data, replace `slides`, `case_id` and `known_site` with your patient's slide list, identifier
-and anatomical sampling site. Do not pass a tumor diagnosis as `known_site`.
+and anatomical sampling site, and set `candidate_rois = None` and `known_site_source = "user"`
+to generate candidate ROIs from your own slides. Do not pass a tumor diagnosis as `known_site`.
+The included sample reconstructs its pinned candidate ROIs directly from the downloaded slides.
 """)
 code("""sample = sample_metadata()
 slides = download_patient(ROOT / 'data', existing_dir=os.environ.get('PATHXAI_SAMPLE_DIR') or None)
 case_id = sample['case_id']
 known_site = sample['known_site']
+known_site_source = sample['known_site_source']['pipeline_marker']
+candidate_rois = prepare_sample_candidates(slides, ROOT / 'data' / 'sample_rois')
 print('Patient:', case_id)
 print('Known anatomical site:', known_site)
 print('Verified slides:', len(slides))
@@ -112,11 +115,12 @@ md("""## 5. Run report generation
 One case and one version run at a time. Keep the kernel/server alive; progress is also written to disk.
 The time budget cancels the owned worker and preserves partial artifacts. Re-running uses a new output directory.
 The sample supplies its documented anatomical site explicitly, as the historical patient run did.
-Only slide paths, patient identifier and anatomical site are passed to inference; cancer-project labels,
+Only slide images, candidate regions, patient identifier and anatomical site are passed to inference; cancer-project labels,
 reference diagnosis, grade and evaluation results are not supplied to the report generator.
 """)
 code("""result = run_report(config, slide_paths=slides, case_id=case_id, version=VERSION,
-                    known_site=known_site, max_seconds=MAX_SECONDS,
+                    known_site=known_site, known_site_source=known_site_source,
+                    candidate_rois=candidate_rois, max_seconds=MAX_SECONDS,
                     output_dir=os.environ.get('PATHXAI_OUTPUT_DIR') or None)
 print('Report:', result['report_html'])
 print('Report text:', result['report_text'])
