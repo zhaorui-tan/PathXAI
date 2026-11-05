@@ -1,4 +1,4 @@
-"""Download the pinned TCGA-OR-A5LL source WSI set from NCI GDC."""
+"""Download the pinned TCGA-FD-A5BS source WSI set from NCI GDC."""
 
 import hashlib
 import json

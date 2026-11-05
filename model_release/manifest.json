@@ -1,22 +1,22 @@
 {
   "schema": "pathxai-model-release-manifest-v1",
-  "release_name": "PathXAI D1 inference adaptation",
+  "release_name": "PathXAI refined D1 inference adaptation",
   "release_kind": "adapter-only; pinned SAM3 base is a separately obtained dependency and is not uploaded",
   "assets": [
     {
       "id": "pathxai_d1_adapter",
       "role": "D1 inference adaptation with fine-tuned LoRA, prompt embeddings, organ bias, prompt mask, adapter, and retained auxiliary trained states.",
       "repo_path": "weights/pathxai_d1_adapter.pth",
-      "bytes": 25256190,
-      "sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
+      "bytes": 25259126,
+      "sha256": "35316dc06ca3ecf994e281901297e58c8a8147255ff0dcf6f9adf74ef14c337b",
       "required_for_inference": true,
       "derived_from": {
         "source_checkpoint_filename": "best_model.pth",
-        "source_checkpoint_bytes": 1484446541,
-        "source_checkpoint_sha256": "41fd1867add7049bb6305e103b275c99ec513146f9d9e3f3f845b1dc55b0d031",
-        "reference_run": "tcga_expansion_20260924_1200_d1",
-        "reference": "PathXAI_demo/assets/model_references.json",
-        "exporter": "PathXAI_tutorial/model_release/export_adapter.py",
+        "source_checkpoint_bytes": 1484446605,
+        "source_checkpoint_sha256": "4d8ac978814f66ba5a716e26c8c44ada50f3f6c3f1bc987a97b24238babe9e5a",
+        "reference_run": "medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue",
+        "reference": "model_release/manifest.json",
+        "exporter": "model_release/export_adapter.py",
         "verified_equal_base_text_tensors": 295,
         "removed_prefix": "prompt_enc.base_text_encoder."
       },
@@ -35,13 +35,37 @@
         "license_link": "LICENSE",
         "upstream_license_url": "https://github.com/facebookresearch/sam3/blob/main/LICENSE",
         "clearance_status": "SAM text included; distribution compatibility and PathXAI rights remain under review"
+      },
+      "inference_configuration": {
+        "stage": 3,
+        "seg_mode": "tissue",
+        "native_crop_at_40x": 4096,
+        "use_organ_bias": false,
+        "no_cell_info": true,
+        "cell_density_source": "none",
+        "cell_density_train_mode": "coarse",
+        "cell_cue_feature_fusion": false,
+        "freeze_prompts_after_stage1": true,
+        "freeze_lora_stage2": false,
+        "no_freeze_lora_stage2": false,
+        "nuclei_density_logit_prior": 0.0,
+        "stage2_variant": "base"
       }
     }
   ],
   "excluded_assets": [
-    {"id": "sam3_base", "reason": "External dependency only; not uploaded."},
-    {"id": "conch", "reason": "Not required for D1 segmentation inference; upstream terms do not permit redistribution of model copies."},
-    {"id": "patient_case_data", "reason": "No patient or case data is included."}
+    {
+      "id": "sam3_base",
+      "reason": "External dependency only; not uploaded."
+    },
+    {
+      "id": "conch",
+      "reason": "Not required for D1 segmentation inference; upstream terms do not permit redistribution of model copies."
+    },
+    {
+      "id": "patient_case_data",
+      "reason": "No patient or case data is included."
+    }
   ],
   "distribution": {
     "huggingface_repo_type": "model",

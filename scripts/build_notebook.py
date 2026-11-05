@@ -13,8 +13,8 @@ def code(text, tag):
 md("""# PathXAI: a TCGA patient to an HTML report
 
 Run this notebook on your own NVIDIA GPU computer/server after following [installation](docs/INSTALLATION.md).
-Choose SO1/Core or SO4/Full; both use D1 segmentation internally. This is real inference, not a stored-report viewer.
-The public sample is the six-slide patient input for TCGA-OR-A5LL, with a documented
+Choose SO1/Core or SO4/Full; both use refined D1 segmentation internally. This is real inference, not a stored-report viewer.
+The public sample is the two-slide patient input for TCGA-FD-A5BS, with a documented
 anatomical site supplied before inference. The source slides and pinned candidate regions produce one patient report. The exact slide inventory, sizes and checksums are pinned in `configs/sample_tcga.json`.
 
 Obtain your own access to SAM3, CONCH, and PathXAI D1 on Hugging Face. SO4 additionally needs KEEP access.
@@ -44,7 +44,7 @@ The optional local model configuration is documented in [the inference guide](do
 code("""VERSION = os.environ.get('PATHXAI_VERSION', 'SO1')  # SO1 or SO4
 SEGMENTATION_PYTHON = os.environ.get('PATHXAI_SEG_PYTHON', '/path/to/pathxai-segmentation-py312/bin/python')
 D1_REPO_ID = os.environ.get('PATHXAI_D1_REPO', 'RayTan/PathXAI-Seg')
-D1_REVISION = os.environ.get('PATHXAI_D1_REVISION', '62894f38c67e28389f43a9f7efe89dd4a40e5608')  # immutable 40-character HF commit
+D1_REVISION = os.environ.get('PATHXAI_D1_REVISION', 'abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f')  # immutable 40-character HF commit
 QWEN_API_BASE = os.environ.get('QWEN_API_BASE', '')
 QWEN_MODEL = os.environ.get('QWEN_MODEL', '')
 MAX_SECONDS = int(os.environ.get('PATHXAI_MAX_SECONDS', '3600'))

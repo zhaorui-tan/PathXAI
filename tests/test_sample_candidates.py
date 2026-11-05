@@ -46,11 +46,10 @@ class FakeSlide:
         self.closed = True
 
 
-def _fixture(tmp: Path):
-    case_id = "TCGA-OR-A5LL"
+def _fixture(tmp: Path, *, case_id="TCGA-OR-A5LL", slide_count=6, candidate_count=20):
     slide_paths = []
     source_slides = []
-    for index in range(6):
+    for index in range(slide_count):
         name = f"{case_id}-slide-{index}.svs"
         path = tmp / name
         path.write_bytes(f"tiny fake source slide {index}".encode())
@@ -66,8 +65,8 @@ def _fixture(tmp: Path):
         })
 
     rows = []
-    for index in range(20):
-        slide_index = index % 6
+    for index in range(candidate_count):
+        slide_index = index % slide_count
         x, y, width, height = index, 2, 4, 4
         slide_id = f"{case_id}-slide-{slide_index}"
         roi_id = f"{slide_id}_foundation_x{x}_y{y}_l0_w{width}_h{height}"
@@ -92,7 +91,7 @@ def _fixture(tmp: Path):
         "case_id": case_id,
         "source_candidates_sha256": "a" * 64,
         "source_slides": source_slides,
-        "candidate_count": 20,
+        "candidate_count": candidate_count,
         "candidate_rois": rows,
     }
     config_path = tmp / "sample_candidates.json"
@@ -111,7 +110,7 @@ class StrictCandidateTests(unittest.TestCase):
             ):
                 rows = candidates.prepare_sample_candidates(slides, output, progress=lambda _msg: None)
 
-            self.assertEqual(len(rows), 20)
+            self.assertEqual(len(rows), config["candidate_count"])
             for index, (row, frozen) in enumerate(zip(rows, config["candidate_rois"]), start=1):
                 self.assertEqual(row["roi_id"], frozen["roi_id"])
                 self.assertEqual(row["score"], frozen["score"])
@@ -125,12 +124,27 @@ class StrictCandidateTests(unittest.TestCase):
                     "slide_id", "roi_id", "x", "y", "width", "height", "level",
                     "source", "score", "metadata", "image_path",
                 })
-                self.assertEqual(row["metadata"]["slide_path"], str(slides[(index - 1) % 6].resolve()))
+                self.assertEqual(row["metadata"]["slide_path"], str(slides[(index - 1) % len(slides)].resolve()))
                 with Image.open(row["image_path"]) as image:
                     self.assertEqual(_pixel_hash(image), frozen["decoded_rgb_sha256"])
             receipt = json.loads((output / "reconstruction_receipt.json").read_text())
-            self.assertEqual(receipt["verified_count"], 20)
-            self.assertEqual(len(receipt["crops"]), 20)
+            self.assertEqual(receipt["verified_count"], config["candidate_count"])
+            self.assertEqual(len(receipt["crops"]), config["candidate_count"])
+
+    def test_manifest_case_slide_and_candidate_counts_are_not_hardcoded(self):
+        with tempfile.TemporaryDirectory() as temp:
+            tmp = Path(temp)
+            slides, config_path, config = _fixture(
+                tmp, case_id="TCGA-OV-EXAMPLE", slide_count=1, candidate_count=3
+            )
+            with patch.object(candidates, "_CONFIG", config_path), patch.object(
+                candidates, "_open_slide", side_effect=lambda _path: FakeSlide()
+            ):
+                rows = candidates.prepare_sample_candidates(
+                    slides, tmp / "crops", progress=lambda _msg: None
+                )
+            self.assertEqual([row["roi_id"] for row in rows], [r["roi_id"] for r in config["candidate_rois"]])
+            self.assertEqual(len(rows), 3)
 
     def test_pixel_hash_mismatch_fails_closed(self):
         with tempfile.TemporaryDirectory() as temp:

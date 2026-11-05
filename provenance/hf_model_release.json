@@ -1,32 +1,10 @@
 {
   "repo_id": "RayTan/PathXAI-Seg",
-  "revision": "62894f38c67e28389f43a9f7efe89dd4a40e5608",
-  "gated": false,
-  "download_verified": true,
-  "files": [
-    {
-      "path": "README.md",
-      "bytes": 3440,
-      "sha256": "fbeaa6c4c557ada9d67bd3c8d8635dea0ab8982e10681162331579eafd0422b4",
-      "matches_upload_bundle": true
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 7352,
-      "sha256": "bec48f70bd37bf8280a9d1ebf01642d26086f6122ba735baa08fe03c5a6e7448",
-      "matches_upload_bundle": true
-    },
-    {
-      "path": "manifest.json",
-      "bytes": 2639,
-      "sha256": "fc1854a9cfe93ba5d9797ca81904a99f3ecabea2c3716b3fad98aea261d51feb",
-      "matches_upload_bundle": true
-    },
-    {
-      "path": "weights/pathxai_d1_adapter.pth",
-      "bytes": 25256190,
-      "sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
-      "matches_upload_bundle": true
-    }
-  ]
+  "revision": "abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
+  "adapter_sha256": "35316dc06ca3ecf994e281901297e58c8a8147255ff0dcf6f9adf74ef14c337b",
+  "adapter_bytes": 25259126,
+  "source_checkpoint_sha256": "4d8ac978814f66ba5a716e26c8c44ada50f3f6c3f1bc987a97b24238babe9e5a",
+  "source_lineage": "medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue",
+  "url": "https://huggingface.co/RayTan/PathXAI-Seg/commit/abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
+  "gated": "manual"
 }

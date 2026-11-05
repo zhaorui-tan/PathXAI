@@ -49,14 +49,14 @@ def _small_manifest():
 
 
 class PatientSampleTests(unittest.TestCase):
-    def test_patient_manifest_pins_all_dx_slides_and_site_without_diagnosis(self):
+    def test_patient_manifest_pins_all_recorded_slides_and_site_without_diagnosis(self):
         manifest = sample.sample_metadata()
-        self.assertEqual(manifest["known_site"], "adrenal gland / adrenocortical tissue")
+        self.assertEqual(manifest["known_site"], "bladder / urothelial tissue")
         self.assertNotIn("diagnosis", manifest)
         self.assertEqual(
             [next(part for part in x["file_name"].split(".")[0].split("-") if part.startswith(("DX", "TS")))
              for x in manifest["slides"]],
-            ["DX2", "DX4", "DX3", "TS1", "DX1", "DX5"],
+            ["DX1", "TSB"],
         )
         self.assertTrue(all(len(x["sha256"]) == 64 and len(x["md5sum"]) == 32
                             for x in manifest["slides"]))

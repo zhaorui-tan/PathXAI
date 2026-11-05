@@ -17,7 +17,7 @@ The pipeline uses separate model resources:
 
 The SAM3 and CONCH checkpoints are not hosted in the PathXAI repository. Users must request and receive access from each upstream provider and download them with their own Hugging Face account. KEEP access is required only for SO4. The notebook downloads the separate assets directly and verifies their pinned sizes and SHA-256 values; it does not substitute other weights.
 
-**D1 is published at revision `62894f38c67e28389f43a9f7efe89dd4a40e5608`.** Its four release files were verified byte-for-byte against the upload bundle; see [release verification](../provenance/hf_model_release.json). Request access on the model page and wait for approval before downloading. The notebook selects this immutable revision. The staged adapter file is Git-ignored and is not a GitHub artifact. The model bundle includes the SAM License without an additional academic-only restriction. See [model release notes](MODEL_RELEASE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+**D1 is published at revision `abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f`.** Its release files and adapter identity are recorded in [release verification](../provenance/hf_model_release.json). Request access on the model page and wait for approval before downloading. The notebook selects this immutable revision. The staged adapter file is Git-ignored and is not a GitHub artifact. The model bundle includes the SAM License without an additional academic-only restriction. See [model release notes](MODEL_RELEASE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Configure the notebook
 
@@ -27,7 +27,7 @@ Start the Jupyter server from `PathXAI_tutorial/` and select the `pathxai` kerne
 VERSION = "SO1"  # or "SO4"
 SEGMENTATION_PYTHON = "/absolute/path/to/pathxai-segmentation-py312/bin/python"
 D1_REPO_ID = "RayTan/PathXAI-Seg"
-D1_REVISION = "62894f38c67e28389f43a9f7efe89dd4a40e5608"
+D1_REVISION = "abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f"
 QWEN_API_BASE = "https://your-vision-endpoint/v1"
 QWEN_MODEL = "your-server-model-id"
 ```
@@ -40,9 +40,9 @@ Alternatively, `PATHXAI_LOCAL_MODEL_CONFIG` can point to a local JSON file with 
 
 ## Run the sample
 
-The sample helper downloads the 6 pinned slides (DX1–DX5 and TS1) listed in `configs/sample_tcga.json` for TCGA-OR-A5LL. Together they total 11,156,338,264 bytes (10.39 GiB). They are checked against pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper searches that directory for the pinned filenames and verifies each expected slide.
+The sample helper downloads both pinned source WSIs listed in `configs/sample_tcga.json` for TCGA-FD-A5BS, whose known site is bladder / urothelial tissue: one DX1 slide and one TSB slide, totaling 2,623,173,488 bytes (about 2.44 GiB). The GDC inventory matches these two slides, with none excluded. Each slide is checked against pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper searches that directory for both pinned filenames and verifies the slides.
 
-`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes the complete list and known anatomical site to one `run_report(...)` call, so the six-slide input produces one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
+`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes both pinned slides and the known anatomical site to one `run_report(...)` call, producing one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
 
 The sample uses `prepare_sample_candidates(slides, output_dir)` to reconstruct the 20 pinned candidate crops in `configs/sample_candidates.json`. Their coordinates, order and pixel hashes are checked before inference. Pass the returned list as `candidate_rois` and preserve the sample's `known_site_source` marker from its manifest.
 

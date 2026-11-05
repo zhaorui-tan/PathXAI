@@ -90,9 +90,13 @@ def main():
             (str(source), f"../{version}"),
             (str(source).removeprefix(root_prefix), f"../{version}"),
             (root_prefix, "<tutorial>/"),
+            (str(run) + "/", "<run>/"),
+            (str(ROOT.parent.resolve()) + "/", "<local-workspace>/"),
             ("/local/conda_staffs/conda_envs/", "<conda-environment>/"),
             ("/local/datasets/public/Wsi-Caption-master/datasets/", "<local-slide-data>/"),
             ("/home/tanzr3/.cache/", "<local-model-cache>/"),
+            ("/local/PathXAI_Agent_v2/PathXAI_tutorial/workspace/", "<local-environment>/"),
+            ("E:/tanja1/qwen3.6/", ""),
         ]
         removed_heartbeats = 0
         removed_progress_updates = 0
@@ -140,7 +144,7 @@ def main():
         header = f"""# Completed {version} example
 
 Recorded notebook execution for **{case}**, dated {run_date}.
-Version: **{version}**; D1 segmentation with separately obtained SAM3 base weights;
+Version: **{version}**; refined D1 segmentation with separately obtained SAM3 base weights;
 vision model: **Qwen3.6-27B-Q6_K**. The run used {len(slide_names)} checksum-verified source slides
 and the pinned candidate ROIs. Anatomical site: **{known_site or 'not supplied'}**.
 

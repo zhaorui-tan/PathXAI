@@ -19,12 +19,12 @@
     },
     {
       "id": "seg_d1",
-      "bytes": 25256190,
-      "sha256": "9e68ca4da8c990b164ce0ec0ea8d63b32f1bded2edddeaec9c228b936db443e0",
-      "reference_run": "tcga_expansion_20260924_1200_d1",
+      "bytes": 25259126,
+      "sha256": "35316dc06ca3ecf994e281901297e58c8a8147255ff0dcf6f9adf74ef14c337b",
+      "reference_run": "medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue",
       "filename": "pathxai_d1_adapter.pth",
-      "source_checkpoint_sha256": "41fd1867add7049bb6305e103b275c99ec513146f9d9e3f3f845b1dc55b0d031",
-      "format": "D1 inference adaptation; unchanged base text removed after exact tensor comparison"
+      "source_checkpoint_sha256": "4d8ac978814f66ba5a716e26c8c44ada50f3f6c3f1bc987a97b24238babe9e5a",
+      "format": "Refined D1 inference adaptation; unchanged base text removed after exact tensor comparison"
     }
   ]
 }

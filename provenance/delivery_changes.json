@@ -11,8 +11,8 @@
     {
       "path": "assets/model_references.json",
       "imported_sha256": "87c85e50f538a25a43cc620268247e7fedaae0e653ccbe7d2a571ac90d924872",
-      "delivery_sha256": "171fc03062850645be6644abcba3da081e797beaa2b05958af08773357312f4a",
-      "reason": "Pin the verified compact D1 adaptation instead of the original full training checkpoint."
+      "delivery_sha256": "252933dba1b1b6b9bb2af643959e31d051e27b99ff1d66f631167b3d77821f35",
+      "reason": "Pin the verified compact refined D1 adaptation exported from the August 4 d1_final checkpoint."
     },
     {
       "path": "pathxai_demo/api_probe.py",

@@ -1,4 +1,4 @@
-"""Reconstruct the frozen TCGA-OR-A5LL candidate crops from source WSIs."""
+"""Reconstruct frozen sample candidate crops from source WSIs."""
 from __future__ import annotations
 
 import hashlib
@@ -47,17 +47,30 @@ def prepare_sample_candidates(
     output_dir: str | Path,
     progress: Callable[[str], object] = print,
 ) -> list[dict]:
-    """Recreate the frozen 20 input ROIs from the six original source slides.
+    """Recreate the frozen input ROIs from the original source slides.
 
-    The incoming paths must be exactly the six source WSI basenames recorded in
+    The incoming paths must be exactly the source WSI basenames recorded in
     the manifest. Each output crop is read at its recorded level-0 coordinates,
     decoded RGB pixels are checked against the frozen reference, and the PNG
     byte hash is also checked. Any discrepancy raises and prevents returning a
     partially valid candidate list.
     """
     config = json.loads(_CONFIG.read_text(encoding="utf-8"))
-    if config.get("case_id") != "TCGA-OR-A5LL":
-        raise ValueError(f"Unexpected candidate manifest case: {config.get('case_id')!r}")
+    case_id = config.get("case_id")
+    if not isinstance(case_id, str) or not case_id.strip():
+        raise ValueError(f"Invalid candidate manifest case: {case_id!r}")
+    source_slides = config.get("source_slides")
+    candidate_rois = config.get("candidate_rois")
+    if not isinstance(source_slides, list) or not source_slides:
+        raise ValueError("Candidate manifest must contain at least one source slide")
+    if not isinstance(candidate_rois, list) or not candidate_rois:
+        raise ValueError("Candidate manifest must contain at least one candidate ROI")
+    expected_count = config.get("candidate_count")
+    if expected_count != len(candidate_rois):
+        raise ValueError(
+            f"Candidate manifest count mismatch: candidate_count={expected_count!r}, "
+            f"candidate_rois={len(candidate_rois)}"
+        )
 
     supplied: dict[str, Path] = {}
     for raw in slide_paths:
@@ -67,15 +80,15 @@ def prepare_sample_candidates(
         if not path.is_file():
             raise FileNotFoundError(path)
         supplied[path.name] = path
-    expected_slides = {item["basename"]: item for item in config["source_slides"]}
+    expected_slides = {item["basename"]: item for item in source_slides}
     if set(supplied) != set(expected_slides):
         raise ValueError(
-            "Source slide basename set does not match frozen TCGA-OR-A5LL input; "
+            f"Source slide basename set does not match frozen {case_id} input; "
             f"missing={sorted(set(expected_slides)-set(supplied))}, "
             f"extra={sorted(set(supplied)-set(expected_slides))}"
         )
     for basename, record in expected_slides.items():
-        if not basename.startswith("TCGA-OR-A5LL-"):
+        if not basename.startswith(f"{case_id}-"):
             raise ValueError(f"Non-sample slide in candidate manifest: {basename}")
         path = supplied[basename]
         if path.stat().st_size != int(record["bytes"]):
@@ -101,10 +114,8 @@ def prepare_sample_candidates(
     rows: list[dict] = []
     receipts = []
     try:
-        total = len(config["candidate_rois"])
-        if total != 20:
-            raise ValueError(f"Frozen candidate count should be 20, got {total}")
-        for index, frozen in enumerate(config["candidate_rois"], start=1):
+        total = len(candidate_rois)
+        for index, frozen in enumerate(candidate_rois, start=1):
             basename = frozen["slide_basename"]
             if basename not in readers or frozen["slide_id"] not in frozen["roi_id"]:
                 raise ValueError(f"Candidate {index} has inconsistent slide/case identifiers")
@@ -163,6 +174,8 @@ def prepare_sample_candidates(
     finally:
         for reader in readers.values():
             reader.close()
-    if len(rows) != 20 or len(receipts) != 20:
-        raise RuntimeError(f"Strict candidate reconstruction incomplete: {len(rows)}/20")
+    if len(rows) != expected_count or len(receipts) != expected_count:
+        raise RuntimeError(
+            f"Strict candidate reconstruction incomplete: {len(rows)}/{expected_count}"
+        )
     return rows

@@ -1,29 +1,30 @@
 Specimen/Site:
-Adrenal gland / adrenocortical tissue
+Bladder / Urothelial tissue
 
 Diagnosis:
-adrenocortical carcinoma
+high-grade urothelial carcinoma
 
 Tumor/Lesion Description:
-The specimen demonstrates a neoplastic proliferation of adrenocortical origin. The tumor is composed of diffuse sheets and nests of large polygonal cells with abundant eosinophilic to vacuolated (lipid-rich) cytoplasm. The neoplastic cells exhibit marked nuclear pleomorphism and prominent nucleoli. Segmentation analysis indicates a high tumor burden (neoplastic fraction >90%) with interspersed areas of extensive geographic necrosis and hemorrhage.
+The submitted tissue sections demonstrate a malignant neoplasm characterized by diffuse sheets and solid nests of neoplastic cells. The tumor exhibits extensive geographic necrosis. The architecture is disorganized, consistent with a high-grade process.
 
 Key Microscopic Findings:
-Microscopic examination reveals a malignant adrenocortical neoplasm characterized by significant cytologic atypia. The tumor cells display marked pleomorphism, with variation in nuclear size and shape, and prominent nucleoli. The architectural pattern is diffuse and solid. Extensive geographic necrosis is present, characterized by large zones of eosinophilic cellular debris and loss of nuclear detail. Minimal stroma with scattered hemorrhage is observed.
+Microscopic examination reveals a high-grade malignancy. The tumor cells are small to medium-sized with scant cytoplasm, hyperchromatic nuclei, and a high nuclear-to-cytoplasmic ratio. The growth pattern is predominantly solid and cohesive. Scant stroma is visible due to high cellularity and necrosis.
 
 Invasion/Necrosis/Margins:
-Necrosis: Extensive geographic necrosis is present.
-Invasion: Not assessable from H&E ROI evidence.
-Margins: Not assessable from H&E ROI evidence.
+Invasion: Invasive features are likely present given the solid growth pattern and necrosis, though the specific invasion interface is not clearly visualized in these ROIs.
+Necrosis: Present, extensive geographic necrosis.
+Margins: Not assessable from the provided images.
 
 Immunohistochemistry/Ancillary Studies:
-Not assessable from H&E ROI evidence.
-Recommended stains for confirmation of adrenocortical lineage include Inhibin-alpha, Melan-A, SF-1, and Calretinin.
+Not assessable from H&E images. Recommended stains to confirm urothelial lineage and rule out mimics include GATA3, p63, CK7, and CK20.
 
 Stage/Grade/Prognostic Features:
-Malignancy: malignant based on the locked final diagnosis; grade: high.
-Grade: High
-Prognostic Features: The presence of extensive necrosis and high-grade cytologic atypia are adverse prognostic features. A formal Weiss score calculation cannot be performed on the provided ROIs due to the inability to assess tumor capsule invasion, vascular invasion, mitotic count, and atypical mitoses.
-Subtype: adrenocortical carcinoma.
+Malignancy: malignant based on the locked final diagnosis; grade: high grade.
+Grade: High grade.
+Stage: Not assessable.
+Prognostic Features: The presence of extensive geographic necrosis and high-grade cytologic features are associated with aggressive behavior.
+Subtype: urothelial carcinoma.
+Invasion: invasive features likely present given the solid growth pattern and necrosis, though specific invasion interface is not clearly visualized in these ROIs.
 
 Final Summary:
-The morphologic findings are consistent with a high-grade adrenocortical carcinoma. Key features supporting this diagnosis include the adrenocortical phenotype (eosinophilic/vacuolated cytoplasm), high-grade nuclear atypia, and extensive geographic necrosis. Differential diagnoses such as adrenocortical adenoma are excluded based on the high-grade features and necrosis. Metastatic renal cell carcinoma and hepatocellular carcinoma remain in the differential but are less likely given the specific cytologic features; however, immunohistochemistry is required for definitive exclusion. Clinical correlation regarding tumor size and hormone levels is recommended.
+The morphologic features are suggestive of high-grade urothelial carcinoma. The diagnosis is supported by the solid growth pattern, marked cytologic atypia, and extensive necrosis. However, definitive subtyping cannot be confirmed without ancillary studies. Differential diagnoses such as small cell carcinoma of the bladder or metastatic carcinoma remain possible and should be ruled out with immunohistochemistry. Clinical correlation is recommended.
