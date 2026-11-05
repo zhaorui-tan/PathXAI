@@ -31,6 +31,8 @@ This requires network access. It fetches source code only, not model weights. Th
 
 Every run uses a new output directory. For patient-level inference, `tutorial_run.json` records the selected case, all WSI paths, the explicitly supplied `known_site`, variant, endpoint/model ID, interpreter paths and time limit. `progress.jsonl`, `scientific_outcome.json` and `outcome.json` preserve progress and final status. The engine also records its resolved profile, source identity, model integrity checks and case artifacts. Credentials are supplied at runtime and redacted from the wrapper's records.
 
+New recorded calls also have a private request-event journal for HTTP attempts, retries and failures. Optional replacement of declared case/slide identifiers is off by default. See [request tracing](REQUEST_TRACING.md) for configuration, replay and validation scope.
+
 The notebook supplies the sample's known bladder / urothelial site from pinned metadata; it does not infer the site from a TCGA identifier. For your own data, provide `known_site` only when the anatomical sampling site was independently known before inference. The complete set of one patient's slides contributes to one report. Automatic evaluation happens after report generation, against an independent reference, and never feeds that reference back into inference.
 
 The runnable sample, completed notebooks and reports all use TCGA-FD-A5BS with both pinned source slides, refined D1 segmentation and the documented bladder / urothelial site. See [validation](VALIDATION.md) and [the execution summary](RESULT_COMPARISON.md) for the recorded execution scope and artifact provenance.

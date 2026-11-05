@@ -21,6 +21,8 @@ SOURCE_FILES = (
     "pathxai_demo/preparation.py",
     "pathxai_demo/transport.py",
     "pathxai_demo/replay.py",
+    "pathxai_demo/request_audit.py",
+    "pathxai_demo/identifiers.py",
     "pathxai_demo/segmentation_worker.py",
     "pathxai_demo/process_control.py",
 )

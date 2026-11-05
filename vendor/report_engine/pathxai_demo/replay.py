@@ -18,6 +18,7 @@ import re
 import stat
 import sys
 import threading
+import time
 from pathlib import Path
 from typing import Any, Callable, Iterable, Mapping
 
@@ -286,6 +287,10 @@ class TraceLLMClient:
         except FileExistsError as exc:
             raise FileExistsError("Recording requires a new trace path; existing evidence will not be appended or overwritten.") from exc
         os.close(descriptor)
+        from .request_audit import RequestJournal, install_http_audit_hooks
+        self.events_path = self.trace_path.with_name(self.trace_path.name + ".events.jsonl")
+        self.journal = RequestJournal(self.events_path)
+        install_http_audit_hooks()
 
     def chat(self, prompt: str, image_paths=None, system_prompt=None, messages=None, **kwargs):
         return self._call("chat", prompt, image_paths, system_prompt, messages, kwargs)
@@ -298,15 +303,35 @@ class TraceLLMClient:
         extra = dict(kwargs)
         call_context = extra.pop("trace_generation_params", {})
         params = _client_generation_params(self.inner, {**self.generation_params, **call_context})
-        request = request_record(method, prompt, system_prompt=system_prompt, messages=messages,
-                                 image_paths=images, generation_params=params,
-                                 extra_parameters=extra, image_backend=self.inner)
         with self._lock:
             sequence = self._next_sequence
             self._next_sequence += 1
-        response = getattr(self.inner, method)(prompt, image_paths=images,
-                                                system_prompt=system_prompt,
-                                                messages=messages, **extra)
+        from .request_audit import audit_call, _without_image_bytes
+        self.journal.append("call_started", call_id=sequence, method=method,
+                            prompt=prompt, system_prompt=system_prompt,
+                            messages=_without_image_bytes(_json_safe(messages)),
+                            generation_params=params, image_count=len(images))
+        start = time.monotonic()
+        try:
+            request = request_record(method, prompt, system_prompt=system_prompt, messages=messages,
+                                     image_paths=images, generation_params=params,
+                                     extra_parameters=extra, image_backend=self.inner)
+            self.journal.append("request_prepared", call_id=sequence, request=_without_image_bytes(request))
+            with audit_call(self.journal, sequence):
+                response = getattr(self.inner, method)(prompt, image_paths=images,
+                                                      system_prompt=system_prompt,
+                                                      messages=messages, **extra)
+            entry = self._save_response(sequence, request, response)
+            self.journal.append("call_succeeded", call_id=sequence,
+                                response_sha256=entry["response_sha256"],
+                                elapsed_seconds=time.monotonic() - start)
+        except BaseException as exc:
+            self.journal.append("call_failed", call_id=sequence, error_type=type(exc).__name__,
+                                elapsed_seconds=time.monotonic() - start)
+            raise
+        return response
+
+    def _save_response(self, sequence, request, response):
         # Some backends return a message history containing base64-encoded
         # images. It is deliberately omitted; replay does not need it below
         # CaseSessionLLMClient, which consumes and removes this field.
@@ -330,7 +355,7 @@ class TraceLLMClient:
                 stream.write(json.dumps(entry, ensure_ascii=False, allow_nan=False) + "\n")
                 stream.flush()
                 os.fsync(stream.fileno())
-        return response
+        return entry
 
 
 class ReplayLLMClient:
@@ -351,6 +376,12 @@ class ReplayLLMClient:
             legacy_response_order_recovery=legacy_response_order_recovery,
             v1_root=v1_root,
         )
+        from .request_audit import verify_call_completion
+        try:
+            self.recording_events_receipt = verify_call_completion(
+                self.trace_path.with_name(self.trace_path.name + ".events.jsonl"), self._entries)
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            raise ReplayError("Request lifecycle evidence is incomplete or inconsistent") from exc
         self._index = 0
         self._lock = threading.Lock()
         self._progress = _ReplayProgressJournal(Path(progress_path)) if progress_path is not None else None
