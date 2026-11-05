@@ -13,11 +13,11 @@ def code(text, tag):
 md("""# PathXAI: a TCGA patient to an HTML report
 
 Run this notebook on your own NVIDIA GPU computer/server after following [installation](docs/INSTALLATION.md).
-Choose SO1/Core or SO4/Full; both use refined D1 segmentation internally. This is real inference, not a stored-report viewer.
+Choose PathXAI(core) or PathXAI; both use refined D1 segmentation internally. This is real inference, not a stored-report viewer.
 The public sample is the six-slide patient input for TCGA-OR-A5LL, with a documented
 anatomical site supplied before inference. The source slides and pinned candidate regions produce one patient report. The exact slide inventory, sizes and checksums are pinned in `configs/sample_tcga.json`.
 
-Obtain your own access to SAM3, CONCH, and PathXAI D1 on Hugging Face. SO4 additionally needs KEEP access.
+Obtain your own access to SAM3, CONCH, and PathXAI D1 on Hugging Face. PathXAI additionally needs KEEP access.
 Supply a vision-capable Qwen API endpoint/model and credentials. Selected ROI images are sent to that API.
 Never save credentials in notebook cells or outputs. References are used only in the optional evaluation cell after generation.
 """)
@@ -41,7 +41,7 @@ The current notebook kernel runs the report/CONCH pipeline. The D1 repository is
 the published immutable revision is filled in below. Obtain your own access to the separate upstream models before downloading.
 The optional local model configuration is documented in [the inference guide](docs/INFERENCE.md).
 """)
-code("""VERSION = os.environ.get('PATHXAI_VERSION', 'SO1')  # SO1 or SO4
+code("""VERSION = os.environ.get('PATHXAI_VERSION', 'SO1')  # SO1 = PathXAI(core); SO4 = PathXAI
 SEGMENTATION_PYTHON = os.environ.get('PATHXAI_SEG_PYTHON', '/path/to/pathxai-segmentation-py312/bin/python')
 D1_REPO_ID = os.environ.get('PATHXAI_D1_REPO', 'RayTan/PathXAI-Seg')
 D1_REVISION = os.environ.get('PATHXAI_D1_REVISION', 'abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f')  # immutable 40-character HF commit
@@ -76,7 +76,7 @@ else:
     config = make_config(segmentation_python=SEGMENTATION_PYTHON,
                          qwen_api=QWEN_API_BASE, qwen_model=QWEN_MODEL,
                          api_key=api_key, hf_token=hf_token, **assets)
-print('Selected report version:', VERSION)
+print('Selected report version:', {'SO1': 'PathXAI(core)', 'SO4': 'PathXAI'}[VERSION])
 """, "models")
 md("""## 3. Download and validate the public TCGA patient
 

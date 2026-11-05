@@ -1,6 +1,6 @@
 # Publish the committed example artifacts with GitHub Pages
 
-`PathXAI_tutorial/` is the standalone repository root. Its manual-only Pages workflow publishes the static bundle in `examples/`: the landing page, SO1 and SO4 reports, shared assets and completed notebooks. It does not run inference, build a notebook, or publish the rest of the repository.
+`PathXAI_tutorial/` is the standalone repository root. Its manual-only Pages workflow publishes the static bundle in `examples/`: the landing page, PathXAI(core) and PathXAI reports, shared assets and completed notebooks. It does not run inference, build a notebook, or publish the rest of the repository.
 
 The repository is [`zhaorui-tan/PathXAI`](https://github.com/zhaorui-tan/PathXAI). View the published reports at [the Pages site](https://zhaorui-tan.github.io/PathXAI/) and deployment runs in [GitHub Actions](https://github.com/zhaorui-tan/PathXAI/actions/workflows/report-pages.yml).
 
@@ -21,7 +21,7 @@ The live Pages URL is **https://zhaorui-tan.github.io/PathXAI/**, with reports a
 2. Select **Publish tutorial report examples**.
 3. Select **Run workflow** on the default branch and confirm.
 4. When the job succeeds, open its `github-pages` environment link or the `page_url` deployment output. Use that generated URL; the repository owner and name determine it, so this documentation does not guess a URL.
-5. From the published landing page, open the SO1 or SO4 example. Both report pages reference the same `../assets/` files; the deploy artifact includes the complete `examples/` tree.
+5. From the published landing page, open the PathXAI(core) or PathXAI example. Both report pages reference the same `../assets/` files; the deploy artifact includes the complete `examples/` tree.
 
 The workflow runs only on `workflow_dispatch`; a push to the repository does not publish or update the site. It checks the landing page, both report files, shared asset directory and the two named completed notebooks. It uploads only `examples/` and deploys that Pages artifact. The job uses `contents: read`, `pages: write`, and `id-token: write`, following GitHub's [deployment requirements](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages#deploying-github-pages-artifacts). It uses the official [`configure-pages`](https://github.com/actions/configure-pages), [`upload-pages-artifact`](https://github.com/actions/upload-pages-artifact), and [`deploy-pages`](https://github.com/actions/deploy-pages) actions.
 

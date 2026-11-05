@@ -25,6 +25,12 @@
       "imported_sha256": "9e4fc3fb9b222d28bccfa63f2aaa75a0bc4d03b19185f80a6b46098ad100bbb4",
       "delivery_sha256": "e7519866f355be4716c1a75fb75c77ced89e777ac4974e3bd635b2480de3f8d6",
       "reason": "Accept the recorded tcga_site_only anatomical-prior marker without translating it; scientific pipeline code unchanged."
+    },
+    {
+      "path": "pathxai_demo/reporting_worker.py",
+      "imported_sha256": "5306847fb85d782bc9da5d4ce67928e8883857ad83b5e6f765f1f387085b313a",
+      "delivery_sha256": "2f99564bfaabdd2cfb9b17822a355e4b93f43e33629ce0ece3db688fa38edd8a",
+      "reason": "Use PathXAI(core) and PathXAI as public report titles; remove the redundant Full badge. Inference and clinical report content unchanged."
     }
   ],
   "added_notices": [

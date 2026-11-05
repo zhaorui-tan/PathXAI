@@ -14,15 +14,16 @@
         "TCGA-OR-A5LL-01Z-00-DX5.6FAD467E-BFE7-46D8-91BD-3B463486923B.svs"
       ],
       "known_site": "adrenal gland / adrenocortical tissue",
-      "source_executed_notebook_sha256": "931f2eeeb5109b544706d4b237f1cfc647a1427a7e4329f2390d342697418ecd",
+      "source_executed_notebook_sha256": "6e92e9a93ae373bf5d6fedf75ed277332e06668d8687cf2c9d2c707406a208ba",
       "source_report_html_sha256": "2980c149a735d4928d0dc31639ac29dd268f0b471371819c646b5742339d7db2",
-      "published_report_html_sha256": "b257c9c49f5d6c593d9134c7cad1098b22f178dd9cb78a59acfc6ffcd3b60fcb",
-      "published_notebook_sha256": "5f26001d2929d461945610e3555c9d190e424d55166361e1e561967979c385c9",
+      "published_report_html_sha256": "84b6796d35ac82d563581f3ac86a299655865188f5075940fd9b5d149f3a6391",
+      "published_notebook_sha256": "0e2788cc695c142c7ca659e84eb24d6b7d73fc16a42bfd692c0ed5956fdbc55c",
       "report_text_sha256": "a7458b298a19e72aae6547fb9d0b6df088265814851df2869dbb89ff5454bbc3",
       "removed_heartbeat_lines": 0,
       "removed_progress_updates": 0,
-      "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
-      "image_bytes_changed": false
+      "html_change": "Asset references relocated for deduplication; public product titles use PathXAI(core) and PathXAI. Clinical text and image bytes unchanged.",
+      "image_bytes_changed": false,
+      "display_name": "PathXAI(core)"
     },
     {
       "version": "SO4",
@@ -37,15 +38,16 @@
         "TCGA-OR-A5LL-01Z-00-DX5.6FAD467E-BFE7-46D8-91BD-3B463486923B.svs"
       ],
       "known_site": "adrenal gland / adrenocortical tissue",
-      "source_executed_notebook_sha256": "89d83f8445f2be1b64638bd1cc990612712f8721a8ea6f9783acc6eedce63cbe",
+      "source_executed_notebook_sha256": "eee30dbc8425b29ca94fb9405c5b3190695abdd092f5c56659d9bee204f85d2b",
       "source_report_html_sha256": "9fa6277622d49b8f155258e572e54198a4bc7cd57eb76aef40eb7561873913aa",
-      "published_report_html_sha256": "34055f23ce1b694adc4bf75a3cc25e0a8d4dd4dc4f11fa25058ae6407f6fb6e1",
-      "published_notebook_sha256": "ceb7be4fc134eaf2105e9806e9cf93bfd45e44dbe955352435e42f5e4ef4d5b6",
+      "published_report_html_sha256": "6f24b87a34d1e68c0caa2d8441c21ffcf9358cb04633d739408444e016c60035",
+      "published_notebook_sha256": "7718793bd122b4808547e439dc442bccda2f610c2ab3a2aaea3b6f126e122ab2",
       "report_text_sha256": "839f80c82770a5936d975d06a61f9d68c4c092b94810314bb9b82180faf48aaa",
       "removed_heartbeat_lines": 0,
       "removed_progress_updates": 0,
-      "html_change": "Only assets/ references changed to ../assets/ for deduplication; all text unchanged.",
-      "image_bytes_changed": false
+      "html_change": "Asset references relocated for deduplication; public product titles use PathXAI(core) and PathXAI. Clinical text and image bytes unchanged.",
+      "image_bytes_changed": false,
+      "display_name": "PathXAI"
     }
   ],
   "files": [
@@ -56,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1268,
-      "sha256": "1f95b2fdb85ab2bfc5f7545b535463de0456831f386ed7786b8dbf7fc94d7fac"
+      "bytes": 1286,
+      "sha256": "d36861c2e8dfbeb0bf3d9cf5e7af1f7267d5c4373e868f287071311623143aef"
     },
     {
       "path": "SO1/generated_long_report.txt",
@@ -66,13 +68,13 @@
     },
     {
       "path": "SO1/report.html",
-      "bytes": 189646,
-      "sha256": "b257c9c49f5d6c593d9134c7cad1098b22f178dd9cb78a59acfc6ffcd3b60fcb"
+      "bytes": 189630,
+      "sha256": "84b6796d35ac82d563581f3ac86a299655865188f5075940fd9b5d149f3a6391"
     },
     {
       "path": "SO1/run_record.json",
-      "bytes": 4139,
-      "sha256": "35ec15c2ca95ba1a45a67052ee5e4d5dd2d76e7bcd6b10cab9ec79cfe235e96c"
+      "bytes": 4174,
+      "sha256": "9e4f92f50d70068939963dacee0fd2200a6ceb856b2759ceafee340af49f4d04"
     },
     {
       "path": "SO4/generated_long_report.txt",
@@ -81,13 +83,13 @@
     },
     {
       "path": "SO4/report.html",
-      "bytes": 223874,
-      "sha256": "34055f23ce1b694adc4bf75a3cc25e0a8d4dd4dc4f11fa25058ae6407f6fb6e1"
+      "bytes": 223819,
+      "sha256": "6f24b87a34d1e68c0caa2d8441c21ffcf9358cb04633d739408444e016c60035"
     },
     {
       "path": "SO4/run_record.json",
-      "bytes": 4654,
-      "sha256": "26c961b726afa23e5696ffab2bf2c0533d84b800811b232f6370b2f06b23ef7f"
+      "bytes": 4683,
+      "sha256": "b096d34150f1e2a3b001d5a420a38949ec0f429925296e0d7747cd98e6eedbf1"
     },
     {
       "path": "assets/005808aa7419f838a0b2.png",
@@ -281,23 +283,23 @@
     },
     {
       "path": "comparison.html",
-      "bytes": 1226,
-      "sha256": "aa200965d7fe8a9725c988cae9dcd35ff991b86ff81124ea5f4c8a44bf692b3f"
+      "bytes": 1240,
+      "sha256": "79bfcfb2c7c5c85143f1c9437cdfd8ad5f4750c45c42665a752510f0569ac12d"
     },
     {
       "path": "index.html",
-      "bytes": 4869,
-      "sha256": "720dd3724761544524ff21be7ede22d2ba837ffe45550051fcc54341ada78c2f"
+      "bytes": 4885,
+      "sha256": "0d759ba200578642d0999eaad69e9549771b75e27946dfcb4b031cd58c06cdf6"
     },
     {
       "path": "notebooks/SO1_completed.ipynb",
-      "bytes": 12252,
-      "sha256": "5f26001d2929d461945610e3555c9d190e424d55166361e1e561967979c385c9"
+      "bytes": 12340,
+      "sha256": "0e2788cc695c142c7ca659e84eb24d6b7d73fc16a42bfd692c0ed5956fdbc55c"
     },
     {
       "path": "notebooks/SO4_completed.ipynb",
-      "bytes": 12509,
-      "sha256": "ceb7be4fc134eaf2105e9806e9cf93bfd45e44dbe955352435e42f5e4ef4d5b6"
+      "bytes": 12573,
+      "sha256": "7718793bd122b4808547e439dc442bccda2f610c2ab3a2aaea3b6f126e122ab2"
     }
   ],
   "scope": "Public TCGA example outputs only; no original WSI, model weights or credentials."

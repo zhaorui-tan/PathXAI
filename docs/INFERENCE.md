@@ -1,6 +1,6 @@
 # Local inference guide
 
-The main `PathXAI_report.ipynb` notebook runs a new WSI inference and exports a portable HTML report. The SO1 and SO4 example notebooks are read-only recorded-run views with captured progress and reports; their inference was run through the same tutorial Python API, not inside those notebook cells. This guide covers model/API configuration, variant selection and outputs. Environment setup is in [INSTALLATION.md](INSTALLATION.md).
+The main `PathXAI_report.ipynb` notebook runs a new WSI inference and exports a portable HTML report. The PathXAI(core) and PathXAI example notebooks are read-only recorded-run views with captured progress and reports; their inference was run through the same tutorial Python API, not inside those notebook cells. This guide covers model/API configuration, variant selection and outputs. Environment setup is in [INSTALLATION.md](INSTALLATION.md).
 
 ## Access and prerequisites
 
@@ -10,12 +10,12 @@ The pipeline uses separate model resources:
 
 | Resource | Where to obtain it | Required for |
 | --- | --- | --- |
-| PathXAI D1 inference adapter | Hugging Face model repo [`RayTan/PathXAI-Seg`](https://huggingface.co/RayTan/PathXAI-Seg); manual access approval required | SO1 and SO4 segmentation |
-| SAM3 base checkpoint | Directly from the gated [`facebook/sam3`](https://huggingface.co/facebook/sam3) repository, at the pinned revision in `vendor/report_engine/assets/model_references.json` | SO1 and SO4 segmentation |
-| CONCH checkpoint | Directly from the [`MahmoodLab/conch`](https://huggingface.co/MahmoodLab/conch) repository, at the pinned revision in `vendor/report_engine/assets/model_references.json` | WSI ROI selection in SO1 and SO4 |
-| KEEP knowledge files | Directly from the gated [`Loie/KEEP_dataset`](https://huggingface.co/datasets/Loie/KEEP_dataset) dataset, at the pinned revision in `vendor/report_engine/assets/keep_references.json` | SO4 only |
+| PathXAI D1 inference adapter | Hugging Face model repo [`RayTan/PathXAI-Seg`](https://huggingface.co/RayTan/PathXAI-Seg); manual access approval required | PathXAI(core) and PathXAI segmentation |
+| SAM3 base checkpoint | Directly from the gated [`facebook/sam3`](https://huggingface.co/facebook/sam3) repository, at the pinned revision in `vendor/report_engine/assets/model_references.json` | PathXAI(core) and PathXAI segmentation |
+| CONCH checkpoint | Directly from the [`MahmoodLab/conch`](https://huggingface.co/MahmoodLab/conch) repository, at the pinned revision in `vendor/report_engine/assets/model_references.json` | WSI ROI selection in PathXAI(core) and PathXAI |
+| KEEP knowledge files | Directly from the gated [`Loie/KEEP_dataset`](https://huggingface.co/datasets/Loie/KEEP_dataset) dataset, at the pinned revision in `vendor/report_engine/assets/keep_references.json` | PathXAI only |
 
-The SAM3 and CONCH checkpoints are not hosted in the PathXAI repository. Users must request and receive access from each upstream provider and download them with their own Hugging Face account. KEEP access is required only for SO4. The notebook downloads the separate assets directly and verifies their pinned sizes and SHA-256 values; it does not substitute other weights.
+The SAM3 and CONCH checkpoints are not hosted in the PathXAI repository. Users must request and receive access from each upstream provider and download them with their own Hugging Face account. KEEP access is required only for PathXAI. The notebook downloads the separate assets directly and verifies their pinned sizes and SHA-256 values; it does not substitute other weights.
 
 **D1 is published at revision `abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f`.** Its release files and adapter identity are recorded in [release verification](../provenance/hf_model_release.json). Request access on the model page and wait for approval before downloading. The notebook selects this immutable revision. The staged adapter file is Git-ignored and is not a GitHub artifact. The model bundle includes the SAM License without an additional academic-only restriction. See [model release notes](MODEL_RELEASE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
@@ -24,7 +24,7 @@ The SAM3 and CONCH checkpoints are not hosted in the PathXAI repository. Users m
 Start the Jupyter server from `PathXAI_tutorial/` and select the `pathxai` kernel registered by the installation instructions. In the notebook's setup cell, choose a version and set the segmentation interpreter and D1 release identifiers:
 
 ```python
-VERSION = "SO1"  # or "SO4"
+VERSION = "SO1"  # PathXAI(core); use "SO4" for PathXAI
 SEGMENTATION_PYTHON = "/absolute/path/to/pathxai-segmentation-py312/bin/python"
 D1_REPO_ID = "RayTan/PathXAI-Seg"
 D1_REVISION = "abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f"
@@ -72,9 +72,9 @@ Use one list for the slides belonging to a single patient case. Do not combine d
 
 The notebook then:
 
-1. Downloads and verifies the D1, SAM3 and CONCH assets. For SO4 it also downloads and verifies KEEP.
+1. Downloads and verifies the D1, SAM3 and CONCH assets. For PathXAI it also downloads and verifies KEEP.
 2. Sends a small synthetic image to the configured Qwen API as a connectivity probe. This probe does not send the TCGA WSI.
-3. Runs the selected SO1/Core or SO4/Full profile on the WSI.
+3. Runs the selected PathXAI(core) or PathXAI profile on the WSI.
 4. Writes a new run directory containing the HTML report, its assets, generated report text, pipeline result and provenance records.
 
 The report stage sends selected WSI-derived ROI images and report prompts to the configured Qwen endpoint. Confirm that this transfer is allowed for your data before proceeding. For the TCGA sample, the notebook supplies `known_site` from the pinned sample metadata. For your own data, provide it only when you knew the anatomical site independently before inference; the notebook does not infer it from case identifiers or filenames. It does not pass the TCGA project label or a reference diagnosis into report generation.

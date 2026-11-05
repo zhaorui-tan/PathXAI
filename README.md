@@ -1,7 +1,7 @@
 # PathXAI: TCGA patient to pathology report
 PREPRINT PAPER WILL BE ONLINE SOON :)
 
-This repository contains a local Jupyter workflow for running PathXAI on a patient-level set of whole-slide images (WSIs) and exporting one portable `report.html` for the case. It supports **SO1/Core** and **SO4/Full**. Both use the refined D1 segmentation adaptation; SO4 also requires the KEEP knowledge resources.
+This repository contains a local Jupyter workflow for running PathXAI on a patient-level set of whole-slide images (WSIs) and exporting one portable `report.html` for the case. It supports **PathXAI(core)** and **PathXAI**. Both use the refined D1 segmentation adaptation; PathXAI also requires the KEEP knowledge resources.
 
 The workflow uses a local notebook and two local Python environments. It does not use Colab or Docker. The report pipeline calls a vision-capable Qwen API that you configure; selected ROI images and report prompts are sent to that endpoint. Check your data-handling requirements before running it on private slides.
 
@@ -11,10 +11,10 @@ The repository includes two notebooks showing captured progress and final report
 
 | Version | Recorded-run notebook, viewable on GitHub | Generated report |
 | --- | --- | --- |
-| SO1/Core | [Recorded SO1 run notebook with captured outputs](examples/notebooks/SO1_completed.ipynb) | [View SO1 report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
-| SO4/Full | [Recorded SO4 run notebook with captured outputs](examples/notebooks/SO4_completed.ipynb) | [View SO4 report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
+| PathXAI(core) | [Recorded PathXAI(core) run notebook with captured outputs](examples/notebooks/SO1_completed.ipynb) | [View PathXAI(core) report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
+| PathXAI | [Recorded PathXAI run notebook with captured outputs](examples/notebooks/SO4_completed.ipynb) | [View PathXAI report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
 
-The linked reports and notebooks with recorded outputs are from SO1 and SO4 runs for TCGA-OR-A5LL, using refined D1 segmentation and six pinned source slides. Read the [execution summary](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the currently deployed reports without running inference. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
+The linked reports and notebooks with recorded outputs are from PathXAI(core) and PathXAI runs for TCGA-OR-A5LL, using refined D1 segmentation and six pinned source slides. Read the [execution summary](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the currently deployed reports without running inference. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
 
 **Qwen output variability:** Report wording and details may vary with the Qwen model version, deployment configuration and sampling parameters. Repeated runs may produce different outputs even with the same input slides.
 
@@ -22,7 +22,7 @@ The linked reports and notebooks with recorded outputs are from SO1 and SO4 runs
 
 1. From the checkout root, run `python3 scripts/fetch_medsam_source.py` to prepare the external MedSAM3 runtime source required by segmentation. This uses the pinned upstream source and tutorial patches; it needs network access but does not download model weights or require a GPU. Run it before environment import checks or opening the notebook. See [installation](docs/INSTALLATION.md).
 2. Create the Python 3.10 notebook/pipeline and Python 3.12 segmentation environments as described in [installation](docs/INSTALLATION.md).
-3. Request approval for [PathXAI D1](https://huggingface.co/RayTan/PathXAI-Seg) and obtain your own authorized access to the separate SAM3 and CONCH models. The D1 adapter is published at [RayTan/PathXAI-Seg](https://huggingface.co/RayTan/PathXAI-Seg/tree/abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f); the notebook pins this immutable revision. SO4 additionally requires access to the gated KEEP dataset. See the [inference guide](docs/INFERENCE.md) for the current release state and configuration.
+3. Request approval for [PathXAI D1](https://huggingface.co/RayTan/PathXAI-Seg) and obtain your own authorized access to the separate SAM3 and CONCH models. The D1 adapter is published at [RayTan/PathXAI-Seg](https://huggingface.co/RayTan/PathXAI-Seg/tree/abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f); the notebook pins this immutable revision. PathXAI additionally requires access to the gated KEEP dataset. See the [inference guide](docs/INFERENCE.md) for the current release state and configuration.
 4. Set the Qwen API base URL, model ID and credential in environment variables or provide the API key at the notebook's secure prompt. Do not store credentials in notebook cells or configuration files.
 5. Start Jupyter from this directory with the Python 3.10 environment and open [PathXAI_report.ipynb](PathXAI_report.ipynb). The notebook downloads and verifies all six pinned source WSIs for TCGA-OR-A5LL (adrenal gland / adrenocortical tissue) from the NCI Genomic Data Commons: DX1–DX5 and TS1, totaling 11,156,338,264 bytes (about 10.39 GiB). The GDC inventory matches these six slides, with none excluded. It runs the selected variant and exports one patient-level `report.html` plus its assets.
 

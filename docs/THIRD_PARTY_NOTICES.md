@@ -9,7 +9,7 @@ This package contains materials from multiple sources. A model-card license does
 | CLIP tokenizer vocabulary | OpenAI CLIP, MIT; original license and exact source identity are in `vendor/report_engine/assets/licenses/CLIP-LICENSE.txt` and `CLIP-ORIGIN.json`. |
 | OpenSeadragon viewer | Bundled with the local scoring interfaces; its license is retained beside each viewer under `static/vendor/openseadragon/LICENSE.txt`. |
 | CONCH | Installed from a pinned original source commit. Model access is separately authorized through `MahmoodLab/conch`; no CONCH weights are redistributed here. |
-| KEEP resources | Downloaded from the original gated `Loie/KEEP_dataset` repository for SO4. No KEEP dataset files are redistributed here. |
+| KEEP resources | Downloaded from the original gated `Loie/KEEP_dataset` repository for PathXAI. No KEEP dataset files are redistributed here. |
 | TCGA sample WSI | Obtained by the reader directly from NCI GDC using the recorded open-access file UUID. The image is not in the code package or D1 model bundle. |
 
 PathXAI's original code and adaptations remain subject to their owners' rights. This preparation does not assign a new blanket license to all code. The D1 model bundle includes the SAM License; it does not implement an additional academic-only/noncommercial restriction. A proposed restrictive-license draft is kept outside the upload bundle and is not effective licensing text.

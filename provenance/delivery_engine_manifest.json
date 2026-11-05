@@ -1813,8 +1813,8 @@
     },
     {
       "path": "pathxai_demo/reporting_worker.py",
-      "sha256": "5306847fb85d782bc9da5d4ce67928e8883857ad83b5e6f765f1f387085b313a",
-      "bytes": 32834
+      "sha256": "2f99564bfaabdd2cfb9b17822a355e4b93f43e33629ce0ece3db688fa38edd8a",
+      "bytes": 32792
     },
     {
       "path": "pathxai_demo/segmentation_worker.py",

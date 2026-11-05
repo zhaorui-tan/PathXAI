@@ -35,6 +35,7 @@ def main():
     from lxml import html
     import nbformat
     for version, mode in (("SO1", "core"), ("SO4", "full")):
+        display_name = {"SO1": "PathXAI(core)", "SO4": "PathXAI"}[version]
         run = getattr(args, version.lower() + "_run").resolve()
         notebook = getattr(args, version.lower() + "_notebook").resolve()
         outcome = json.loads((run / "outcome.json").read_text())
@@ -153,10 +154,10 @@ def main():
         recording_label = "Recorded inference run" if args.notebook_kind == "recorded-run" else "Recorded notebook execution"
         recording_note = ("This notebook displays the saved progress and report from an execution of the tutorial Python API. "
                           "Use the main tutorial notebook to run new inference.\n\n") if args.notebook_kind == "recorded-run" else ""
-        header = f"""# {version} recorded example
+        header = f"""# {display_name} recorded example
 
 {recording_label} for **{case}**, dated {run_date}.
-Version: **{version}**; refined D1 segmentation with separately obtained SAM3 base weights;
+Version: **{display_name}**; refined D1 segmentation with separately obtained SAM3 base weights;
 vision model: **Qwen3.6-27B-Q6_K**. The run used {len(slide_names)} checksum-verified source slides
 and the pinned candidate ROIs. Anatomical site: **{known_site or 'not supplied'}**.
 

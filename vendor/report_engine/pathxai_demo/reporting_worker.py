@@ -57,9 +57,9 @@ def _safe_name(value: str) -> str:
 def product_name_for_mode(mode: str) -> str:
     normalized = str(mode or "").strip().lower()
     if normalized == "core":
-        return "PathXAI-Report (core)"
+        return "PathXAI(core)"
     if normalized == "full":
-        return "PathXAI-Report"
+        return "PathXAI"
     raise ReportingError("Report mode must be core or full.")
 
 
@@ -516,7 +516,7 @@ def _auxiliary_grade_section(display: dict[str, Any]) -> str:
         'border:1px solid #d7deeb;border-radius:10px}.auxiliary-grade-card img{display:block;'
         'width:100%;height:auto;object-fit:contain}</style>'
         '<section id="auxiliary-grade-evidence" class="auxiliary-grade-evidence" data-role="view-only">'
-        '<h2>Full · Auxiliary grade-only evidence</h2>'
+        '<h2>PathXAI · Auxiliary grade-only evidence</h2>'
         '<p>These are the ROIs returned by the grade-support branch. A later diagnostic selection may also reuse a listed ROI.</p>'
         '<div class="auxiliary-grade-grid">' + "".join(cards) + '</div></section>')
 
@@ -620,7 +620,7 @@ def prepare_display_report(request: dict[str, Any]) -> dict[str, Any]:
 
     product_name = product_name_for_mode(mode)
     escaped_case_id = escape(case_id, quote=True)
-    mode_badge = "Full" if mode == "full" else ""
+    mode_badge = ""
     report_path = view_dir / "report.html"
     rendered = frozen_v1_render(payload, report_path)
     rendered = rendered.replace(

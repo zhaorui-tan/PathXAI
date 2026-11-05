@@ -60,5 +60,6 @@
   ],
   "source_progress_sha256": "957f870b5d95216e65b21d9004ec7108c9ef5e8c845aeea71196255c52c104f1",
   "source_pipeline_result_sha256": "7a7154525236dde643d85a0065179fae311c3489f37c035f8d3fc02a72422d0b",
-  "report_text_sha256": "a7458b298a19e72aae6547fb9d0b6df088265814851df2869dbb89ff5454bbc3"
+  "report_text_sha256": "a7458b298a19e72aae6547fb9d0b6df088265814851df2869dbb89ff5454bbc3",
+  "display_name": "PathXAI(core)"
 }
