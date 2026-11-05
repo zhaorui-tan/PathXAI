@@ -1,59 +1,108 @@
 {
-  "case_id": "TCGA-FD-A5BS",
-  "case_uuid": "b581e799-93d1-4f1c-bcb7-7e7ae86a869e",
-  "project_id": "TCGA-BLCA",
+  "case_id": "TCGA-OR-A5LL",
+  "case_uuid": "0304b12d-7640-4150-a581-2eea2b1f2ad5",
+  "project_id": "TCGA-ACC",
   "source": "NCI Genomic Data Commons (GDC), public open-access records",
   "inventory_query": {
     "endpoint": "https://api.gdc.cancer.gov/files",
     "case_filter_field": "cases.submitter_id",
     "data_type": "Slide Image",
     "verified_at_utc": "2026-11-05",
-    "verified_slide_count": 2,
-    "selected_source_slide_count": 2
+    "verified_slide_count": 6
   },
-  "known_site": "bladder / urothelial tissue",
+  "known_site": "adrenal gland / adrenocortical tissue",
   "known_site_source": {
     "source": "NCI GDC case/project metadata",
-    "case_endpoint": "https://api.gdc.cancer.gov/cases/b581e799-93d1-4f1c-bcb7-7e7ae86a869e",
-    "project_endpoint": "https://api.gdc.cancer.gov/projects/TCGA-BLCA",
+    "case_endpoint": "https://api.gdc.cancer.gov/cases/0304b12d-7640-4150-a581-2eea2b1f2ad5",
+    "project_endpoint": "https://api.gdc.cancer.gov/projects/TCGA-ACC",
     "field": "project.primary_site",
-    "gdc_value": [
-      "Bladder"
-    ],
-    "normalization": "PathXAI TCGA site map for project TCGA-BLCA",
+    "gdc_value": "Adrenal gland",
+    "normalization": "PathXAI TCGA site map for project TCGA-ACC",
     "scope": "Anatomical prior only; no diagnosis or histology is supplied to inference.",
     "pipeline_marker": "tcga_site_only"
   },
   "slides": [
     {
-      "file_id": "20d94d8e-67b1-42dc-b191-624335cc60d2",
-      "file_name": "TCGA-FD-A5BS-01Z-00-DX1.A7155CEB-37C9-4AD2-B229-B76F18814585.svs",
-      "file_size": 2348267135,
-      "md5sum": "2396600bb1486cc02efc55ce6f1d1a58",
+      "file_id": "043c4c13-8013-4cb2-9cbd-c8e5230b8a24",
+      "file_name": "TCGA-OR-A5LL-01Z-00-DX2.CABC0142-8C39-4801-8256-03129F111343.svs",
+      "file_size": 1988129411,
+      "md5sum": "c1c845607d72efe75da4f9f6b38a41db",
       "access": "open",
       "data_type": "Slide Image",
       "data_category": "Biospecimen",
       "role": "diagnostic_slide",
-      "sha256": "0ab240b6eada93b27d0a86b6bea371b072bd3525bf0833bbd9fd5d7e048d9b5e",
+      "sha256": "1fefcb73afee528d4494f6c27bc1496e83dcce5ca046966a18084657f8abeafb",
       "sample_type": "Primary Tumor",
-      "download_url": "https://api.gdc.cancer.gov/data/20d94d8e-67b1-42dc-b191-624335cc60d2"
+      "download_url": "https://api.gdc.cancer.gov/data/043c4c13-8013-4cb2-9cbd-c8e5230b8a24"
     },
     {
-      "file_id": "c68559b1-43a7-4ba3-a79a-47d3c3c5cb58",
-      "file_name": "TCGA-FD-A5BS-01A-02-TSB.21A9159B-7DD1-4F26-951E-C99C004C1956.svs",
-      "file_size": 274906353,
-      "md5sum": "d727aa5ccf604a613a12e6ba56d7088e",
+      "file_id": "6a199502-1862-495b-b06f-1e93131eb599",
+      "file_name": "TCGA-OR-A5LL-01Z-00-DX4.97ED4791-E6C4-4EF3-AB1C-7063616ECD1C.svs",
+      "file_size": 1937765347,
+      "md5sum": "249b05536105eab0e445a94f4317ed0a",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "role": "diagnostic_slide",
+      "sha256": "8c1ae0ef88d07e792374f71d5cea6d2c8e20ebb8aa8f59b17fa49ef8a1809e8b",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/6a199502-1862-495b-b06f-1e93131eb599"
+    },
+    {
+      "file_id": "89816539-09df-4a71-8d64-dff6c433207d",
+      "file_name": "TCGA-OR-A5LL-01Z-00-DX3.C91BD8F0-1BBB-4585-90A1-5DB388DBC8F4.svs",
+      "file_size": 2709260423,
+      "md5sum": "a5578abe5f80b862ddc7772c44388014",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "role": "diagnostic_slide",
+      "sha256": "641f1e2e07397fed002fece12f7464f89165c00f41db026bee6e05a1239b9ace",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/89816539-09df-4a71-8d64-dff6c433207d"
+    },
+    {
+      "file_id": "967f1f18-8d66-4a6c-b083-0f3730615793",
+      "file_name": "TCGA-OR-A5LL-01A-01-TS1.852B5675-3534-4684-9FA3-2A03A6199B4E.svs",
+      "file_size": 168129603,
+      "md5sum": "7946e2fd011f52e7a67751e3a3a075ac",
       "access": "open",
       "data_type": "Slide Image",
       "data_category": "Biospecimen",
       "role": "tissue_slide",
-      "sha256": "943ad9274a2e6748fecbd4a56a1b4dfd922e727b40851ae359fb297762240538",
+      "sha256": "e876b49ff1c4ba3794053651873cbca057fefea08aefa0d8ffb4cb89591bba48",
       "sample_type": "Primary Tumor",
-      "download_url": "https://api.gdc.cancer.gov/data/c68559b1-43a7-4ba3-a79a-47d3c3c5cb58"
+      "download_url": "https://api.gdc.cancer.gov/data/967f1f18-8d66-4a6c-b083-0f3730615793"
+    },
+    {
+      "file_id": "a69581c1-d147-4f7b-b6de-07bc1ad5290d",
+      "file_name": "TCGA-OR-A5LL-01Z-00-DX1.08588029-C532-4CDD-B945-251315EFF5C0.svs",
+      "file_size": 2067841625,
+      "md5sum": "48d461a7c02a219ab23795b18d6204d3",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "role": "diagnostic_slide",
+      "sha256": "bd53d75f1a60812134bab392242bcdf875ba66a3da0074dba3bbaf3b206b036c",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/a69581c1-d147-4f7b-b6de-07bc1ad5290d"
+    },
+    {
+      "file_id": "f59e48e3-ece7-4253-aafb-e2f7158d4e20",
+      "file_name": "TCGA-OR-A5LL-01Z-00-DX5.6FAD467E-BFE7-46D8-91BD-3B463486923B.svs",
+      "file_size": 2285211855,
+      "md5sum": "849889b87e06aee21897ac35aeea7845",
+      "access": "open",
+      "data_type": "Slide Image",
+      "data_category": "Biospecimen",
+      "role": "diagnostic_slide",
+      "sha256": "8327260e6dc7b1e0efa0bfb1c7a4ed3b9561d03bd16820caf6a3b0a2b1e87074",
+      "sample_type": "Primary Tumor",
+      "download_url": "https://api.gdc.cancer.gov/data/f59e48e3-ece7-4253-aafb-e2f7158d4e20"
     }
   ],
   "excluded_slides": [],
-  "expected_download_bytes": 2623173488,
-  "expected_download_bytes_decimal_gb": 2.623173488,
-  "note": "Use both historical source WSIs in their recorded patient order, including the TSB slide. The live GDC Slide Image inventory matches these two records. Candidate ROI coordinates and ranking are pinned separately in sample_candidates.json. Anatomical site only is supplied to inference."
+  "expected_download_bytes": 11156338264,
+  "expected_download_bytes_decimal_gb": 11.156338264,
+  "note": "Use all six source WSIs in the recorded patient order, including TS1. Candidate ROI coordinates and ranking are pinned separately in sample_candidates.json. Anatomical site only is supplied to inference."
 }

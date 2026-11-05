@@ -14,7 +14,7 @@ md("""# PathXAI: a TCGA patient to an HTML report
 
 Run this notebook on your own NVIDIA GPU computer/server after following [installation](docs/INSTALLATION.md).
 Choose SO1/Core or SO4/Full; both use refined D1 segmentation internally. This is real inference, not a stored-report viewer.
-The public sample is the two-slide patient input for TCGA-FD-A5BS, with a documented
+The public sample is the six-slide patient input for TCGA-OR-A5LL, with a documented
 anatomical site supplied before inference. The source slides and pinned candidate regions produce one patient report. The exact slide inventory, sizes and checksums are pinned in `configs/sample_tcga.json`.
 
 Obtain your own access to SAM3, CONCH, and PathXAI D1 on Hugging Face. SO4 additionally needs KEEP access.

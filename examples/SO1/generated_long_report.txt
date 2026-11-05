@@ -1,24 +1,31 @@
 Specimen/Site:
-Bladder / urothelial tissue
+Adrenal gland / adrenocortical tissue
 
 Diagnosis:
-High-grade urothelial carcinoma
+Adrenocortical carcinoma
 
 Tumor/Lesion Description:
-The biopsy demonstrates a densely cellular neoplasm composed of cohesive sheets and solid nests of atypical cells. The tumor exhibits a solid growth pattern with a high nuclear-to-cytoplasmic ratio. Fibrous stroma with a lymphocytic infiltrate is present between tumor nests.
+The submitted tissue sections demonstrate a neoplastic proliferation consistent with adrenocortical origin. The tumor is composed of solid sheets and nests of large polygonal cells with abundant eosinophilic to clear (lipidized) cytoplasm. The neoplastic cells exhibit marked nuclear pleomorphism, hyperchromasia, and prominent nucleoli. Segmentation analysis indicates a high tumor burden across the sampled regions (Neoplastic fraction up to 97.0%).
 
 Key Microscopic Findings:
-The neoplastic cells display marked nuclear pleomorphism, hyperchromasia, and irregular nuclear contours. The cells appear relatively small to intermediate in size with scant cytoplasm. The architecture is characterized by diffuse sheets and solid islands of tumor cells. Segmentation analysis confirms a high neoplastic burden (aggregate class fraction 61.8%) with significant associated inflammation (aggregate class fraction 58.2%) and extensive geographic necrosis (aggregate class fraction 23.6%).
+- **Architecture:** The tumor displays a diffuse growth pattern with solid sheets and nests of cells separated by thin fibrovascular septa.
+- **Cytology:** Tumor cells are large with distinct cell borders. Cytoplasm varies from granular eosinophilic to clear/vacuolated.
+- **Nuclear Features:** Nuclei are enlarged and pleomorphic with prominent nucleoli.
+- **Stroma:** Delicate fibrovascular septa separate the nests of tumor cells. Stromal inflammation is minimal.
 
 Invasion/Necrosis/Margins:
-Extensive geographic necrosis is a prominent feature. Definitive invasion into the muscularis propria (detrusor muscle) is not assessable from H&E ROI evidence.
+- **Necrosis:** Foci of necrosis are present within the tumor (segmentation "Dead" class fractions up to 13.7%).
+- **Invasion:** Definitive evidence of vascular invasion or capsular invasion is not assessable from H&E ROI evidence.
+- **Margins:** Surgical margins are not assessable from H&E ROI evidence.
 
 Immunohistochemistry/Ancillary Studies:
-Not assessable from H&E images. Recommended stains to confirm urothelial lineage and exclude small cell carcinoma include GATA3, p63, CK7, CK20, and neuroendocrine markers (e.g., Synaptophysin, Chromogranin).
+Not assessable from H&E ROI evidence. Recommended stains to confirm adrenocortical lineage and exclude metastatic carcinoma include inhibin-alpha, melan-A, SF-1, calretinin, CK7, HepPar-1, CD10, and Ki-67.
 
 Stage/Grade/Prognostic Features:
 Malignancy: malignant based on the final diagnosis; exact grade, Weiss score, stage, and prognostic risk are not assessable from current H&E ROI evidence.
-High grade. The tumor exhibits features consistent with high-grade malignancy, including significant nuclear atypia, high nuclear-to-cytoplasmic ratio, and architectural disarray. Staging is not assessable from H&E ROI evidence due to the absence of definitive muscularis propria in the current sections.
+- **Malignancy:** Malignant.
+- **Grade:** High grade.
+- **Prognostic Assessment:** The diagnosis of Adrenocortical Carcinoma is supported by the presence of significant nuclear atypia and necrosis. However, a definitive Weiss score cannot be calculated as mitotic count, atypical mitoses, and clear evidence of capsular/vascular invasion are not assessable from H&E ROI evidence.
 
 Final Summary:
-The morphologic features are consistent with high-grade urothelial carcinoma. The differential diagnosis includes small cell carcinoma of the bladder and metastatic carcinoma. Confirmation of urothelial lineage and exclusion of neuroendocrine differentiation require immunohistochemical studies. Clinical correlation regarding prior treatments (e.g., BCG therapy) is recommended.
+The histologic features are consistent with Adrenocortical Carcinoma. The tumor is composed of atypical adrenocortical cells with necrosis. While the morphology supports a malignant diagnosis, the absence of a complete Weiss score assessment (specifically mitotic count and vascular invasion) and lack of immunohistochemical confirmation limits the precision of the grading. Differential diagnoses such as metastatic renal cell carcinoma or hepatocellular carcinoma should be excluded with appropriate clinical correlation and immunohistochemistry.

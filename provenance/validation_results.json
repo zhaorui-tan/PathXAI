@@ -1,40 +1,44 @@
 {
-  "schema": "pathxai-tutorial-validation-v4",
+  "schema": "pathxai-tutorial-validation-v5",
   "date": "2026-11-05",
-  "case_id": "TCGA-FD-A5BS",
+  "case_id": "TCGA-OR-A5LL",
   "sample_manifest": "configs/sample_tcga.json",
-  "slide_count": 2,
-  "sample_bytes": 2623173488,
+  "slide_count": 6,
+  "sample_bytes": 11156338264,
   "reference_diagnosis_supplied_to_inference": false,
   "clean_install_tested": false,
   "runs": [
     {
       "version": "SO1",
       "execution_status": "passed",
-      "notebook_seconds": 690.1070325374603,
-      "pipeline_seconds": 614.1883167320048,
-      "input_slide_count": 2,
+      "execution_method": "tutorial Python API",
+      "report_seconds": 545.5302631855011,
+      "pipeline_seconds": 528.1614207520033,
+      "input_slide_count": 6,
       "candidate_count": 20,
       "selected_rois": 6,
-      "displayed_wsi_count": 2,
+      "displayed_wsi_count": 3,
       "masks_available": true,
       "pipeline_errors": [],
-      "report_text_sha256": "1db1c6a58c72b8f1160f514ae46ebd58b502d5738cf679950d86f0dff3e3e0ff",
-      "source_report_html_sha256": "e68f5b9dcc690374cf14ba000421becb93a6143e171584cd1134b9782c7dd5a7"
+      "report_text_sha256": "a7458b298a19e72aae6547fb9d0b6df088265814851df2869dbb89ff5454bbc3",
+      "source_report_html_sha256": "2980c149a735d4928d0dc31639ac29dd268f0b471371819c646b5742339d7db2",
+      "recorded_run_notebook_executed": true
     },
     {
       "version": "SO4",
       "execution_status": "passed",
-      "notebook_seconds": 682.4977293014526,
-      "pipeline_seconds": 548.4459334909916,
-      "input_slide_count": 2,
+      "execution_method": "tutorial Python API",
+      "report_seconds": 513.284795999527,
+      "pipeline_seconds": 510.5886618090153,
+      "input_slide_count": 6,
       "candidate_count": 20,
       "selected_rois": 6,
       "displayed_wsi_count": 2,
       "masks_available": true,
       "pipeline_errors": [],
-      "report_text_sha256": "0ccd9b80ae0c4ff8b0c15444898b12530a1e4bb4e6c8c572bb7341e0c62b5886",
-      "source_report_html_sha256": "8cb0f5677945897f2cef91bb8211e286bab42e76db40ad46ae3012be1a1f6c66"
+      "report_text_sha256": "839f80c82770a5936d975d06a61f9d68c4c092b94810314bb9b82180faf48aaa",
+      "source_report_html_sha256": "9fa6277622d49b8f155258e572e54198a4bc7cd57eb76aef40eb7561873913aa",
+      "recorded_run_notebook_executed": true
     }
   ],
   "candidate_reconstruction": {
@@ -43,6 +47,7 @@
     "manifest": "configs/sample_candidates.json"
   },
   "d1_hf_revision": "abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
+  "fresh_hf_download_verified": true,
   "refined_checkpoint_identity": {
     "repo_id": "RayTan/PathXAI-Seg",
     "revision": "abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
@@ -52,15 +57,5 @@
     "source_lineage": "medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue",
     "url": "https://huggingface.co/RayTan/PathXAI-Seg/commit/abfe61cb8e6e916b7226fd9dba077ef95ee9ee4f",
     "gated": "manual"
-  },
-  "hf_refined_adapter_parity": {
-    "passed": true,
-    "scope": "one uncached ROI; full refined checkpoint versus freshly downloaded HF adapter"
-  },
-  "delivery_tests": {
-    "passed": 14,
-    "failed": 0,
-    "errors": 0,
-    "tests_run": 14
   }
 }

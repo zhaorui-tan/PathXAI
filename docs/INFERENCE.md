@@ -1,6 +1,6 @@
 # Local inference guide
 
-The notebook runs a new WSI inference and exports a portable HTML report. This guide covers its model/API configuration, variant selection and outputs. Environment setup is in [INSTALLATION.md](INSTALLATION.md).
+The main `PathXAI_report.ipynb` notebook runs a new WSI inference and exports a portable HTML report. The SO1 and SO4 example notebooks are read-only recorded-run views with captured progress and reports; their inference was run through the same tutorial Python API, not inside those notebook cells. This guide covers model/API configuration, variant selection and outputs. Environment setup is in [INSTALLATION.md](INSTALLATION.md).
 
 ## Access and prerequisites
 
@@ -40,9 +40,9 @@ Alternatively, `PATHXAI_LOCAL_MODEL_CONFIG` can point to a local JSON file with 
 
 ## Run the sample
 
-The sample helper downloads both pinned source WSIs listed in `configs/sample_tcga.json` for TCGA-FD-A5BS, whose known site is bladder / urothelial tissue: one DX1 slide and one TSB slide, totaling 2,623,173,488 bytes (about 2.44 GiB). The GDC inventory matches these two slides, with none excluded. Each slide is checked against pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper searches that directory for both pinned filenames and verifies the slides.
+The sample helper downloads all six pinned source WSIs listed in `configs/sample_tcga.json` for TCGA-OR-A5LL, whose known site is adrenal gland / adrenocortical tissue: DX1–DX5 and TS1, totaling 11,156,338,264 bytes (about 10.39 GiB). The GDC inventory matches these six slides, with none excluded. Each slide is checked against pinned GDC metadata, file size, MD5 and SHA-256; interrupted downloads can resume. `download_patient(data_dir, existing_dir=None)` returns the verified slide paths. When `PATHXAI_SAMPLE_DIR` is set, the helper searches that directory for all six pinned filenames and verifies the slides.
 
-`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes both pinned slides and the known anatomical site to one `run_report(...)` call, producing one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
+`sample_metadata()` exposes the patient information at the top level, including `case_id`, `known_site` and the pinned `slides` list. The notebook passes all six pinned slides and the known anatomical site to one `run_report(...)` call, producing one patient-level report. An incomplete or mismatched slide set must stop before inference; it must not silently fall back to fewer slides.
 
 The sample uses `prepare_sample_candidates(slides, output_dir)` to reconstruct the 20 pinned candidate crops in `configs/sample_candidates.json`. Their coordinates, order and pixel hashes are checked before inference. Pass the returned list as `candidate_rois` and preserve the sample's `known_site_source` marker from its manifest.
 

@@ -14,7 +14,7 @@ python3 scripts/fetch_medsam_source.py
 
 The script obtains the pinned upstream MedSAM3 source and applies the two tutorial patches needed by this runtime. It uses Python's standard library and network access; it does not install packages, fetch model weights, require a GPU, or change the frozen scientific snapshot. The fetched files and patch provenance are recorded in `provenance/external_medsam_source.json`. See [third-party notices](THIRD_PARTY_NOTICES.md) for licensing context.
 
-Allow at least 2,623,173,488 bytes (about 2.44 GiB) for both pinned TCGA-FD-A5BS source WSIs: one DX1 slide and one TSB slide from bladder / urothelial tissue. The GDC inventory matches these two slides, with none excluded. Reserve additional space for resumable partial downloads, derived tiles/caches, models and inference outputs. Keep temporary and output storage on a volume with sufficient free space before starting a run.
+Allow at least 11,156,338,264 bytes (about 10.39 GiB) for all six pinned TCGA-OR-A5LL source WSIs from adrenal gland / adrenocortical tissue: DX1–DX5 and TS1. The GDC inventory matches these six slides, with none excluded. Reserve additional space for resumable partial downloads, derived tiles/caches, models and inference outputs. Keep temporary and output storage on a volume with sufficient free space before starting a run.
 
 ## Python 3.10 notebook and pipeline environment
 

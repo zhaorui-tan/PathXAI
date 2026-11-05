@@ -23,6 +23,7 @@ def main():
     for name in ("so1_run", "so1_notebook", "so4_run", "so4_notebook"):
         p.add_argument("--" + name.replace("_", "-"), type=Path, required=True)
     p.add_argument("--output", type=Path, default=ROOT / "examples")
+    p.add_argument("--notebook-kind", choices=("inference", "recorded-run"), default="inference")
     args = p.parse_args()
     out = args.output.resolve()
     if out.exists() and any(out.iterdir()):
@@ -54,6 +55,14 @@ def main():
             raise ValueError("The source HTML changed after its export audit")
         dest = out / version
         dest.mkdir()
+        if args.notebook_kind == "recorded-run":
+            record_path = run / "public_run_record.json"
+            record = json.loads(record_path.read_text())
+            if record.get("case_id") != case or record.get("version") != version:
+                raise ValueError("Recorded notebook source does not match this run")
+            if record.get("report_text_sha256") != sha(run / "cases" / case / "generated_long_report.txt"):
+                raise ValueError("Recorded notebook report checksum differs from this run")
+            shutil.copyfile(record_path, dest / "run_record.json")
         for asset in (source / "assets").iterdir():
             if not asset.is_file() or asset.is_symlink():
                 raise ValueError("Unexpected source asset type")
@@ -141,14 +150,17 @@ def main():
                 else:
                     outputs.append(value)
             cell["outputs"] = outputs
-        header = f"""# Completed {version} example
+        recording_label = "Recorded inference run" if args.notebook_kind == "recorded-run" else "Recorded notebook execution"
+        recording_note = ("This notebook displays the saved progress and report from an execution of the tutorial Python API. "
+                          "Use the main tutorial notebook to run new inference.\n\n") if args.notebook_kind == "recorded-run" else ""
+        header = f"""# {version} recorded example
 
-Recorded notebook execution for **{case}**, dated {run_date}.
+{recording_label} for **{case}**, dated {run_date}.
 Version: **{version}**; refined D1 segmentation with separately obtained SAM3 base weights;
 vision model: **Qwen3.6-27B-Q6_K**. The run used {len(slide_names)} checksum-verified source slides
 and the pinned candidate ROIs. Anatomical site: **{known_site or 'not supplied'}**.
 
-Code cells, execution counts and outputs are retained. Machine-specific output paths are
+{recording_note}Code cells, execution counts and outputs are retained. Machine-specific output paths are
 normalized, and repeated progress lines are condensed for display.
 
 [View HTML report](https://zhaorui-tan.github.io/PathXAI/{version}/report.html) · [Report text](../{version}/generated_long_report.txt) ·
@@ -159,7 +171,7 @@ normalized, and repeated progress lines are condensed for display.
         nb["cells"].append({"cell_type":"markdown", "id":f"saved-report-{version.lower()}",
                             "metadata":{}, "source":"## Saved generated report\n\nThe following text was copied from this run's `generated_long_report.txt`.\n\n```text\n" + report_text.read_text().rstrip() + "\n```\n"})
         nb["metadata"]["pathxai_example"] = {
-            "version":version, "case_id":case, "source_executed_notebook_sha256":sha(notebook),
+            "version":version, "case_id":case, "notebook_kind":args.notebook_kind, "source_executed_notebook_sha256":sha(notebook),
             "report_text_sha256":sha(report_text), "removed_heartbeat_lines":removed_heartbeats,
             "removed_progress_updates":removed_progress_updates,
             "status":"executed_successfully", "source_execution_counts":original_counts,
@@ -168,7 +180,7 @@ normalized, and repeated progress lines are condensed for display.
         notebook_dest = out / "notebooks" / f"{version}_completed.ipynb"
         nbformat.write(nbformat.from_dict(nb), notebook_dest)
         nbformat.validate(nbformat.read(notebook_dest, as_version=4))
-        entries.append({"version":version, "case_id":case,
+        entries.append({"version":version, "case_id":case, "notebook_kind":args.notebook_kind,
                         "slide_names":slide_names, "known_site":known_site,
                         "source_executed_notebook_sha256":sha(notebook),
                         "source_report_html_sha256":sha(page),
