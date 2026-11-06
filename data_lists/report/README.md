@@ -4,15 +4,15 @@ These are the **final public case lists used in the manuscript**.
 
 | Analysis group | Cases | TCGA projects | Listed source WSIs |
 | --- | --- | --- | --- |
-| [Public development subset](public_development456.txt) | 456 | 27 | 934 |
+| [Public development subset](public_development456.txt) | 456 | 27 | 937 |
 | [Public evaluation cohort](public_evaluation1200.txt) | 1,200 | 22 | 3,121 |
-| Combined, disjoint cases | 1,656 | Projects overlap across groups | 4,055 |
+| Combined, disjoint cases | 1,656 | Projects overlap across groups | 4,058 |
 
 The 456-case subset was used for method development and component comparisons. The 1,200-case cohort supplies the primary public evaluation. Group membership is fixed independently of an individual method's output availability; metric-specific reference applicability can give smaller denominators. SO1/Core and SO4/Full use these same case definitions.
 
 [patients.csv](patients.csv) has one row per included case; [slides.csv](slides.csv) lists the corresponding source WSI associations; [project_counts.csv](project_counts.csv) gives group-by-project counts. The technically unusable case TCGA-AA-3939 is excluded from every final list. The older development and screening inventories are not part of this release.
 
-For the development subset, case-associated slides were recovered from the public WsiCaption source manifest; `in_frozen_roi_candidates` identifies which slides were represented among the saved ROI candidates. For the evaluation cohort, `recorded_primary_slide` identifies the preferred WSI in the patient manifest. `source_slide_count` counts the associations actually listed here. A listed slide need not have contributed an ROI to every report. DX, TS and other source slide types are retained.
+For the development subset, case-associated slides were recovered from the public WsiCaption source manifest and the saved GDC metadata for additional PRISM2 source slides; `in_frozen_roi_candidates` identifies which slides were represented among the saved ROI candidates. For the evaluation cohort, `recorded_primary_slide` identifies the preferred WSI in the patient manifest. `source_slide_count` counts the associations actually listed here. A listed slide need not have contributed an ROI to every report. DX, TS and other source slide types are retained.
 
 ## Obtaining the data
 

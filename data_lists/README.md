@@ -4,7 +4,7 @@ The lists are separated into **[report](report/README.md)** and **[seg](seg/READ
 
 | Collection | Coverage | Start here |
 | --- | --- | --- |
-| Final report cohorts | 456 development + 1,200 evaluation cases; 4,055 listed source WSIs | [Patients](report/patients.csv), [slides](report/slides.csv), [final inclusion lists](report/README.md) |
+| Final report cohorts | 456 development + 1,200 evaluation cases; 4,058 listed source WSIs | [Patients](report/patients.csv), [slides](report/slides.csv), [final inclusion lists](report/README.md) |
 | Segmentation source pools | 24 datasets; 360,122 training-pool and 90,040 held-out entries | [Counts](seg/counts.csv), [train](seg/train_pool/), [held-out](seg/heldout_pool/) |
 | Segmentation evaluation | 124 internal images; 11,016 external image/ROI entries; 2,539 AGGC windows from 73 specimens | [Internal](seg/test_internal.csv), [external](seg/test_external.csv), [AGGC](seg/aggc_windows.csv) |
 | Supplemental segmentation evaluation | 9,800 CAMELYON16 windows from 49 slides | [Window list](seg/supplemental_camelyon16_windows.csv) |
@@ -23,4 +23,4 @@ Private clinical cohorts are outside these public lists. The local tutorial exam
 python3 scripts/audit_data_lists.py
 ```
 
-The publisher's [export script](../scripts/export_public_data_lists.py) reconstructs the identifier lists from the archived project and segmentation trees. Its inputs include the final inclusion CSV and are supplied explicitly; it does not load models or modify source data. Readers do not need those internal source trees to use the released CSV/TXT lists. Report labels in the lists are cohort metadata, not diagnostic inputs to inference.
+The publisher's [export script](../scripts/export_public_data_lists.py) reconstructs the identifier lists from the archived project and segmentation trees. Its inputs include the final inclusion CSV and supplemental PRISM2 input JSONs (`--supplemental-report-inputs`), supplied explicitly; it does not load models or modify source data. Readers do not need those internal source trees to use the released CSV/TXT lists. Report labels in the lists are cohort metadata, not diagnostic inputs to inference.

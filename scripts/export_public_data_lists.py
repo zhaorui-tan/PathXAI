@@ -50,6 +50,8 @@ def main():
     parser.add_argument("--project-root", type=Path, required=True)
     parser.add_argument("--seg-root", type=Path, required=True)
     parser.add_argument("--report-inventory", type=Path, required=True)
+    parser.add_argument("--supplemental-report-inputs", type=Path, nargs="*", default=[],
+                        help="Saved PRISM2 input JSONs containing recovered_input and gdc_metadata")
     parser.add_argument("--source-links", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--final-report-cases", type=Path, required=True,
@@ -80,6 +82,15 @@ def main():
     assert len(original) == 456 and len(expansion) == 1200
     assert all(included[r["case_id"]] == "public_development456" for r in original)
     assert all(included[r["case_id"]] == "public_evaluation1200" for r in expansion)
+    for path in args.supplemental_report_inputs:
+        supplemental = json.loads(path.read_text())
+        recovered = supplemental["recovered_input"]
+        case = recovered["case_id"]
+        slide = recovered["slide_path"]
+        assert included[case] == "public_development456"
+        assert Path(slide).name == supplemental["gdc_metadata"]["file_name"]
+        inventory[case]["metadata"]["slide_paths"].append(slide)
+        source(path, args.project_root, "report_supplemental_gdc_metadata")
     for name in ("original508_development.txt", "new1200_confirmation.txt",
                  "source_inventory_patients.csv", "source_inventory_slides.csv"):
         (out / "report" / name).unlink(missing_ok=True)
@@ -118,7 +129,7 @@ def main():
         p = out / "report" / (cohort + ".txt")
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text("\n".join(sorted(r["case_id"] for r in records)) + "\n")
-    assert len(slides) == 4055
+    assert len(slides) == 4058
     write_csv(out / "report/patients.csv", patients, list(patients[0]))
     write_csv(out / "report/slides.csv", slides, list(slides[0]))
     project_counts = Counter((r["cohort"], r["project_id"]) for r in patients)

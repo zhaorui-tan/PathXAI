@@ -35,7 +35,7 @@ def report_checks():
         require(len(values) == len(set(values)) == expected[cohort], "Duplicate or incorrect list length")
         require(set(values) == {r["case_id"] for r in patients if r["cohort"] == cohort}, "TXT/CSV membership differs")
     slides = table("report/slides.csv")
-    require(len(slides) == len({r["gdc_file_id"] for r in slides}) == 4055, "Listed WSI count/uniqueness differs")
+    require(len(slides) == len({r["gdc_file_id"] for r in slides}) == 4058, "Listed WSI count/uniqueness differs")
     require({r["case_id"] for r in slides} == ids, "WSI case coverage differs")
     require(sum(r["in_frozen_roi_candidates"] == "1" for r in slides) == 745, "Development candidate-slide count differs")
     require(sum(r["recorded_primary_slide"] == "1" for r in slides) == 1200, "Evaluation primary-slide count differs")

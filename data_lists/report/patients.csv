@@ -193,7 +193,7 @@ public_development456,TCGA-AG-3885,TCGA-READ,1,1
 public_development456,TCGA-AG-3890,TCGA-READ,2,2
 public_development456,TCGA-AG-3891,TCGA-READ,2,2
 public_development456,TCGA-AG-3902,TCGA-READ,1,1
-public_development456,TCGA-AG-4009,TCGA-READ,1,1
+public_development456,TCGA-AG-4009,TCGA-READ,2,1
 public_development456,TCGA-AG-A00H,TCGA-READ,1,1
 public_development456,TCGA-AP-A051,TCGA-UCEC,2,2
 public_development456,TCGA-AP-A053,TCGA-UCEC,2,2
@@ -238,7 +238,7 @@ public_development456,TCGA-BJ-A28X,TCGA-THCA,2,2
 public_development456,TCGA-BJ-A3EZ,TCGA-THCA,1,1
 public_development456,TCGA-BJ-A45G,TCGA-THCA,1,1
 public_development456,TCGA-BR-4184,TCGA-STAD,3,2
-public_development456,TCGA-BR-4188,TCGA-STAD,2,2
+public_development456,TCGA-BR-4188,TCGA-STAD,3,2
 public_development456,TCGA-BR-4279,TCGA-STAD,3,1
 public_development456,TCGA-BR-6456,TCGA-STAD,1,1
 public_development456,TCGA-BR-7957,TCGA-STAD,1,1
@@ -274,7 +274,7 @@ public_development456,TCGA-CS-4942,TCGA-LGG,1,1
 public_development456,TCGA-CS-4943,TCGA-LGG,1,1
 public_development456,TCGA-CS-4944,TCGA-LGG,1,1
 public_development456,TCGA-CS-5390,TCGA-LGG,1,1
-public_development456,TCGA-CS-5393,TCGA-LGG,1,1
+public_development456,TCGA-CS-5393,TCGA-LGG,2,1
 public_development456,TCGA-CS-5394,TCGA-LGG,1,1
 public_development456,TCGA-CS-5396,TCGA-LGG,2,2
 public_development456,TCGA-CS-5397,TCGA-LGG,2,2

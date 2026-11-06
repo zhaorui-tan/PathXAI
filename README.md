@@ -42,7 +42,7 @@ The notebooks supply the known anatomical site from the pinned sample metadata. 
 
 ## Evaluation and human scoring
 
-The **[report data lists](data_lists/report/README.md)** contain the final **456 development cases and 1,200 public evaluation cases**, with 4,055 listed source WSI associations. The **[segmentation lists](data_lists/seg/README.md)** include all 24 recorded dataset split pools, fixed validation subsets, internal/external evaluation and supplemental window IDs. Dataset sources, counts, provenance limits and checksums accompany the lists. Raw datasets are obtained from their original providers.
+The **[report data lists](data_lists/report/README.md)** contain the final **456 development cases and 1,200 public evaluation cases**, with 4,058 listed source WSI associations. The **[segmentation lists](data_lists/seg/README.md)** include all 24 recorded dataset split pools, fixed validation subsets, internal/external evaluation and supplemental window IDs. Dataset sources, counts, provenance limits and checksums accompany the lists. Raw datasets are obtained from their original providers.
 
 The evaluator matches the current manuscript version; its source hashes are pinned in [evaluation/version.json](evaluation/version.json). Automatic evaluation requires an independent reference for the same case; it is separate from inference and is skipped by default in the notebook. See [EVALUATION.md](docs/EVALUATION.md) for metrics and limitations. The two local scoring apps support clinician review and blinded report comparison. Their annotations are physician/user scores; they must not be confused with automatic evaluator metrics.
 

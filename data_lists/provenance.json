@@ -4,12 +4,12 @@
     {
       "cohort": "public_development456",
       "patients": 456,
-      "slides": 934,
+      "slides": 937,
       "projects": 27,
       "slide_types": {
-        "other": 155,
+        "other": 157,
         "TS": 374,
-        "DX": 405
+        "DX": 406
       }
     },
     {
@@ -371,6 +371,24 @@
       "source": "baseline_experiments/medsam3/medsam3_d1_refined/d1_final/run_20260804_140335_stage3_tissue/test_results/external_wsi_best_model_d1_final_20260804_221602_CAMELYON16_WSI_win200_stride2048/test_seg_per_image_nocond.csv",
       "bytes": 2028728,
       "sha256": "b19480d8c252fdcdb2210d710de5284a161c8c48ece4dab905d31380567ad025"
+    },
+    {
+      "collection": "report_supplemental_gdc_metadata",
+      "source": "PathXAI_Seg2Report/results/prism2_baseline/run_20260907_prism2_physical_v031/recovery_20260914_gdc_tumor_slides/TCGA-AG-4009_input_recovery.json",
+      "bytes": 1728,
+      "sha256": "d174b4eaca99b33d16e8729e96a997a6e1399d1d3088b6cc3004b034beb8f891"
+    },
+    {
+      "collection": "report_supplemental_gdc_metadata",
+      "source": "PathXAI_Seg2Report/results/prism2_baseline/run_20260907_prism2_physical_v031/recovery_20260914_gdc_tumor_slides/TCGA-BR-4188_input_recovery.json",
+      "bytes": 1731,
+      "sha256": "737bf0632d56e8fb9b18e0409e9681b6ffd1221b0c7f191fe4202e331c499bb4"
+    },
+    {
+      "collection": "report_supplemental_gdc_metadata",
+      "source": "PathXAI_Seg2Report/results/prism2_baseline/run_20260907_prism2_physical_v031/recovery_20260914_gdc_tumor_slides/TCGA-CS-5393_input_recovery.json",
+      "bytes": 1720,
+      "sha256": "e4810d98f0363d8e90d9dd09ad564caa098398b477bbdf3100dd2b88641e9319"
     }
   ],
   "report_membership": {
@@ -386,12 +404,10 @@
     "slide_associations": {
       "source_commit": "45c6ff3fea4fdf2fd05a8293471540265ceb21cd",
       "source_git_blob": "afe602613781f6d42ec9ce584f51a5dab1d84b8e",
-      "selection": "Filter source WSI associations by final included case IDs.",
-      "listed_slides": 4055,
-      "scope": "Recoverable source WSI associations for final included cases",
-      "manuscript_aggregate_associations": 4058,
-      "unreconciled_associations": 3,
-      "reconciliation_note": "The development aggregate contains three additional associations; the corresponding per-case source inventory is unavailable in this release. Final patient membership is complete."
+      "selection": "Filter source WSI associations by final included case IDs and include additional PRISM2 source slides from saved GDC metadata.",
+      "listed_slides": 4058,
+      "scope": "Source WSI associations for final included cases",
+      "manuscript_aggregate_associations": 4058
     }
   }
 }
