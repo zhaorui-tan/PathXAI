@@ -12,6 +12,9 @@ This package contains materials from multiple sources. A model-card license does
 | KEEP resources | Downloaded from the original gated `Loie/KEEP_dataset` repository for PathXAI. No KEEP dataset files are redistributed here. |
 | TCGA sample WSI | Obtained by the reader directly from NCI GDC using the recorded open-access file UUID. The image is not in the code package or D1 model bundle. |
 
-PathXAI's original code and adaptations remain subject to their owners' rights. This preparation does not assign a new blanket license to all code. The D1 model bundle includes the SAM License; it does not implement an additional academic-only/noncommercial restriction. A proposed restrictive-license draft is kept outside the upload bundle and is not effective licensing text.
+Original PathXAI code is licensed under [CC BY-NC 4.0](../LICENSE). This grant covers the rights in PathXAI's original code that its authors are entitled to license. Upstream materials, adaptations governed by upstream terms, datasets and externally sourced assets retain their applicable licenses and notices.
+
+Model checkpoints are outside the scope of the original-code license. The published D1 model bundle retains its SAM License, which requires distributed SAM Materials and their derivatives to remain subject to that agreement. No CC BY-NC restriction is added to the D1 checkpoint by this code release. SAM3 and CONCH base weights must be obtained separately under their providers' terms.
 
 Official sources: [SAM3 license](https://huggingface.co/facebook/sam3/blob/main/LICENSE), [MedSAM3 source](https://github.com/Joey-S-Liu/MedSAM3), [CONCH](https://huggingface.co/MahmoodLab/conch), [KEEP](https://huggingface.co/datasets/Loie/KEEP_dataset), [GDC downloads](https://docs.gdc.cancer.gov/API/Users_Guide/Downloading_Files/).
+

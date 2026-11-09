@@ -53,5 +53,12 @@ See [VALIDATION.md](docs/VALIDATION.md) for the current checks, their scope and 
 
 Source identities and runtime records are described in [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md). See [third-party notices](docs/THIRD_PARTY_NOTICES.md) for upstream code and model notices; using the MedSAM3 source does not grant additional rights to that upstream code.
 
+## License
+
+Original PathXAI code is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](LICENSE). It permits non-commercial use, modification and redistribution with attribution and an indication of changes; commercial use requires separate permission from the relevant rights holders.
+
+This license applies to PathXAI's original code. Third-party code and adaptations subject to upstream terms, model checkpoints, datasets and externally sourced assets retain their respective licenses and access conditions. In particular, the published D1 adapter bundle retains its [SAM License](model_release/upload_ready/LICENSE); the code license does not relicense those weights. See [third-party notices](docs/THIRD_PARTY_NOTICES.md).
+
 PathXAI is research software, not a medical device or a clinical diagnostic service.
+
 
