@@ -7,20 +7,22 @@ The workflow uses a local notebook and two local Python environments. It does no
 
 ## Review the committed example artifacts
 
-The repository includes executed inference notebooks for PathXAI(core) and PathXAI on TCGA-OR-A5LL. The main [PathXAI_report.ipynb](PathXAI_report.ipynb) contains the executed PathXAI (SO4) workflow and its outputs; the completed notebooks preserve the corresponding SO1 and SO4 executions. They can be read without installing anything or obtaining model access.
+Open the executed notebooks, generated reports and step-by-step execution trajectories directly from the table below. **TCGA-OR-A5LL** is the notebook/report example; **TCGA-OR-A5JI** provides trajectories for an existing development case, and **TCGA-08-0516** provides trajectories for a randomly selected GDC case. No installation or model access is needed to read them.
 
-| Version | Executed inference notebook, viewable on GitHub | Generated report |
+| Case | Version | Direct links |
 | --- | --- | --- |
-| PathXAI(core) | [Executed PathXAI(core) inference notebook](examples/notebooks/SO1_completed.ipynb) | [View PathXAI(core) report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
-| PathXAI | [Executed PathXAI inference notebook](PathXAI_report.ipynb) | [View PathXAI report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
+| TCGA-OR-A5LL | PathXAI(core), SO1 | [Executed notebook](examples/notebooks/SO1_completed.ipynb) · [Open report](https://zhaorui-tan.github.io/PathXAI/SO1/report.html) |
+| TCGA-OR-A5LL | PathXAI, SO4/Full | [Executed notebook](PathXAI_report.ipynb) · [Open report](https://zhaorui-tan.github.io/PathXAI/SO4/report.html) |
+| TCGA-OR-A5JI | PathXAI(core), SO1 | **[Open Core trajectory — 22 calls](https://zhaorui-tan.github.io/PathXAI/traces/TCGA-OR-A5JI_SO1.html)** |
+| TCGA-OR-A5JI | PathXAI, SO4/Full | **[Open Full trajectory — 22 calls](https://zhaorui-tan.github.io/PathXAI/traces/TCGA-OR-A5JI_SO4.html)** |
+| TCGA-08-0516 | PathXAI(core), SO1 | **[Open Core trajectory — 22 calls](https://zhaorui-tan.github.io/PathXAI/traces/TCGA-08-0516_SO1.html)** |
+| TCGA-08-0516 | PathXAI, SO4/Full | **[Open Full trajectory — 33 calls](https://zhaorui-tan.github.io/PathXAI/traces/TCGA-08-0516_SO4.html)** |
 
-The linked notebooks execute PathXAI(core) and PathXAI inference for TCGA-OR-A5LL, using refined D1 segmentation and the six pinned source slides. Their outputs include the generated report location and run evidence; each HTML report is linked to its run by the published provenance and checksums. Read the [execution summary](docs/RESULT_COMPARISON.md). **[Open the live report viewer](https://zhaorui-tan.github.io/PathXAI/)** to browse the reports. For offline viewing, download the full repository and open [`examples/index.html`](examples/index.html). [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md).
+**Trajectories:** Follow the diagnostic workflow call by call, with the input images, full prompts, model outputs and token usage. Thinking was disabled in these runs; the pages show the recorded workflow and generated explanations, with no internal reasoning text returned. [Trajectory overview](https://zhaorui-tan.github.io/PathXAI/traces/) · [Run settings and case-selection notes](examples/traces/README.md).
+
+**Notebook/report example:** The TCGA-OR-A5LL notebooks use refined D1 segmentation and six pinned source slides. The main [PathXAI_report.ipynb](PathXAI_report.ipynb) contains the executed SO4 workflow and its outputs; the completed notebooks preserve the SO1 and SO4 executions. Each HTML report is linked to its run by the published provenance and checksums. [Execution summary](docs/RESULT_COMPARISON.md) · [All examples](https://zhaorui-tan.github.io/PathXAI/) · [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md). For offline viewing, download the repository and open [`examples/index.html`](examples/index.html).
 
 **Qwen output variability:** Report wording and details may vary with the Qwen model version, deployment configuration and sampling parameters. Repeated runs may produce different outputs even with the same input slides.
-
-### Recorded execution trajectories
-
-[Browse four additional trajectories](https://zhaorui-tan.github.io/PathXAI/traces/) for TCGA-OR-A5JI (an existing development case) and TCGA-08-0516 (a randomly selected GDC case), each with SO1/Core and SO4/Full runs. The pages show input images, prompts, model outputs and token usage for each call. See [run settings and selection notes](examples/traces/README.md). Thinking was disabled; no internal reasoning text was returned.
 
 ## Quick start
 
@@ -64,6 +66,7 @@ Original PathXAI code is licensed under the [Creative Commons Attribution-NonCom
 This license applies to PathXAI's original code. Third-party code and adaptations subject to upstream terms, model checkpoints, datasets and externally sourced assets retain their respective licenses and access conditions. In particular, the published D1 adapter bundle retains its [SAM License](model_release/upload_ready/LICENSE); the code license does not relicense those weights. See [third-party notices](docs/THIRD_PARTY_NOTICES.md).
 
 PathXAI is research software, not a medical device or a clinical diagnostic service.
+
 
 
 
