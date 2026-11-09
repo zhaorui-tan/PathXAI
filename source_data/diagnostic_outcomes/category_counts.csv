@@ -1,0 +1,401 @@
+scope,method,category,cases
+public_evaluation,Visual + Qwen,matched,356
+public_evaluation,Visual + Qwen,asserted_nonspecific,97
+public_evaluation,Visual + Qwen,asserted_different_entity,128
+public_evaluation,Visual + Qwen,uncertain,8
+public_evaluation,Visual + Qwen,conflict,4
+public_evaluation,Visual + Qwen,organ_conflict,0
+public_evaluation,Visual + Qwen,unrecognized,11
+public_evaluation,Visual + Qwen,negated,0
+public_evaluation,Visual + Qwen,no_reference_specific_assertion,402
+public_evaluation,Visual + Qwen,no_reference_other,194
+public_evaluation,DeepSeek,matched,364
+public_evaluation,DeepSeek,asserted_nonspecific,26
+public_evaluation,DeepSeek,asserted_different_entity,166
+public_evaluation,DeepSeek,uncertain,10
+public_evaluation,DeepSeek,conflict,11
+public_evaluation,DeepSeek,organ_conflict,1
+public_evaluation,DeepSeek,unrecognized,26
+public_evaluation,DeepSeek,negated,0
+public_evaluation,DeepSeek,no_reference_specific_assertion,493
+public_evaluation,DeepSeek,no_reference_other,103
+public_evaluation,GLM,matched,338
+public_evaluation,GLM,asserted_nonspecific,101
+public_evaluation,GLM,asserted_different_entity,76
+public_evaluation,GLM,uncertain,30
+public_evaluation,GLM,conflict,23
+public_evaluation,GLM,organ_conflict,0
+public_evaluation,GLM,unrecognized,36
+public_evaluation,GLM,negated,0
+public_evaluation,GLM,no_reference_specific_assertion,350
+public_evaluation,GLM,no_reference_other,246
+public_evaluation,Visual + MedGemma,matched,37
+public_evaluation,Visual + MedGemma,asserted_nonspecific,394
+public_evaluation,Visual + MedGemma,asserted_different_entity,10
+public_evaluation,Visual + MedGemma,uncertain,3
+public_evaluation,Visual + MedGemma,conflict,0
+public_evaluation,Visual + MedGemma,organ_conflict,1
+public_evaluation,Visual + MedGemma,unrecognized,159
+public_evaluation,Visual + MedGemma,negated,0
+public_evaluation,Visual + MedGemma,no_reference_specific_assertion,31
+public_evaluation,Visual + MedGemma,no_reference_other,565
+public_evaluation,PathAgent,matched,237
+public_evaluation,PathAgent,asserted_nonspecific,300
+public_evaluation,PathAgent,asserted_different_entity,59
+public_evaluation,PathAgent,uncertain,1
+public_evaluation,PathAgent,conflict,5
+public_evaluation,PathAgent,organ_conflict,0
+public_evaluation,PathAgent,unrecognized,2
+public_evaluation,PathAgent,negated,0
+public_evaluation,PathAgent,no_reference_specific_assertion,203
+public_evaluation,PathAgent,no_reference_other,393
+public_evaluation,PRISM2,matched,318
+public_evaluation,PRISM2,asserted_nonspecific,66
+public_evaluation,PRISM2,asserted_different_entity,50
+public_evaluation,PRISM2,uncertain,128
+public_evaluation,PRISM2,conflict,0
+public_evaluation,PRISM2,organ_conflict,7
+public_evaluation,PRISM2,unrecognized,35
+public_evaluation,PRISM2,negated,0
+public_evaluation,PRISM2,no_reference_specific_assertion,375
+public_evaluation,PRISM2,no_reference_other,221
+public_evaluation,SO1_D1,matched,351
+public_evaluation,SO1_D1,asserted_nonspecific,91
+public_evaluation,SO1_D1,asserted_different_entity,140
+public_evaluation,SO1_D1,uncertain,9
+public_evaluation,SO1_D1,conflict,4
+public_evaluation,SO1_D1,organ_conflict,0
+public_evaluation,SO1_D1,unrecognized,9
+public_evaluation,SO1_D1,negated,0
+public_evaluation,SO1_D1,no_reference_specific_assertion,425
+public_evaluation,SO1_D1,no_reference_other,171
+public_evaluation,SO4_D1,matched,376
+public_evaluation,SO4_D1,asserted_nonspecific,67
+public_evaluation,SO4_D1,asserted_different_entity,149
+public_evaluation,SO4_D1,uncertain,1
+public_evaluation,SO4_D1,conflict,6
+public_evaluation,SO4_D1,organ_conflict,0
+public_evaluation,SO4_D1,unrecognized,5
+public_evaluation,SO4_D1,negated,0
+public_evaluation,SO4_D1,no_reference_specific_assertion,474
+public_evaluation,SO4_D1,no_reference_other,122
+private_P1,Visual + Qwen,matched,73
+private_P1,Visual + Qwen,asserted_nonspecific,36
+private_P1,Visual + Qwen,asserted_different_entity,22
+private_P1,Visual + Qwen,uncertain,0
+private_P1,Visual + Qwen,conflict,0
+private_P1,Visual + Qwen,organ_conflict,0
+private_P1,Visual + Qwen,unrecognized,4
+private_P1,Visual + Qwen,negated,0
+private_P1,Visual + Qwen,no_reference_specific_assertion,10
+private_P1,Visual + Qwen,no_reference_other,6
+private_P1,DeepSeek,matched,81
+private_P1,DeepSeek,asserted_nonspecific,12
+private_P1,DeepSeek,asserted_different_entity,36
+private_P1,DeepSeek,uncertain,2
+private_P1,DeepSeek,conflict,0
+private_P1,DeepSeek,organ_conflict,0
+private_P1,DeepSeek,unrecognized,4
+private_P1,DeepSeek,negated,0
+private_P1,DeepSeek,no_reference_specific_assertion,12
+private_P1,DeepSeek,no_reference_other,4
+private_P1,GLM,matched,58
+private_P1,GLM,asserted_nonspecific,32
+private_P1,GLM,asserted_different_entity,26
+private_P1,GLM,uncertain,7
+private_P1,GLM,conflict,4
+private_P1,GLM,organ_conflict,0
+private_P1,GLM,unrecognized,6
+private_P1,GLM,negated,2
+private_P1,GLM,no_reference_specific_assertion,10
+private_P1,GLM,no_reference_other,6
+private_P1,Visual + MedGemma,matched,4
+private_P1,Visual + MedGemma,asserted_nonspecific,93
+private_P1,Visual + MedGemma,asserted_different_entity,2
+private_P1,Visual + MedGemma,uncertain,2
+private_P1,Visual + MedGemma,conflict,1
+private_P1,Visual + MedGemma,organ_conflict,0
+private_P1,Visual + MedGemma,unrecognized,33
+private_P1,Visual + MedGemma,negated,0
+private_P1,Visual + MedGemma,no_reference_specific_assertion,1
+private_P1,Visual + MedGemma,no_reference_other,15
+private_P1,PathAgent,matched,44
+private_P1,PathAgent,asserted_nonspecific,62
+private_P1,PathAgent,asserted_different_entity,16
+private_P1,PathAgent,uncertain,0
+private_P1,PathAgent,conflict,1
+private_P1,PathAgent,organ_conflict,0
+private_P1,PathAgent,unrecognized,12
+private_P1,PathAgent,negated,0
+private_P1,PathAgent,no_reference_specific_assertion,6
+private_P1,PathAgent,no_reference_other,10
+private_P1,PRISM2,matched,74
+private_P1,PRISM2,asserted_nonspecific,8
+private_P1,PRISM2,asserted_different_entity,48
+private_P1,PRISM2,uncertain,5
+private_P1,PRISM2,conflict,0
+private_P1,PRISM2,organ_conflict,0
+private_P1,PRISM2,unrecognized,0
+private_P1,PRISM2,negated,0
+private_P1,PRISM2,no_reference_specific_assertion,10
+private_P1,PRISM2,no_reference_other,6
+private_P1,HistGen,matched,7
+private_P1,HistGen,asserted_nonspecific,15
+private_P1,HistGen,asserted_different_entity,34
+private_P1,HistGen,uncertain,0
+private_P1,HistGen,conflict,6
+private_P1,HistGen,organ_conflict,47
+private_P1,HistGen,unrecognized,26
+private_P1,HistGen,negated,0
+private_P1,HistGen,no_reference_specific_assertion,4
+private_P1,HistGen,no_reference_other,12
+private_P1,HistoGPT,matched,0
+private_P1,HistoGPT,asserted_nonspecific,35
+private_P1,HistoGPT,asserted_different_entity,4
+private_P1,HistoGPT,uncertain,0
+private_P1,HistoGPT,conflict,0
+private_P1,HistoGPT,organ_conflict,0
+private_P1,HistoGPT,unrecognized,96
+private_P1,HistoGPT,negated,0
+private_P1,HistoGPT,no_reference_specific_assertion,0
+private_P1,HistoGPT,no_reference_other,16
+private_P1,SO1_D1,matched,78
+private_P1,SO1_D1,asserted_nonspecific,31
+private_P1,SO1_D1,asserted_different_entity,26
+private_P1,SO1_D1,uncertain,0
+private_P1,SO1_D1,conflict,0
+private_P1,SO1_D1,organ_conflict,0
+private_P1,SO1_D1,unrecognized,0
+private_P1,SO1_D1,negated,0
+private_P1,SO1_D1,no_reference_specific_assertion,14
+private_P1,SO1_D1,no_reference_other,2
+private_P1,SO4_D1,matched,91
+private_P1,SO4_D1,asserted_nonspecific,20
+private_P1,SO4_D1,asserted_different_entity,22
+private_P1,SO4_D1,uncertain,0
+private_P1,SO4_D1,conflict,0
+private_P1,SO4_D1,organ_conflict,2
+private_P1,SO4_D1,unrecognized,0
+private_P1,SO4_D1,negated,0
+private_P1,SO4_D1,no_reference_specific_assertion,13
+private_P1,SO4_D1,no_reference_other,3
+private_P2,Visual + Qwen,matched,74
+private_P2,Visual + Qwen,asserted_nonspecific,34
+private_P2,Visual + Qwen,asserted_different_entity,24
+private_P2,Visual + Qwen,uncertain,0
+private_P2,Visual + Qwen,conflict,0
+private_P2,Visual + Qwen,organ_conflict,0
+private_P2,Visual + Qwen,unrecognized,4
+private_P2,Visual + Qwen,negated,0
+private_P2,Visual + Qwen,no_reference_specific_assertion,7
+private_P2,Visual + Qwen,no_reference_other,8
+private_P2,DeepSeek,matched,76
+private_P2,DeepSeek,asserted_nonspecific,12
+private_P2,DeepSeek,asserted_different_entity,42
+private_P2,DeepSeek,uncertain,2
+private_P2,DeepSeek,conflict,0
+private_P2,DeepSeek,organ_conflict,0
+private_P2,DeepSeek,unrecognized,4
+private_P2,DeepSeek,negated,0
+private_P2,DeepSeek,no_reference_specific_assertion,11
+private_P2,DeepSeek,no_reference_other,4
+private_P2,GLM,matched,59
+private_P2,GLM,asserted_nonspecific,30
+private_P2,GLM,asserted_different_entity,27
+private_P2,GLM,uncertain,8
+private_P2,GLM,conflict,5
+private_P2,GLM,organ_conflict,0
+private_P2,GLM,unrecognized,6
+private_P2,GLM,negated,1
+private_P2,GLM,no_reference_specific_assertion,8
+private_P2,GLM,no_reference_other,7
+private_P2,Visual + MedGemma,matched,4
+private_P2,Visual + MedGemma,asserted_nonspecific,93
+private_P2,Visual + MedGemma,asserted_different_entity,3
+private_P2,Visual + MedGemma,uncertain,2
+private_P2,Visual + MedGemma,conflict,1
+private_P2,Visual + MedGemma,organ_conflict,0
+private_P2,Visual + MedGemma,unrecognized,33
+private_P2,Visual + MedGemma,negated,0
+private_P2,Visual + MedGemma,no_reference_specific_assertion,0
+private_P2,Visual + MedGemma,no_reference_other,15
+private_P2,PathAgent,matched,43
+private_P2,PathAgent,asserted_nonspecific,59
+private_P2,PathAgent,asserted_different_entity,19
+private_P2,PathAgent,uncertain,0
+private_P2,PathAgent,conflict,1
+private_P2,PathAgent,organ_conflict,0
+private_P2,PathAgent,unrecognized,14
+private_P2,PathAgent,negated,0
+private_P2,PathAgent,no_reference_specific_assertion,4
+private_P2,PathAgent,no_reference_other,11
+private_P2,PRISM2,matched,71
+private_P2,PRISM2,asserted_nonspecific,9
+private_P2,PRISM2,asserted_different_entity,48
+private_P2,PRISM2,uncertain,7
+private_P2,PRISM2,conflict,0
+private_P2,PRISM2,organ_conflict,0
+private_P2,PRISM2,unrecognized,1
+private_P2,PRISM2,negated,0
+private_P2,PRISM2,no_reference_specific_assertion,13
+private_P2,PRISM2,no_reference_other,2
+private_P2,HistGen,matched,7
+private_P2,HistGen,asserted_nonspecific,16
+private_P2,HistGen,asserted_different_entity,35
+private_P2,HistGen,uncertain,0
+private_P2,HistGen,conflict,6
+private_P2,HistGen,organ_conflict,46
+private_P2,HistGen,unrecognized,26
+private_P2,HistGen,negated,0
+private_P2,HistGen,no_reference_specific_assertion,3
+private_P2,HistGen,no_reference_other,12
+private_P2,HistoGPT,matched,0
+private_P2,HistoGPT,asserted_nonspecific,35
+private_P2,HistoGPT,asserted_different_entity,4
+private_P2,HistoGPT,uncertain,0
+private_P2,HistoGPT,conflict,0
+private_P2,HistoGPT,organ_conflict,0
+private_P2,HistoGPT,unrecognized,97
+private_P2,HistoGPT,negated,0
+private_P2,HistoGPT,no_reference_specific_assertion,0
+private_P2,HistoGPT,no_reference_other,15
+private_P2,SO1_D1,matched,76
+private_P2,SO1_D1,asserted_nonspecific,29
+private_P2,SO1_D1,asserted_different_entity,30
+private_P2,SO1_D1,uncertain,0
+private_P2,SO1_D1,conflict,0
+private_P2,SO1_D1,organ_conflict,0
+private_P2,SO1_D1,unrecognized,1
+private_P2,SO1_D1,negated,0
+private_P2,SO1_D1,no_reference_specific_assertion,12
+private_P2,SO1_D1,no_reference_other,3
+private_P2,SO4_D1,matched,92
+private_P2,SO4_D1,asserted_nonspecific,16
+private_P2,SO4_D1,asserted_different_entity,26
+private_P2,SO4_D1,uncertain,0
+private_P2,SO4_D1,conflict,0
+private_P2,SO4_D1,organ_conflict,2
+private_P2,SO4_D1,unrecognized,0
+private_P2,SO4_D1,negated,0
+private_P2,SO4_D1,no_reference_specific_assertion,8
+private_P2,SO4_D1,no_reference_other,7
+public_development,Visual + Qwen,matched,217
+public_development,Visual + Qwen,asserted_nonspecific,35
+public_development,Visual + Qwen,asserted_different_entity,73
+public_development,Visual + Qwen,uncertain,3
+public_development,Visual + Qwen,conflict,0
+public_development,Visual + Qwen,organ_conflict,0
+public_development,Visual + Qwen,unrecognized,24
+public_development,Visual + Qwen,negated,0
+public_development,Visual + Qwen,no_reference_specific_assertion,58
+public_development,Visual + Qwen,no_reference_other,46
+public_development,DeepSeek,matched,220
+public_development,DeepSeek,asserted_nonspecific,23
+public_development,DeepSeek,asserted_different_entity,71
+public_development,DeepSeek,uncertain,4
+public_development,DeepSeek,conflict,10
+public_development,DeepSeek,organ_conflict,1
+public_development,DeepSeek,unrecognized,23
+public_development,DeepSeek,negated,0
+public_development,DeepSeek,no_reference_specific_assertion,61
+public_development,DeepSeek,no_reference_other,43
+public_development,GLM,matched,164
+public_development,GLM,asserted_nonspecific,71
+public_development,GLM,asserted_different_entity,37
+public_development,GLM,uncertain,25
+public_development,GLM,conflict,12
+public_development,GLM,organ_conflict,0
+public_development,GLM,unrecognized,43
+public_development,GLM,negated,0
+public_development,GLM,no_reference_specific_assertion,45
+public_development,GLM,no_reference_other,59
+public_development,Visual + MedGemma,matched,13
+public_development,Visual + MedGemma,asserted_nonspecific,209
+public_development,Visual + MedGemma,asserted_different_entity,9
+public_development,Visual + MedGemma,uncertain,1
+public_development,Visual + MedGemma,conflict,0
+public_development,Visual + MedGemma,organ_conflict,1
+public_development,Visual + MedGemma,unrecognized,119
+public_development,Visual + MedGemma,negated,0
+public_development,Visual + MedGemma,no_reference_specific_assertion,9
+public_development,Visual + MedGemma,no_reference_other,95
+public_development,PathAgent,matched,84
+public_development,PathAgent,asserted_nonspecific,198
+public_development,PathAgent,asserted_different_entity,25
+public_development,PathAgent,uncertain,0
+public_development,PathAgent,conflict,4
+public_development,PathAgent,organ_conflict,0
+public_development,PathAgent,unrecognized,41
+public_development,PathAgent,negated,0
+public_development,PathAgent,no_reference_specific_assertion,12
+public_development,PathAgent,no_reference_other,92
+public_development,PRISM2,matched,173
+public_development,PRISM2,asserted_nonspecific,32
+public_development,PRISM2,asserted_different_entity,32
+public_development,PRISM2,uncertain,73
+public_development,PRISM2,conflict,2
+public_development,PRISM2,organ_conflict,4
+public_development,PRISM2,unrecognized,36
+public_development,PRISM2,negated,0
+public_development,PRISM2,no_reference_specific_assertion,40
+public_development,PRISM2,no_reference_other,64
+public_development,SO1_D1,matched,228
+public_development,SO1_D1,asserted_nonspecific,44
+public_development,SO1_D1,asserted_different_entity,61
+public_development,SO1_D1,uncertain,2
+public_development,SO1_D1,conflict,3
+public_development,SO1_D1,organ_conflict,1
+public_development,SO1_D1,unrecognized,13
+public_development,SO1_D1,negated,0
+public_development,SO1_D1,no_reference_specific_assertion,58
+public_development,SO1_D1,no_reference_other,46
+public_development,SO4_D1,matched,233
+public_development,SO4_D1,asserted_nonspecific,39
+public_development,SO4_D1,asserted_different_entity,63
+public_development,SO4_D1,uncertain,0
+public_development,SO4_D1,conflict,8
+public_development,SO4_D1,organ_conflict,1
+public_development,SO4_D1,unrecognized,8
+public_development,SO4_D1,negated,0
+public_development,SO4_D1,no_reference_specific_assertion,64
+public_development,SO4_D1,no_reference_other,40
+public_evaluation_native,HistGen,matched,31
+public_evaluation_native,HistGen,asserted_nonspecific,8
+public_evaluation_native,HistGen,asserted_different_entity,11
+public_evaluation_native,HistGen,uncertain,0
+public_evaluation_native,HistGen,conflict,3
+public_evaluation_native,HistGen,organ_conflict,15
+public_evaluation_native,HistGen,unrecognized,5
+public_evaluation_native,HistGen,negated,0
+public_evaluation_native,HistGen,no_reference_specific_assertion,64
+public_evaluation_native,HistGen,no_reference_other,78
+public_evaluation_native,HistoGPT,matched,1
+public_evaluation_native,HistoGPT,asserted_nonspecific,14
+public_evaluation_native,HistoGPT,asserted_different_entity,0
+public_evaluation_native,HistoGPT,uncertain,0
+public_evaluation_native,HistoGPT,conflict,0
+public_evaluation_native,HistoGPT,organ_conflict,0
+public_evaluation_native,HistoGPT,unrecognized,58
+public_evaluation_native,HistoGPT,negated,0
+public_evaluation_native,HistoGPT,no_reference_specific_assertion,10
+public_evaluation_native,HistoGPT,no_reference_other,132
+public_evaluation_native,SO1_D1,matched,43
+public_evaluation_native,SO1_D1,asserted_nonspecific,10
+public_evaluation_native,SO1_D1,asserted_different_entity,18
+public_evaluation_native,SO1_D1,uncertain,0
+public_evaluation_native,SO1_D1,conflict,1
+public_evaluation_native,SO1_D1,organ_conflict,0
+public_evaluation_native,SO1_D1,unrecognized,1
+public_evaluation_native,SO1_D1,negated,0
+public_evaluation_native,SO1_D1,no_reference_specific_assertion,110
+public_evaluation_native,SO1_D1,no_reference_other,32
+public_evaluation_native,SO4_D1,matched,46
+public_evaluation_native,SO4_D1,asserted_nonspecific,6
+public_evaluation_native,SO4_D1,asserted_different_entity,20
+public_evaluation_native,SO4_D1,uncertain,0
+public_evaluation_native,SO4_D1,conflict,1
+public_evaluation_native,SO4_D1,organ_conflict,0
+public_evaluation_native,SO4_D1,unrecognized,0
+public_evaluation_native,SO4_D1,negated,0
+public_evaluation_native,SO4_D1,no_reference_specific_assertion,120
+public_evaluation_native,SO4_D1,no_reference_other,22

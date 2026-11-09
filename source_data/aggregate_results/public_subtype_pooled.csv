@@ -1,0 +1,9 @@
+scope,method,metric,estimator,estimate,ci95_low,ci95_high,n_cases,n_cancers,ci_method,ci_status,bootstrap_replicates,bootstrap_seed,status
+public_pooled1708,Visual + Qwen,subtype,mean_of_metric_applicable_case_values,0.5993723849372385,0.5675197266988868,0.6306109501558059,956,28,clopper_pearson,available,0,,ok
+public_pooled1708,DeepSeek,subtype,mean_of_metric_applicable_case_values,0.6108786610878661,0.5791468675605869,0.6419251816421117,956,28,clopper_pearson,available,0,,ok
+public_pooled1708,GLM,subtype,mean_of_metric_applicable_case_values,0.5251046025104602,0.49289071611325264,0.5571634117710887,956,28,clopper_pearson,available,0,,ok
+public_pooled1708,Visual + MedGemma,subtype,mean_of_metric_applicable_case_values,0.05230125523012552,0.039064766308870756,0.06837447142932285,956,28,clopper_pearson,available,0,,ok
+public_pooled1708,PathAgent,subtype,mean_of_metric_applicable_case_values,0.33577405857740583,0.305859416684544,0.3667043868683531,956,28,clopper_pearson,available,0,,ok
+public_pooled1708,PRISM2,subtype,mean_of_metric_applicable_case_values,0.5135983263598326,0.481391801105044,0.5457208530737254,956,28,clopper_pearson,available,0,,ok
+public_pooled1708,SO1_D1,subtype,mean_of_metric_applicable_case_values,0.6056485355648535,0.5738595836913234,0.636784572000568,956,28,clopper_pearson,available,0,,ok
+public_pooled1708,SO4_D1,subtype,mean_of_metric_applicable_case_values,0.6370292887029289,0.6056397864826678,0.6675716433916983,956,28,clopper_pearson,available,0,,ok

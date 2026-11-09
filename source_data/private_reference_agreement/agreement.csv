@@ -1,0 +1,7 @@
+field,label,cohort_cases,p1_applicable,p2_applicable,comparable_cases,matched_cases,differing_cases,exact_agreement_pct,kappa_type,kappa,ci_low,ci_high,bootstrap_seed,valid_bootstrap_replicates,undefined_bootstrap_replicates,estimate_status
+broad,Broad diagnosis,152,123,123,123,123,0,100.0,unweighted,,,,20260831,0,0,undefined_single_shared_category
+subtype,Specific diagnosis,152,136,137,127,122,5,96.06299212598425,unweighted,0.9392402640895609,0.8855402083295375,0.9870975279282667,20260832,4000,0,defined
+malignancy,Malignancy,152,145,149,145,143,2,98.62068965517241,unweighted,0.9506298944501191,0.8749927995391705,1.0,20260833,4000,0,defined
+invasion,Invasion,152,144,147,140,139,1,99.28571428571429,unweighted,0.9702127659574468,0.8923904688700999,1.0,20260834,4000,0,defined
+necrosis,Necrosis,152,150,136,135,126,9,93.33333333333333,unweighted,0.5759162303664921,0.2831858407079647,0.7990872031194615,20260835,4000,0,defined
+grade,Grade,152,76,76,75,45,30,60.0,linear_weighted,0.035989717223650415,-0.17021513740146652,0.24609200720458713,20260836,4000,0,defined

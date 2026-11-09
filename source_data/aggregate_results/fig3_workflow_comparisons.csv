@@ -1,0 +1,4 @@
+comparison,metric,n_applicable,difference_pp,ci95_low_pp,ci95_high_pp,bootstrap_replicates
+conflict_expansion_minus_guarded_dual_path,class_balanced_grade,172,8.31908831908832,3.0299145299145303,13.431753431753432,4000
+knowledge_routing_lock_minus_report_only_grade,class_balanced_grade,175,13.808080808080808,8.777777777777777,18.515151515151512,4000
+knowledge_routing_lock_minus_report_only_grade,finding_f1,409,2.7515814801878373,-0.02901923531507906,5.5110822687228564,4000

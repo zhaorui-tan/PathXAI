@@ -1,0 +1,1967 @@
+{
+  "bootstrap": "4000 paired case draws, seed 20260831 plus original per-scope hash offsets; cases sorted lexicographically; same draws for methods and extraction scopes; unadjusted percentile intervals, numpy.quantile(method=\"linear\").",
+  "reference_policy": "Public primary r6 reference extractions fixed between prediction scopes; original private structured extracted targets fixed. No private raw structured-reference reparse.",
+  "absolute": [
+    {
+      "scope": "Public curated references",
+      "method": "DeepSeek + H&E",
+      "primary_percent": 62.5,
+      "inclusive_percent": 61.07954545454546,
+      "change_pp": -1.4204545454545454,
+      "change_ci95": [
+        -2.840909090909091,
+        -0.2840909090909091
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 5,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "method": "GLM + H&E",
+      "primary_percent": 46.590909090909086,
+      "inclusive_percent": 46.02272727272727,
+      "change_pp": -0.5681818181818182,
+      "change_ci95": [
+        -3.4090909090909087,
+        2.272727272727273
+      ],
+      "zero_to_one": 11,
+      "one_to_zero": 13,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PRISM2",
+      "primary_percent": 49.14772727272727,
+      "inclusive_percent": 49.14772727272727,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PLIP-guided Qwen",
+      "primary_percent": 23.863636363636363,
+      "inclusive_percent": 23.863636363636363,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PathXAI-Report (core)",
+      "primary_percent": 64.77272727272727,
+      "inclusive_percent": 65.3409090909091,
+      "change_pp": 0.5681818181818182,
+      "change_ci95": [
+        -0.5681818181818182,
+        1.7045454545454544
+      ],
+      "zero_to_one": 3,
+      "one_to_zero": 1,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PathXAI-Report",
+      "primary_percent": 66.19318181818183,
+      "inclusive_percent": 64.77272727272727,
+      "change_pp": -1.4204545454545454,
+      "change_ci95": [
+        -2.840909090909091,
+        -0.2840909090909091
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 5,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "method": "MedGemma",
+      "primary_percent": 3.6931818181818183,
+      "inclusive_percent": 7.386363636363637,
+      "change_pp": 3.6931818181818183,
+      "change_ci95": [
+        1.9886363636363635,
+        5.681818181818182
+      ],
+      "zero_to_one": 13,
+      "one_to_zero": 0,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "method": "Qwen + H&E",
+      "primary_percent": 61.64772727272727,
+      "inclusive_percent": 59.94318181818182,
+      "change_pp": -1.7045454545454544,
+      "change_ci95": [
+        -3.125,
+        -0.5681818181818182
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 6,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "DeepSeek + H&E",
+      "primary_percent": 60.264900662251655,
+      "inclusive_percent": 60.264900662251655,
+      "change_pp": 0.0,
+      "change_ci95": [
+        -0.49668874172185434,
+        0.49668874172185434
+      ],
+      "zero_to_one": 1,
+      "one_to_zero": 1,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "GLM + H&E",
+      "primary_percent": 55.960264900662246,
+      "inclusive_percent": 53.31125827814569,
+      "change_pp": -2.6490066225165565,
+      "change_ci95": [
+        -4.801324503311259,
+        -0.49668874172185434
+      ],
+      "zero_to_one": 14,
+      "one_to_zero": 30,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PRISM2",
+      "primary_percent": 52.64900662251656,
+      "inclusive_percent": 52.64900662251656,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PLIP-guided Qwen",
+      "primary_percent": 39.23841059602649,
+      "inclusive_percent": 39.23841059602649,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PathXAI-Report (core)",
+      "primary_percent": 58.11258278145696,
+      "inclusive_percent": 58.11258278145696,
+      "change_pp": 0.0,
+      "change_ci95": [
+        -0.6622516556291391,
+        0.6622516556291391
+      ],
+      "zero_to_one": 2,
+      "one_to_zero": 2,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PathXAI-Report",
+      "primary_percent": 62.251655629139066,
+      "inclusive_percent": 61.423841059602644,
+      "change_pp": -0.8278145695364238,
+      "change_ci95": [
+        -1.6556291390728477,
+        -0.16556291390728478
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 5,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "MedGemma",
+      "primary_percent": 6.125827814569536,
+      "inclusive_percent": 11.42384105960265,
+      "change_pp": 5.298013245033113,
+      "change_ci95": [
+        3.642384105960265,
+        7.119205298013245
+      ],
+      "zero_to_one": 32,
+      "one_to_zero": 0,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "Qwen + H&E",
+      "primary_percent": 58.94039735099338,
+      "inclusive_percent": 58.94039735099338,
+      "change_pp": 0.0,
+      "change_ci95": [
+        -0.8278145695364238,
+        0.8278145695364238
+      ],
+      "zero_to_one": 3,
+      "one_to_zero": 3,
+      "cohort_cases": 1200,
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "DeepSeek + H&E",
+      "primary_percent": 60.0,
+      "inclusive_percent": 60.0,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "GLM + H&E",
+      "primary_percent": 42.96296296296296,
+      "inclusive_percent": 42.96296296296296,
+      "change_pp": 0.0,
+      "change_ci95": [
+        -4.444444444444445,
+        4.444444444444445
+      ],
+      "zero_to_one": 5,
+      "one_to_zero": 5,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PRISM2",
+      "primary_percent": 54.81481481481482,
+      "inclusive_percent": 54.81481481481482,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PLIP-guided Qwen",
+      "primary_percent": 32.592592592592595,
+      "inclusive_percent": 32.592592592592595,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PathXAI-Report (core)",
+      "primary_percent": 57.77777777777777,
+      "inclusive_percent": 64.44444444444444,
+      "change_pp": 6.666666666666667,
+      "change_ci95": [
+        2.2222222222222223,
+        11.851851851851853
+      ],
+      "zero_to_one": 10,
+      "one_to_zero": 1,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PathXAI-Report",
+      "primary_percent": 67.4074074074074,
+      "inclusive_percent": 66.66666666666666,
+      "change_pp": -0.7407407407407408,
+      "change_ci95": [
+        -2.9629629629629632,
+        1.4814814814814816
+      ],
+      "zero_to_one": 1,
+      "one_to_zero": 2,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "MedGemma",
+      "primary_percent": 2.9629629629629632,
+      "inclusive_percent": 5.9259259259259265,
+      "change_pp": 2.9629629629629632,
+      "change_ci95": [
+        0.7407407407407408,
+        5.9259259259259265
+      ],
+      "zero_to_one": 4,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "Qwen + H&E",
+      "primary_percent": 54.074074074074076,
+      "inclusive_percent": 54.81481481481482,
+      "change_pp": 0.7407407407407408,
+      "change_ci95": [
+        -2.2222222222222223,
+        3.7037037037037033
+      ],
+      "zero_to_one": 3,
+      "one_to_zero": 2,
+      "cohort_cases": 151,
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "DeepSeek + H&E",
+      "primary_percent": 55.88235294117647,
+      "inclusive_percent": 55.88235294117647,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "GLM + H&E",
+      "primary_percent": 43.38235294117647,
+      "inclusive_percent": 43.38235294117647,
+      "change_pp": 0.0,
+      "change_ci95": [
+        -4.411764705882353,
+        4.411764705882353
+      ],
+      "zero_to_one": 5,
+      "one_to_zero": 5,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PRISM2",
+      "primary_percent": 52.20588235294118,
+      "inclusive_percent": 52.20588235294118,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PLIP-guided Qwen",
+      "primary_percent": 31.61764705882353,
+      "inclusive_percent": 31.61764705882353,
+      "change_pp": 0.0,
+      "change_ci95": [
+        0.0,
+        0.0
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PathXAI-Report (core)",
+      "primary_percent": 55.88235294117647,
+      "inclusive_percent": 62.5,
+      "change_pp": 6.61764705882353,
+      "change_ci95": [
+        2.2058823529411766,
+        11.029411764705882
+      ],
+      "zero_to_one": 10,
+      "one_to_zero": 1,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PathXAI-Report",
+      "primary_percent": 67.64705882352942,
+      "inclusive_percent": 66.91176470588235,
+      "change_pp": -0.7352941176470588,
+      "change_ci95": [
+        -2.9595588235294055,
+        1.4705882352941175
+      ],
+      "zero_to_one": 1,
+      "one_to_zero": 2,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "MedGemma",
+      "primary_percent": 2.941176470588235,
+      "inclusive_percent": 5.88235294117647,
+      "change_pp": 2.941176470588235,
+      "change_ci95": [
+        0.7352941176470588,
+        5.88235294117647
+      ],
+      "zero_to_one": 4,
+      "one_to_zero": 0,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "Qwen + H&E",
+      "primary_percent": 54.41176470588235,
+      "inclusive_percent": 55.14705882352941,
+      "change_pp": 0.7352941176470588,
+      "change_ci95": [
+        -2.2058823529411766,
+        4.411764705882353
+      ],
+      "zero_to_one": 3,
+      "one_to_zero": 2,
+      "cohort_cases": 151,
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "H&E + segmentation overlays",
+      "primary_percent": 62.21590909090909,
+      "inclusive_percent": 61.64772727272727,
+      "change_pp": -0.5681818181818182,
+      "change_ci95": [
+        -1.7045454545454544,
+        0.5681818181818182
+      ],
+      "zero_to_one": 1,
+      "one_to_zero": 3,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "PathXAI-Report",
+      "primary_percent": 66.19318181818183,
+      "inclusive_percent": 64.77272727272727,
+      "change_pp": -1.4204545454545454,
+      "change_ci95": [
+        -2.840909090909091,
+        -0.2840909090909091
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 5,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "H&E + tissue statistics",
+      "primary_percent": 66.19318181818183,
+      "inclusive_percent": 63.92045454545454,
+      "change_pp": -2.272727272727273,
+      "change_ci95": [
+        -4.261363636363636,
+        -0.5681818181818182
+      ],
+      "zero_to_one": 2,
+      "one_to_zero": 10,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "Qwen + H&E",
+      "primary_percent": 61.64772727272727,
+      "inclusive_percent": 59.94318181818182,
+      "change_pp": -1.7045454545454544,
+      "change_ci95": [
+        -3.125,
+        -0.5681818181818182
+      ],
+      "zero_to_one": 0,
+      "one_to_zero": 6,
+      "cohort_cases": 456,
+      "applicable_cases": 352
+    }
+  ],
+  "contrasts": [
+    {
+      "scope": "Public curated references",
+      "target": "PathXAI-Report",
+      "comparator": "DeepSeek + H&E",
+      "primary_difference_pp": 3.6931818181818183,
+      "inclusive_difference_pp": 3.6931818181818183,
+      "inclusive_difference_ci95": [
+        -1.1363636363636365,
+        8.522727272727272
+      ],
+      "change_in_difference_pp": 0.0,
+      "change_in_difference_ci95": [
+        -1.7045454545454544,
+        1.7045454545454544
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "target": "PathXAI-Report",
+      "comparator": "GLM + H&E",
+      "primary_difference_pp": 19.602272727272727,
+      "inclusive_difference_pp": 18.75,
+      "inclusive_difference_ci95": [
+        13.068181818181818,
+        24.431818181818183
+      ],
+      "change_in_difference_pp": -0.8522727272727272,
+      "change_in_difference_ci95": [
+        -3.977272727272727,
+        2.272727272727273
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "target": "PathXAI-Report",
+      "comparator": "PRISM2",
+      "primary_difference_pp": 17.045454545454543,
+      "inclusive_difference_pp": 15.625,
+      "inclusive_difference_ci95": [
+        9.090909090909092,
+        21.875
+      ],
+      "change_in_difference_pp": -1.4204545454545454,
+      "change_in_difference_ci95": [
+        -2.840909090909091,
+        -0.2840909090909091
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "target": "PathXAI-Report",
+      "comparator": "PLIP-guided Qwen",
+      "primary_difference_pp": 42.32954545454545,
+      "inclusive_difference_pp": 40.909090909090914,
+      "inclusive_difference_ci95": [
+        35.22727272727273,
+        46.590909090909086
+      ],
+      "change_in_difference_pp": -1.4204545454545454,
+      "change_in_difference_ci95": [
+        -2.840909090909091,
+        -0.2840909090909091
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "target": "PathXAI-Report",
+      "comparator": "PathXAI-Report (core)",
+      "primary_difference_pp": 1.4204545454545454,
+      "inclusive_difference_pp": -0.5681818181818182,
+      "inclusive_difference_ci95": [
+        -4.545454545454546,
+        3.4090909090909087
+      ],
+      "change_in_difference_pp": -1.9886363636363635,
+      "change_in_difference_ci95": [
+        -3.6931818181818183,
+        -0.2840909090909091
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "target": "PathXAI-Report",
+      "comparator": "MedGemma",
+      "primary_difference_pp": 62.5,
+      "inclusive_difference_pp": 57.38636363636363,
+      "inclusive_difference_ci95": [
+        51.98863636363637,
+        62.5
+      ],
+      "change_in_difference_pp": -5.113636363636364,
+      "change_in_difference_ci95": [
+        -7.670454545454546,
+        -2.840909090909091
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public curated references",
+      "target": "PathXAI-Report",
+      "comparator": "Qwen + H&E",
+      "primary_difference_pp": 4.545454545454546,
+      "inclusive_difference_pp": 4.829545454545454,
+      "inclusive_difference_ci95": [
+        0.0,
+        9.375
+      ],
+      "change_in_difference_pp": 0.2840909090909091,
+      "change_in_difference_ci95": [
+        -1.4204545454545454,
+        2.272727272727273
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Public OCR references",
+      "target": "PathXAI-Report",
+      "comparator": "DeepSeek + H&E",
+      "primary_difference_pp": 1.9867549668874174,
+      "inclusive_difference_pp": 1.1589403973509933,
+      "inclusive_difference_ci95": [
+        -2.814569536423841,
+        4.966887417218543
+      ],
+      "change_in_difference_pp": -0.8278145695364238,
+      "change_in_difference_ci95": [
+        -1.8211920529801324,
+        0.0
+      ],
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "target": "PathXAI-Report",
+      "comparator": "GLM + H&E",
+      "primary_difference_pp": 6.291390728476822,
+      "inclusive_difference_pp": 8.112582781456954,
+      "inclusive_difference_ci95": [
+        3.80794701986755,
+        12.582781456953644
+      ],
+      "change_in_difference_pp": 1.8211920529801324,
+      "change_in_difference_ci95": [
+        -0.49668874172185434,
+        4.13907284768212
+      ],
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "target": "PathXAI-Report",
+      "comparator": "PRISM2",
+      "primary_difference_pp": 9.602649006622517,
+      "inclusive_difference_pp": 8.774834437086094,
+      "inclusive_difference_ci95": [
+        3.642384105960265,
+        14.072847682119205
+      ],
+      "change_in_difference_pp": -0.8278145695364238,
+      "change_in_difference_ci95": [
+        -1.6556291390728477,
+        -0.16556291390728478
+      ],
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "target": "PathXAI-Report",
+      "comparator": "PLIP-guided Qwen",
+      "primary_difference_pp": 23.013245033112582,
+      "inclusive_difference_pp": 22.185430463576157,
+      "inclusive_difference_ci95": [
+        18.543046357615893,
+        25.82781456953642
+      ],
+      "change_in_difference_pp": -0.8278145695364238,
+      "change_in_difference_ci95": [
+        -1.6556291390728477,
+        -0.16556291390728478
+      ],
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "target": "PathXAI-Report",
+      "comparator": "PathXAI-Report (core)",
+      "primary_difference_pp": 4.13907284768212,
+      "inclusive_difference_pp": 3.3112582781456954,
+      "inclusive_difference_ci95": [
+        0.6622516556291391,
+        6.125827814569536
+      ],
+      "change_in_difference_pp": -0.8278145695364238,
+      "change_in_difference_ci95": [
+        -1.8211920529801324,
+        0.16556291390728478
+      ],
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "target": "PathXAI-Report",
+      "comparator": "MedGemma",
+      "primary_difference_pp": 56.12582781456954,
+      "inclusive_difference_pp": 50.0,
+      "inclusive_difference_ci95": [
+        46.022350993377486,
+        54.13907284768212
+      ],
+      "change_in_difference_pp": -6.125827814569536,
+      "change_in_difference_ci95": [
+        -8.112582781456954,
+        -4.304635761589404
+      ],
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Public OCR references",
+      "target": "PathXAI-Report",
+      "comparator": "Qwen + H&E",
+      "primary_difference_pp": 3.3112582781456954,
+      "inclusive_difference_pp": 2.4834437086092715,
+      "inclusive_difference_ci95": [
+        -0.8278145695364238,
+        5.7947019867549665
+      ],
+      "change_in_difference_pp": -0.8278145695364238,
+      "change_in_difference_ci95": [
+        -1.9867549668874174,
+        0.16556291390728478
+      ],
+      "applicable_cases": 604
+    },
+    {
+      "scope": "Private reference P1",
+      "target": "PathXAI-Report",
+      "comparator": "DeepSeek + H&E",
+      "primary_difference_pp": 7.4074074074074066,
+      "inclusive_difference_pp": 6.666666666666667,
+      "inclusive_difference_ci95": [
+        -2.2222222222222223,
+        15.555555555555555
+      ],
+      "change_in_difference_pp": -0.7407407407407408,
+      "change_in_difference_ci95": [
+        -2.9629629629629632,
+        1.4814814814814816
+      ],
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "target": "PathXAI-Report",
+      "comparator": "GLM + H&E",
+      "primary_difference_pp": 24.444444444444443,
+      "inclusive_difference_pp": 23.703703703703706,
+      "inclusive_difference_ci95": [
+        13.333333333333334,
+        34.074074074074076
+      ],
+      "change_in_difference_pp": -0.7407407407407408,
+      "change_in_difference_ci95": [
+        -5.9259259259259265,
+        4.444444444444445
+      ],
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "target": "PathXAI-Report",
+      "comparator": "PRISM2",
+      "primary_difference_pp": 12.592592592592592,
+      "inclusive_difference_pp": 11.851851851851853,
+      "inclusive_difference_ci95": [
+        1.4814814814814816,
+        22.22222222222222
+      ],
+      "change_in_difference_pp": -0.7407407407407408,
+      "change_in_difference_ci95": [
+        -2.9629629629629632,
+        1.4814814814814816
+      ],
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "target": "PathXAI-Report",
+      "comparator": "PLIP-guided Qwen",
+      "primary_difference_pp": 34.81481481481482,
+      "inclusive_difference_pp": 34.074074074074076,
+      "inclusive_difference_ci95": [
+        24.444444444444443,
+        42.96296296296296
+      ],
+      "change_in_difference_pp": -0.7407407407407408,
+      "change_in_difference_ci95": [
+        -2.9629629629629632,
+        1.4814814814814816
+      ],
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "target": "PathXAI-Report",
+      "comparator": "PathXAI-Report (core)",
+      "primary_difference_pp": 9.62962962962963,
+      "inclusive_difference_pp": 2.2222222222222223,
+      "inclusive_difference_ci95": [
+        -4.444444444444445,
+        8.88888888888889
+      ],
+      "change_in_difference_pp": -7.4074074074074066,
+      "change_in_difference_ci95": [
+        -12.592592592592592,
+        -2.9629629629629632
+      ],
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "target": "PathXAI-Report",
+      "comparator": "MedGemma",
+      "primary_difference_pp": 64.44444444444444,
+      "inclusive_difference_pp": 60.74074074074074,
+      "inclusive_difference_ci95": [
+        52.59259259259259,
+        68.88888888888889
+      ],
+      "change_in_difference_pp": -3.7037037037037033,
+      "change_in_difference_ci95": [
+        -7.4074074074074066,
+        0.0
+      ],
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P1",
+      "target": "PathXAI-Report",
+      "comparator": "Qwen + H&E",
+      "primary_difference_pp": 13.333333333333334,
+      "inclusive_difference_pp": 11.851851851851853,
+      "inclusive_difference_ci95": [
+        4.444444444444445,
+        19.25925925925926
+      ],
+      "change_in_difference_pp": -1.4814814814814816,
+      "change_in_difference_ci95": [
+        -5.9259259259259265,
+        2.2222222222222223
+      ],
+      "applicable_cases": 135
+    },
+    {
+      "scope": "Private reference P2",
+      "target": "PathXAI-Report",
+      "comparator": "DeepSeek + H&E",
+      "primary_difference_pp": 11.76470588235294,
+      "inclusive_difference_pp": 11.029411764705882,
+      "inclusive_difference_ci95": [
+        2.2058823529411766,
+        19.852941176470587
+      ],
+      "change_in_difference_pp": -0.7352941176470588,
+      "change_in_difference_ci95": [
+        -2.9595588235294055,
+        1.4705882352941175
+      ],
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "target": "PathXAI-Report",
+      "comparator": "GLM + H&E",
+      "primary_difference_pp": 24.264705882352942,
+      "inclusive_difference_pp": 23.52941176470588,
+      "inclusive_difference_ci95": [
+        13.23529411764706,
+        33.82352941176471
+      ],
+      "change_in_difference_pp": -0.7352941176470588,
+      "change_in_difference_ci95": [
+        -5.88235294117647,
+        4.411764705882353
+      ],
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "target": "PathXAI-Report",
+      "comparator": "PRISM2",
+      "primary_difference_pp": 15.441176470588236,
+      "inclusive_difference_pp": 14.705882352941178,
+      "inclusive_difference_ci95": [
+        4.411764705882353,
+        25.0
+      ],
+      "change_in_difference_pp": -0.7352941176470588,
+      "change_in_difference_ci95": [
+        -2.9595588235294055,
+        1.4705882352941175
+      ],
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "target": "PathXAI-Report",
+      "comparator": "PLIP-guided Qwen",
+      "primary_difference_pp": 36.029411764705884,
+      "inclusive_difference_pp": 35.294117647058826,
+      "inclusive_difference_ci95": [
+        26.47058823529412,
+        44.136029411764774
+      ],
+      "change_in_difference_pp": -0.7352941176470588,
+      "change_in_difference_ci95": [
+        -2.9595588235294055,
+        1.4705882352941175
+      ],
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "target": "PathXAI-Report",
+      "comparator": "PathXAI-Report (core)",
+      "primary_difference_pp": 11.76470588235294,
+      "inclusive_difference_pp": 4.411764705882353,
+      "inclusive_difference_ci95": [
+        -1.4705882352941175,
+        10.294117647058822
+      ],
+      "change_in_difference_pp": -7.352941176470589,
+      "change_in_difference_ci95": [
+        -12.5,
+        -2.941176470588235
+      ],
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "target": "PathXAI-Report",
+      "comparator": "MedGemma",
+      "primary_difference_pp": 64.70588235294117,
+      "inclusive_difference_pp": 61.029411764705884,
+      "inclusive_difference_ci95": [
+        52.94117647058824,
+        69.11764705882352
+      ],
+      "change_in_difference_pp": -3.6764705882352944,
+      "change_in_difference_ci95": [
+        -7.352941176470589,
+        0.0
+      ],
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Private reference P2",
+      "target": "PathXAI-Report",
+      "comparator": "Qwen + H&E",
+      "primary_difference_pp": 13.23529411764706,
+      "inclusive_difference_pp": 11.76470588235294,
+      "inclusive_difference_ci95": [
+        4.411764705882353,
+        19.11764705882353
+      ],
+      "change_in_difference_pp": -1.4705882352941175,
+      "change_in_difference_ci95": [
+        -5.88235294117647,
+        2.941176470588235
+      ],
+      "applicable_cases": 136
+    },
+    {
+      "scope": "Reporting policies",
+      "target": "H&E + tissue statistics",
+      "comparator": "Qwen + H&E",
+      "primary_difference_pp": 4.545454545454546,
+      "inclusive_difference_pp": 3.977272727272727,
+      "inclusive_difference_ci95": [
+        0.0,
+        7.954545454545454
+      ],
+      "change_in_difference_pp": -0.5681818181818182,
+      "change_in_difference_ci95": [
+        -2.840909090909091,
+        1.7045454545454544
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Reporting policies",
+      "target": "H&E + segmentation overlays",
+      "comparator": "Qwen + H&E",
+      "primary_difference_pp": 0.5681818181818182,
+      "inclusive_difference_pp": 1.7045454545454544,
+      "inclusive_difference_ci95": [
+        -2.840909090909091,
+        6.25
+      ],
+      "change_in_difference_pp": 1.1363636363636365,
+      "change_in_difference_ci95": [
+        -0.5681818181818182,
+        2.840909090909091
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Reporting policies",
+      "target": "PathXAI-Report",
+      "comparator": "H&E + tissue statistics",
+      "primary_difference_pp": 0.0,
+      "inclusive_difference_pp": 0.8522727272727272,
+      "inclusive_difference_ci95": [
+        -3.6931818181818183,
+        5.3977272727272725
+      ],
+      "change_in_difference_pp": 0.8522727272727272,
+      "change_in_difference_ci95": [
+        -1.4204545454545454,
+        3.125
+      ],
+      "applicable_cases": 352
+    },
+    {
+      "scope": "Reporting policies",
+      "target": "PathXAI-Report",
+      "comparator": "H&E + segmentation overlays",
+      "primary_difference_pp": 3.977272727272727,
+      "inclusive_difference_pp": 3.125,
+      "inclusive_difference_ci95": [
+        -1.1363636363636365,
+        7.1022727272727275
+      ],
+      "change_in_difference_pp": -0.8522727272727272,
+      "change_in_difference_ci95": [
+        -2.272727272727273,
+        0.5681818181818182
+      ],
+      "applicable_cases": 352
+    }
+  ],
+  "exposure": [
+    {
+      "scope": "Public curated references",
+      "method": "DeepSeek + H&E",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1929,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "DeepSeek + H&E",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1488,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "GLM + H&E",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1810,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "GLM + H&E",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1404,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PRISM2",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 456,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PRISM2",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 352,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 456,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 352,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1844,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1428,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PathXAI-Report",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1873,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "PathXAI-Report",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1445,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "MedGemma",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 453,
+      "summary_fallback": 3,
+      "no_summary": 0,
+      "added_selected_summary_text": 453,
+      "added_selected_summary_clauses": 10351,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "MedGemma",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 349,
+      "summary_fallback": 3,
+      "no_summary": 0,
+      "added_selected_summary_text": 349,
+      "added_selected_summary_clauses": 8823,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "Qwen + H&E",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1728,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public curated references",
+      "method": "Qwen + H&E",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1320,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "DeepSeek + H&E",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 1198,
+      "summary_fallback": 0,
+      "no_summary": 2,
+      "added_selected_summary_text": 1198,
+      "added_selected_summary_clauses": 5088,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "DeepSeek + H&E",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 603,
+      "summary_fallback": 0,
+      "no_summary": 1,
+      "added_selected_summary_text": 603,
+      "added_selected_summary_clauses": 2580,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "GLM + H&E",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 1200,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 1200,
+      "added_selected_summary_clauses": 4790,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "GLM + H&E",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 604,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 604,
+      "added_selected_summary_clauses": 2377,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PRISM2",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 1200,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PRISM2",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 604,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 1200,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 604,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 1200,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 1200,
+      "added_selected_summary_clauses": 4910,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 604,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 604,
+      "added_selected_summary_clauses": 2422,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PathXAI-Report",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 1200,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 1200,
+      "added_selected_summary_clauses": 5023,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "PathXAI-Report",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 604,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 604,
+      "added_selected_summary_clauses": 2492,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "MedGemma",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 1197,
+      "summary_fallback": 0,
+      "no_summary": 3,
+      "added_selected_summary_text": 1197,
+      "added_selected_summary_clauses": 33286,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "MedGemma",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 603,
+      "summary_fallback": 0,
+      "no_summary": 1,
+      "added_selected_summary_text": 603,
+      "added_selected_summary_clauses": 17083,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "Qwen + H&E",
+      "applicable_only": false,
+      "reports": 1200,
+      "diagnosis_and_summary": 1200,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 1200,
+      "added_selected_summary_clauses": 4599,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Public OCR references",
+      "method": "Qwen + H&E",
+      "applicable_only": true,
+      "reports": 604,
+      "diagnosis_and_summary": 604,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 604,
+      "added_selected_summary_clauses": 2302,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "DeepSeek + H&E",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 150,
+      "summary_fallback": 0,
+      "no_summary": 1,
+      "added_selected_summary_text": 150,
+      "added_selected_summary_clauses": 633,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "DeepSeek + H&E",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 134,
+      "summary_fallback": 0,
+      "no_summary": 1,
+      "added_selected_summary_text": 134,
+      "added_selected_summary_clauses": 569,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "GLM + H&E",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 620,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "GLM + H&E",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 135,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 135,
+      "added_selected_summary_clauses": 553,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PRISM2",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 151,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PRISM2",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 135,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 151,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 135,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 613,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 135,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 135,
+      "added_selected_summary_clauses": 540,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PathXAI-Report",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 638,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "PathXAI-Report",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 135,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 135,
+      "added_selected_summary_clauses": 569,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "MedGemma",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 149,
+      "summary_fallback": 1,
+      "no_summary": 1,
+      "added_selected_summary_text": 149,
+      "added_selected_summary_clauses": 6620,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "MedGemma",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 133,
+      "summary_fallback": 1,
+      "no_summary": 1,
+      "added_selected_summary_text": 133,
+      "added_selected_summary_clauses": 5180,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "Qwen + H&E",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 606,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P1",
+      "method": "Qwen + H&E",
+      "applicable_only": true,
+      "reports": 135,
+      "diagnosis_and_summary": 135,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 135,
+      "added_selected_summary_clauses": 542,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "DeepSeek + H&E",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 150,
+      "summary_fallback": 0,
+      "no_summary": 1,
+      "added_selected_summary_text": 150,
+      "added_selected_summary_clauses": 633,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "DeepSeek + H&E",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 135,
+      "summary_fallback": 0,
+      "no_summary": 1,
+      "added_selected_summary_text": 135,
+      "added_selected_summary_clauses": 573,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "GLM + H&E",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 620,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "GLM + H&E",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 136,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 136,
+      "added_selected_summary_clauses": 558,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PRISM2",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 151,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PRISM2",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 136,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 151,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PLIP-guided Qwen",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 0,
+      "summary_fallback": 0,
+      "no_summary": 136,
+      "added_selected_summary_text": 0,
+      "added_selected_summary_clauses": 0,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 613,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PathXAI-Report (core)",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 136,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 136,
+      "added_selected_summary_clauses": 554,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PathXAI-Report",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 638,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "PathXAI-Report",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 136,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 136,
+      "added_selected_summary_clauses": 568,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "MedGemma",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 149,
+      "summary_fallback": 1,
+      "no_summary": 1,
+      "added_selected_summary_text": 149,
+      "added_selected_summary_clauses": 6620,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "MedGemma",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 134,
+      "summary_fallback": 1,
+      "no_summary": 1,
+      "added_selected_summary_text": 134,
+      "added_selected_summary_clauses": 6172,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "Qwen + H&E",
+      "applicable_only": false,
+      "reports": 151,
+      "diagnosis_and_summary": 151,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 151,
+      "added_selected_summary_clauses": 606,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Private reference P2",
+      "method": "Qwen + H&E",
+      "applicable_only": true,
+      "reports": 136,
+      "diagnosis_and_summary": 136,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 136,
+      "added_selected_summary_clauses": 548,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "H&E + segmentation overlays",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1801,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "H&E + segmentation overlays",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1386,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "PathXAI-Report",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1873,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "PathXAI-Report",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1445,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "H&E + tissue statistics",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1731,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "H&E + tissue statistics",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1341,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "Qwen + H&E",
+      "applicable_only": false,
+      "reports": 456,
+      "diagnosis_and_summary": 456,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 456,
+      "added_selected_summary_clauses": 1728,
+      "added_nonhypothetical_summary": null
+    },
+    {
+      "scope": "Reporting policies",
+      "method": "Qwen + H&E",
+      "applicable_only": true,
+      "reports": 352,
+      "diagnosis_and_summary": 352,
+      "summary_fallback": 0,
+      "no_summary": 0,
+      "added_selected_summary_text": 352,
+      "added_selected_summary_clauses": 1320,
+      "added_nonhypothetical_summary": null
+    }
+  ],
+  "bootstrap_seeds": {
+    "Public curated references": 7562756233192871976,
+    "Public OCR references": 5602160548160098068,
+    "Private reference P1": 4241086285458142503,
+    "Private reference P2": 1487309811223894222,
+    "Reporting policies": 7806218736682369538
+  },
+  "exposure_definition": "r6 diagnosis_text(include_summary=True) versus diagnosis_text(include_summary=False), multiset difference of selected lines. added_selected_summary_text counts reports with at least one added selected summary line; added_selected_summary_clauses counts sentence clauses in those added lines. Selection includes explicit subtype fields under the r6 parser. Diagnosis/summary presence uses r6 sections. These counts do not adjudicate clinical accuracy.",
+  "description": "Numerical extraction-scope sensitivity accompanying the manuscript; aggregate results only."
+}

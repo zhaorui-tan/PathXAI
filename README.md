@@ -1,5 +1,5 @@
 # PathXAI: TCGA patient to pathology report
-PREPRINT PAPER WILL BE ONLINE SOON :)
+Preprint: [arXiv:2611.09117](https://arxiv.org/abs/2611.09117).
 
 This repository contains a local Jupyter workflow for running PathXAI on a patient-level set of whole-slide images (WSIs) and exporting one portable `report.html` for the case. It supports **PathXAI(core)** and **PathXAI**. Both use the refined D1 segmentation adaptation; PathXAI also requires the KEEP knowledge resources.
 
@@ -36,6 +36,7 @@ The notebooks supply the known anatomical site from the pinned sample metadata. 
 - `vendor/report_engine/` — frozen pipeline snapshot, HTML renderer, input assets and source manifests. The MedSAM3 source subtree under `vendor/report_engine/baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/medsam3/` is omitted from the public source archive; setup prepares the runtime copy separately from pinned upstream source and tutorial patches. Model weights are separate files.
 - `environments/` and [installation](docs/INSTALLATION.md) — separate Python 3.10 and 3.12 specs plus import/version checks.
 - `evaluation/` and [evaluation guide](docs/EVALUATION.md) — automatic, deterministic report-to-reference agreement metrics.
+- `source_data/` — [manuscript numerical results](source_data/README.md), with figure/table indices, confidence intervals, metric-specific counts and checksums for the 9 November 2026 revision.
 - `data_lists/` — [public report and segmentation data lists](data_lists/README.md), including the final 456-case development subset, 1,200-case public evaluation cohort, segmentation splits and evaluation windows.
 - `scoring/` and [scoring guide](scoring/README.md) — local tools for physician reference scoring and blinded comparison of five reports.
 - `model_release/` — D1 adapter manifest and Hugging Face staging materials. The adapter file is excluded from Git and published at `RayTan/PathXAI-Seg`; its verified immutable revision is recorded in `provenance/hf_model_release.json`. SAM3 and CONCH base weights are not included.
@@ -53,3 +54,4 @@ See [VALIDATION.md](docs/VALIDATION.md) for the current checks, their scope and 
 Source identities and runtime records are described in [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md). See [third-party notices](docs/THIRD_PARTY_NOTICES.md) for upstream code and model notices; using the MedSAM3 source does not grant additional rights to that upstream code.
 
 PathXAI is research software, not a medical device or a clinical diagnostic service.
+

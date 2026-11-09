@@ -1,0 +1,1367 @@
+scope,method,metric,strata_kind,stratum,n_eligible,n_applicable,estimate,role
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,0.9090909090909091,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.8712121212121212,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.696969696969697,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.29411764705882354,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.9457364341085271,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,0.9772727272727273,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.14516129032258066,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.4772727272727273,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.2803030303030303,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.46564885496183206,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.5,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-ACC,29,20,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-BLCA,132,75,0.8933333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.03125,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-CESC,132,79,0.5316455696202531,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-CHOL,12,5,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.125,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.8166666666666667,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-HNSC,132,100,0.99,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-KICH,62,37,0.13513513513513514,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.5135135135135135,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.2894736842105263,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-LGG,131,60,0.2833333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-MESO,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.2,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-PRAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-ACC,29,23,0.448343685300207,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-BLCA,132,126,0.47392290249433106,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-BRCA,132,108,0.5322236919459141,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-CESC,132,105,0.6065759637188208,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-CHOL,12,12,0.46073232323232327,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-COAD,3,3,0.35555555555555557,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-DLBC,17,8,0.5249999999999999,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-ESCA,129,107,0.424172971369233,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-HNSC,132,119,0.39935974389755896,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-KICH,62,41,0.15853658536585366,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-KIRC,132,109,0.17798165137614677,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-KIRP,132,127,0.37037870266216716,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-LGG,131,89,0.6093722133047975,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-MESO,2,2,0.8333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-OV,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-PCPG,6,4,0.225,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-PRAD,3,2,0.2,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,finding_f1,TCGA cancer type,TCGA-UVM,6,5,0.13333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-ACC,29,23,0.3695652173913043,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,132,126,0.38095238095238093,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,132,108,0.4396825396825397,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-CESC,132,105,0.5428571428571428,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,12,12,0.3843253968253968,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-COAD,3,3,0.25,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,17,8,0.4895833333333333,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,129,107,0.3611481975967958,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,132,119,0.3065826330532213,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-KICH,62,41,0.12195121951219512,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,132,109,0.16009174311926605,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,132,127,0.3152980877390326,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-LGG,131,89,0.5734082397003745,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-MESO,2,2,0.75,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-OV,1,1,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-PCPG,6,4,0.14583333333333331,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,3,2,0.125,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,correct_fact_coverage,TCGA cancer type,TCGA-UVM,6,5,0.1,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-ACC,29,18,0.2222222222222222,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-BLCA,132,102,0.11601307189542484,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-BRCA,132,99,0.13468013468013468,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-CESC,132,84,0.04563492063492063,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-CHOL,12,10,0.225,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-COAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-DLBC,17,6,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-ESCA,129,68,0.08823529411764706,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-HNSC,132,84,0.057539682539682536,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-KICH,62,19,0.4473684210526316,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-KIRC,132,46,0.4782608695652174,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-KIRP,132,80,0.2145833333333333,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-LGG,131,79,0.23354430379746835,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-MESO,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-PCPG,6,2,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-PRAD,3,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + Qwen,contradiction_asserted,TCGA cancer type,TCGA-UVM,6,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,0.9310344827586207,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,0.8409090909090909,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.9318181818181818,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.7954545454545454,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.23529411764705882,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.9612403100775194,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.08064516129032258,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.5454545454545454,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.32575757575757575,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.6412213740458015,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-ACC,29,20,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-BLCA,132,75,0.8133333333333334,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.5,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-CESC,132,79,0.6962025316455697,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-CHOL,12,5,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.25,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.6,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-HNSC,132,100,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-KICH,62,37,0.08108108108108109,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.5405405405405406,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.25,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-LGG,131,60,0.3,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-MESO,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.2,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-ACC,29,23,0.36832298136645963,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-BLCA,132,126,0.44124063766920907,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-BRCA,132,108,0.5674088771310993,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-CESC,132,105,0.5121995464852608,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-CHOL,12,12,0.5259920634920635,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-COAD,3,3,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-DLBC,17,8,0.4583333333333333,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-ESCA,129,107,0.38869603916332895,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-HNSC,132,119,0.40932372949179663,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-KICH,62,41,0.2943089430894309,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-KIRC,132,109,0.30581039755351686,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-KIRP,132,127,0.3909886264216973,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-LGG,131,89,0.44264312466559663,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-MESO,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-OV,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-PCPG,6,4,0.43333333333333335,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-PRAD,3,2,0.5833333333333333,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,finding_f1,TCGA cancer type,TCGA-UVM,6,5,0.27999999999999997,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-ACC,29,23,0.30289855072463767,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,132,126,0.35343915343915344,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,132,108,0.4689594356261023,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-CESC,132,105,0.4661904761904762,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,12,12,0.44186507936507935,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-COAD,3,3,0.25,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,17,8,0.4375,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,129,107,0.3335113484646195,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,132,119,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-KICH,62,41,0.27439024390243905,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,132,109,0.2798165137614679,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,132,127,0.35374953130858644,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-LGG,131,89,0.38220973782771533,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-MESO,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-OV,1,1,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-PCPG,6,4,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,3,2,0.5,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,correct_fact_coverage,TCGA cancer type,TCGA-UVM,6,5,0.2,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-ACC,29,15,0.1611111111111111,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-BLCA,132,102,0.17761437908496733,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-BRCA,132,98,0.07806122448979591,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-CESC,132,80,0.18333333333333332,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-CHOL,12,10,0.15,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-COAD,3,2,0.25,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-DLBC,17,5,0.2,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-ESCA,129,67,0.17164179104477612,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-HNSC,132,88,0.18560606060606058,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-KICH,62,24,0.4375,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-KIRC,132,65,0.4,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-KIRP,132,96,0.3567708333333333,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-LGG,131,75,0.3088888888888889,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-MESO,2,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-PCPG,6,4,0.375,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-PRAD,3,2,0.25,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-UCEC,2,0,,descriptive subgroup mean
+public_evaluation1200,DeepSeek,contradiction_asserted,TCGA cancer type,TCGA-UVM,6,4,0.375,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,0.41379310344827586,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,0.7121212121212122,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.4696969696969697,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.6287878787878788,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.29411764705882354,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.8062015503875969,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,0.946969696969697,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.1935483870967742,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.2878787878787879,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.7251908396946565,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,1.0,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,0.5,descriptive subgroup mean
+public_evaluation1200,GLM,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,1.0,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-ACC,29,20,0.4,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-BLCA,132,75,0.7066666666666667,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.21875,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-CESC,132,79,0.5949367088607594,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-CHOL,12,5,0.8,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-COAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.375,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.7,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-HNSC,132,100,0.95,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-KICH,62,37,0.24324324324324326,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.6216216216216216,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.2894736842105263,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-LGG,131,60,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-MESO,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-PRAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-ACC,29,23,0.3925810904071773,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-BLCA,132,126,0.49972915091962705,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-BRCA,132,108,0.552851263962375,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-CESC,132,105,0.488140589569161,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-CHOL,12,12,0.4861111111111111,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-COAD,3,3,0.2222222222222222,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-DLBC,17,8,0.7041666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-ESCA,129,107,0.4735674502029642,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-HNSC,132,119,0.4600173402694411,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-KICH,62,41,0.40487804878048783,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-KIRC,132,109,0.22155963302752296,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-KIRP,132,127,0.41926009248843893,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-LGG,131,89,0.41368824683431427,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-MESO,2,2,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-OV,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-PCPG,6,4,0.1,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-PRAD,3,2,0.5333333333333333,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,GLM,finding_f1,TCGA cancer type,TCGA-UVM,6,5,0.5999999999999999,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-ACC,29,23,0.3347826086956522,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,132,126,0.4068783068783069,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,132,108,0.4749118165784833,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-CESC,132,105,0.4465079365079365,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,12,12,0.4218253968253968,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-COAD,3,3,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,17,8,0.6458333333333333,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,129,107,0.41653315531820206,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,132,119,0.38459383753501397,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-KICH,62,41,0.3597560975609756,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,132,109,0.20061162079510703,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,132,127,0.36994750656167985,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-LGG,131,89,0.349063670411985,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-MESO,2,2,0.25,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-OV,1,1,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-PCPG,6,4,0.0625,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,3,2,0.375,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,GLM,correct_fact_coverage,TCGA cancer type,TCGA-UVM,6,5,0.5,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-ACC,29,17,0.2745098039215686,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-BLCA,132,110,0.18106060606060603,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-BRCA,132,95,0.1505263157894737,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-CESC,132,73,0.16210045662100456,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-CHOL,12,11,0.2863636363636364,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-COAD,3,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-DLBC,17,7,0.07142857142857142,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-ESCA,129,79,0.17658227848101266,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-HNSC,132,98,0.2227891156462585,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-KICH,62,28,0.2619047619047619,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-KIRC,132,48,0.3993055555555555,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-KIRP,132,98,0.3010204081632653,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-LGG,131,70,0.28809523809523807,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-MESO,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-PCPG,6,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-PRAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,GLM,contradiction_asserted,TCGA cancer type,TCGA-UVM,6,5,0.2,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,0.24242424242424243,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.12878787878787878,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.05303030303030303,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.07751937984496124,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,0.08333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.007633587786259542,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-ACC,29,20,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-BLCA,132,75,0.26666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-CESC,132,79,0.05063291139240506,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-CHOL,12,5,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-COAD,3,3,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.03333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-HNSC,132,100,0.1,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-KICH,62,37,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-LGG,131,60,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-MESO,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-PRAD,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-ACC,29,23,0.30962732919254654,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-BLCA,132,126,0.43020282186948855,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-BRCA,132,108,0.4777116402116402,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-CESC,132,105,0.38036281179138326,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-CHOL,12,12,0.12962962962962962,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-COAD,3,3,0.41269841269841273,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-DLBC,17,8,0.6208333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-ESCA,129,107,0.36183058893339265,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-HNSC,132,119,0.3142857142857143,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-KICH,62,41,0.3121951219512195,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-KIRC,132,109,0.3885539536915683,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-KIRP,132,127,0.25952380952380955,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-LGG,131,89,0.46776350989834137,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-MESO,2,2,0.5,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-OV,1,1,0.8,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-PCPG,6,4,0.20833333333333331,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-PRAD,3,2,0.5333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,finding_f1,TCGA cancer type,TCGA-UVM,6,5,0.6133333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-ACC,29,23,0.2644927536231884,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,132,126,0.33968253968253964,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,132,108,0.3943121693121693,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-CESC,132,105,0.3304761904761905,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,12,12,0.08690476190476192,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-COAD,3,3,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,17,8,0.5833333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,129,107,0.3000222518914108,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,132,119,0.24943977591036412,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-KICH,62,41,0.2845528455284553,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,132,109,0.3596330275229358,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,132,127,0.2170603674540682,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-LGG,131,89,0.4320224719101124,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-MESO,2,2,0.5,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-OV,1,1,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-PCPG,6,4,0.14583333333333331,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,3,2,0.375,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,correct_fact_coverage,TCGA cancer type,TCGA-UVM,6,5,0.45,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-ACC,29,12,0.20833333333333334,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-BLCA,132,90,0.05092592592592592,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-BRCA,132,83,0.0963855421686747,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-CESC,132,58,0.09482758620689655,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-CHOL,12,5,0.3,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-COAD,3,2,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-DLBC,17,6,0.08333333333333333,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-ESCA,129,64,0.09375,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-HNSC,132,66,0.09343434343434343,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-KICH,62,23,0.30434782608695654,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-KIRC,132,58,0.14655172413793102,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-KIRP,132,56,0.16071428571428573,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-LGG,131,73,0.3401826484018265,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-MESO,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-PCPG,6,4,0.625,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-PRAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-UCEC,2,0,,descriptive subgroup mean
+public_evaluation1200,Visual + MedGemma,contradiction_asserted,TCGA cancer type,TCGA-UVM,6,5,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,0.9655172413793104,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.9924242424242424,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.11363636363636363,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.6124031007751938,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-ACC,29,20,0.95,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-BLCA,132,75,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.09375,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-CESC,132,79,0.11392405063291139,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-CHOL,12,5,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.26666666666666666,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-HNSC,132,100,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-KICH,62,37,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-LGG,131,60,0.03333333333333333,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-MESO,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-ACC,29,23,0.29099378881987575,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-BLCA,132,126,0.06895313681027966,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-BRCA,132,108,0.5798133450911228,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-CESC,132,105,0.5698866213151927,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-CHOL,12,12,0.13888888888888887,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-COAD,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-DLBC,17,8,0.35416666666666663,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-ESCA,129,107,0.09147752558967512,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-HNSC,132,119,0.016526610644257703,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-KICH,62,41,0.09430894308943089,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-KIRC,132,109,0.15137614678899083,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-KIRP,132,127,0.017622797150356206,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-LGG,131,89,0.42913322632423756,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-MESO,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-PCPG,6,4,0.29642857142857143,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-PRAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,finding_f1,TCGA cancer type,TCGA-UVM,6,5,0.42666666666666664,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-ACC,29,23,0.2072463768115942,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,132,126,0.046164021164021164,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,132,108,0.45961199294532634,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-CESC,132,105,0.5052380952380953,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,12,12,0.09999999999999999,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-COAD,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,17,8,0.29166666666666663,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,129,107,0.06332888295505117,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,132,119,0.011204481792717087,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-KICH,62,41,0.07520325203252032,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,132,109,0.127217125382263,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,132,127,0.011811023622047244,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-LGG,131,89,0.3541198501872659,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-MESO,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-PCPG,6,4,0.18749999999999997,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,correct_fact_coverage,TCGA cancer type,TCGA-UVM,6,5,0.3,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-ACC,29,12,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-BLCA,132,19,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-BRCA,132,97,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-CESC,132,80,0.05,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-CHOL,12,3,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-COAD,3,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-DLBC,17,4,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-ESCA,129,19,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-HNSC,132,4,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-KICH,62,6,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-KIRC,132,23,0.0,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-KIRP,132,6,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-LGG,131,70,0.22857142857142856,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-MESO,2,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-OV,1,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-PCPG,6,4,0.25,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-PRAD,3,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-UCEC,2,0,,descriptive subgroup mean
+public_evaluation1200,PathAgent,contradiction_asserted,TCGA cancer type,TCGA-UVM,6,4,0.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,0.7241379310344828,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,0.6212121212121212,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.4166666666666667,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.5833333333333334,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.7647058823529411,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.5581395348837209,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,0.5833333333333334,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.16129032258064516,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.5454545454545454,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.7651515151515151,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.2595419847328244,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,0.5,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.8333333333333334,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,0.5,descriptive subgroup mean
+public_evaluation1200,PRISM2,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-ACC,29,20,0.7,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-BLCA,132,75,0.6133333333333333,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.46875,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-CESC,132,79,0.4810126582278481,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-CHOL,12,5,0.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-COAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.75,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.6,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-HNSC,132,100,0.58,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-KICH,62,37,0.10810810810810811,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.4594594594594595,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.8026315789473685,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-LGG,131,60,0.23333333333333334,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-MESO,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.2,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,PRISM2,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,0.946969696969697,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.8636363636363636,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.6590909090909091,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,0.9166666666666666,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.7647058823529411,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.9302325581395349,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,0.9545454545454546,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.03225806451612903,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.553030303030303,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.22727272727272727,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.5038167938931297,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,0.5,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-ACC,29,20,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-BLCA,132,75,0.9333333333333333,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.15625,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-CESC,132,79,0.5316455696202531,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-CHOL,12,5,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.625,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.7833333333333333,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-HNSC,132,100,0.96,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-KICH,62,37,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.5135135135135135,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.19736842105263158,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-LGG,131,60,0.31666666666666665,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-MESO,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-PRAD,3,3,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-ACC,29,23,0.4002070393374741,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-BLCA,132,126,0.5102607709750567,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-BRCA,132,108,0.5687977660199882,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-CESC,132,105,0.5982766439909297,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-CHOL,12,12,0.518452380952381,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-COAD,3,3,0.35555555555555557,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-DLBC,17,8,0.35833333333333334,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-ESCA,129,107,0.49747811897344607,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-HNSC,132,119,0.4440176070428171,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-KICH,62,41,0.22845528455284553,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-KIRC,132,109,0.24958497160332024,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-KIRP,132,127,0.4033370828646418,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-LGG,131,89,0.6571963616907438,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-MESO,2,2,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-OV,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-PCPG,6,4,0.17142857142857143,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-PRAD,3,2,0.2,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,finding_f1,TCGA cancer type,TCGA-UVM,6,5,0.27999999999999997,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-ACC,29,23,0.3050724637681159,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,132,126,0.4022486772486773,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,132,108,0.4664682539682539,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-CESC,132,105,0.5328571428571429,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,12,12,0.42658730158730157,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-COAD,3,3,0.25,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,17,8,0.3020833333333333,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,129,107,0.42510013351134845,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,132,119,0.34607843137254907,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-KICH,62,41,0.20121951219512196,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,132,109,0.21620795107033636,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,132,127,0.335920509936258,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-LGG,131,89,0.6183520599250937,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-MESO,2,2,0.25,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-OV,1,1,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-PCPG,6,4,0.125,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,3,2,0.125,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,correct_fact_coverage,TCGA cancer type,TCGA-UVM,6,5,0.25,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-ACC,29,16,0.078125,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-BLCA,132,105,0.060317460317460325,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-BRCA,132,101,0.0957095709570957,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-CESC,132,85,0.06862745098039215,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-CHOL,12,9,0.037037037037037035,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-COAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-DLBC,17,5,0.2,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-ESCA,129,75,0.02,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-HNSC,132,87,0.01532567049808429,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-KICH,62,19,0.3684210526315789,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-KIRC,132,46,0.22826086956521738,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-KIRP,132,79,0.0759493670886076,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-LGG,131,83,0.2142570281124498,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-MESO,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-PCPG,6,3,0.5,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-PRAD,3,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO1_D1,contradiction_asserted,TCGA cancer type,TCGA-UVM,6,2,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-ACC,29,29,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-BLCA,132,132,0.9621212121212122,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-BRCA,132,132,0.9848484848484849,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-CESC,132,132,0.6590909090909091,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-CHOL,12,12,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-DLBC,17,17,0.7058823529411765,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-ESCA,129,129,0.9302325581395349,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-HNSC,132,132,0.9924242424242424,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-KICH,62,62,0.016129032258064516,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-KIRC,132,132,0.7121212121212122,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-KIRP,132,132,0.25757575757575757,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-LGG,131,131,0.5343511450381679,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-MESO,2,2,0.5,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-PCPG,6,6,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-UCEC,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-UVM,6,6,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-ACC,29,20,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-BLCA,132,75,0.96,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-BRCA,132,32,0.375,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-CESC,132,79,0.5063291139240507,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-CHOL,12,5,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-COAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-DLBC,17,8,0.75,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-ESCA,129,60,0.7833333333333333,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-HNSC,132,100,0.99,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-KICH,62,37,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-KIRC,132,37,0.7297297297297297,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-KIRP,132,76,0.23684210526315788,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-LGG,131,60,0.31666666666666665,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-MESO,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-OV,1,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-PCPG,6,5,0.6,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-PRAD,3,3,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,subtype,TCGA cancer type,TCGA-UVM,6,0,,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-ACC,29,23,0.5258109040717738,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-BLCA,132,126,0.503898966994205,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-BRCA,132,108,0.5880364491475603,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-CESC,132,105,0.6271201814058956,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-CHOL,12,12,0.4946428571428572,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-COAD,3,3,0.35555555555555557,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-DLBC,17,8,0.5583333333333333,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-ESCA,129,107,0.5023809523809524,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-HNSC,132,119,0.46278511404561823,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-KICH,62,41,0.3886178861788617,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-KIRC,132,109,0.2597859327217125,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-KIRP,132,127,0.42429696287963997,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-LGG,131,89,0.6161940431603352,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.6666666666666666,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-MESO,2,2,0.8333333333333333,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-OV,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-PCPG,6,4,0.37499999999999994,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-PRAD,3,2,0.5333333333333333,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,finding_f1,TCGA cancer type,TCGA-UVM,6,5,0.21333333333333332,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-ACC,29,23,0.4507246376811594,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,132,126,0.40026455026455016,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,132,108,0.48893298059964735,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-CESC,132,105,0.5722222222222222,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,12,12,0.4043650793650793,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-COAD,3,3,0.25,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,17,8,0.5208333333333333,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,129,107,0.42781486426346244,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,132,119,0.36162464985994397,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-KICH,62,41,0.3516260162601626,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,132,109,0.23027522935779815,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,132,127,0.3632170978627671,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-LGG,131,89,0.5696629213483146,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-MESO,2,2,0.75,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-OV,1,1,0.3333333333333333,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-PCPG,6,4,0.29166666666666663,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,3,2,0.375,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,2,1,1.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-UVM,6,5,0.15,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-ACC,29,18,0.08333333333333333,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-BLCA,132,104,0.05512820512820512,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-BRCA,132,100,0.06866666666666667,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-CESC,132,86,0.07364341085271317,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-CHOL,12,11,0.22727272727272727,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-COAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-DLBC,17,6,0.16666666666666666,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-ESCA,129,78,0.019230769230769232,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-HNSC,132,94,0.051418439716312055,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-KICH,62,25,0.2,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-KIRC,132,55,0.35454545454545455,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-KIRP,132,84,0.13492063492063494,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-LGG,131,82,0.2347560975609756,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,1,0.5,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-MESO,2,2,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-OV,1,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-PCPG,6,4,0.41666666666666663,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-PRAD,3,2,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-UCEC,2,1,0.0,descriptive subgroup mean
+public_evaluation1200,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-UVM,6,2,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-ACC,27,27,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-BLCA,24,24,0.8333333333333334,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-BRCA,19,19,0.42105263157894735,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-CESC,11,11,0.18181818181818182,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-CHOL,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-DLBC,5,5,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-ESCA,42,42,0.14285714285714285,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-HNSC,10,10,0.9,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-KICH,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-KIRC,6,6,0.3333333333333333,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-KIRP,19,19,0.7894736842105263,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-LGG,39,39,0.46153846153846156,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-PRAD,2,2,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,0.3333333333333333,descriptive subgroup mean
+native_evaluation215,HistGen,cohort_compatibility,TCGA cancer type,TCGA-UCEC,1,1,1.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-ACC,27,18,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-BLCA,24,12,0.8333333333333334,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-BRCA,19,4,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-CESC,11,2,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-CHOL,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-DLBC,5,0,,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-ESCA,42,2,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-HNSC,10,5,1.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-KICH,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-KIRC,6,2,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-KIRP,19,8,0.875,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-LGG,39,13,0.46153846153846156,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-PRAD,2,2,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+native_evaluation215,HistGen,subtype,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-ACC,27,21,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-BLCA,24,22,0.1841991341991342,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-BRCA,19,17,0.36993464052287583,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-CESC,11,10,0.2,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-CHOL,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-DLBC,5,5,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-ESCA,42,33,0.02077922077922078,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-HNSC,10,5,0.3133333333333333,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-KICH,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-KIRC,6,5,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-KIRP,19,18,0.5444444444444445,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-LGG,39,27,0.16560846560846562,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-PRAD,2,1,0.4,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,finding_f1,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-ACC,27,21,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,24,22,0.1212121212121212,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,19,17,0.26526610644257703,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-CESC,11,10,0.2,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,5,5,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,42,33,0.012626262626262624,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,10,5,0.21666666666666665,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-KICH,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,6,5,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,19,18,0.46759259259259245,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-LGG,39,27,0.1388888888888889,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,2,1,0.25,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-ACC,27,2,1.0,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-BLCA,24,11,0.18181818181818182,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-BRCA,19,15,0.16666666666666666,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-CESC,11,4,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-CHOL,2,0,,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-COAD,1,0,,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-DLBC,5,1,1.0,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-ESCA,42,7,0.7142857142857143,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-HNSC,10,3,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-KICH,2,0,,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-KIRC,6,1,1.0,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-KIRP,19,14,0.03571428571428571,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-LGG,39,14,0.5238095238095238,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-PRAD,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+native_evaluation215,HistGen,contradiction_asserted,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-ACC,27,27,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-BLCA,24,24,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-BRCA,19,19,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-CESC,11,11,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-CHOL,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-DLBC,5,5,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-ESCA,42,42,0.19047619047619047,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-HNSC,10,10,0.3,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-KICH,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-KIRC,6,6,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-KIRP,19,19,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-LGG,39,39,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-PRAD,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,cohort_compatibility,TCGA cancer type,TCGA-UCEC,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-ACC,27,18,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-BLCA,24,12,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-BRCA,19,4,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-CESC,11,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-CHOL,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-DLBC,5,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-ESCA,42,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-HNSC,10,5,0.2,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-KICH,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-KIRC,6,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-KIRP,19,8,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-LGG,39,13,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-PRAD,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,subtype,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-ACC,27,21,0.32063492063492055,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-BLCA,24,22,0.050865800865800864,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-BRCA,19,17,0.1697478991596639,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-CESC,11,10,0.10666666666666666,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-CHOL,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-DLBC,5,5,0.21333333333333332,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-ESCA,42,33,0.08088023088023087,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-HNSC,10,5,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-KICH,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-KIRC,6,5,0.13333333333333333,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-KIRP,19,18,0.0380952380952381,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-LGG,39,27,0.1419753086419753,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-PRAD,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,finding_f1,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-ACC,27,21,0.23888888888888887,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,24,22,0.031818181818181815,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,19,17,0.1196078431372549,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-CESC,11,10,0.075,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,2,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,5,5,0.15,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,42,33,0.05483405483405483,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,10,5,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-KICH,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,6,5,0.1,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,19,18,0.023148148148148147,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-LGG,39,27,0.12345679012345678,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,2,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-ACC,27,12,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-BLCA,24,3,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-BRCA,19,6,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-CESC,11,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-CHOL,2,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-COAD,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-DLBC,5,3,0.3333333333333333,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-ESCA,42,7,0.14285714285714285,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-HNSC,10,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-KICH,2,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-KIRC,6,1,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-KIRP,19,2,0.0,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-LGG,39,7,0.2857142857142857,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-PRAD,2,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+native_evaluation215,HistoGPT,contradiction_asserted,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-ACC,27,27,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-BLCA,24,24,0.9583333333333334,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-BRCA,19,19,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-CESC,11,11,0.8181818181818182,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-CHOL,2,2,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-COAD,1,1,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-DLBC,5,5,0.8,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-ESCA,42,42,0.8809523809523809,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-HNSC,10,10,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-KICH,2,2,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-KIRC,6,6,0.8333333333333334,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-KIRP,19,19,0.15789473684210525,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-LGG,39,39,0.5128205128205128,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-LIHC,1,1,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-PRAD,2,2,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-SKCM,3,3,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,cohort_compatibility,TCGA cancer type,TCGA-UCEC,1,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-ACC,27,18,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-BLCA,24,12,0.9166666666666666,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-BRCA,19,4,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-CESC,11,2,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-CHOL,2,1,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-COAD,1,1,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-DLBC,5,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-ESCA,42,2,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-HNSC,10,5,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-KICH,2,2,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-KIRC,6,2,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-KIRP,19,8,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-LGG,39,13,0.23076923076923078,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-LIHC,1,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-LUAD,1,1,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-PRAD,2,2,1.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,subtype,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-ACC,27,21,0.5282690854119427,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-BLCA,24,22,0.37359307359307364,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-BRCA,19,17,0.47394957983193275,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-CESC,11,10,0.709047619047619,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-CHOL,2,2,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-DLBC,5,5,0.5333333333333333,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-ESCA,42,33,0.23297258297258294,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-HNSC,10,5,0.5133333333333333,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-KICH,2,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-KIRC,6,5,0.2333333333333333,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-KIRP,19,18,0.4084656084656084,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-LGG,39,27,0.6066137566137565,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-LIHC,1,1,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-LUAD,1,1,0.6666666666666666,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-PRAD,2,1,0.4,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,finding_f1,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-ACC,27,21,0.44603174603174606,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-BLCA,24,22,0.271969696969697,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-BRCA,19,17,0.36834733893557425,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-CESC,11,10,0.6333333333333333,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-CHOL,2,2,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-COAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-DLBC,5,5,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-ESCA,42,33,0.17655122655122654,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-HNSC,10,5,0.41666666666666663,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-KICH,2,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-KIRC,6,5,0.16666666666666666,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-KIRP,19,18,0.3333333333333333,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-LGG,39,27,0.5518518518518518,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-LIHC,1,1,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-LUAD,1,1,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-PRAD,2,1,0.25,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-SKCM,3,3,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,correct_fact_coverage,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-ACC,27,17,0.08823529411764706,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-BLCA,24,17,0.06862745098039215,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-BRCA,19,16,0.15833333333333335,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-CESC,11,10,0.1,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-CHOL,2,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-COAD,1,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-DLBC,5,4,0.25,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-ESCA,42,15,0.03333333333333333,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-HNSC,10,4,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-KICH,2,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-KIRC,6,2,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-KIRP,19,12,0.1111111111111111,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-LGG,39,26,0.25320512820512814,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-LIHC,1,1,0.5,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-LUAD,1,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-PRAD,2,1,0.0,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-SKCM,3,0,,descriptive subgroup mean
+native_evaluation215,SO4_D1,contradiction_asserted,TCGA cancer type,TCGA-UCEC,1,0,,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,cohort_compatibility,organ,breast,76,74,0.8648648648648649,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,cohort_compatibility,organ,prostate,62,46,0.9347826086956522,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,subtype,organ,breast,76,67,0.40298507462686567,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,subtype,organ,colorectal,13,12,0.25,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,subtype,organ,prostate,62,56,0.7678571428571429,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,finding_f1,organ,breast,76,76,0.8179824561403507,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,finding_f1,organ,colorectal,13,12,0.5138888888888888,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,finding_f1,organ,prostate,62,62,0.629032258064516,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,correct_fact_coverage,organ,breast,76,76,0.7960526315789473,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,correct_fact_coverage,organ,colorectal,13,12,0.4583333333333333,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,correct_fact_coverage,organ,prostate,62,62,0.5806451612903226,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,contradiction_asserted,organ,breast,76,74,0.11486486486486487,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,contradiction_asserted,organ,colorectal,13,12,0.375,descriptive subgroup mean
+private_shared151_P1,Visual + Qwen,contradiction_asserted,organ,prostate,62,52,0.1346153846153846,descriptive subgroup mean
+private_shared151_P1,DeepSeek,cohort_compatibility,organ,breast,76,74,0.9054054054054054,descriptive subgroup mean
+private_shared151_P1,DeepSeek,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P1,DeepSeek,cohort_compatibility,organ,prostate,62,46,0.9130434782608695,descriptive subgroup mean
+private_shared151_P1,DeepSeek,subtype,organ,breast,76,67,0.5671641791044776,descriptive subgroup mean
+private_shared151_P1,DeepSeek,subtype,organ,colorectal,13,12,0.08333333333333333,descriptive subgroup mean
+private_shared151_P1,DeepSeek,subtype,organ,prostate,62,56,0.75,descriptive subgroup mean
+private_shared151_P1,DeepSeek,finding_f1,organ,breast,76,76,0.7280701754385965,descriptive subgroup mean
+private_shared151_P1,DeepSeek,finding_f1,organ,colorectal,13,12,0.29166666666666663,descriptive subgroup mean
+private_shared151_P1,DeepSeek,finding_f1,organ,prostate,62,62,0.6586021505376344,descriptive subgroup mean
+private_shared151_P1,DeepSeek,correct_fact_coverage,organ,breast,76,76,0.6776315789473685,descriptive subgroup mean
+private_shared151_P1,DeepSeek,correct_fact_coverage,organ,colorectal,13,12,0.25,descriptive subgroup mean
+private_shared151_P1,DeepSeek,correct_fact_coverage,organ,prostate,62,62,0.6129032258064516,descriptive subgroup mean
+private_shared151_P1,DeepSeek,contradiction_asserted,organ,breast,76,75,0.16,descriptive subgroup mean
+private_shared151_P1,DeepSeek,contradiction_asserted,organ,colorectal,13,9,0.5,descriptive subgroup mean
+private_shared151_P1,DeepSeek,contradiction_asserted,organ,prostate,62,58,0.19827586206896552,descriptive subgroup mean
+private_shared151_P1,GLM,cohort_compatibility,organ,breast,76,74,0.5405405405405406,descriptive subgroup mean
+private_shared151_P1,GLM,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P1,GLM,cohort_compatibility,organ,prostate,62,46,0.8260869565217391,descriptive subgroup mean
+private_shared151_P1,GLM,subtype,organ,breast,76,67,0.23880597014925373,descriptive subgroup mean
+private_shared151_P1,GLM,subtype,organ,colorectal,13,12,0.25,descriptive subgroup mean
+private_shared151_P1,GLM,subtype,organ,prostate,62,56,0.6964285714285714,descriptive subgroup mean
+private_shared151_P1,GLM,finding_f1,organ,breast,76,76,0.6140350877192982,descriptive subgroup mean
+private_shared151_P1,GLM,finding_f1,organ,colorectal,13,12,0.38888888888888884,descriptive subgroup mean
+private_shared151_P1,GLM,finding_f1,organ,prostate,62,62,0.6989247311827955,descriptive subgroup mean
+private_shared151_P1,GLM,correct_fact_coverage,organ,breast,76,76,0.5394736842105263,descriptive subgroup mean
+private_shared151_P1,GLM,correct_fact_coverage,organ,colorectal,13,12,0.3333333333333333,descriptive subgroup mean
+private_shared151_P1,GLM,correct_fact_coverage,organ,prostate,62,62,0.6451612903225806,descriptive subgroup mean
+private_shared151_P1,GLM,contradiction_asserted,organ,breast,76,67,0.13432835820895522,descriptive subgroup mean
+private_shared151_P1,GLM,contradiction_asserted,organ,colorectal,13,7,0.14285714285714285,descriptive subgroup mean
+private_shared151_P1,GLM,contradiction_asserted,organ,prostate,62,54,0.07407407407407407,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,cohort_compatibility,organ,breast,76,74,0.02702702702702703,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,cohort_compatibility,organ,prostate,62,46,0.06521739130434782,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,subtype,organ,breast,76,67,0.014925373134328358,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,subtype,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,subtype,organ,prostate,62,56,0.05357142857142857,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,finding_f1,organ,breast,76,76,0.47149122807017535,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,finding_f1,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,finding_f1,organ,prostate,62,62,0.35215053763440857,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,correct_fact_coverage,organ,breast,76,76,0.4407894736842105,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,correct_fact_coverage,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,correct_fact_coverage,organ,prostate,62,62,0.3225806451612903,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,contradiction_asserted,organ,breast,76,57,0.2894736842105263,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,contradiction_asserted,organ,colorectal,13,9,1.0,descriptive subgroup mean
+private_shared151_P1,Visual + MedGemma,contradiction_asserted,organ,prostate,62,47,0.4574468085106383,descriptive subgroup mean
+private_shared151_P1,PathAgent,cohort_compatibility,organ,breast,76,74,0.9054054054054054,descriptive subgroup mean
+private_shared151_P1,PathAgent,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P1,PathAgent,cohort_compatibility,organ,prostate,62,46,0.8478260869565217,descriptive subgroup mean
+private_shared151_P1,PathAgent,subtype,organ,breast,76,67,0.05970149253731343,descriptive subgroup mean
+private_shared151_P1,PathAgent,subtype,organ,colorectal,13,12,0.08333333333333333,descriptive subgroup mean
+private_shared151_P1,PathAgent,subtype,organ,prostate,62,56,0.6964285714285714,descriptive subgroup mean
+private_shared151_P1,PathAgent,finding_f1,organ,breast,76,76,0.6052631578947366,descriptive subgroup mean
+private_shared151_P1,PathAgent,finding_f1,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,PathAgent,finding_f1,organ,prostate,62,62,0.01075268817204301,descriptive subgroup mean
+private_shared151_P1,PathAgent,correct_fact_coverage,organ,breast,76,76,0.45394736842105265,descriptive subgroup mean
+private_shared151_P1,PathAgent,correct_fact_coverage,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,PathAgent,correct_fact_coverage,organ,prostate,62,62,0.008064516129032258,descriptive subgroup mean
+private_shared151_P1,PathAgent,contradiction_asserted,organ,breast,76,70,0.014285714285714285,descriptive subgroup mean
+private_shared151_P1,PathAgent,contradiction_asserted,organ,colorectal,13,6,1.0,descriptive subgroup mean
+private_shared151_P1,PathAgent,contradiction_asserted,organ,prostate,62,15,0.9333333333333333,descriptive subgroup mean
+private_shared151_P1,PRISM2,cohort_compatibility,organ,breast,76,74,0.43243243243243246,descriptive subgroup mean
+private_shared151_P1,PRISM2,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P1,PRISM2,cohort_compatibility,organ,prostate,62,46,0.9782608695652174,descriptive subgroup mean
+private_shared151_P1,PRISM2,subtype,organ,breast,76,67,0.3283582089552239,descriptive subgroup mean
+private_shared151_P1,PRISM2,subtype,organ,colorectal,13,12,0.5833333333333334,descriptive subgroup mean
+private_shared151_P1,PRISM2,subtype,organ,prostate,62,56,0.8035714285714286,descriptive subgroup mean
+private_shared151_P1,HistGen,cohort_compatibility,organ,breast,76,74,0.08108108108108109,descriptive subgroup mean
+private_shared151_P1,HistGen,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P1,HistGen,cohort_compatibility,organ,prostate,62,46,0.08695652173913043,descriptive subgroup mean
+private_shared151_P1,HistGen,subtype,organ,breast,76,67,0.04477611940298507,descriptive subgroup mean
+private_shared151_P1,HistGen,subtype,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,HistGen,subtype,organ,prostate,62,56,0.07142857142857142,descriptive subgroup mean
+private_shared151_P1,HistGen,finding_f1,organ,breast,76,76,0.32236842105263164,descriptive subgroup mean
+private_shared151_P1,HistGen,finding_f1,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,HistGen,finding_f1,organ,prostate,62,62,0.11827956989247311,descriptive subgroup mean
+private_shared151_P1,HistGen,correct_fact_coverage,organ,breast,76,76,0.24342105263157895,descriptive subgroup mean
+private_shared151_P1,HistGen,correct_fact_coverage,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,HistGen,correct_fact_coverage,organ,prostate,62,62,0.08870967741935484,descriptive subgroup mean
+private_shared151_P1,HistGen,contradiction_asserted,organ,breast,76,41,0.10975609756097561,descriptive subgroup mean
+private_shared151_P1,HistGen,contradiction_asserted,organ,colorectal,13,6,1.0,descriptive subgroup mean
+private_shared151_P1,HistGen,contradiction_asserted,organ,prostate,62,14,0.21428571428571427,descriptive subgroup mean
+private_shared151_P1,HistoGPT,cohort_compatibility,organ,breast,76,74,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,cohort_compatibility,organ,prostate,62,46,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,subtype,organ,breast,76,67,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,subtype,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,subtype,organ,prostate,62,56,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,finding_f1,organ,breast,76,76,0.10526315789473684,descriptive subgroup mean
+private_shared151_P1,HistoGPT,finding_f1,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,finding_f1,organ,prostate,62,62,0.09408602150537634,descriptive subgroup mean
+private_shared151_P1,HistoGPT,correct_fact_coverage,organ,breast,76,76,0.08552631578947369,descriptive subgroup mean
+private_shared151_P1,HistoGPT,correct_fact_coverage,organ,colorectal,13,12,0.0,descriptive subgroup mean
+private_shared151_P1,HistoGPT,correct_fact_coverage,organ,prostate,62,62,0.07258064516129033,descriptive subgroup mean
+private_shared151_P1,HistoGPT,contradiction_asserted,organ,breast,76,20,0.45,descriptive subgroup mean
+private_shared151_P1,HistoGPT,contradiction_asserted,organ,colorectal,13,0,,descriptive subgroup mean
+private_shared151_P1,HistoGPT,contradiction_asserted,organ,prostate,62,20,0.575,descriptive subgroup mean
+private_shared151_P1,SO1_D1,cohort_compatibility,organ,breast,76,74,0.918918918918919,descriptive subgroup mean
+private_shared151_P1,SO1_D1,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P1,SO1_D1,cohort_compatibility,organ,prostate,62,46,0.9565217391304348,descriptive subgroup mean
+private_shared151_P1,SO1_D1,subtype,organ,breast,76,67,0.4925373134328358,descriptive subgroup mean
+private_shared151_P1,SO1_D1,subtype,organ,colorectal,13,12,0.08333333333333333,descriptive subgroup mean
+private_shared151_P1,SO1_D1,subtype,organ,prostate,62,56,0.7857142857142857,descriptive subgroup mean
+private_shared151_P1,SO1_D1,finding_f1,organ,breast,76,76,0.7828947368421053,descriptive subgroup mean
+private_shared151_P1,SO1_D1,finding_f1,organ,colorectal,13,12,0.3333333333333333,descriptive subgroup mean
+private_shared151_P1,SO1_D1,finding_f1,organ,prostate,62,62,0.6048387096774193,descriptive subgroup mean
+private_shared151_P1,SO1_D1,correct_fact_coverage,organ,breast,76,76,0.756578947368421,descriptive subgroup mean
+private_shared151_P1,SO1_D1,correct_fact_coverage,organ,colorectal,13,12,0.2916666666666667,descriptive subgroup mean
+private_shared151_P1,SO1_D1,correct_fact_coverage,organ,prostate,62,62,0.5645161290322581,descriptive subgroup mean
+private_shared151_P1,SO1_D1,contradiction_asserted,organ,breast,76,76,0.16447368421052633,descriptive subgroup mean
+private_shared151_P1,SO1_D1,contradiction_asserted,organ,colorectal,13,12,0.5833333333333334,descriptive subgroup mean
+private_shared151_P1,SO1_D1,contradiction_asserted,organ,prostate,62,59,0.2796610169491525,descriptive subgroup mean
+private_shared151_P1,SO4_D1,cohort_compatibility,organ,breast,76,74,0.9324324324324325,descriptive subgroup mean
+private_shared151_P1,SO4_D1,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P1,SO4_D1,cohort_compatibility,organ,prostate,62,46,0.9347826086956522,descriptive subgroup mean
+private_shared151_P1,SO4_D1,subtype,organ,breast,76,67,0.7014925373134329,descriptive subgroup mean
+private_shared151_P1,SO4_D1,subtype,organ,colorectal,13,12,0.08333333333333333,descriptive subgroup mean
+private_shared151_P1,SO4_D1,subtype,organ,prostate,62,56,0.7678571428571429,descriptive subgroup mean
+private_shared151_P1,SO4_D1,finding_f1,organ,breast,76,76,0.8640350877192982,descriptive subgroup mean
+private_shared151_P1,SO4_D1,finding_f1,organ,colorectal,13,12,0.29166666666666663,descriptive subgroup mean
+private_shared151_P1,SO4_D1,finding_f1,organ,prostate,62,62,0.7365591397849462,descriptive subgroup mean
+private_shared151_P1,SO4_D1,correct_fact_coverage,organ,breast,76,76,0.8486842105263158,descriptive subgroup mean
+private_shared151_P1,SO4_D1,correct_fact_coverage,organ,colorectal,13,12,0.25,descriptive subgroup mean
+private_shared151_P1,SO4_D1,correct_fact_coverage,organ,prostate,62,62,0.7258064516129032,descriptive subgroup mean
+private_shared151_P1,SO4_D1,contradiction_asserted,organ,breast,76,76,0.10526315789473684,descriptive subgroup mean
+private_shared151_P1,SO4_D1,contradiction_asserted,organ,colorectal,13,11,0.5909090909090909,descriptive subgroup mean
+private_shared151_P1,SO4_D1,contradiction_asserted,organ,prostate,62,60,0.21666666666666667,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,cohort_compatibility,organ,breast,76,76,0.868421052631579,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,cohort_compatibility,organ,prostate,62,46,0.9347826086956522,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,subtype,organ,breast,76,64,0.4375,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,subtype,organ,colorectal,13,13,0.23076923076923078,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,subtype,organ,prostate,62,59,0.7288135593220338,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,finding_f1,organ,breast,76,76,0.8442982456140351,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,finding_f1,organ,colorectal,13,13,0.47435897435897434,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,finding_f1,organ,prostate,62,62,0.6505376344086021,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,correct_fact_coverage,organ,breast,76,76,0.8223684210526315,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,correct_fact_coverage,organ,colorectal,13,13,0.4230769230769231,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,correct_fact_coverage,organ,prostate,62,62,0.6075268817204301,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,contradiction_asserted,organ,breast,76,72,0.0625,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,contradiction_asserted,organ,colorectal,13,12,0.375,descriptive subgroup mean
+private_shared151_P2,Visual + Qwen,contradiction_asserted,organ,prostate,62,51,0.1045751633986928,descriptive subgroup mean
+private_shared151_P2,DeepSeek,cohort_compatibility,organ,breast,76,76,0.8947368421052632,descriptive subgroup mean
+private_shared151_P2,DeepSeek,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P2,DeepSeek,cohort_compatibility,organ,prostate,62,46,0.9130434782608695,descriptive subgroup mean
+private_shared151_P2,DeepSeek,subtype,organ,breast,76,64,0.515625,descriptive subgroup mean
+private_shared151_P2,DeepSeek,subtype,organ,colorectal,13,13,0.07692307692307693,descriptive subgroup mean
+private_shared151_P2,DeepSeek,subtype,organ,prostate,62,59,0.711864406779661,descriptive subgroup mean
+private_shared151_P2,DeepSeek,finding_f1,organ,breast,76,76,0.7719298245614035,descriptive subgroup mean
+private_shared151_P2,DeepSeek,finding_f1,organ,colorectal,13,13,0.2692307692307692,descriptive subgroup mean
+private_shared151_P2,DeepSeek,finding_f1,organ,prostate,62,62,0.6801075268817204,descriptive subgroup mean
+private_shared151_P2,DeepSeek,correct_fact_coverage,organ,breast,76,76,0.7236842105263158,descriptive subgroup mean
+private_shared151_P2,DeepSeek,correct_fact_coverage,organ,colorectal,13,13,0.23076923076923078,descriptive subgroup mean
+private_shared151_P2,DeepSeek,correct_fact_coverage,organ,prostate,62,62,0.6397849462365592,descriptive subgroup mean
+private_shared151_P2,DeepSeek,contradiction_asserted,organ,breast,76,74,0.10810810810810811,descriptive subgroup mean
+private_shared151_P2,DeepSeek,contradiction_asserted,organ,colorectal,13,10,0.55,descriptive subgroup mean
+private_shared151_P2,DeepSeek,contradiction_asserted,organ,prostate,62,59,0.19209039548022597,descriptive subgroup mean
+private_shared151_P2,GLM,cohort_compatibility,organ,breast,76,76,0.5526315789473685,descriptive subgroup mean
+private_shared151_P2,GLM,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P2,GLM,cohort_compatibility,organ,prostate,62,46,0.8260869565217391,descriptive subgroup mean
+private_shared151_P2,GLM,subtype,organ,breast,76,64,0.25,descriptive subgroup mean
+private_shared151_P2,GLM,subtype,organ,colorectal,13,13,0.23076923076923078,descriptive subgroup mean
+private_shared151_P2,GLM,subtype,organ,prostate,62,59,0.6779661016949152,descriptive subgroup mean
+private_shared151_P2,GLM,finding_f1,organ,breast,76,76,0.6425438596491226,descriptive subgroup mean
+private_shared151_P2,GLM,finding_f1,organ,colorectal,13,13,0.3589743589743589,descriptive subgroup mean
+private_shared151_P2,GLM,finding_f1,organ,prostate,62,62,0.7129032258064514,descriptive subgroup mean
+private_shared151_P2,GLM,correct_fact_coverage,organ,breast,76,76,0.5723684210526315,descriptive subgroup mean
+private_shared151_P2,GLM,correct_fact_coverage,organ,colorectal,13,13,0.3076923076923077,descriptive subgroup mean
+private_shared151_P2,GLM,correct_fact_coverage,organ,prostate,62,62,0.6666666666666667,descriptive subgroup mean
+private_shared151_P2,GLM,contradiction_asserted,organ,breast,76,64,0.0703125,descriptive subgroup mean
+private_shared151_P2,GLM,contradiction_asserted,organ,colorectal,13,7,0.14285714285714285,descriptive subgroup mean
+private_shared151_P2,GLM,contradiction_asserted,organ,prostate,62,56,0.10714285714285714,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,cohort_compatibility,organ,breast,76,76,0.02631578947368421,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,cohort_compatibility,organ,prostate,62,46,0.06521739130434782,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,subtype,organ,breast,76,64,0.015625,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,subtype,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,subtype,organ,prostate,62,59,0.05084745762711865,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,finding_f1,organ,breast,76,76,0.5109649122807017,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,finding_f1,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,finding_f1,organ,prostate,62,62,0.41666666666666663,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,correct_fact_coverage,organ,breast,76,76,0.48026315789473684,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,correct_fact_coverage,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,correct_fact_coverage,organ,prostate,62,62,0.3951612903225806,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,contradiction_asserted,organ,breast,76,57,0.23684210526315788,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,contradiction_asserted,organ,colorectal,13,9,1.0,descriptive subgroup mean
+private_shared151_P2,Visual + MedGemma,contradiction_asserted,organ,prostate,62,45,0.36666666666666664,descriptive subgroup mean
+private_shared151_P2,PathAgent,cohort_compatibility,organ,breast,76,76,0.9078947368421053,descriptive subgroup mean
+private_shared151_P2,PathAgent,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P2,PathAgent,cohort_compatibility,organ,prostate,62,46,0.8478260869565217,descriptive subgroup mean
+private_shared151_P2,PathAgent,subtype,organ,breast,76,64,0.046875,descriptive subgroup mean
+private_shared151_P2,PathAgent,subtype,organ,colorectal,13,13,0.07692307692307693,descriptive subgroup mean
+private_shared151_P2,PathAgent,subtype,organ,prostate,62,59,0.6610169491525424,descriptive subgroup mean
+private_shared151_P2,PathAgent,finding_f1,organ,breast,76,76,0.6491228070175437,descriptive subgroup mean
+private_shared151_P2,PathAgent,finding_f1,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,PathAgent,finding_f1,organ,prostate,62,62,0.01075268817204301,descriptive subgroup mean
+private_shared151_P2,PathAgent,correct_fact_coverage,organ,breast,76,76,0.5131578947368421,descriptive subgroup mean
+private_shared151_P2,PathAgent,correct_fact_coverage,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,PathAgent,correct_fact_coverage,organ,prostate,62,62,0.008064516129032258,descriptive subgroup mean
+private_shared151_P2,PathAgent,contradiction_asserted,organ,breast,76,70,0.0,descriptive subgroup mean
+private_shared151_P2,PathAgent,contradiction_asserted,organ,colorectal,13,6,1.0,descriptive subgroup mean
+private_shared151_P2,PathAgent,contradiction_asserted,organ,prostate,62,13,0.9230769230769231,descriptive subgroup mean
+private_shared151_P2,PRISM2,cohort_compatibility,organ,breast,76,76,0.42105263157894735,descriptive subgroup mean
+private_shared151_P2,PRISM2,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P2,PRISM2,cohort_compatibility,organ,prostate,62,46,0.9782608695652174,descriptive subgroup mean
+private_shared151_P2,PRISM2,subtype,organ,breast,76,64,0.296875,descriptive subgroup mean
+private_shared151_P2,PRISM2,subtype,organ,colorectal,13,13,0.5384615384615384,descriptive subgroup mean
+private_shared151_P2,PRISM2,subtype,organ,prostate,62,59,0.7627118644067796,descriptive subgroup mean
+private_shared151_P2,HistGen,cohort_compatibility,organ,breast,76,76,0.07894736842105263,descriptive subgroup mean
+private_shared151_P2,HistGen,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P2,HistGen,cohort_compatibility,organ,prostate,62,46,0.08695652173913043,descriptive subgroup mean
+private_shared151_P2,HistGen,subtype,organ,breast,76,64,0.046875,descriptive subgroup mean
+private_shared151_P2,HistGen,subtype,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,HistGen,subtype,organ,prostate,62,59,0.06779661016949153,descriptive subgroup mean
+private_shared151_P2,HistGen,finding_f1,organ,breast,76,76,0.31798245614035087,descriptive subgroup mean
+private_shared151_P2,HistGen,finding_f1,organ,colorectal,13,13,0.05128205128205128,descriptive subgroup mean
+private_shared151_P2,HistGen,finding_f1,organ,prostate,62,62,0.12365591397849462,descriptive subgroup mean
+private_shared151_P2,HistGen,correct_fact_coverage,organ,breast,76,76,0.25,descriptive subgroup mean
+private_shared151_P2,HistGen,correct_fact_coverage,organ,colorectal,13,13,0.038461538461538464,descriptive subgroup mean
+private_shared151_P2,HistGen,correct_fact_coverage,organ,prostate,62,62,0.0967741935483871,descriptive subgroup mean
+private_shared151_P2,HistGen,contradiction_asserted,organ,breast,76,40,0.1375,descriptive subgroup mean
+private_shared151_P2,HistGen,contradiction_asserted,organ,colorectal,13,7,0.8571428571428571,descriptive subgroup mean
+private_shared151_P2,HistGen,contradiction_asserted,organ,prostate,62,16,0.3125,descriptive subgroup mean
+private_shared151_P2,HistoGPT,cohort_compatibility,organ,breast,76,76,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,cohort_compatibility,organ,colorectal,13,1,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,cohort_compatibility,organ,prostate,62,46,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,subtype,organ,breast,76,64,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,subtype,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,subtype,organ,prostate,62,59,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,finding_f1,organ,breast,76,76,0.10307017543859648,descriptive subgroup mean
+private_shared151_P2,HistoGPT,finding_f1,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,finding_f1,organ,prostate,62,62,0.10483870967741936,descriptive subgroup mean
+private_shared151_P2,HistoGPT,correct_fact_coverage,organ,breast,76,76,0.08552631578947369,descriptive subgroup mean
+private_shared151_P2,HistoGPT,correct_fact_coverage,organ,colorectal,13,13,0.0,descriptive subgroup mean
+private_shared151_P2,HistoGPT,correct_fact_coverage,organ,prostate,62,62,0.08064516129032258,descriptive subgroup mean
+private_shared151_P2,HistoGPT,contradiction_asserted,organ,breast,76,20,0.475,descriptive subgroup mean
+private_shared151_P2,HistoGPT,contradiction_asserted,organ,colorectal,13,0,,descriptive subgroup mean
+private_shared151_P2,HistoGPT,contradiction_asserted,organ,prostate,62,20,0.525,descriptive subgroup mean
+private_shared151_P2,SO1_D1,cohort_compatibility,organ,breast,76,76,0.9210526315789473,descriptive subgroup mean
+private_shared151_P2,SO1_D1,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P2,SO1_D1,cohort_compatibility,organ,prostate,62,46,0.9565217391304348,descriptive subgroup mean
+private_shared151_P2,SO1_D1,subtype,organ,breast,76,64,0.484375,descriptive subgroup mean
+private_shared151_P2,SO1_D1,subtype,organ,colorectal,13,13,0.07692307692307693,descriptive subgroup mean
+private_shared151_P2,SO1_D1,subtype,organ,prostate,62,59,0.7457627118644068,descriptive subgroup mean
+private_shared151_P2,SO1_D1,finding_f1,organ,breast,76,76,0.8201754385964911,descriptive subgroup mean
+private_shared151_P2,SO1_D1,finding_f1,organ,colorectal,13,13,0.358974358974359,descriptive subgroup mean
+private_shared151_P2,SO1_D1,finding_f1,organ,prostate,62,62,0.6473118279569893,descriptive subgroup mean
+private_shared151_P2,SO1_D1,correct_fact_coverage,organ,breast,76,76,0.7894736842105263,descriptive subgroup mean
+private_shared151_P2,SO1_D1,correct_fact_coverage,organ,colorectal,13,13,0.3076923076923077,descriptive subgroup mean
+private_shared151_P2,SO1_D1,correct_fact_coverage,organ,prostate,62,62,0.6129032258064516,descriptive subgroup mean
+private_shared151_P2,SO1_D1,contradiction_asserted,organ,breast,76,75,0.10666666666666667,descriptive subgroup mean
+private_shared151_P2,SO1_D1,contradiction_asserted,organ,colorectal,13,13,0.5384615384615384,descriptive subgroup mean
+private_shared151_P2,SO1_D1,contradiction_asserted,organ,prostate,62,57,0.21929824561403508,descriptive subgroup mean
+private_shared151_P2,SO4_D1,cohort_compatibility,organ,breast,76,76,0.9342105263157895,descriptive subgroup mean
+private_shared151_P2,SO4_D1,cohort_compatibility,organ,colorectal,13,1,1.0,descriptive subgroup mean
+private_shared151_P2,SO4_D1,cohort_compatibility,organ,prostate,62,46,0.9347826086956522,descriptive subgroup mean
+private_shared151_P2,SO4_D1,subtype,organ,breast,76,64,0.75,descriptive subgroup mean
+private_shared151_P2,SO4_D1,subtype,organ,colorectal,13,13,0.07692307692307693,descriptive subgroup mean
+private_shared151_P2,SO4_D1,subtype,organ,prostate,62,59,0.7288135593220338,descriptive subgroup mean
+private_shared151_P2,SO4_D1,finding_f1,organ,breast,76,76,0.9013157894736842,descriptive subgroup mean
+private_shared151_P2,SO4_D1,finding_f1,organ,colorectal,13,13,0.30769230769230765,descriptive subgroup mean
+private_shared151_P2,SO4_D1,finding_f1,organ,prostate,62,62,0.7521505376344086,descriptive subgroup mean
+private_shared151_P2,SO4_D1,correct_fact_coverage,organ,breast,76,76,0.8881578947368421,descriptive subgroup mean
+private_shared151_P2,SO4_D1,correct_fact_coverage,organ,colorectal,13,13,0.2692307692307692,descriptive subgroup mean
+private_shared151_P2,SO4_D1,correct_fact_coverage,organ,prostate,62,62,0.7365591397849464,descriptive subgroup mean
+private_shared151_P2,SO4_D1,contradiction_asserted,organ,breast,76,76,0.07236842105263158,descriptive subgroup mean
+private_shared151_P2,SO4_D1,contradiction_asserted,organ,colorectal,13,12,0.5833333333333334,descriptive subgroup mean
+private_shared151_P2,SO4_D1,contradiction_asserted,organ,prostate,62,60,0.19166666666666668,descriptive subgroup mean

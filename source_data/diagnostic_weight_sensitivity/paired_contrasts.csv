@@ -1,0 +1,173 @@
+scope,left,right,left_label,right_label,metric,weighting,n_cases,estimate,ci95_low,ci95_high
+public_evaluation1200,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,original,1200,0.011735294117647057,0.0030620098039215696,0.02079436274509804
+public_evaluation1200,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,equal,1200,0.011944444444444443,0.004024305555555557,0.02027777777777778
+public_evaluation1200,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis_cohort,original,1200,0.02127450980392157,0.009704656862745098,0.03152083333333334
+public_evaluation1200,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis_cohort,equal,1200,0.019444444444444445,0.01,0.02806250000000003
+public_evaluation1200,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,original,1200,0.034740196078431373,0.022495098039215684,0.047549877450980396
+public_evaluation1200,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,equal,1200,0.03430555555555556,0.022777777777777775,0.046114583333333355
+public_evaluation1200,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis_cohort,original,1200,0.024068627450980394,0.011026960784313726,0.037354166666666674
+public_evaluation1200,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis_cohort,equal,1200,0.025833333333333333,0.014444444444444444,0.03777777777777777
+public_evaluation1200,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,original,1200,0.12279901960784315,0.10398933823529413,0.14218995098039217
+public_evaluation1200,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,equal,1200,0.12041666666666667,0.10263888888888888,0.13875
+public_evaluation1200,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis_cohort,original,1200,0.12406862745098039,0.10632230392156862,0.14348284313725493
+public_evaluation1200,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis_cohort,equal,1200,0.1225,0.10583333333333333,0.14055555555555557
+public_evaluation1200,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,original,1200,0.3508725490196078,0.329111887254902,0.37323639705882355
+public_evaluation1200,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,equal,1200,0.3308333333333333,0.3097222222222223,0.3526423611111112
+public_evaluation1200,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis_cohort,original,1200,0.438921568627451,0.42112745098039217,0.4571580882352941
+public_evaluation1200,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis_cohort,equal,1200,0.4038888888888889,0.3858333333333333,0.42194444444444446
+public_evaluation1200,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,original,1200,0.03768627450980392,0.026547181372549012,0.048971446078431374
+public_evaluation1200,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,equal,1200,0.014444444444444449,0.003333333333333337,0.02486111111111112
+public_evaluation1200,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis_cohort,original,1200,0.10343137254901962,0.09107720588235294,0.11642279411764705
+public_evaluation1200,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis_cohort,equal,1200,0.07055555555555557,0.06,0.0813888888888889
+public_evaluation1200,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,original,1200,0.06247549019607843,0.04674264705882353,0.0790216911764706
+public_evaluation1200,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,equal,1200,0.057361111111111106,0.0425,0.07277777777777779
+public_evaluation1200,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis_cohort,original,1200,0.11102941176470589,0.0928406862745098,0.128484068627451
+public_evaluation1200,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis_cohort,equal,1200,0.0975,0.08111111111111112,0.11305555555555558
+public_evaluation1200,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,original,1200,0.016142156862745095,0.008318504901960786,0.02441703431372549
+public_evaluation1200,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,equal,1200,0.013472222222222224,0.006527777777777778,0.020833333333333336
+public_evaluation1200,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,original,1200,0.02235294117647059,0.012598039215686275,0.032205882352941174
+public_evaluation1200,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,equal,1200,0.01888888888888889,0.010833333333333334,0.027222222222222228
+public_development456,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,original,456,0.031037151702786377,0.012084300825593397,0.05028412022703818
+public_development456,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,equal,456,0.027046783625730993,0.010599415204678364,0.043859649122807015
+public_development456,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis_cohort,original,456,0.035732714138286895,0.014834881320949433,0.056762770897832826
+public_development456,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis_cohort,equal,456,0.0314327485380117,0.013888888888888888,0.04897660818713451
+public_development456,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,original,456,0.025980392156862746,0.0034052502579979375,0.04893059855521157
+public_development456,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,equal,456,0.02266081871345029,0.0025584795321637412,0.04312865497076024
+public_development456,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis_cohort,original,456,0.0348297213622291,0.011222910216718266,0.057794762641898874
+public_development456,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis_cohort,equal,456,0.03070175438596491,0.01023391812865497,0.05116959064327486
+public_development456,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,original,456,0.14969040247678017,0.11661861455108359,0.1811948529411765
+public_development456,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,equal,456,0.1432748538011696,0.1118421052631579,0.17324561403508773
+public_development456,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis_cohort,original,456,0.16305469556243551,0.13003095975232198,0.19608165634674926
+public_development456,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis_cohort,equal,456,0.15497076023391812,0.12353801169590643,0.18640350877192982
+public_development456,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,original,456,0.4104102167182663,0.3770249613003096,0.44525509545923636
+public_development456,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,equal,456,0.36951754385964913,0.33771929824561403,0.4024122807017544
+public_development456,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis_cohort,original,456,0.46775025799793607,0.4353715170278638,0.5010352167182663
+public_development456,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis_cohort,equal,456,0.41959064327485374,0.3888888888888889,0.4517543859649123
+public_development456,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,original,456,0.27484520123839007,0.23983230134158928,0.3095130288957688
+public_development456,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,equal,456,0.2244152046783626,0.19115497076023394,0.2569444444444445
+public_development456,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis_cohort,original,456,0.3066305469556243,0.2719265995872033,0.34171826625387
+public_development456,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis_cohort,equal,456,0.2565789473684211,0.2236842105263158,0.2894736842105263
+public_development456,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,original,456,0.10899122807017543,0.07933404282765737,0.13904153766769867
+public_development456,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,equal,456,0.09247076023391812,0.06615497076023392,0.11878654970760234
+public_development456,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis_cohort,original,456,0.13273993808049533,0.10242195562435501,0.16434468524251805
+public_development456,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis_cohort,equal,456,0.11330409356725146,0.08698830409356727,0.14108187134502925
+public_development456,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,original,456,0.016099071207430336,-0.0017285861713106291,0.03496097781217751
+public_development456,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,equal,456,0.013157894736842105,-0.0018366228070175428,0.029605263157894735
+public_development456,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,original,456,0.023864809081527348,0.005417956656346749,0.04321465428276573
+public_development456,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,equal,456,0.019736842105263157,0.004385964912280701,0.0358187134502924
+public_combined1656,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,original,1656,0.017050298380221655,0.008484565927820405,0.025674996447854505
+public_combined1656,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,equal,1656,0.01610305958132045,0.008454106280193236,0.023852657004830916
+public_combined1656,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis_cohort,original,1656,0.025255754475703322,0.01562944018186985,0.03473998294970162
+public_combined1656,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis_cohort,equal,1656,0.022745571658615134,0.014492753623188406,0.030797101449275364
+public_combined1656,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,original,1656,0.03232807615799943,0.02164677465188974,0.043098891730605285
+public_combined1656,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,equal,1656,0.03109903381642512,0.02103462157809984,0.041163446054750405
+public_combined1656,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis_cohort,original,1656,0.02703182722364308,0.01587720233020744,0.038577188121625465
+public_combined1656,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis_cohort,equal,1656,0.02717391304347826,0.01731078904991949,0.03764090177133655
+public_combined1656,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,original,1656,0.1302038931514635,0.11405219877806194,0.14648390878090367
+public_combined1656,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,equal,1656,0.1267109500805153,0.11120923913043478,0.14210950080515297
+public_combined1656,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis_cohort,original,1656,0.13480392156862744,0.11860525007104289,0.1515363029269679
+public_combined1656,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis_cohort,equal,1656,0.13144122383252818,0.11614331723027375,0.14694545088566832
+public_combined1656,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,original,1656,0.36726697925547036,0.3486528488206877,0.3866207551861324
+public_combined1656,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,equal,1656,0.34148550724637683,0.32296447262479866,0.3601071859903382
+public_combined1656,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis_cohort,original,1656,0.4468599033816425,0.4310883773799374,0.4630585748792272
+public_combined1656,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis_cohort,equal,1656,0.4082125603864734,0.392914653784219,0.4245169082125604
+public_combined1656,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,original,1656,0.10299090650753054,0.08967684356351235,0.11746980676328501
+public_combined1656,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,equal,1656,0.07226247987117553,0.05978009259259259,0.08584943639291466
+public_combined1656,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis_cohort,original,1656,0.15938476840011362,0.1454239485649332,0.17298948564933217
+public_combined1656,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis_cohort,equal,1656,0.12177938808373592,0.10929951690821257,0.13446054750402578
+public_combined1656,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,original,1656,0.07528417163967036,0.06087214052287581,0.08967053850525718
+public_combined1656,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,equal,1656,0.06702898550724638,0.05404337761674718,0.08031400966183574
+public_combined1656,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis_cohort,original,1656,0.11700767263427109,0.1020167306052856,0.13320634413185561
+public_combined1656,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis_cohort,equal,1656,0.10185185185185186,0.08856682769726248,0.11614331723027375
+public_combined1656,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,original,1656,0.016130292696788857,0.008364858624609263,0.023785166240409203
+public_combined1656,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,equal,1656,0.013385668276972627,0.006541867954911434,0.020128824476650566
+public_combined1656,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,original,1656,0.022769252628587665,0.013924410343847685,0.031862745098039214
+public_combined1656,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,equal,1656,0.019122383252818037,0.011674718196457328,0.026771336553945247
+policy_development456,SR1_old,Visual + Qwen,H&E + tissue statistics,Qwen + H&E,diagnosis,original,456,0.020227038183694528,0.004914538183694529,0.03610745614035088
+policy_development456,SR1_old,Visual + Qwen,H&E + tissue statistics,Qwen + H&E,diagnosis,equal,456,0.01608187134502924,0.0032803362573099438,0.029605263157894742
+policy_development456,SR1_old,Visual + Qwen,H&E + tissue statistics,Qwen + H&E,diagnosis_cohort,original,456,0.022574819401444787,0.005933952528379772,0.03934468524251805
+policy_development456,SR1_old,Visual + Qwen,H&E + tissue statistics,Qwen + H&E,diagnosis_cohort,equal,456,0.018274853801169593,0.004385964912280701,0.03289473684210526
+policy_development456,SO0_new,Visual + Qwen,H&E + overlays,Qwen + H&E,diagnosis,original,456,0.010926212590299278,-0.006837912796697626,0.02809920020639836
+policy_development456,SO0_new,Visual + Qwen,H&E + overlays,Qwen + H&E,diagnosis,equal,456,0.00840643274853801,-0.006578947368421052,0.023391812865497075
+policy_development456,SO0_new,Visual + Qwen,H&E + overlays,Qwen + H&E,diagnosis_cohort,original,456,0.005417956656346748,-0.013935113519091847,0.024251805985552113
+policy_development456,SO0_new,Visual + Qwen,H&E + overlays,Qwen + H&E,diagnosis_cohort,equal,456,0.0043859649122807015,-0.011695906432748539,0.02046783625730994
+policy_development456,SO4_D1,SR1_old,PathXAI-Report,H&E + tissue statistics,diagnosis,original,456,0.010810113519091847,-0.008812886996904025,0.030188015995872043
+policy_development456,SO4_D1,SR1_old,PathXAI-Report,H&E + tissue statistics,diagnosis,equal,456,0.010964912280701754,-0.005126096491228069,0.027412280701754384
+policy_development456,SO4_D1,SR1_old,PathXAI-Report,H&E + tissue statistics,diagnosis_cohort,original,456,0.013157894736842105,-0.006449948400412795,0.033797729618163054
+policy_development456,SO4_D1,SR1_old,PathXAI-Report,H&E + tissue statistics,diagnosis_cohort,equal,456,0.013157894736842105,-0.0036549707602339184,0.03070175438596491
+policy_development456,SO4_D1,SO0_new,PathXAI-Report,H&E + overlays,diagnosis,original,456,0.020110939112487097,0.0015196078431372567,0.03896091331269351
+policy_development456,SO4_D1,SO0_new,PathXAI-Report,H&E + overlays,diagnosis,equal,456,0.018640350877192985,0.002923976608187134,0.034722222222222224
+policy_development456,SO4_D1,SO0_new,PathXAI-Report,H&E + overlays,diagnosis_cohort,original,456,0.030314757481940142,0.011735681114551085,0.049535603715170275
+policy_development456,SO4_D1,SO0_new,PathXAI-Report,H&E + overlays,diagnosis_cohort,equal,456,0.027046783625731,0.010964912280701756,0.043859649122807015
+native_evaluation215,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis,original,215,0.16738714090287277,0.11860123119015048,0.2178686730506156
+native_evaluation215,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis,equal,215,0.14108527131782944,0.09844961240310078,0.18606589147286828
+native_evaluation215,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis_cohort,original,215,0.2528043775649795,0.20163474692202457,0.3034199726402188
+native_evaluation215,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis_cohort,equal,215,0.21705426356589153,0.172093023255814,0.26046511627906976
+native_evaluation215,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis,original,215,0.6176196990424078,0.5613645690834473,0.6697400820793434
+native_evaluation215,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis,equal,215,0.5875968992248063,0.5317829457364341,0.6410852713178293
+native_evaluation215,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis_cohort,original,215,0.6651162790697674,0.6196922024623803,0.7069767441860465
+native_evaluation215,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis_cohort,equal,215,0.6341085271317829,0.5875968992248063,0.6775193798449612
+native_evaluation215,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,original,215,0.025690834473324212,0.006867305061559508,0.047044459644322904
+native_evaluation215,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,equal,215,0.024031007751937984,0.0069767441860465115,0.044186046511627906
+native_evaluation215,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,original,215,0.028180574555403556,0.004651162790697674,0.05225718194254446
+native_evaluation215,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis_cohort,equal,215,0.026356589147286825,0.006201550387596899,0.04806201550387596
+private_shared151_P1,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,original,146,0.052820306204673644,0.017807211925866234,0.08795829975825949
+private_shared151_P1,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,equal,146,0.044520547945205484,0.013698630136986308,0.07420091324200914
+private_shared151_P1,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,original,146,0.05116841257050766,0.009266720386784852,0.09428887993553588
+private_shared151_P1,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,equal,146,0.04794520547945205,0.01141552511415525,0.08675799086757992
+private_shared151_P1,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,original,146,0.15858178887993551,0.09794319097502015,0.22087429492344887
+private_shared151_P1,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,equal,146,0.14611872146118723,0.08675799086757992,0.20664954337899558
+private_shared151_P1,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,original,146,0.3697824335213537,0.31039081385979045,0.4257463738920226
+private_shared151_P1,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,equal,146,0.3310502283105023,0.27283105022831056,0.384703196347032
+private_shared151_P1,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,original,146,0.18251410153102335,0.13455882352941176,0.23489121676067684
+private_shared151_P1,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,equal,146,0.16210045662100458,0.11866438356164388,0.21004566210045666
+private_shared151_P1,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,original,146,0.03319903303787268,-0.013867848509266716,0.07784145850120869
+private_shared151_P1,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,equal,146,0.027397260273972615,-0.011415525114155249,0.06392694063926942
+private_shared151_P1,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis,original,146,0.48940370668815464,0.4341216760676873,0.5446827155519742
+private_shared151_P1,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis,equal,146,0.4166666666666667,0.3664383561643836,0.46803652968036535
+private_shared151_P1,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis,original,146,0.537389202256245,0.46889605157131353,0.6019339242546333
+private_shared151_P1,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis,equal,146,0.5136986301369864,0.4452054794520548,0.5799086757990868
+private_shared151_P1,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,original,146,0.036663980660757454,0.008460918614020952,0.06486704270749395
+private_shared151_P1,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,equal,146,0.029680365296803658,0.00684931506849315,0.052511415525114166
+private_shared151_P2,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,original,150,0.05141176470588235,0.01721176470588235,0.08470588235294117
+private_shared151_P2,SO4_D1,Visual + Qwen,PathXAI-Report,Qwen + H&E,diagnosis,equal,150,0.043333333333333335,0.014416666666666678,0.07222222222222223
+private_shared151_P2,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,original,150,0.06627450980392156,0.027058823529411764,0.10705882352941173
+private_shared151_P2,SO4_D1,DeepSeek,PathXAI-Report,DeepSeek + H&E,diagnosis,equal,150,0.06,0.02444444444444445,0.09555555555555557
+private_shared151_P2,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,original,150,0.14501960784313725,0.08313529411764707,0.20898921568627454
+private_shared151_P2,SO4_D1,GLM,PathXAI-Report,GLM + H&E,diagnosis,equal,150,0.13555555555555557,0.07555555555555556,0.1977777777777778
+private_shared151_P2,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,original,150,0.3731764705882352,0.3179176470588235,0.43130294117647067
+private_shared151_P2,SO4_D1,Visual + MedGemma,PathXAI-Report,MedGemma,diagnosis,equal,150,0.3333333333333333,0.2788888888888889,0.391111111111111
+private_shared151_P2,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,original,150,0.18039215686274507,0.13371568627450978,0.22941176470588232
+private_shared151_P2,SO4_D1,PathAgent,PathXAI-Report,PLIP-guided Qwen,diagnosis,equal,150,0.16,0.11555555555555558,0.20666666666666667
+private_shared151_P2,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,original,150,0.051960784313725486,0.008032352941176471,0.09588235294117647
+private_shared151_P2,SO4_D1,PRISM2,PathXAI-Report,PRISM2,diagnosis,equal,150,0.04555555555555555,0.00997222222222223,0.08222222222222221
+private_shared151_P2,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis,original,150,0.4850980392156863,0.42890098039215685,0.5399637254901961
+private_shared151_P2,SO4_D1,HistGen,PathXAI-Report,HistGen,diagnosis,equal,150,0.41111111111111115,0.36111111111111116,0.46111111111111125
+private_shared151_P2,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis,original,150,0.5352156862745098,0.47003235294117646,0.5987078431372549
+private_shared151_P2,SO4_D1,HistoGPT,PathXAI-Report,HistoGPT,diagnosis,equal,150,0.5111111111111111,0.44444444444444436,0.5766666666666667
+private_shared151_P2,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,original,150,0.04392156862745098,0.0192156862745098,0.0686960784313728
+private_shared151_P2,SO4_D1,SO1_D1,PathXAI-Report,PathXAI-Report (core),diagnosis,equal,150,0.03555555555555556,0.015555555555555557,0.05561111111111133
+ablation_b,SS6,SS5,Tissue statistics at writing only,Positive tissue statistics,diagnosis,original,42,-0.026470588235294117,-0.07647058823529412,0.0196078431372549
+ablation_b,SS6,SS5,Tissue statistics at writing only,Positive tissue statistics,diagnosis,equal,42,-0.019841269841269844,-0.05952380952380952,0.015873015873015876
+ablation_b,SS6,SS5,Tissue statistics at writing only,Positive tissue statistics,diagnosis_cohort,original,42,-0.0392156862745098,-0.0980392156862745,0.00980392156862745
+ablation_b,SS6,SS5,Tissue statistics at writing only,Positive tissue statistics,diagnosis_cohort,equal,42,-0.03174603174603175,-0.07936507936507937,0.007936507936507938
+ablation_b,SS7,SS5,Guarded dual-path reasoning,Positive tissue statistics,diagnosis,original,42,-0.03501400560224089,-0.09394257703081228,0.018207282913165267
+ablation_b,SS7,SS5,Guarded dual-path reasoning,Positive tissue statistics,diagnosis,equal,42,-0.023809523809523815,-0.07142857142857145,0.023809523809523808
+ablation_b,SS7,SS5,Guarded dual-path reasoning,Positive tissue statistics,diagnosis_cohort,original,42,-0.005602240896358544,-0.06862745098039215,0.061729691876751085
+ablation_b,SS7,SS5,Guarded dual-path reasoning,Positive tissue statistics,diagnosis_cohort,equal,42,0.0,-0.05555555555555556,0.06369047619047691
+ablation_c,SS20,SS7,Conflict-triggered expansion,Guarded dual-path reasoning,diagnosis,original,432,0.009272875816993464,-0.010335307734204793,0.02835001361655774
+ablation_c,SS20,SS7,Conflict-triggered expansion,Guarded dual-path reasoning,diagnosis,equal,432,0.008101851851851853,-0.008873456790123456,0.02469135802469136
+ablation_c,SS20,SS7,Conflict-triggered expansion,Guarded dual-path reasoning,diagnosis_cohort,original,432,0.014705882352941176,-0.005174291938997821,0.03418096405228759
+ablation_c,SS20,SS7,Conflict-triggered expansion,Guarded dual-path reasoning,diagnosis_cohort,equal,432,0.01234567901234568,-0.004629629629629629,0.02932098765432099
+ablation_c,SS21,SS20,Zoom-enabled reinspection,Conflict-triggered expansion,diagnosis,original,432,0.006372549019607843,-0.011193150871459697,0.025153526688453175
+ablation_c,SS21,SS20,Zoom-enabled reinspection,Conflict-triggered expansion,diagnosis,equal,432,0.00617283950617284,-0.008873456790123456,0.02199074074074074
+ablation_c,SS21,SS20,Zoom-enabled reinspection,Conflict-triggered expansion,diagnosis_cohort,original,432,0.011710239651416121,-0.006535947712418299,0.03009259259259259
+ablation_c,SS21,SS20,Zoom-enabled reinspection,Conflict-triggered expansion,diagnosis_cohort,equal,432,0.010802469135802469,-0.004629629629629629,0.026234567901234573
+ablation_d,SO3,SO1,Writer-only grade images,PathXAI-Report (core),diagnosis,original,456,0.010087719298245612,-0.006851780185758514,0.027386803405572757
+ablation_d,SO3,SO1,Writer-only grade images,PathXAI-Report (core),diagnosis,equal,456,0.00804093567251462,-0.006578947368421052,0.022669956140350916
+ablation_d,SO3,SO1,Writer-only grade images,PathXAI-Report (core),diagnosis_cohort,original,456,0.014060887512899897,-0.003353973168214655,0.03134674922600619
+ablation_d,SO3,SO1,Writer-only grade images,PathXAI-Report (core),diagnosis_cohort,equal,456,0.010964912280701754,-0.003654970760233918,0.02558479532163743
+ablation_d,SO4,SO3,"Knowledge, safeguards and diagnosis lock",Writer-only grade images,diagnosis,original,456,0.0060113519091847265,-0.011508320433436532,0.023594233746130032
+ablation_d,SO4,SO3,"Knowledge, safeguards and diagnosis lock",Writer-only grade images,diagnosis,equal,456,0.005116959064327487,-0.009512061403508772,0.020467836257309944
+ablation_d,SO4,SO3,"Knowledge, safeguards and diagnosis lock",Writer-only grade images,diagnosis_cohort,original,456,0.009803921568627449,-0.007743163054695562,0.027351006191950474
+ablation_d,SO4,SO3,"Knowledge, safeguards and diagnosis lock",Writer-only grade images,diagnosis_cohort,equal,456,0.008771929824561405,-0.006578947368421051,0.02412280701754386

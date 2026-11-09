@@ -1,0 +1,367 @@
+scope,method,metric,component,n_cases,n_applicable,n_correct
+public_evaluation1200,Visual + Qwen,diagnosis,broad,1200,1200,1187.0
+public_evaluation1200,Visual + Qwen,diagnosis,subtype,1200,604,356.0
+public_evaluation1200,Visual + Qwen,diagnosis,malignancy,1200,1200,1089.0
+public_evaluation1200,Visual + Qwen,diagnosis_cohort,broad,1200,1200,1187.0
+public_evaluation1200,Visual + Qwen,diagnosis_cohort,cohort_compatibility,1200,1200,817.0
+public_evaluation1200,Visual + Qwen,diagnosis_cohort,malignancy,1200,1200,1089.0
+public_evaluation1200,DeepSeek,diagnosis,broad,1200,1200,1144.0
+public_evaluation1200,DeepSeek,diagnosis,subtype,1200,604,364.0
+public_evaluation1200,DeepSeek,diagnosis,malignancy,1200,1200,1063.0
+public_evaluation1200,DeepSeek,diagnosis_cohort,broad,1200,1200,1144.0
+public_evaluation1200,DeepSeek,diagnosis_cohort,cohort_compatibility,1200,1200,863.0
+public_evaluation1200,DeepSeek,diagnosis_cohort,malignancy,1200,1200,1063.0
+public_evaluation1200,GLM,diagnosis,broad,1200,1200,1016.0
+public_evaluation1200,GLM,diagnosis,subtype,1200,604,338.0
+public_evaluation1200,GLM,diagnosis,malignancy,1200,1200,964.0
+public_evaluation1200,GLM,diagnosis_cohort,broad,1200,1200,1016.0
+public_evaluation1200,GLM,diagnosis_cohort,cohort_compatibility,1200,1200,742.0
+public_evaluation1200,GLM,diagnosis_cohort,malignancy,1200,1200,964.0
+public_evaluation1200,Visual + MedGemma,diagnosis,broad,1200,1200,832.0
+public_evaluation1200,Visual + MedGemma,diagnosis,subtype,1200,604,37.0
+public_evaluation1200,Visual + MedGemma,diagnosis,malignancy,1200,1200,797.0
+public_evaluation1200,Visual + MedGemma,diagnosis_cohort,broad,1200,1200,832.0
+public_evaluation1200,Visual + MedGemma,diagnosis_cohort,cohort_compatibility,1200,1200,80.0
+public_evaluation1200,Visual + MedGemma,diagnosis_cohort,malignancy,1200,1200,797.0
+public_evaluation1200,PathAgent,diagnosis,broad,1200,1200,1175.0
+public_evaluation1200,PathAgent,diagnosis,subtype,1200,604,237.0
+public_evaluation1200,PathAgent,diagnosis,malignancy,1200,1200,1186.0
+public_evaluation1200,PathAgent,diagnosis_cohort,broad,1200,1200,1175.0
+public_evaluation1200,PathAgent,diagnosis_cohort,cohort_compatibility,1200,1200,548.0
+public_evaluation1200,PathAgent,diagnosis_cohort,malignancy,1200,1200,1186.0
+public_evaluation1200,PRISM2,diagnosis,broad,1200,1200,1118.0
+public_evaluation1200,PRISM2,diagnosis,subtype,1200,604,318.0
+public_evaluation1200,PRISM2,diagnosis,malignancy,1200,1200,1055.0
+public_evaluation1200,PRISM2,diagnosis_cohort,broad,1200,1200,1118.0
+public_evaluation1200,PRISM2,diagnosis_cohort,cohort_compatibility,1200,1200,639.0
+public_evaluation1200,PRISM2,diagnosis_cohort,malignancy,1200,1200,1055.0
+public_evaluation1200,SO1_D1,diagnosis,broad,1200,1200,1179.0
+public_evaluation1200,SO1_D1,diagnosis,subtype,1200,604,351.0
+public_evaluation1200,SO1_D1,diagnosis,malignancy,1200,1200,1098.0
+public_evaluation1200,SO1_D1,diagnosis_cohort,broad,1200,1200,1179.0
+public_evaluation1200,SO1_D1,diagnosis_cohort,cohort_compatibility,1200,1200,818.0
+public_evaluation1200,SO1_D1,diagnosis_cohort,malignancy,1200,1200,1098.0
+public_evaluation1200,SO4_D1,diagnosis,broad,1200,1200,1190.0
+public_evaluation1200,SO4_D1,diagnosis,subtype,1200,604,376.0
+public_evaluation1200,SO4_D1,diagnosis,malignancy,1200,1200,1103.0
+public_evaluation1200,SO4_D1,diagnosis_cohort,broad,1200,1200,1190.0
+public_evaluation1200,SO4_D1,diagnosis_cohort,cohort_compatibility,1200,1200,870.0
+public_evaluation1200,SO4_D1,diagnosis_cohort,malignancy,1200,1200,1103.0
+public_development456,Visual + Qwen,diagnosis,broad,456,456,414.0
+public_development456,Visual + Qwen,diagnosis,subtype,456,352,217.0
+public_development456,Visual + Qwen,diagnosis,malignancy,456,456,401.0
+public_development456,Visual + Qwen,diagnosis_cohort,broad,456,456,414.0
+public_development456,Visual + Qwen,diagnosis_cohort,cohort_compatibility,456,456,326.0
+public_development456,Visual + Qwen,diagnosis_cohort,malignancy,456,456,401.0
+public_development456,DeepSeek,diagnosis,broad,456,456,419.0
+public_development456,DeepSeek,diagnosis,subtype,456,352,220.0
+public_development456,DeepSeek,diagnosis,malignancy,456,456,401.0
+public_development456,DeepSeek,diagnosis_cohort,broad,456,456,419.0
+public_development456,DeepSeek,diagnosis_cohort,cohort_compatibility,456,456,322.0
+public_development456,DeepSeek,diagnosis_cohort,malignancy,456,456,401.0
+public_development456,GLM,diagnosis,broad,456,456,365.0
+public_development456,GLM,diagnosis,subtype,456,352,164.0
+public_development456,GLM,diagnosis,malignancy,456,456,352.0
+public_development456,GLM,diagnosis_cohort,broad,456,456,365.0
+public_development456,GLM,diagnosis_cohort,cohort_compatibility,456,456,255.0
+public_development456,GLM,diagnosis_cohort,malignancy,456,456,352.0
+public_development456,Visual + MedGemma,diagnosis,broad,456,456,266.0
+public_development456,Visual + MedGemma,diagnosis,subtype,456,352,13.0
+public_development456,Visual + MedGemma,diagnosis,malignancy,456,456,309.0
+public_development456,Visual + MedGemma,diagnosis_cohort,broad,456,456,266.0
+public_development456,Visual + MedGemma,diagnosis_cohort,cohort_compatibility,456,456,35.0
+public_development456,Visual + MedGemma,diagnosis_cohort,malignancy,456,456,309.0
+public_development456,PathAgent,diagnosis,broad,456,456,310.0
+public_development456,PathAgent,diagnosis,subtype,456,352,84.0
+public_development456,PathAgent,diagnosis,malignancy,456,456,387.0
+public_development456,PathAgent,diagnosis_cohort,broad,456,456,310.0
+public_development456,PathAgent,diagnosis_cohort,cohort_compatibility,456,456,136.0
+public_development456,PathAgent,diagnosis_cohort,malignancy,456,456,387.0
+public_development456,PRISM2,diagnosis,broad,456,456,381.0
+public_development456,PRISM2,diagnosis,subtype,456,352,173.0
+public_development456,PRISM2,diagnosis,malignancy,456,456,393.0
+public_development456,PRISM2,diagnosis_cohort,broad,456,456,381.0
+public_development456,PRISM2,diagnosis_cohort,cohort_compatibility,456,456,255.0
+public_development456,PRISM2,diagnosis_cohort,malignancy,456,456,393.0
+public_development456,SO1_D1,diagnosis,broad,456,456,415.0
+public_development456,SO1_D1,diagnosis,subtype,456,352,228.0
+public_development456,SO1_D1,diagnosis,malignancy,456,456,406.0
+public_development456,SO1_D1,diagnosis_cohort,broad,456,456,415.0
+public_development456,SO1_D1,diagnosis_cohort,cohort_compatibility,456,456,336.0
+public_development456,SO1_D1,diagnosis_cohort,malignancy,456,456,406.0
+public_development456,SO4_D1,diagnosis,broad,456,456,427.0
+public_development456,SO4_D1,diagnosis,subtype,456,352,233.0
+public_development456,SO4_D1,diagnosis,malignancy,456,456,407.0
+public_development456,SO4_D1,diagnosis_cohort,broad,456,456,427.0
+public_development456,SO4_D1,diagnosis_cohort,cohort_compatibility,456,456,350.0
+public_development456,SO4_D1,diagnosis_cohort,malignancy,456,456,407.0
+public_combined1656,Visual + Qwen,diagnosis,broad,1656,1656,1601.0
+public_combined1656,Visual + Qwen,diagnosis,subtype,1656,956,573.0
+public_combined1656,Visual + Qwen,diagnosis,malignancy,1656,1656,1490.0
+public_combined1656,Visual + Qwen,diagnosis_cohort,broad,1656,1656,1601.0
+public_combined1656,Visual + Qwen,diagnosis_cohort,cohort_compatibility,1656,1656,1143.0
+public_combined1656,Visual + Qwen,diagnosis_cohort,malignancy,1656,1656,1490.0
+public_combined1656,DeepSeek,diagnosis,broad,1656,1656,1563.0
+public_combined1656,DeepSeek,diagnosis,subtype,1656,956,584.0
+public_combined1656,DeepSeek,diagnosis,malignancy,1656,1656,1464.0
+public_combined1656,DeepSeek,diagnosis_cohort,broad,1656,1656,1563.0
+public_combined1656,DeepSeek,diagnosis_cohort,cohort_compatibility,1656,1656,1185.0
+public_combined1656,DeepSeek,diagnosis_cohort,malignancy,1656,1656,1464.0
+public_combined1656,GLM,diagnosis,broad,1656,1656,1381.0
+public_combined1656,GLM,diagnosis,subtype,1656,956,502.0
+public_combined1656,GLM,diagnosis,malignancy,1656,1656,1316.0
+public_combined1656,GLM,diagnosis_cohort,broad,1656,1656,1381.0
+public_combined1656,GLM,diagnosis_cohort,cohort_compatibility,1656,1656,997.0
+public_combined1656,GLM,diagnosis_cohort,malignancy,1656,1656,1316.0
+public_combined1656,Visual + MedGemma,diagnosis,broad,1656,1656,1098.0
+public_combined1656,Visual + MedGemma,diagnosis,subtype,1656,956,50.0
+public_combined1656,Visual + MedGemma,diagnosis,malignancy,1656,1656,1106.0
+public_combined1656,Visual + MedGemma,diagnosis_cohort,broad,1656,1656,1098.0
+public_combined1656,Visual + MedGemma,diagnosis_cohort,cohort_compatibility,1656,1656,115.0
+public_combined1656,Visual + MedGemma,diagnosis_cohort,malignancy,1656,1656,1106.0
+public_combined1656,PathAgent,diagnosis,broad,1656,1656,1485.0
+public_combined1656,PathAgent,diagnosis,subtype,1656,956,321.0
+public_combined1656,PathAgent,diagnosis,malignancy,1656,1656,1573.0
+public_combined1656,PathAgent,diagnosis_cohort,broad,1656,1656,1485.0
+public_combined1656,PathAgent,diagnosis_cohort,cohort_compatibility,1656,1656,684.0
+public_combined1656,PathAgent,diagnosis_cohort,malignancy,1656,1656,1573.0
+public_combined1656,PRISM2,diagnosis,broad,1656,1656,1499.0
+public_combined1656,PRISM2,diagnosis,subtype,1656,956,491.0
+public_combined1656,PRISM2,diagnosis,malignancy,1656,1656,1448.0
+public_combined1656,PRISM2,diagnosis_cohort,broad,1656,1656,1499.0
+public_combined1656,PRISM2,diagnosis_cohort,cohort_compatibility,1656,1656,894.0
+public_combined1656,PRISM2,diagnosis_cohort,malignancy,1656,1656,1448.0
+public_combined1656,SO1_D1,diagnosis,broad,1656,1656,1594.0
+public_combined1656,SO1_D1,diagnosis,subtype,1656,956,579.0
+public_combined1656,SO1_D1,diagnosis,malignancy,1656,1656,1504.0
+public_combined1656,SO1_D1,diagnosis_cohort,broad,1656,1656,1594.0
+public_combined1656,SO1_D1,diagnosis_cohort,cohort_compatibility,1656,1656,1154.0
+public_combined1656,SO1_D1,diagnosis_cohort,malignancy,1656,1656,1504.0
+public_combined1656,SO4_D1,diagnosis,broad,1656,1656,1617.0
+public_combined1656,SO4_D1,diagnosis,subtype,1656,956,609.0
+public_combined1656,SO4_D1,diagnosis,malignancy,1656,1656,1510.0
+public_combined1656,SO4_D1,diagnosis_cohort,broad,1656,1656,1617.0
+public_combined1656,SO4_D1,diagnosis_cohort,cohort_compatibility,1656,1656,1220.0
+public_combined1656,SO4_D1,diagnosis_cohort,malignancy,1656,1656,1510.0
+policy_development456,Visual + Qwen,diagnosis,broad,456,456,414.0
+policy_development456,Visual + Qwen,diagnosis,subtype,456,352,217.0
+policy_development456,Visual + Qwen,diagnosis,malignancy,456,456,401.0
+policy_development456,Visual + Qwen,diagnosis_cohort,broad,456,456,414.0
+policy_development456,Visual + Qwen,diagnosis_cohort,cohort_compatibility,456,456,326.0
+policy_development456,Visual + Qwen,diagnosis_cohort,malignancy,456,456,401.0
+policy_development456,SR1_old,diagnosis,broad,456,456,420.0
+policy_development456,SR1_old,diagnosis,subtype,456,352,233.0
+policy_development456,SR1_old,diagnosis,malignancy,456,456,401.0
+policy_development456,SR1_old,diagnosis_cohort,broad,456,456,420.0
+policy_development456,SR1_old,diagnosis_cohort,cohort_compatibility,456,456,345.0
+policy_development456,SR1_old,diagnosis_cohort,malignancy,456,456,401.0
+policy_development456,SO0_new,diagnosis,broad,456,456,422.0
+policy_development456,SO0_new,diagnosis,subtype,456,352,219.0
+policy_development456,SO0_new,diagnosis,malignancy,456,456,401.0
+policy_development456,SO0_new,diagnosis_cohort,broad,456,456,422.0
+policy_development456,SO0_new,diagnosis_cohort,cohort_compatibility,456,456,324.0
+policy_development456,SO0_new,diagnosis_cohort,malignancy,456,456,401.0
+policy_development456,SO4_D1,diagnosis,broad,456,456,427.0
+policy_development456,SO4_D1,diagnosis,subtype,456,352,233.0
+policy_development456,SO4_D1,diagnosis,malignancy,456,456,407.0
+policy_development456,SO4_D1,diagnosis_cohort,broad,456,456,427.0
+policy_development456,SO4_D1,diagnosis_cohort,cohort_compatibility,456,456,350.0
+policy_development456,SO4_D1,diagnosis_cohort,malignancy,456,456,407.0
+native_evaluation215,HistGen,diagnosis,broad,215,215,169.0
+native_evaluation215,HistGen,diagnosis,subtype,215,73,31.0
+native_evaluation215,HistGen,diagnosis,malignancy,215,215,173.0
+native_evaluation215,HistGen,diagnosis_cohort,broad,215,215,169.0
+native_evaluation215,HistGen,diagnosis_cohort,cohort_compatibility,215,215,84.0
+native_evaluation215,HistGen,diagnosis_cohort,malignancy,215,215,173.0
+native_evaluation215,HistoGPT,diagnosis,broad,215,215,67.0
+native_evaluation215,HistoGPT,diagnosis,subtype,215,73,1.0
+native_evaluation215,HistoGPT,diagnosis,malignancy,215,215,79.0
+native_evaluation215,HistoGPT,diagnosis_cohort,broad,215,215,67.0
+native_evaluation215,HistoGPT,diagnosis_cohort,cohort_compatibility,215,215,11.0
+native_evaluation215,HistoGPT,diagnosis_cohort,malignancy,215,215,79.0
+native_evaluation215,SO1_D1,diagnosis,broad,215,215,208.0
+native_evaluation215,SO1_D1,diagnosis,subtype,215,73,43.0
+native_evaluation215,SO1_D1,diagnosis,malignancy,215,215,183.0
+native_evaluation215,SO1_D1,diagnosis_cohort,broad,215,215,208.0
+native_evaluation215,SO1_D1,diagnosis_cohort,cohort_compatibility,215,215,158.0
+native_evaluation215,SO1_D1,diagnosis_cohort,malignancy,215,215,183.0
+native_evaluation215,SO4_D1,diagnosis,broad,215,215,212.0
+native_evaluation215,SO4_D1,diagnosis,subtype,215,73,46.0
+native_evaluation215,SO4_D1,diagnosis,malignancy,215,215,187.0
+native_evaluation215,SO4_D1,diagnosis_cohort,broad,215,215,212.0
+native_evaluation215,SO4_D1,diagnosis_cohort,cohort_compatibility,215,215,167.0
+native_evaluation215,SO4_D1,diagnosis_cohort,malignancy,215,215,187.0
+private_shared151_P1,Visual + Qwen,diagnosis,broad,151,123,121.0
+private_shared151_P1,Visual + Qwen,diagnosis,subtype,151,135,73.0
+private_shared151_P1,Visual + Qwen,diagnosis,malignancy,151,144,121.0
+private_shared151_P1,Visual + Qwen,diagnosis_cohort,broad,151,123,121.0
+private_shared151_P1,Visual + Qwen,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,Visual + Qwen,diagnosis_cohort,malignancy,151,144,121.0
+private_shared151_P1,DeepSeek,diagnosis,broad,151,123,117.0
+private_shared151_P1,DeepSeek,diagnosis,subtype,151,135,81.0
+private_shared151_P1,DeepSeek,diagnosis,malignancy,151,144,117.0
+private_shared151_P1,DeepSeek,diagnosis_cohort,broad,151,123,117.0
+private_shared151_P1,DeepSeek,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,DeepSeek,diagnosis_cohort,malignancy,151,144,117.0
+private_shared151_P1,GLM,diagnosis,broad,151,123,104.0
+private_shared151_P1,GLM,diagnosis,subtype,151,135,58.0
+private_shared151_P1,GLM,diagnosis,malignancy,151,144,107.0
+private_shared151_P1,GLM,diagnosis_cohort,broad,151,123,104.0
+private_shared151_P1,GLM,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,GLM,diagnosis_cohort,malignancy,151,144,107.0
+private_shared151_P1,Visual + MedGemma,diagnosis,broad,151,123,91.0
+private_shared151_P1,Visual + MedGemma,diagnosis,subtype,151,135,4.0
+private_shared151_P1,Visual + MedGemma,diagnosis,malignancy,151,144,98.0
+private_shared151_P1,Visual + MedGemma,diagnosis_cohort,broad,151,123,91.0
+private_shared151_P1,Visual + MedGemma,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,Visual + MedGemma,diagnosis_cohort,malignancy,151,144,98.0
+private_shared151_P1,PathAgent,diagnosis,broad,151,123,112.0
+private_shared151_P1,PathAgent,diagnosis,subtype,151,135,44.0
+private_shared151_P1,PathAgent,diagnosis,malignancy,151,144,112.0
+private_shared151_P1,PathAgent,diagnosis_cohort,broad,151,123,112.0
+private_shared151_P1,PathAgent,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,PathAgent,diagnosis_cohort,malignancy,151,144,112.0
+private_shared151_P1,PRISM2,diagnosis,broad,151,123,123.0
+private_shared151_P1,PRISM2,diagnosis,subtype,151,135,74.0
+private_shared151_P1,PRISM2,diagnosis,malignancy,151,144,122.0
+private_shared151_P1,PRISM2,diagnosis_cohort,broad,151,123,123.0
+private_shared151_P1,PRISM2,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,PRISM2,diagnosis_cohort,malignancy,151,144,122.0
+private_shared151_P1,HistGen,diagnosis,broad,151,123,47.0
+private_shared151_P1,HistGen,diagnosis,subtype,151,135,7.0
+private_shared151_P1,HistGen,diagnosis,malignancy,151,144,104.0
+private_shared151_P1,HistGen,diagnosis_cohort,broad,151,123,47.0
+private_shared151_P1,HistGen,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,HistGen,diagnosis_cohort,malignancy,151,144,104.0
+private_shared151_P1,HistoGPT,diagnosis,broad,151,123,55.0
+private_shared151_P1,HistoGPT,diagnosis,subtype,151,135,0.0
+private_shared151_P1,HistoGPT,diagnosis,malignancy,151,144,62.0
+private_shared151_P1,HistoGPT,diagnosis_cohort,broad,151,123,55.0
+private_shared151_P1,HistoGPT,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,HistoGPT,diagnosis_cohort,malignancy,151,144,62.0
+private_shared151_P1,SO1_D1,diagnosis,broad,151,123,123.0
+private_shared151_P1,SO1_D1,diagnosis,subtype,151,135,78.0
+private_shared151_P1,SO1_D1,diagnosis,malignancy,151,144,122.0
+private_shared151_P1,SO1_D1,diagnosis_cohort,broad,151,123,123.0
+private_shared151_P1,SO1_D1,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,SO1_D1,diagnosis_cohort,malignancy,151,144,122.0
+private_shared151_P1,SO4_D1,diagnosis,broad,151,123,123.0
+private_shared151_P1,SO4_D1,diagnosis,subtype,151,135,91.0
+private_shared151_P1,SO4_D1,diagnosis,malignancy,151,144,122.0
+private_shared151_P1,SO4_D1,diagnosis_cohort,broad,151,123,123.0
+private_shared151_P1,SO4_D1,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P1,SO4_D1,diagnosis_cohort,malignancy,151,144,122.0
+private_shared151_P2,Visual + Qwen,diagnosis,broad,151,123,121.0
+private_shared151_P2,Visual + Qwen,diagnosis,subtype,151,136,74.0
+private_shared151_P2,Visual + Qwen,diagnosis,malignancy,151,148,123.0
+private_shared151_P2,Visual + Qwen,diagnosis_cohort,broad,151,123,121.0
+private_shared151_P2,Visual + Qwen,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,Visual + Qwen,diagnosis_cohort,malignancy,151,148,123.0
+private_shared151_P2,DeepSeek,diagnosis,broad,151,123,117.0
+private_shared151_P2,DeepSeek,diagnosis,subtype,151,136,76.0
+private_shared151_P2,DeepSeek,diagnosis,malignancy,151,148,119.0
+private_shared151_P2,DeepSeek,diagnosis_cohort,broad,151,123,117.0
+private_shared151_P2,DeepSeek,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,DeepSeek,diagnosis_cohort,malignancy,151,148,119.0
+private_shared151_P2,GLM,diagnosis,broad,151,123,104.0
+private_shared151_P2,GLM,diagnosis,subtype,151,136,59.0
+private_shared151_P2,GLM,diagnosis,malignancy,151,148,109.0
+private_shared151_P2,GLM,diagnosis_cohort,broad,151,123,104.0
+private_shared151_P2,GLM,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,GLM,diagnosis_cohort,malignancy,151,148,109.0
+private_shared151_P2,Visual + MedGemma,diagnosis,broad,151,123,91.0
+private_shared151_P2,Visual + MedGemma,diagnosis,subtype,151,136,4.0
+private_shared151_P2,Visual + MedGemma,diagnosis,malignancy,151,148,98.0
+private_shared151_P2,Visual + MedGemma,diagnosis_cohort,broad,151,123,91.0
+private_shared151_P2,Visual + MedGemma,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,Visual + MedGemma,diagnosis_cohort,malignancy,151,148,98.0
+private_shared151_P2,PathAgent,diagnosis,broad,151,123,112.0
+private_shared151_P2,PathAgent,diagnosis,subtype,151,136,43.0
+private_shared151_P2,PathAgent,diagnosis,malignancy,151,148,113.0
+private_shared151_P2,PathAgent,diagnosis_cohort,broad,151,123,112.0
+private_shared151_P2,PathAgent,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,PathAgent,diagnosis_cohort,malignancy,151,148,113.0
+private_shared151_P2,PRISM2,diagnosis,broad,151,123,123.0
+private_shared151_P2,PRISM2,diagnosis,subtype,151,136,71.0
+private_shared151_P2,PRISM2,diagnosis,malignancy,151,148,123.0
+private_shared151_P2,PRISM2,diagnosis_cohort,broad,151,123,123.0
+private_shared151_P2,PRISM2,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,PRISM2,diagnosis_cohort,malignancy,151,148,123.0
+private_shared151_P2,HistGen,diagnosis,broad,151,123,47.0
+private_shared151_P2,HistGen,diagnosis,subtype,151,136,7.0
+private_shared151_P2,HistGen,diagnosis,malignancy,151,148,106.0
+private_shared151_P2,HistGen,diagnosis_cohort,broad,151,123,47.0
+private_shared151_P2,HistGen,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,HistGen,diagnosis_cohort,malignancy,151,148,106.0
+private_shared151_P2,HistoGPT,diagnosis,broad,151,123,55.0
+private_shared151_P2,HistoGPT,diagnosis,subtype,151,136,0.0
+private_shared151_P2,HistoGPT,diagnosis,malignancy,151,148,62.0
+private_shared151_P2,HistoGPT,diagnosis_cohort,broad,151,123,55.0
+private_shared151_P2,HistoGPT,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,HistoGPT,diagnosis_cohort,malignancy,151,148,62.0
+private_shared151_P2,SO1_D1,diagnosis,broad,151,123,123.0
+private_shared151_P2,SO1_D1,diagnosis,subtype,151,136,76.0
+private_shared151_P2,SO1_D1,diagnosis,malignancy,151,148,124.0
+private_shared151_P2,SO1_D1,diagnosis_cohort,broad,151,123,123.0
+private_shared151_P2,SO1_D1,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,SO1_D1,diagnosis_cohort,malignancy,151,148,124.0
+private_shared151_P2,SO4_D1,diagnosis,broad,151,123,123.0
+private_shared151_P2,SO4_D1,diagnosis,subtype,151,136,92.0
+private_shared151_P2,SO4_D1,diagnosis,malignancy,151,148,124.0
+private_shared151_P2,SO4_D1,diagnosis_cohort,broad,151,123,123.0
+private_shared151_P2,SO4_D1,diagnosis_cohort,cohort_compatibility,151,0,0
+private_shared151_P2,SO4_D1,diagnosis_cohort,malignancy,151,148,124.0
+ablation_b,SS5,diagnosis,broad,42,42,39.0
+ablation_b,SS5,diagnosis,subtype,42,33,21.0
+ablation_b,SS5,diagnosis,malignancy,42,42,40.0
+ablation_b,SS5,diagnosis_cohort,broad,42,42,39.0
+ablation_b,SS5,diagnosis_cohort,cohort_compatibility,42,42,30.0
+ablation_b,SS5,diagnosis_cohort,malignancy,42,42,40.0
+ablation_b,SS6,diagnosis,broad,42,42,38.0
+ablation_b,SS6,diagnosis,subtype,42,33,20.0
+ablation_b,SS6,diagnosis,malignancy,42,42,40.0
+ablation_b,SS6,diagnosis_cohort,broad,42,42,38.0
+ablation_b,SS6,diagnosis_cohort,cohort_compatibility,42,42,27.0
+ablation_b,SS6,diagnosis_cohort,malignancy,42,42,40.0
+ablation_b,SS7,diagnosis,broad,42,42,39.0
+ablation_b,SS7,diagnosis,subtype,42,33,17.0
+ablation_b,SS7,diagnosis,malignancy,42,42,41.0
+ablation_b,SS7,diagnosis_cohort,broad,42,42,39.0
+ablation_b,SS7,diagnosis_cohort,cohort_compatibility,42,42,29.0
+ablation_b,SS7,diagnosis_cohort,malignancy,42,42,41.0
+ablation_c,SS7,diagnosis,broad,432,432,399.0
+ablation_c,SS7,diagnosis,subtype,432,330,209.0
+ablation_c,SS7,diagnosis,malignancy,432,432,399.0
+ablation_c,SS7,diagnosis_cohort,broad,432,432,399.0
+ablation_c,SS7,diagnosis_cohort,cohort_compatibility,432,432,319.0
+ablation_c,SS7,diagnosis_cohort,malignancy,432,432,399.0
+ablation_c,SS20,diagnosis,broad,432,432,399.0
+ablation_c,SS20,diagnosis,subtype,432,330,218.0
+ablation_c,SS20,diagnosis,malignancy,432,432,400.0
+ablation_c,SS20,diagnosis_cohort,broad,432,432,399.0
+ablation_c,SS20,diagnosis_cohort,cohort_compatibility,432,432,334.0
+ablation_c,SS20,diagnosis_cohort,malignancy,432,432,400.0
+ablation_c,SS21,diagnosis,broad,432,432,402.0
+ablation_c,SS21,diagnosis,subtype,432,330,219.0
+ablation_c,SS21,diagnosis,malignancy,432,432,403.0
+ablation_c,SS21,diagnosis_cohort,broad,432,432,402.0
+ablation_c,SS21,diagnosis_cohort,cohort_compatibility,432,432,342.0
+ablation_c,SS21,diagnosis_cohort,malignancy,432,432,403.0
+ablation_d,SO1,diagnosis,broad,456,456,415.0
+ablation_d,SO1,diagnosis,subtype,456,352,228.0
+ablation_d,SO1,diagnosis,malignancy,456,456,406.0
+ablation_d,SO1,diagnosis_cohort,broad,456,456,415.0
+ablation_d,SO1,diagnosis_cohort,cohort_compatibility,456,456,336.0
+ablation_d,SO1,diagnosis_cohort,malignancy,456,456,406.0
+ablation_d,SO3,diagnosis,broad,456,456,416.0
+ablation_d,SO3,diagnosis,subtype,456,352,238.0
+ablation_d,SO3,diagnosis,malignancy,456,456,405.0
+ablation_d,SO3,diagnosis_cohort,broad,456,456,416.0
+ablation_d,SO3,diagnosis_cohort,cohort_compatibility,456,456,351.0
+ablation_d,SO3,diagnosis_cohort,malignancy,456,456,405.0
+ablation_d,SO4,diagnosis,broad,456,456,427.0
+ablation_d,SO4,diagnosis,subtype,456,352,233.0
+ablation_d,SO4,diagnosis,malignancy,456,456,407.0
+ablation_d,SO4,diagnosis_cohort,broad,456,456,427.0
+ablation_d,SO4,diagnosis_cohort,cohort_compatibility,456,456,350.0
+ablation_d,SO4,diagnosis_cohort,malignancy,456,456,407.0

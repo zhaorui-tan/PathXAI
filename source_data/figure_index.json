@@ -1,0 +1,31 @@
+{
+  "Fig. 1(c)": [
+    "report_primary_evaluation/public_summary.csv",
+    "report_primary_evaluation/public_contrasts.csv",
+    "aggregate_results/table4_fig9_private_reference.csv",
+    "aggregate_results/table5_fig10_physician_ratings.csv",
+    "aggregate_results/table2_fig7_four_policy.csv",
+    "aggregate_results/fig3_workflow_comparisons.csv"
+  ],
+  "Fig. 2": [
+    "report_primary_evaluation/public_summary.csv",
+    "report_primary_evaluation/public_contrasts.csv",
+    "report_primary_evaluation/public_organ_counts.csv",
+    "aggregate_results/table4_fig9_private_reference.csv",
+    "aggregate_results/private_reference_cancer_compatibility.csv",
+    "aggregate_results/table8_private_hospital_sources.csv"
+  ],
+  "Fig. 3": [
+    "aggregate_results/table5_fig10_physician_ratings.csv",
+    "aggregate_results/fig3_joint_criterion.csv",
+    "aggregate_results/table2_fig7_four_policy.csv",
+    "aggregate_results/report_policy_grade_transitions.csv",
+    "aggregate_results/fig3_workflow_comparisons.csv",
+    "aggregate_results/table7_suppfig3_report_ablation.csv"
+  ],
+  "Fig. 5": [
+    "aggregate_results/table1_fig4_segmentation.csv",
+    "aggregate_results/table6_suppfig2_seg_ablation.csv",
+    "aggregate_results/seg_shared_external_bootstrap.csv"
+  ]
+}

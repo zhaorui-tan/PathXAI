@@ -1,0 +1,217 @@
+method,method_label,scope,dataset,class_key,class_label,n_samples,n_sources,mean_dice,mean_iou
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.5678600326591999,0.4428315803698586
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,0.4388677321438872,0.29992238204298843
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,BCSS,tissue_3_Connective,Connective,31,31,0.5020927307861027,0.3696479447838701
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,8.553210133491795e-13,8.553210133491795e-13
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,BCSS,tissue_6_Gland,Gland,7,7,1.2814725848610825e-13,1.2814725848610825e-13
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,DigestPath2019,tissue_0_Background,Background,50,43,0.8390101087135978,0.7295810039140277
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.502310804208259,0.36301926611624497
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,GlaS,tissue_0_Background,Background,33,33,0.8022213764648708,0.6816770276826103
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,GlaS,tissue_6_Gland,Gland,33,33,0.8277450861834668,0.7206025941962306
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,0.5757062994672351,0.4215104572445666
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,0.6491406545254044,0.48151671164222437
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,WSSS4LUAD,tissue_0_Background,Background,8,8,0.7159973105109723,0.5815263764854401
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.6107301959078737,0.48264201346762403
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,0.6783185099827617,0.5494399334073715
+"HoVer-Net FT, aligned",HoVer-Net FT,internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,4.9192500684479973e-14,4.9192500684479973e-14
+"HoVer-Net FT, aligned",HoVer-Net FT,external,ACDC_LungHP,tissue_0_Background,Background,751,126,0.3508301451411258,0.26586617111927174
+"HoVer-Net FT, aligned",HoVer-Net FT,external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.0028802917331936405,0.0014623669835056587
+"HoVer-Net FT, aligned",HoVer-Net FT,external,PAIP2019,tissue_0_Background,Background,4946,50,0.5518866955977499,0.4971064690715279
+"HoVer-Net FT, aligned",HoVer-Net FT,external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.5377297858172583,0.42960062904170476
+"HoVer-Net FT, aligned",HoVer-Net FT,external,RINGS_Tumor,tissue_0_Background,Background,496,8,0.21238468199594565,0.1332034567923559
+"HoVer-Net FT, aligned",HoVer-Net FT,external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.5450860789321061,0.4085273231872079
+"HoVer-Net FT, aligned",HoVer-Net FT,external,RINGS_Gland,tissue_0_Background,Background,500,8,0.07732479259331512,0.043467493351807635
+"HoVer-Net FT, aligned",HoVer-Net FT,external,RINGS_Gland,tissue_6_Gland,Gland,465,8,0.08385102838482367,0.047594603740235934
+"HoVer-Net FT, aligned",HoVer-Net FT,external,METU_CCTGS,tissue_0_Background,Background,16,16,0.794473691036504,0.6653064893437507
+"HoVer-Net FT, aligned",HoVer-Net FT,external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.39623352766359765,0.2667323616015307
+"HoVer-Net FT, aligned",HoVer-Net FT,external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.8829835652138849,0.8418647501678811
+"HoVer-Net FT, aligned",HoVer-Net FT,external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,1.661290846000365e-14,1.661290846000365e-14
+"nnU-Net 2D, aligned",nnU-Net,internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.7251892100798107,0.5934945899011353
+"nnU-Net 2D, aligned",nnU-Net,internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,0.5399441713184813,0.3925886159943629
+"nnU-Net 2D, aligned",nnU-Net,internal,BCSS,tissue_3_Connective,Connective,31,31,0.6008641818550801,0.45840074249450186
+"nnU-Net 2D, aligned",nnU-Net,internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,0.15794736953039448,0.09729985745966638
+"nnU-Net 2D, aligned",nnU-Net,internal,BCSS,tissue_6_Gland,Gland,7,7,0.02945482596487186,0.0164202027311926
+"nnU-Net 2D, aligned",nnU-Net,internal,DigestPath2019,tissue_0_Background,Background,50,43,0.8836490134529555,0.7946349118400107
+"nnU-Net 2D, aligned",nnU-Net,internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.4706186162713819,0.33608059574229915
+"nnU-Net 2D, aligned",nnU-Net,internal,GlaS,tissue_0_Background,Background,33,33,0.9184492861976812,0.8532191367134868
+"nnU-Net 2D, aligned",nnU-Net,internal,GlaS,tissue_6_Gland,Gland,33,33,0.9205070827106039,0.857958261472625
+"nnU-Net 2D, aligned",nnU-Net,internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,0.5373880118430666,0.3806797646949071
+"nnU-Net 2D, aligned",nnU-Net,internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,0.23437885983260962,0.13727746903873803
+"nnU-Net 2D, aligned",nnU-Net,internal,WSSS4LUAD,tissue_0_Background,Background,8,8,0.8688997600825935,0.7718936807829032
+"nnU-Net 2D, aligned",nnU-Net,internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.7113533238576635,0.58038032230771
+"nnU-Net 2D, aligned",nnU-Net,internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,0.7927951064188711,0.6714280450624018
+"nnU-Net 2D, aligned",nnU-Net,internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,4.670357669400305e-05,2.3352879034571078e-05
+"nnU-Net 2D, aligned",nnU-Net,external,ACDC_LungHP,tissue_0_Background,Background,751,126,0.43553149953640613,0.3135349335656963
+"nnU-Net 2D, aligned",nnU-Net,external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.04380514096681615,0.024762261970605694
+"nnU-Net 2D, aligned",nnU-Net,external,PAIP2019,tissue_0_Background,Background,4946,50,0.40881343161581485,0.326544210029135
+"nnU-Net 2D, aligned",nnU-Net,external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.3864216493284234,0.2933962031850375
+"nnU-Net 2D, aligned",nnU-Net,external,RINGS_Tumor,tissue_0_Background,Background,496,8,0.45151109770182296,0.33801807914955756
+"nnU-Net 2D, aligned",nnU-Net,external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.543859345211113,0.3977590309926881
+"nnU-Net 2D, aligned",nnU-Net,external,RINGS_Gland,tissue_0_Background,Background,500,8,0.3487292143373981,0.23373215048316984
+"nnU-Net 2D, aligned",nnU-Net,external,RINGS_Gland,tissue_6_Gland,Gland,465,8,0.06870881185075164,0.045314786041410406
+"nnU-Net 2D, aligned",nnU-Net,external,METU_CCTGS,tissue_0_Background,Background,16,16,0.9215585702105894,0.8569764012465351
+"nnU-Net 2D, aligned",nnU-Net,external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.25047465419452225,0.1542799954073321
+"nnU-Net 2D, aligned",nnU-Net,external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.837814191270691,0.7606036642879059
+"nnU-Net 2D, aligned",nnU-Net,external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,0.3055935522419181,0.1988437749420085
+"CONCHSeg, aligned",CONCHSeg,internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.5095001364828872,0.3692450091012752
+"CONCHSeg, aligned",CONCHSeg,internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,1.2531919673404823e-14,1.2531919673404823e-14
+"CONCHSeg, aligned",CONCHSeg,internal,BCSS,tissue_3_Connective,Connective,31,31,5.225498814800948e-15,5.225498814800948e-15
+"CONCHSeg, aligned",CONCHSeg,internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,8.553210133491795e-13,8.553210133491795e-13
+"CONCHSeg, aligned",CONCHSeg,internal,BCSS,tissue_6_Gland,Gland,7,7,1.8682713948083888e-12,1.8682713948083888e-12
+"CONCHSeg, aligned",CONCHSeg,internal,DigestPath2019,tissue_0_Background,Background,50,43,2.6559357762879455e-16,2.6559357762879455e-16
+"CONCHSeg, aligned",CONCHSeg,internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.21979357887753947,0.1306057059666065
+"CONCHSeg, aligned",CONCHSeg,internal,GlaS,tissue_0_Background,Background,33,33,1.446585744524612e-14,1.446585744524612e-14
+"CONCHSeg, aligned",CONCHSeg,internal,GlaS,tissue_6_Gland,Gland,33,33,1.52478351881495e-14,1.52478351881495e-14
+"CONCHSeg, aligned",CONCHSeg,internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,3.536412523983499e-16,3.536412523983499e-16
+"CONCHSeg, aligned",CONCHSeg,internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,0.7289297497751616,0.574408340426106
+"CONCHSeg, aligned",CONCHSeg,internal,WSSS4LUAD,tissue_0_Background,Background,8,8,9.1946045551925e-14,9.1946045551925e-14
+"CONCHSeg, aligned",CONCHSeg,internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.41235427749722825,0.28765329134378803
+"CONCHSeg, aligned",CONCHSeg,internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,7.301414656344305e-14,7.301414656344305e-14
+"CONCHSeg, aligned",CONCHSeg,internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,4.9192500684479973e-14,4.9192500684479973e-14
+"CONCHSeg, aligned",CONCHSeg,external,ACDC_LungHP,tissue_0_Background,Background,751,126,1.0316967678765016e-11,1.0316967678765016e-11
+"CONCHSeg, aligned",CONCHSeg,external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.933270303762648,0.9174370318478725
+"CONCHSeg, aligned",CONCHSeg,external,PAIP2019,tissue_0_Background,Background,4946,50,1.1410253656289694e-12,1.1410253656289694e-12
+"CONCHSeg, aligned",CONCHSeg,external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.8881797189102071,0.8537058208540826
+"CONCHSeg, aligned",CONCHSeg,external,RINGS_Tumor,tissue_0_Background,Background,496,8,6.24924136878641e-15,6.24924136878641e-15
+"CONCHSeg, aligned",CONCHSeg,external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.5832182172828041,0.4633080854274082
+"CONCHSeg, aligned",CONCHSeg,external,RINGS_Gland,tissue_0_Background,Background,500,8,2.384420220614408e-15,2.384420220614408e-15
+"CONCHSeg, aligned",CONCHSeg,external,RINGS_Gland,tissue_6_Gland,Gland,465,8,2.852577809743977e-14,2.852577809743977e-14
+"CONCHSeg, aligned",CONCHSeg,external,METU_CCTGS,tissue_0_Background,Background,16,16,1.809408106247868e-15,1.809408106247868e-15
+"CONCHSeg, aligned",CONCHSeg,external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.2214879967233265,0.1302817708059317
+"CONCHSeg, aligned",CONCHSeg,external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.019169550322039732,0.010396639773816373
+"CONCHSeg, aligned",CONCHSeg,external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,0.4757522185858288,0.38422973879614397
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.00311185818743317,0.0015851571455429215
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,2.3105191675334865e-05,1.1556018235960736e-05
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,BCSS,tissue_3_Connective,Connective,31,31,0.11858627265961962,0.07855691241507172
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,0.04349517668168564,0.025110754620172024
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,BCSS,tissue_6_Gland,Gland,7,7,0.0296833785572553,0.016517599982007542
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,DigestPath2019,tissue_0_Background,Background,50,43,0.8141512192947563,0.6967527989177192
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.41814511741233784,0.29319029243392963
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,GlaS,tissue_0_Background,Background,33,33,0.5560586628972706,0.4179130139680711
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,GlaS,tissue_6_Gland,Gland,33,33,0.18746697828349346,0.13565015379253048
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,0.595719979149258,0.425427107619208
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,7.339992755883429e-05,3.670251599324775e-05
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,WSSS4LUAD,tissue_0_Background,Background,8,8,0.5353588295530624,0.3879196264165967
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.0627953163769024,0.034963527584602465
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,0.0692109935825988,0.04309209159643803
+MedSAM3 Zero-shot,MedSAM3 zero-shot,internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,0.05893155918614306,0.03096554807849648
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,ACDC_LungHP,tissue_0_Background,Background,751,126,0.5983222095831356,0.5024031529480895
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.8598474442659393,0.8556315886326407
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,PAIP2019,tissue_0_Background,Background,4946,50,0.7321677816795735,0.7164996177180588
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.08367240068407665,0.06938963852357173
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,RINGS_Tumor,tissue_0_Background,Background,496,8,0.8308881029123529,0.7762861537444573
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.0855253875946686,0.06269034983257166
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,RINGS_Gland,tissue_0_Background,Background,500,8,0.5666339388206073,0.47038185045049785
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,RINGS_Gland,tissue_6_Gland,Gland,465,8,0.16574197900553472,0.10888141442263558
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,METU_CCTGS,tissue_0_Background,Background,16,16,0.9112745007053412,0.8412453857278285
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.15324186593375672,0.09773251736404039
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.8731854587706852,0.8251733399905764
+MedSAM3 Zero-shot,MedSAM3 zero-shot,external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,0.11146396173803153,0.08549276317992135
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.7773648537843424,0.660139171240662
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,0.5506934493137291,0.4130783758822506
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,BCSS,tissue_3_Connective,Connective,31,31,0.6349587957301075,0.5032640379132778
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,0.5019525384995157,0.3919356639243769
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,BCSS,tissue_6_Gland,Gland,7,7,0.0571236459312988,0.0301791147274243
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,DigestPath2019,tissue_0_Background,Background,50,43,0.928422460828966,0.8684802723959639
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.612259803507438,0.4748685969561074
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,GlaS,tissue_0_Background,Background,33,33,0.7617936247771799,0.6450632025229511
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,GlaS,tissue_6_Gland,Gland,33,33,0.7937740584371535,0.6819181989795604
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,0.4884002460538037,0.3556103620592429
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,0.7486229347719985,0.6052231931244842
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,WSSS4LUAD,tissue_0_Background,Background,8,8,0.21815672222624136,0.13410629605491506
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.5255714326208331,0.3900569587485495
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,0.5260369393259312,0.4247745723666047
+"SAM2 Standard FT, aligned 5k",SAM2 FT,internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,0.4937793399778045,0.36823818286569177
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,ACDC_LungHP,tissue_0_Background,Background,751,126,0.34547442675418716,0.26809752329620035
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.9225436914490379,0.9080129257181841
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,PAIP2019,tissue_0_Background,Background,4946,50,0.6970810398485101,0.692860218333332
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.9083625128803949,0.8715055484013724
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,RINGS_Tumor,tissue_0_Background,Background,496,8,0.8545712915792711,0.7936409161557
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.717466315890369,0.6019062492175721
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,RINGS_Gland,tissue_0_Background,Background,500,8,0.5227349056018844,0.3914692212539387
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,RINGS_Gland,tissue_6_Gland,Gland,465,8,0.5672205501581776,0.41507854822787255
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,METU_CCTGS,tissue_0_Background,Background,16,16,0.886486502631102,0.8008921155979111
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.5516697030781548,0.40270091426795046
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.8535357223561503,0.7878131633799893
+"SAM2 Standard FT, aligned 5k",SAM2 FT,external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,0.394696707791456,0.2785695281474228
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.8157549076009537,0.7077784979121656
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,0.6710400035588963,0.523994796881997
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,BCSS,tissue_3_Connective,Connective,31,31,0.6515114199671544,0.519017009920868
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,0.624202903862297,0.5067979548224959
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,BCSS,tissue_6_Gland,Gland,7,7,0.14289418917802146,0.09175267881971187
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,DigestPath2019,tissue_0_Background,Background,50,43,0.9101185303836649,0.8396775346118787
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.6045400069526032,0.4635361468008724
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,GlaS,tissue_0_Background,Background,33,33,0.6875597579981028,0.5620738028923141
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,GlaS,tissue_6_Gland,Gland,33,33,0.6491348843560246,0.5360791542755784
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,0.6760065286048634,0.5389708072102912
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,0.8116289716312686,0.6858863387555447
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,WSSS4LUAD,tissue_0_Background,Background,8,8,0.26091915043538644,0.21784305562388392
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.5821353740357192,0.46106733169285674
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,0.5970740467440313,0.4921489648094452
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,0.42684044302420227,0.3243875813554812
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,ACDC_LungHP,tissue_0_Background,Background,751,126,0.34677690155593593,0.2810963396906195
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.9198890229884708,0.9066719228339712
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,PAIP2019,tissue_0_Background,Background,4946,50,0.7120584219697635,0.7047646879337665
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.8934865714182377,0.8542708530681665
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,RINGS_Tumor,tissue_0_Background,Background,496,8,0.8901851732973255,0.8406538542118192
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.7631986357590715,0.6543818223033671
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,RINGS_Gland,tissue_0_Background,Background,500,8,0.7230312673841924,0.6209958477373904
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,RINGS_Gland,tissue_6_Gland,Gland,465,8,0.36805823561447065,0.2810960047000294
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,METU_CCTGS,tissue_0_Background,Background,16,16,0.8264485446530977,0.71724532981368
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.5241824241483632,0.38794922203786686
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.7834145281585826,0.6993040520211289
+"MedSAM3 Standard FT, aligned 5k",MedSAM3 FT,external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,0.5278284849481746,0.40544673539578624
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.7988332031519655,0.6863485610990455
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,0.6286265795024362,0.47974583269337834
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,BCSS,tissue_3_Connective,Connective,31,31,0.6491604105188189,0.5167659338367632
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,0.5416823351077126,0.43363295242453886
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,BCSS,tissue_6_Gland,Gland,7,7,0.3008772920384724,0.20493469330719893
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,DigestPath2019,tissue_0_Background,Background,50,43,0.9397469330750592,0.8882151796104013
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.6458439935373476,0.5094520998353446
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,GlaS,tissue_0_Background,Background,33,33,0.7310698547221102,0.602454378326876
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,GlaS,tissue_6_Gland,Gland,33,33,0.600718911311196,0.45521775812845344
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,0.5490732548888757,0.4172381852762702
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,0.735828545672574,0.5947710778688688
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,WSSS4LUAD,tissue_0_Background,Background,8,8,0.4853333916151842,0.3438531352196015
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.5547532234682199,0.4214909037831018
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,0.5429589575421866,0.42863249282810284
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,0.3441923636663651,0.21326367642192284
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,ACDC_LungHP,tissue_0_Background,Background,751,126,0.4353216092014011,0.33494858972794045
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.9129423450169305,0.897898160278583
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,PAIP2019,tissue_0_Background,Background,4946,50,0.7087749770304431,0.7018699942566322
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.9101875439394679,0.8721751185194874
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,RINGS_Tumor,tissue_0_Background,Background,496,8,0.8676740930253781,0.8095859216996333
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.7258755927518259,0.6065891469680822
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,RINGS_Gland,tissue_0_Background,Background,500,8,0.6960442730258415,0.5736954050623666
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,RINGS_Gland,tissue_6_Gland,Gland,465,8,0.37047283756699534,0.2399152530743723
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,METU_CCTGS,tissue_0_Background,Background,16,16,0.8834790490456657,0.7967668291602674
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.5607717523937705,0.41328385421218977
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.8587022627116011,0.796192334237229
+"SAM2 + PathXAI, D1",PathXAI-Seg (SAM2),external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,0.3626174370121107,0.24992009318818498
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,BCSS,tissue_1_Neoplastic,Neoplastic,31,31,0.8200737193145445,0.7127447905450085
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,BCSS,tissue_2_Inflammatory,Inflammatory,26,26,0.667769755492386,0.5227417588284675
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,BCSS,tissue_3_Connective,Connective,31,31,0.6363039821809915,0.5072078389092215
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,BCSS,tissue_5_Dead,Dead / necrotic,19,19,0.6657301693618064,0.552764085714923
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,BCSS,tissue_6_Gland,Gland,7,7,0.2915727669820515,0.19429227242048638
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,DigestPath2019,tissue_0_Background,Background,50,43,0.9099835792589893,0.8395313861197036
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,DigestPath2019,tissue_1_Neoplastic,Neoplastic,50,43,0.609669034696806,0.46753624954003853
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,GlaS,tissue_0_Background,Background,33,33,0.6987369057589993,0.5825734498440804
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,GlaS,tissue_6_Gland,Gland,33,33,0.6550561945493707,0.5528231297313154
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,ICIAR2018_WSI,tissue_0_Background,Background,2,2,0.7430920929970566,0.6025484746330273
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,ICIAR2018_WSI,tissue_1_Neoplastic,Neoplastic,2,2,0.7879315507916087,0.6533917249226987
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,WSSS4LUAD,tissue_0_Background,Background,8,8,0.449051623389297,0.3570495122419817
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,WSSS4LUAD,tissue_1_Neoplastic,Neoplastic,5,5,0.583762031314747,0.46683898153456116
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,WSSS4LUAD,tissue_3_Connective,Connective,6,6,0.5982438924634402,0.4919416906131606
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),internal,WSSS4LUAD,tissue_4_Epithelial,Epithelial,2,2,0.5521737200578494,0.41032022672964996
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,ACDC_LungHP,tissue_0_Background,Background,751,126,0.38884434822747693,0.3139715043444254
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,ACDC_LungHP,tissue_1_Neoplastic,Neoplastic,5000,132,0.9162062619706556,0.9031431925817056
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,PAIP2019,tissue_0_Background,Background,4946,50,0.716620938533466,0.7081439397809803
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,PAIP2019,tissue_1_Neoplastic,Neoplastic,1719,50,0.8718908438911839,0.8307026869576204
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,RINGS_Tumor,tissue_0_Background,Background,496,8,0.8945855154204374,0.8467078065969224
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,RINGS_Tumor,tissue_1_Neoplastic,Neoplastic,238,8,0.7706216809606087,0.6647563917570003
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,RINGS_Gland,tissue_0_Background,Background,500,8,0.7382887931339639,0.6392498595960625
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,RINGS_Gland,tissue_6_Gland,Gland,465,8,0.3922518421080579,0.3061602757590079
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,METU_CCTGS,tissue_0_Background,Background,16,16,0.8522173372329265,0.7520806266113274
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,METU_CCTGS,tissue_1_Neoplastic,Neoplastic,16,16,0.543612529446687,0.4027258089929388
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,AGGC2022_Tumor,tissue_0_Background,Background,73,73,0.7950973912380223,0.7132504978716112
+"PathXAI-Seg (MedSAM3), D1 refined",PathXAI-Seg (MedSAM3),external,AGGC2022_Tumor,tissue_1_Neoplastic,Neoplastic,72,72,0.5198250067576786,0.3983556039307372

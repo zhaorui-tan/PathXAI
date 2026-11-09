@@ -1,0 +1,81 @@
+method,reader_1_category,reader_2_category,n
+MedGemma,no_correction,no_correction,0
+MedGemma,no_correction,minor_correction,0
+MedGemma,no_correction,major_correction,1
+MedGemma,no_correction,not_usable,0
+MedGemma,minor_correction,no_correction,97
+MedGemma,minor_correction,minor_correction,8
+MedGemma,minor_correction,major_correction,7
+MedGemma,minor_correction,not_usable,2
+MedGemma,major_correction,no_correction,6
+MedGemma,major_correction,minor_correction,0
+MedGemma,major_correction,major_correction,1
+MedGemma,major_correction,not_usable,0
+MedGemma,not_usable,no_correction,5
+MedGemma,not_usable,minor_correction,1
+MedGemma,not_usable,major_correction,0
+MedGemma,not_usable,not_usable,4
+Qwen + H&E,no_correction,no_correction,1
+Qwen + H&E,no_correction,minor_correction,0
+Qwen + H&E,no_correction,major_correction,0
+Qwen + H&E,no_correction,not_usable,0
+Qwen + H&E,minor_correction,no_correction,63
+Qwen + H&E,minor_correction,minor_correction,3
+Qwen + H&E,minor_correction,major_correction,3
+Qwen + H&E,minor_correction,not_usable,0
+Qwen + H&E,major_correction,no_correction,50
+Qwen + H&E,major_correction,minor_correction,0
+Qwen + H&E,major_correction,major_correction,1
+Qwen + H&E,major_correction,not_usable,1
+Qwen + H&E,not_usable,no_correction,4
+Qwen + H&E,not_usable,minor_correction,2
+Qwen + H&E,not_usable,major_correction,0
+Qwen + H&E,not_usable,not_usable,4
+PLIP-guided Qwen,no_correction,no_correction,1
+PLIP-guided Qwen,no_correction,minor_correction,0
+PLIP-guided Qwen,no_correction,major_correction,0
+PLIP-guided Qwen,no_correction,not_usable,0
+PLIP-guided Qwen,minor_correction,no_correction,11
+PLIP-guided Qwen,minor_correction,minor_correction,4
+PLIP-guided Qwen,minor_correction,major_correction,0
+PLIP-guided Qwen,minor_correction,not_usable,0
+PLIP-guided Qwen,major_correction,no_correction,1
+PLIP-guided Qwen,major_correction,minor_correction,0
+PLIP-guided Qwen,major_correction,major_correction,0
+PLIP-guided Qwen,major_correction,not_usable,1
+PLIP-guided Qwen,not_usable,no_correction,90
+PLIP-guided Qwen,not_usable,minor_correction,8
+PLIP-guided Qwen,not_usable,major_correction,7
+PLIP-guided Qwen,not_usable,not_usable,9
+PathXAI-Report (core),no_correction,no_correction,1
+PathXAI-Report (core),no_correction,minor_correction,0
+PathXAI-Report (core),no_correction,major_correction,0
+PathXAI-Report (core),no_correction,not_usable,0
+PathXAI-Report (core),minor_correction,no_correction,67
+PathXAI-Report (core),minor_correction,minor_correction,3
+PathXAI-Report (core),minor_correction,major_correction,2
+PathXAI-Report (core),minor_correction,not_usable,1
+PathXAI-Report (core),major_correction,no_correction,48
+PathXAI-Report (core),major_correction,minor_correction,0
+PathXAI-Report (core),major_correction,major_correction,2
+PathXAI-Report (core),major_correction,not_usable,0
+PathXAI-Report (core),not_usable,no_correction,2
+PathXAI-Report (core),not_usable,minor_correction,1
+PathXAI-Report (core),not_usable,major_correction,0
+PathXAI-Report (core),not_usable,not_usable,5
+PathXAI-Report,no_correction,no_correction,0
+PathXAI-Report,no_correction,minor_correction,0
+PathXAI-Report,no_correction,major_correction,0
+PathXAI-Report,no_correction,not_usable,0
+PathXAI-Report,minor_correction,no_correction,91
+PathXAI-Report,minor_correction,minor_correction,2
+PathXAI-Report,minor_correction,major_correction,2
+PathXAI-Report,minor_correction,not_usable,2
+PathXAI-Report,major_correction,no_correction,28
+PathXAI-Report,major_correction,minor_correction,0
+PathXAI-Report,major_correction,major_correction,2
+PathXAI-Report,major_correction,not_usable,0
+PathXAI-Report,not_usable,no_correction,0
+PathXAI-Report,not_usable,minor_correction,2
+PathXAI-Report,not_usable,major_correction,0
+PathXAI-Report,not_usable,not_usable,3

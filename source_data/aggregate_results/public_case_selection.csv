@@ -1,0 +1,11 @@
+evaluation_set,before_exclusion,excluded,evaluated
+Public benchmark,1708,52,1656
+PathXAI-Report pipeline development subset,508,52,456
+Public evaluation subset,1200,0,1200
+Four reporting policies,1200,0,1200
+Pathologist ranking and correction assessment,145,13,132
+HistGen/HistoGPT four-method comparison,324,12,312
+HistGen three-method comparison,327,13,314
+Output constraints comparison,46,4,42
+Region acquisition comparison,471,39,432
+Writing-evidence comparison,1200,0,1200

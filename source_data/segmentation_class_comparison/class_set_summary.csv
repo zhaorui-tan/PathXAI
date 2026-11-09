@@ -1,0 +1,25 @@
+model,scope,dataset,class_set,n_images,n_class_image_rows,dice_mean,iou_mean,interpretation
+PathXAI-Seg (SAM2),dataset_class_set,ACDC_LungHP,0|1,751,1502,0.4278550290245702,0.3275880108379487,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (SAM2),dataset_class_set,ACDC_LungHP,1,4249,4249,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (SAM2),dataset_class_set,PAIP2019,0,3281,3281,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (SAM2),dataset_class_set,PAIP2019,0|1,1665,3330,0.5210851124397948,0.49120661271120175,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (SAM2),dataset_class_set,PAIP2019,1,54,54,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (SAM2),dataset_class_set,METU_CCTGS,0|1,16,32,0.7221254007197181,0.6050253416862286,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (MEDSAM3),dataset_class_set,ACDC_LungHP,0|1,751,1502,0.41548163473509553,0.33455962894220453,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (MEDSAM3),dataset_class_set,ACDC_LungHP,1,4249,4249,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (MEDSAM3),dataset_class_set,PAIP2019,0,3281,3281,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (MEDSAM3),dataset_class_set,PAIP2019,0|1,1665,3330,0.512969226016657,0.47911646998104457,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (MEDSAM3),dataset_class_set,PAIP2019,1,54,54,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathXAI-Seg (MEDSAM3),dataset_class_set,METU_CCTGS,0|1,16,32,0.6979149333398068,0.5774032178021331,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathSegmentor,dataset_class_set,ACDC_LungHP,0|1,751,1502,0.3275750534004845,0.2616721557223603,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathSegmentor,dataset_class_set,ACDC_LungHP,1,4249,4249,0.9999583665954321,0.9999180877031958,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathSegmentor,dataset_class_set,PAIP2019,0,3281,3281,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathSegmentor,dataset_class_set,PAIP2019,0|1,1665,3330,0.40226007113974793,0.3709579751010451,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathSegmentor,dataset_class_set,PAIP2019,1,54,54,0.9999953187485323,0.9999906398631908,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+PathSegmentor,dataset_class_set,METU_CCTGS,0|1,16,32,0.2178721719517761,0.15232208403215008,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+VISTA-PATH,dataset_class_set,ACDC_LungHP,0|1,751,1502,0.4044556041881422,0.3176389498701187,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+VISTA-PATH,dataset_class_set,ACDC_LungHP,1,4249,4249,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+VISTA-PATH,dataset_class_set,PAIP2019,0,3281,3281,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+VISTA-PATH,dataset_class_set,PAIP2019,0|1,1665,3330,0.43180340471886325,0.37510365368620197,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+VISTA-PATH,dataset_class_set,PAIP2019,1,54,54,1.0,1.0,descriptive secondary; direct mean over original class-image rows in this class-set stratum
+VISTA-PATH,dataset_class_set,METU_CCTGS,0|1,16,32,0.6941284712017004,0.5866397749413579,descriptive secondary; direct mean over original class-image rows in this class-set stratum

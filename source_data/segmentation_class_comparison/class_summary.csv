@@ -1,0 +1,33 @@
+model,scope,dataset,class_id,class_key,n_images,n_class_image_rows,dice_mean,iou_mean,interpretation
+PathXAI-Seg (SAM2),dataset_class,ACDC_LungHP,0,tissue_0_Background,751,751,0.4353216092014011,0.33494858972794045,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (SAM2),dataset_class,ACDC_LungHP,1,tissue_1_Neoplastic,5000,5000,0.9129423450169305,0.897898160278583,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (SAM2),dataset_class,PAIP2019,0,tissue_0_Background,4946,4946,0.7087749770304431,0.7018699942566322,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (SAM2),dataset_class,PAIP2019,1,tissue_1_Neoplastic,1719,1719,0.9101875439394679,0.8721751185194874,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (SAM2),dataset_class,METU_CCTGS,0,tissue_0_Background,16,16,0.8834790490456657,0.7967668291602674,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (SAM2),dataset_class,METU_CCTGS,1,tissue_1_Neoplastic,16,16,0.5607717523937705,0.41328385421218977,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (MEDSAM3),dataset_class,ACDC_LungHP,0,tissue_0_Background,751,751,0.38884434822747693,0.3139715043444254,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (MEDSAM3),dataset_class,ACDC_LungHP,1,tissue_1_Neoplastic,5000,5000,0.9162062619706556,0.9031431925817056,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (MEDSAM3),dataset_class,PAIP2019,0,tissue_0_Background,4946,4946,0.716620938533466,0.7081439397809803,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (MEDSAM3),dataset_class,PAIP2019,1,tissue_1_Neoplastic,1719,1719,0.8718908438911839,0.8307026869576204,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (MEDSAM3),dataset_class,METU_CCTGS,0,tissue_0_Background,16,16,0.8522173372329265,0.7520806266113274,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (MEDSAM3),dataset_class,METU_CCTGS,1,tissue_1_Neoplastic,16,16,0.543612529446687,0.4027258089929388,descriptive secondary; class-image rows are averaged directly
+PathSegmentor,dataset_class,ACDC_LungHP,0,tissue_0_Background,751,751,0.23502293113315598,0.18707527371932187,descriptive secondary; class-image rows are averaged directly
+PathSegmentor,dataset_class,ACDC_LungHP,1,tissue_1_Neoplastic,5000,5000,0.9128677217181037,0.9002380003965307,descriptive secondary; class-image rows are averaged directly
+PathSegmentor,dataset_class,PAIP2019,0,tissue_0_Background,4946,4946,0.6827230676845609,0.6774883187267184,descriptive secondary; class-image rows are averaged directly
+PathSegmentor,dataset_class,PAIP2019,1,tissue_1_Neoplastic,1719,1719,0.7549607279464474,0.7093847162401063,descriptive secondary; class-image rows are averaged directly
+PathSegmentor,dataset_class,METU_CCTGS,0,tissue_0_Background,16,16,0.26087383856976243,0.20169061832358845,descriptive secondary; class-image rows are averaged directly
+PathSegmentor,dataset_class,METU_CCTGS,1,tissue_1_Neoplastic,16,16,0.1748705053337898,0.10295354974071173,descriptive secondary; class-image rows are averaged directly
+VISTA-PATH,dataset_class,ACDC_LungHP,0,tissue_0_Background,751,751,0.46322238687027867,0.3759128420124973,descriptive secondary; class-image rows are averaged directly
+VISTA-PATH,dataset_class,ACDC_LungHP,1,tissue_1_Neoplastic,5000,5000,0.9017224609902021,0.8887566316707065,descriptive secondary; class-image rows are averaged directly
+VISTA-PATH,dataset_class,PAIP2019,0,tissue_0_Background,4946,4946,0.7392137748558685,0.7212856998794316,descriptive secondary; class-image rows are averaged directly
+VISTA-PATH,dataset_class,PAIP2019,1,tissue_1_Neoplastic,1719,1719,0.6496532910277423,0.5913997063242488,descriptive secondary; class-image rows are averaged directly
+VISTA-PATH,dataset_class,METU_CCTGS,0,tissue_0_Background,16,16,0.8858754887183243,0.8020340564970029,descriptive secondary; class-image rows are averaged directly
+VISTA-PATH,dataset_class,METU_CCTGS,1,tissue_1_Neoplastic,16,16,0.5023814536850765,0.37124549338571294,descriptive secondary; class-image rows are averaged directly
+PathXAI-Seg (SAM2),equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,0,tissue_0_Background,5713,5713,0.6758585450925033,0.6111951377149467,descriptive secondary; equal mean of the three fixed dataset means
+PathXAI-Seg (SAM2),equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,1,tissue_1_Neoplastic,6735,6735,0.7946338804500562,0.72778571100342,descriptive secondary; equal mean of the three fixed dataset means
+PathXAI-Seg (MEDSAM3),equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,0,tissue_0_Background,5713,5713,0.6525608746646231,0.5913986902455777,descriptive secondary; equal mean of the three fixed dataset means
+PathXAI-Seg (MEDSAM3),equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,1,tissue_1_Neoplastic,6735,6735,0.7772365451028422,0.7121905628440883,descriptive secondary; equal mean of the three fixed dataset means
+PathSegmentor,equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,0,tissue_0_Background,5713,5713,0.39287327912915976,0.3554180702565429,descriptive secondary; equal mean of the three fixed dataset means
+PathSegmentor,equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,1,tissue_1_Neoplastic,6735,6735,0.614232984999447,0.5708587554591162,descriptive secondary; equal mean of the three fixed dataset means
+VISTA-PATH,equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,0,tissue_0_Background,5713,5713,0.6961038834814905,0.6330775327963106,descriptive secondary; equal mean of the three fixed dataset means
+VISTA-PATH,equal_dataset_class_macro,ACDC_LungHP|PAIP2019|METU_CCTGS,1,tissue_1_Neoplastic,6735,6735,0.6845857352343403,0.617133943793556,descriptive secondary; equal mean of the three fixed dataset means

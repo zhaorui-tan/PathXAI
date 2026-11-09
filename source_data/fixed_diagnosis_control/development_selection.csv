@@ -1,0 +1,38 @@
+diagnosis,development_matches,development_cases,selected
+squamous cell carcinoma,68,456,1
+melanoma,34,456,0
+serous carcinoma,34,456,0
+colorectal adenocarcinoma,33,456,0
+adrenocortical carcinoma,17,456,0
+astrocytoma,17,456,0
+carcinosarcoma,17,456,0
+cervical adenocarcinoma,17,456,0
+chromophobe renal cell carcinoma,17,456,0
+clear cell renal cell carcinoma,17,456,0
+diffuse glioma,17,456,0
+diffuse large b cell lymphoma,17,456,0
+endometrial adenocarcinoma,17,456,0
+endometrial carcinoma,17,456,0
+endometrioid carcinoma,17,456,0
+esophageal adenocarcinoma,17,456,0
+follicular thyroid carcinoma,17,456,0
+gastric adenocarcinoma,17,456,0
+germ cell tumor,17,456,0
+hepatocellular carcinoma,17,456,0
+invasive breast carcinoma,17,456,0
+lower grade glioma,17,456,0
+lung adenocarcinoma,17,456,0
+oligodendroglioma,17,456,0
+ovarian carcinoma,17,456,0
+papillary renal cell carcinoma,17,456,0
+papillary thyroid carcinoma,17,456,0
+prostate adenocarcinoma,17,456,0
+thymic carcinoma,17,456,0
+thymoma,17,456,0
+urothelial carcinoma,17,456,0
+mesothelioma,15,456,0
+cholangiocarcinoma,0,456,0
+glioblastoma,0,456,0
+paraganglioma,0,456,0
+pheochromocytoma,0,456,0
+sarcoma,0,456,0

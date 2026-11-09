@@ -1,0 +1,2506 @@
+always_high_class_recall,always_high_correct_cases,cancer_type,correct_cases,exact_recall,macro_f1_class_sensitivity,method,n_cancers,n_cases,pooled_reference_recall,reader,reference_class,scope,system
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,1,public_original508,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,2,4,0.0,TCGA,2,public_original508,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,3,6,0.0,TCGA,3,public_original508,fuhrman4
+1.0,1,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,4,public_original508,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,4,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,4,,TCGA,3,public_original508,fuhrman4
+0.0,0,,1,,0.19999999999999998,Visual + Qwen,8,9,0.1111111111111111,TCGA,1,public_original508,histologic3
+0.0,0,,20,,0.4255319148936171,Visual + Qwen,11,65,0.3076923076923077,TCGA,2,public_original508,histologic3
+1.0,100,,27,,0.4186046511627907,Visual + Qwen,19,100,0.27,TCGA,3,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-BLCA,14,0.8235294117647058,,Visual + Qwen,,17,,TCGA,3,public_original508,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-BRCA,3,0.6,,Visual + Qwen,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-CESC,2,0.4,,Visual + Qwen,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-CESC,2,0.4,,Visual + Qwen,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-COAD,4,0.5,,Visual + Qwen,,8,,TCGA,2,public_original508,histologic3
+,,TCGA-COAD,0,0.0,,Visual + Qwen,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-DLBC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-ESCA,1,0.14285714285714285,,Visual + Qwen,,7,,TCGA,2,public_original508,histologic3
+,,TCGA-ESCA,1,0.14285714285714285,,Visual + Qwen,,7,,TCGA,3,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + Qwen,,2,,TCGA,1,public_original508,histologic3
+,,TCGA-HNSC,5,0.5555555555555556,,Visual + Qwen,,9,,TCGA,2,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + Qwen,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,1,0.2,,Visual + Qwen,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-LUAD,1,0.2,,Visual + Qwen,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUAD,0,0.0,,Visual + Qwen,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-LUSC,0,0.0,,Visual + Qwen,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUSC,0,0.0,,Visual + Qwen,,6,,TCGA,3,public_original508,histologic3
+,,TCGA-OV,4,0.3076923076923077,,Visual + Qwen,,13,,TCGA,3,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,11,,TCGA,3,public_original508,histologic3
+,,TCGA-READ,5,0.4166666666666667,,Visual + Qwen,,12,,TCGA,2,public_original508,histologic3
+,,TCGA-READ,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-STAD,1,0.25,,Visual + Qwen,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-STAD,1,0.1111111111111111,,Visual + Qwen,,9,,TCGA,3,public_original508,histologic3
+,,TCGA-TGCT,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-THCA,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-THYM,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-UCEC,1,1.0,,Visual + Qwen,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-UCEC,1,0.25,,Visual + Qwen,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-UCS,1,0.5,,Visual + Qwen,,2,,TCGA,3,public_original508,histologic3
+1.0,1,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,3,public_original508,nuclear3
+,,TCGA-UCEC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_original508,nuclear3
+0.0,0,,0,,0.0,Visual + Qwen,1,4,0.0,TCGA,2,public_original508,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,4,,TCGA,2,public_original508,who4
+0.0,0,,0,,0.0,DeepSeek,1,1,0.0,TCGA,1,public_original508,fuhrman4
+0.0,0,,0,,0.0,DeepSeek,2,4,0.0,TCGA,2,public_original508,fuhrman4
+0.0,0,,0,,0.0,DeepSeek,3,6,0.0,TCGA,3,public_original508,fuhrman4
+1.0,1,,0,,0.0,DeepSeek,1,1,0.0,TCGA,4,public_original508,fuhrman4
+,,TCGA-ACC,0,0.0,,DeepSeek,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,1,,TCGA,1,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,1,,TCGA,4,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,4,,TCGA,3,public_original508,fuhrman4
+0.0,0,,2,,0.3333333333333333,DeepSeek,8,9,0.2222222222222222,TCGA,1,public_original508,histologic3
+0.0,0,,36,,0.6050420168067226,DeepSeek,11,65,0.5538461538461539,TCGA,2,public_original508,histologic3
+1.0,100,,67,,0.7052631578947369,DeepSeek,19,100,0.67,TCGA,3,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,DeepSeek,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,DeepSeek,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-BLCA,15,0.8823529411764706,,DeepSeek,,17,,TCGA,3,public_original508,histologic3
+,,TCGA-BRCA,0,0.0,,DeepSeek,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-BRCA,4,0.8,,DeepSeek,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,DeepSeek,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-CESC,3,0.6,,DeepSeek,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-CESC,2,0.4,,DeepSeek,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-COAD,5,0.625,,DeepSeek,,8,,TCGA,2,public_original508,histologic3
+,,TCGA-COAD,2,0.5,,DeepSeek,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-DLBC,0,0.0,,DeepSeek,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-ESCA,5,0.7142857142857143,,DeepSeek,,7,,TCGA,2,public_original508,histologic3
+,,TCGA-ESCA,6,0.8571428571428571,,DeepSeek,,7,,TCGA,3,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,DeepSeek,,2,,TCGA,1,public_original508,histologic3
+,,TCGA-HNSC,8,0.8888888888888888,,DeepSeek,,9,,TCGA,2,public_original508,histologic3
+,,TCGA-HNSC,2,0.5,,DeepSeek,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-KIRP,0,0.0,,DeepSeek,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LGG,1,1.0,,DeepSeek,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,DeepSeek,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,4,0.8,,DeepSeek,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,DeepSeek,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-LUAD,1,0.2,,DeepSeek,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUAD,3,0.6,,DeepSeek,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-LUSC,0,0.0,,DeepSeek,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUSC,4,0.6666666666666666,,DeepSeek,,6,,TCGA,3,public_original508,histologic3
+,,TCGA-OV,12,0.9230769230769231,,DeepSeek,,13,,TCGA,3,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,DeepSeek,,1,,TCGA,2,public_original508,histologic3
+,,TCGA-PRAD,4,0.36363636363636365,,DeepSeek,,11,,TCGA,3,public_original508,histologic3
+,,TCGA-READ,10,0.8333333333333334,,DeepSeek,,12,,TCGA,2,public_original508,histologic3
+,,TCGA-READ,0,0.0,,DeepSeek,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-STAD,0,0.0,,DeepSeek,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-STAD,8,0.8888888888888888,,DeepSeek,,9,,TCGA,3,public_original508,histologic3
+,,TCGA-TGCT,0,0.0,,DeepSeek,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-THCA,1,1.0,,DeepSeek,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-THYM,0,0.0,,DeepSeek,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-UCEC,0,0.0,,DeepSeek,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-UCEC,4,1.0,,DeepSeek,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-UCS,1,0.5,,DeepSeek,,2,,TCGA,3,public_original508,histologic3
+1.0,1,,0,,0.0,DeepSeek,1,1,0.0,TCGA,3,public_original508,nuclear3
+,,TCGA-UCEC,0,0.0,,DeepSeek,,1,,TCGA,3,public_original508,nuclear3
+0.0,0,,0,,0.0,DeepSeek,1,4,0.0,TCGA,2,public_original508,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,4,,TCGA,2,public_original508,who4
+0.0,0,,0,,0.0,GLM,1,1,0.0,TCGA,1,public_original508,fuhrman4
+0.0,0,,0,,0.0,GLM,2,4,0.0,TCGA,2,public_original508,fuhrman4
+0.0,0,,0,,0.0,GLM,3,6,0.0,TCGA,3,public_original508,fuhrman4
+1.0,1,,0,,0.0,GLM,1,1,0.0,TCGA,4,public_original508,fuhrman4
+,,TCGA-ACC,0,0.0,,GLM,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,1,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,4,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,4,,TCGA,3,public_original508,fuhrman4
+0.0,0,,2,,0.15384615384615383,GLM,8,9,0.2222222222222222,TCGA,1,public_original508,histologic3
+0.0,0,,28,,0.5384615384615385,GLM,11,65,0.4307692307692308,TCGA,2,public_original508,histologic3
+1.0,100,,58,,0.6590909090909091,GLM,19,100,0.58,TCGA,3,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,GLM,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-ACC,1,0.5,,GLM,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-BLCA,11,0.6470588235294118,,GLM,,17,,TCGA,3,public_original508,histologic3
+,,TCGA-BRCA,3,0.75,,GLM,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-BRCA,3,0.6,,GLM,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,GLM,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-CESC,2,0.4,,GLM,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-CESC,4,0.8,,GLM,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-COAD,5,0.625,,GLM,,8,,TCGA,2,public_original508,histologic3
+,,TCGA-COAD,0,0.0,,GLM,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-DLBC,1,1.0,,GLM,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-ESCA,2,0.2857142857142857,,GLM,,7,,TCGA,2,public_original508,histologic3
+,,TCGA-ESCA,4,0.5714285714285714,,GLM,,7,,TCGA,3,public_original508,histologic3
+,,TCGA-HNSC,1,0.5,,GLM,,2,,TCGA,1,public_original508,histologic3
+,,TCGA-HNSC,5,0.5555555555555556,,GLM,,9,,TCGA,2,public_original508,histologic3
+,,TCGA-HNSC,2,0.5,,GLM,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-KIRP,0,0.0,,GLM,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LGG,0,0.0,,GLM,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,GLM,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,1,0.2,,GLM,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LIHC,1,1.0,,GLM,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-LUAD,2,0.4,,GLM,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUAD,3,0.6,,GLM,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-LUSC,0,0.0,,GLM,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUSC,5,0.8333333333333334,,GLM,,6,,TCGA,3,public_original508,histologic3
+,,TCGA-OV,6,0.46153846153846156,,GLM,,13,,TCGA,3,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,GLM,,1,,TCGA,2,public_original508,histologic3
+,,TCGA-PRAD,2,0.18181818181818182,,GLM,,11,,TCGA,3,public_original508,histologic3
+,,TCGA-READ,7,0.5833333333333334,,GLM,,12,,TCGA,2,public_original508,histologic3
+,,TCGA-READ,0,0.0,,GLM,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-STAD,1,0.25,,GLM,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-STAD,8,0.8888888888888888,,GLM,,9,,TCGA,3,public_original508,histologic3
+,,TCGA-TGCT,1,1.0,,GLM,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-THCA,0,0.0,,GLM,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-THYM,1,0.5,,GLM,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-UCEC,1,1.0,,GLM,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-UCEC,3,0.75,,GLM,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-UCS,2,1.0,,GLM,,2,,TCGA,3,public_original508,histologic3
+1.0,1,,0,,0.0,GLM,1,1,0.0,TCGA,3,public_original508,nuclear3
+,,TCGA-UCEC,0,0.0,,GLM,,1,,TCGA,3,public_original508,nuclear3
+0.0,0,,2,,0.6666666666666666,GLM,1,4,0.5,TCGA,2,public_original508,who4
+,,TCGA-LGG,2,0.5,,GLM,,4,,TCGA,2,public_original508,who4
+0.0,0,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,1,public_original508,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,2,4,0.0,TCGA,2,public_original508,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,3,6,0.0,TCGA,3,public_original508,fuhrman4
+1.0,1,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,4,public_original508,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,4,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,4,,TCGA,3,public_original508,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,8,9,0.0,TCGA,1,public_original508,histologic3
+0.0,0,,1,,0.030303030303030307,Visual + MedGemma,11,65,0.015384615384615385,TCGA,2,public_original508,histologic3
+1.0,100,,54,,0.5684210526315789,Visual + MedGemma,19,100,0.54,TCGA,3,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-ACC,1,0.5,,Visual + MedGemma,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-BLCA,12,0.7058823529411765,,Visual + MedGemma,,17,,TCGA,3,public_original508,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-BRCA,1,0.2,,Visual + MedGemma,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-CESC,4,0.8,,Visual + MedGemma,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-COAD,0,0.0,,Visual + MedGemma,,8,,TCGA,2,public_original508,histologic3
+,,TCGA-COAD,2,0.5,,Visual + MedGemma,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-DLBC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-ESCA,1,0.14285714285714285,,Visual + MedGemma,,7,,TCGA,2,public_original508,histologic3
+,,TCGA-ESCA,2,0.2857142857142857,,Visual + MedGemma,,7,,TCGA,3,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + MedGemma,,2,,TCGA,1,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + MedGemma,,9,,TCGA,2,public_original508,histologic3
+,,TCGA-HNSC,4,1.0,,Visual + MedGemma,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-LUAD,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUAD,4,0.8,,Visual + MedGemma,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-LUSC,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUSC,3,0.5,,Visual + MedGemma,,6,,TCGA,3,public_original508,histologic3
+,,TCGA-OV,5,0.38461538461538464,,Visual + MedGemma,,13,,TCGA,3,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_original508,histologic3
+,,TCGA-PRAD,2,0.18181818181818182,,Visual + MedGemma,,11,,TCGA,3,public_original508,histologic3
+,,TCGA-READ,0,0.0,,Visual + MedGemma,,12,,TCGA,2,public_original508,histologic3
+,,TCGA-READ,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-STAD,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-STAD,5,0.5555555555555556,,Visual + MedGemma,,9,,TCGA,3,public_original508,histologic3
+,,TCGA-TGCT,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-THCA,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-THYM,1,0.5,,Visual + MedGemma,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-UCEC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-UCEC,4,1.0,,Visual + MedGemma,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-UCS,2,1.0,,Visual + MedGemma,,2,,TCGA,3,public_original508,histologic3
+1.0,1,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,3,public_original508,nuclear3
+,,TCGA-UCEC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_original508,nuclear3
+0.0,0,,0,,0.0,Visual + MedGemma,1,4,0.0,TCGA,2,public_original508,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_original508,who4
+0.0,0,,0,,0.0,PathAgent,1,1,0.0,TCGA,1,public_original508,fuhrman4
+0.0,0,,0,,0.0,PathAgent,2,4,0.0,TCGA,2,public_original508,fuhrman4
+0.0,0,,0,,0.0,PathAgent,3,6,0.0,TCGA,3,public_original508,fuhrman4
+1.0,1,,0,,0.0,PathAgent,1,1,0.0,TCGA,4,public_original508,fuhrman4
+,,TCGA-ACC,0,0.0,,PathAgent,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,4,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,4,,TCGA,3,public_original508,fuhrman4
+0.0,0,,0,,0.0,PathAgent,8,9,0.0,TCGA,1,public_original508,histologic3
+0.0,0,,0,,0.0,PathAgent,11,65,0.0,TCGA,2,public_original508,histologic3
+1.0,100,,85,,0.68,PathAgent,19,100,0.85,TCGA,3,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-ACC,2,1.0,,PathAgent,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-BLCA,15,0.8823529411764706,,PathAgent,,17,,TCGA,3,public_original508,histologic3
+,,TCGA-BRCA,0,0.0,,PathAgent,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-BRCA,4,0.8,,PathAgent,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,PathAgent,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-CESC,5,1.0,,PathAgent,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-COAD,0,0.0,,PathAgent,,8,,TCGA,2,public_original508,histologic3
+,,TCGA-COAD,4,1.0,,PathAgent,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-DLBC,1,1.0,,PathAgent,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-ESCA,0,0.0,,PathAgent,,7,,TCGA,2,public_original508,histologic3
+,,TCGA-ESCA,6,0.8571428571428571,,PathAgent,,7,,TCGA,3,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,PathAgent,,2,,TCGA,1,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,PathAgent,,9,,TCGA,2,public_original508,histologic3
+,,TCGA-HNSC,2,0.5,,PathAgent,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-KIRP,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LGG,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,PathAgent,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LIHC,1,1.0,,PathAgent,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-LUAD,0,0.0,,PathAgent,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUAD,4,0.8,,PathAgent,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-LUSC,0,0.0,,PathAgent,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUSC,5,0.8333333333333334,,PathAgent,,6,,TCGA,3,public_original508,histologic3
+,,TCGA-OV,12,0.9230769230769231,,PathAgent,,13,,TCGA,3,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,PathAgent,,1,,TCGA,2,public_original508,histologic3
+,,TCGA-PRAD,8,0.7272727272727273,,PathAgent,,11,,TCGA,3,public_original508,histologic3
+,,TCGA-READ,0,0.0,,PathAgent,,12,,TCGA,2,public_original508,histologic3
+,,TCGA-READ,1,1.0,,PathAgent,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-STAD,0,0.0,,PathAgent,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-STAD,7,0.7777777777777778,,PathAgent,,9,,TCGA,3,public_original508,histologic3
+,,TCGA-TGCT,1,1.0,,PathAgent,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-THCA,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-THYM,2,1.0,,PathAgent,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-UCEC,0,0.0,,PathAgent,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-UCEC,3,0.75,,PathAgent,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-UCS,2,1.0,,PathAgent,,2,,TCGA,3,public_original508,histologic3
+1.0,1,,0,,0.0,PathAgent,1,1,0.0,TCGA,3,public_original508,nuclear3
+,,TCGA-UCEC,0,0.0,,PathAgent,,1,,TCGA,3,public_original508,nuclear3
+0.0,0,,0,,0.0,PathAgent,1,4,0.0,TCGA,2,public_original508,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,4,,TCGA,2,public_original508,who4
+0.0,0,,0,,0.0,SO1_D1,1,1,0.0,TCGA,1,public_original508,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,2,4,0.0,TCGA,2,public_original508,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,3,6,0.0,TCGA,3,public_original508,fuhrman4
+1.0,1,,0,,0.0,SO1_D1,1,1,0.0,TCGA,4,public_original508,fuhrman4
+,,TCGA-ACC,0,0.0,,SO1_D1,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,1,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,4,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,4,,TCGA,3,public_original508,fuhrman4
+0.0,0,,1,,0.19999999999999998,SO1_D1,8,9,0.1111111111111111,TCGA,1,public_original508,histologic3
+0.0,0,,28,,0.5436893203883496,SO1_D1,11,65,0.4307692307692308,TCGA,2,public_original508,histologic3
+1.0,100,,40,,0.547945205479452,SO1_D1,19,100,0.4,TCGA,3,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,SO1_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-ACC,1,0.5,,SO1_D1,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-BLCA,16,0.9411764705882353,,SO1_D1,,17,,TCGA,3,public_original508,histologic3
+,,TCGA-BRCA,1,0.25,,SO1_D1,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-BRCA,2,0.4,,SO1_D1,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,SO1_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-CESC,1,0.2,,SO1_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-CESC,3,0.6,,SO1_D1,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-COAD,5,0.625,,SO1_D1,,8,,TCGA,2,public_original508,histologic3
+,,TCGA-COAD,0,0.0,,SO1_D1,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-DLBC,1,1.0,,SO1_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-ESCA,4,0.5714285714285714,,SO1_D1,,7,,TCGA,2,public_original508,histologic3
+,,TCGA-ESCA,3,0.42857142857142855,,SO1_D1,,7,,TCGA,3,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,SO1_D1,,2,,TCGA,1,public_original508,histologic3
+,,TCGA-HNSC,5,0.5555555555555556,,SO1_D1,,9,,TCGA,2,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,SO1_D1,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LGG,0,0.0,,SO1_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,SO1_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,2,0.4,,SO1_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,SO1_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-LUAD,2,0.4,,SO1_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUAD,0,0.0,,SO1_D1,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-LUSC,1,0.2,,SO1_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUSC,0,0.0,,SO1_D1,,6,,TCGA,3,public_original508,histologic3
+,,TCGA-OV,9,0.6923076923076923,,SO1_D1,,13,,TCGA,3,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,SO1_D1,,1,,TCGA,2,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,SO1_D1,,11,,TCGA,3,public_original508,histologic3
+,,TCGA-READ,7,0.5833333333333334,,SO1_D1,,12,,TCGA,2,public_original508,histologic3
+,,TCGA-READ,0,0.0,,SO1_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-STAD,0,0.0,,SO1_D1,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-STAD,1,0.1111111111111111,,SO1_D1,,9,,TCGA,3,public_original508,histologic3
+,,TCGA-TGCT,0,0.0,,SO1_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-THCA,0,0.0,,SO1_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-THYM,0,0.0,,SO1_D1,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-UCEC,1,1.0,,SO1_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-UCEC,3,0.75,,SO1_D1,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-UCS,1,0.5,,SO1_D1,,2,,TCGA,3,public_original508,histologic3
+1.0,1,,0,,0.0,SO1_D1,1,1,0.0,TCGA,3,public_original508,nuclear3
+,,TCGA-UCEC,0,0.0,,SO1_D1,,1,,TCGA,3,public_original508,nuclear3
+0.0,0,,0,,0.0,SO1_D1,1,4,0.0,TCGA,2,public_original508,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,4,,TCGA,2,public_original508,who4
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,1,public_original508,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,2,4,0.0,TCGA,2,public_original508,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,3,6,0.0,TCGA,3,public_original508,fuhrman4
+1.0,1,,0,,0.0,SO4_D1,1,1,0.0,TCGA,4,public_original508,fuhrman4
+,,TCGA-ACC,0,0.0,,SO4_D1,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,1,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,3,public_original508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,4,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,2,,TCGA,2,public_original508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,4,,TCGA,3,public_original508,fuhrman4
+0.0,0,,1,,0.1818181818181818,SO4_D1,8,9,0.1111111111111111,TCGA,1,public_original508,histologic3
+0.0,0,,53,,0.726027397260274,SO4_D1,11,65,0.8153846153846154,TCGA,2,public_original508,histologic3
+1.0,100,,50,,0.6578947368421052,SO4_D1,19,100,0.5,TCGA,3,public_original508,histologic3
+,,TCGA-ACC,0,0.0,,SO4_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-ACC,2,1.0,,SO4_D1,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-BLCA,17,1.0,,SO4_D1,,17,,TCGA,3,public_original508,histologic3
+,,TCGA-BRCA,3,0.75,,SO4_D1,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-BRCA,2,0.4,,SO4_D1,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-CESC,0,0.0,,SO4_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-CESC,3,0.6,,SO4_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-CESC,4,0.8,,SO4_D1,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-COAD,6,0.75,,SO4_D1,,8,,TCGA,2,public_original508,histologic3
+,,TCGA-COAD,0,0.0,,SO4_D1,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-DLBC,0,0.0,,SO4_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-ESCA,7,1.0,,SO4_D1,,7,,TCGA,2,public_original508,histologic3
+,,TCGA-ESCA,2,0.2857142857142857,,SO4_D1,,7,,TCGA,3,public_original508,histologic3
+,,TCGA-HNSC,0,0.0,,SO4_D1,,2,,TCGA,1,public_original508,histologic3
+,,TCGA-HNSC,8,0.8888888888888888,,SO4_D1,,9,,TCGA,2,public_original508,histologic3
+,,TCGA-HNSC,2,0.5,,SO4_D1,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LGG,1,1.0,,SO4_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,SO4_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-LIHC,5,1.0,,SO4_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LIHC,0,0.0,,SO4_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-LUAD,4,0.8,,SO4_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUAD,0,0.0,,SO4_D1,,5,,TCGA,3,public_original508,histologic3
+,,TCGA-LUSC,4,0.8,,SO4_D1,,5,,TCGA,2,public_original508,histologic3
+,,TCGA-LUSC,1,0.16666666666666666,,SO4_D1,,6,,TCGA,3,public_original508,histologic3
+,,TCGA-OV,10,0.7692307692307693,,SO4_D1,,13,,TCGA,3,public_original508,histologic3
+,,TCGA-PRAD,0,0.0,,SO4_D1,,1,,TCGA,2,public_original508,histologic3
+,,TCGA-PRAD,2,0.18181818181818182,,SO4_D1,,11,,TCGA,3,public_original508,histologic3
+,,TCGA-READ,11,0.9166666666666666,,SO4_D1,,12,,TCGA,2,public_original508,histologic3
+,,TCGA-READ,0,0.0,,SO4_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-STAD,2,0.5,,SO4_D1,,4,,TCGA,2,public_original508,histologic3
+,,TCGA-STAD,2,0.2222222222222222,,SO4_D1,,9,,TCGA,3,public_original508,histologic3
+,,TCGA-TGCT,0,0.0,,SO4_D1,,1,,TCGA,3,public_original508,histologic3
+,,TCGA-THCA,0,0.0,,SO4_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-THYM,1,0.5,,SO4_D1,,2,,TCGA,3,public_original508,histologic3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,1,,TCGA,1,public_original508,histologic3
+,,TCGA-UCEC,4,1.0,,SO4_D1,,4,,TCGA,3,public_original508,histologic3
+,,TCGA-UCS,1,0.5,,SO4_D1,,2,,TCGA,3,public_original508,histologic3
+1.0,1,,0,,0.0,SO4_D1,1,1,0.0,TCGA,3,public_original508,nuclear3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,1,,TCGA,3,public_original508,nuclear3
+0.0,0,,0,,0.0,SO4_D1,1,4,0.0,TCGA,2,public_original508,who4
+,,TCGA-LGG,0,0.0,,SO4_D1,,4,,TCGA,2,public_original508,who4
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,1,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,3,25,0.0,TCGA,2,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,3,52,0.0,TCGA,3,public_expansion1200,fuhrman4
+1.0,17,,0,,0.0,Visual + Qwen,4,17,0.0,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,1,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,5,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,10,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,3,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,6,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,19,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,10,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,14,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,23,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,3,,TCGA,4,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,6,public_expansion1200,gleason10
+1.0,1,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,10,public_expansion1200,gleason10
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,1,,TCGA,6,public_expansion1200,gleason10
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,1,,TCGA,10,public_expansion1200,gleason10
+0.0,0,,0,,0.0,Visual + Qwen,12,64,0.0,TCGA,1,public_expansion1200,histologic3
+0.0,0,,52,,0.36619718309859156,Visual + Qwen,10,201,0.25870646766169153,TCGA,2,public_expansion1200,histologic3
+1.0,232,,104,,0.5531914893617021,Visual + Qwen,16,232,0.4482758620689655,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,6,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ACC,2,0.4,,Visual + Qwen,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,6,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BLCA,73,0.8902439024390244,,Visual + Qwen,,82,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BRCA,4,0.10256410256410256,,Visual + Qwen,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BRCA,10,0.43478260869565216,,Visual + Qwen,,23,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,Visual + Qwen,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CESC,1,0.02564102564102564,,Visual + Qwen,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CESC,10,0.3225806451612903,,Visual + Qwen,,31,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CHOL,3,0.6,,Visual + Qwen,,5,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + Qwen,,3,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,Visual + Qwen,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,Visual + Qwen,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ESCA,15,0.5,,Visual + Qwen,,30,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-ESCA,4,0.13793103448275862,,Visual + Qwen,,29,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + Qwen,,13,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-HNSC,29,0.5178571428571429,,Visual + Qwen,,56,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-HNSC,3,0.12,,Visual + Qwen,,25,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,8,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,10,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRP,1,0.0625,,Visual + Qwen,,16,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,22,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,7,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,Visual + Qwen,,7,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LUAD,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-OV,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-UCEC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,histologic3
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,2,public_expansion1200,isup5
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_expansion1200,isup5
+0.0,0,,0,,0.0,Visual + Qwen,2,2,0.0,TCGA,1,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,Visual + Qwen,4,11,0.0,TCGA,2,public_expansion1200,nuclear3
+1.0,7,,0,,0.0,Visual + Qwen,5,7,0.0,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,2,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-UCEC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,Visual + Qwen,1,4,0.0,TCGA,1,public_expansion1200,who4
+0.0,0,,1,,0.14285714285714285,Visual + Qwen,1,12,0.08333333333333333,TCGA,2,public_expansion1200,who4
+0.0,0,,0,,0.0,Visual + Qwen,1,3,0.0,TCGA,3,public_expansion1200,who4
+1.0,2,,0,,0.0,Visual + Qwen,1,2,0.0,TCGA,4,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,4,,TCGA,1,public_expansion1200,who4
+,,TCGA-LGG,1,0.08333333333333333,,Visual + Qwen,,12,,TCGA,2,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,3,,TCGA,3,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,2,,TCGA,4,public_expansion1200,who4
+0.0,0,,0,,0.0,DeepSeek,1,1,0.0,TCGA,1,public_expansion1200,fuhrman4
+0.0,0,,2,,0.14814814814814814,DeepSeek,3,25,0.08,TCGA,2,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,DeepSeek,3,52,0.0,TCGA,3,public_expansion1200,fuhrman4
+1.0,17,,0,,0.0,DeepSeek,4,17,0.0,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-ACC,0,0.0,,DeepSeek,,1,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,DeepSeek,,5,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,DeepSeek,,10,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,DeepSeek,,3,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,6,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,19,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,10,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,1,,TCGA,1,public_expansion1200,fuhrman4
+,,TCGA-KIRP,2,0.14285714285714285,,DeepSeek,,14,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,23,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,3,,TCGA,4,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,DeepSeek,1,1,0.0,TCGA,6,public_expansion1200,gleason10
+1.0,1,,0,,0.0,DeepSeek,1,1,0.0,TCGA,10,public_expansion1200,gleason10
+,,TCGA-BLCA,0,0.0,,DeepSeek,,1,,TCGA,6,public_expansion1200,gleason10
+,,TCGA-PRAD,0,0.0,,DeepSeek,,1,,TCGA,10,public_expansion1200,gleason10
+0.0,0,,1,,0.029850746268656716,DeepSeek,12,64,0.015625,TCGA,1,public_expansion1200,histologic3
+0.0,0,,102,,0.5271317829457364,DeepSeek,10,201,0.5074626865671642,TCGA,2,public_expansion1200,histologic3
+1.0,232,,137,,0.6357308584686776,DeepSeek,16,232,0.5905172413793104,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ACC,0,0.0,,DeepSeek,,6,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ACC,3,0.6,,DeepSeek,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,DeepSeek,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,DeepSeek,,6,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BLCA,77,0.9390243902439024,,DeepSeek,,82,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,DeepSeek,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BRCA,3,0.07692307692307693,,DeepSeek,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BRCA,15,0.6521739130434783,,DeepSeek,,23,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,DeepSeek,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CESC,20,0.5128205128205128,,DeepSeek,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CESC,18,0.5806451612903226,,DeepSeek,,31,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,DeepSeek,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CHOL,5,1.0,,DeepSeek,,5,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CHOL,1,0.3333333333333333,,DeepSeek,,3,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,DeepSeek,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-COAD,1,1.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,DeepSeek,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ESCA,17,0.5666666666666667,,DeepSeek,,30,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-ESCA,11,0.3793103448275862,,DeepSeek,,29,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,DeepSeek,,13,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-HNSC,53,0.9464285714285714,,DeepSeek,,56,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-HNSC,3,0.12,,DeepSeek,,25,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KICH,1,0.125,,DeepSeek,,8,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KICH,1,1.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRC,1,1.0,,DeepSeek,,1,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRC,1,0.2,,DeepSeek,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,DeepSeek,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRP,1,0.1,,DeepSeek,,10,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRP,1,0.0625,,DeepSeek,,16,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,DeepSeek,,22,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,DeepSeek,,7,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-LGG,2,0.2857142857142857,,DeepSeek,,7,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LIHC,1,1.0,,DeepSeek,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LUAD,1,1.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-OV,1,1.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-PRAD,0,0.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-UCEC,1,1.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,histologic3
+0.0,0,,0,,0.0,DeepSeek,1,1,0.0,TCGA,2,public_expansion1200,isup5
+,,TCGA-KIRP,0,0.0,,DeepSeek,,1,,TCGA,2,public_expansion1200,isup5
+0.0,0,,0,,0.0,DeepSeek,2,2,0.0,TCGA,1,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,DeepSeek,4,11,0.0,TCGA,2,public_expansion1200,nuclear3
+1.0,7,,0,,0.0,DeepSeek,5,7,0.0,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,DeepSeek,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,DeepSeek,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,DeepSeek,,1,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,DeepSeek,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,DeepSeek,,2,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-UCEC,0,0.0,,DeepSeek,,1,,TCGA,3,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,DeepSeek,1,4,0.0,TCGA,1,public_expansion1200,who4
+0.0,0,,0,,0.0,DeepSeek,1,12,0.0,TCGA,2,public_expansion1200,who4
+0.0,0,,0,,0.0,DeepSeek,1,3,0.0,TCGA,3,public_expansion1200,who4
+1.0,2,,0,,0.0,DeepSeek,1,2,0.0,TCGA,4,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,4,,TCGA,1,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,12,,TCGA,2,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,3,,TCGA,3,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,2,,TCGA,4,public_expansion1200,who4
+0.0,0,,0,,0.0,GLM,1,1,0.0,TCGA,1,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,GLM,3,25,0.0,TCGA,2,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,GLM,3,52,0.0,TCGA,3,public_expansion1200,fuhrman4
+1.0,17,,0,,0.0,GLM,4,17,0.0,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-ACC,0,0.0,,GLM,,1,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,GLM,,5,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,GLM,,10,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,GLM,,3,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,6,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,19,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,10,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,1,,TCGA,1,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,14,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,23,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,3,,TCGA,4,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,GLM,1,1,0.0,TCGA,6,public_expansion1200,gleason10
+1.0,1,,0,,0.0,GLM,1,1,0.0,TCGA,10,public_expansion1200,gleason10
+,,TCGA-BLCA,0,0.0,,GLM,,1,,TCGA,6,public_expansion1200,gleason10
+,,TCGA-PRAD,0,0.0,,GLM,,1,,TCGA,10,public_expansion1200,gleason10
+0.0,0,,3,,0.07142857142857142,GLM,12,64,0.046875,TCGA,1,public_expansion1200,histologic3
+0.0,0,,92,,0.5257142857142857,GLM,10,201,0.4577114427860697,TCGA,2,public_expansion1200,histologic3
+1.0,232,,126,,0.6116504854368933,GLM,16,232,0.5431034482758621,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ACC,1,0.16666666666666666,,GLM,,6,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ACC,2,0.4,,GLM,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,GLM,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,GLM,,6,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BLCA,56,0.6829268292682927,,GLM,,82,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,GLM,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BRCA,23,0.5897435897435898,,GLM,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BRCA,15,0.6521739130434783,,GLM,,23,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CESC,1,0.3333333333333333,,GLM,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CESC,19,0.48717948717948717,,GLM,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CESC,20,0.6451612903225806,,GLM,,31,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,GLM,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CHOL,4,0.8,,GLM,,5,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CHOL,2,0.6666666666666666,,GLM,,3,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,GLM,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,GLM,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,GLM,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ESCA,15,0.5,,GLM,,30,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-ESCA,13,0.4482758620689655,,GLM,,29,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-HNSC,1,0.07692307692307693,,GLM,,13,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-HNSC,31,0.5535714285714286,,GLM,,56,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-HNSC,14,0.56,,GLM,,25,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,GLM,,8,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,GLM,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,GLM,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,GLM,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,GLM,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,GLM,,10,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRP,2,0.125,,GLM,,16,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,GLM,,22,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,GLM,,7,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,GLM,,7,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LIHC,0,0.0,,GLM,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LUAD,1,1.0,,GLM,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-OV,1,1.0,,GLM,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-PRAD,0,0.0,,GLM,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-UCEC,0,0.0,,GLM,,1,,TCGA,3,public_expansion1200,histologic3
+0.0,0,,0,,0.0,GLM,1,1,0.0,TCGA,2,public_expansion1200,isup5
+,,TCGA-KIRP,0,0.0,,GLM,,1,,TCGA,2,public_expansion1200,isup5
+0.0,0,,0,,0.0,GLM,2,2,0.0,TCGA,1,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,GLM,4,11,0.0,TCGA,2,public_expansion1200,nuclear3
+1.0,7,,0,,0.0,GLM,5,7,0.0,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,GLM,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,GLM,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,GLM,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,GLM,,1,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,GLM,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,GLM,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,GLM,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,GLM,,2,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,GLM,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-UCEC,0,0.0,,GLM,,1,,TCGA,3,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,GLM,1,4,0.0,TCGA,1,public_expansion1200,who4
+0.0,0,,3,,0.4,GLM,1,12,0.25,TCGA,2,public_expansion1200,who4
+0.0,0,,1,,0.4,GLM,1,3,0.3333333333333333,TCGA,3,public_expansion1200,who4
+1.0,2,,0,,0.0,GLM,1,2,0.0,TCGA,4,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,GLM,,4,,TCGA,1,public_expansion1200,who4
+,,TCGA-LGG,3,0.25,,GLM,,12,,TCGA,2,public_expansion1200,who4
+,,TCGA-LGG,1,0.3333333333333333,,GLM,,3,,TCGA,3,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,GLM,,2,,TCGA,4,public_expansion1200,who4
+0.0,0,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,1,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,3,25,0.0,TCGA,2,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,3,52,0.0,TCGA,3,public_expansion1200,fuhrman4
+1.0,17,,0,,0.0,Visual + MedGemma,4,17,0.0,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + MedGemma,,1,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,10,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,3,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,6,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,19,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,10,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,14,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,23,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,3,,TCGA,4,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,6,public_expansion1200,gleason10
+1.0,1,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,10,public_expansion1200,gleason10
+,,TCGA-BLCA,0,0.0,,Visual + MedGemma,,1,,TCGA,6,public_expansion1200,gleason10
+,,TCGA-PRAD,0,0.0,,Visual + MedGemma,,1,,TCGA,10,public_expansion1200,gleason10
+0.0,0,,0,,0.0,Visual + MedGemma,12,64,0.0,TCGA,1,public_expansion1200,histologic3
+0.0,0,,0,,0.0,Visual + MedGemma,10,201,0.0,TCGA,2,public_expansion1200,histologic3
+1.0,232,,142,,0.5451055662188099,Visual + MedGemma,16,232,0.6120689655172413,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ACC,0,0.0,,Visual + MedGemma,,6,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ACC,1,0.2,,Visual + MedGemma,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + MedGemma,,6,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BLCA,56,0.6829268292682927,,Visual + MedGemma,,82,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BRCA,11,0.4782608695652174,,Visual + MedGemma,,23,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,Visual + MedGemma,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,Visual + MedGemma,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CESC,23,0.7419354838709677,,Visual + MedGemma,,31,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + MedGemma,,3,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,Visual + MedGemma,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-COAD,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,Visual + MedGemma,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,Visual + MedGemma,,30,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-ESCA,18,0.6206896551724138,,Visual + MedGemma,,29,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + MedGemma,,13,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + MedGemma,,56,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-HNSC,17,0.68,,Visual + MedGemma,,25,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,8,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KICH,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRC,2,0.4,,Visual + MedGemma,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,10,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRP,8,0.5,,Visual + MedGemma,,16,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,22,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,7,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-LGG,2,0.2857142857142857,,Visual + MedGemma,,7,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LUAD,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-OV,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-UCEC,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,histologic3
+0.0,0,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,2,public_expansion1200,isup5
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_expansion1200,isup5
+0.0,0,,0,,0.0,Visual + MedGemma,2,2,0.0,TCGA,1,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,Visual + MedGemma,4,11,0.0,TCGA,2,public_expansion1200,nuclear3
+1.0,7,,0,,0.0,Visual + MedGemma,5,7,0.0,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,2,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-UCEC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,Visual + MedGemma,1,4,0.0,TCGA,1,public_expansion1200,who4
+0.0,0,,0,,0.0,Visual + MedGemma,1,12,0.0,TCGA,2,public_expansion1200,who4
+0.0,0,,0,,0.0,Visual + MedGemma,1,3,0.0,TCGA,3,public_expansion1200,who4
+1.0,2,,0,,0.0,Visual + MedGemma,1,2,0.0,TCGA,4,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,4,,TCGA,1,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,12,,TCGA,2,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,3,,TCGA,3,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,2,,TCGA,4,public_expansion1200,who4
+0.0,0,,0,,0.0,PathAgent,1,1,0.0,TCGA,1,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,PathAgent,3,25,0.0,TCGA,2,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,PathAgent,3,52,0.0,TCGA,3,public_expansion1200,fuhrman4
+1.0,17,,0,,0.0,PathAgent,4,17,0.0,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-ACC,0,0.0,,PathAgent,,1,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,PathAgent,,5,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,PathAgent,,10,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,PathAgent,,3,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,6,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,19,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,10,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,1,,TCGA,1,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,14,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,23,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,3,,TCGA,4,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,PathAgent,1,1,0.0,TCGA,6,public_expansion1200,gleason10
+1.0,1,,0,,0.0,PathAgent,1,1,0.0,TCGA,10,public_expansion1200,gleason10
+,,TCGA-BLCA,0,0.0,,PathAgent,,1,,TCGA,6,public_expansion1200,gleason10
+,,TCGA-PRAD,0,0.0,,PathAgent,,1,,TCGA,10,public_expansion1200,gleason10
+0.0,0,,0,,0.0,PathAgent,12,64,0.0,TCGA,1,public_expansion1200,histologic3
+0.0,0,,0,,0.0,PathAgent,10,201,0.0,TCGA,2,public_expansion1200,histologic3
+1.0,232,,232,,0.6373626373626373,PathAgent,16,232,1.0,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ACC,0,0.0,,PathAgent,,6,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ACC,5,1.0,,PathAgent,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,PathAgent,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,PathAgent,,6,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BLCA,82,1.0,,PathAgent,,82,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,PathAgent,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,PathAgent,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BRCA,23,1.0,,PathAgent,,23,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,PathAgent,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,PathAgent,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CESC,31,1.0,,PathAgent,,31,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,PathAgent,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,PathAgent,,5,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CHOL,3,1.0,,PathAgent,,3,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,PathAgent,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-COAD,1,1.0,,PathAgent,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,PathAgent,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,PathAgent,,30,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-ESCA,29,1.0,,PathAgent,,29,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,PathAgent,,13,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,PathAgent,,56,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-HNSC,25,1.0,,PathAgent,,25,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,PathAgent,,8,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KICH,1,1.0,,PathAgent,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,PathAgent,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRC,5,1.0,,PathAgent,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,PathAgent,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,PathAgent,,10,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRP,16,1.0,,PathAgent,,16,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,PathAgent,,22,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,PathAgent,,7,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-LGG,7,1.0,,PathAgent,,7,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LIHC,0,0.0,,PathAgent,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LUAD,1,1.0,,PathAgent,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-OV,1,1.0,,PathAgent,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-PRAD,1,1.0,,PathAgent,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-UCEC,1,1.0,,PathAgent,,1,,TCGA,3,public_expansion1200,histologic3
+0.0,0,,0,,0.0,PathAgent,1,1,0.0,TCGA,2,public_expansion1200,isup5
+,,TCGA-KIRP,0,0.0,,PathAgent,,1,,TCGA,2,public_expansion1200,isup5
+0.0,0,,0,,0.0,PathAgent,2,2,0.0,TCGA,1,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,PathAgent,4,11,0.0,TCGA,2,public_expansion1200,nuclear3
+1.0,7,,0,,0.0,PathAgent,5,7,0.0,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,PathAgent,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,PathAgent,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,PathAgent,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,PathAgent,,1,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,PathAgent,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,PathAgent,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,PathAgent,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,PathAgent,,2,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,PathAgent,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-UCEC,0,0.0,,PathAgent,,1,,TCGA,3,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,PathAgent,1,4,0.0,TCGA,1,public_expansion1200,who4
+0.0,0,,0,,0.0,PathAgent,1,12,0.0,TCGA,2,public_expansion1200,who4
+0.0,0,,0,,0.0,PathAgent,1,3,0.0,TCGA,3,public_expansion1200,who4
+1.0,2,,0,,0.0,PathAgent,1,2,0.0,TCGA,4,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,4,,TCGA,1,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,12,,TCGA,2,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,3,,TCGA,3,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,2,,TCGA,4,public_expansion1200,who4
+0.0,0,,0,,0.0,SO1_D1,1,1,0.0,TCGA,1,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,3,25,0.0,TCGA,2,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,3,52,0.0,TCGA,3,public_expansion1200,fuhrman4
+1.0,17,,0,,0.0,SO1_D1,4,17,0.0,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-ACC,0,0.0,,SO1_D1,,1,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1_D1,,5,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1_D1,,10,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1_D1,,3,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,6,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,19,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,10,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,1,,TCGA,1,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,14,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,23,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,3,,TCGA,4,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,1,1,0.0,TCGA,6,public_expansion1200,gleason10
+1.0,1,,0,,0.0,SO1_D1,1,1,0.0,TCGA,10,public_expansion1200,gleason10
+,,TCGA-BLCA,0,0.0,,SO1_D1,,1,,TCGA,6,public_expansion1200,gleason10
+,,TCGA-PRAD,0,0.0,,SO1_D1,,1,,TCGA,10,public_expansion1200,gleason10
+0.0,0,,0,,0.0,SO1_D1,12,64,0.0,TCGA,1,public_expansion1200,histologic3
+0.0,0,,69,,0.45394736842105265,SO1_D1,10,201,0.34328358208955223,TCGA,2,public_expansion1200,histologic3
+1.0,232,,127,,0.6105769230769231,SO1_D1,16,232,0.5474137931034483,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ACC,0,0.0,,SO1_D1,,6,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ACC,4,0.8,,SO1_D1,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,SO1_D1,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,SO1_D1,,6,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BLCA,78,0.9512195121951219,,SO1_D1,,82,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,SO1_D1,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BRCA,4,0.10256410256410256,,SO1_D1,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BRCA,13,0.5652173913043478,,SO1_D1,,23,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,SO1_D1,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CESC,2,0.05128205128205128,,SO1_D1,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CESC,20,0.6451612903225806,,SO1_D1,,31,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,SO1_D1,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CHOL,2,0.4,,SO1_D1,,5,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,SO1_D1,,3,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,SO1_D1,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,SO1_D1,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ESCA,21,0.7,,SO1_D1,,30,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-ESCA,5,0.1724137931034483,,SO1_D1,,29,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,SO1_D1,,13,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-HNSC,40,0.7142857142857143,,SO1_D1,,56,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-HNSC,4,0.16,,SO1_D1,,25,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,SO1_D1,,8,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,10,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRP,1,0.0625,,SO1_D1,,16,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,SO1_D1,,22,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,SO1_D1,,7,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,SO1_D1,,7,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LIHC,0,0.0,,SO1_D1,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LUAD,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-OV,1,1.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-PRAD,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-UCEC,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,histologic3
+0.0,0,,0,,0.0,SO1_D1,1,1,0.0,TCGA,2,public_expansion1200,isup5
+,,TCGA-KIRP,0,0.0,,SO1_D1,,1,,TCGA,2,public_expansion1200,isup5
+0.0,0,,0,,0.0,SO1_D1,2,2,0.0,TCGA,1,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,SO1_D1,4,11,0.0,TCGA,2,public_expansion1200,nuclear3
+1.0,7,,0,,0.0,SO1_D1,5,7,0.0,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,SO1_D1,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,SO1_D1,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,SO1_D1,,1,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,SO1_D1,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,2,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-UCEC,0,0.0,,SO1_D1,,1,,TCGA,3,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,SO1_D1,1,4,0.0,TCGA,1,public_expansion1200,who4
+0.0,0,,0,,0.0,SO1_D1,1,12,0.0,TCGA,2,public_expansion1200,who4
+0.0,0,,0,,0.0,SO1_D1,1,3,0.0,TCGA,3,public_expansion1200,who4
+1.0,2,,0,,0.0,SO1_D1,1,2,0.0,TCGA,4,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,4,,TCGA,1,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,12,,TCGA,2,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,3,,TCGA,3,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,2,,TCGA,4,public_expansion1200,who4
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,1,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,3,25,0.0,TCGA,2,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,3,52,0.0,TCGA,3,public_expansion1200,fuhrman4
+1.0,17,,0,,0.0,SO4_D1,4,17,0.0,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-ACC,0,0.0,,SO4_D1,,1,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,5,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,10,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,3,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,6,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,19,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,10,,TCGA,4,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,1,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,14,,TCGA,2,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,23,,TCGA,3,public_expansion1200,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,3,,TCGA,4,public_expansion1200,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,6,public_expansion1200,gleason10
+1.0,1,,0,,0.0,SO4_D1,1,1,0.0,TCGA,10,public_expansion1200,gleason10
+,,TCGA-BLCA,0,0.0,,SO4_D1,,1,,TCGA,6,public_expansion1200,gleason10
+,,TCGA-PRAD,0,0.0,,SO4_D1,,1,,TCGA,10,public_expansion1200,gleason10
+0.0,0,,0,,0.0,SO4_D1,12,64,0.0,TCGA,1,public_expansion1200,histologic3
+0.0,0,,103,,0.5464190981432361,SO4_D1,10,201,0.5124378109452736,TCGA,2,public_expansion1200,histologic3
+1.0,232,,131,,0.6107226107226107,SO4_D1,16,232,0.5646551724137931,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ACC,0,0.0,,SO4_D1,,6,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ACC,5,1.0,,SO4_D1,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,SO4_D1,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BLCA,0,0.0,,SO4_D1,,6,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BLCA,82,1.0,,SO4_D1,,82,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-BRCA,16,0.41025641025641024,,SO4_D1,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-BRCA,11,0.4782608695652174,,SO4_D1,,23,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CESC,0,0.0,,SO4_D1,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CESC,10,0.2564102564102564,,SO4_D1,,39,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CESC,23,0.7419354838709677,,SO4_D1,,31,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,SO4_D1,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-CHOL,4,0.8,,SO4_D1,,5,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-CHOL,0,0.0,,SO4_D1,,3,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,SO4_D1,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-COAD,0,0.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-ESCA,0,0.0,,SO4_D1,,5,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-ESCA,27,0.9,,SO4_D1,,30,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-ESCA,5,0.1724137931034483,,SO4_D1,,29,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-HNSC,0,0.0,,SO4_D1,,13,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-HNSC,46,0.8214285714285714,,SO4_D1,,56,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-HNSC,2,0.08,,SO4_D1,,25,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KICH,0,0.0,,SO4_D1,,8,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KICH,1,1.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,3,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,5,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,2,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,10,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-KIRP,1,0.0625,,SO4_D1,,16,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,22,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,7,,TCGA,2,public_expansion1200,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,7,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-LIHC,0,0.0,,SO4_D1,,1,,TCGA,1,public_expansion1200,histologic3
+,,TCGA-LUAD,0,0.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-OV,1,1.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-PRAD,0,0.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,histologic3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,histologic3
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,2,public_expansion1200,isup5
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,2,public_expansion1200,isup5
+0.0,0,,0,,0.0,SO4_D1,2,2,0.0,TCGA,1,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,SO4_D1,4,11,0.0,TCGA,2,public_expansion1200,nuclear3
+1.0,7,,0,,0.0,SO4_D1,5,7,0.0,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,1,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,1,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,4,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,2,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,2,,TCGA,2,public_expansion1200,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,nuclear3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,1,,TCGA,3,public_expansion1200,nuclear3
+0.0,0,,0,,0.0,SO4_D1,1,4,0.0,TCGA,1,public_expansion1200,who4
+0.0,0,,1,,0.14285714285714285,SO4_D1,1,12,0.08333333333333333,TCGA,2,public_expansion1200,who4
+0.0,0,,0,,0.0,SO4_D1,1,3,0.0,TCGA,3,public_expansion1200,who4
+1.0,2,,1,,0.4,SO4_D1,1,2,0.5,TCGA,4,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,SO4_D1,,4,,TCGA,1,public_expansion1200,who4
+,,TCGA-LGG,1,0.08333333333333333,,SO4_D1,,12,,TCGA,2,public_expansion1200,who4
+,,TCGA-LGG,0,0.0,,SO4_D1,,3,,TCGA,3,public_expansion1200,who4
+,,TCGA-LGG,1,0.5,,SO4_D1,,2,,TCGA,4,public_expansion1200,who4
+0.0,0,,0,,0.0,Visual + Qwen,2,2,0.0,TCGA,1,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,3,29,0.0,TCGA,2,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,4,58,0.0,TCGA,3,public_pooled1708,fuhrman4
+1.0,18,,0,,0.0,Visual + Qwen,4,18,0.0,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,1,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,5,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,10,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,3,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,8,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,20,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,11,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,16,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,27,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,3,,TCGA,4,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,6,public_pooled1708,gleason10
+1.0,1,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,10,public_pooled1708,gleason10
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,1,,TCGA,6,public_pooled1708,gleason10
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,1,,TCGA,10,public_pooled1708,gleason10
+0.0,0,,1,,0.02666666666666666,Visual + Qwen,14,73,0.0136986301369863,TCGA,1,public_pooled1708,histologic3
+0.0,0,,72,,0.38095238095238093,Visual + Qwen,17,266,0.2706766917293233,TCGA,2,public_pooled1708,histologic3
+1.0,332,,131,,0.5188118811881188,Visual + Qwen,24,332,0.39457831325301207,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,7,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ACC,2,0.2857142857142857,,Visual + Qwen,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,6,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BLCA,87,0.8787878787878788,,Visual + Qwen,,99,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BRCA,4,0.09302325581395349,,Visual + Qwen,,43,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BRCA,13,0.4642857142857143,,Visual + Qwen,,28,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,Visual + Qwen,,4,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CESC,3,0.06818181818181818,,Visual + Qwen,,44,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CESC,12,0.3333333333333333,,Visual + Qwen,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CHOL,3,0.6,,Visual + Qwen,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + Qwen,,3,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,Visual + Qwen,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-COAD,4,0.5,,Visual + Qwen,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,Visual + Qwen,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-DLBC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,Visual + Qwen,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ESCA,16,0.43243243243243246,,Visual + Qwen,,37,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-ESCA,5,0.1388888888888889,,Visual + Qwen,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + Qwen,,15,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-HNSC,34,0.5230769230769231,,Visual + Qwen,,65,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-HNSC,3,0.10344827586206896,,Visual + Qwen,,29,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,10,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRP,1,0.0625,,Visual + Qwen,,16,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,23,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,7,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,Visual + Qwen,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + Qwen,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LIHC,1,0.2,,Visual + Qwen,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUAD,1,0.2,,Visual + Qwen,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUAD,0,0.0,,Visual + Qwen,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUSC,0,0.0,,Visual + Qwen,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUSC,0,0.0,,Visual + Qwen,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-OV,4,0.2857142857142857,,Visual + Qwen,,14,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,12,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-READ,5,0.4166666666666667,,Visual + Qwen,,12,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-READ,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-STAD,1,0.25,,Visual + Qwen,,4,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-STAD,1,0.1111111111111111,,Visual + Qwen,,9,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-TGCT,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-THCA,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-THYM,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCEC,1,1.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-UCEC,1,0.2,,Visual + Qwen,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCS,1,0.5,,Visual + Qwen,,2,,TCGA,3,public_pooled1708,histologic3
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,2,public_pooled1708,isup5
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_pooled1708,isup5
+0.0,0,,0,,0.0,Visual + Qwen,2,2,0.0,TCGA,1,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,Visual + Qwen,4,11,0.0,TCGA,2,public_pooled1708,nuclear3
+1.0,8,,0,,0.0,Visual + Qwen,5,8,0.0,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,2,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-UCEC,0,0.0,,Visual + Qwen,,2,,TCGA,3,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,Visual + Qwen,1,4,0.0,TCGA,1,public_pooled1708,who4
+0.0,0,,1,,0.1111111111111111,Visual + Qwen,1,16,0.0625,TCGA,2,public_pooled1708,who4
+0.0,0,,0,,0.0,Visual + Qwen,1,3,0.0,TCGA,3,public_pooled1708,who4
+1.0,2,,0,,0.0,Visual + Qwen,1,2,0.0,TCGA,4,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,4,,TCGA,1,public_pooled1708,who4
+,,TCGA-LGG,1,0.0625,,Visual + Qwen,,16,,TCGA,2,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,3,,TCGA,3,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,2,,TCGA,4,public_pooled1708,who4
+0.0,0,,0,,0.0,DeepSeek,2,2,0.0,TCGA,1,public_pooled1708,fuhrman4
+0.0,0,,2,,0.12903225806451613,DeepSeek,3,29,0.06896551724137931,TCGA,2,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,DeepSeek,4,58,0.0,TCGA,3,public_pooled1708,fuhrman4
+1.0,18,,0,,0.0,DeepSeek,4,18,0.0,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,DeepSeek,,1,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,DeepSeek,,5,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,DeepSeek,,10,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,DeepSeek,,3,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,8,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,20,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,DeepSeek,,11,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRP,2,0.125,,DeepSeek,,16,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,27,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,DeepSeek,,3,,TCGA,4,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,DeepSeek,1,1,0.0,TCGA,6,public_pooled1708,gleason10
+1.0,1,,0,,0.0,DeepSeek,1,1,0.0,TCGA,10,public_pooled1708,gleason10
+,,TCGA-BLCA,0,0.0,,DeepSeek,,1,,TCGA,6,public_pooled1708,gleason10
+,,TCGA-PRAD,0,0.0,,DeepSeek,,1,,TCGA,10,public_pooled1708,gleason10
+0.0,0,,3,,0.0759493670886076,DeepSeek,14,73,0.0410958904109589,TCGA,1,public_pooled1708,histologic3
+0.0,0,,138,,0.5454545454545455,DeepSeek,17,266,0.518796992481203,TCGA,2,public_pooled1708,histologic3
+1.0,332,,204,,0.6570048309178744,DeepSeek,24,332,0.6144578313253012,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ACC,0,0.0,,DeepSeek,,7,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ACC,3,0.42857142857142855,,DeepSeek,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,DeepSeek,,6,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BLCA,92,0.9292929292929293,,DeepSeek,,99,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,DeepSeek,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BRCA,3,0.06976744186046512,,DeepSeek,,43,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BRCA,19,0.6785714285714286,,DeepSeek,,28,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,DeepSeek,,4,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CESC,23,0.5227272727272727,,DeepSeek,,44,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CESC,20,0.5555555555555556,,DeepSeek,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CHOL,5,1.0,,DeepSeek,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CHOL,1,0.3333333333333333,,DeepSeek,,3,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,DeepSeek,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-COAD,5,0.625,,DeepSeek,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-COAD,3,0.6,,DeepSeek,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-DLBC,0,0.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,DeepSeek,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ESCA,22,0.5945945945945946,,DeepSeek,,37,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-ESCA,17,0.4722222222222222,,DeepSeek,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,DeepSeek,,15,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-HNSC,61,0.9384615384615385,,DeepSeek,,65,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-HNSC,5,0.1724137931034483,,DeepSeek,,29,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KICH,1,0.125,,DeepSeek,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KICH,1,1.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRC,1,1.0,,DeepSeek,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRC,1,0.2,,DeepSeek,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,DeepSeek,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRP,1,0.1,,DeepSeek,,10,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRP,1,0.0625,,DeepSeek,,16,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LGG,1,0.043478260869565216,,DeepSeek,,23,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,DeepSeek,,7,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LGG,2,0.2857142857142857,,DeepSeek,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LIHC,1,0.5,,DeepSeek,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LIHC,4,0.8,,DeepSeek,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUAD,1,0.2,,DeepSeek,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUAD,4,0.6666666666666666,,DeepSeek,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUSC,0,0.0,,DeepSeek,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUSC,4,0.6666666666666666,,DeepSeek,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-OV,13,0.9285714285714286,,DeepSeek,,14,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,DeepSeek,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-PRAD,4,0.3333333333333333,,DeepSeek,,12,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-READ,10,0.8333333333333334,,DeepSeek,,12,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-READ,0,0.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-STAD,0,0.0,,DeepSeek,,4,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-STAD,8,0.8888888888888888,,DeepSeek,,9,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-TGCT,0,0.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-THCA,1,1.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-THYM,0,0.0,,DeepSeek,,2,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCEC,0,0.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-UCEC,5,1.0,,DeepSeek,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCS,1,0.5,,DeepSeek,,2,,TCGA,3,public_pooled1708,histologic3
+0.0,0,,0,,0.0,DeepSeek,1,1,0.0,TCGA,2,public_pooled1708,isup5
+,,TCGA-KIRP,0,0.0,,DeepSeek,,1,,TCGA,2,public_pooled1708,isup5
+0.0,0,,0,,0.0,DeepSeek,2,2,0.0,TCGA,1,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,DeepSeek,4,11,0.0,TCGA,2,public_pooled1708,nuclear3
+1.0,8,,0,,0.0,DeepSeek,5,8,0.0,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,DeepSeek,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,DeepSeek,,1,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,DeepSeek,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,DeepSeek,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,DeepSeek,,2,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,DeepSeek,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-UCEC,0,0.0,,DeepSeek,,2,,TCGA,3,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,DeepSeek,1,4,0.0,TCGA,1,public_pooled1708,who4
+0.0,0,,0,,0.0,DeepSeek,1,16,0.0,TCGA,2,public_pooled1708,who4
+0.0,0,,0,,0.0,DeepSeek,1,3,0.0,TCGA,3,public_pooled1708,who4
+1.0,2,,0,,0.0,DeepSeek,1,2,0.0,TCGA,4,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,4,,TCGA,1,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,16,,TCGA,2,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,3,,TCGA,3,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,DeepSeek,,2,,TCGA,4,public_pooled1708,who4
+0.0,0,,0,,0.0,GLM,2,2,0.0,TCGA,1,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,GLM,3,29,0.0,TCGA,2,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,GLM,4,58,0.0,TCGA,3,public_pooled1708,fuhrman4
+1.0,18,,0,,0.0,GLM,4,18,0.0,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,GLM,,1,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,GLM,,1,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,GLM,,5,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,GLM,,10,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,GLM,,3,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,8,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,20,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,GLM,,11,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,16,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,27,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,GLM,,3,,TCGA,4,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,GLM,1,1,0.0,TCGA,6,public_pooled1708,gleason10
+1.0,1,,0,,0.0,GLM,1,1,0.0,TCGA,10,public_pooled1708,gleason10
+,,TCGA-BLCA,0,0.0,,GLM,,1,,TCGA,6,public_pooled1708,gleason10
+,,TCGA-PRAD,0,0.0,,GLM,,1,,TCGA,10,public_pooled1708,gleason10
+0.0,0,,5,,0.09090909090909091,GLM,14,73,0.0684931506849315,TCGA,1,public_pooled1708,histologic3
+0.0,0,,120,,0.5286343612334802,GLM,17,266,0.45112781954887216,TCGA,2,public_pooled1708,histologic3
+1.0,332,,184,,0.6258503401360545,GLM,24,332,0.5542168674698795,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ACC,1,0.14285714285714285,,GLM,,7,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ACC,3,0.42857142857142855,,GLM,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,GLM,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,GLM,,6,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BLCA,67,0.6767676767676768,,GLM,,99,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,GLM,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BRCA,26,0.6046511627906976,,GLM,,43,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BRCA,18,0.6428571428571429,,GLM,,28,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CESC,1,0.25,,GLM,,4,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CESC,21,0.4772727272727273,,GLM,,44,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CESC,24,0.6666666666666666,,GLM,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,GLM,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CHOL,4,0.8,,GLM,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CHOL,2,0.6666666666666666,,GLM,,3,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,GLM,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-COAD,5,0.625,,GLM,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,GLM,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-DLBC,1,1.0,,GLM,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,GLM,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ESCA,17,0.4594594594594595,,GLM,,37,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-ESCA,17,0.4722222222222222,,GLM,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-HNSC,2,0.13333333333333333,,GLM,,15,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-HNSC,36,0.5538461538461539,,GLM,,65,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-HNSC,16,0.5517241379310345,,GLM,,29,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,GLM,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,GLM,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,GLM,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,GLM,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,GLM,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,GLM,,10,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRP,2,0.125,,GLM,,16,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,GLM,,23,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,GLM,,7,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,GLM,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,GLM,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LIHC,1,0.2,,GLM,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LIHC,1,1.0,,GLM,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUAD,2,0.4,,GLM,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUAD,4,0.6666666666666666,,GLM,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUSC,0,0.0,,GLM,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUSC,5,0.8333333333333334,,GLM,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-OV,7,0.5,,GLM,,14,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,GLM,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-PRAD,2,0.16666666666666666,,GLM,,12,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-READ,7,0.5833333333333334,,GLM,,12,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-READ,0,0.0,,GLM,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-STAD,1,0.25,,GLM,,4,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-STAD,8,0.8888888888888888,,GLM,,9,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-TGCT,1,1.0,,GLM,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-THCA,0,0.0,,GLM,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-THYM,1,0.5,,GLM,,2,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCEC,1,1.0,,GLM,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-UCEC,3,0.6,,GLM,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCS,2,1.0,,GLM,,2,,TCGA,3,public_pooled1708,histologic3
+0.0,0,,0,,0.0,GLM,1,1,0.0,TCGA,2,public_pooled1708,isup5
+,,TCGA-KIRP,0,0.0,,GLM,,1,,TCGA,2,public_pooled1708,isup5
+0.0,0,,0,,0.0,GLM,2,2,0.0,TCGA,1,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,GLM,4,11,0.0,TCGA,2,public_pooled1708,nuclear3
+1.0,8,,0,,0.0,GLM,5,8,0.0,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,GLM,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,GLM,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,GLM,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,GLM,,1,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,GLM,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,GLM,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,GLM,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,GLM,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,GLM,,2,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,GLM,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-UCEC,0,0.0,,GLM,,2,,TCGA,3,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,GLM,1,4,0.0,TCGA,1,public_pooled1708,who4
+0.0,0,,5,,0.47619047619047616,GLM,1,16,0.3125,TCGA,2,public_pooled1708,who4
+0.0,0,,1,,0.4,GLM,1,3,0.3333333333333333,TCGA,3,public_pooled1708,who4
+1.0,2,,0,,0.0,GLM,1,2,0.0,TCGA,4,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,GLM,,4,,TCGA,1,public_pooled1708,who4
+,,TCGA-LGG,5,0.3125,,GLM,,16,,TCGA,2,public_pooled1708,who4
+,,TCGA-LGG,1,0.3333333333333333,,GLM,,3,,TCGA,3,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,GLM,,2,,TCGA,4,public_pooled1708,who4
+0.0,0,,0,,0.0,Visual + MedGemma,2,2,0.0,TCGA,1,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,3,29,0.0,TCGA,2,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,4,58,0.0,TCGA,3,public_pooled1708,fuhrman4
+1.0,18,,0,,0.0,Visual + MedGemma,4,18,0.0,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + MedGemma,,1,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,10,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,3,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,8,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,20,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,11,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,16,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,27,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,3,,TCGA,4,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,6,public_pooled1708,gleason10
+1.0,1,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,10,public_pooled1708,gleason10
+,,TCGA-BLCA,0,0.0,,Visual + MedGemma,,1,,TCGA,6,public_pooled1708,gleason10
+,,TCGA-PRAD,0,0.0,,Visual + MedGemma,,1,,TCGA,10,public_pooled1708,gleason10
+0.0,0,,0,,0.0,Visual + MedGemma,14,73,0.0,TCGA,1,public_pooled1708,histologic3
+0.0,0,,1,,0.007434944237918216,Visual + MedGemma,17,266,0.0037593984962406013,TCGA,2,public_pooled1708,histologic3
+1.0,332,,196,,0.5513361462728551,Visual + MedGemma,24,332,0.5903614457831325,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ACC,0,0.0,,Visual + MedGemma,,7,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ACC,2,0.2857142857142857,,Visual + MedGemma,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + MedGemma,,6,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BLCA,68,0.6868686868686869,,Visual + MedGemma,,99,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,43,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BRCA,12,0.42857142857142855,,Visual + MedGemma,,28,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,Visual + MedGemma,,4,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,Visual + MedGemma,,44,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CESC,27,0.75,,Visual + MedGemma,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + MedGemma,,3,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,Visual + MedGemma,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,Visual + MedGemma,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-COAD,3,0.6,,Visual + MedGemma,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-DLBC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,Visual + MedGemma,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ESCA,1,0.02702702702702703,,Visual + MedGemma,,37,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-ESCA,20,0.5555555555555556,,Visual + MedGemma,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + MedGemma,,15,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + MedGemma,,65,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-HNSC,21,0.7241379310344828,,Visual + MedGemma,,29,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KICH,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRC,2,0.4,,Visual + MedGemma,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,10,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRP,8,0.5,,Visual + MedGemma,,16,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,23,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,7,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LGG,2,0.2857142857142857,,Visual + MedGemma,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + MedGemma,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUAD,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUAD,4,0.6666666666666666,,Visual + MedGemma,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUSC,0,0.0,,Visual + MedGemma,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUSC,3,0.5,,Visual + MedGemma,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-OV,6,0.42857142857142855,,Visual + MedGemma,,14,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-PRAD,2,0.16666666666666666,,Visual + MedGemma,,12,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-READ,0,0.0,,Visual + MedGemma,,12,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-READ,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-STAD,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-STAD,5,0.5555555555555556,,Visual + MedGemma,,9,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-TGCT,1,1.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-THCA,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-THYM,1,0.5,,Visual + MedGemma,,2,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCEC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-UCEC,5,1.0,,Visual + MedGemma,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCS,2,1.0,,Visual + MedGemma,,2,,TCGA,3,public_pooled1708,histologic3
+0.0,0,,0,,0.0,Visual + MedGemma,1,1,0.0,TCGA,2,public_pooled1708,isup5
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_pooled1708,isup5
+0.0,0,,0,,0.0,Visual + MedGemma,2,2,0.0,TCGA,1,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,Visual + MedGemma,4,11,0.0,TCGA,2,public_pooled1708,nuclear3
+1.0,8,,0,,0.0,Visual + MedGemma,5,8,0.0,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,1,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + MedGemma,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + MedGemma,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,2,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + MedGemma,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-UCEC,0,0.0,,Visual + MedGemma,,2,,TCGA,3,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,Visual + MedGemma,1,4,0.0,TCGA,1,public_pooled1708,who4
+0.0,0,,0,,0.0,Visual + MedGemma,1,16,0.0,TCGA,2,public_pooled1708,who4
+0.0,0,,0,,0.0,Visual + MedGemma,1,3,0.0,TCGA,3,public_pooled1708,who4
+1.0,2,,0,,0.0,Visual + MedGemma,1,2,0.0,TCGA,4,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,4,,TCGA,1,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,16,,TCGA,2,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,3,,TCGA,3,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,Visual + MedGemma,,2,,TCGA,4,public_pooled1708,who4
+0.0,0,,0,,0.0,PathAgent,2,2,0.0,TCGA,1,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,PathAgent,3,29,0.0,TCGA,2,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,PathAgent,4,58,0.0,TCGA,3,public_pooled1708,fuhrman4
+1.0,18,,0,,0.0,PathAgent,4,18,0.0,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,PathAgent,,1,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,PathAgent,,1,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,PathAgent,,5,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,PathAgent,,10,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,PathAgent,,3,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,8,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,20,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,PathAgent,,11,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,16,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,27,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,PathAgent,,3,,TCGA,4,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,PathAgent,1,1,0.0,TCGA,6,public_pooled1708,gleason10
+1.0,1,,0,,0.0,PathAgent,1,1,0.0,TCGA,10,public_pooled1708,gleason10
+,,TCGA-BLCA,0,0.0,,PathAgent,,1,,TCGA,6,public_pooled1708,gleason10
+,,TCGA-PRAD,0,0.0,,PathAgent,,1,,TCGA,10,public_pooled1708,gleason10
+0.0,0,,0,,0.0,PathAgent,14,73,0.0,TCGA,1,public_pooled1708,histologic3
+0.0,0,,0,,0.0,PathAgent,17,266,0.0,TCGA,2,public_pooled1708,histologic3
+1.0,332,,317,,0.6482617586912065,PathAgent,24,332,0.9548192771084337,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ACC,0,0.0,,PathAgent,,7,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ACC,7,1.0,,PathAgent,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,PathAgent,,6,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BLCA,97,0.9797979797979798,,PathAgent,,99,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,PathAgent,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,PathAgent,,43,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BRCA,27,0.9642857142857143,,PathAgent,,28,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,PathAgent,,4,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,PathAgent,,44,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CESC,36,1.0,,PathAgent,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,PathAgent,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CHOL,3,1.0,,PathAgent,,3,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,PathAgent,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,PathAgent,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-COAD,5,1.0,,PathAgent,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-DLBC,1,1.0,,PathAgent,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,PathAgent,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,PathAgent,,37,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-ESCA,35,0.9722222222222222,,PathAgent,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,PathAgent,,15,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,PathAgent,,65,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-HNSC,27,0.9310344827586207,,PathAgent,,29,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,PathAgent,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KICH,1,1.0,,PathAgent,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,PathAgent,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRC,5,1.0,,PathAgent,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,PathAgent,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,PathAgent,,10,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRP,16,1.0,,PathAgent,,16,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,PathAgent,,23,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,PathAgent,,7,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LGG,7,1.0,,PathAgent,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,PathAgent,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,PathAgent,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LIHC,1,1.0,,PathAgent,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUAD,0,0.0,,PathAgent,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUAD,5,0.8333333333333334,,PathAgent,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUSC,0,0.0,,PathAgent,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUSC,5,0.8333333333333334,,PathAgent,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-OV,13,0.9285714285714286,,PathAgent,,14,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,PathAgent,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-PRAD,9,0.75,,PathAgent,,12,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-READ,0,0.0,,PathAgent,,12,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-READ,1,1.0,,PathAgent,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-STAD,0,0.0,,PathAgent,,4,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-STAD,7,0.7777777777777778,,PathAgent,,9,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-TGCT,1,1.0,,PathAgent,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-THCA,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-THYM,2,1.0,,PathAgent,,2,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCEC,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-UCEC,4,0.8,,PathAgent,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCS,2,1.0,,PathAgent,,2,,TCGA,3,public_pooled1708,histologic3
+0.0,0,,0,,0.0,PathAgent,1,1,0.0,TCGA,2,public_pooled1708,isup5
+,,TCGA-KIRP,0,0.0,,PathAgent,,1,,TCGA,2,public_pooled1708,isup5
+0.0,0,,0,,0.0,PathAgent,2,2,0.0,TCGA,1,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,PathAgent,4,11,0.0,TCGA,2,public_pooled1708,nuclear3
+1.0,8,,0,,0.0,PathAgent,5,8,0.0,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,PathAgent,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,PathAgent,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,PathAgent,,1,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,PathAgent,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,PathAgent,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,PathAgent,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,PathAgent,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,PathAgent,,2,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,PathAgent,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-UCEC,0,0.0,,PathAgent,,2,,TCGA,3,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,PathAgent,1,4,0.0,TCGA,1,public_pooled1708,who4
+0.0,0,,0,,0.0,PathAgent,1,16,0.0,TCGA,2,public_pooled1708,who4
+0.0,0,,0,,0.0,PathAgent,1,3,0.0,TCGA,3,public_pooled1708,who4
+1.0,2,,0,,0.0,PathAgent,1,2,0.0,TCGA,4,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,4,,TCGA,1,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,16,,TCGA,2,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,3,,TCGA,3,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,PathAgent,,2,,TCGA,4,public_pooled1708,who4
+0.0,0,,0,,0.0,SO1_D1,2,2,0.0,TCGA,1,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,3,29,0.0,TCGA,2,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,4,58,0.0,TCGA,3,public_pooled1708,fuhrman4
+1.0,18,,0,,0.0,SO1_D1,4,18,0.0,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,SO1_D1,,1,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1_D1,,5,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1_D1,,10,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1_D1,,3,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,8,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,20,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1_D1,,11,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,16,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,27,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1_D1,,3,,TCGA,4,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,SO1_D1,1,1,0.0,TCGA,6,public_pooled1708,gleason10
+1.0,1,,0,,0.0,SO1_D1,1,1,0.0,TCGA,10,public_pooled1708,gleason10
+,,TCGA-BLCA,0,0.0,,SO1_D1,,1,,TCGA,6,public_pooled1708,gleason10
+,,TCGA-PRAD,0,0.0,,SO1_D1,,1,,TCGA,10,public_pooled1708,gleason10
+0.0,0,,1,,0.02666666666666666,SO1_D1,14,73,0.0136986301369863,TCGA,1,public_pooled1708,histologic3
+0.0,0,,97,,0.4766584766584767,SO1_D1,17,266,0.36466165413533835,TCGA,2,public_pooled1708,histologic3
+1.0,332,,167,,0.594306049822064,SO1_D1,24,332,0.5030120481927711,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ACC,0,0.0,,SO1_D1,,7,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ACC,5,0.7142857142857143,,SO1_D1,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,SO1_D1,,6,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BLCA,94,0.9494949494949495,,SO1_D1,,99,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,SO1_D1,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BRCA,5,0.11627906976744186,,SO1_D1,,43,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BRCA,15,0.5357142857142857,,SO1_D1,,28,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,SO1_D1,,4,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CESC,3,0.06818181818181818,,SO1_D1,,44,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CESC,23,0.6388888888888888,,SO1_D1,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CHOL,2,0.4,,SO1_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,SO1_D1,,3,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,SO1_D1,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-COAD,5,0.625,,SO1_D1,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,SO1_D1,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-DLBC,1,1.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,SO1_D1,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ESCA,25,0.6756756756756757,,SO1_D1,,37,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-ESCA,8,0.2222222222222222,,SO1_D1,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,SO1_D1,,15,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-HNSC,45,0.6923076923076923,,SO1_D1,,65,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-HNSC,4,0.13793103448275862,,SO1_D1,,29,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,SO1_D1,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,10,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRP,1,0.0625,,SO1_D1,,16,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,SO1_D1,,23,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,SO1_D1,,7,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,SO1_D1,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,SO1_D1,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LIHC,2,0.4,,SO1_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUAD,2,0.4,,SO1_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUAD,0,0.0,,SO1_D1,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUSC,1,0.2,,SO1_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUSC,0,0.0,,SO1_D1,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-OV,10,0.7142857142857143,,SO1_D1,,14,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,SO1_D1,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,SO1_D1,,12,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-READ,7,0.5833333333333334,,SO1_D1,,12,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-READ,0,0.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-STAD,0,0.0,,SO1_D1,,4,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-STAD,1,0.1111111111111111,,SO1_D1,,9,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-TGCT,0,0.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-THCA,0,0.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-THYM,0,0.0,,SO1_D1,,2,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCEC,1,1.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-UCEC,3,0.6,,SO1_D1,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCS,1,0.5,,SO1_D1,,2,,TCGA,3,public_pooled1708,histologic3
+0.0,0,,0,,0.0,SO1_D1,1,1,0.0,TCGA,2,public_pooled1708,isup5
+,,TCGA-KIRP,0,0.0,,SO1_D1,,1,,TCGA,2,public_pooled1708,isup5
+0.0,0,,0,,0.0,SO1_D1,2,2,0.0,TCGA,1,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,SO1_D1,4,11,0.0,TCGA,2,public_pooled1708,nuclear3
+1.0,8,,0,,0.0,SO1_D1,5,8,0.0,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,SO1_D1,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,SO1_D1,,1,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,SO1_D1,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1_D1,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,2,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,SO1_D1,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-UCEC,0,0.0,,SO1_D1,,2,,TCGA,3,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,SO1_D1,1,4,0.0,TCGA,1,public_pooled1708,who4
+0.0,0,,0,,0.0,SO1_D1,1,16,0.0,TCGA,2,public_pooled1708,who4
+0.0,0,,0,,0.0,SO1_D1,1,3,0.0,TCGA,3,public_pooled1708,who4
+1.0,2,,0,,0.0,SO1_D1,1,2,0.0,TCGA,4,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,4,,TCGA,1,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,16,,TCGA,2,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,3,,TCGA,3,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,SO1_D1,,2,,TCGA,4,public_pooled1708,who4
+0.0,0,,0,,0.0,SO4_D1,2,2,0.0,TCGA,1,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,3,29,0.0,TCGA,2,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,4,58,0.0,TCGA,3,public_pooled1708,fuhrman4
+1.0,18,,0,,0.0,SO4_D1,4,18,0.0,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-ACC,0,0.0,,SO4_D1,,1,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,5,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,10,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,3,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,8,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,20,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,11,,TCGA,4,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,16,,TCGA,2,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,27,,TCGA,3,public_pooled1708,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,3,,TCGA,4,public_pooled1708,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,6,public_pooled1708,gleason10
+1.0,1,,0,,0.0,SO4_D1,1,1,0.0,TCGA,10,public_pooled1708,gleason10
+,,TCGA-BLCA,0,0.0,,SO4_D1,,1,,TCGA,6,public_pooled1708,gleason10
+,,TCGA-PRAD,0,0.0,,SO4_D1,,1,,TCGA,10,public_pooled1708,gleason10
+0.0,0,,1,,0.025974025974025972,SO4_D1,14,73,0.0136986301369863,TCGA,1,public_pooled1708,histologic3
+0.0,0,,156,,0.5965583173996175,SO4_D1,17,266,0.5864661654135338,TCGA,2,public_pooled1708,histologic3
+1.0,332,,181,,0.6230636833046472,SO4_D1,24,332,0.5451807228915663,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ACC,0,0.0,,SO4_D1,,7,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ACC,7,1.0,,SO4_D1,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BLCA,0,0.0,,SO4_D1,,6,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BLCA,99,1.0,,SO4_D1,,99,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-BRCA,19,0.4418604651162791,,SO4_D1,,43,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-BRCA,13,0.4642857142857143,,SO4_D1,,28,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CESC,0,0.0,,SO4_D1,,4,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CESC,13,0.29545454545454547,,SO4_D1,,44,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CESC,27,0.75,,SO4_D1,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-CHOL,4,0.8,,SO4_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-CHOL,0,0.0,,SO4_D1,,3,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,SO4_D1,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-COAD,6,0.75,,SO4_D1,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-COAD,0,0.0,,SO4_D1,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-DLBC,0,0.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-ESCA,0,0.0,,SO4_D1,,5,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-ESCA,34,0.918918918918919,,SO4_D1,,37,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-ESCA,7,0.19444444444444445,,SO4_D1,,36,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-HNSC,0,0.0,,SO4_D1,,15,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-HNSC,54,0.8307692307692308,,SO4_D1,,65,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-HNSC,4,0.13793103448275862,,SO4_D1,,29,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KICH,0,0.0,,SO4_D1,,8,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KICH,1,1.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,3,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,10,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-KIRP,1,0.0625,,SO4_D1,,16,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LGG,1,0.043478260869565216,,SO4_D1,,23,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,7,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,7,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,SO4_D1,,2,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-LIHC,5,1.0,,SO4_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LIHC,0,0.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUAD,4,0.8,,SO4_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUAD,0,0.0,,SO4_D1,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-LUSC,4,0.8,,SO4_D1,,5,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-LUSC,1,0.16666666666666666,,SO4_D1,,6,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-OV,11,0.7857142857142857,,SO4_D1,,14,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-PRAD,0,0.0,,SO4_D1,,1,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-PRAD,2,0.16666666666666666,,SO4_D1,,12,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-READ,11,0.9166666666666666,,SO4_D1,,12,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-READ,0,0.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-STAD,2,0.5,,SO4_D1,,4,,TCGA,2,public_pooled1708,histologic3
+,,TCGA-STAD,2,0.2222222222222222,,SO4_D1,,9,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-TGCT,0,0.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-THCA,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-THYM,1,0.5,,SO4_D1,,2,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,histologic3
+,,TCGA-UCEC,4,0.8,,SO4_D1,,5,,TCGA,3,public_pooled1708,histologic3
+,,TCGA-UCS,1,0.5,,SO4_D1,,2,,TCGA,3,public_pooled1708,histologic3
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,2,public_pooled1708,isup5
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,2,public_pooled1708,isup5
+0.0,0,,0,,0.0,SO4_D1,2,2,0.0,TCGA,1,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,SO4_D1,4,11,0.0,TCGA,2,public_pooled1708,nuclear3
+1.0,8,,0,,0.0,SO4_D1,5,8,0.0,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,1,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,1,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,4,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,2,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,2,,TCGA,2,public_pooled1708,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,3,public_pooled1708,nuclear3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,2,,TCGA,3,public_pooled1708,nuclear3
+0.0,0,,0,,0.0,SO4_D1,1,4,0.0,TCGA,1,public_pooled1708,who4
+0.0,0,,1,,0.1111111111111111,SO4_D1,1,16,0.0625,TCGA,2,public_pooled1708,who4
+0.0,0,,0,,0.0,SO4_D1,1,3,0.0,TCGA,3,public_pooled1708,who4
+1.0,2,,1,,0.4,SO4_D1,1,2,0.5,TCGA,4,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,SO4_D1,,4,,TCGA,1,public_pooled1708,who4
+,,TCGA-LGG,1,0.0625,,SO4_D1,,16,,TCGA,2,public_pooled1708,who4
+,,TCGA-LGG,0,0.0,,SO4_D1,,3,,TCGA,3,public_pooled1708,who4
+,,TCGA-LGG,1,0.5,,SO4_D1,,2,,TCGA,4,public_pooled1708,who4
+0.0,0,,0,,0.0,SS5,1,1,0.0,TCGA,2,agent_b46,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS5,,1,,TCGA,2,agent_b46,fuhrman4
+0.0,0,,1,,0.25,SS5,6,6,0.16666666666666666,TCGA,2,agent_b46,histologic3
+1.0,10,,4,,0.5714285714285715,SS5,7,10,0.4,TCGA,3,agent_b46,histologic3
+,,TCGA-BLCA,2,1.0,,SS5,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-CESC,0,0.0,,SS5,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-COAD,0,0.0,,SS5,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-ESCA,0,0.0,,SS5,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-HNSC,1,1.0,,SS5,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-HNSC,0,0.0,,SS5,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-LIHC,0,0.0,,SS5,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-LUSC,0,0.0,,SS5,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-LUSC,1,1.0,,SS5,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-OV,1,0.5,,SS5,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-PRAD,0,0.0,,SS5,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-PRAD,0,0.0,,SS5,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-STAD,0,0.0,,SS5,,1,,TCGA,2,agent_b46,histologic3
+0.0,0,,0,,0.0,SS6,1,1,0.0,TCGA,2,agent_b46,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS6,,1,,TCGA,2,agent_b46,fuhrman4
+0.0,0,,2,,0.4,SS6,6,6,0.3333333333333333,TCGA,2,agent_b46,histologic3
+1.0,10,,3,,0.4615384615384615,SS6,7,10,0.3,TCGA,3,agent_b46,histologic3
+,,TCGA-BLCA,2,1.0,,SS6,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-CESC,0,0.0,,SS6,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-COAD,1,1.0,,SS6,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-ESCA,0,0.0,,SS6,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-HNSC,1,1.0,,SS6,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-HNSC,0,0.0,,SS6,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-LIHC,0,0.0,,SS6,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-LUSC,0,0.0,,SS6,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-LUSC,0,0.0,,SS6,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-OV,1,0.5,,SS6,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-PRAD,0,0.0,,SS6,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-PRAD,0,0.0,,SS6,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-STAD,0,0.0,,SS6,,1,,TCGA,2,agent_b46,histologic3
+0.0,0,,0,,0.0,SS7,1,1,0.0,TCGA,2,agent_b46,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS7,,1,,TCGA,2,agent_b46,fuhrman4
+0.0,0,,3,,0.6,SS7,6,6,0.5,TCGA,2,agent_b46,histologic3
+1.0,10,,1,,0.18181818181818182,SS7,7,10,0.1,TCGA,3,agent_b46,histologic3
+,,TCGA-BLCA,1,0.5,,SS7,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-CESC,0,0.0,,SS7,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-COAD,1,1.0,,SS7,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-ESCA,0,0.0,,SS7,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-HNSC,1,1.0,,SS7,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-HNSC,0,0.0,,SS7,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-LIHC,1,1.0,,SS7,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-LUSC,0,0.0,,SS7,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-LUSC,0,0.0,,SS7,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-OV,0,0.0,,SS7,,2,,TCGA,3,agent_b46,histologic3
+,,TCGA-PRAD,0,0.0,,SS7,,1,,TCGA,2,agent_b46,histologic3
+,,TCGA-PRAD,0,0.0,,SS7,,1,,TCGA,3,agent_b46,histologic3
+,,TCGA-STAD,0,0.0,,SS7,,1,,TCGA,2,agent_b46,histologic3
+0.0,0,,0,,0.0,SS7,1,1,0.0,TCGA,1,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS7,2,4,0.0,TCGA,2,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS7,3,6,0.0,TCGA,3,agent_c471,fuhrman4
+1.0,1,,0,,0.0,SS7,1,1,0.0,TCGA,4,agent_c471,fuhrman4
+,,TCGA-ACC,0,0.0,,SS7,,1,,TCGA,3,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS7,,1,,TCGA,1,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS7,,2,,TCGA,2,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS7,,1,,TCGA,3,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS7,,1,,TCGA,4,agent_c471,fuhrman4
+,,TCGA-KIRP,0,0.0,,SS7,,2,,TCGA,2,agent_c471,fuhrman4
+,,TCGA-KIRP,0,0.0,,SS7,,4,,TCGA,3,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS7,7,8,0.0,TCGA,1,agent_c471,histologic3
+0.0,0,,22,,0.4731182795698925,SS7,11,65,0.3384615384615385,TCGA,2,agent_c471,histologic3
+1.0,99,,26,,0.4094488188976378,SS7,19,99,0.26262626262626265,TCGA,3,agent_c471,histologic3
+,,TCGA-ACC,0,0.0,,SS7,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-ACC,0,0.0,,SS7,,2,,TCGA,3,agent_c471,histologic3
+,,TCGA-BLCA,15,0.8823529411764706,,SS7,,17,,TCGA,3,agent_c471,histologic3
+,,TCGA-BRCA,0,0.0,,SS7,,4,,TCGA,2,agent_c471,histologic3
+,,TCGA-BRCA,2,0.4,,SS7,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-CESC,0,0.0,,SS7,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-CESC,1,0.2,,SS7,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-CESC,2,0.4,,SS7,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-COAD,5,0.625,,SS7,,8,,TCGA,2,agent_c471,histologic3
+,,TCGA-COAD,0,0.0,,SS7,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-DLBC,0,0.0,,SS7,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-ESCA,4,0.5714285714285714,,SS7,,7,,TCGA,2,agent_c471,histologic3
+,,TCGA-ESCA,0,0.0,,SS7,,7,,TCGA,3,agent_c471,histologic3
+,,TCGA-HNSC,0,0.0,,SS7,,2,,TCGA,1,agent_c471,histologic3
+,,TCGA-HNSC,5,0.5555555555555556,,SS7,,9,,TCGA,2,agent_c471,histologic3
+,,TCGA-HNSC,0,0.0,,SS7,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-KIRP,0,0.0,,SS7,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-LIHC,0,0.0,,SS7,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-LIHC,2,0.4,,SS7,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LIHC,0,0.0,,SS7,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-LUAD,1,0.2,,SS7,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LUAD,0,0.0,,SS7,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-LUSC,0,0.0,,SS7,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LUSC,0,0.0,,SS7,,6,,TCGA,3,agent_c471,histologic3
+,,TCGA-OV,6,0.46153846153846156,,SS7,,13,,TCGA,3,agent_c471,histologic3
+,,TCGA-PRAD,0,0.0,,SS7,,1,,TCGA,2,agent_c471,histologic3
+,,TCGA-PRAD,0,0.0,,SS7,,11,,TCGA,3,agent_c471,histologic3
+,,TCGA-READ,3,0.25,,SS7,,12,,TCGA,2,agent_c471,histologic3
+,,TCGA-READ,0,0.0,,SS7,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-STAD,1,0.25,,SS7,,4,,TCGA,2,agent_c471,histologic3
+,,TCGA-STAD,1,0.1111111111111111,,SS7,,9,,TCGA,3,agent_c471,histologic3
+,,TCGA-TGCT,0,0.0,,SS7,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-THCA,0,0.0,,SS7,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-THYM,0,0.0,,SS7,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-UCEC,0,0.0,,SS7,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-UCEC,0,0.0,,SS7,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-UCS,0,0.0,,SS7,,2,,TCGA,3,agent_c471,histologic3
+1.0,1,,0,,0.0,SS7,1,1,0.0,TCGA,3,agent_c471,nuclear3
+,,TCGA-UCEC,0,0.0,,SS7,,1,,TCGA,3,agent_c471,nuclear3
+0.0,0,,0,,0.0,SS7,1,3,0.0,TCGA,2,agent_c471,who4
+,,TCGA-LGG,0,0.0,,SS7,,3,,TCGA,2,agent_c471,who4
+0.0,0,,0,,0.0,SS20,1,1,0.0,TCGA,1,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS20,2,4,0.0,TCGA,2,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS20,3,6,0.0,TCGA,3,agent_c471,fuhrman4
+1.0,1,,0,,0.0,SS20,1,1,0.0,TCGA,4,agent_c471,fuhrman4
+,,TCGA-ACC,0,0.0,,SS20,,1,,TCGA,3,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS20,,1,,TCGA,1,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS20,,2,,TCGA,2,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS20,,1,,TCGA,3,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS20,,1,,TCGA,4,agent_c471,fuhrman4
+,,TCGA-KIRP,0,0.0,,SS20,,2,,TCGA,2,agent_c471,fuhrman4
+,,TCGA-KIRP,0,0.0,,SS20,,4,,TCGA,3,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS20,7,8,0.0,TCGA,1,agent_c471,histologic3
+0.0,0,,31,,0.5688073394495413,SS20,11,65,0.47692307692307695,TCGA,2,agent_c471,histologic3
+1.0,99,,37,,0.524822695035461,SS20,19,99,0.37373737373737376,TCGA,3,agent_c471,histologic3
+,,TCGA-ACC,0,0.0,,SS20,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-ACC,1,0.5,,SS20,,2,,TCGA,3,agent_c471,histologic3
+,,TCGA-BLCA,17,1.0,,SS20,,17,,TCGA,3,agent_c471,histologic3
+,,TCGA-BRCA,2,0.5,,SS20,,4,,TCGA,2,agent_c471,histologic3
+,,TCGA-BRCA,2,0.4,,SS20,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-CESC,0,0.0,,SS20,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-CESC,1,0.2,,SS20,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-CESC,3,0.6,,SS20,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-COAD,5,0.625,,SS20,,8,,TCGA,2,agent_c471,histologic3
+,,TCGA-COAD,0,0.0,,SS20,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-DLBC,0,0.0,,SS20,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-ESCA,5,0.7142857142857143,,SS20,,7,,TCGA,2,agent_c471,histologic3
+,,TCGA-ESCA,1,0.14285714285714285,,SS20,,7,,TCGA,3,agent_c471,histologic3
+,,TCGA-HNSC,0,0.0,,SS20,,2,,TCGA,1,agent_c471,histologic3
+,,TCGA-HNSC,3,0.3333333333333333,,SS20,,9,,TCGA,2,agent_c471,histologic3
+,,TCGA-HNSC,0,0.0,,SS20,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-KIRP,0,0.0,,SS20,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-LIHC,0,0.0,,SS20,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-LIHC,2,0.4,,SS20,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LIHC,0,0.0,,SS20,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-LUAD,0,0.0,,SS20,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LUAD,0,0.0,,SS20,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-LUSC,1,0.2,,SS20,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LUSC,0,0.0,,SS20,,6,,TCGA,3,agent_c471,histologic3
+,,TCGA-OV,5,0.38461538461538464,,SS20,,13,,TCGA,3,agent_c471,histologic3
+,,TCGA-PRAD,0,0.0,,SS20,,1,,TCGA,2,agent_c471,histologic3
+,,TCGA-PRAD,1,0.09090909090909091,,SS20,,11,,TCGA,3,agent_c471,histologic3
+,,TCGA-READ,9,0.75,,SS20,,12,,TCGA,2,agent_c471,histologic3
+,,TCGA-READ,0,0.0,,SS20,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-STAD,3,0.75,,SS20,,4,,TCGA,2,agent_c471,histologic3
+,,TCGA-STAD,2,0.2222222222222222,,SS20,,9,,TCGA,3,agent_c471,histologic3
+,,TCGA-TGCT,0,0.0,,SS20,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-THCA,0,0.0,,SS20,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-THYM,0,0.0,,SS20,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-UCEC,0,0.0,,SS20,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-UCEC,3,0.75,,SS20,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-UCS,2,1.0,,SS20,,2,,TCGA,3,agent_c471,histologic3
+1.0,1,,0,,0.0,SS20,1,1,0.0,TCGA,3,agent_c471,nuclear3
+,,TCGA-UCEC,0,0.0,,SS20,,1,,TCGA,3,agent_c471,nuclear3
+0.0,0,,0,,0.0,SS20,1,3,0.0,TCGA,2,agent_c471,who4
+,,TCGA-LGG,0,0.0,,SS20,,3,,TCGA,2,agent_c471,who4
+0.0,0,,0,,0.0,SS21,1,1,0.0,TCGA,1,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS21,2,4,0.0,TCGA,2,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS21,3,6,0.0,TCGA,3,agent_c471,fuhrman4
+1.0,1,,0,,0.0,SS21,1,1,0.0,TCGA,4,agent_c471,fuhrman4
+,,TCGA-ACC,0,0.0,,SS21,,1,,TCGA,3,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS21,,1,,TCGA,1,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS21,,2,,TCGA,2,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS21,,1,,TCGA,3,agent_c471,fuhrman4
+,,TCGA-KIRC,0,0.0,,SS21,,1,,TCGA,4,agent_c471,fuhrman4
+,,TCGA-KIRP,0,0.0,,SS21,,2,,TCGA,2,agent_c471,fuhrman4
+,,TCGA-KIRP,0,0.0,,SS21,,4,,TCGA,3,agent_c471,fuhrman4
+0.0,0,,0,,0.0,SS21,7,8,0.0,TCGA,1,agent_c471,histologic3
+0.0,0,,33,,0.584070796460177,SS21,11,65,0.5076923076923077,TCGA,2,agent_c471,histologic3
+1.0,99,,48,,0.64,SS21,19,99,0.48484848484848486,TCGA,3,agent_c471,histologic3
+,,TCGA-ACC,0,0.0,,SS21,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-ACC,2,1.0,,SS21,,2,,TCGA,3,agent_c471,histologic3
+,,TCGA-BLCA,16,0.9411764705882353,,SS21,,17,,TCGA,3,agent_c471,histologic3
+,,TCGA-BRCA,1,0.25,,SS21,,4,,TCGA,2,agent_c471,histologic3
+,,TCGA-BRCA,4,0.8,,SS21,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-CESC,0,0.0,,SS21,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-CESC,3,0.6,,SS21,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-CESC,3,0.6,,SS21,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-COAD,7,0.875,,SS21,,8,,TCGA,2,agent_c471,histologic3
+,,TCGA-COAD,0,0.0,,SS21,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-DLBC,1,1.0,,SS21,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-ESCA,6,0.8571428571428571,,SS21,,7,,TCGA,2,agent_c471,histologic3
+,,TCGA-ESCA,3,0.42857142857142855,,SS21,,7,,TCGA,3,agent_c471,histologic3
+,,TCGA-HNSC,0,0.0,,SS21,,2,,TCGA,1,agent_c471,histologic3
+,,TCGA-HNSC,5,0.5555555555555556,,SS21,,9,,TCGA,2,agent_c471,histologic3
+,,TCGA-HNSC,1,0.25,,SS21,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-KIRP,0,0.0,,SS21,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-LIHC,0,0.0,,SS21,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-LIHC,0,0.0,,SS21,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LIHC,0,0.0,,SS21,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-LUAD,1,0.2,,SS21,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LUAD,0,0.0,,SS21,,5,,TCGA,3,agent_c471,histologic3
+,,TCGA-LUSC,0,0.0,,SS21,,5,,TCGA,2,agent_c471,histologic3
+,,TCGA-LUSC,0,0.0,,SS21,,6,,TCGA,3,agent_c471,histologic3
+,,TCGA-OV,10,0.7692307692307693,,SS21,,13,,TCGA,3,agent_c471,histologic3
+,,TCGA-PRAD,0,0.0,,SS21,,1,,TCGA,2,agent_c471,histologic3
+,,TCGA-PRAD,2,0.18181818181818182,,SS21,,11,,TCGA,3,agent_c471,histologic3
+,,TCGA-READ,9,0.75,,SS21,,12,,TCGA,2,agent_c471,histologic3
+,,TCGA-READ,0,0.0,,SS21,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-STAD,1,0.25,,SS21,,4,,TCGA,2,agent_c471,histologic3
+,,TCGA-STAD,2,0.2222222222222222,,SS21,,9,,TCGA,3,agent_c471,histologic3
+,,TCGA-TGCT,0,0.0,,SS21,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-THCA,0,0.0,,SS21,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-THYM,1,1.0,,SS21,,1,,TCGA,3,agent_c471,histologic3
+,,TCGA-UCEC,0,0.0,,SS21,,1,,TCGA,1,agent_c471,histologic3
+,,TCGA-UCEC,1,0.25,,SS21,,4,,TCGA,3,agent_c471,histologic3
+,,TCGA-UCS,2,1.0,,SS21,,2,,TCGA,3,agent_c471,histologic3
+1.0,1,,0,,0.0,SS21,1,1,0.0,TCGA,3,agent_c471,nuclear3
+,,TCGA-UCEC,0,0.0,,SS21,,1,,TCGA,3,agent_c471,nuclear3
+0.0,0,,0,,0.0,SS21,1,3,0.0,TCGA,2,agent_c471,who4
+,,TCGA-LGG,0,0.0,,SS21,,3,,TCGA,2,agent_c471,who4
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,1,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,3,25,0.0,TCGA,2,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,3,52,0.0,TCGA,3,input_policy_shared507,fuhrman4
+1.0,17,,0,,0.0,Visual + Qwen,4,17,0.0,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,1,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,5,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,10,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,3,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,6,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,19,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,10,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,1,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,14,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,23,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,3,,TCGA,4,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,6,input_policy_shared507,gleason10
+1.0,1,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,10,input_policy_shared507,gleason10
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,1,,TCGA,6,input_policy_shared507,gleason10
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,1,,TCGA,10,input_policy_shared507,gleason10
+0.0,0,,0,,0.0,Visual + Qwen,12,64,0.0,TCGA,1,input_policy_shared507,histologic3
+0.0,0,,52,,0.36619718309859156,Visual + Qwen,10,201,0.25870646766169153,TCGA,2,input_policy_shared507,histologic3
+1.0,232,,104,,0.5531914893617021,Visual + Qwen,16,232,0.4482758620689655,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ACC,0,0.0,,Visual + Qwen,,6,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ACC,2,0.4,,Visual + Qwen,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,Visual + Qwen,,6,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BLCA,73,0.8902439024390244,,Visual + Qwen,,82,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BRCA,4,0.10256410256410256,,Visual + Qwen,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BRCA,10,0.43478260869565216,,Visual + Qwen,,23,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CESC,0,0.0,,Visual + Qwen,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CESC,1,0.02564102564102564,,Visual + Qwen,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CESC,10,0.3225806451612903,,Visual + Qwen,,31,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + Qwen,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CHOL,3,0.6,,Visual + Qwen,,5,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,Visual + Qwen,,3,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,Visual + Qwen,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ESCA,0,0.0,,Visual + Qwen,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ESCA,15,0.5,,Visual + Qwen,,30,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-ESCA,4,0.13793103448275862,,Visual + Qwen,,29,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-HNSC,0,0.0,,Visual + Qwen,,13,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-HNSC,29,0.5178571428571429,,Visual + Qwen,,56,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-HNSC,3,0.12,,Visual + Qwen,,25,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,8,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,10,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRP,1,0.0625,,Visual + Qwen,,16,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,22,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,7,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,Visual + Qwen,,7,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LIHC,0,0.0,,Visual + Qwen,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LUAD,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-OV,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-PRAD,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-UCEC,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,histologic3
+0.0,0,,0,,0.0,Visual + Qwen,1,1,0.0,TCGA,2,input_policy_shared507,isup5
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,2,input_policy_shared507,isup5
+0.0,0,,0,,0.0,Visual + Qwen,2,2,0.0,TCGA,1,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,Visual + Qwen,4,11,0.0,TCGA,2,input_policy_shared507,nuclear3
+1.0,7,,0,,0.0,Visual + Qwen,5,7,0.0,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,1,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,Visual + Qwen,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,Visual + Qwen,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,2,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-UCEC,0,0.0,,Visual + Qwen,,1,,TCGA,3,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,Visual + Qwen,1,4,0.0,TCGA,1,input_policy_shared507,who4
+0.0,0,,1,,0.14285714285714285,Visual + Qwen,1,12,0.08333333333333333,TCGA,2,input_policy_shared507,who4
+0.0,0,,0,,0.0,Visual + Qwen,1,3,0.0,TCGA,3,input_policy_shared507,who4
+1.0,2,,0,,0.0,Visual + Qwen,1,2,0.0,TCGA,4,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,4,,TCGA,1,input_policy_shared507,who4
+,,TCGA-LGG,1,0.08333333333333333,,Visual + Qwen,,12,,TCGA,2,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,3,,TCGA,3,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,Visual + Qwen,,2,,TCGA,4,input_policy_shared507,who4
+0.0,0,,0,,0.0,SR1_old,1,1,0.0,TCGA,1,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SR1_old,3,25,0.0,TCGA,2,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SR1_old,3,52,0.0,TCGA,3,input_policy_shared507,fuhrman4
+1.0,17,,0,,0.0,SR1_old,4,17,0.0,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-ACC,0,0.0,,SR1_old,,1,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SR1_old,,5,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SR1_old,,10,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SR1_old,,3,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SR1_old,,6,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SR1_old,,19,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SR1_old,,10,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SR1_old,,1,,TCGA,1,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SR1_old,,14,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SR1_old,,23,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SR1_old,,3,,TCGA,4,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SR1_old,1,1,0.0,TCGA,6,input_policy_shared507,gleason10
+1.0,1,,0,,0.0,SR1_old,1,1,0.0,TCGA,10,input_policy_shared507,gleason10
+,,TCGA-BLCA,0,0.0,,SR1_old,,1,,TCGA,6,input_policy_shared507,gleason10
+,,TCGA-PRAD,0,0.0,,SR1_old,,1,,TCGA,10,input_policy_shared507,gleason10
+0.0,0,,1,,0.029411764705882353,SR1_old,12,64,0.015625,TCGA,1,input_policy_shared507,histologic3
+0.0,0,,48,,0.3440860215053763,SR1_old,10,201,0.23880597014925373,TCGA,2,input_policy_shared507,histologic3
+1.0,232,,110,,0.582010582010582,SR1_old,16,232,0.47413793103448276,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ACC,0,0.0,,SR1_old,,6,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ACC,2,0.4,,SR1_old,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,SR1_old,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,SR1_old,,6,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BLCA,78,0.9512195121951219,,SR1_old,,82,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BRCA,0,0.0,,SR1_old,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BRCA,1,0.02564102564102564,,SR1_old,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BRCA,14,0.6086956521739131,,SR1_old,,23,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CESC,0,0.0,,SR1_old,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CESC,7,0.1794871794871795,,SR1_old,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CESC,10,0.3225806451612903,,SR1_old,,31,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,SR1_old,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CHOL,3,0.6,,SR1_old,,5,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CHOL,1,0.3333333333333333,,SR1_old,,3,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,SR1_old,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ESCA,0,0.0,,SR1_old,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ESCA,16,0.5333333333333333,,SR1_old,,30,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-ESCA,3,0.10344827586206896,,SR1_old,,29,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-HNSC,0,0.0,,SR1_old,,13,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-HNSC,21,0.375,,SR1_old,,56,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-HNSC,1,0.04,,SR1_old,,25,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KICH,0,0.0,,SR1_old,,8,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KICH,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SR1_old,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SR1_old,,1,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SR1_old,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SR1_old,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SR1_old,,10,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SR1_old,,16,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LGG,1,0.045454545454545456,,SR1_old,,22,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,SR1_old,,7,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,SR1_old,,7,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LIHC,0,0.0,,SR1_old,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LUAD,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-OV,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-PRAD,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-UCEC,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,histologic3
+0.0,0,,0,,0.0,SR1_old,1,1,0.0,TCGA,2,input_policy_shared507,isup5
+,,TCGA-KIRP,0,0.0,,SR1_old,,1,,TCGA,2,input_policy_shared507,isup5
+0.0,0,,0,,0.0,SR1_old,2,2,0.0,TCGA,1,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,SR1_old,4,11,0.0,TCGA,2,input_policy_shared507,nuclear3
+1.0,7,,0,,0.0,SR1_old,5,7,0.0,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,SR1_old,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SR1_old,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SR1_old,,1,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SR1_old,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SR1_old,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SR1_old,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SR1_old,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,SR1_old,,2,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-UCEC,0,0.0,,SR1_old,,1,,TCGA,3,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,SR1_old,1,4,0.0,TCGA,1,input_policy_shared507,who4
+0.0,0,,0,,0.0,SR1_old,1,12,0.0,TCGA,2,input_policy_shared507,who4
+0.0,0,,0,,0.0,SR1_old,1,3,0.0,TCGA,3,input_policy_shared507,who4
+1.0,2,,0,,0.0,SR1_old,1,2,0.0,TCGA,4,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SR1_old,,4,,TCGA,1,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SR1_old,,12,,TCGA,2,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SR1_old,,3,,TCGA,3,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SR1_old,,2,,TCGA,4,input_policy_shared507,who4
+0.0,0,,0,,0.0,SO0_new,1,1,0.0,TCGA,1,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SO0_new,3,25,0.0,TCGA,2,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SO0_new,3,52,0.0,TCGA,3,input_policy_shared507,fuhrman4
+1.0,17,,0,,0.0,SO0_new,4,17,0.0,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-ACC,0,0.0,,SO0_new,,1,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SO0_new,,5,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SO0_new,,10,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SO0_new,,3,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO0_new,,6,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO0_new,,19,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO0_new,,10,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO0_new,,1,,TCGA,1,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO0_new,,14,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO0_new,,23,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO0_new,,3,,TCGA,4,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SO0_new,1,1,0.0,TCGA,6,input_policy_shared507,gleason10
+1.0,1,,0,,0.0,SO0_new,1,1,0.0,TCGA,10,input_policy_shared507,gleason10
+,,TCGA-BLCA,0,0.0,,SO0_new,,1,,TCGA,6,input_policy_shared507,gleason10
+,,TCGA-PRAD,0,0.0,,SO0_new,,1,,TCGA,10,input_policy_shared507,gleason10
+0.0,0,,0,,0.0,SO0_new,12,64,0.0,TCGA,1,input_policy_shared507,histologic3
+0.0,0,,52,,0.3636363636363637,SO0_new,10,201,0.25870646766169153,TCGA,2,input_policy_shared507,histologic3
+1.0,232,,103,,0.5464190981432361,SO0_new,16,232,0.44396551724137934,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ACC,0,0.0,,SO0_new,,6,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ACC,1,0.2,,SO0_new,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,SO0_new,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,SO0_new,,6,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BLCA,72,0.8780487804878049,,SO0_new,,82,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BRCA,0,0.0,,SO0_new,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BRCA,3,0.07692307692307693,,SO0_new,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BRCA,8,0.34782608695652173,,SO0_new,,23,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CESC,0,0.0,,SO0_new,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CESC,4,0.10256410256410256,,SO0_new,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CESC,13,0.41935483870967744,,SO0_new,,31,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,SO0_new,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,SO0_new,,5,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,SO0_new,,3,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,SO0_new,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ESCA,0,0.0,,SO0_new,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ESCA,15,0.5,,SO0_new,,30,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-ESCA,6,0.20689655172413793,,SO0_new,,29,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-HNSC,0,0.0,,SO0_new,,13,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-HNSC,30,0.5357142857142857,,SO0_new,,56,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-HNSC,3,0.12,,SO0_new,,25,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KICH,0,0.0,,SO0_new,,8,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KICH,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SO0_new,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SO0_new,,1,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SO0_new,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SO0_new,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SO0_new,,10,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SO0_new,,16,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,SO0_new,,22,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,SO0_new,,7,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,SO0_new,,7,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LIHC,0,0.0,,SO0_new,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LUAD,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-OV,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-PRAD,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-UCEC,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,histologic3
+0.0,0,,0,,0.0,SO0_new,1,1,0.0,TCGA,2,input_policy_shared507,isup5
+,,TCGA-KIRP,0,0.0,,SO0_new,,1,,TCGA,2,input_policy_shared507,isup5
+0.0,0,,0,,0.0,SO0_new,2,2,0.0,TCGA,1,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,SO0_new,4,11,0.0,TCGA,2,input_policy_shared507,nuclear3
+1.0,7,,0,,0.0,SO0_new,5,7,0.0,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,SO0_new,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SO0_new,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SO0_new,,1,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SO0_new,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SO0_new,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SO0_new,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SO0_new,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,SO0_new,,2,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-UCEC,0,0.0,,SO0_new,,1,,TCGA,3,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,SO0_new,1,4,0.0,TCGA,1,input_policy_shared507,who4
+0.0,0,,1,,0.14285714285714285,SO0_new,1,12,0.08333333333333333,TCGA,2,input_policy_shared507,who4
+0.0,0,,1,,0.5,SO0_new,1,3,0.3333333333333333,TCGA,3,input_policy_shared507,who4
+1.0,2,,0,,0.0,SO0_new,1,2,0.0,TCGA,4,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SO0_new,,4,,TCGA,1,input_policy_shared507,who4
+,,TCGA-LGG,1,0.08333333333333333,,SO0_new,,12,,TCGA,2,input_policy_shared507,who4
+,,TCGA-LGG,1,0.3333333333333333,,SO0_new,,3,,TCGA,3,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SO0_new,,2,,TCGA,4,input_policy_shared507,who4
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,1,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,3,25,0.0,TCGA,2,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,3,52,0.0,TCGA,3,input_policy_shared507,fuhrman4
+1.0,17,,0,,0.0,SO4_D1,4,17,0.0,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-ACC,0,0.0,,SO4_D1,,1,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,5,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,10,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4_D1,,3,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,6,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,19,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4_D1,,10,,TCGA,4,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,1,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,14,,TCGA,2,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,23,,TCGA,3,input_policy_shared507,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4_D1,,3,,TCGA,4,input_policy_shared507,fuhrman4
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,6,input_policy_shared507,gleason10
+1.0,1,,0,,0.0,SO4_D1,1,1,0.0,TCGA,10,input_policy_shared507,gleason10
+,,TCGA-BLCA,0,0.0,,SO4_D1,,1,,TCGA,6,input_policy_shared507,gleason10
+,,TCGA-PRAD,0,0.0,,SO4_D1,,1,,TCGA,10,input_policy_shared507,gleason10
+0.0,0,,0,,0.0,SO4_D1,12,64,0.0,TCGA,1,input_policy_shared507,histologic3
+0.0,0,,103,,0.5464190981432361,SO4_D1,10,201,0.5124378109452736,TCGA,2,input_policy_shared507,histologic3
+1.0,232,,131,,0.6107226107226107,SO4_D1,16,232,0.5646551724137931,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ACC,0,0.0,,SO4_D1,,6,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ACC,5,1.0,,SO4_D1,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,SO4_D1,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BLCA,0,0.0,,SO4_D1,,6,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BLCA,82,1.0,,SO4_D1,,82,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-BRCA,16,0.41025641025641024,,SO4_D1,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-BRCA,11,0.4782608695652174,,SO4_D1,,23,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CESC,0,0.0,,SO4_D1,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CESC,10,0.2564102564102564,,SO4_D1,,39,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CESC,23,0.7419354838709677,,SO4_D1,,31,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,SO4_D1,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-CHOL,4,0.8,,SO4_D1,,5,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-CHOL,0,0.0,,SO4_D1,,3,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,SO4_D1,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-COAD,0,0.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-ESCA,0,0.0,,SO4_D1,,5,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-ESCA,27,0.9,,SO4_D1,,30,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-ESCA,5,0.1724137931034483,,SO4_D1,,29,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-HNSC,0,0.0,,SO4_D1,,13,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-HNSC,46,0.8214285714285714,,SO4_D1,,56,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-HNSC,2,0.08,,SO4_D1,,25,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KICH,0,0.0,,SO4_D1,,8,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KICH,1,1.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,3,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,5,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,2,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,10,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-KIRP,1,0.0625,,SO4_D1,,16,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,22,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,7,,TCGA,2,input_policy_shared507,histologic3
+,,TCGA-LGG,0,0.0,,SO4_D1,,7,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-LIHC,0,0.0,,SO4_D1,,1,,TCGA,1,input_policy_shared507,histologic3
+,,TCGA-LUAD,0,0.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-OV,1,1.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-PRAD,0,0.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,histologic3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,histologic3
+0.0,0,,0,,0.0,SO4_D1,1,1,0.0,TCGA,2,input_policy_shared507,isup5
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,2,input_policy_shared507,isup5
+0.0,0,,0,,0.0,SO4_D1,2,2,0.0,TCGA,1,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,SO4_D1,4,11,0.0,TCGA,2,input_policy_shared507,nuclear3
+1.0,7,,0,,0.0,SO4_D1,5,7,0.0,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,1,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KICH,0,0.0,,SO4_D1,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,1,,TCGA,1,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,4,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4_D1,,2,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,2,,TCGA,2,input_policy_shared507,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,nuclear3
+,,TCGA-UCEC,0,0.0,,SO4_D1,,1,,TCGA,3,input_policy_shared507,nuclear3
+0.0,0,,0,,0.0,SO4_D1,1,4,0.0,TCGA,1,input_policy_shared507,who4
+0.0,0,,1,,0.14285714285714285,SO4_D1,1,12,0.08333333333333333,TCGA,2,input_policy_shared507,who4
+0.0,0,,0,,0.0,SO4_D1,1,3,0.0,TCGA,3,input_policy_shared507,who4
+1.0,2,,1,,0.4,SO4_D1,1,2,0.5,TCGA,4,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SO4_D1,,4,,TCGA,1,input_policy_shared507,who4
+,,TCGA-LGG,1,0.08333333333333333,,SO4_D1,,12,,TCGA,2,input_policy_shared507,who4
+,,TCGA-LGG,0,0.0,,SO4_D1,,3,,TCGA,3,input_policy_shared507,who4
+,,TCGA-LGG,1,0.5,,SO4_D1,,2,,TCGA,4,input_policy_shared507,who4
+0.0,0,,0,,0.0,SO1,1,1,0.0,TCGA,1,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO1,3,25,0.0,TCGA,2,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO1,3,52,0.0,TCGA,3,agent_d508,fuhrman4
+1.0,17,,0,,0.0,SO1,4,17,0.0,TCGA,4,agent_d508,fuhrman4
+,,TCGA-ACC,0,0.0,,SO1,,1,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1,,5,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1,,10,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO1,,3,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1,,6,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1,,19,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO1,,10,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1,,1,,TCGA,1,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1,,14,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1,,23,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO1,,3,,TCGA,4,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO1,1,1,0.0,TCGA,6,agent_d508,gleason10
+1.0,1,,0,,0.0,SO1,1,1,0.0,TCGA,10,agent_d508,gleason10
+,,TCGA-BLCA,0,0.0,,SO1,,1,,TCGA,6,agent_d508,gleason10
+,,TCGA-PRAD,0,0.0,,SO1,,1,,TCGA,10,agent_d508,gleason10
+0.0,0,,0,,0.0,SO1,12,64,0.0,TCGA,1,agent_d508,histologic3
+0.0,0,,69,,0.45394736842105265,SO1,10,201,0.34328358208955223,TCGA,2,agent_d508,histologic3
+1.0,232,,127,,0.6105769230769231,SO1,16,232,0.5474137931034483,TCGA,3,agent_d508,histologic3
+,,TCGA-ACC,0,0.0,,SO1,,6,,TCGA,1,agent_d508,histologic3
+,,TCGA-ACC,4,0.8,,SO1,,5,,TCGA,3,agent_d508,histologic3
+,,TCGA-BLCA,0,0.0,,SO1,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-BLCA,0,0.0,,SO1,,6,,TCGA,2,agent_d508,histologic3
+,,TCGA-BLCA,78,0.9512195121951219,,SO1,,82,,TCGA,3,agent_d508,histologic3
+,,TCGA-BRCA,0,0.0,,SO1,,5,,TCGA,1,agent_d508,histologic3
+,,TCGA-BRCA,4,0.10256410256410256,,SO1,,39,,TCGA,2,agent_d508,histologic3
+,,TCGA-BRCA,13,0.5652173913043478,,SO1,,23,,TCGA,3,agent_d508,histologic3
+,,TCGA-CESC,0,0.0,,SO1,,3,,TCGA,1,agent_d508,histologic3
+,,TCGA-CESC,2,0.05128205128205128,,SO1,,39,,TCGA,2,agent_d508,histologic3
+,,TCGA-CESC,20,0.6451612903225806,,SO1,,31,,TCGA,3,agent_d508,histologic3
+,,TCGA-CHOL,0,0.0,,SO1,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-CHOL,2,0.4,,SO1,,5,,TCGA,2,agent_d508,histologic3
+,,TCGA-CHOL,0,0.0,,SO1,,3,,TCGA,3,agent_d508,histologic3
+,,TCGA-COAD,0,0.0,,SO1,,2,,TCGA,1,agent_d508,histologic3
+,,TCGA-COAD,0,0.0,,SO1,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-ESCA,0,0.0,,SO1,,5,,TCGA,1,agent_d508,histologic3
+,,TCGA-ESCA,21,0.7,,SO1,,30,,TCGA,2,agent_d508,histologic3
+,,TCGA-ESCA,5,0.1724137931034483,,SO1,,29,,TCGA,3,agent_d508,histologic3
+,,TCGA-HNSC,0,0.0,,SO1,,13,,TCGA,1,agent_d508,histologic3
+,,TCGA-HNSC,40,0.7142857142857143,,SO1,,56,,TCGA,2,agent_d508,histologic3
+,,TCGA-HNSC,4,0.16,,SO1,,25,,TCGA,3,agent_d508,histologic3
+,,TCGA-KICH,0,0.0,,SO1,,8,,TCGA,2,agent_d508,histologic3
+,,TCGA-KICH,0,0.0,,SO1,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO1,,3,,TCGA,1,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO1,,1,,TCGA,2,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO1,,5,,TCGA,3,agent_d508,histologic3
+,,TCGA-KIRP,0,0.0,,SO1,,2,,TCGA,1,agent_d508,histologic3
+,,TCGA-KIRP,0,0.0,,SO1,,10,,TCGA,2,agent_d508,histologic3
+,,TCGA-KIRP,1,0.0625,,SO1,,16,,TCGA,3,agent_d508,histologic3
+,,TCGA-LGG,0,0.0,,SO1,,22,,TCGA,1,agent_d508,histologic3
+,,TCGA-LGG,0,0.0,,SO1,,7,,TCGA,2,agent_d508,histologic3
+,,TCGA-LGG,1,0.14285714285714285,,SO1,,7,,TCGA,3,agent_d508,histologic3
+,,TCGA-LIHC,0,0.0,,SO1,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-LUAD,0,0.0,,SO1,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-OV,1,1.0,,SO1,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-PRAD,0,0.0,,SO1,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-UCEC,0,0.0,,SO1,,1,,TCGA,3,agent_d508,histologic3
+0.0,0,,0,,0.0,SO1,1,1,0.0,TCGA,2,agent_d508,isup5
+,,TCGA-KIRP,0,0.0,,SO1,,1,,TCGA,2,agent_d508,isup5
+0.0,0,,0,,0.0,SO1,2,2,0.0,TCGA,1,agent_d508,nuclear3
+0.0,0,,0,,0.0,SO1,4,11,0.0,TCGA,2,agent_d508,nuclear3
+1.0,7,,0,,0.0,SO1,5,7,0.0,TCGA,3,agent_d508,nuclear3
+,,TCGA-BRCA,0,0.0,,SO1,,4,,TCGA,2,agent_d508,nuclear3
+,,TCGA-BRCA,0,0.0,,SO1,,1,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO1,,1,,TCGA,1,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO1,,1,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO1,,2,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1,,1,,TCGA,1,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1,,4,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO1,,2,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KIRP,0,0.0,,SO1,,2,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KIRP,0,0.0,,SO1,,1,,TCGA,3,agent_d508,nuclear3
+,,TCGA-UCEC,0,0.0,,SO1,,1,,TCGA,3,agent_d508,nuclear3
+0.0,0,,0,,0.0,SO1,1,4,0.0,TCGA,1,agent_d508,who4
+0.0,0,,0,,0.0,SO1,1,12,0.0,TCGA,2,agent_d508,who4
+0.0,0,,0,,0.0,SO1,1,3,0.0,TCGA,3,agent_d508,who4
+1.0,2,,0,,0.0,SO1,1,2,0.0,TCGA,4,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO1,,4,,TCGA,1,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO1,,12,,TCGA,2,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO1,,3,,TCGA,3,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO1,,2,,TCGA,4,agent_d508,who4
+0.0,0,,0,,0.0,SO3,1,1,0.0,TCGA,1,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO3,3,25,0.0,TCGA,2,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO3,3,52,0.0,TCGA,3,agent_d508,fuhrman4
+1.0,17,,0,,0.0,SO3,4,17,0.0,TCGA,4,agent_d508,fuhrman4
+,,TCGA-ACC,0,0.0,,SO3,,1,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO3,,5,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO3,,10,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO3,,3,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO3,,6,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO3,,19,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO3,,10,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO3,,1,,TCGA,1,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO3,,14,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO3,,23,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO3,,3,,TCGA,4,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO3,1,1,0.0,TCGA,6,agent_d508,gleason10
+1.0,1,,0,,0.0,SO3,1,1,0.0,TCGA,10,agent_d508,gleason10
+,,TCGA-BLCA,0,0.0,,SO3,,1,,TCGA,6,agent_d508,gleason10
+,,TCGA-PRAD,0,0.0,,SO3,,1,,TCGA,10,agent_d508,gleason10
+0.0,0,,0,,0.0,SO3,12,64,0.0,TCGA,1,agent_d508,histologic3
+0.0,0,,56,,0.3771043771043771,SO3,10,201,0.27860696517412936,TCGA,2,agent_d508,histologic3
+1.0,232,,129,,0.6128266033254156,SO3,16,232,0.5560344827586207,TCGA,3,agent_d508,histologic3
+,,TCGA-ACC,0,0.0,,SO3,,6,,TCGA,1,agent_d508,histologic3
+,,TCGA-ACC,3,0.6,,SO3,,5,,TCGA,3,agent_d508,histologic3
+,,TCGA-BLCA,0,0.0,,SO3,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-BLCA,0,0.0,,SO3,,6,,TCGA,2,agent_d508,histologic3
+,,TCGA-BLCA,80,0.975609756097561,,SO3,,82,,TCGA,3,agent_d508,histologic3
+,,TCGA-BRCA,0,0.0,,SO3,,5,,TCGA,1,agent_d508,histologic3
+,,TCGA-BRCA,2,0.05128205128205128,,SO3,,39,,TCGA,2,agent_d508,histologic3
+,,TCGA-BRCA,13,0.5652173913043478,,SO3,,23,,TCGA,3,agent_d508,histologic3
+,,TCGA-CESC,0,0.0,,SO3,,3,,TCGA,1,agent_d508,histologic3
+,,TCGA-CESC,3,0.07692307692307693,,SO3,,39,,TCGA,2,agent_d508,histologic3
+,,TCGA-CESC,18,0.5806451612903226,,SO3,,31,,TCGA,3,agent_d508,histologic3
+,,TCGA-CHOL,0,0.0,,SO3,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-CHOL,3,0.6,,SO3,,5,,TCGA,2,agent_d508,histologic3
+,,TCGA-CHOL,1,0.3333333333333333,,SO3,,3,,TCGA,3,agent_d508,histologic3
+,,TCGA-COAD,0,0.0,,SO3,,2,,TCGA,1,agent_d508,histologic3
+,,TCGA-COAD,0,0.0,,SO3,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-ESCA,0,0.0,,SO3,,5,,TCGA,1,agent_d508,histologic3
+,,TCGA-ESCA,18,0.6,,SO3,,30,,TCGA,2,agent_d508,histologic3
+,,TCGA-ESCA,5,0.1724137931034483,,SO3,,29,,TCGA,3,agent_d508,histologic3
+,,TCGA-HNSC,0,0.0,,SO3,,13,,TCGA,1,agent_d508,histologic3
+,,TCGA-HNSC,30,0.5357142857142857,,SO3,,56,,TCGA,2,agent_d508,histologic3
+,,TCGA-HNSC,5,0.2,,SO3,,25,,TCGA,3,agent_d508,histologic3
+,,TCGA-KICH,0,0.0,,SO3,,8,,TCGA,2,agent_d508,histologic3
+,,TCGA-KICH,0,0.0,,SO3,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO3,,3,,TCGA,1,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO3,,1,,TCGA,2,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO3,,5,,TCGA,3,agent_d508,histologic3
+,,TCGA-KIRP,0,0.0,,SO3,,2,,TCGA,1,agent_d508,histologic3
+,,TCGA-KIRP,0,0.0,,SO3,,10,,TCGA,2,agent_d508,histologic3
+,,TCGA-KIRP,0,0.0,,SO3,,16,,TCGA,3,agent_d508,histologic3
+,,TCGA-LGG,0,0.0,,SO3,,22,,TCGA,1,agent_d508,histologic3
+,,TCGA-LGG,0,0.0,,SO3,,7,,TCGA,2,agent_d508,histologic3
+,,TCGA-LGG,3,0.42857142857142855,,SO3,,7,,TCGA,3,agent_d508,histologic3
+,,TCGA-LIHC,0,0.0,,SO3,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-LUAD,1,1.0,,SO3,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-OV,0,0.0,,SO3,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-PRAD,0,0.0,,SO3,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-UCEC,0,0.0,,SO3,,1,,TCGA,3,agent_d508,histologic3
+0.0,0,,0,,0.0,SO3,1,1,0.0,TCGA,2,agent_d508,isup5
+,,TCGA-KIRP,0,0.0,,SO3,,1,,TCGA,2,agent_d508,isup5
+0.0,0,,0,,0.0,SO3,2,2,0.0,TCGA,1,agent_d508,nuclear3
+0.0,0,,0,,0.0,SO3,4,11,0.0,TCGA,2,agent_d508,nuclear3
+1.0,7,,0,,0.0,SO3,5,7,0.0,TCGA,3,agent_d508,nuclear3
+,,TCGA-BRCA,0,0.0,,SO3,,4,,TCGA,2,agent_d508,nuclear3
+,,TCGA-BRCA,0,0.0,,SO3,,1,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO3,,1,,TCGA,1,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO3,,1,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO3,,2,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO3,,1,,TCGA,1,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO3,,4,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO3,,2,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KIRP,0,0.0,,SO3,,2,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KIRP,0,0.0,,SO3,,1,,TCGA,3,agent_d508,nuclear3
+,,TCGA-UCEC,0,0.0,,SO3,,1,,TCGA,3,agent_d508,nuclear3
+0.0,0,,0,,0.0,SO3,1,4,0.0,TCGA,1,agent_d508,who4
+0.0,0,,1,,0.15384615384615385,SO3,1,12,0.08333333333333333,TCGA,2,agent_d508,who4
+0.0,0,,0,,0.0,SO3,1,3,0.0,TCGA,3,agent_d508,who4
+1.0,2,,1,,0.4,SO3,1,2,0.5,TCGA,4,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO3,,4,,TCGA,1,agent_d508,who4
+,,TCGA-LGG,1,0.08333333333333333,,SO3,,12,,TCGA,2,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO3,,3,,TCGA,3,agent_d508,who4
+,,TCGA-LGG,1,0.5,,SO3,,2,,TCGA,4,agent_d508,who4
+0.0,0,,0,,0.0,SO4,1,1,0.0,TCGA,1,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO4,3,25,0.0,TCGA,2,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO4,3,52,0.0,TCGA,3,agent_d508,fuhrman4
+1.0,17,,0,,0.0,SO4,4,17,0.0,TCGA,4,agent_d508,fuhrman4
+,,TCGA-ACC,0,0.0,,SO4,,1,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4,,5,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4,,10,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KICH,0,0.0,,SO4,,3,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4,,6,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4,,19,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KIRC,0,0.0,,SO4,,10,,TCGA,4,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4,,1,,TCGA,1,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4,,14,,TCGA,2,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4,,23,,TCGA,3,agent_d508,fuhrman4
+,,TCGA-KIRP,0,0.0,,SO4,,3,,TCGA,4,agent_d508,fuhrman4
+0.0,0,,0,,0.0,SO4,1,1,0.0,TCGA,6,agent_d508,gleason10
+1.0,1,,0,,0.0,SO4,1,1,0.0,TCGA,10,agent_d508,gleason10
+,,TCGA-BLCA,0,0.0,,SO4,,1,,TCGA,6,agent_d508,gleason10
+,,TCGA-PRAD,0,0.0,,SO4,,1,,TCGA,10,agent_d508,gleason10
+0.0,0,,0,,0.0,SO4,12,64,0.0,TCGA,1,agent_d508,histologic3
+0.0,0,,103,,0.5464190981432361,SO4,10,201,0.5124378109452736,TCGA,2,agent_d508,histologic3
+1.0,232,,131,,0.6107226107226107,SO4,16,232,0.5646551724137931,TCGA,3,agent_d508,histologic3
+,,TCGA-ACC,0,0.0,,SO4,,6,,TCGA,1,agent_d508,histologic3
+,,TCGA-ACC,5,1.0,,SO4,,5,,TCGA,3,agent_d508,histologic3
+,,TCGA-BLCA,0,0.0,,SO4,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-BLCA,0,0.0,,SO4,,6,,TCGA,2,agent_d508,histologic3
+,,TCGA-BLCA,82,1.0,,SO4,,82,,TCGA,3,agent_d508,histologic3
+,,TCGA-BRCA,0,0.0,,SO4,,5,,TCGA,1,agent_d508,histologic3
+,,TCGA-BRCA,16,0.41025641025641024,,SO4,,39,,TCGA,2,agent_d508,histologic3
+,,TCGA-BRCA,11,0.4782608695652174,,SO4,,23,,TCGA,3,agent_d508,histologic3
+,,TCGA-CESC,0,0.0,,SO4,,3,,TCGA,1,agent_d508,histologic3
+,,TCGA-CESC,10,0.2564102564102564,,SO4,,39,,TCGA,2,agent_d508,histologic3
+,,TCGA-CESC,23,0.7419354838709677,,SO4,,31,,TCGA,3,agent_d508,histologic3
+,,TCGA-CHOL,0,0.0,,SO4,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-CHOL,4,0.8,,SO4,,5,,TCGA,2,agent_d508,histologic3
+,,TCGA-CHOL,0,0.0,,SO4,,3,,TCGA,3,agent_d508,histologic3
+,,TCGA-COAD,0,0.0,,SO4,,2,,TCGA,1,agent_d508,histologic3
+,,TCGA-COAD,0,0.0,,SO4,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-ESCA,0,0.0,,SO4,,5,,TCGA,1,agent_d508,histologic3
+,,TCGA-ESCA,27,0.9,,SO4,,30,,TCGA,2,agent_d508,histologic3
+,,TCGA-ESCA,5,0.1724137931034483,,SO4,,29,,TCGA,3,agent_d508,histologic3
+,,TCGA-HNSC,0,0.0,,SO4,,13,,TCGA,1,agent_d508,histologic3
+,,TCGA-HNSC,46,0.8214285714285714,,SO4,,56,,TCGA,2,agent_d508,histologic3
+,,TCGA-HNSC,2,0.08,,SO4,,25,,TCGA,3,agent_d508,histologic3
+,,TCGA-KICH,0,0.0,,SO4,,8,,TCGA,2,agent_d508,histologic3
+,,TCGA-KICH,1,1.0,,SO4,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO4,,3,,TCGA,1,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO4,,1,,TCGA,2,agent_d508,histologic3
+,,TCGA-KIRC,0,0.0,,SO4,,5,,TCGA,3,agent_d508,histologic3
+,,TCGA-KIRP,0,0.0,,SO4,,2,,TCGA,1,agent_d508,histologic3
+,,TCGA-KIRP,0,0.0,,SO4,,10,,TCGA,2,agent_d508,histologic3
+,,TCGA-KIRP,1,0.0625,,SO4,,16,,TCGA,3,agent_d508,histologic3
+,,TCGA-LGG,0,0.0,,SO4,,22,,TCGA,1,agent_d508,histologic3
+,,TCGA-LGG,0,0.0,,SO4,,7,,TCGA,2,agent_d508,histologic3
+,,TCGA-LGG,0,0.0,,SO4,,7,,TCGA,3,agent_d508,histologic3
+,,TCGA-LIHC,0,0.0,,SO4,,1,,TCGA,1,agent_d508,histologic3
+,,TCGA-LUAD,0,0.0,,SO4,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-OV,1,1.0,,SO4,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-PRAD,0,0.0,,SO4,,1,,TCGA,3,agent_d508,histologic3
+,,TCGA-UCEC,0,0.0,,SO4,,1,,TCGA,3,agent_d508,histologic3
+0.0,0,,0,,0.0,SO4,1,1,0.0,TCGA,2,agent_d508,isup5
+,,TCGA-KIRP,0,0.0,,SO4,,1,,TCGA,2,agent_d508,isup5
+0.0,0,,0,,0.0,SO4,2,2,0.0,TCGA,1,agent_d508,nuclear3
+0.0,0,,0,,0.0,SO4,4,11,0.0,TCGA,2,agent_d508,nuclear3
+1.0,7,,0,,0.0,SO4,5,7,0.0,TCGA,3,agent_d508,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4,,4,,TCGA,2,agent_d508,nuclear3
+,,TCGA-BRCA,0,0.0,,SO4,,1,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO4,,1,,TCGA,1,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO4,,1,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KICH,0,0.0,,SO4,,2,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4,,1,,TCGA,1,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4,,4,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KIRC,0,0.0,,SO4,,2,,TCGA,3,agent_d508,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4,,2,,TCGA,2,agent_d508,nuclear3
+,,TCGA-KIRP,0,0.0,,SO4,,1,,TCGA,3,agent_d508,nuclear3
+,,TCGA-UCEC,0,0.0,,SO4,,1,,TCGA,3,agent_d508,nuclear3
+0.0,0,,0,,0.0,SO4,1,4,0.0,TCGA,1,agent_d508,who4
+0.0,0,,1,,0.14285714285714285,SO4,1,12,0.08333333333333333,TCGA,2,agent_d508,who4
+0.0,0,,0,,0.0,SO4,1,3,0.0,TCGA,3,agent_d508,who4
+1.0,2,,1,,0.4,SO4,1,2,0.5,TCGA,4,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO4,,4,,TCGA,1,agent_d508,who4
+,,TCGA-LGG,1,0.08333333333333333,,SO4,,12,,TCGA,2,agent_d508,who4
+,,TCGA-LGG,0,0.0,,SO4,,3,,TCGA,3,agent_d508,who4
+,,TCGA-LGG,1,0.5,,SO4,,2,,TCGA,4,agent_d508,who4

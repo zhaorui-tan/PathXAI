@@ -1,0 +1,724 @@
+{
+  "release_date": "2026-11-09",
+  "preprint": "https://arxiv.org/abs/2611.09117",
+  "csv_files": 95,
+  "numerical_values_unchanged": true,
+  "private_data_scope": "aggregate statistics only",
+  "files": [
+    {
+      "file": "aggregate_results/fig3_joint_criterion.csv",
+      "rows": 5,
+      "sha256": "145e01edc2f7f2bf783adc5a08b2782e8aafdc2d76b52f217ded3312bce2051c",
+      "source_sha256": "912f82c45777b7ae8f82e749dc0f7af9220d7da7f062f2f99b28ef3a1a4720f6",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/fig3_workflow_comparisons.csv",
+      "rows": 3,
+      "sha256": "80c90ff3af58a45514d488f4854c95bd983e1b3208f975a174a1e5a9a17dc8b6",
+      "source_sha256": "80650c826e83b194a3bcc64e0b6b252823f7360a0158ee623fbedd9556e96c23",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/private_reference_benign_malignant_calls.csv",
+      "rows": 40,
+      "sha256": "034ebbf4d6754014d16ebbac9d63ade2a0883864e860c0517837f2a58380277c",
+      "source_sha256": "034ebbf4d6754014d16ebbac9d63ade2a0883864e860c0517837f2a58380277c",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/private_reference_cancer_compatibility.csv",
+      "rows": 20,
+      "sha256": "a2f61daa3f0760ae0ba9ffb5be4e57ba455ba097b6d1ad208ba22d7cc3d4b098",
+      "source_sha256": "6f5c6882532fa73a548435e9a2a08877f3c631da87759aa4be0f34067b008997",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/public_available_wsi_distribution.csv",
+      "rows": 4,
+      "sha256": "4cbb562e22d8d0f540b8fb7d76a7595ecd90b1b058b27a64488fe408c26f2c35",
+      "source_sha256": "4cbb562e22d8d0f540b8fb7d76a7595ecd90b1b058b27a64488fe408c26f2c35",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/public_case_selection.csv",
+      "rows": 10,
+      "sha256": "f0d03349eb5bb913aa02cd547dc27bd7bb9c3a9fe90fb63303be547424e4f9fd",
+      "source_sha256": "c1e729e998267a4b20d056b974f1064624568449f187a63bfdde525a46d86ee1",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/public_subtype_pooled.csv",
+      "rows": 8,
+      "sha256": "6888a0f703133d0df819682d8a3e237ad407edeeb076a2b05c0d1e416a3e8d19",
+      "source_sha256": "1b286cfc086471d8b56798bfa2f9b8ba8adeab2fe30219122c4e00202b36aaa2",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_eval_v4_aggregate_summary.csv",
+      "rows": 2114,
+      "sha256": "106b38265c78f6ca909f83cc030ab4b081d04a99819496857a8d1dc9c70f6340",
+      "source_sha256": "b6b72613114aaaa39728358f21c9eaf3f74725aaed2a2ef441d798d4751b5f46",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_eval_v4_grade_class_support.csv",
+      "rows": 2505,
+      "sha256": "b8fcab9bd494b28f97475257f8a0c0edbabc86fa0224dfc3774442173ff6a56a",
+      "source_sha256": "8035d0bf19d044ad461c0320a9532257caf88191fd466ac7e5f159fc1ee8e9c2",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_eval_v4_grade_confusion.csv",
+      "rows": 745,
+      "sha256": "6316cff1659124a29fb96800514ba02bea57d44de2f22934fedf3ebabf6f8ba5",
+      "source_sha256": "2cbe2b12bcddfb83630ab8d38b616d54987dd64f983449b1047d71f5b1119461",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_eval_v4_paired_contrasts.csv",
+      "rows": 1468,
+      "sha256": "d0f4a46d0f0e3d8a381b267a336a3d925df93b423643c3d4d87177f365416e9b",
+      "source_sha256": "c80e64bdeff5adbab425b554a7fe94afa54b1c78ea98ec79150dc14c704ae0d7",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "aggregate_results/report_eval_v4_per_cancer_public.csv",
+      "rows": 9664,
+      "sha256": "a593d20ad1536f39dd2fef631ea25b2f4c3b9334dc65d5ef24b0e6e8fd29c538",
+      "source_sha256": "bd2ef409823ef7bb9ad0510d05c017858793efe649ade21cb6f205f576e3d6bb",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_grade_answering.csv",
+      "rows": 84,
+      "sha256": "60d823070ee0db3e25a97cbbaf80871f3f162135d87c968d952c49a15c759bbc",
+      "source_sha256": "60d823070ee0db3e25a97cbbaf80871f3f162135d87c968d952c49a15c759bbc",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_native_private.csv",
+      "rows": 304,
+      "sha256": "bedaeeed97c9484bb3aaafc3634d2d3ee48485b9b262c167f97983a9f2fdf7ce",
+      "source_sha256": "62e8f02338043a0da4d7c1b9949fe283c6c57e0abb426a4995829e1d1d6f6499",
+      "removed_provenance_columns": [
+        "ci_source_path"
+      ]
+    },
+    {
+      "file": "aggregate_results/report_native_private_paired_contrasts.csv",
+      "rows": 136,
+      "sha256": "6141d4608fb677a3f60ae2bc4181a64da5ad85d9abce8102100ced078ab33dc9",
+      "source_sha256": "6141d4608fb677a3f60ae2bc4181a64da5ad85d9abce8102100ced078ab33dc9",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_native_public.csv",
+      "rows": 217,
+      "sha256": "eb0646b3f9ce6630bc24f2c72a0b50361e2ff6fd92601e1e941c1e4cb82f6f92",
+      "source_sha256": "eb0646b3f9ce6630bc24f2c72a0b50361e2ff6fd92601e1e941c1e4cb82f6f92",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_native_public_paired_contrasts.csv",
+      "rows": 63,
+      "sha256": "6a908facaedbfe7a575c720d4754ead83a1241e9cca6fc46372fc0d9ed23af7b",
+      "source_sha256": "6a908facaedbfe7a575c720d4754ead83a1241e9cca6fc46372fc0d9ed23af7b",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_policy_grade_transitions.csv",
+      "rows": 67,
+      "sha256": "9386bb459ebfdf3d17f0ba86383481a39d8ea4c71ef3ecbf670ee719dbfce870",
+      "source_sha256": "8c9988d559d6d174fca71d8b55645ed5303b59866c6ce163d9b9038cc43c8bf6",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/seg_shared_external_bootstrap.csv",
+      "rows": 80,
+      "sha256": "356e58b96dafe5643236be8c3295d1c0069f70186ce8e284cc5dafdc3fa68835",
+      "source_sha256": "356e58b96dafe5643236be8c3295d1c0069f70186ce8e284cc5dafdc3fa68835",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/seg_shared_source_sensitivity.csv",
+      "rows": 5,
+      "sha256": "7db981561c6401cb7bbd7054e72c5694622d3597bfe51149358a5c3d5e485726",
+      "source_sha256": "3fa1683155f518b7fb508a03023c76ff8c88d3bfa0500fecb1014b4b4f14a929",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/table1_fig4_segmentation.csv",
+      "rows": 230,
+      "sha256": "5ef2657782f24e471cb4098682841370b5e54a2377da3c01f42ce583bdc7006c",
+      "source_sha256": "a985392432de4cbc8cbee408299eb74d1cb2b3a04fd0d67a71002ccaee893eb1",
+      "removed_provenance_columns": [
+        "provenance"
+      ]
+    },
+    {
+      "file": "aggregate_results/table2_fig7_four_policy.csv",
+      "rows": 240,
+      "sha256": "24e57691be20158fcc4bf11c0be8fc93d1110ced1a63a2aefbf42d13cfb71eaa",
+      "source_sha256": "71f086d012cd224369ab86c69897310e217737eaca52482e308a93073ca7f9be",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "aggregate_results/table3_fig8_public_report.csv",
+      "rows": 1212,
+      "sha256": "333f0409db3cbc6722efada2d6d34e7e8fa393c06ceb05b71e292bbe404253eb",
+      "source_sha256": "90ddb6a38baa84d58805e39ab94c8ae87efe697e2d2d40e367e9954355b94e5a",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "aggregate_results/table4_fig9_private_reference.csv",
+      "rows": 1728,
+      "sha256": "b376b17802981102d7201c7b6c1c75f35b0f4fb75037e8a7ddfb1cbae7fafb2e",
+      "source_sha256": "1bff1034da447f0439fd3e7ad4c69366f54a3f5817e874f7d3ca297e9b3af87a",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/table5_fig10_physician_ratings.csv",
+      "rows": 60,
+      "sha256": "bdc70db2d16bc574aa152210ea75b82a44d6aefbedbf16d2951278979ae9a52f",
+      "source_sha256": "f9ebbae30630e630f47009e938d3590c359f996a31a1653ac56b80f86de6aab2",
+      "removed_provenance_columns": [
+        "provenance"
+      ]
+    },
+    {
+      "file": "aggregate_results/table6_suppfig2_seg_ablation.csv",
+      "rows": 17,
+      "sha256": "116da77287c873fb1d97ce0febb6d02644f15ae6a2a90443f417e25795d66f5f",
+      "source_sha256": "3a93e03855b6cff9ce211dce2b1b3df632a33c9ec29f9d8075099ffbabff34d6",
+      "removed_provenance_columns": [
+        "provenance"
+      ]
+    },
+    {
+      "file": "aggregate_results/table7_suppfig3_report_ablation.csv",
+      "rows": 402,
+      "sha256": "4407dc94367cfa296bdc3d768a753e6c8d28f5d768806c3d7052993e01672e71",
+      "source_sha256": "6ffbf6393b84122802e7b6852d24ce621eeeead573ad0845f6ffbb0a83c2bc23",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "aggregate_results/table8_private_hospital_sources.csv",
+      "rows": 7,
+      "sha256": "05c80e65bc21721da91c1fe874065054d1031a077dbb9283d543879ffc22051f",
+      "source_sha256": "423918ef3177b26ddea5b0f520c2d1cf7ca25bd45b236bb407143d8ec7622ede",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/table9_contradiction_coverage.csv",
+      "rows": 32,
+      "sha256": "c80a4e7a5921f277344e324f7185430e6fc52c2e2ce0ef9e374522e96c3d942b",
+      "source_sha256": "c67307dac06fafb95509e791b37c223a936e674828200f4c3c5b8e477d5f1fc0",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "diagnostic_outcomes/category_counts.csv",
+      "rows": 400,
+      "sha256": "9f2b96a07d6ad302e13c14e35fdae0e9dc55f7a2a46f0b51a8b8a1bd978157b9",
+      "source_sha256": "9f2b96a07d6ad302e13c14e35fdae0e9dc55f7a2a46f0b51a8b8a1bd978157b9",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "diagnostic_outcomes/summary.csv",
+      "rows": 40,
+      "sha256": "7326228b868650a93842518edfb4a4c1df648efe772b364ea9ff3ecf02ea9e06",
+      "source_sha256": "7326228b868650a93842518edfb4a4c1df648efe772b364ea9ff3ecf02ea9e06",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "diagnostic_weight_sensitivity/component_support.csv",
+      "rows": 366,
+      "sha256": "dc688b2411787bb973ca20d6750860871b6ec4c54adad15dd68199feab8f4f21",
+      "source_sha256": "dc688b2411787bb973ca20d6750860871b6ec4c54adad15dd68199feab8f4f21",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "diagnostic_weight_sensitivity/method_summary.csv",
+      "rows": 204,
+      "sha256": "732aaec52a029078047a1c26c908871c94817fa3a9490f12325fb4cca17d951f",
+      "source_sha256": "732aaec52a029078047a1c26c908871c94817fa3a9490f12325fb4cca17d951f",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "diagnostic_weight_sensitivity/paired_contrasts.csv",
+      "rows": 172,
+      "sha256": "bd0ab890b5b8e8e862f27168f2f4fc15b8bfe730cd5f3fdd37310fa998be5b2f",
+      "source_sha256": "bd0ab890b5b8e8e862f27168f2f4fc15b8bfe730cd5f3fdd37310fa998be5b2f",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "finding_denominators/development_majority_rule.csv",
+      "rows": 20,
+      "sha256": "bf77981af1a7407db54ba69f3b1918b6758602097a1154a866ddc5480f70fa98",
+      "source_sha256": "bf77981af1a7407db54ba69f3b1918b6758602097a1154a866ddc5480f70fa98",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "finding_denominators/method_summary.csv",
+      "rows": 68,
+      "sha256": "bdbbd9c3124d4aa11457230476f960bd7f627940fa41fdcd4152651b45b4192b",
+      "source_sha256": "bdbbd9c3124d4aa11457230476f960bd7f627940fa41fdcd4152651b45b4192b",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "finding_denominators/paired_fixed_denominator.csv",
+      "rows": 61,
+      "sha256": "9ec27d4483b60a9c00e7c63ead7c4e8d41f3f7f08461f80132eb60dadd218709",
+      "source_sha256": "9ec27d4483b60a9c00e7c63ead7c4e8d41f3f7f08461f80132eb60dadd218709",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "finding_denominators/paired_shared_findings.csv",
+      "rows": 61,
+      "sha256": "943c284b825a6b34c52dc3c5a1a502faf3e2fd596882e4ddbadb20b1a436e99d",
+      "source_sha256": "943c284b825a6b34c52dc3c5a1a502faf3e2fd596882e4ddbadb20b1a436e99d",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "finding_denominators/reference_polarities.csv",
+      "rows": 140,
+      "sha256": "1470f97d6787f16872daa4aa1e78433524525fd672438241d8f8253b22fc84e8",
+      "source_sha256": "1470f97d6787f16872daa4aa1e78433524525fd672438241d8f8253b22fc84e8",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "fixed_diagnosis_control/development_selection.csv",
+      "rows": 37,
+      "sha256": "7fde18bff18681c8911d2bcf59591f53ba2feb373b5b231a291d4a517fb9cd17",
+      "source_sha256": "576bf46524f6c8fe26712aea80c96eb7ab5573f133f507828250835525fa573f",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "fixed_diagnosis_control/method_summary.csv",
+      "rows": 18,
+      "sha256": "2f32299e6f71e78ca26998d634b21463628148d7abca3cf9bb43b48493e7a66f",
+      "source_sha256": "133887b26f0f93be0b90b84748bcb218e174f0e2c642bb60228c30e2528dc4da",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "fixed_diagnosis_control/paired_contrasts.csv",
+      "rows": 16,
+      "sha256": "b570af48b6acbf17e314e84610be9b892d3d8e565540a41130b86c2057066436",
+      "source_sha256": "51a2f8b1641d31edb8d0473f39ff443f9423b5059ce710d180da01736d739d42",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "fixed_diagnosis_control/project_support.csv",
+      "rows": 49,
+      "sha256": "5ac43447b57655bc359dd20e1d21fd386ec8da3187e9ef3bbc2b86edc6cf1578",
+      "source_sha256": "bf027e0fe933ebc490383fe1eb44c6e800918c3028da5958613274daa9546cd1",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "grade_agreement/compatible_grade_confusion.csv",
+      "rows": 11931,
+      "sha256": "c0d5fb2b3a19b267fd6765d6b252af2657e2c42d86f8055efe4cf82e08f545a4",
+      "source_sha256": "c0d5fb2b3a19b267fd6765d6b252af2657e2c42d86f8055efe4cf82e08f545a4",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "grade_agreement/prediction_systems.csv",
+      "rows": 1874,
+      "sha256": "f3fc2caf952da8cfb6f9473afe8738a115537943dd426b5072948720f8449b36",
+      "source_sha256": "f3fc2caf952da8cfb6f9473afe8738a115537943dd426b5072948720f8449b36",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "grade_agreement/reference_availability.csv",
+      "rows": 639,
+      "sha256": "b127daa033df94e7ebd4ebad7f86df0bc91287a75fd8d012ef89efc506634f2b",
+      "source_sha256": "b127daa033df94e7ebd4ebad7f86df0bc91287a75fd8d012ef89efc506634f2b",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "grade_agreement/summary.csv",
+      "rows": 831,
+      "sha256": "7edcfa94d2ced72f45f56cb585fe55e4889b8afd0e6cbdb877857d864403be66",
+      "source_sha256": "7edcfa94d2ced72f45f56cb585fe55e4889b8afd0e6cbdb877857d864403be66",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "main_segmentation_classes/class_count_summary.csv",
+      "rows": 128,
+      "sha256": "0611eedfafac79e4b7dc69f914c892f2b83e8bb109fb57ddbb99bde33dee9e18",
+      "source_sha256": "0611eedfafac79e4b7dc69f914c892f2b83e8bb109fb57ddbb99bde33dee9e18",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "main_segmentation_classes/class_set_summary.csv",
+      "rows": 208,
+      "sha256": "386c2bc4f7783d0c46dbdd3fee4aa602fab94d8d6f1927d5d104791dcfd43c53",
+      "source_sha256": "386c2bc4f7783d0c46dbdd3fee4aa602fab94d8d6f1927d5d104791dcfd43c53",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "main_segmentation_classes/class_summary.csv",
+      "rows": 216,
+      "sha256": "e9044efb264d629174d18008a57b0ca68178d4f91fbdb9b644745d942ff86c14",
+      "source_sha256": "e9044efb264d629174d18008a57b0ca68178d4f91fbdb9b644745d942ff86c14",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "main_segmentation_classes/foreground_sample_summary.csv",
+      "rows": 88,
+      "sha256": "dd4b26e649f8744a0b718f2835ff3f3f4477786afe2935ef125d2e9d9cb1f530",
+      "source_sha256": "dd4b26e649f8744a0b718f2835ff3f3f4477786afe2935ef125d2e9d9cb1f530",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "main_segmentation_classes/primary_reconstruction.csv",
+      "rows": 112,
+      "sha256": "397afec87639a4404baea0cb4812a49da29382c50e5003c088fae412b1faf632",
+      "source_sha256": "397afec87639a4404baea0cb4812a49da29382c50e5003c088fae412b1faf632",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "private_malignancy/confusion_counts.csv",
+      "rows": 2880,
+      "sha256": "61b4d36f12c500fd555acc92414f1ec874504d1544bf9681a09fe36519ebda1f",
+      "source_sha256": "61b4d36f12c500fd555acc92414f1ec874504d1544bf9681a09fe36519ebda1f",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "private_malignancy/prediction_counts_by_reference_and_organ.csv",
+      "rows": 480,
+      "sha256": "42a470af739058e0ebb86f921f54d86c61439955dadbc324ccb0017d584645bb",
+      "source_sha256": "42a470af739058e0ebb86f921f54d86c61439955dadbc324ccb0017d584645bb",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "private_malignancy/reference_composition.csv",
+      "rows": 8,
+      "sha256": "bba4410be8441a45b08ab5933aeaeb9f31572f201097716c55a9c1a671d45108",
+      "source_sha256": "bba4410be8441a45b08ab5933aeaeb9f31572f201097716c55a9c1a671d45108",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "private_reference_agreement/agreement.csv",
+      "rows": 6,
+      "sha256": "39971bc6d59f34dcc8a01ab2c23db835ff01efbe28d7e944b8ada06b4ccc5831",
+      "source_sha256": "39971bc6d59f34dcc8a01ab2c23db835ff01efbe28d7e944b8ada06b4ccc5831",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "private_reference_agreement/contingencies.csv",
+      "rows": 108,
+      "sha256": "65c4428824320c47261b5619ce2501a388a680a2f6abcfa3c85ba6a451b5ece5",
+      "source_sha256": "65c4428824320c47261b5619ce2501a388a680a2f6abcfa3c85ba6a451b5ece5",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "private_reference_agreement/field_availability.csv",
+      "rows": 6,
+      "sha256": "ad12bbc1cb767b1ed1b419b6d1d8d31dcad43d0bf7756e9aaed00a97e9f1f63c",
+      "source_sha256": "ad12bbc1cb767b1ed1b419b6d1d8d31dcad43d0bf7756e9aaed00a97e9f1f63c",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "private_reference_agreement/grade_contingencies_by_organ.csv",
+      "rows": 18,
+      "sha256": "c88dcfae662b60f1481a75b2e027e5623a5f981238206fd66a39d063c2e3866b",
+      "source_sha256": "c88dcfae662b60f1481a75b2e027e5623a5f981238206fd66a39d063c2e3866b",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "public_cohort_metadata/project_demographics.csv",
+      "rows": 51,
+      "sha256": "90d52830f2bba6d9fb2c6c859d0d1a0713f328134794d6b82f17d3a037a43760",
+      "source_sha256": "06487cecc64d19ecf52b83c289226502a09df2132feaea595654cda5ff9b2cfd",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "public_cohort_metadata/summary.csv",
+      "rows": 40,
+      "sha256": "332345ea32080ae0251d0e81e09b852e3ec5ca780b72839f2d120318981d518e",
+      "source_sha256": "1ea7441f1debc44deea4d21efc56519db4e70a7b02a62c9ab6aa0793fa93f52d",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "reader_agreement/correction_agreement.csv",
+      "rows": 5,
+      "sha256": "b73adfdfc53a58e1bf954f56d266d74f933927654d46c68fa270c7d744434753",
+      "source_sha256": "3f279fefc47dc46b8cf7c88452d163b9c29254832ed308b2baca3906764e7504",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "reader_agreement/correction_contingency.csv",
+      "rows": 80,
+      "sha256": "0be02cf6b2ddb3e9c55faa37670e1eb57e8e5d4f2f208cb78e062fd2af6696f3",
+      "source_sha256": "af2ba73c7ecd48b4836c5ba52f96dbecba43b76f9a8fce65df8c5cca106555c9",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "reader_agreement/rank_concordance.csv",
+      "rows": 1,
+      "sha256": "fb31e833bd95cd5fe140be4c1e47c82c06a07bcb2290c34314187f4728d3a88d",
+      "source_sha256": "64b665fa16115c1b2ded063bc0574e172a07f1b033ab2a69eb0ac202aafd65a1",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "reader_agreement/rank_concordance_distribution.csv",
+      "rows": 43,
+      "sha256": "e07b794d8bedd53162b991c7ee9d7bfa03fb6e6e4b1fe3cb3d4fef2e94c43a0c",
+      "source_sha256": "d64cd66aa89cdede99fbcae65294b1150a36805dc503efbb2d9dffdfd499096b",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "reader_diagnostic_alignment/literal_diagnosis_counts.csv",
+      "rows": 2,
+      "sha256": "8ca7b4981fce60f786b67547aa64a4345fc514113fcd8ef3ab27c0a2be719e8d",
+      "source_sha256": "8ca7b4981fce60f786b67547aa64a4345fc514113fcd8ef3ab27c0a2be719e8d",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "reader_diagnostic_alignment/method_summary.csv",
+      "rows": 5,
+      "sha256": "181e0ae022b8f55e35034e8d821aba595e823f716d250070dbff61b457491fec",
+      "source_sha256": "181e0ae022b8f55e35034e8d821aba595e823f716d250070dbff61b457491fec",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "reader_diagnostic_alignment/reader_crosstabs.csv",
+      "rows": 80,
+      "sha256": "4ffdd7801bbda42a19e19f8dd715e2e6c364d976362c034a86fcff9e92846fa9",
+      "source_sha256": "4ffdd7801bbda42a19e19f8dd715e2e6c364d976362c034a86fcff9e92846fa9",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "report_availability/availability.csv",
+      "rows": 32,
+      "sha256": "c8884eb4e306a07e8288f0cae2665e61984043176c7388b67b349ec1e7cf503d",
+      "source_sha256": "8c630a5f39c8ab9c9dd3fed40ea801a73cf28de48ea327a8c22d695e2664fa5e",
+      "removed_provenance_columns": [
+        "available_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_availability/method_summary.csv",
+      "rows": 276,
+      "sha256": "9d5074f12d9cf7b6bdf88e543fd5780d0690e78ae390b253760ff31261719350",
+      "source_sha256": "0e0292c953fa94da96430284a643a8f94ea4f77af9af527736757c8f53fdeb6a",
+      "removed_provenance_columns": [
+        "applicable_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_availability/paired_contrasts.csv",
+      "rows": 240,
+      "sha256": "fc28b6d7aff7b6bb25fef3ade7cb5f91e1cef07491b0e08935ebdf1520eebcd9",
+      "source_sha256": "ce0394adc082ea56dbe417828d09c4d4a9cc0eb60533df0ae1afaf62ca6e0447",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_availability/workflow_configuration_coverage.csv",
+      "rows": 9,
+      "sha256": "f6af642b04d729fcd6ed895489fd916ecca31492720a15f9e75d843a7a9090d2",
+      "source_sha256": "f6af642b04d729fcd6ed895489fd916ecca31492720a15f9e75d843a7a9090d2",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "report_availability/workflow_coverage.csv",
+      "rows": 3,
+      "sha256": "3638a0f681283738887738c98cadbcded0581be3245269f81d89ce22e92d62fa",
+      "source_sha256": "9cb33d71a8bb2d6a699c1d274d98e42dd2e89fe455a76f927bdfab62f4a6db89",
+      "removed_provenance_columns": [
+        "selected_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_multiplicity/paired_tests.csv",
+      "rows": 126,
+      "sha256": "a424687f77759d15a262d5134b7234d44a31ce81b0d53e14cf3093647d734d16",
+      "source_sha256": "79fe523d59b70e86db0ec4cc6f23d82ca8d8ca0919b5ea0167600ffc5fb25be6",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_primary_evaluation/native_contrasts.csv",
+      "rows": 42,
+      "sha256": "7109a2733a1ea078adec5d30a047e0eaef0cb292ae1831eda50e9e7bca78b50d",
+      "source_sha256": "8e8c642b4e44f88674baec35cd8550f748c0e325363e2f20bf7672967f57fd6e",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_primary_evaluation/native_summary.csv",
+      "rows": 124,
+      "sha256": "0f4b8ab8ef6074f14ebaf36ad3d2d64c823848993d7d45a8247c6eb73802492e",
+      "source_sha256": "2455c80b6b4be95caba7cb64907d8edbe161c64d6a4aeeb4c547868122a5c24e",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "report_primary_evaluation/public_contrasts.csv",
+      "rows": 162,
+      "sha256": "536be0ab1185e32cd117385374ff055f0cb18a9364222f3e8e68982337a9f6d7",
+      "source_sha256": "df32b42578aef0378c67d8402a5d1223aef8800be4189d4938f8f09ee8bc24bc",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_primary_evaluation/public_organ_counts.csv",
+      "rows": 14,
+      "sha256": "d51fd0de46b4f1e3f03f5950e3148a18dba606b61a4cc2c44200eb16919bec67",
+      "source_sha256": "adf22d359b42dcd4d2235944049b2a4e8bbf9c3d72eb3197f83be0e96f8a212c",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "report_primary_evaluation/public_summary.csv",
+      "rows": 144,
+      "sha256": "b36b19679cc81a3fd343d8f70e0b006b24833f7a20e16d18a955c07de8be8a80",
+      "source_sha256": "b0c08aef4597ef115ad0829d17b0b654d00946f22dc9ee3bb146f254a8e0f770",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "report_stratification/cohort_composition.csv",
+      "rows": 46,
+      "sha256": "f5a1a07e8c8d24005952e24eb75b615ef3fcbfb151ec6e58f82f7c3d35f793a9",
+      "source_sha256": "3986b928a58c9cabb07c27d6c29b43d665090fa01a411ea3a07beed9084e46ce",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "report_stratification/method_strata.csv",
+      "rows": 1366,
+      "sha256": "a3c36b5a51a5aa4dffa5883e90b67da4e775e04ac51f139d8c698b6b21ae2276",
+      "source_sha256": "2a7fa04902de12c95db5d0f185141c29f37b3ac1af19185da380bb9fa824916c",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "report_stratification/paired_contrasts.csv",
+      "rows": 126,
+      "sha256": "4e5b123b8a7909f07d7b412091a178416d66d258d01901e2af0407400d713927",
+      "source_sha256": "337a4d593f2bbd4e9d73b870f34d0032a937959259c7564b40485794f406231a",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "report_stratification/stratum_contrasts.csv",
+      "rows": 1065,
+      "sha256": "34c8c32619ff6cd248a51fdec2fb16cfd17a60b2667844490af2bcb4035bdbd3",
+      "source_sha256": "9eba389a2954ecb98331a2c41858ae1393b0385463a4f00b111ef67b89b2b1a8",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "segmentation_class_comparison/class_set_summary.csv",
+      "rows": 24,
+      "sha256": "7455e26128c99a194a82e94fe532d7bed182d9ffc39a14156b5661658871b604",
+      "source_sha256": "7455e26128c99a194a82e94fe532d7bed182d9ffc39a14156b5661658871b604",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "segmentation_class_comparison/class_summary.csv",
+      "rows": 32,
+      "sha256": "2a6d3b2f8b9789bccbd9111307ad171c1210c09b2ff5e29574f355a32b08b1ca",
+      "source_sha256": "2a6d3b2f8b9789bccbd9111307ad171c1210c09b2ff5e29574f355a32b08b1ca",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "segmentation_class_comparison/mixed_class_summary.csv",
+      "rows": 16,
+      "sha256": "00f16305f46ff1787ef2515e8bfd32ecfa08f37ca9af4af44eb52292219e7c2e",
+      "source_sha256": "ad958cd6cda21fb055e35fe1dd7dc4adff0ae50948f9ab08c7cbbebe882297da",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "tissue_context_sensitivity/availability_counts.csv",
+      "rows": 27,
+      "sha256": "1432afa2122d1253cc34c1a7d4d3cd5ffded8a9aee22cff902806bcdc8d23e19",
+      "source_sha256": "fc878660b049a973d2367dbb7749a1cd3b343b9d277279324dfc02ab0bb07a23",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "tissue_context_sensitivity/diagnostic_transitions.csv",
+      "rows": 20,
+      "sha256": "dba50ee3f42f140a5373c1dae9cc60a4fda9b3e7fe10868f7b4e5c0986892b1f",
+      "source_sha256": "d94d179f36589706c4395a2a26ef1f442baafcd2f423fc873cad14844f57fa87",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "tissue_context_sensitivity/paired_contrasts.csv",
+      "rows": 40,
+      "sha256": "4059701a0ce234c9820bad33d1615ff5d69206603614671269bc94b0740b80fb",
+      "source_sha256": "d56c056faa2d655ef1293e8a4ffa9387784ffb7c2629a2cce94075a72dade780",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "training_report_overlap/evaluation_case_membership.csv",
+      "rows": 1200,
+      "sha256": "8819eb5b39da644c191777423b2108947afdbdc22cb0e6939ddcd4495ebde77d",
+      "source_sha256": "8819eb5b39da644c191777423b2108947afdbdc22cb0e6939ddcd4495ebde77d",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "training_report_overlap/method_summary.csv",
+      "rows": 80,
+      "sha256": "5d29c1b447bd0f22546b631609ae9113183b77d74b43b227735afe4635bda760",
+      "source_sha256": "5d29c1b447bd0f22546b631609ae9113183b77d74b43b227735afe4635bda760",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "training_report_overlap/paired_contrasts.csv",
+      "rows": 70,
+      "sha256": "e0031c8408ac8e92a398084af8d0d384f2718609864ae0e9f6274e68fd94a8a1",
+      "source_sha256": "adc0f03fdd8952ff59bfe6057e4cbaf7d3afb2e5214a41e63ad26c831cac61b2",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
+    },
+    {
+      "file": "training_report_overlap/per_cancer.csv",
+      "rows": 1542,
+      "sha256": "c642470f71ed0f5bdb71fce8858a4edfb0f730ed6a64ab6a219da5c63544ca48",
+      "source_sha256": "c642470f71ed0f5bdb71fce8858a4edfb0f730ed6a64ab6a219da5c63544ca48",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "training_report_overlap/public_case_links.csv",
+      "rows": 35,
+      "sha256": "e12940cc8db85599b4074ccd04d76a1ac9c5c5bdc01c2b350ec2d3f560be35b9",
+      "source_sha256": "e12940cc8db85599b4074ccd04d76a1ac9c5c5bdc01c2b350ec2d3f560be35b9",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "training_report_overlap/split_inventory.csv",
+      "rows": 51,
+      "sha256": "50af55ac443f5aff16f9a2bb77f27ea85406a3b18aa97f4b5c464d532076b57d",
+      "source_sha256": "50af55ac443f5aff16f9a2bb77f27ea85406a3b18aa97f4b5c464d532076b57d",
+      "removed_provenance_columns": []
+    },
+    {
+      "file": "aggregate_results/report_entity_scope_sensitivity.json",
+      "sha256": "ff469a59c24b18c2d7ff11c3ebf64280f58bb47b18de5965daefb5ee29b19c7f",
+      "source_sha256": "fd4659692718290fd517322b451616b7c1537161d3efb0ffd49a6586b68be6d9",
+      "numerical_arrays_unchanged": true
+    },
+    {
+      "file": "aggregate_results/report_cohort_scope_sensitivity.json",
+      "sha256": "f0beae7fa14a022744ac50ff46ef71d7df47ae86a414853d8f4666240ca4328c",
+      "source_sha256": "1919fd0ea8a8c38144a01dce5d5cf441c3cb99c764cb397ca074c6fcd981bf03",
+      "numerical_arrays_unchanged": true
+    }
+  ]
+}

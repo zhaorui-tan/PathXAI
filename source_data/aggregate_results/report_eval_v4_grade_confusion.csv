@@ -1,0 +1,746 @@
+count,method,prediction_class,reader,reference_class,scope,system
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,fuhrman4
+4,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,fuhrman4
+6,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,fuhrman4
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,4,public_original508,fuhrman4
+1,Visual + Qwen,1,TCGA,1,public_original508,histologic3
+2,Visual + Qwen,2,TCGA,1,public_original508,histologic3
+6,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,histologic3
+20,Visual + Qwen,2,TCGA,2,public_original508,histologic3
+2,Visual + Qwen,3,TCGA,2,public_original508,histologic3
+43,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,histologic3
+7,Visual + Qwen,2,TCGA,3,public_original508,histologic3
+27,Visual + Qwen,3,TCGA,3,public_original508,histologic3
+66,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,histologic3
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,nuclear3
+4,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,who4
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,fuhrman4
+4,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,fuhrman4
+6,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,fuhrman4
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,4,public_original508,fuhrman4
+2,DeepSeek,1,TCGA,1,public_original508,histologic3
+4,DeepSeek,2,TCGA,1,public_original508,histologic3
+2,DeepSeek,3,TCGA,1,public_original508,histologic3
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,histologic3
+1,DeepSeek,1,TCGA,2,public_original508,histologic3
+36,DeepSeek,2,TCGA,2,public_original508,histologic3
+21,DeepSeek,3,TCGA,2,public_original508,histologic3
+7,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,histologic3
+14,DeepSeek,2,TCGA,3,public_original508,histologic3
+67,DeepSeek,3,TCGA,3,public_original508,histologic3
+19,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,histologic3
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,nuclear3
+1,DeepSeek,1,TCGA,2,public_original508,who4
+3,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,who4
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,fuhrman4
+4,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,fuhrman4
+6,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,fuhrman4
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,4,public_original508,fuhrman4
+2,GLM,1,TCGA,1,public_original508,histologic3
+2,GLM,2,TCGA,1,public_original508,histologic3
+1,GLM,3,TCGA,1,public_original508,histologic3
+4,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,histologic3
+4,GLM,1,TCGA,2,public_original508,histologic3
+28,GLM,2,TCGA,2,public_original508,histologic3
+17,GLM,3,TCGA,2,public_original508,histologic3
+16,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,histologic3
+11,GLM,1,TCGA,3,public_original508,histologic3
+9,GLM,2,TCGA,3,public_original508,histologic3
+58,GLM,3,TCGA,3,public_original508,histologic3
+22,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,histologic3
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,nuclear3
+2,GLM,2,TCGA,2,public_original508,who4
+2,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,who4
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,fuhrman4
+4,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,fuhrman4
+6,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,fuhrman4
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,4,public_original508,fuhrman4
+4,Visual + MedGemma,3,TCGA,1,public_original508,histologic3
+5,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,histologic3
+1,Visual + MedGemma,2,TCGA,2,public_original508,histologic3
+32,Visual + MedGemma,3,TCGA,2,public_original508,histologic3
+32,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,histologic3
+54,Visual + MedGemma,3,TCGA,3,public_original508,histologic3
+46,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,histologic3
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,nuclear3
+4,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,who4
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,fuhrman4
+4,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,fuhrman4
+6,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,fuhrman4
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,4,public_original508,fuhrman4
+8,PathAgent,3,TCGA,1,public_original508,histologic3
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,histologic3
+57,PathAgent,3,TCGA,2,public_original508,histologic3
+8,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,histologic3
+85,PathAgent,3,TCGA,3,public_original508,histologic3
+15,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,histologic3
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,nuclear3
+4,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,who4
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,fuhrman4
+4,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,fuhrman4
+6,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,fuhrman4
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_original508,fuhrman4
+1,SO1_D1,1,TCGA,1,public_original508,histologic3
+2,SO1_D1,2,TCGA,1,public_original508,histologic3
+2,SO1_D1,3,TCGA,1,public_original508,histologic3
+4,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,histologic3
+28,SO1_D1,2,TCGA,2,public_original508,histologic3
+4,SO1_D1,3,TCGA,2,public_original508,histologic3
+33,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,histologic3
+8,SO1_D1,2,TCGA,3,public_original508,histologic3
+40,SO1_D1,3,TCGA,3,public_original508,histologic3
+52,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,histologic3
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,nuclear3
+4,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,who4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,fuhrman4
+4,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,fuhrman4
+6,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,fuhrman4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_original508,fuhrman4
+1,SO4_D1,1,TCGA,1,public_original508,histologic3
+4,SO4_D1,2,TCGA,1,public_original508,histologic3
+1,SO4_D1,3,TCGA,1,public_original508,histologic3
+3,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_original508,histologic3
+53,SO4_D1,2,TCGA,2,public_original508,histologic3
+1,SO4_D1,3,TCGA,2,public_original508,histologic3
+11,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,histologic3
+1,SO4_D1,1,TCGA,3,public_original508,histologic3
+24,SO4_D1,2,TCGA,3,public_original508,histologic3
+50,SO4_D1,3,TCGA,3,public_original508,histologic3
+25,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,histologic3
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_original508,nuclear3
+1,SO4_D1,3,TCGA,2,public_original508,who4
+3,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_original508,who4
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,fuhrman4
+25,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,fuhrman4
+52,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,fuhrman4
+17,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,fuhrman4
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,6,public_expansion1200,gleason10
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,10,public_expansion1200,gleason10
+11,Visual + Qwen,2,TCGA,1,public_expansion1200,histologic3
+4,Visual + Qwen,3,TCGA,1,public_expansion1200,histologic3
+49,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,histologic3
+52,Visual + Qwen,2,TCGA,2,public_expansion1200,histologic3
+36,Visual + Qwen,3,TCGA,2,public_expansion1200,histologic3
+113,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,histologic3
+1,Visual + Qwen,1,TCGA,3,public_expansion1200,histologic3
+20,Visual + Qwen,2,TCGA,3,public_expansion1200,histologic3
+104,Visual + Qwen,3,TCGA,3,public_expansion1200,histologic3
+107,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,histologic3
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,isup5
+2,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,nuclear3
+11,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,nuclear3
+7,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,nuclear3
+1,Visual + Qwen,2,TCGA,1,public_expansion1200,who4
+3,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,who4
+1,Visual + Qwen,2,TCGA,2,public_expansion1200,who4
+11,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,who4
+3,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,who4
+2,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,who4
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,fuhrman4
+2,DeepSeek,2,TCGA,2,public_expansion1200,fuhrman4
+23,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,fuhrman4
+52,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,fuhrman4
+17,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,fuhrman4
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,6,public_expansion1200,gleason10
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,10,public_expansion1200,gleason10
+1,DeepSeek,1,TCGA,1,public_expansion1200,histologic3
+24,DeepSeek,2,TCGA,1,public_expansion1200,histologic3
+6,DeepSeek,3,TCGA,1,public_expansion1200,histologic3
+33,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,histologic3
+2,DeepSeek,1,TCGA,2,public_expansion1200,histologic3
+102,DeepSeek,2,TCGA,2,public_expansion1200,histologic3
+56,DeepSeek,3,TCGA,2,public_expansion1200,histologic3
+41,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,histologic3
+60,DeepSeek,2,TCGA,3,public_expansion1200,histologic3
+137,DeepSeek,3,TCGA,3,public_expansion1200,histologic3
+35,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,histologic3
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,isup5
+2,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,nuclear3
+11,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,nuclear3
+7,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,nuclear3
+2,DeepSeek,2,TCGA,1,public_expansion1200,who4
+2,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,who4
+4,DeepSeek,4,TCGA,2,public_expansion1200,who4
+8,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,who4
+3,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,who4
+2,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,who4
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,fuhrman4
+25,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,fuhrman4
+52,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,fuhrman4
+17,GLM,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,fuhrman4
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,6,public_expansion1200,gleason10
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,10,public_expansion1200,gleason10
+3,GLM,1,TCGA,1,public_expansion1200,histologic3
+18,GLM,2,TCGA,1,public_expansion1200,histologic3
+7,GLM,3,TCGA,1,public_expansion1200,histologic3
+36,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,histologic3
+10,GLM,1,TCGA,2,public_expansion1200,histologic3
+92,GLM,2,TCGA,2,public_expansion1200,histologic3
+47,GLM,3,TCGA,2,public_expansion1200,histologic3
+52,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,histologic3
+7,GLM,1,TCGA,3,public_expansion1200,histologic3
+39,GLM,2,TCGA,3,public_expansion1200,histologic3
+126,GLM,3,TCGA,3,public_expansion1200,histologic3
+60,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,histologic3
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,isup5
+2,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,nuclear3
+11,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,nuclear3
+7,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,nuclear3
+4,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,who4
+3,GLM,2,TCGA,2,public_expansion1200,who4
+9,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,who4
+1,GLM,3,TCGA,3,public_expansion1200,who4
+2,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,who4
+1,GLM,3,TCGA,4,public_expansion1200,who4
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,who4
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,fuhrman4
+25,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,fuhrman4
+52,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,fuhrman4
+17,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,fuhrman4
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,6,public_expansion1200,gleason10
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,10,public_expansion1200,gleason10
+28,Visual + MedGemma,3,TCGA,1,public_expansion1200,histologic3
+36,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,histologic3
+119,Visual + MedGemma,3,TCGA,2,public_expansion1200,histologic3
+82,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,histologic3
+2,Visual + MedGemma,1,TCGA,3,public_expansion1200,histologic3
+2,Visual + MedGemma,2,TCGA,3,public_expansion1200,histologic3
+142,Visual + MedGemma,3,TCGA,3,public_expansion1200,histologic3
+86,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,histologic3
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,isup5
+2,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,nuclear3
+11,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,nuclear3
+7,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,nuclear3
+4,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,who4
+12,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,who4
+3,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,who4
+2,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,who4
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,fuhrman4
+25,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,fuhrman4
+52,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,fuhrman4
+17,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,fuhrman4
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,6,public_expansion1200,gleason10
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,10,public_expansion1200,gleason10
+64,PathAgent,3,TCGA,1,public_expansion1200,histologic3
+200,PathAgent,3,TCGA,2,public_expansion1200,histologic3
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,histologic3
+232,PathAgent,3,TCGA,3,public_expansion1200,histologic3
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,isup5
+2,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,nuclear3
+11,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,nuclear3
+7,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,nuclear3
+4,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,who4
+12,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,who4
+3,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,who4
+2,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,who4
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,fuhrman4
+25,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,fuhrman4
+52,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,fuhrman4
+17,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,fuhrman4
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,6,public_expansion1200,gleason10
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,10,public_expansion1200,gleason10
+13,SO1_D1,2,TCGA,1,public_expansion1200,histologic3
+9,SO1_D1,3,TCGA,1,public_expansion1200,histologic3
+42,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,histologic3
+69,SO1_D1,2,TCGA,2,public_expansion1200,histologic3
+48,SO1_D1,3,TCGA,2,public_expansion1200,histologic3
+84,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,histologic3
+1,SO1_D1,1,TCGA,3,public_expansion1200,histologic3
+21,SO1_D1,2,TCGA,3,public_expansion1200,histologic3
+127,SO1_D1,3,TCGA,3,public_expansion1200,histologic3
+83,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,histologic3
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,isup5
+2,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,nuclear3
+11,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,nuclear3
+7,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,nuclear3
+4,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,who4
+3,SO1_D1,4,TCGA,2,public_expansion1200,who4
+9,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,who4
+1,SO1_D1,4,TCGA,3,public_expansion1200,who4
+2,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,who4
+2,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,who4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,fuhrman4
+25,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,fuhrman4
+52,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,fuhrman4
+17,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,fuhrman4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,6,public_expansion1200,gleason10
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,10,public_expansion1200,gleason10
+21,SO4_D1,2,TCGA,1,public_expansion1200,histologic3
+14,SO4_D1,3,TCGA,1,public_expansion1200,histologic3
+29,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,histologic3
+1,SO4_D1,1,TCGA,2,public_expansion1200,histologic3
+103,SO4_D1,2,TCGA,2,public_expansion1200,histologic3
+52,SO4_D1,3,TCGA,2,public_expansion1200,histologic3
+45,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,histologic3
+1,SO4_D1,1,TCGA,3,public_expansion1200,histologic3
+52,SO4_D1,2,TCGA,3,public_expansion1200,histologic3
+131,SO4_D1,3,TCGA,3,public_expansion1200,histologic3
+48,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,histologic3
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,isup5
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,nuclear3
+11,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,nuclear3
+7,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,nuclear3
+1,SO4_D1,2,TCGA,1,public_expansion1200,who4
+1,SO4_D1,3,TCGA,1,public_expansion1200,who4
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_expansion1200,who4
+1,SO4_D1,2,TCGA,2,public_expansion1200,who4
+1,SO4_D1,3,TCGA,2,public_expansion1200,who4
+1,SO4_D1,4,TCGA,2,public_expansion1200,who4
+9,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_expansion1200,who4
+1,SO4_D1,4,TCGA,3,public_expansion1200,who4
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_expansion1200,who4
+1,SO4_D1,4,TCGA,4,public_expansion1200,who4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_expansion1200,who4
+2,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,fuhrman4
+29,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,fuhrman4
+58,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,fuhrman4
+18,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,fuhrman4
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,6,public_pooled1708,gleason10
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,10,public_pooled1708,gleason10
+1,Visual + Qwen,1,TCGA,1,public_pooled1708,histologic3
+13,Visual + Qwen,2,TCGA,1,public_pooled1708,histologic3
+4,Visual + Qwen,3,TCGA,1,public_pooled1708,histologic3
+55,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,histologic3
+72,Visual + Qwen,2,TCGA,2,public_pooled1708,histologic3
+38,Visual + Qwen,3,TCGA,2,public_pooled1708,histologic3
+156,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,histologic3
+1,Visual + Qwen,1,TCGA,3,public_pooled1708,histologic3
+27,Visual + Qwen,2,TCGA,3,public_pooled1708,histologic3
+131,Visual + Qwen,3,TCGA,3,public_pooled1708,histologic3
+173,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,histologic3
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,isup5
+2,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,nuclear3
+11,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,nuclear3
+8,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,nuclear3
+1,Visual + Qwen,2,TCGA,1,public_pooled1708,who4
+3,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,who4
+1,Visual + Qwen,2,TCGA,2,public_pooled1708,who4
+15,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,who4
+3,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,who4
+2,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,who4
+2,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,fuhrman4
+2,DeepSeek,2,TCGA,2,public_pooled1708,fuhrman4
+27,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,fuhrman4
+58,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,fuhrman4
+18,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,fuhrman4
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,6,public_pooled1708,gleason10
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,10,public_pooled1708,gleason10
+3,DeepSeek,1,TCGA,1,public_pooled1708,histologic3
+28,DeepSeek,2,TCGA,1,public_pooled1708,histologic3
+8,DeepSeek,3,TCGA,1,public_pooled1708,histologic3
+34,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,histologic3
+3,DeepSeek,1,TCGA,2,public_pooled1708,histologic3
+138,DeepSeek,2,TCGA,2,public_pooled1708,histologic3
+77,DeepSeek,3,TCGA,2,public_pooled1708,histologic3
+48,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,histologic3
+74,DeepSeek,2,TCGA,3,public_pooled1708,histologic3
+204,DeepSeek,3,TCGA,3,public_pooled1708,histologic3
+54,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,histologic3
+1,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,isup5
+2,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,nuclear3
+11,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,nuclear3
+8,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,nuclear3
+2,DeepSeek,2,TCGA,1,public_pooled1708,who4
+2,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,who4
+1,DeepSeek,1,TCGA,2,public_pooled1708,who4
+4,DeepSeek,4,TCGA,2,public_pooled1708,who4
+11,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,who4
+3,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,who4
+2,DeepSeek,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,who4
+2,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,fuhrman4
+29,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,fuhrman4
+58,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,fuhrman4
+18,GLM,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,fuhrman4
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,6,public_pooled1708,gleason10
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,10,public_pooled1708,gleason10
+5,GLM,1,TCGA,1,public_pooled1708,histologic3
+20,GLM,2,TCGA,1,public_pooled1708,histologic3
+8,GLM,3,TCGA,1,public_pooled1708,histologic3
+40,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,histologic3
+14,GLM,1,TCGA,2,public_pooled1708,histologic3
+120,GLM,2,TCGA,2,public_pooled1708,histologic3
+64,GLM,3,TCGA,2,public_pooled1708,histologic3
+68,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,histologic3
+18,GLM,1,TCGA,3,public_pooled1708,histologic3
+48,GLM,2,TCGA,3,public_pooled1708,histologic3
+184,GLM,3,TCGA,3,public_pooled1708,histologic3
+82,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,histologic3
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,isup5
+2,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,nuclear3
+11,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,nuclear3
+8,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,nuclear3
+4,GLM,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,who4
+5,GLM,2,TCGA,2,public_pooled1708,who4
+11,GLM,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,who4
+1,GLM,3,TCGA,3,public_pooled1708,who4
+2,GLM,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,who4
+1,GLM,3,TCGA,4,public_pooled1708,who4
+1,GLM,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,who4
+2,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,fuhrman4
+29,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,fuhrman4
+58,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,fuhrman4
+18,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,fuhrman4
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,6,public_pooled1708,gleason10
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,10,public_pooled1708,gleason10
+32,Visual + MedGemma,3,TCGA,1,public_pooled1708,histologic3
+41,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,histologic3
+1,Visual + MedGemma,2,TCGA,2,public_pooled1708,histologic3
+151,Visual + MedGemma,3,TCGA,2,public_pooled1708,histologic3
+114,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,histologic3
+2,Visual + MedGemma,1,TCGA,3,public_pooled1708,histologic3
+2,Visual + MedGemma,2,TCGA,3,public_pooled1708,histologic3
+196,Visual + MedGemma,3,TCGA,3,public_pooled1708,histologic3
+132,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,histologic3
+1,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,isup5
+2,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,nuclear3
+11,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,nuclear3
+8,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,nuclear3
+4,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,who4
+16,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,who4
+3,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,who4
+2,Visual + MedGemma,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,who4
+2,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,fuhrman4
+29,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,fuhrman4
+58,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,fuhrman4
+18,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,fuhrman4
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,6,public_pooled1708,gleason10
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,10,public_pooled1708,gleason10
+72,PathAgent,3,TCGA,1,public_pooled1708,histologic3
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,histologic3
+257,PathAgent,3,TCGA,2,public_pooled1708,histologic3
+9,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,histologic3
+317,PathAgent,3,TCGA,3,public_pooled1708,histologic3
+15,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,histologic3
+1,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,isup5
+2,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,nuclear3
+11,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,nuclear3
+8,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,nuclear3
+4,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,who4
+16,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,who4
+3,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,who4
+2,PathAgent,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,who4
+2,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,fuhrman4
+29,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,fuhrman4
+58,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,fuhrman4
+18,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,fuhrman4
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,6,public_pooled1708,gleason10
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,10,public_pooled1708,gleason10
+1,SO1_D1,1,TCGA,1,public_pooled1708,histologic3
+15,SO1_D1,2,TCGA,1,public_pooled1708,histologic3
+11,SO1_D1,3,TCGA,1,public_pooled1708,histologic3
+46,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,histologic3
+97,SO1_D1,2,TCGA,2,public_pooled1708,histologic3
+52,SO1_D1,3,TCGA,2,public_pooled1708,histologic3
+117,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,histologic3
+1,SO1_D1,1,TCGA,3,public_pooled1708,histologic3
+29,SO1_D1,2,TCGA,3,public_pooled1708,histologic3
+167,SO1_D1,3,TCGA,3,public_pooled1708,histologic3
+135,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,histologic3
+1,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,isup5
+2,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,nuclear3
+11,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,nuclear3
+8,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,nuclear3
+4,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,who4
+3,SO1_D1,4,TCGA,2,public_pooled1708,who4
+13,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,who4
+1,SO1_D1,4,TCGA,3,public_pooled1708,who4
+2,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,who4
+2,SO1_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,who4
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,fuhrman4
+29,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,fuhrman4
+58,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,fuhrman4
+18,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,fuhrman4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,6,public_pooled1708,gleason10
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,10,public_pooled1708,gleason10
+1,SO4_D1,1,TCGA,1,public_pooled1708,histologic3
+25,SO4_D1,2,TCGA,1,public_pooled1708,histologic3
+15,SO4_D1,3,TCGA,1,public_pooled1708,histologic3
+32,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,histologic3
+1,SO4_D1,1,TCGA,2,public_pooled1708,histologic3
+156,SO4_D1,2,TCGA,2,public_pooled1708,histologic3
+53,SO4_D1,3,TCGA,2,public_pooled1708,histologic3
+56,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,histologic3
+2,SO4_D1,1,TCGA,3,public_pooled1708,histologic3
+76,SO4_D1,2,TCGA,3,public_pooled1708,histologic3
+181,SO4_D1,3,TCGA,3,public_pooled1708,histologic3
+73,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,histologic3
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,isup5
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,nuclear3
+11,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,nuclear3
+8,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,nuclear3
+1,SO4_D1,2,TCGA,1,public_pooled1708,who4
+1,SO4_D1,3,TCGA,1,public_pooled1708,who4
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,public_pooled1708,who4
+1,SO4_D1,2,TCGA,2,public_pooled1708,who4
+2,SO4_D1,3,TCGA,2,public_pooled1708,who4
+1,SO4_D1,4,TCGA,2,public_pooled1708,who4
+12,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,public_pooled1708,who4
+1,SO4_D1,4,TCGA,3,public_pooled1708,who4
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,public_pooled1708,who4
+1,SO4_D1,4,TCGA,4,public_pooled1708,who4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,public_pooled1708,who4
+1,SS5,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_b46,fuhrman4
+1,SS5,2,TCGA,2,agent_b46,histologic3
+5,SS5,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_b46,histologic3
+1,SS5,2,TCGA,3,agent_b46,histologic3
+4,SS5,3,TCGA,3,agent_b46,histologic3
+5,SS5,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_b46,histologic3
+1,SS6,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_b46,fuhrman4
+2,SS6,2,TCGA,2,agent_b46,histologic3
+4,SS6,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_b46,histologic3
+2,SS6,2,TCGA,3,agent_b46,histologic3
+3,SS6,3,TCGA,3,agent_b46,histologic3
+5,SS6,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_b46,histologic3
+1,SS7,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_b46,fuhrman4
+3,SS7,2,TCGA,2,agent_b46,histologic3
+3,SS7,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_b46,histologic3
+1,SS7,2,TCGA,3,agent_b46,histologic3
+1,SS7,3,TCGA,3,agent_b46,histologic3
+8,SS7,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_b46,histologic3
+1,SS7,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_c471,fuhrman4
+4,SS7,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,fuhrman4
+6,SS7,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,fuhrman4
+1,SS7,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_c471,fuhrman4
+2,SS7,2,TCGA,1,agent_c471,histologic3
+1,SS7,3,TCGA,1,agent_c471,histologic3
+5,SS7,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_c471,histologic3
+22,SS7,2,TCGA,2,agent_c471,histologic3
+1,SS7,3,TCGA,2,agent_c471,histologic3
+42,SS7,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,histologic3
+1,SS7,1,TCGA,3,agent_c471,histologic3
+4,SS7,2,TCGA,3,agent_c471,histologic3
+26,SS7,3,TCGA,3,agent_c471,histologic3
+68,SS7,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,histologic3
+1,SS7,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,nuclear3
+3,SS7,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,who4
+1,SS20,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_c471,fuhrman4
+4,SS20,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,fuhrman4
+6,SS20,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,fuhrman4
+1,SS20,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_c471,fuhrman4
+3,SS20,2,TCGA,1,agent_c471,histologic3
+1,SS20,3,TCGA,1,agent_c471,histologic3
+4,SS20,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_c471,histologic3
+31,SS20,2,TCGA,2,agent_c471,histologic3
+4,SS20,3,TCGA,2,agent_c471,histologic3
+30,SS20,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,histologic3
+1,SS20,1,TCGA,3,agent_c471,histologic3
+10,SS20,2,TCGA,3,agent_c471,histologic3
+37,SS20,3,TCGA,3,agent_c471,histologic3
+51,SS20,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,histologic3
+1,SS20,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,nuclear3
+3,SS20,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,who4
+1,SS21,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_c471,fuhrman4
+4,SS21,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,fuhrman4
+6,SS21,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,fuhrman4
+1,SS21,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_c471,fuhrman4
+3,SS21,2,TCGA,1,agent_c471,histologic3
+1,SS21,3,TCGA,1,agent_c471,histologic3
+4,SS21,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_c471,histologic3
+33,SS21,2,TCGA,2,agent_c471,histologic3
+2,SS21,3,TCGA,2,agent_c471,histologic3
+30,SS21,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,histologic3
+1,SS21,1,TCGA,3,agent_c471,histologic3
+12,SS21,2,TCGA,3,agent_c471,histologic3
+48,SS21,3,TCGA,3,agent_c471,histologic3
+38,SS21,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,histologic3
+1,SS21,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_c471,nuclear3
+3,SS21,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_c471,who4
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,fuhrman4
+25,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,fuhrman4
+52,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,fuhrman4
+17,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,fuhrman4
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,6,input_policy_shared507,gleason10
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,10,input_policy_shared507,gleason10
+11,Visual + Qwen,2,TCGA,1,input_policy_shared507,histologic3
+4,Visual + Qwen,3,TCGA,1,input_policy_shared507,histologic3
+49,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,histologic3
+52,Visual + Qwen,2,TCGA,2,input_policy_shared507,histologic3
+36,Visual + Qwen,3,TCGA,2,input_policy_shared507,histologic3
+113,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,histologic3
+1,Visual + Qwen,1,TCGA,3,input_policy_shared507,histologic3
+20,Visual + Qwen,2,TCGA,3,input_policy_shared507,histologic3
+104,Visual + Qwen,3,TCGA,3,input_policy_shared507,histologic3
+107,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,histologic3
+1,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,isup5
+2,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,nuclear3
+11,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,nuclear3
+7,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,nuclear3
+1,Visual + Qwen,2,TCGA,1,input_policy_shared507,who4
+3,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,who4
+1,Visual + Qwen,2,TCGA,2,input_policy_shared507,who4
+11,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,who4
+3,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,who4
+2,Visual + Qwen,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,who4
+1,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,fuhrman4
+25,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,fuhrman4
+52,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,fuhrman4
+17,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,fuhrman4
+1,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,6,input_policy_shared507,gleason10
+1,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,10,input_policy_shared507,gleason10
+1,SR1_old,1,TCGA,1,input_policy_shared507,histologic3
+9,SR1_old,2,TCGA,1,input_policy_shared507,histologic3
+3,SR1_old,3,TCGA,1,input_policy_shared507,histologic3
+51,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,histologic3
+1,SR1_old,1,TCGA,2,input_policy_shared507,histologic3
+48,SR1_old,2,TCGA,2,input_policy_shared507,histologic3
+33,SR1_old,3,TCGA,2,input_policy_shared507,histologic3
+119,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,histologic3
+2,SR1_old,1,TCGA,3,input_policy_shared507,histologic3
+21,SR1_old,2,TCGA,3,input_policy_shared507,histologic3
+110,SR1_old,3,TCGA,3,input_policy_shared507,histologic3
+99,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,histologic3
+1,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,isup5
+2,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,nuclear3
+11,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,nuclear3
+7,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,nuclear3
+1,SR1_old,2,TCGA,1,input_policy_shared507,who4
+3,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,who4
+12,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,who4
+3,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,who4
+2,SR1_old,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,who4
+1,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,fuhrman4
+25,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,fuhrman4
+52,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,fuhrman4
+17,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,fuhrman4
+1,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,6,input_policy_shared507,gleason10
+1,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,10,input_policy_shared507,gleason10
+12,SO0_new,2,TCGA,1,input_policy_shared507,histologic3
+10,SO0_new,3,TCGA,1,input_policy_shared507,histologic3
+42,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,histologic3
+52,SO0_new,2,TCGA,2,input_policy_shared507,histologic3
+32,SO0_new,3,TCGA,2,input_policy_shared507,histologic3
+117,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,histologic3
+1,SO0_new,1,TCGA,3,input_policy_shared507,histologic3
+21,SO0_new,2,TCGA,3,input_policy_shared507,histologic3
+103,SO0_new,3,TCGA,3,input_policy_shared507,histologic3
+107,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,histologic3
+1,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,isup5
+2,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,nuclear3
+11,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,nuclear3
+7,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,nuclear3
+1,SO0_new,2,TCGA,1,input_policy_shared507,who4
+3,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,who4
+1,SO0_new,2,TCGA,2,input_policy_shared507,who4
+11,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,who4
+1,SO0_new,3,TCGA,3,input_policy_shared507,who4
+2,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,who4
+2,SO0_new,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,who4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,fuhrman4
+25,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,fuhrman4
+52,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,fuhrman4
+17,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,fuhrman4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,6,input_policy_shared507,gleason10
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,10,input_policy_shared507,gleason10
+21,SO4_D1,2,TCGA,1,input_policy_shared507,histologic3
+14,SO4_D1,3,TCGA,1,input_policy_shared507,histologic3
+29,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,histologic3
+1,SO4_D1,1,TCGA,2,input_policy_shared507,histologic3
+103,SO4_D1,2,TCGA,2,input_policy_shared507,histologic3
+52,SO4_D1,3,TCGA,2,input_policy_shared507,histologic3
+45,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,histologic3
+1,SO4_D1,1,TCGA,3,input_policy_shared507,histologic3
+52,SO4_D1,2,TCGA,3,input_policy_shared507,histologic3
+131,SO4_D1,3,TCGA,3,input_policy_shared507,histologic3
+48,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,histologic3
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,isup5
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,nuclear3
+11,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,nuclear3
+7,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,nuclear3
+1,SO4_D1,2,TCGA,1,input_policy_shared507,who4
+1,SO4_D1,3,TCGA,1,input_policy_shared507,who4
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,1,input_policy_shared507,who4
+1,SO4_D1,2,TCGA,2,input_policy_shared507,who4
+1,SO4_D1,3,TCGA,2,input_policy_shared507,who4
+1,SO4_D1,4,TCGA,2,input_policy_shared507,who4
+9,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,2,input_policy_shared507,who4
+1,SO4_D1,4,TCGA,3,input_policy_shared507,who4
+2,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,3,input_policy_shared507,who4
+1,SO4_D1,4,TCGA,4,input_policy_shared507,who4
+1,SO4_D1,MISSING_OR_INCOMPATIBLE,TCGA,4,input_policy_shared507,who4
+1,SO1,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,fuhrman4
+25,SO1,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,fuhrman4
+52,SO1,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,fuhrman4
+17,SO1,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_d508,fuhrman4
+1,SO1,MISSING_OR_INCOMPATIBLE,TCGA,6,agent_d508,gleason10
+1,SO1,MISSING_OR_INCOMPATIBLE,TCGA,10,agent_d508,gleason10
+13,SO1,2,TCGA,1,agent_d508,histologic3
+9,SO1,3,TCGA,1,agent_d508,histologic3
+42,SO1,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,histologic3
+69,SO1,2,TCGA,2,agent_d508,histologic3
+48,SO1,3,TCGA,2,agent_d508,histologic3
+84,SO1,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,histologic3
+1,SO1,1,TCGA,3,agent_d508,histologic3
+21,SO1,2,TCGA,3,agent_d508,histologic3
+127,SO1,3,TCGA,3,agent_d508,histologic3
+83,SO1,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,histologic3
+1,SO1,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,isup5
+2,SO1,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,nuclear3
+11,SO1,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,nuclear3
+7,SO1,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,nuclear3
+4,SO1,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,who4
+3,SO1,4,TCGA,2,agent_d508,who4
+9,SO1,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,who4
+1,SO1,4,TCGA,3,agent_d508,who4
+2,SO1,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,who4
+2,SO1,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_d508,who4
+1,SO3,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,fuhrman4
+25,SO3,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,fuhrman4
+52,SO3,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,fuhrman4
+17,SO3,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_d508,fuhrman4
+1,SO3,MISSING_OR_INCOMPATIBLE,TCGA,6,agent_d508,gleason10
+1,SO3,MISSING_OR_INCOMPATIBLE,TCGA,10,agent_d508,gleason10
+13,SO3,2,TCGA,1,agent_d508,histologic3
+8,SO3,3,TCGA,1,agent_d508,histologic3
+43,SO3,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,histologic3
+1,SO3,1,TCGA,2,agent_d508,histologic3
+56,SO3,2,TCGA,2,agent_d508,histologic3
+52,SO3,3,TCGA,2,agent_d508,histologic3
+92,SO3,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,histologic3
+27,SO3,2,TCGA,3,agent_d508,histologic3
+129,SO3,3,TCGA,3,agent_d508,histologic3
+76,SO3,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,histologic3
+1,SO3,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,isup5
+2,SO3,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,nuclear3
+11,SO3,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,nuclear3
+7,SO3,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,nuclear3
+4,SO3,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,who4
+1,SO3,2,TCGA,2,agent_d508,who4
+1,SO3,3,TCGA,2,agent_d508,who4
+1,SO3,4,TCGA,2,agent_d508,who4
+9,SO3,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,who4
+1,SO3,4,TCGA,3,agent_d508,who4
+2,SO3,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,who4
+1,SO3,4,TCGA,4,agent_d508,who4
+1,SO3,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_d508,who4
+1,SO4,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,fuhrman4
+25,SO4,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,fuhrman4
+52,SO4,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,fuhrman4
+17,SO4,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_d508,fuhrman4
+1,SO4,MISSING_OR_INCOMPATIBLE,TCGA,6,agent_d508,gleason10
+1,SO4,MISSING_OR_INCOMPATIBLE,TCGA,10,agent_d508,gleason10
+21,SO4,2,TCGA,1,agent_d508,histologic3
+14,SO4,3,TCGA,1,agent_d508,histologic3
+29,SO4,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,histologic3
+1,SO4,1,TCGA,2,agent_d508,histologic3
+103,SO4,2,TCGA,2,agent_d508,histologic3
+52,SO4,3,TCGA,2,agent_d508,histologic3
+45,SO4,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,histologic3
+1,SO4,1,TCGA,3,agent_d508,histologic3
+52,SO4,2,TCGA,3,agent_d508,histologic3
+131,SO4,3,TCGA,3,agent_d508,histologic3
+48,SO4,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,histologic3
+1,SO4,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,isup5
+2,SO4,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,nuclear3
+11,SO4,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,nuclear3
+7,SO4,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,nuclear3
+1,SO4,2,TCGA,1,agent_d508,who4
+1,SO4,3,TCGA,1,agent_d508,who4
+2,SO4,MISSING_OR_INCOMPATIBLE,TCGA,1,agent_d508,who4
+1,SO4,2,TCGA,2,agent_d508,who4
+1,SO4,3,TCGA,2,agent_d508,who4
+1,SO4,4,TCGA,2,agent_d508,who4
+9,SO4,MISSING_OR_INCOMPATIBLE,TCGA,2,agent_d508,who4
+1,SO4,4,TCGA,3,agent_d508,who4
+2,SO4,MISSING_OR_INCOMPATIBLE,TCGA,3,agent_d508,who4
+1,SO4,4,TCGA,4,agent_d508,who4
+1,SO4,MISSING_OR_INCOMPATIBLE,TCGA,4,agent_d508,who4

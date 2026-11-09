@@ -1,0 +1,109 @@
+field,p1_value,p2_value,cases
+broad,carcinoma,carcinoma,123
+subtype,benign prostate tissue,benign prostate tissue,0
+subtype,benign prostate tissue,benign prostatic hyperplasia,5
+subtype,benign prostate tissue,colorectal adenocarcinoma,0
+subtype,benign prostate tissue,hyperplastic polyp,0
+subtype,benign prostate tissue,invasive ductal carcinoma,0
+subtype,benign prostate tissue,prostate adenocarcinoma,0
+subtype,benign prostate tissue,sessile serrated lesion,0
+subtype,benign prostate tissue,tubular adenoma,0
+subtype,benign prostate tissue,tubulovillous adenoma,0
+subtype,benign prostatic hyperplasia,benign prostate tissue,0
+subtype,benign prostatic hyperplasia,benign prostatic hyperplasia,4
+subtype,benign prostatic hyperplasia,colorectal adenocarcinoma,0
+subtype,benign prostatic hyperplasia,hyperplastic polyp,0
+subtype,benign prostatic hyperplasia,invasive ductal carcinoma,0
+subtype,benign prostatic hyperplasia,prostate adenocarcinoma,0
+subtype,benign prostatic hyperplasia,sessile serrated lesion,0
+subtype,benign prostatic hyperplasia,tubular adenoma,0
+subtype,benign prostatic hyperplasia,tubulovillous adenoma,0
+subtype,colorectal adenocarcinoma,benign prostate tissue,0
+subtype,colorectal adenocarcinoma,benign prostatic hyperplasia,0
+subtype,colorectal adenocarcinoma,colorectal adenocarcinoma,1
+subtype,colorectal adenocarcinoma,hyperplastic polyp,0
+subtype,colorectal adenocarcinoma,invasive ductal carcinoma,0
+subtype,colorectal adenocarcinoma,prostate adenocarcinoma,0
+subtype,colorectal adenocarcinoma,sessile serrated lesion,0
+subtype,colorectal adenocarcinoma,tubular adenoma,0
+subtype,colorectal adenocarcinoma,tubulovillous adenoma,0
+subtype,hyperplastic polyp,benign prostate tissue,0
+subtype,hyperplastic polyp,benign prostatic hyperplasia,0
+subtype,hyperplastic polyp,colorectal adenocarcinoma,0
+subtype,hyperplastic polyp,hyperplastic polyp,1
+subtype,hyperplastic polyp,invasive ductal carcinoma,0
+subtype,hyperplastic polyp,prostate adenocarcinoma,0
+subtype,hyperplastic polyp,sessile serrated lesion,0
+subtype,hyperplastic polyp,tubular adenoma,0
+subtype,hyperplastic polyp,tubulovillous adenoma,0
+subtype,invasive ductal carcinoma,benign prostate tissue,0
+subtype,invasive ductal carcinoma,benign prostatic hyperplasia,0
+subtype,invasive ductal carcinoma,colorectal adenocarcinoma,0
+subtype,invasive ductal carcinoma,hyperplastic polyp,0
+subtype,invasive ductal carcinoma,invasive ductal carcinoma,59
+subtype,invasive ductal carcinoma,prostate adenocarcinoma,0
+subtype,invasive ductal carcinoma,sessile serrated lesion,0
+subtype,invasive ductal carcinoma,tubular adenoma,0
+subtype,invasive ductal carcinoma,tubulovillous adenoma,0
+subtype,prostate adenocarcinoma,benign prostate tissue,0
+subtype,prostate adenocarcinoma,benign prostatic hyperplasia,0
+subtype,prostate adenocarcinoma,colorectal adenocarcinoma,0
+subtype,prostate adenocarcinoma,hyperplastic polyp,0
+subtype,prostate adenocarcinoma,invasive ductal carcinoma,0
+subtype,prostate adenocarcinoma,prostate adenocarcinoma,46
+subtype,prostate adenocarcinoma,sessile serrated lesion,0
+subtype,prostate adenocarcinoma,tubular adenoma,0
+subtype,prostate adenocarcinoma,tubulovillous adenoma,0
+subtype,sessile serrated lesion,benign prostate tissue,0
+subtype,sessile serrated lesion,benign prostatic hyperplasia,0
+subtype,sessile serrated lesion,colorectal adenocarcinoma,0
+subtype,sessile serrated lesion,hyperplastic polyp,0
+subtype,sessile serrated lesion,invasive ductal carcinoma,0
+subtype,sessile serrated lesion,prostate adenocarcinoma,0
+subtype,sessile serrated lesion,sessile serrated lesion,3
+subtype,sessile serrated lesion,tubular adenoma,0
+subtype,sessile serrated lesion,tubulovillous adenoma,0
+subtype,tubular adenoma,benign prostate tissue,0
+subtype,tubular adenoma,benign prostatic hyperplasia,0
+subtype,tubular adenoma,colorectal adenocarcinoma,0
+subtype,tubular adenoma,hyperplastic polyp,0
+subtype,tubular adenoma,invasive ductal carcinoma,0
+subtype,tubular adenoma,prostate adenocarcinoma,0
+subtype,tubular adenoma,sessile serrated lesion,0
+subtype,tubular adenoma,tubular adenoma,5
+subtype,tubular adenoma,tubulovillous adenoma,0
+subtype,tubulovillous adenoma,benign prostate tissue,0
+subtype,tubulovillous adenoma,benign prostatic hyperplasia,0
+subtype,tubulovillous adenoma,colorectal adenocarcinoma,0
+subtype,tubulovillous adenoma,hyperplastic polyp,0
+subtype,tubulovillous adenoma,invasive ductal carcinoma,0
+subtype,tubulovillous adenoma,prostate adenocarcinoma,0
+subtype,tubulovillous adenoma,sessile serrated lesion,0
+subtype,tubulovillous adenoma,tubular adenoma,0
+subtype,tubulovillous adenoma,tubulovillous adenoma,3
+malignancy,benign,benign,12
+malignancy,benign,borderline,2
+malignancy,benign,malignant,0
+malignancy,borderline,benign,0
+malignancy,borderline,borderline,9
+malignancy,borderline,malignant,0
+malignancy,malignant,benign,0
+malignancy,malignant,borderline,0
+malignancy,malignant,malignant,122
+invasion,absent,absent,19
+invasion,absent,present,1
+invasion,present,absent,0
+invasion,present,present,120
+necrosis,absent,absent,119
+necrosis,absent,present,8
+necrosis,present,absent,1
+necrosis,present,present,7
+grade,histologic3:1,histologic3:1,1
+grade,histologic3:1,histologic3:2,1
+grade,histologic3:1,histologic3:3,0
+grade,histologic3:2,histologic3:1,2
+grade,histologic3:2,histologic3:2,41
+grade,histologic3:2,histologic3:3,9
+grade,histologic3:3,histologic3:1,0
+grade,histologic3:3,histologic3:2,18
+grade,histologic3:3,histologic3:3,3

@@ -1,0 +1,81 @@
+method,reader,correction_category,metric,ratings,reference_applicable,matched,unmatched,reference_inapplicable
+MedGemma,Reader 1,no_correction,cancer_family_match,1,1,0,1,0
+MedGemma,Reader 1,no_correction,exact_diagnosis_match,1,1,0,1,0
+MedGemma,Reader 1,minor_correction,cancer_family_match,114,114,13,101,0
+MedGemma,Reader 1,minor_correction,exact_diagnosis_match,114,82,3,79,32
+MedGemma,Reader 1,major_correction,cancer_family_match,7,7,1,6,0
+MedGemma,Reader 1,major_correction,exact_diagnosis_match,7,7,1,6,0
+MedGemma,Reader 1,not_usable,cancer_family_match,10,10,0,10,0
+MedGemma,Reader 1,not_usable,exact_diagnosis_match,10,9,0,9,1
+MedGemma,Reader 2,no_correction,cancer_family_match,108,108,14,94,0
+MedGemma,Reader 2,no_correction,exact_diagnosis_match,108,78,4,74,30
+MedGemma,Reader 2,minor_correction,cancer_family_match,9,9,0,9,0
+MedGemma,Reader 2,minor_correction,exact_diagnosis_match,9,7,0,7,2
+MedGemma,Reader 2,major_correction,cancer_family_match,9,9,0,9,0
+MedGemma,Reader 2,major_correction,exact_diagnosis_match,9,8,0,8,1
+MedGemma,Reader 2,not_usable,cancer_family_match,6,6,0,6,0
+MedGemma,Reader 2,not_usable,exact_diagnosis_match,6,6,0,6,0
+Qwen + H&E,Reader 1,no_correction,cancer_family_match,1,1,1,0,0
+Qwen + H&E,Reader 1,no_correction,exact_diagnosis_match,1,1,0,1,0
+Qwen + H&E,Reader 1,minor_correction,cancer_family_match,69,69,50,19,0
+Qwen + H&E,Reader 1,minor_correction,exact_diagnosis_match,69,54,35,19,15
+Qwen + H&E,Reader 1,major_correction,cancer_family_match,52,52,44,8,0
+Qwen + H&E,Reader 1,major_correction,exact_diagnosis_match,52,35,27,8,17
+Qwen + H&E,Reader 1,not_usable,cancer_family_match,10,10,7,3,0
+Qwen + H&E,Reader 1,not_usable,exact_diagnosis_match,10,9,3,6,1
+Qwen + H&E,Reader 2,no_correction,cancer_family_match,118,118,97,21,0
+Qwen + H&E,Reader 2,no_correction,exact_diagnosis_match,118,86,63,23,32
+Qwen + H&E,Reader 2,minor_correction,cancer_family_match,5,5,2,3,0
+Qwen + H&E,Reader 2,minor_correction,exact_diagnosis_match,5,5,0,5,0
+Qwen + H&E,Reader 2,major_correction,cancer_family_match,4,4,0,4,0
+Qwen + H&E,Reader 2,major_correction,exact_diagnosis_match,4,3,0,3,1
+Qwen + H&E,Reader 2,not_usable,cancer_family_match,5,5,3,2,0
+Qwen + H&E,Reader 2,not_usable,exact_diagnosis_match,5,5,2,3,0
+PLIP-guided Qwen,Reader 1,no_correction,cancer_family_match,1,1,1,0,0
+PLIP-guided Qwen,Reader 1,no_correction,exact_diagnosis_match,1,1,1,0,0
+PLIP-guided Qwen,Reader 1,minor_correction,cancer_family_match,15,15,7,8,0
+PLIP-guided Qwen,Reader 1,minor_correction,exact_diagnosis_match,15,14,6,8,1
+PLIP-guided Qwen,Reader 1,major_correction,cancer_family_match,2,2,2,0,0
+PLIP-guided Qwen,Reader 1,major_correction,exact_diagnosis_match,2,2,2,0,0
+PLIP-guided Qwen,Reader 1,not_usable,cancer_family_match,114,114,34,80,0
+PLIP-guided Qwen,Reader 1,not_usable,exact_diagnosis_match,114,82,15,67,32
+PLIP-guided Qwen,Reader 2,no_correction,cancer_family_match,103,103,43,60,0
+PLIP-guided Qwen,Reader 2,no_correction,exact_diagnosis_match,103,77,23,54,26
+PLIP-guided Qwen,Reader 2,minor_correction,cancer_family_match,12,12,0,12,0
+PLIP-guided Qwen,Reader 2,minor_correction,exact_diagnosis_match,12,8,0,8,4
+PLIP-guided Qwen,Reader 2,major_correction,cancer_family_match,7,7,0,7,0
+PLIP-guided Qwen,Reader 2,major_correction,exact_diagnosis_match,7,6,0,6,1
+PLIP-guided Qwen,Reader 2,not_usable,cancer_family_match,10,10,1,9,0
+PLIP-guided Qwen,Reader 2,not_usable,exact_diagnosis_match,10,8,1,7,2
+PathXAI-Report (core),Reader 1,no_correction,cancer_family_match,1,1,1,0,0
+PathXAI-Report (core),Reader 1,no_correction,exact_diagnosis_match,1,1,1,0,0
+PathXAI-Report (core),Reader 1,minor_correction,cancer_family_match,73,73,54,19,0
+PathXAI-Report (core),Reader 1,minor_correction,exact_diagnosis_match,73,51,27,24,22
+PathXAI-Report (core),Reader 1,major_correction,cancer_family_match,50,50,44,6,0
+PathXAI-Report (core),Reader 1,major_correction,exact_diagnosis_match,50,39,37,2,11
+PathXAI-Report (core),Reader 1,not_usable,cancer_family_match,8,8,5,3,0
+PathXAI-Report (core),Reader 1,not_usable,exact_diagnosis_match,8,8,3,5,0
+PathXAI-Report (core),Reader 2,no_correction,cancer_family_match,118,118,101,17,0
+PathXAI-Report (core),Reader 2,no_correction,exact_diagnosis_match,118,86,65,21,32
+PathXAI-Report (core),Reader 2,minor_correction,cancer_family_match,4,4,1,3,0
+PathXAI-Report (core),Reader 2,minor_correction,exact_diagnosis_match,4,4,1,3,0
+PathXAI-Report (core),Reader 2,major_correction,cancer_family_match,4,4,0,4,0
+PathXAI-Report (core),Reader 2,major_correction,exact_diagnosis_match,4,3,0,3,1
+PathXAI-Report (core),Reader 2,not_usable,cancer_family_match,6,6,2,4,0
+PathXAI-Report (core),Reader 2,not_usable,exact_diagnosis_match,6,6,2,4,0
+PathXAI-Report,Reader 1,no_correction,cancer_family_match,0,0,0,0,0
+PathXAI-Report,Reader 1,no_correction,exact_diagnosis_match,0,0,0,0,0
+PathXAI-Report,Reader 1,minor_correction,cancer_family_match,97,97,71,26,0
+PathXAI-Report,Reader 1,minor_correction,exact_diagnosis_match,97,71,46,25,26
+PathXAI-Report,Reader 1,major_correction,cancer_family_match,30,30,21,9,0
+PathXAI-Report,Reader 1,major_correction,exact_diagnosis_match,30,23,12,11,7
+PathXAI-Report,Reader 1,not_usable,cancer_family_match,5,5,4,1,0
+PathXAI-Report,Reader 1,not_usable,exact_diagnosis_match,5,5,2,3,0
+PathXAI-Report,Reader 2,no_correction,cancer_family_match,119,119,90,29,0
+PathXAI-Report,Reader 2,no_correction,exact_diagnosis_match,119,87,56,31,32
+PathXAI-Report,Reader 2,minor_correction,cancer_family_match,4,4,3,1,0
+PathXAI-Report,Reader 2,minor_correction,exact_diagnosis_match,4,4,1,3,0
+PathXAI-Report,Reader 2,major_correction,cancer_family_match,4,4,0,4,0
+PathXAI-Report,Reader 2,major_correction,exact_diagnosis_match,4,3,0,3,1
+PathXAI-Report,Reader 2,not_usable,cancer_family_match,5,5,3,2,0
+PathXAI-Report,Reader 2,not_usable,exact_diagnosis_match,5,5,3,2,0

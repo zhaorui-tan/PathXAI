@@ -1,0 +1,2881 @@
+organ,reference_set,method,reference_category,prediction_category,cases,reference_cases,row_percentage
+all,P1,Visual + Qwen,benign,benign,1,13,7.6923076923076925
+all,P1,Visual + Qwen,benign,borderline,0,13,0.0
+all,P1,Visual + Qwen,benign,malignant,11,13,84.61538461538461
+all,P1,Visual + Qwen,benign,missing,1,13,7.6923076923076925
+all,P1,Visual + Qwen,benign,uncertain,0,13,0.0
+all,P1,Visual + Qwen,benign,conflict,0,13,0.0
+all,P1,Visual + Qwen,borderline,benign,4,9,44.44444444444444
+all,P1,Visual + Qwen,borderline,borderline,0,9,0.0
+all,P1,Visual + Qwen,borderline,malignant,4,9,44.44444444444444
+all,P1,Visual + Qwen,borderline,missing,1,9,11.11111111111111
+all,P1,Visual + Qwen,borderline,uncertain,0,9,0.0
+all,P1,Visual + Qwen,borderline,conflict,0,9,0.0
+all,P1,Visual + Qwen,malignant,benign,0,122,0.0
+all,P1,Visual + Qwen,malignant,borderline,0,122,0.0
+all,P1,Visual + Qwen,malignant,malignant,120,122,98.36065573770492
+all,P1,Visual + Qwen,malignant,missing,2,122,1.639344262295082
+all,P1,Visual + Qwen,malignant,uncertain,0,122,0.0
+all,P1,Visual + Qwen,malignant,conflict,0,122,0.0
+all,P1,Visual + Qwen,missing,benign,0,7,0.0
+all,P1,Visual + Qwen,missing,borderline,0,7,0.0
+all,P1,Visual + Qwen,missing,malignant,7,7,100.0
+all,P1,Visual + Qwen,missing,missing,0,7,0.0
+all,P1,Visual + Qwen,missing,uncertain,0,7,0.0
+all,P1,Visual + Qwen,missing,conflict,0,7,0.0
+all,P1,Visual + Qwen,uncertain,benign,0,0,
+all,P1,Visual + Qwen,uncertain,borderline,0,0,
+all,P1,Visual + Qwen,uncertain,malignant,0,0,
+all,P1,Visual + Qwen,uncertain,missing,0,0,
+all,P1,Visual + Qwen,uncertain,uncertain,0,0,
+all,P1,Visual + Qwen,uncertain,conflict,0,0,
+all,P1,Visual + Qwen,conflict,benign,0,0,
+all,P1,Visual + Qwen,conflict,borderline,0,0,
+all,P1,Visual + Qwen,conflict,malignant,0,0,
+all,P1,Visual + Qwen,conflict,missing,0,0,
+all,P1,Visual + Qwen,conflict,uncertain,0,0,
+all,P1,Visual + Qwen,conflict,conflict,0,0,
+all,P1,DeepSeek,benign,benign,0,13,0.0
+all,P1,DeepSeek,benign,borderline,0,13,0.0
+all,P1,DeepSeek,benign,malignant,13,13,100.0
+all,P1,DeepSeek,benign,missing,0,13,0.0
+all,P1,DeepSeek,benign,uncertain,0,13,0.0
+all,P1,DeepSeek,benign,conflict,0,13,0.0
+all,P1,DeepSeek,borderline,benign,1,9,11.11111111111111
+all,P1,DeepSeek,borderline,borderline,0,9,0.0
+all,P1,DeepSeek,borderline,malignant,8,9,88.88888888888889
+all,P1,DeepSeek,borderline,missing,0,9,0.0
+all,P1,DeepSeek,borderline,uncertain,0,9,0.0
+all,P1,DeepSeek,borderline,conflict,0,9,0.0
+all,P1,DeepSeek,malignant,benign,1,122,0.819672131147541
+all,P1,DeepSeek,malignant,borderline,1,122,0.819672131147541
+all,P1,DeepSeek,malignant,malignant,117,122,95.90163934426229
+all,P1,DeepSeek,malignant,missing,0,122,0.0
+all,P1,DeepSeek,malignant,uncertain,3,122,2.459016393442623
+all,P1,DeepSeek,malignant,conflict,0,122,0.0
+all,P1,DeepSeek,missing,benign,0,7,0.0
+all,P1,DeepSeek,missing,borderline,0,7,0.0
+all,P1,DeepSeek,missing,malignant,6,7,85.71428571428571
+all,P1,DeepSeek,missing,missing,1,7,14.285714285714286
+all,P1,DeepSeek,missing,uncertain,0,7,0.0
+all,P1,DeepSeek,missing,conflict,0,7,0.0
+all,P1,DeepSeek,uncertain,benign,0,0,
+all,P1,DeepSeek,uncertain,borderline,0,0,
+all,P1,DeepSeek,uncertain,malignant,0,0,
+all,P1,DeepSeek,uncertain,missing,0,0,
+all,P1,DeepSeek,uncertain,uncertain,0,0,
+all,P1,DeepSeek,uncertain,conflict,0,0,
+all,P1,DeepSeek,conflict,benign,0,0,
+all,P1,DeepSeek,conflict,borderline,0,0,
+all,P1,DeepSeek,conflict,malignant,0,0,
+all,P1,DeepSeek,conflict,missing,0,0,
+all,P1,DeepSeek,conflict,uncertain,0,0,
+all,P1,DeepSeek,conflict,conflict,0,0,
+all,P1,GLM,benign,benign,8,13,61.53846153846154
+all,P1,GLM,benign,borderline,0,13,0.0
+all,P1,GLM,benign,malignant,3,13,23.076923076923077
+all,P1,GLM,benign,missing,0,13,0.0
+all,P1,GLM,benign,uncertain,1,13,7.6923076923076925
+all,P1,GLM,benign,conflict,1,13,7.6923076923076925
+all,P1,GLM,borderline,benign,5,9,55.55555555555556
+all,P1,GLM,borderline,borderline,0,9,0.0
+all,P1,GLM,borderline,malignant,0,9,0.0
+all,P1,GLM,borderline,missing,1,9,11.11111111111111
+all,P1,GLM,borderline,uncertain,1,9,11.11111111111111
+all,P1,GLM,borderline,conflict,2,9,22.22222222222222
+all,P1,GLM,malignant,benign,5,122,4.098360655737705
+all,P1,GLM,malignant,borderline,3,122,2.459016393442623
+all,P1,GLM,malignant,malignant,99,122,81.14754098360656
+all,P1,GLM,malignant,missing,3,122,2.459016393442623
+all,P1,GLM,malignant,uncertain,9,122,7.377049180327869
+all,P1,GLM,malignant,conflict,3,122,2.459016393442623
+all,P1,GLM,missing,benign,3,7,42.857142857142854
+all,P1,GLM,missing,borderline,0,7,0.0
+all,P1,GLM,missing,malignant,4,7,57.142857142857146
+all,P1,GLM,missing,missing,0,7,0.0
+all,P1,GLM,missing,uncertain,0,7,0.0
+all,P1,GLM,missing,conflict,0,7,0.0
+all,P1,GLM,uncertain,benign,0,0,
+all,P1,GLM,uncertain,borderline,0,0,
+all,P1,GLM,uncertain,malignant,0,0,
+all,P1,GLM,uncertain,missing,0,0,
+all,P1,GLM,uncertain,uncertain,0,0,
+all,P1,GLM,uncertain,conflict,0,0,
+all,P1,GLM,conflict,benign,0,0,
+all,P1,GLM,conflict,borderline,0,0,
+all,P1,GLM,conflict,malignant,0,0,
+all,P1,GLM,conflict,missing,0,0,
+all,P1,GLM,conflict,uncertain,0,0,
+all,P1,GLM,conflict,conflict,0,0,
+all,P1,Visual + MedGemma,benign,benign,1,13,7.6923076923076925
+all,P1,Visual + MedGemma,benign,borderline,0,13,0.0
+all,P1,Visual + MedGemma,benign,malignant,9,13,69.23076923076923
+all,P1,Visual + MedGemma,benign,missing,3,13,23.076923076923077
+all,P1,Visual + MedGemma,benign,uncertain,0,13,0.0
+all,P1,Visual + MedGemma,benign,conflict,0,13,0.0
+all,P1,Visual + MedGemma,borderline,benign,0,9,0.0
+all,P1,Visual + MedGemma,borderline,borderline,0,9,0.0
+all,P1,Visual + MedGemma,borderline,malignant,6,9,66.66666666666667
+all,P1,Visual + MedGemma,borderline,missing,3,9,33.333333333333336
+all,P1,Visual + MedGemma,borderline,uncertain,0,9,0.0
+all,P1,Visual + MedGemma,borderline,conflict,0,9,0.0
+all,P1,Visual + MedGemma,malignant,benign,0,122,0.0
+all,P1,Visual + MedGemma,malignant,borderline,0,122,0.0
+all,P1,Visual + MedGemma,malignant,malignant,97,122,79.50819672131148
+all,P1,Visual + MedGemma,malignant,missing,23,122,18.852459016393443
+all,P1,Visual + MedGemma,malignant,uncertain,2,122,1.639344262295082
+all,P1,Visual + MedGemma,malignant,conflict,0,122,0.0
+all,P1,Visual + MedGemma,missing,benign,0,7,0.0
+all,P1,Visual + MedGemma,missing,borderline,0,7,0.0
+all,P1,Visual + MedGemma,missing,malignant,3,7,42.857142857142854
+all,P1,Visual + MedGemma,missing,missing,4,7,57.142857142857146
+all,P1,Visual + MedGemma,missing,uncertain,0,7,0.0
+all,P1,Visual + MedGemma,missing,conflict,0,7,0.0
+all,P1,Visual + MedGemma,uncertain,benign,0,0,
+all,P1,Visual + MedGemma,uncertain,borderline,0,0,
+all,P1,Visual + MedGemma,uncertain,malignant,0,0,
+all,P1,Visual + MedGemma,uncertain,missing,0,0,
+all,P1,Visual + MedGemma,uncertain,uncertain,0,0,
+all,P1,Visual + MedGemma,uncertain,conflict,0,0,
+all,P1,Visual + MedGemma,conflict,benign,0,0,
+all,P1,Visual + MedGemma,conflict,borderline,0,0,
+all,P1,Visual + MedGemma,conflict,malignant,0,0,
+all,P1,Visual + MedGemma,conflict,missing,0,0,
+all,P1,Visual + MedGemma,conflict,uncertain,0,0,
+all,P1,Visual + MedGemma,conflict,conflict,0,0,
+all,P1,PathAgent,benign,benign,0,13,0.0
+all,P1,PathAgent,benign,borderline,0,13,0.0
+all,P1,PathAgent,benign,malignant,12,13,92.3076923076923
+all,P1,PathAgent,benign,missing,1,13,7.6923076923076925
+all,P1,PathAgent,benign,uncertain,0,13,0.0
+all,P1,PathAgent,benign,conflict,0,13,0.0
+all,P1,PathAgent,borderline,benign,0,9,0.0
+all,P1,PathAgent,borderline,borderline,0,9,0.0
+all,P1,PathAgent,borderline,malignant,7,9,77.77777777777777
+all,P1,PathAgent,borderline,missing,2,9,22.22222222222222
+all,P1,PathAgent,borderline,uncertain,0,9,0.0
+all,P1,PathAgent,borderline,conflict,0,9,0.0
+all,P1,PathAgent,malignant,benign,0,122,0.0
+all,P1,PathAgent,malignant,borderline,0,122,0.0
+all,P1,PathAgent,malignant,malignant,112,122,91.80327868852459
+all,P1,PathAgent,malignant,missing,10,122,8.19672131147541
+all,P1,PathAgent,malignant,uncertain,0,122,0.0
+all,P1,PathAgent,malignant,conflict,0,122,0.0
+all,P1,PathAgent,missing,benign,0,7,0.0
+all,P1,PathAgent,missing,borderline,0,7,0.0
+all,P1,PathAgent,missing,malignant,5,7,71.42857142857143
+all,P1,PathAgent,missing,missing,2,7,28.571428571428573
+all,P1,PathAgent,missing,uncertain,0,7,0.0
+all,P1,PathAgent,missing,conflict,0,7,0.0
+all,P1,PathAgent,uncertain,benign,0,0,
+all,P1,PathAgent,uncertain,borderline,0,0,
+all,P1,PathAgent,uncertain,malignant,0,0,
+all,P1,PathAgent,uncertain,missing,0,0,
+all,P1,PathAgent,uncertain,uncertain,0,0,
+all,P1,PathAgent,uncertain,conflict,0,0,
+all,P1,PathAgent,conflict,benign,0,0,
+all,P1,PathAgent,conflict,borderline,0,0,
+all,P1,PathAgent,conflict,malignant,0,0,
+all,P1,PathAgent,conflict,missing,0,0,
+all,P1,PathAgent,conflict,uncertain,0,0,
+all,P1,PathAgent,conflict,conflict,0,0,
+all,P1,PRISM2,benign,benign,1,13,7.6923076923076925
+all,P1,PRISM2,benign,borderline,0,13,0.0
+all,P1,PRISM2,benign,malignant,11,13,84.61538461538461
+all,P1,PRISM2,benign,missing,1,13,7.6923076923076925
+all,P1,PRISM2,benign,uncertain,0,13,0.0
+all,P1,PRISM2,benign,conflict,0,13,0.0
+all,P1,PRISM2,borderline,benign,7,9,77.77777777777777
+all,P1,PRISM2,borderline,borderline,0,9,0.0
+all,P1,PRISM2,borderline,malignant,0,9,0.0
+all,P1,PRISM2,borderline,missing,2,9,22.22222222222222
+all,P1,PRISM2,borderline,uncertain,0,9,0.0
+all,P1,PRISM2,borderline,conflict,0,9,0.0
+all,P1,PRISM2,malignant,benign,0,122,0.0
+all,P1,PRISM2,malignant,borderline,0,122,0.0
+all,P1,PRISM2,malignant,malignant,121,122,99.18032786885246
+all,P1,PRISM2,malignant,missing,0,122,0.0
+all,P1,PRISM2,malignant,uncertain,0,122,0.0
+all,P1,PRISM2,malignant,conflict,1,122,0.819672131147541
+all,P1,PRISM2,missing,benign,1,7,14.285714285714286
+all,P1,PRISM2,missing,borderline,0,7,0.0
+all,P1,PRISM2,missing,malignant,4,7,57.142857142857146
+all,P1,PRISM2,missing,missing,2,7,28.571428571428573
+all,P1,PRISM2,missing,uncertain,0,7,0.0
+all,P1,PRISM2,missing,conflict,0,7,0.0
+all,P1,PRISM2,uncertain,benign,0,0,
+all,P1,PRISM2,uncertain,borderline,0,0,
+all,P1,PRISM2,uncertain,malignant,0,0,
+all,P1,PRISM2,uncertain,missing,0,0,
+all,P1,PRISM2,uncertain,uncertain,0,0,
+all,P1,PRISM2,uncertain,conflict,0,0,
+all,P1,PRISM2,conflict,benign,0,0,
+all,P1,PRISM2,conflict,borderline,0,0,
+all,P1,PRISM2,conflict,malignant,0,0,
+all,P1,PRISM2,conflict,missing,0,0,
+all,P1,PRISM2,conflict,uncertain,0,0,
+all,P1,PRISM2,conflict,conflict,0,0,
+all,P1,HistGen,benign,benign,0,13,0.0
+all,P1,HistGen,benign,borderline,0,13,0.0
+all,P1,HistGen,benign,malignant,10,13,76.92307692307692
+all,P1,HistGen,benign,missing,3,13,23.076923076923077
+all,P1,HistGen,benign,uncertain,0,13,0.0
+all,P1,HistGen,benign,conflict,0,13,0.0
+all,P1,HistGen,borderline,benign,0,9,0.0
+all,P1,HistGen,borderline,borderline,0,9,0.0
+all,P1,HistGen,borderline,malignant,9,9,100.0
+all,P1,HistGen,borderline,missing,0,9,0.0
+all,P1,HistGen,borderline,uncertain,0,9,0.0
+all,P1,HistGen,borderline,conflict,0,9,0.0
+all,P1,HistGen,malignant,benign,0,122,0.0
+all,P1,HistGen,malignant,borderline,0,122,0.0
+all,P1,HistGen,malignant,malignant,104,122,85.24590163934427
+all,P1,HistGen,malignant,missing,17,122,13.934426229508198
+all,P1,HistGen,malignant,uncertain,0,122,0.0
+all,P1,HistGen,malignant,conflict,1,122,0.819672131147541
+all,P1,HistGen,missing,benign,0,7,0.0
+all,P1,HistGen,missing,borderline,0,7,0.0
+all,P1,HistGen,missing,malignant,6,7,85.71428571428571
+all,P1,HistGen,missing,missing,1,7,14.285714285714286
+all,P1,HistGen,missing,uncertain,0,7,0.0
+all,P1,HistGen,missing,conflict,0,7,0.0
+all,P1,HistGen,uncertain,benign,0,0,
+all,P1,HistGen,uncertain,borderline,0,0,
+all,P1,HistGen,uncertain,malignant,0,0,
+all,P1,HistGen,uncertain,missing,0,0,
+all,P1,HistGen,uncertain,uncertain,0,0,
+all,P1,HistGen,uncertain,conflict,0,0,
+all,P1,HistGen,conflict,benign,0,0,
+all,P1,HistGen,conflict,borderline,0,0,
+all,P1,HistGen,conflict,malignant,0,0,
+all,P1,HistGen,conflict,missing,0,0,
+all,P1,HistGen,conflict,uncertain,0,0,
+all,P1,HistGen,conflict,conflict,0,0,
+all,P1,HistoGPT,benign,benign,1,13,7.6923076923076925
+all,P1,HistoGPT,benign,borderline,0,13,0.0
+all,P1,HistoGPT,benign,malignant,3,13,23.076923076923077
+all,P1,HistoGPT,benign,missing,9,13,69.23076923076923
+all,P1,HistoGPT,benign,uncertain,0,13,0.0
+all,P1,HistoGPT,benign,conflict,0,13,0.0
+all,P1,HistoGPT,borderline,benign,5,9,55.55555555555556
+all,P1,HistoGPT,borderline,borderline,0,9,0.0
+all,P1,HistoGPT,borderline,malignant,0,9,0.0
+all,P1,HistoGPT,borderline,missing,3,9,33.333333333333336
+all,P1,HistoGPT,borderline,uncertain,0,9,0.0
+all,P1,HistoGPT,borderline,conflict,1,9,11.11111111111111
+all,P1,HistoGPT,malignant,benign,1,122,0.819672131147541
+all,P1,HistoGPT,malignant,borderline,0,122,0.0
+all,P1,HistoGPT,malignant,malignant,61,122,50.0
+all,P1,HistoGPT,malignant,missing,59,122,48.36065573770492
+all,P1,HistoGPT,malignant,uncertain,1,122,0.819672131147541
+all,P1,HistoGPT,malignant,conflict,0,122,0.0
+all,P1,HistoGPT,missing,benign,0,7,0.0
+all,P1,HistoGPT,missing,borderline,0,7,0.0
+all,P1,HistoGPT,missing,malignant,0,7,0.0
+all,P1,HistoGPT,missing,missing,7,7,100.0
+all,P1,HistoGPT,missing,uncertain,0,7,0.0
+all,P1,HistoGPT,missing,conflict,0,7,0.0
+all,P1,HistoGPT,uncertain,benign,0,0,
+all,P1,HistoGPT,uncertain,borderline,0,0,
+all,P1,HistoGPT,uncertain,malignant,0,0,
+all,P1,HistoGPT,uncertain,missing,0,0,
+all,P1,HistoGPT,uncertain,uncertain,0,0,
+all,P1,HistoGPT,uncertain,conflict,0,0,
+all,P1,HistoGPT,conflict,benign,0,0,
+all,P1,HistoGPT,conflict,borderline,0,0,
+all,P1,HistoGPT,conflict,malignant,0,0,
+all,P1,HistoGPT,conflict,missing,0,0,
+all,P1,HistoGPT,conflict,uncertain,0,0,
+all,P1,HistoGPT,conflict,conflict,0,0,
+all,P1,SO1_D1,benign,benign,0,13,0.0
+all,P1,SO1_D1,benign,borderline,0,13,0.0
+all,P1,SO1_D1,benign,malignant,13,13,100.0
+all,P1,SO1_D1,benign,missing,0,13,0.0
+all,P1,SO1_D1,benign,uncertain,0,13,0.0
+all,P1,SO1_D1,benign,conflict,0,13,0.0
+all,P1,SO1_D1,borderline,benign,1,9,11.11111111111111
+all,P1,SO1_D1,borderline,borderline,0,9,0.0
+all,P1,SO1_D1,borderline,malignant,8,9,88.88888888888889
+all,P1,SO1_D1,borderline,missing,0,9,0.0
+all,P1,SO1_D1,borderline,uncertain,0,9,0.0
+all,P1,SO1_D1,borderline,conflict,0,9,0.0
+all,P1,SO1_D1,malignant,benign,0,122,0.0
+all,P1,SO1_D1,malignant,borderline,0,122,0.0
+all,P1,SO1_D1,malignant,malignant,122,122,100.0
+all,P1,SO1_D1,malignant,missing,0,122,0.0
+all,P1,SO1_D1,malignant,uncertain,0,122,0.0
+all,P1,SO1_D1,malignant,conflict,0,122,0.0
+all,P1,SO1_D1,missing,benign,0,7,0.0
+all,P1,SO1_D1,missing,borderline,0,7,0.0
+all,P1,SO1_D1,missing,malignant,7,7,100.0
+all,P1,SO1_D1,missing,missing,0,7,0.0
+all,P1,SO1_D1,missing,uncertain,0,7,0.0
+all,P1,SO1_D1,missing,conflict,0,7,0.0
+all,P1,SO1_D1,uncertain,benign,0,0,
+all,P1,SO1_D1,uncertain,borderline,0,0,
+all,P1,SO1_D1,uncertain,malignant,0,0,
+all,P1,SO1_D1,uncertain,missing,0,0,
+all,P1,SO1_D1,uncertain,uncertain,0,0,
+all,P1,SO1_D1,uncertain,conflict,0,0,
+all,P1,SO1_D1,conflict,benign,0,0,
+all,P1,SO1_D1,conflict,borderline,0,0,
+all,P1,SO1_D1,conflict,malignant,0,0,
+all,P1,SO1_D1,conflict,missing,0,0,
+all,P1,SO1_D1,conflict,uncertain,0,0,
+all,P1,SO1_D1,conflict,conflict,0,0,
+all,P1,SO4_D1,benign,benign,0,13,0.0
+all,P1,SO4_D1,benign,borderline,0,13,0.0
+all,P1,SO4_D1,benign,malignant,13,13,100.0
+all,P1,SO4_D1,benign,missing,0,13,0.0
+all,P1,SO4_D1,benign,uncertain,0,13,0.0
+all,P1,SO4_D1,benign,conflict,0,13,0.0
+all,P1,SO4_D1,borderline,benign,0,9,0.0
+all,P1,SO4_D1,borderline,borderline,0,9,0.0
+all,P1,SO4_D1,borderline,malignant,9,9,100.0
+all,P1,SO4_D1,borderline,missing,0,9,0.0
+all,P1,SO4_D1,borderline,uncertain,0,9,0.0
+all,P1,SO4_D1,borderline,conflict,0,9,0.0
+all,P1,SO4_D1,malignant,benign,0,122,0.0
+all,P1,SO4_D1,malignant,borderline,0,122,0.0
+all,P1,SO4_D1,malignant,malignant,122,122,100.0
+all,P1,SO4_D1,malignant,missing,0,122,0.0
+all,P1,SO4_D1,malignant,uncertain,0,122,0.0
+all,P1,SO4_D1,malignant,conflict,0,122,0.0
+all,P1,SO4_D1,missing,benign,0,7,0.0
+all,P1,SO4_D1,missing,borderline,0,7,0.0
+all,P1,SO4_D1,missing,malignant,7,7,100.0
+all,P1,SO4_D1,missing,missing,0,7,0.0
+all,P1,SO4_D1,missing,uncertain,0,7,0.0
+all,P1,SO4_D1,missing,conflict,0,7,0.0
+all,P1,SO4_D1,uncertain,benign,0,0,
+all,P1,SO4_D1,uncertain,borderline,0,0,
+all,P1,SO4_D1,uncertain,malignant,0,0,
+all,P1,SO4_D1,uncertain,missing,0,0,
+all,P1,SO4_D1,uncertain,uncertain,0,0,
+all,P1,SO4_D1,uncertain,conflict,0,0,
+all,P1,SO4_D1,conflict,benign,0,0,
+all,P1,SO4_D1,conflict,borderline,0,0,
+all,P1,SO4_D1,conflict,malignant,0,0,
+all,P1,SO4_D1,conflict,missing,0,0,
+all,P1,SO4_D1,conflict,uncertain,0,0,
+all,P1,SO4_D1,conflict,conflict,0,0,
+all,P2,Visual + Qwen,benign,benign,1,13,7.6923076923076925
+all,P2,Visual + Qwen,benign,borderline,0,13,0.0
+all,P2,Visual + Qwen,benign,malignant,11,13,84.61538461538461
+all,P2,Visual + Qwen,benign,missing,1,13,7.6923076923076925
+all,P2,Visual + Qwen,benign,uncertain,0,13,0.0
+all,P2,Visual + Qwen,benign,conflict,0,13,0.0
+all,P2,Visual + Qwen,borderline,benign,4,11,36.36363636363637
+all,P2,Visual + Qwen,borderline,borderline,0,11,0.0
+all,P2,Visual + Qwen,borderline,malignant,6,11,54.54545454545455
+all,P2,Visual + Qwen,borderline,missing,1,11,9.090909090909092
+all,P2,Visual + Qwen,borderline,uncertain,0,11,0.0
+all,P2,Visual + Qwen,borderline,conflict,0,11,0.0
+all,P2,Visual + Qwen,malignant,benign,0,124,0.0
+all,P2,Visual + Qwen,malignant,borderline,0,124,0.0
+all,P2,Visual + Qwen,malignant,malignant,122,124,98.38709677419355
+all,P2,Visual + Qwen,malignant,missing,2,124,1.6129032258064515
+all,P2,Visual + Qwen,malignant,uncertain,0,124,0.0
+all,P2,Visual + Qwen,malignant,conflict,0,124,0.0
+all,P2,Visual + Qwen,missing,benign,0,3,0.0
+all,P2,Visual + Qwen,missing,borderline,0,3,0.0
+all,P2,Visual + Qwen,missing,malignant,3,3,100.0
+all,P2,Visual + Qwen,missing,missing,0,3,0.0
+all,P2,Visual + Qwen,missing,uncertain,0,3,0.0
+all,P2,Visual + Qwen,missing,conflict,0,3,0.0
+all,P2,Visual + Qwen,uncertain,benign,0,0,
+all,P2,Visual + Qwen,uncertain,borderline,0,0,
+all,P2,Visual + Qwen,uncertain,malignant,0,0,
+all,P2,Visual + Qwen,uncertain,missing,0,0,
+all,P2,Visual + Qwen,uncertain,uncertain,0,0,
+all,P2,Visual + Qwen,uncertain,conflict,0,0,
+all,P2,Visual + Qwen,conflict,benign,0,0,
+all,P2,Visual + Qwen,conflict,borderline,0,0,
+all,P2,Visual + Qwen,conflict,malignant,0,0,
+all,P2,Visual + Qwen,conflict,missing,0,0,
+all,P2,Visual + Qwen,conflict,uncertain,0,0,
+all,P2,Visual + Qwen,conflict,conflict,0,0,
+all,P2,DeepSeek,benign,benign,0,13,0.0
+all,P2,DeepSeek,benign,borderline,0,13,0.0
+all,P2,DeepSeek,benign,malignant,13,13,100.0
+all,P2,DeepSeek,benign,missing,0,13,0.0
+all,P2,DeepSeek,benign,uncertain,0,13,0.0
+all,P2,DeepSeek,benign,conflict,0,13,0.0
+all,P2,DeepSeek,borderline,benign,1,11,9.090909090909092
+all,P2,DeepSeek,borderline,borderline,0,11,0.0
+all,P2,DeepSeek,borderline,malignant,9,11,81.81818181818181
+all,P2,DeepSeek,borderline,missing,1,11,9.090909090909092
+all,P2,DeepSeek,borderline,uncertain,0,11,0.0
+all,P2,DeepSeek,borderline,conflict,0,11,0.0
+all,P2,DeepSeek,malignant,benign,1,124,0.8064516129032258
+all,P2,DeepSeek,malignant,borderline,1,124,0.8064516129032258
+all,P2,DeepSeek,malignant,malignant,119,124,95.96774193548387
+all,P2,DeepSeek,malignant,missing,0,124,0.0
+all,P2,DeepSeek,malignant,uncertain,3,124,2.4193548387096775
+all,P2,DeepSeek,malignant,conflict,0,124,0.0
+all,P2,DeepSeek,missing,benign,0,3,0.0
+all,P2,DeepSeek,missing,borderline,0,3,0.0
+all,P2,DeepSeek,missing,malignant,3,3,100.0
+all,P2,DeepSeek,missing,missing,0,3,0.0
+all,P2,DeepSeek,missing,uncertain,0,3,0.0
+all,P2,DeepSeek,missing,conflict,0,3,0.0
+all,P2,DeepSeek,uncertain,benign,0,0,
+all,P2,DeepSeek,uncertain,borderline,0,0,
+all,P2,DeepSeek,uncertain,malignant,0,0,
+all,P2,DeepSeek,uncertain,missing,0,0,
+all,P2,DeepSeek,uncertain,uncertain,0,0,
+all,P2,DeepSeek,uncertain,conflict,0,0,
+all,P2,DeepSeek,conflict,benign,0,0,
+all,P2,DeepSeek,conflict,borderline,0,0,
+all,P2,DeepSeek,conflict,malignant,0,0,
+all,P2,DeepSeek,conflict,missing,0,0,
+all,P2,DeepSeek,conflict,uncertain,0,0,
+all,P2,DeepSeek,conflict,conflict,0,0,
+all,P2,GLM,benign,benign,8,13,61.53846153846154
+all,P2,GLM,benign,borderline,0,13,0.0
+all,P2,GLM,benign,malignant,3,13,23.076923076923077
+all,P2,GLM,benign,missing,0,13,0.0
+all,P2,GLM,benign,uncertain,1,13,7.6923076923076925
+all,P2,GLM,benign,conflict,1,13,7.6923076923076925
+all,P2,GLM,borderline,benign,6,11,54.54545454545455
+all,P2,GLM,borderline,borderline,0,11,0.0
+all,P2,GLM,borderline,malignant,1,11,9.090909090909092
+all,P2,GLM,borderline,missing,1,11,9.090909090909092
+all,P2,GLM,borderline,uncertain,1,11,9.090909090909092
+all,P2,GLM,borderline,conflict,2,11,18.181818181818183
+all,P2,GLM,malignant,benign,5,124,4.032258064516129
+all,P2,GLM,malignant,borderline,3,124,2.4193548387096775
+all,P2,GLM,malignant,malignant,101,124,81.45161290322581
+all,P2,GLM,malignant,missing,3,124,2.4193548387096775
+all,P2,GLM,malignant,uncertain,9,124,7.258064516129032
+all,P2,GLM,malignant,conflict,3,124,2.4193548387096775
+all,P2,GLM,missing,benign,2,3,66.66666666666667
+all,P2,GLM,missing,borderline,0,3,0.0
+all,P2,GLM,missing,malignant,1,3,33.333333333333336
+all,P2,GLM,missing,missing,0,3,0.0
+all,P2,GLM,missing,uncertain,0,3,0.0
+all,P2,GLM,missing,conflict,0,3,0.0
+all,P2,GLM,uncertain,benign,0,0,
+all,P2,GLM,uncertain,borderline,0,0,
+all,P2,GLM,uncertain,malignant,0,0,
+all,P2,GLM,uncertain,missing,0,0,
+all,P2,GLM,uncertain,uncertain,0,0,
+all,P2,GLM,uncertain,conflict,0,0,
+all,P2,GLM,conflict,benign,0,0,
+all,P2,GLM,conflict,borderline,0,0,
+all,P2,GLM,conflict,malignant,0,0,
+all,P2,GLM,conflict,missing,0,0,
+all,P2,GLM,conflict,uncertain,0,0,
+all,P2,GLM,conflict,conflict,0,0,
+all,P2,Visual + MedGemma,benign,benign,1,13,7.6923076923076925
+all,P2,Visual + MedGemma,benign,borderline,0,13,0.0
+all,P2,Visual + MedGemma,benign,malignant,8,13,61.53846153846154
+all,P2,Visual + MedGemma,benign,missing,4,13,30.76923076923077
+all,P2,Visual + MedGemma,benign,uncertain,0,13,0.0
+all,P2,Visual + MedGemma,benign,conflict,0,13,0.0
+all,P2,Visual + MedGemma,borderline,benign,0,11,0.0
+all,P2,Visual + MedGemma,borderline,borderline,0,11,0.0
+all,P2,Visual + MedGemma,borderline,malignant,7,11,63.63636363636363
+all,P2,Visual + MedGemma,borderline,missing,4,11,36.36363636363637
+all,P2,Visual + MedGemma,borderline,uncertain,0,11,0.0
+all,P2,Visual + MedGemma,borderline,conflict,0,11,0.0
+all,P2,Visual + MedGemma,malignant,benign,0,124,0.0
+all,P2,Visual + MedGemma,malignant,borderline,0,124,0.0
+all,P2,Visual + MedGemma,malignant,malignant,97,124,78.2258064516129
+all,P2,Visual + MedGemma,malignant,missing,25,124,20.161290322580644
+all,P2,Visual + MedGemma,malignant,uncertain,2,124,1.6129032258064515
+all,P2,Visual + MedGemma,malignant,conflict,0,124,0.0
+all,P2,Visual + MedGemma,missing,benign,0,3,0.0
+all,P2,Visual + MedGemma,missing,borderline,0,3,0.0
+all,P2,Visual + MedGemma,missing,malignant,3,3,100.0
+all,P2,Visual + MedGemma,missing,missing,0,3,0.0
+all,P2,Visual + MedGemma,missing,uncertain,0,3,0.0
+all,P2,Visual + MedGemma,missing,conflict,0,3,0.0
+all,P2,Visual + MedGemma,uncertain,benign,0,0,
+all,P2,Visual + MedGemma,uncertain,borderline,0,0,
+all,P2,Visual + MedGemma,uncertain,malignant,0,0,
+all,P2,Visual + MedGemma,uncertain,missing,0,0,
+all,P2,Visual + MedGemma,uncertain,uncertain,0,0,
+all,P2,Visual + MedGemma,uncertain,conflict,0,0,
+all,P2,Visual + MedGemma,conflict,benign,0,0,
+all,P2,Visual + MedGemma,conflict,borderline,0,0,
+all,P2,Visual + MedGemma,conflict,malignant,0,0,
+all,P2,Visual + MedGemma,conflict,missing,0,0,
+all,P2,Visual + MedGemma,conflict,uncertain,0,0,
+all,P2,Visual + MedGemma,conflict,conflict,0,0,
+all,P2,PathAgent,benign,benign,0,13,0.0
+all,P2,PathAgent,benign,borderline,0,13,0.0
+all,P2,PathAgent,benign,malignant,11,13,84.61538461538461
+all,P2,PathAgent,benign,missing,2,13,15.384615384615385
+all,P2,PathAgent,benign,uncertain,0,13,0.0
+all,P2,PathAgent,benign,conflict,0,13,0.0
+all,P2,PathAgent,borderline,benign,0,11,0.0
+all,P2,PathAgent,borderline,borderline,0,11,0.0
+all,P2,PathAgent,borderline,malignant,9,11,81.81818181818181
+all,P2,PathAgent,borderline,missing,2,11,18.181818181818183
+all,P2,PathAgent,borderline,uncertain,0,11,0.0
+all,P2,PathAgent,borderline,conflict,0,11,0.0
+all,P2,PathAgent,malignant,benign,0,124,0.0
+all,P2,PathAgent,malignant,borderline,0,124,0.0
+all,P2,PathAgent,malignant,malignant,113,124,91.12903225806451
+all,P2,PathAgent,malignant,missing,11,124,8.870967741935484
+all,P2,PathAgent,malignant,uncertain,0,124,0.0
+all,P2,PathAgent,malignant,conflict,0,124,0.0
+all,P2,PathAgent,missing,benign,0,3,0.0
+all,P2,PathAgent,missing,borderline,0,3,0.0
+all,P2,PathAgent,missing,malignant,3,3,100.0
+all,P2,PathAgent,missing,missing,0,3,0.0
+all,P2,PathAgent,missing,uncertain,0,3,0.0
+all,P2,PathAgent,missing,conflict,0,3,0.0
+all,P2,PathAgent,uncertain,benign,0,0,
+all,P2,PathAgent,uncertain,borderline,0,0,
+all,P2,PathAgent,uncertain,malignant,0,0,
+all,P2,PathAgent,uncertain,missing,0,0,
+all,P2,PathAgent,uncertain,uncertain,0,0,
+all,P2,PathAgent,uncertain,conflict,0,0,
+all,P2,PathAgent,conflict,benign,0,0,
+all,P2,PathAgent,conflict,borderline,0,0,
+all,P2,PathAgent,conflict,malignant,0,0,
+all,P2,PathAgent,conflict,missing,0,0,
+all,P2,PathAgent,conflict,uncertain,0,0,
+all,P2,PathAgent,conflict,conflict,0,0,
+all,P2,PRISM2,benign,benign,1,13,7.6923076923076925
+all,P2,PRISM2,benign,borderline,0,13,0.0
+all,P2,PRISM2,benign,malignant,11,13,84.61538461538461
+all,P2,PRISM2,benign,missing,1,13,7.6923076923076925
+all,P2,PRISM2,benign,uncertain,0,13,0.0
+all,P2,PRISM2,benign,conflict,0,13,0.0
+all,P2,PRISM2,borderline,benign,8,11,72.72727272727273
+all,P2,PRISM2,borderline,borderline,0,11,0.0
+all,P2,PRISM2,borderline,malignant,0,11,0.0
+all,P2,PRISM2,borderline,missing,3,11,27.272727272727273
+all,P2,PRISM2,borderline,uncertain,0,11,0.0
+all,P2,PRISM2,borderline,conflict,0,11,0.0
+all,P2,PRISM2,malignant,benign,0,124,0.0
+all,P2,PRISM2,malignant,borderline,0,124,0.0
+all,P2,PRISM2,malignant,malignant,122,124,98.38709677419355
+all,P2,PRISM2,malignant,missing,1,124,0.8064516129032258
+all,P2,PRISM2,malignant,uncertain,0,124,0.0
+all,P2,PRISM2,malignant,conflict,1,124,0.8064516129032258
+all,P2,PRISM2,missing,benign,0,3,0.0
+all,P2,PRISM2,missing,borderline,0,3,0.0
+all,P2,PRISM2,missing,malignant,3,3,100.0
+all,P2,PRISM2,missing,missing,0,3,0.0
+all,P2,PRISM2,missing,uncertain,0,3,0.0
+all,P2,PRISM2,missing,conflict,0,3,0.0
+all,P2,PRISM2,uncertain,benign,0,0,
+all,P2,PRISM2,uncertain,borderline,0,0,
+all,P2,PRISM2,uncertain,malignant,0,0,
+all,P2,PRISM2,uncertain,missing,0,0,
+all,P2,PRISM2,uncertain,uncertain,0,0,
+all,P2,PRISM2,uncertain,conflict,0,0,
+all,P2,PRISM2,conflict,benign,0,0,
+all,P2,PRISM2,conflict,borderline,0,0,
+all,P2,PRISM2,conflict,malignant,0,0,
+all,P2,PRISM2,conflict,missing,0,0,
+all,P2,PRISM2,conflict,uncertain,0,0,
+all,P2,PRISM2,conflict,conflict,0,0,
+all,P2,HistGen,benign,benign,0,13,0.0
+all,P2,HistGen,benign,borderline,0,13,0.0
+all,P2,HistGen,benign,malignant,10,13,76.92307692307692
+all,P2,HistGen,benign,missing,3,13,23.076923076923077
+all,P2,HistGen,benign,uncertain,0,13,0.0
+all,P2,HistGen,benign,conflict,0,13,0.0
+all,P2,HistGen,borderline,benign,0,11,0.0
+all,P2,HistGen,borderline,borderline,0,11,0.0
+all,P2,HistGen,borderline,malignant,11,11,100.0
+all,P2,HistGen,borderline,missing,0,11,0.0
+all,P2,HistGen,borderline,uncertain,0,11,0.0
+all,P2,HistGen,borderline,conflict,0,11,0.0
+all,P2,HistGen,malignant,benign,0,124,0.0
+all,P2,HistGen,malignant,borderline,0,124,0.0
+all,P2,HistGen,malignant,malignant,106,124,85.48387096774194
+all,P2,HistGen,malignant,missing,17,124,13.709677419354838
+all,P2,HistGen,malignant,uncertain,0,124,0.0
+all,P2,HistGen,malignant,conflict,1,124,0.8064516129032258
+all,P2,HistGen,missing,benign,0,3,0.0
+all,P2,HistGen,missing,borderline,0,3,0.0
+all,P2,HistGen,missing,malignant,2,3,66.66666666666667
+all,P2,HistGen,missing,missing,1,3,33.333333333333336
+all,P2,HistGen,missing,uncertain,0,3,0.0
+all,P2,HistGen,missing,conflict,0,3,0.0
+all,P2,HistGen,uncertain,benign,0,0,
+all,P2,HistGen,uncertain,borderline,0,0,
+all,P2,HistGen,uncertain,malignant,0,0,
+all,P2,HistGen,uncertain,missing,0,0,
+all,P2,HistGen,uncertain,uncertain,0,0,
+all,P2,HistGen,uncertain,conflict,0,0,
+all,P2,HistGen,conflict,benign,0,0,
+all,P2,HistGen,conflict,borderline,0,0,
+all,P2,HistGen,conflict,malignant,0,0,
+all,P2,HistGen,conflict,missing,0,0,
+all,P2,HistGen,conflict,uncertain,0,0,
+all,P2,HistGen,conflict,conflict,0,0,
+all,P2,HistoGPT,benign,benign,1,13,7.6923076923076925
+all,P2,HistoGPT,benign,borderline,0,13,0.0
+all,P2,HistoGPT,benign,malignant,3,13,23.076923076923077
+all,P2,HistoGPT,benign,missing,9,13,69.23076923076923
+all,P2,HistoGPT,benign,uncertain,0,13,0.0
+all,P2,HistoGPT,benign,conflict,0,13,0.0
+all,P2,HistoGPT,borderline,benign,5,11,45.45454545454545
+all,P2,HistoGPT,borderline,borderline,0,11,0.0
+all,P2,HistoGPT,borderline,malignant,0,11,0.0
+all,P2,HistoGPT,borderline,missing,5,11,45.45454545454545
+all,P2,HistoGPT,borderline,uncertain,0,11,0.0
+all,P2,HistoGPT,borderline,conflict,1,11,9.090909090909092
+all,P2,HistoGPT,malignant,benign,1,124,0.8064516129032258
+all,P2,HistoGPT,malignant,borderline,0,124,0.0
+all,P2,HistoGPT,malignant,malignant,61,124,49.193548387096776
+all,P2,HistoGPT,malignant,missing,61,124,49.193548387096776
+all,P2,HistoGPT,malignant,uncertain,1,124,0.8064516129032258
+all,P2,HistoGPT,malignant,conflict,0,124,0.0
+all,P2,HistoGPT,missing,benign,0,3,0.0
+all,P2,HistoGPT,missing,borderline,0,3,0.0
+all,P2,HistoGPT,missing,malignant,0,3,0.0
+all,P2,HistoGPT,missing,missing,3,3,100.0
+all,P2,HistoGPT,missing,uncertain,0,3,0.0
+all,P2,HistoGPT,missing,conflict,0,3,0.0
+all,P2,HistoGPT,uncertain,benign,0,0,
+all,P2,HistoGPT,uncertain,borderline,0,0,
+all,P2,HistoGPT,uncertain,malignant,0,0,
+all,P2,HistoGPT,uncertain,missing,0,0,
+all,P2,HistoGPT,uncertain,uncertain,0,0,
+all,P2,HistoGPT,uncertain,conflict,0,0,
+all,P2,HistoGPT,conflict,benign,0,0,
+all,P2,HistoGPT,conflict,borderline,0,0,
+all,P2,HistoGPT,conflict,malignant,0,0,
+all,P2,HistoGPT,conflict,missing,0,0,
+all,P2,HistoGPT,conflict,uncertain,0,0,
+all,P2,HistoGPT,conflict,conflict,0,0,
+all,P2,SO1_D1,benign,benign,0,13,0.0
+all,P2,SO1_D1,benign,borderline,0,13,0.0
+all,P2,SO1_D1,benign,malignant,13,13,100.0
+all,P2,SO1_D1,benign,missing,0,13,0.0
+all,P2,SO1_D1,benign,uncertain,0,13,0.0
+all,P2,SO1_D1,benign,conflict,0,13,0.0
+all,P2,SO1_D1,borderline,benign,1,11,9.090909090909092
+all,P2,SO1_D1,borderline,borderline,0,11,0.0
+all,P2,SO1_D1,borderline,malignant,10,11,90.9090909090909
+all,P2,SO1_D1,borderline,missing,0,11,0.0
+all,P2,SO1_D1,borderline,uncertain,0,11,0.0
+all,P2,SO1_D1,borderline,conflict,0,11,0.0
+all,P2,SO1_D1,malignant,benign,0,124,0.0
+all,P2,SO1_D1,malignant,borderline,0,124,0.0
+all,P2,SO1_D1,malignant,malignant,124,124,100.0
+all,P2,SO1_D1,malignant,missing,0,124,0.0
+all,P2,SO1_D1,malignant,uncertain,0,124,0.0
+all,P2,SO1_D1,malignant,conflict,0,124,0.0
+all,P2,SO1_D1,missing,benign,0,3,0.0
+all,P2,SO1_D1,missing,borderline,0,3,0.0
+all,P2,SO1_D1,missing,malignant,3,3,100.0
+all,P2,SO1_D1,missing,missing,0,3,0.0
+all,P2,SO1_D1,missing,uncertain,0,3,0.0
+all,P2,SO1_D1,missing,conflict,0,3,0.0
+all,P2,SO1_D1,uncertain,benign,0,0,
+all,P2,SO1_D1,uncertain,borderline,0,0,
+all,P2,SO1_D1,uncertain,malignant,0,0,
+all,P2,SO1_D1,uncertain,missing,0,0,
+all,P2,SO1_D1,uncertain,uncertain,0,0,
+all,P2,SO1_D1,uncertain,conflict,0,0,
+all,P2,SO1_D1,conflict,benign,0,0,
+all,P2,SO1_D1,conflict,borderline,0,0,
+all,P2,SO1_D1,conflict,malignant,0,0,
+all,P2,SO1_D1,conflict,missing,0,0,
+all,P2,SO1_D1,conflict,uncertain,0,0,
+all,P2,SO1_D1,conflict,conflict,0,0,
+all,P2,SO4_D1,benign,benign,0,13,0.0
+all,P2,SO4_D1,benign,borderline,0,13,0.0
+all,P2,SO4_D1,benign,malignant,13,13,100.0
+all,P2,SO4_D1,benign,missing,0,13,0.0
+all,P2,SO4_D1,benign,uncertain,0,13,0.0
+all,P2,SO4_D1,benign,conflict,0,13,0.0
+all,P2,SO4_D1,borderline,benign,0,11,0.0
+all,P2,SO4_D1,borderline,borderline,0,11,0.0
+all,P2,SO4_D1,borderline,malignant,11,11,100.0
+all,P2,SO4_D1,borderline,missing,0,11,0.0
+all,P2,SO4_D1,borderline,uncertain,0,11,0.0
+all,P2,SO4_D1,borderline,conflict,0,11,0.0
+all,P2,SO4_D1,malignant,benign,0,124,0.0
+all,P2,SO4_D1,malignant,borderline,0,124,0.0
+all,P2,SO4_D1,malignant,malignant,124,124,100.0
+all,P2,SO4_D1,malignant,missing,0,124,0.0
+all,P2,SO4_D1,malignant,uncertain,0,124,0.0
+all,P2,SO4_D1,malignant,conflict,0,124,0.0
+all,P2,SO4_D1,missing,benign,0,3,0.0
+all,P2,SO4_D1,missing,borderline,0,3,0.0
+all,P2,SO4_D1,missing,malignant,3,3,100.0
+all,P2,SO4_D1,missing,missing,0,3,0.0
+all,P2,SO4_D1,missing,uncertain,0,3,0.0
+all,P2,SO4_D1,missing,conflict,0,3,0.0
+all,P2,SO4_D1,uncertain,benign,0,0,
+all,P2,SO4_D1,uncertain,borderline,0,0,
+all,P2,SO4_D1,uncertain,malignant,0,0,
+all,P2,SO4_D1,uncertain,missing,0,0,
+all,P2,SO4_D1,uncertain,uncertain,0,0,
+all,P2,SO4_D1,uncertain,conflict,0,0,
+all,P2,SO4_D1,conflict,benign,0,0,
+all,P2,SO4_D1,conflict,borderline,0,0,
+all,P2,SO4_D1,conflict,malignant,0,0,
+all,P2,SO4_D1,conflict,missing,0,0,
+all,P2,SO4_D1,conflict,uncertain,0,0,
+all,P2,SO4_D1,conflict,conflict,0,0,
+breast,P1,Visual + Qwen,benign,benign,0,0,
+breast,P1,Visual + Qwen,benign,borderline,0,0,
+breast,P1,Visual + Qwen,benign,malignant,0,0,
+breast,P1,Visual + Qwen,benign,missing,0,0,
+breast,P1,Visual + Qwen,benign,uncertain,0,0,
+breast,P1,Visual + Qwen,benign,conflict,0,0,
+breast,P1,Visual + Qwen,borderline,benign,0,0,
+breast,P1,Visual + Qwen,borderline,borderline,0,0,
+breast,P1,Visual + Qwen,borderline,malignant,0,0,
+breast,P1,Visual + Qwen,borderline,missing,0,0,
+breast,P1,Visual + Qwen,borderline,uncertain,0,0,
+breast,P1,Visual + Qwen,borderline,conflict,0,0,
+breast,P1,Visual + Qwen,malignant,benign,0,76,0.0
+breast,P1,Visual + Qwen,malignant,borderline,0,76,0.0
+breast,P1,Visual + Qwen,malignant,malignant,75,76,98.6842105263158
+breast,P1,Visual + Qwen,malignant,missing,1,76,1.3157894736842106
+breast,P1,Visual + Qwen,malignant,uncertain,0,76,0.0
+breast,P1,Visual + Qwen,malignant,conflict,0,76,0.0
+breast,P1,Visual + Qwen,missing,benign,0,0,
+breast,P1,Visual + Qwen,missing,borderline,0,0,
+breast,P1,Visual + Qwen,missing,malignant,0,0,
+breast,P1,Visual + Qwen,missing,missing,0,0,
+breast,P1,Visual + Qwen,missing,uncertain,0,0,
+breast,P1,Visual + Qwen,missing,conflict,0,0,
+breast,P1,Visual + Qwen,uncertain,benign,0,0,
+breast,P1,Visual + Qwen,uncertain,borderline,0,0,
+breast,P1,Visual + Qwen,uncertain,malignant,0,0,
+breast,P1,Visual + Qwen,uncertain,missing,0,0,
+breast,P1,Visual + Qwen,uncertain,uncertain,0,0,
+breast,P1,Visual + Qwen,uncertain,conflict,0,0,
+breast,P1,Visual + Qwen,conflict,benign,0,0,
+breast,P1,Visual + Qwen,conflict,borderline,0,0,
+breast,P1,Visual + Qwen,conflict,malignant,0,0,
+breast,P1,Visual + Qwen,conflict,missing,0,0,
+breast,P1,Visual + Qwen,conflict,uncertain,0,0,
+breast,P1,Visual + Qwen,conflict,conflict,0,0,
+breast,P1,DeepSeek,benign,benign,0,0,
+breast,P1,DeepSeek,benign,borderline,0,0,
+breast,P1,DeepSeek,benign,malignant,0,0,
+breast,P1,DeepSeek,benign,missing,0,0,
+breast,P1,DeepSeek,benign,uncertain,0,0,
+breast,P1,DeepSeek,benign,conflict,0,0,
+breast,P1,DeepSeek,borderline,benign,0,0,
+breast,P1,DeepSeek,borderline,borderline,0,0,
+breast,P1,DeepSeek,borderline,malignant,0,0,
+breast,P1,DeepSeek,borderline,missing,0,0,
+breast,P1,DeepSeek,borderline,uncertain,0,0,
+breast,P1,DeepSeek,borderline,conflict,0,0,
+breast,P1,DeepSeek,malignant,benign,1,76,1.3157894736842106
+breast,P1,DeepSeek,malignant,borderline,0,76,0.0
+breast,P1,DeepSeek,malignant,malignant,73,76,96.05263157894737
+breast,P1,DeepSeek,malignant,missing,0,76,0.0
+breast,P1,DeepSeek,malignant,uncertain,2,76,2.6315789473684212
+breast,P1,DeepSeek,malignant,conflict,0,76,0.0
+breast,P1,DeepSeek,missing,benign,0,0,
+breast,P1,DeepSeek,missing,borderline,0,0,
+breast,P1,DeepSeek,missing,malignant,0,0,
+breast,P1,DeepSeek,missing,missing,0,0,
+breast,P1,DeepSeek,missing,uncertain,0,0,
+breast,P1,DeepSeek,missing,conflict,0,0,
+breast,P1,DeepSeek,uncertain,benign,0,0,
+breast,P1,DeepSeek,uncertain,borderline,0,0,
+breast,P1,DeepSeek,uncertain,malignant,0,0,
+breast,P1,DeepSeek,uncertain,missing,0,0,
+breast,P1,DeepSeek,uncertain,uncertain,0,0,
+breast,P1,DeepSeek,uncertain,conflict,0,0,
+breast,P1,DeepSeek,conflict,benign,0,0,
+breast,P1,DeepSeek,conflict,borderline,0,0,
+breast,P1,DeepSeek,conflict,malignant,0,0,
+breast,P1,DeepSeek,conflict,missing,0,0,
+breast,P1,DeepSeek,conflict,uncertain,0,0,
+breast,P1,DeepSeek,conflict,conflict,0,0,
+breast,P1,GLM,benign,benign,0,0,
+breast,P1,GLM,benign,borderline,0,0,
+breast,P1,GLM,benign,malignant,0,0,
+breast,P1,GLM,benign,missing,0,0,
+breast,P1,GLM,benign,uncertain,0,0,
+breast,P1,GLM,benign,conflict,0,0,
+breast,P1,GLM,borderline,benign,0,0,
+breast,P1,GLM,borderline,borderline,0,0,
+breast,P1,GLM,borderline,malignant,0,0,
+breast,P1,GLM,borderline,missing,0,0,
+breast,P1,GLM,borderline,uncertain,0,0,
+breast,P1,GLM,borderline,conflict,0,0,
+breast,P1,GLM,malignant,benign,0,76,0.0
+breast,P1,GLM,malignant,borderline,2,76,2.6315789473684212
+breast,P1,GLM,malignant,malignant,65,76,85.52631578947368
+breast,P1,GLM,malignant,missing,2,76,2.6315789473684212
+breast,P1,GLM,malignant,uncertain,6,76,7.894736842105263
+breast,P1,GLM,malignant,conflict,1,76,1.3157894736842106
+breast,P1,GLM,missing,benign,0,0,
+breast,P1,GLM,missing,borderline,0,0,
+breast,P1,GLM,missing,malignant,0,0,
+breast,P1,GLM,missing,missing,0,0,
+breast,P1,GLM,missing,uncertain,0,0,
+breast,P1,GLM,missing,conflict,0,0,
+breast,P1,GLM,uncertain,benign,0,0,
+breast,P1,GLM,uncertain,borderline,0,0,
+breast,P1,GLM,uncertain,malignant,0,0,
+breast,P1,GLM,uncertain,missing,0,0,
+breast,P1,GLM,uncertain,uncertain,0,0,
+breast,P1,GLM,uncertain,conflict,0,0,
+breast,P1,GLM,conflict,benign,0,0,
+breast,P1,GLM,conflict,borderline,0,0,
+breast,P1,GLM,conflict,malignant,0,0,
+breast,P1,GLM,conflict,missing,0,0,
+breast,P1,GLM,conflict,uncertain,0,0,
+breast,P1,GLM,conflict,conflict,0,0,
+breast,P1,Visual + MedGemma,benign,benign,0,0,
+breast,P1,Visual + MedGemma,benign,borderline,0,0,
+breast,P1,Visual + MedGemma,benign,malignant,0,0,
+breast,P1,Visual + MedGemma,benign,missing,0,0,
+breast,P1,Visual + MedGemma,benign,uncertain,0,0,
+breast,P1,Visual + MedGemma,benign,conflict,0,0,
+breast,P1,Visual + MedGemma,borderline,benign,0,0,
+breast,P1,Visual + MedGemma,borderline,borderline,0,0,
+breast,P1,Visual + MedGemma,borderline,malignant,0,0,
+breast,P1,Visual + MedGemma,borderline,missing,0,0,
+breast,P1,Visual + MedGemma,borderline,uncertain,0,0,
+breast,P1,Visual + MedGemma,borderline,conflict,0,0,
+breast,P1,Visual + MedGemma,malignant,benign,0,76,0.0
+breast,P1,Visual + MedGemma,malignant,borderline,0,76,0.0
+breast,P1,Visual + MedGemma,malignant,malignant,64,76,84.21052631578948
+breast,P1,Visual + MedGemma,malignant,missing,12,76,15.789473684210526
+breast,P1,Visual + MedGemma,malignant,uncertain,0,76,0.0
+breast,P1,Visual + MedGemma,malignant,conflict,0,76,0.0
+breast,P1,Visual + MedGemma,missing,benign,0,0,
+breast,P1,Visual + MedGemma,missing,borderline,0,0,
+breast,P1,Visual + MedGemma,missing,malignant,0,0,
+breast,P1,Visual + MedGemma,missing,missing,0,0,
+breast,P1,Visual + MedGemma,missing,uncertain,0,0,
+breast,P1,Visual + MedGemma,missing,conflict,0,0,
+breast,P1,Visual + MedGemma,uncertain,benign,0,0,
+breast,P1,Visual + MedGemma,uncertain,borderline,0,0,
+breast,P1,Visual + MedGemma,uncertain,malignant,0,0,
+breast,P1,Visual + MedGemma,uncertain,missing,0,0,
+breast,P1,Visual + MedGemma,uncertain,uncertain,0,0,
+breast,P1,Visual + MedGemma,uncertain,conflict,0,0,
+breast,P1,Visual + MedGemma,conflict,benign,0,0,
+breast,P1,Visual + MedGemma,conflict,borderline,0,0,
+breast,P1,Visual + MedGemma,conflict,malignant,0,0,
+breast,P1,Visual + MedGemma,conflict,missing,0,0,
+breast,P1,Visual + MedGemma,conflict,uncertain,0,0,
+breast,P1,Visual + MedGemma,conflict,conflict,0,0,
+breast,P1,PathAgent,benign,benign,0,0,
+breast,P1,PathAgent,benign,borderline,0,0,
+breast,P1,PathAgent,benign,malignant,0,0,
+breast,P1,PathAgent,benign,missing,0,0,
+breast,P1,PathAgent,benign,uncertain,0,0,
+breast,P1,PathAgent,benign,conflict,0,0,
+breast,P1,PathAgent,borderline,benign,0,0,
+breast,P1,PathAgent,borderline,borderline,0,0,
+breast,P1,PathAgent,borderline,malignant,0,0,
+breast,P1,PathAgent,borderline,missing,0,0,
+breast,P1,PathAgent,borderline,uncertain,0,0,
+breast,P1,PathAgent,borderline,conflict,0,0,
+breast,P1,PathAgent,malignant,benign,0,76,0.0
+breast,P1,PathAgent,malignant,borderline,0,76,0.0
+breast,P1,PathAgent,malignant,malignant,70,76,92.10526315789474
+breast,P1,PathAgent,malignant,missing,6,76,7.894736842105263
+breast,P1,PathAgent,malignant,uncertain,0,76,0.0
+breast,P1,PathAgent,malignant,conflict,0,76,0.0
+breast,P1,PathAgent,missing,benign,0,0,
+breast,P1,PathAgent,missing,borderline,0,0,
+breast,P1,PathAgent,missing,malignant,0,0,
+breast,P1,PathAgent,missing,missing,0,0,
+breast,P1,PathAgent,missing,uncertain,0,0,
+breast,P1,PathAgent,missing,conflict,0,0,
+breast,P1,PathAgent,uncertain,benign,0,0,
+breast,P1,PathAgent,uncertain,borderline,0,0,
+breast,P1,PathAgent,uncertain,malignant,0,0,
+breast,P1,PathAgent,uncertain,missing,0,0,
+breast,P1,PathAgent,uncertain,uncertain,0,0,
+breast,P1,PathAgent,uncertain,conflict,0,0,
+breast,P1,PathAgent,conflict,benign,0,0,
+breast,P1,PathAgent,conflict,borderline,0,0,
+breast,P1,PathAgent,conflict,malignant,0,0,
+breast,P1,PathAgent,conflict,missing,0,0,
+breast,P1,PathAgent,conflict,uncertain,0,0,
+breast,P1,PathAgent,conflict,conflict,0,0,
+breast,P1,PRISM2,benign,benign,0,0,
+breast,P1,PRISM2,benign,borderline,0,0,
+breast,P1,PRISM2,benign,malignant,0,0,
+breast,P1,PRISM2,benign,missing,0,0,
+breast,P1,PRISM2,benign,uncertain,0,0,
+breast,P1,PRISM2,benign,conflict,0,0,
+breast,P1,PRISM2,borderline,benign,0,0,
+breast,P1,PRISM2,borderline,borderline,0,0,
+breast,P1,PRISM2,borderline,malignant,0,0,
+breast,P1,PRISM2,borderline,missing,0,0,
+breast,P1,PRISM2,borderline,uncertain,0,0,
+breast,P1,PRISM2,borderline,conflict,0,0,
+breast,P1,PRISM2,malignant,benign,0,76,0.0
+breast,P1,PRISM2,malignant,borderline,0,76,0.0
+breast,P1,PRISM2,malignant,malignant,76,76,100.0
+breast,P1,PRISM2,malignant,missing,0,76,0.0
+breast,P1,PRISM2,malignant,uncertain,0,76,0.0
+breast,P1,PRISM2,malignant,conflict,0,76,0.0
+breast,P1,PRISM2,missing,benign,0,0,
+breast,P1,PRISM2,missing,borderline,0,0,
+breast,P1,PRISM2,missing,malignant,0,0,
+breast,P1,PRISM2,missing,missing,0,0,
+breast,P1,PRISM2,missing,uncertain,0,0,
+breast,P1,PRISM2,missing,conflict,0,0,
+breast,P1,PRISM2,uncertain,benign,0,0,
+breast,P1,PRISM2,uncertain,borderline,0,0,
+breast,P1,PRISM2,uncertain,malignant,0,0,
+breast,P1,PRISM2,uncertain,missing,0,0,
+breast,P1,PRISM2,uncertain,uncertain,0,0,
+breast,P1,PRISM2,uncertain,conflict,0,0,
+breast,P1,PRISM2,conflict,benign,0,0,
+breast,P1,PRISM2,conflict,borderline,0,0,
+breast,P1,PRISM2,conflict,malignant,0,0,
+breast,P1,PRISM2,conflict,missing,0,0,
+breast,P1,PRISM2,conflict,uncertain,0,0,
+breast,P1,PRISM2,conflict,conflict,0,0,
+breast,P1,HistGen,benign,benign,0,0,
+breast,P1,HistGen,benign,borderline,0,0,
+breast,P1,HistGen,benign,malignant,0,0,
+breast,P1,HistGen,benign,missing,0,0,
+breast,P1,HistGen,benign,uncertain,0,0,
+breast,P1,HistGen,benign,conflict,0,0,
+breast,P1,HistGen,borderline,benign,0,0,
+breast,P1,HistGen,borderline,borderline,0,0,
+breast,P1,HistGen,borderline,malignant,0,0,
+breast,P1,HistGen,borderline,missing,0,0,
+breast,P1,HistGen,borderline,uncertain,0,0,
+breast,P1,HistGen,borderline,conflict,0,0,
+breast,P1,HistGen,malignant,benign,0,76,0.0
+breast,P1,HistGen,malignant,borderline,0,76,0.0
+breast,P1,HistGen,malignant,malignant,71,76,93.42105263157895
+breast,P1,HistGen,malignant,missing,5,76,6.578947368421052
+breast,P1,HistGen,malignant,uncertain,0,76,0.0
+breast,P1,HistGen,malignant,conflict,0,76,0.0
+breast,P1,HistGen,missing,benign,0,0,
+breast,P1,HistGen,missing,borderline,0,0,
+breast,P1,HistGen,missing,malignant,0,0,
+breast,P1,HistGen,missing,missing,0,0,
+breast,P1,HistGen,missing,uncertain,0,0,
+breast,P1,HistGen,missing,conflict,0,0,
+breast,P1,HistGen,uncertain,benign,0,0,
+breast,P1,HistGen,uncertain,borderline,0,0,
+breast,P1,HistGen,uncertain,malignant,0,0,
+breast,P1,HistGen,uncertain,missing,0,0,
+breast,P1,HistGen,uncertain,uncertain,0,0,
+breast,P1,HistGen,uncertain,conflict,0,0,
+breast,P1,HistGen,conflict,benign,0,0,
+breast,P1,HistGen,conflict,borderline,0,0,
+breast,P1,HistGen,conflict,malignant,0,0,
+breast,P1,HistGen,conflict,missing,0,0,
+breast,P1,HistGen,conflict,uncertain,0,0,
+breast,P1,HistGen,conflict,conflict,0,0,
+breast,P1,HistoGPT,benign,benign,0,0,
+breast,P1,HistoGPT,benign,borderline,0,0,
+breast,P1,HistoGPT,benign,malignant,0,0,
+breast,P1,HistoGPT,benign,missing,0,0,
+breast,P1,HistoGPT,benign,uncertain,0,0,
+breast,P1,HistoGPT,benign,conflict,0,0,
+breast,P1,HistoGPT,borderline,benign,0,0,
+breast,P1,HistoGPT,borderline,borderline,0,0,
+breast,P1,HistoGPT,borderline,malignant,0,0,
+breast,P1,HistoGPT,borderline,missing,0,0,
+breast,P1,HistoGPT,borderline,uncertain,0,0,
+breast,P1,HistoGPT,borderline,conflict,0,0,
+breast,P1,HistoGPT,malignant,benign,0,76,0.0
+breast,P1,HistoGPT,malignant,borderline,0,76,0.0
+breast,P1,HistoGPT,malignant,malignant,53,76,69.73684210526316
+breast,P1,HistoGPT,malignant,missing,23,76,30.263157894736842
+breast,P1,HistoGPT,malignant,uncertain,0,76,0.0
+breast,P1,HistoGPT,malignant,conflict,0,76,0.0
+breast,P1,HistoGPT,missing,benign,0,0,
+breast,P1,HistoGPT,missing,borderline,0,0,
+breast,P1,HistoGPT,missing,malignant,0,0,
+breast,P1,HistoGPT,missing,missing,0,0,
+breast,P1,HistoGPT,missing,uncertain,0,0,
+breast,P1,HistoGPT,missing,conflict,0,0,
+breast,P1,HistoGPT,uncertain,benign,0,0,
+breast,P1,HistoGPT,uncertain,borderline,0,0,
+breast,P1,HistoGPT,uncertain,malignant,0,0,
+breast,P1,HistoGPT,uncertain,missing,0,0,
+breast,P1,HistoGPT,uncertain,uncertain,0,0,
+breast,P1,HistoGPT,uncertain,conflict,0,0,
+breast,P1,HistoGPT,conflict,benign,0,0,
+breast,P1,HistoGPT,conflict,borderline,0,0,
+breast,P1,HistoGPT,conflict,malignant,0,0,
+breast,P1,HistoGPT,conflict,missing,0,0,
+breast,P1,HistoGPT,conflict,uncertain,0,0,
+breast,P1,HistoGPT,conflict,conflict,0,0,
+breast,P1,SO1_D1,benign,benign,0,0,
+breast,P1,SO1_D1,benign,borderline,0,0,
+breast,P1,SO1_D1,benign,malignant,0,0,
+breast,P1,SO1_D1,benign,missing,0,0,
+breast,P1,SO1_D1,benign,uncertain,0,0,
+breast,P1,SO1_D1,benign,conflict,0,0,
+breast,P1,SO1_D1,borderline,benign,0,0,
+breast,P1,SO1_D1,borderline,borderline,0,0,
+breast,P1,SO1_D1,borderline,malignant,0,0,
+breast,P1,SO1_D1,borderline,missing,0,0,
+breast,P1,SO1_D1,borderline,uncertain,0,0,
+breast,P1,SO1_D1,borderline,conflict,0,0,
+breast,P1,SO1_D1,malignant,benign,0,76,0.0
+breast,P1,SO1_D1,malignant,borderline,0,76,0.0
+breast,P1,SO1_D1,malignant,malignant,76,76,100.0
+breast,P1,SO1_D1,malignant,missing,0,76,0.0
+breast,P1,SO1_D1,malignant,uncertain,0,76,0.0
+breast,P1,SO1_D1,malignant,conflict,0,76,0.0
+breast,P1,SO1_D1,missing,benign,0,0,
+breast,P1,SO1_D1,missing,borderline,0,0,
+breast,P1,SO1_D1,missing,malignant,0,0,
+breast,P1,SO1_D1,missing,missing,0,0,
+breast,P1,SO1_D1,missing,uncertain,0,0,
+breast,P1,SO1_D1,missing,conflict,0,0,
+breast,P1,SO1_D1,uncertain,benign,0,0,
+breast,P1,SO1_D1,uncertain,borderline,0,0,
+breast,P1,SO1_D1,uncertain,malignant,0,0,
+breast,P1,SO1_D1,uncertain,missing,0,0,
+breast,P1,SO1_D1,uncertain,uncertain,0,0,
+breast,P1,SO1_D1,uncertain,conflict,0,0,
+breast,P1,SO1_D1,conflict,benign,0,0,
+breast,P1,SO1_D1,conflict,borderline,0,0,
+breast,P1,SO1_D1,conflict,malignant,0,0,
+breast,P1,SO1_D1,conflict,missing,0,0,
+breast,P1,SO1_D1,conflict,uncertain,0,0,
+breast,P1,SO1_D1,conflict,conflict,0,0,
+breast,P1,SO4_D1,benign,benign,0,0,
+breast,P1,SO4_D1,benign,borderline,0,0,
+breast,P1,SO4_D1,benign,malignant,0,0,
+breast,P1,SO4_D1,benign,missing,0,0,
+breast,P1,SO4_D1,benign,uncertain,0,0,
+breast,P1,SO4_D1,benign,conflict,0,0,
+breast,P1,SO4_D1,borderline,benign,0,0,
+breast,P1,SO4_D1,borderline,borderline,0,0,
+breast,P1,SO4_D1,borderline,malignant,0,0,
+breast,P1,SO4_D1,borderline,missing,0,0,
+breast,P1,SO4_D1,borderline,uncertain,0,0,
+breast,P1,SO4_D1,borderline,conflict,0,0,
+breast,P1,SO4_D1,malignant,benign,0,76,0.0
+breast,P1,SO4_D1,malignant,borderline,0,76,0.0
+breast,P1,SO4_D1,malignant,malignant,76,76,100.0
+breast,P1,SO4_D1,malignant,missing,0,76,0.0
+breast,P1,SO4_D1,malignant,uncertain,0,76,0.0
+breast,P1,SO4_D1,malignant,conflict,0,76,0.0
+breast,P1,SO4_D1,missing,benign,0,0,
+breast,P1,SO4_D1,missing,borderline,0,0,
+breast,P1,SO4_D1,missing,malignant,0,0,
+breast,P1,SO4_D1,missing,missing,0,0,
+breast,P1,SO4_D1,missing,uncertain,0,0,
+breast,P1,SO4_D1,missing,conflict,0,0,
+breast,P1,SO4_D1,uncertain,benign,0,0,
+breast,P1,SO4_D1,uncertain,borderline,0,0,
+breast,P1,SO4_D1,uncertain,malignant,0,0,
+breast,P1,SO4_D1,uncertain,missing,0,0,
+breast,P1,SO4_D1,uncertain,uncertain,0,0,
+breast,P1,SO4_D1,uncertain,conflict,0,0,
+breast,P1,SO4_D1,conflict,benign,0,0,
+breast,P1,SO4_D1,conflict,borderline,0,0,
+breast,P1,SO4_D1,conflict,malignant,0,0,
+breast,P1,SO4_D1,conflict,missing,0,0,
+breast,P1,SO4_D1,conflict,uncertain,0,0,
+breast,P1,SO4_D1,conflict,conflict,0,0,
+breast,P2,Visual + Qwen,benign,benign,0,0,
+breast,P2,Visual + Qwen,benign,borderline,0,0,
+breast,P2,Visual + Qwen,benign,malignant,0,0,
+breast,P2,Visual + Qwen,benign,missing,0,0,
+breast,P2,Visual + Qwen,benign,uncertain,0,0,
+breast,P2,Visual + Qwen,benign,conflict,0,0,
+breast,P2,Visual + Qwen,borderline,benign,0,0,
+breast,P2,Visual + Qwen,borderline,borderline,0,0,
+breast,P2,Visual + Qwen,borderline,malignant,0,0,
+breast,P2,Visual + Qwen,borderline,missing,0,0,
+breast,P2,Visual + Qwen,borderline,uncertain,0,0,
+breast,P2,Visual + Qwen,borderline,conflict,0,0,
+breast,P2,Visual + Qwen,malignant,benign,0,76,0.0
+breast,P2,Visual + Qwen,malignant,borderline,0,76,0.0
+breast,P2,Visual + Qwen,malignant,malignant,75,76,98.6842105263158
+breast,P2,Visual + Qwen,malignant,missing,1,76,1.3157894736842106
+breast,P2,Visual + Qwen,malignant,uncertain,0,76,0.0
+breast,P2,Visual + Qwen,malignant,conflict,0,76,0.0
+breast,P2,Visual + Qwen,missing,benign,0,0,
+breast,P2,Visual + Qwen,missing,borderline,0,0,
+breast,P2,Visual + Qwen,missing,malignant,0,0,
+breast,P2,Visual + Qwen,missing,missing,0,0,
+breast,P2,Visual + Qwen,missing,uncertain,0,0,
+breast,P2,Visual + Qwen,missing,conflict,0,0,
+breast,P2,Visual + Qwen,uncertain,benign,0,0,
+breast,P2,Visual + Qwen,uncertain,borderline,0,0,
+breast,P2,Visual + Qwen,uncertain,malignant,0,0,
+breast,P2,Visual + Qwen,uncertain,missing,0,0,
+breast,P2,Visual + Qwen,uncertain,uncertain,0,0,
+breast,P2,Visual + Qwen,uncertain,conflict,0,0,
+breast,P2,Visual + Qwen,conflict,benign,0,0,
+breast,P2,Visual + Qwen,conflict,borderline,0,0,
+breast,P2,Visual + Qwen,conflict,malignant,0,0,
+breast,P2,Visual + Qwen,conflict,missing,0,0,
+breast,P2,Visual + Qwen,conflict,uncertain,0,0,
+breast,P2,Visual + Qwen,conflict,conflict,0,0,
+breast,P2,DeepSeek,benign,benign,0,0,
+breast,P2,DeepSeek,benign,borderline,0,0,
+breast,P2,DeepSeek,benign,malignant,0,0,
+breast,P2,DeepSeek,benign,missing,0,0,
+breast,P2,DeepSeek,benign,uncertain,0,0,
+breast,P2,DeepSeek,benign,conflict,0,0,
+breast,P2,DeepSeek,borderline,benign,0,0,
+breast,P2,DeepSeek,borderline,borderline,0,0,
+breast,P2,DeepSeek,borderline,malignant,0,0,
+breast,P2,DeepSeek,borderline,missing,0,0,
+breast,P2,DeepSeek,borderline,uncertain,0,0,
+breast,P2,DeepSeek,borderline,conflict,0,0,
+breast,P2,DeepSeek,malignant,benign,1,76,1.3157894736842106
+breast,P2,DeepSeek,malignant,borderline,0,76,0.0
+breast,P2,DeepSeek,malignant,malignant,73,76,96.05263157894737
+breast,P2,DeepSeek,malignant,missing,0,76,0.0
+breast,P2,DeepSeek,malignant,uncertain,2,76,2.6315789473684212
+breast,P2,DeepSeek,malignant,conflict,0,76,0.0
+breast,P2,DeepSeek,missing,benign,0,0,
+breast,P2,DeepSeek,missing,borderline,0,0,
+breast,P2,DeepSeek,missing,malignant,0,0,
+breast,P2,DeepSeek,missing,missing,0,0,
+breast,P2,DeepSeek,missing,uncertain,0,0,
+breast,P2,DeepSeek,missing,conflict,0,0,
+breast,P2,DeepSeek,uncertain,benign,0,0,
+breast,P2,DeepSeek,uncertain,borderline,0,0,
+breast,P2,DeepSeek,uncertain,malignant,0,0,
+breast,P2,DeepSeek,uncertain,missing,0,0,
+breast,P2,DeepSeek,uncertain,uncertain,0,0,
+breast,P2,DeepSeek,uncertain,conflict,0,0,
+breast,P2,DeepSeek,conflict,benign,0,0,
+breast,P2,DeepSeek,conflict,borderline,0,0,
+breast,P2,DeepSeek,conflict,malignant,0,0,
+breast,P2,DeepSeek,conflict,missing,0,0,
+breast,P2,DeepSeek,conflict,uncertain,0,0,
+breast,P2,DeepSeek,conflict,conflict,0,0,
+breast,P2,GLM,benign,benign,0,0,
+breast,P2,GLM,benign,borderline,0,0,
+breast,P2,GLM,benign,malignant,0,0,
+breast,P2,GLM,benign,missing,0,0,
+breast,P2,GLM,benign,uncertain,0,0,
+breast,P2,GLM,benign,conflict,0,0,
+breast,P2,GLM,borderline,benign,0,0,
+breast,P2,GLM,borderline,borderline,0,0,
+breast,P2,GLM,borderline,malignant,0,0,
+breast,P2,GLM,borderline,missing,0,0,
+breast,P2,GLM,borderline,uncertain,0,0,
+breast,P2,GLM,borderline,conflict,0,0,
+breast,P2,GLM,malignant,benign,0,76,0.0
+breast,P2,GLM,malignant,borderline,2,76,2.6315789473684212
+breast,P2,GLM,malignant,malignant,65,76,85.52631578947368
+breast,P2,GLM,malignant,missing,2,76,2.6315789473684212
+breast,P2,GLM,malignant,uncertain,6,76,7.894736842105263
+breast,P2,GLM,malignant,conflict,1,76,1.3157894736842106
+breast,P2,GLM,missing,benign,0,0,
+breast,P2,GLM,missing,borderline,0,0,
+breast,P2,GLM,missing,malignant,0,0,
+breast,P2,GLM,missing,missing,0,0,
+breast,P2,GLM,missing,uncertain,0,0,
+breast,P2,GLM,missing,conflict,0,0,
+breast,P2,GLM,uncertain,benign,0,0,
+breast,P2,GLM,uncertain,borderline,0,0,
+breast,P2,GLM,uncertain,malignant,0,0,
+breast,P2,GLM,uncertain,missing,0,0,
+breast,P2,GLM,uncertain,uncertain,0,0,
+breast,P2,GLM,uncertain,conflict,0,0,
+breast,P2,GLM,conflict,benign,0,0,
+breast,P2,GLM,conflict,borderline,0,0,
+breast,P2,GLM,conflict,malignant,0,0,
+breast,P2,GLM,conflict,missing,0,0,
+breast,P2,GLM,conflict,uncertain,0,0,
+breast,P2,GLM,conflict,conflict,0,0,
+breast,P2,Visual + MedGemma,benign,benign,0,0,
+breast,P2,Visual + MedGemma,benign,borderline,0,0,
+breast,P2,Visual + MedGemma,benign,malignant,0,0,
+breast,P2,Visual + MedGemma,benign,missing,0,0,
+breast,P2,Visual + MedGemma,benign,uncertain,0,0,
+breast,P2,Visual + MedGemma,benign,conflict,0,0,
+breast,P2,Visual + MedGemma,borderline,benign,0,0,
+breast,P2,Visual + MedGemma,borderline,borderline,0,0,
+breast,P2,Visual + MedGemma,borderline,malignant,0,0,
+breast,P2,Visual + MedGemma,borderline,missing,0,0,
+breast,P2,Visual + MedGemma,borderline,uncertain,0,0,
+breast,P2,Visual + MedGemma,borderline,conflict,0,0,
+breast,P2,Visual + MedGemma,malignant,benign,0,76,0.0
+breast,P2,Visual + MedGemma,malignant,borderline,0,76,0.0
+breast,P2,Visual + MedGemma,malignant,malignant,64,76,84.21052631578948
+breast,P2,Visual + MedGemma,malignant,missing,12,76,15.789473684210526
+breast,P2,Visual + MedGemma,malignant,uncertain,0,76,0.0
+breast,P2,Visual + MedGemma,malignant,conflict,0,76,0.0
+breast,P2,Visual + MedGemma,missing,benign,0,0,
+breast,P2,Visual + MedGemma,missing,borderline,0,0,
+breast,P2,Visual + MedGemma,missing,malignant,0,0,
+breast,P2,Visual + MedGemma,missing,missing,0,0,
+breast,P2,Visual + MedGemma,missing,uncertain,0,0,
+breast,P2,Visual + MedGemma,missing,conflict,0,0,
+breast,P2,Visual + MedGemma,uncertain,benign,0,0,
+breast,P2,Visual + MedGemma,uncertain,borderline,0,0,
+breast,P2,Visual + MedGemma,uncertain,malignant,0,0,
+breast,P2,Visual + MedGemma,uncertain,missing,0,0,
+breast,P2,Visual + MedGemma,uncertain,uncertain,0,0,
+breast,P2,Visual + MedGemma,uncertain,conflict,0,0,
+breast,P2,Visual + MedGemma,conflict,benign,0,0,
+breast,P2,Visual + MedGemma,conflict,borderline,0,0,
+breast,P2,Visual + MedGemma,conflict,malignant,0,0,
+breast,P2,Visual + MedGemma,conflict,missing,0,0,
+breast,P2,Visual + MedGemma,conflict,uncertain,0,0,
+breast,P2,Visual + MedGemma,conflict,conflict,0,0,
+breast,P2,PathAgent,benign,benign,0,0,
+breast,P2,PathAgent,benign,borderline,0,0,
+breast,P2,PathAgent,benign,malignant,0,0,
+breast,P2,PathAgent,benign,missing,0,0,
+breast,P2,PathAgent,benign,uncertain,0,0,
+breast,P2,PathAgent,benign,conflict,0,0,
+breast,P2,PathAgent,borderline,benign,0,0,
+breast,P2,PathAgent,borderline,borderline,0,0,
+breast,P2,PathAgent,borderline,malignant,0,0,
+breast,P2,PathAgent,borderline,missing,0,0,
+breast,P2,PathAgent,borderline,uncertain,0,0,
+breast,P2,PathAgent,borderline,conflict,0,0,
+breast,P2,PathAgent,malignant,benign,0,76,0.0
+breast,P2,PathAgent,malignant,borderline,0,76,0.0
+breast,P2,PathAgent,malignant,malignant,70,76,92.10526315789474
+breast,P2,PathAgent,malignant,missing,6,76,7.894736842105263
+breast,P2,PathAgent,malignant,uncertain,0,76,0.0
+breast,P2,PathAgent,malignant,conflict,0,76,0.0
+breast,P2,PathAgent,missing,benign,0,0,
+breast,P2,PathAgent,missing,borderline,0,0,
+breast,P2,PathAgent,missing,malignant,0,0,
+breast,P2,PathAgent,missing,missing,0,0,
+breast,P2,PathAgent,missing,uncertain,0,0,
+breast,P2,PathAgent,missing,conflict,0,0,
+breast,P2,PathAgent,uncertain,benign,0,0,
+breast,P2,PathAgent,uncertain,borderline,0,0,
+breast,P2,PathAgent,uncertain,malignant,0,0,
+breast,P2,PathAgent,uncertain,missing,0,0,
+breast,P2,PathAgent,uncertain,uncertain,0,0,
+breast,P2,PathAgent,uncertain,conflict,0,0,
+breast,P2,PathAgent,conflict,benign,0,0,
+breast,P2,PathAgent,conflict,borderline,0,0,
+breast,P2,PathAgent,conflict,malignant,0,0,
+breast,P2,PathAgent,conflict,missing,0,0,
+breast,P2,PathAgent,conflict,uncertain,0,0,
+breast,P2,PathAgent,conflict,conflict,0,0,
+breast,P2,PRISM2,benign,benign,0,0,
+breast,P2,PRISM2,benign,borderline,0,0,
+breast,P2,PRISM2,benign,malignant,0,0,
+breast,P2,PRISM2,benign,missing,0,0,
+breast,P2,PRISM2,benign,uncertain,0,0,
+breast,P2,PRISM2,benign,conflict,0,0,
+breast,P2,PRISM2,borderline,benign,0,0,
+breast,P2,PRISM2,borderline,borderline,0,0,
+breast,P2,PRISM2,borderline,malignant,0,0,
+breast,P2,PRISM2,borderline,missing,0,0,
+breast,P2,PRISM2,borderline,uncertain,0,0,
+breast,P2,PRISM2,borderline,conflict,0,0,
+breast,P2,PRISM2,malignant,benign,0,76,0.0
+breast,P2,PRISM2,malignant,borderline,0,76,0.0
+breast,P2,PRISM2,malignant,malignant,76,76,100.0
+breast,P2,PRISM2,malignant,missing,0,76,0.0
+breast,P2,PRISM2,malignant,uncertain,0,76,0.0
+breast,P2,PRISM2,malignant,conflict,0,76,0.0
+breast,P2,PRISM2,missing,benign,0,0,
+breast,P2,PRISM2,missing,borderline,0,0,
+breast,P2,PRISM2,missing,malignant,0,0,
+breast,P2,PRISM2,missing,missing,0,0,
+breast,P2,PRISM2,missing,uncertain,0,0,
+breast,P2,PRISM2,missing,conflict,0,0,
+breast,P2,PRISM2,uncertain,benign,0,0,
+breast,P2,PRISM2,uncertain,borderline,0,0,
+breast,P2,PRISM2,uncertain,malignant,0,0,
+breast,P2,PRISM2,uncertain,missing,0,0,
+breast,P2,PRISM2,uncertain,uncertain,0,0,
+breast,P2,PRISM2,uncertain,conflict,0,0,
+breast,P2,PRISM2,conflict,benign,0,0,
+breast,P2,PRISM2,conflict,borderline,0,0,
+breast,P2,PRISM2,conflict,malignant,0,0,
+breast,P2,PRISM2,conflict,missing,0,0,
+breast,P2,PRISM2,conflict,uncertain,0,0,
+breast,P2,PRISM2,conflict,conflict,0,0,
+breast,P2,HistGen,benign,benign,0,0,
+breast,P2,HistGen,benign,borderline,0,0,
+breast,P2,HistGen,benign,malignant,0,0,
+breast,P2,HistGen,benign,missing,0,0,
+breast,P2,HistGen,benign,uncertain,0,0,
+breast,P2,HistGen,benign,conflict,0,0,
+breast,P2,HistGen,borderline,benign,0,0,
+breast,P2,HistGen,borderline,borderline,0,0,
+breast,P2,HistGen,borderline,malignant,0,0,
+breast,P2,HistGen,borderline,missing,0,0,
+breast,P2,HistGen,borderline,uncertain,0,0,
+breast,P2,HistGen,borderline,conflict,0,0,
+breast,P2,HistGen,malignant,benign,0,76,0.0
+breast,P2,HistGen,malignant,borderline,0,76,0.0
+breast,P2,HistGen,malignant,malignant,71,76,93.42105263157895
+breast,P2,HistGen,malignant,missing,5,76,6.578947368421052
+breast,P2,HistGen,malignant,uncertain,0,76,0.0
+breast,P2,HistGen,malignant,conflict,0,76,0.0
+breast,P2,HistGen,missing,benign,0,0,
+breast,P2,HistGen,missing,borderline,0,0,
+breast,P2,HistGen,missing,malignant,0,0,
+breast,P2,HistGen,missing,missing,0,0,
+breast,P2,HistGen,missing,uncertain,0,0,
+breast,P2,HistGen,missing,conflict,0,0,
+breast,P2,HistGen,uncertain,benign,0,0,
+breast,P2,HistGen,uncertain,borderline,0,0,
+breast,P2,HistGen,uncertain,malignant,0,0,
+breast,P2,HistGen,uncertain,missing,0,0,
+breast,P2,HistGen,uncertain,uncertain,0,0,
+breast,P2,HistGen,uncertain,conflict,0,0,
+breast,P2,HistGen,conflict,benign,0,0,
+breast,P2,HistGen,conflict,borderline,0,0,
+breast,P2,HistGen,conflict,malignant,0,0,
+breast,P2,HistGen,conflict,missing,0,0,
+breast,P2,HistGen,conflict,uncertain,0,0,
+breast,P2,HistGen,conflict,conflict,0,0,
+breast,P2,HistoGPT,benign,benign,0,0,
+breast,P2,HistoGPT,benign,borderline,0,0,
+breast,P2,HistoGPT,benign,malignant,0,0,
+breast,P2,HistoGPT,benign,missing,0,0,
+breast,P2,HistoGPT,benign,uncertain,0,0,
+breast,P2,HistoGPT,benign,conflict,0,0,
+breast,P2,HistoGPT,borderline,benign,0,0,
+breast,P2,HistoGPT,borderline,borderline,0,0,
+breast,P2,HistoGPT,borderline,malignant,0,0,
+breast,P2,HistoGPT,borderline,missing,0,0,
+breast,P2,HistoGPT,borderline,uncertain,0,0,
+breast,P2,HistoGPT,borderline,conflict,0,0,
+breast,P2,HistoGPT,malignant,benign,0,76,0.0
+breast,P2,HistoGPT,malignant,borderline,0,76,0.0
+breast,P2,HistoGPT,malignant,malignant,53,76,69.73684210526316
+breast,P2,HistoGPT,malignant,missing,23,76,30.263157894736842
+breast,P2,HistoGPT,malignant,uncertain,0,76,0.0
+breast,P2,HistoGPT,malignant,conflict,0,76,0.0
+breast,P2,HistoGPT,missing,benign,0,0,
+breast,P2,HistoGPT,missing,borderline,0,0,
+breast,P2,HistoGPT,missing,malignant,0,0,
+breast,P2,HistoGPT,missing,missing,0,0,
+breast,P2,HistoGPT,missing,uncertain,0,0,
+breast,P2,HistoGPT,missing,conflict,0,0,
+breast,P2,HistoGPT,uncertain,benign,0,0,
+breast,P2,HistoGPT,uncertain,borderline,0,0,
+breast,P2,HistoGPT,uncertain,malignant,0,0,
+breast,P2,HistoGPT,uncertain,missing,0,0,
+breast,P2,HistoGPT,uncertain,uncertain,0,0,
+breast,P2,HistoGPT,uncertain,conflict,0,0,
+breast,P2,HistoGPT,conflict,benign,0,0,
+breast,P2,HistoGPT,conflict,borderline,0,0,
+breast,P2,HistoGPT,conflict,malignant,0,0,
+breast,P2,HistoGPT,conflict,missing,0,0,
+breast,P2,HistoGPT,conflict,uncertain,0,0,
+breast,P2,HistoGPT,conflict,conflict,0,0,
+breast,P2,SO1_D1,benign,benign,0,0,
+breast,P2,SO1_D1,benign,borderline,0,0,
+breast,P2,SO1_D1,benign,malignant,0,0,
+breast,P2,SO1_D1,benign,missing,0,0,
+breast,P2,SO1_D1,benign,uncertain,0,0,
+breast,P2,SO1_D1,benign,conflict,0,0,
+breast,P2,SO1_D1,borderline,benign,0,0,
+breast,P2,SO1_D1,borderline,borderline,0,0,
+breast,P2,SO1_D1,borderline,malignant,0,0,
+breast,P2,SO1_D1,borderline,missing,0,0,
+breast,P2,SO1_D1,borderline,uncertain,0,0,
+breast,P2,SO1_D1,borderline,conflict,0,0,
+breast,P2,SO1_D1,malignant,benign,0,76,0.0
+breast,P2,SO1_D1,malignant,borderline,0,76,0.0
+breast,P2,SO1_D1,malignant,malignant,76,76,100.0
+breast,P2,SO1_D1,malignant,missing,0,76,0.0
+breast,P2,SO1_D1,malignant,uncertain,0,76,0.0
+breast,P2,SO1_D1,malignant,conflict,0,76,0.0
+breast,P2,SO1_D1,missing,benign,0,0,
+breast,P2,SO1_D1,missing,borderline,0,0,
+breast,P2,SO1_D1,missing,malignant,0,0,
+breast,P2,SO1_D1,missing,missing,0,0,
+breast,P2,SO1_D1,missing,uncertain,0,0,
+breast,P2,SO1_D1,missing,conflict,0,0,
+breast,P2,SO1_D1,uncertain,benign,0,0,
+breast,P2,SO1_D1,uncertain,borderline,0,0,
+breast,P2,SO1_D1,uncertain,malignant,0,0,
+breast,P2,SO1_D1,uncertain,missing,0,0,
+breast,P2,SO1_D1,uncertain,uncertain,0,0,
+breast,P2,SO1_D1,uncertain,conflict,0,0,
+breast,P2,SO1_D1,conflict,benign,0,0,
+breast,P2,SO1_D1,conflict,borderline,0,0,
+breast,P2,SO1_D1,conflict,malignant,0,0,
+breast,P2,SO1_D1,conflict,missing,0,0,
+breast,P2,SO1_D1,conflict,uncertain,0,0,
+breast,P2,SO1_D1,conflict,conflict,0,0,
+breast,P2,SO4_D1,benign,benign,0,0,
+breast,P2,SO4_D1,benign,borderline,0,0,
+breast,P2,SO4_D1,benign,malignant,0,0,
+breast,P2,SO4_D1,benign,missing,0,0,
+breast,P2,SO4_D1,benign,uncertain,0,0,
+breast,P2,SO4_D1,benign,conflict,0,0,
+breast,P2,SO4_D1,borderline,benign,0,0,
+breast,P2,SO4_D1,borderline,borderline,0,0,
+breast,P2,SO4_D1,borderline,malignant,0,0,
+breast,P2,SO4_D1,borderline,missing,0,0,
+breast,P2,SO4_D1,borderline,uncertain,0,0,
+breast,P2,SO4_D1,borderline,conflict,0,0,
+breast,P2,SO4_D1,malignant,benign,0,76,0.0
+breast,P2,SO4_D1,malignant,borderline,0,76,0.0
+breast,P2,SO4_D1,malignant,malignant,76,76,100.0
+breast,P2,SO4_D1,malignant,missing,0,76,0.0
+breast,P2,SO4_D1,malignant,uncertain,0,76,0.0
+breast,P2,SO4_D1,malignant,conflict,0,76,0.0
+breast,P2,SO4_D1,missing,benign,0,0,
+breast,P2,SO4_D1,missing,borderline,0,0,
+breast,P2,SO4_D1,missing,malignant,0,0,
+breast,P2,SO4_D1,missing,missing,0,0,
+breast,P2,SO4_D1,missing,uncertain,0,0,
+breast,P2,SO4_D1,missing,conflict,0,0,
+breast,P2,SO4_D1,uncertain,benign,0,0,
+breast,P2,SO4_D1,uncertain,borderline,0,0,
+breast,P2,SO4_D1,uncertain,malignant,0,0,
+breast,P2,SO4_D1,uncertain,missing,0,0,
+breast,P2,SO4_D1,uncertain,uncertain,0,0,
+breast,P2,SO4_D1,uncertain,conflict,0,0,
+breast,P2,SO4_D1,conflict,benign,0,0,
+breast,P2,SO4_D1,conflict,borderline,0,0,
+breast,P2,SO4_D1,conflict,malignant,0,0,
+breast,P2,SO4_D1,conflict,missing,0,0,
+breast,P2,SO4_D1,conflict,uncertain,0,0,
+breast,P2,SO4_D1,conflict,conflict,0,0,
+prostate,P1,Visual + Qwen,benign,benign,0,11,0.0
+prostate,P1,Visual + Qwen,benign,borderline,0,11,0.0
+prostate,P1,Visual + Qwen,benign,malignant,10,11,90.9090909090909
+prostate,P1,Visual + Qwen,benign,missing,1,11,9.090909090909092
+prostate,P1,Visual + Qwen,benign,uncertain,0,11,0.0
+prostate,P1,Visual + Qwen,benign,conflict,0,11,0.0
+prostate,P1,Visual + Qwen,borderline,benign,0,0,
+prostate,P1,Visual + Qwen,borderline,borderline,0,0,
+prostate,P1,Visual + Qwen,borderline,malignant,0,0,
+prostate,P1,Visual + Qwen,borderline,missing,0,0,
+prostate,P1,Visual + Qwen,borderline,uncertain,0,0,
+prostate,P1,Visual + Qwen,borderline,conflict,0,0,
+prostate,P1,Visual + Qwen,malignant,benign,0,45,0.0
+prostate,P1,Visual + Qwen,malignant,borderline,0,45,0.0
+prostate,P1,Visual + Qwen,malignant,malignant,44,45,97.77777777777777
+prostate,P1,Visual + Qwen,malignant,missing,1,45,2.2222222222222223
+prostate,P1,Visual + Qwen,malignant,uncertain,0,45,0.0
+prostate,P1,Visual + Qwen,malignant,conflict,0,45,0.0
+prostate,P1,Visual + Qwen,missing,benign,0,6,0.0
+prostate,P1,Visual + Qwen,missing,borderline,0,6,0.0
+prostate,P1,Visual + Qwen,missing,malignant,6,6,100.0
+prostate,P1,Visual + Qwen,missing,missing,0,6,0.0
+prostate,P1,Visual + Qwen,missing,uncertain,0,6,0.0
+prostate,P1,Visual + Qwen,missing,conflict,0,6,0.0
+prostate,P1,Visual + Qwen,uncertain,benign,0,0,
+prostate,P1,Visual + Qwen,uncertain,borderline,0,0,
+prostate,P1,Visual + Qwen,uncertain,malignant,0,0,
+prostate,P1,Visual + Qwen,uncertain,missing,0,0,
+prostate,P1,Visual + Qwen,uncertain,uncertain,0,0,
+prostate,P1,Visual + Qwen,uncertain,conflict,0,0,
+prostate,P1,Visual + Qwen,conflict,benign,0,0,
+prostate,P1,Visual + Qwen,conflict,borderline,0,0,
+prostate,P1,Visual + Qwen,conflict,malignant,0,0,
+prostate,P1,Visual + Qwen,conflict,missing,0,0,
+prostate,P1,Visual + Qwen,conflict,uncertain,0,0,
+prostate,P1,Visual + Qwen,conflict,conflict,0,0,
+prostate,P1,DeepSeek,benign,benign,0,11,0.0
+prostate,P1,DeepSeek,benign,borderline,0,11,0.0
+prostate,P1,DeepSeek,benign,malignant,11,11,100.0
+prostate,P1,DeepSeek,benign,missing,0,11,0.0
+prostate,P1,DeepSeek,benign,uncertain,0,11,0.0
+prostate,P1,DeepSeek,benign,conflict,0,11,0.0
+prostate,P1,DeepSeek,borderline,benign,0,0,
+prostate,P1,DeepSeek,borderline,borderline,0,0,
+prostate,P1,DeepSeek,borderline,malignant,0,0,
+prostate,P1,DeepSeek,borderline,missing,0,0,
+prostate,P1,DeepSeek,borderline,uncertain,0,0,
+prostate,P1,DeepSeek,borderline,conflict,0,0,
+prostate,P1,DeepSeek,malignant,benign,0,45,0.0
+prostate,P1,DeepSeek,malignant,borderline,1,45,2.2222222222222223
+prostate,P1,DeepSeek,malignant,malignant,43,45,95.55555555555556
+prostate,P1,DeepSeek,malignant,missing,0,45,0.0
+prostate,P1,DeepSeek,malignant,uncertain,1,45,2.2222222222222223
+prostate,P1,DeepSeek,malignant,conflict,0,45,0.0
+prostate,P1,DeepSeek,missing,benign,0,6,0.0
+prostate,P1,DeepSeek,missing,borderline,0,6,0.0
+prostate,P1,DeepSeek,missing,malignant,6,6,100.0
+prostate,P1,DeepSeek,missing,missing,0,6,0.0
+prostate,P1,DeepSeek,missing,uncertain,0,6,0.0
+prostate,P1,DeepSeek,missing,conflict,0,6,0.0
+prostate,P1,DeepSeek,uncertain,benign,0,0,
+prostate,P1,DeepSeek,uncertain,borderline,0,0,
+prostate,P1,DeepSeek,uncertain,malignant,0,0,
+prostate,P1,DeepSeek,uncertain,missing,0,0,
+prostate,P1,DeepSeek,uncertain,uncertain,0,0,
+prostate,P1,DeepSeek,uncertain,conflict,0,0,
+prostate,P1,DeepSeek,conflict,benign,0,0,
+prostate,P1,DeepSeek,conflict,borderline,0,0,
+prostate,P1,DeepSeek,conflict,malignant,0,0,
+prostate,P1,DeepSeek,conflict,missing,0,0,
+prostate,P1,DeepSeek,conflict,uncertain,0,0,
+prostate,P1,DeepSeek,conflict,conflict,0,0,
+prostate,P1,GLM,benign,benign,7,11,63.63636363636363
+prostate,P1,GLM,benign,borderline,0,11,0.0
+prostate,P1,GLM,benign,malignant,3,11,27.272727272727273
+prostate,P1,GLM,benign,missing,0,11,0.0
+prostate,P1,GLM,benign,uncertain,1,11,9.090909090909092
+prostate,P1,GLM,benign,conflict,0,11,0.0
+prostate,P1,GLM,borderline,benign,0,0,
+prostate,P1,GLM,borderline,borderline,0,0,
+prostate,P1,GLM,borderline,malignant,0,0,
+prostate,P1,GLM,borderline,missing,0,0,
+prostate,P1,GLM,borderline,uncertain,0,0,
+prostate,P1,GLM,borderline,conflict,0,0,
+prostate,P1,GLM,malignant,benign,5,45,11.11111111111111
+prostate,P1,GLM,malignant,borderline,1,45,2.2222222222222223
+prostate,P1,GLM,malignant,malignant,34,45,75.55555555555556
+prostate,P1,GLM,malignant,missing,1,45,2.2222222222222223
+prostate,P1,GLM,malignant,uncertain,3,45,6.666666666666667
+prostate,P1,GLM,malignant,conflict,1,45,2.2222222222222223
+prostate,P1,GLM,missing,benign,3,6,50.0
+prostate,P1,GLM,missing,borderline,0,6,0.0
+prostate,P1,GLM,missing,malignant,3,6,50.0
+prostate,P1,GLM,missing,missing,0,6,0.0
+prostate,P1,GLM,missing,uncertain,0,6,0.0
+prostate,P1,GLM,missing,conflict,0,6,0.0
+prostate,P1,GLM,uncertain,benign,0,0,
+prostate,P1,GLM,uncertain,borderline,0,0,
+prostate,P1,GLM,uncertain,malignant,0,0,
+prostate,P1,GLM,uncertain,missing,0,0,
+prostate,P1,GLM,uncertain,uncertain,0,0,
+prostate,P1,GLM,uncertain,conflict,0,0,
+prostate,P1,GLM,conflict,benign,0,0,
+prostate,P1,GLM,conflict,borderline,0,0,
+prostate,P1,GLM,conflict,malignant,0,0,
+prostate,P1,GLM,conflict,missing,0,0,
+prostate,P1,GLM,conflict,uncertain,0,0,
+prostate,P1,GLM,conflict,conflict,0,0,
+prostate,P1,Visual + MedGemma,benign,benign,1,11,9.090909090909092
+prostate,P1,Visual + MedGemma,benign,borderline,0,11,0.0
+prostate,P1,Visual + MedGemma,benign,malignant,8,11,72.72727272727273
+prostate,P1,Visual + MedGemma,benign,missing,2,11,18.181818181818183
+prostate,P1,Visual + MedGemma,benign,uncertain,0,11,0.0
+prostate,P1,Visual + MedGemma,benign,conflict,0,11,0.0
+prostate,P1,Visual + MedGemma,borderline,benign,0,0,
+prostate,P1,Visual + MedGemma,borderline,borderline,0,0,
+prostate,P1,Visual + MedGemma,borderline,malignant,0,0,
+prostate,P1,Visual + MedGemma,borderline,missing,0,0,
+prostate,P1,Visual + MedGemma,borderline,uncertain,0,0,
+prostate,P1,Visual + MedGemma,borderline,conflict,0,0,
+prostate,P1,Visual + MedGemma,malignant,benign,0,45,0.0
+prostate,P1,Visual + MedGemma,malignant,borderline,0,45,0.0
+prostate,P1,Visual + MedGemma,malignant,malignant,33,45,73.33333333333333
+prostate,P1,Visual + MedGemma,malignant,missing,10,45,22.22222222222222
+prostate,P1,Visual + MedGemma,malignant,uncertain,2,45,4.444444444444445
+prostate,P1,Visual + MedGemma,malignant,conflict,0,45,0.0
+prostate,P1,Visual + MedGemma,missing,benign,0,6,0.0
+prostate,P1,Visual + MedGemma,missing,borderline,0,6,0.0
+prostate,P1,Visual + MedGemma,missing,malignant,3,6,50.0
+prostate,P1,Visual + MedGemma,missing,missing,3,6,50.0
+prostate,P1,Visual + MedGemma,missing,uncertain,0,6,0.0
+prostate,P1,Visual + MedGemma,missing,conflict,0,6,0.0
+prostate,P1,Visual + MedGemma,uncertain,benign,0,0,
+prostate,P1,Visual + MedGemma,uncertain,borderline,0,0,
+prostate,P1,Visual + MedGemma,uncertain,malignant,0,0,
+prostate,P1,Visual + MedGemma,uncertain,missing,0,0,
+prostate,P1,Visual + MedGemma,uncertain,uncertain,0,0,
+prostate,P1,Visual + MedGemma,uncertain,conflict,0,0,
+prostate,P1,Visual + MedGemma,conflict,benign,0,0,
+prostate,P1,Visual + MedGemma,conflict,borderline,0,0,
+prostate,P1,Visual + MedGemma,conflict,malignant,0,0,
+prostate,P1,Visual + MedGemma,conflict,missing,0,0,
+prostate,P1,Visual + MedGemma,conflict,uncertain,0,0,
+prostate,P1,Visual + MedGemma,conflict,conflict,0,0,
+prostate,P1,PathAgent,benign,benign,0,11,0.0
+prostate,P1,PathAgent,benign,borderline,0,11,0.0
+prostate,P1,PathAgent,benign,malignant,10,11,90.9090909090909
+prostate,P1,PathAgent,benign,missing,1,11,9.090909090909092
+prostate,P1,PathAgent,benign,uncertain,0,11,0.0
+prostate,P1,PathAgent,benign,conflict,0,11,0.0
+prostate,P1,PathAgent,borderline,benign,0,0,
+prostate,P1,PathAgent,borderline,borderline,0,0,
+prostate,P1,PathAgent,borderline,malignant,0,0,
+prostate,P1,PathAgent,borderline,missing,0,0,
+prostate,P1,PathAgent,borderline,uncertain,0,0,
+prostate,P1,PathAgent,borderline,conflict,0,0,
+prostate,P1,PathAgent,malignant,benign,0,45,0.0
+prostate,P1,PathAgent,malignant,borderline,0,45,0.0
+prostate,P1,PathAgent,malignant,malignant,41,45,91.11111111111111
+prostate,P1,PathAgent,malignant,missing,4,45,8.88888888888889
+prostate,P1,PathAgent,malignant,uncertain,0,45,0.0
+prostate,P1,PathAgent,malignant,conflict,0,45,0.0
+prostate,P1,PathAgent,missing,benign,0,6,0.0
+prostate,P1,PathAgent,missing,borderline,0,6,0.0
+prostate,P1,PathAgent,missing,malignant,4,6,66.66666666666667
+prostate,P1,PathAgent,missing,missing,2,6,33.333333333333336
+prostate,P1,PathAgent,missing,uncertain,0,6,0.0
+prostate,P1,PathAgent,missing,conflict,0,6,0.0
+prostate,P1,PathAgent,uncertain,benign,0,0,
+prostate,P1,PathAgent,uncertain,borderline,0,0,
+prostate,P1,PathAgent,uncertain,malignant,0,0,
+prostate,P1,PathAgent,uncertain,missing,0,0,
+prostate,P1,PathAgent,uncertain,uncertain,0,0,
+prostate,P1,PathAgent,uncertain,conflict,0,0,
+prostate,P1,PathAgent,conflict,benign,0,0,
+prostate,P1,PathAgent,conflict,borderline,0,0,
+prostate,P1,PathAgent,conflict,malignant,0,0,
+prostate,P1,PathAgent,conflict,missing,0,0,
+prostate,P1,PathAgent,conflict,uncertain,0,0,
+prostate,P1,PathAgent,conflict,conflict,0,0,
+prostate,P1,PRISM2,benign,benign,0,11,0.0
+prostate,P1,PRISM2,benign,borderline,0,11,0.0
+prostate,P1,PRISM2,benign,malignant,11,11,100.0
+prostate,P1,PRISM2,benign,missing,0,11,0.0
+prostate,P1,PRISM2,benign,uncertain,0,11,0.0
+prostate,P1,PRISM2,benign,conflict,0,11,0.0
+prostate,P1,PRISM2,borderline,benign,0,0,
+prostate,P1,PRISM2,borderline,borderline,0,0,
+prostate,P1,PRISM2,borderline,malignant,0,0,
+prostate,P1,PRISM2,borderline,missing,0,0,
+prostate,P1,PRISM2,borderline,uncertain,0,0,
+prostate,P1,PRISM2,borderline,conflict,0,0,
+prostate,P1,PRISM2,malignant,benign,0,45,0.0
+prostate,P1,PRISM2,malignant,borderline,0,45,0.0
+prostate,P1,PRISM2,malignant,malignant,44,45,97.77777777777777
+prostate,P1,PRISM2,malignant,missing,0,45,0.0
+prostate,P1,PRISM2,malignant,uncertain,0,45,0.0
+prostate,P1,PRISM2,malignant,conflict,1,45,2.2222222222222223
+prostate,P1,PRISM2,missing,benign,1,6,16.666666666666668
+prostate,P1,PRISM2,missing,borderline,0,6,0.0
+prostate,P1,PRISM2,missing,malignant,4,6,66.66666666666667
+prostate,P1,PRISM2,missing,missing,1,6,16.666666666666668
+prostate,P1,PRISM2,missing,uncertain,0,6,0.0
+prostate,P1,PRISM2,missing,conflict,0,6,0.0
+prostate,P1,PRISM2,uncertain,benign,0,0,
+prostate,P1,PRISM2,uncertain,borderline,0,0,
+prostate,P1,PRISM2,uncertain,malignant,0,0,
+prostate,P1,PRISM2,uncertain,missing,0,0,
+prostate,P1,PRISM2,uncertain,uncertain,0,0,
+prostate,P1,PRISM2,uncertain,conflict,0,0,
+prostate,P1,PRISM2,conflict,benign,0,0,
+prostate,P1,PRISM2,conflict,borderline,0,0,
+prostate,P1,PRISM2,conflict,malignant,0,0,
+prostate,P1,PRISM2,conflict,missing,0,0,
+prostate,P1,PRISM2,conflict,uncertain,0,0,
+prostate,P1,PRISM2,conflict,conflict,0,0,
+prostate,P1,HistGen,benign,benign,0,11,0.0
+prostate,P1,HistGen,benign,borderline,0,11,0.0
+prostate,P1,HistGen,benign,malignant,8,11,72.72727272727273
+prostate,P1,HistGen,benign,missing,3,11,27.272727272727273
+prostate,P1,HistGen,benign,uncertain,0,11,0.0
+prostate,P1,HistGen,benign,conflict,0,11,0.0
+prostate,P1,HistGen,borderline,benign,0,0,
+prostate,P1,HistGen,borderline,borderline,0,0,
+prostate,P1,HistGen,borderline,malignant,0,0,
+prostate,P1,HistGen,borderline,missing,0,0,
+prostate,P1,HistGen,borderline,uncertain,0,0,
+prostate,P1,HistGen,borderline,conflict,0,0,
+prostate,P1,HistGen,malignant,benign,0,45,0.0
+prostate,P1,HistGen,malignant,borderline,0,45,0.0
+prostate,P1,HistGen,malignant,malignant,32,45,71.11111111111111
+prostate,P1,HistGen,malignant,missing,12,45,26.666666666666668
+prostate,P1,HistGen,malignant,uncertain,0,45,0.0
+prostate,P1,HistGen,malignant,conflict,1,45,2.2222222222222223
+prostate,P1,HistGen,missing,benign,0,6,0.0
+prostate,P1,HistGen,missing,borderline,0,6,0.0
+prostate,P1,HistGen,missing,malignant,5,6,83.33333333333333
+prostate,P1,HistGen,missing,missing,1,6,16.666666666666668
+prostate,P1,HistGen,missing,uncertain,0,6,0.0
+prostate,P1,HistGen,missing,conflict,0,6,0.0
+prostate,P1,HistGen,uncertain,benign,0,0,
+prostate,P1,HistGen,uncertain,borderline,0,0,
+prostate,P1,HistGen,uncertain,malignant,0,0,
+prostate,P1,HistGen,uncertain,missing,0,0,
+prostate,P1,HistGen,uncertain,uncertain,0,0,
+prostate,P1,HistGen,uncertain,conflict,0,0,
+prostate,P1,HistGen,conflict,benign,0,0,
+prostate,P1,HistGen,conflict,borderline,0,0,
+prostate,P1,HistGen,conflict,malignant,0,0,
+prostate,P1,HistGen,conflict,missing,0,0,
+prostate,P1,HistGen,conflict,uncertain,0,0,
+prostate,P1,HistGen,conflict,conflict,0,0,
+prostate,P1,HistoGPT,benign,benign,0,11,0.0
+prostate,P1,HistoGPT,benign,borderline,0,11,0.0
+prostate,P1,HistoGPT,benign,malignant,3,11,27.272727272727273
+prostate,P1,HistoGPT,benign,missing,8,11,72.72727272727273
+prostate,P1,HistoGPT,benign,uncertain,0,11,0.0
+prostate,P1,HistoGPT,benign,conflict,0,11,0.0
+prostate,P1,HistoGPT,borderline,benign,0,0,
+prostate,P1,HistoGPT,borderline,borderline,0,0,
+prostate,P1,HistoGPT,borderline,malignant,0,0,
+prostate,P1,HistoGPT,borderline,missing,0,0,
+prostate,P1,HistoGPT,borderline,uncertain,0,0,
+prostate,P1,HistoGPT,borderline,conflict,0,0,
+prostate,P1,HistoGPT,malignant,benign,1,45,2.2222222222222223
+prostate,P1,HistoGPT,malignant,borderline,0,45,0.0
+prostate,P1,HistoGPT,malignant,malignant,7,45,15.555555555555555
+prostate,P1,HistoGPT,malignant,missing,36,45,80.0
+prostate,P1,HistoGPT,malignant,uncertain,1,45,2.2222222222222223
+prostate,P1,HistoGPT,malignant,conflict,0,45,0.0
+prostate,P1,HistoGPT,missing,benign,0,6,0.0
+prostate,P1,HistoGPT,missing,borderline,0,6,0.0
+prostate,P1,HistoGPT,missing,malignant,0,6,0.0
+prostate,P1,HistoGPT,missing,missing,6,6,100.0
+prostate,P1,HistoGPT,missing,uncertain,0,6,0.0
+prostate,P1,HistoGPT,missing,conflict,0,6,0.0
+prostate,P1,HistoGPT,uncertain,benign,0,0,
+prostate,P1,HistoGPT,uncertain,borderline,0,0,
+prostate,P1,HistoGPT,uncertain,malignant,0,0,
+prostate,P1,HistoGPT,uncertain,missing,0,0,
+prostate,P1,HistoGPT,uncertain,uncertain,0,0,
+prostate,P1,HistoGPT,uncertain,conflict,0,0,
+prostate,P1,HistoGPT,conflict,benign,0,0,
+prostate,P1,HistoGPT,conflict,borderline,0,0,
+prostate,P1,HistoGPT,conflict,malignant,0,0,
+prostate,P1,HistoGPT,conflict,missing,0,0,
+prostate,P1,HistoGPT,conflict,uncertain,0,0,
+prostate,P1,HistoGPT,conflict,conflict,0,0,
+prostate,P1,SO1_D1,benign,benign,0,11,0.0
+prostate,P1,SO1_D1,benign,borderline,0,11,0.0
+prostate,P1,SO1_D1,benign,malignant,11,11,100.0
+prostate,P1,SO1_D1,benign,missing,0,11,0.0
+prostate,P1,SO1_D1,benign,uncertain,0,11,0.0
+prostate,P1,SO1_D1,benign,conflict,0,11,0.0
+prostate,P1,SO1_D1,borderline,benign,0,0,
+prostate,P1,SO1_D1,borderline,borderline,0,0,
+prostate,P1,SO1_D1,borderline,malignant,0,0,
+prostate,P1,SO1_D1,borderline,missing,0,0,
+prostate,P1,SO1_D1,borderline,uncertain,0,0,
+prostate,P1,SO1_D1,borderline,conflict,0,0,
+prostate,P1,SO1_D1,malignant,benign,0,45,0.0
+prostate,P1,SO1_D1,malignant,borderline,0,45,0.0
+prostate,P1,SO1_D1,malignant,malignant,45,45,100.0
+prostate,P1,SO1_D1,malignant,missing,0,45,0.0
+prostate,P1,SO1_D1,malignant,uncertain,0,45,0.0
+prostate,P1,SO1_D1,malignant,conflict,0,45,0.0
+prostate,P1,SO1_D1,missing,benign,0,6,0.0
+prostate,P1,SO1_D1,missing,borderline,0,6,0.0
+prostate,P1,SO1_D1,missing,malignant,6,6,100.0
+prostate,P1,SO1_D1,missing,missing,0,6,0.0
+prostate,P1,SO1_D1,missing,uncertain,0,6,0.0
+prostate,P1,SO1_D1,missing,conflict,0,6,0.0
+prostate,P1,SO1_D1,uncertain,benign,0,0,
+prostate,P1,SO1_D1,uncertain,borderline,0,0,
+prostate,P1,SO1_D1,uncertain,malignant,0,0,
+prostate,P1,SO1_D1,uncertain,missing,0,0,
+prostate,P1,SO1_D1,uncertain,uncertain,0,0,
+prostate,P1,SO1_D1,uncertain,conflict,0,0,
+prostate,P1,SO1_D1,conflict,benign,0,0,
+prostate,P1,SO1_D1,conflict,borderline,0,0,
+prostate,P1,SO1_D1,conflict,malignant,0,0,
+prostate,P1,SO1_D1,conflict,missing,0,0,
+prostate,P1,SO1_D1,conflict,uncertain,0,0,
+prostate,P1,SO1_D1,conflict,conflict,0,0,
+prostate,P1,SO4_D1,benign,benign,0,11,0.0
+prostate,P1,SO4_D1,benign,borderline,0,11,0.0
+prostate,P1,SO4_D1,benign,malignant,11,11,100.0
+prostate,P1,SO4_D1,benign,missing,0,11,0.0
+prostate,P1,SO4_D1,benign,uncertain,0,11,0.0
+prostate,P1,SO4_D1,benign,conflict,0,11,0.0
+prostate,P1,SO4_D1,borderline,benign,0,0,
+prostate,P1,SO4_D1,borderline,borderline,0,0,
+prostate,P1,SO4_D1,borderline,malignant,0,0,
+prostate,P1,SO4_D1,borderline,missing,0,0,
+prostate,P1,SO4_D1,borderline,uncertain,0,0,
+prostate,P1,SO4_D1,borderline,conflict,0,0,
+prostate,P1,SO4_D1,malignant,benign,0,45,0.0
+prostate,P1,SO4_D1,malignant,borderline,0,45,0.0
+prostate,P1,SO4_D1,malignant,malignant,45,45,100.0
+prostate,P1,SO4_D1,malignant,missing,0,45,0.0
+prostate,P1,SO4_D1,malignant,uncertain,0,45,0.0
+prostate,P1,SO4_D1,malignant,conflict,0,45,0.0
+prostate,P1,SO4_D1,missing,benign,0,6,0.0
+prostate,P1,SO4_D1,missing,borderline,0,6,0.0
+prostate,P1,SO4_D1,missing,malignant,6,6,100.0
+prostate,P1,SO4_D1,missing,missing,0,6,0.0
+prostate,P1,SO4_D1,missing,uncertain,0,6,0.0
+prostate,P1,SO4_D1,missing,conflict,0,6,0.0
+prostate,P1,SO4_D1,uncertain,benign,0,0,
+prostate,P1,SO4_D1,uncertain,borderline,0,0,
+prostate,P1,SO4_D1,uncertain,malignant,0,0,
+prostate,P1,SO4_D1,uncertain,missing,0,0,
+prostate,P1,SO4_D1,uncertain,uncertain,0,0,
+prostate,P1,SO4_D1,uncertain,conflict,0,0,
+prostate,P1,SO4_D1,conflict,benign,0,0,
+prostate,P1,SO4_D1,conflict,borderline,0,0,
+prostate,P1,SO4_D1,conflict,malignant,0,0,
+prostate,P1,SO4_D1,conflict,missing,0,0,
+prostate,P1,SO4_D1,conflict,uncertain,0,0,
+prostate,P1,SO4_D1,conflict,conflict,0,0,
+prostate,P2,Visual + Qwen,benign,benign,0,12,0.0
+prostate,P2,Visual + Qwen,benign,borderline,0,12,0.0
+prostate,P2,Visual + Qwen,benign,malignant,11,12,91.66666666666667
+prostate,P2,Visual + Qwen,benign,missing,1,12,8.333333333333334
+prostate,P2,Visual + Qwen,benign,uncertain,0,12,0.0
+prostate,P2,Visual + Qwen,benign,conflict,0,12,0.0
+prostate,P2,Visual + Qwen,borderline,benign,0,0,
+prostate,P2,Visual + Qwen,borderline,borderline,0,0,
+prostate,P2,Visual + Qwen,borderline,malignant,0,0,
+prostate,P2,Visual + Qwen,borderline,missing,0,0,
+prostate,P2,Visual + Qwen,borderline,uncertain,0,0,
+prostate,P2,Visual + Qwen,borderline,conflict,0,0,
+prostate,P2,Visual + Qwen,malignant,benign,0,47,0.0
+prostate,P2,Visual + Qwen,malignant,borderline,0,47,0.0
+prostate,P2,Visual + Qwen,malignant,malignant,46,47,97.87234042553192
+prostate,P2,Visual + Qwen,malignant,missing,1,47,2.127659574468085
+prostate,P2,Visual + Qwen,malignant,uncertain,0,47,0.0
+prostate,P2,Visual + Qwen,malignant,conflict,0,47,0.0
+prostate,P2,Visual + Qwen,missing,benign,0,3,0.0
+prostate,P2,Visual + Qwen,missing,borderline,0,3,0.0
+prostate,P2,Visual + Qwen,missing,malignant,3,3,100.0
+prostate,P2,Visual + Qwen,missing,missing,0,3,0.0
+prostate,P2,Visual + Qwen,missing,uncertain,0,3,0.0
+prostate,P2,Visual + Qwen,missing,conflict,0,3,0.0
+prostate,P2,Visual + Qwen,uncertain,benign,0,0,
+prostate,P2,Visual + Qwen,uncertain,borderline,0,0,
+prostate,P2,Visual + Qwen,uncertain,malignant,0,0,
+prostate,P2,Visual + Qwen,uncertain,missing,0,0,
+prostate,P2,Visual + Qwen,uncertain,uncertain,0,0,
+prostate,P2,Visual + Qwen,uncertain,conflict,0,0,
+prostate,P2,Visual + Qwen,conflict,benign,0,0,
+prostate,P2,Visual + Qwen,conflict,borderline,0,0,
+prostate,P2,Visual + Qwen,conflict,malignant,0,0,
+prostate,P2,Visual + Qwen,conflict,missing,0,0,
+prostate,P2,Visual + Qwen,conflict,uncertain,0,0,
+prostate,P2,Visual + Qwen,conflict,conflict,0,0,
+prostate,P2,DeepSeek,benign,benign,0,12,0.0
+prostate,P2,DeepSeek,benign,borderline,0,12,0.0
+prostate,P2,DeepSeek,benign,malignant,12,12,100.0
+prostate,P2,DeepSeek,benign,missing,0,12,0.0
+prostate,P2,DeepSeek,benign,uncertain,0,12,0.0
+prostate,P2,DeepSeek,benign,conflict,0,12,0.0
+prostate,P2,DeepSeek,borderline,benign,0,0,
+prostate,P2,DeepSeek,borderline,borderline,0,0,
+prostate,P2,DeepSeek,borderline,malignant,0,0,
+prostate,P2,DeepSeek,borderline,missing,0,0,
+prostate,P2,DeepSeek,borderline,uncertain,0,0,
+prostate,P2,DeepSeek,borderline,conflict,0,0,
+prostate,P2,DeepSeek,malignant,benign,0,47,0.0
+prostate,P2,DeepSeek,malignant,borderline,1,47,2.127659574468085
+prostate,P2,DeepSeek,malignant,malignant,45,47,95.74468085106383
+prostate,P2,DeepSeek,malignant,missing,0,47,0.0
+prostate,P2,DeepSeek,malignant,uncertain,1,47,2.127659574468085
+prostate,P2,DeepSeek,malignant,conflict,0,47,0.0
+prostate,P2,DeepSeek,missing,benign,0,3,0.0
+prostate,P2,DeepSeek,missing,borderline,0,3,0.0
+prostate,P2,DeepSeek,missing,malignant,3,3,100.0
+prostate,P2,DeepSeek,missing,missing,0,3,0.0
+prostate,P2,DeepSeek,missing,uncertain,0,3,0.0
+prostate,P2,DeepSeek,missing,conflict,0,3,0.0
+prostate,P2,DeepSeek,uncertain,benign,0,0,
+prostate,P2,DeepSeek,uncertain,borderline,0,0,
+prostate,P2,DeepSeek,uncertain,malignant,0,0,
+prostate,P2,DeepSeek,uncertain,missing,0,0,
+prostate,P2,DeepSeek,uncertain,uncertain,0,0,
+prostate,P2,DeepSeek,uncertain,conflict,0,0,
+prostate,P2,DeepSeek,conflict,benign,0,0,
+prostate,P2,DeepSeek,conflict,borderline,0,0,
+prostate,P2,DeepSeek,conflict,malignant,0,0,
+prostate,P2,DeepSeek,conflict,missing,0,0,
+prostate,P2,DeepSeek,conflict,uncertain,0,0,
+prostate,P2,DeepSeek,conflict,conflict,0,0,
+prostate,P2,GLM,benign,benign,8,12,66.66666666666667
+prostate,P2,GLM,benign,borderline,0,12,0.0
+prostate,P2,GLM,benign,malignant,3,12,25.0
+prostate,P2,GLM,benign,missing,0,12,0.0
+prostate,P2,GLM,benign,uncertain,1,12,8.333333333333334
+prostate,P2,GLM,benign,conflict,0,12,0.0
+prostate,P2,GLM,borderline,benign,0,0,
+prostate,P2,GLM,borderline,borderline,0,0,
+prostate,P2,GLM,borderline,malignant,0,0,
+prostate,P2,GLM,borderline,missing,0,0,
+prostate,P2,GLM,borderline,uncertain,0,0,
+prostate,P2,GLM,borderline,conflict,0,0,
+prostate,P2,GLM,malignant,benign,5,47,10.638297872340425
+prostate,P2,GLM,malignant,borderline,1,47,2.127659574468085
+prostate,P2,GLM,malignant,malignant,36,47,76.59574468085107
+prostate,P2,GLM,malignant,missing,1,47,2.127659574468085
+prostate,P2,GLM,malignant,uncertain,3,47,6.382978723404255
+prostate,P2,GLM,malignant,conflict,1,47,2.127659574468085
+prostate,P2,GLM,missing,benign,2,3,66.66666666666667
+prostate,P2,GLM,missing,borderline,0,3,0.0
+prostate,P2,GLM,missing,malignant,1,3,33.333333333333336
+prostate,P2,GLM,missing,missing,0,3,0.0
+prostate,P2,GLM,missing,uncertain,0,3,0.0
+prostate,P2,GLM,missing,conflict,0,3,0.0
+prostate,P2,GLM,uncertain,benign,0,0,
+prostate,P2,GLM,uncertain,borderline,0,0,
+prostate,P2,GLM,uncertain,malignant,0,0,
+prostate,P2,GLM,uncertain,missing,0,0,
+prostate,P2,GLM,uncertain,uncertain,0,0,
+prostate,P2,GLM,uncertain,conflict,0,0,
+prostate,P2,GLM,conflict,benign,0,0,
+prostate,P2,GLM,conflict,borderline,0,0,
+prostate,P2,GLM,conflict,malignant,0,0,
+prostate,P2,GLM,conflict,missing,0,0,
+prostate,P2,GLM,conflict,uncertain,0,0,
+prostate,P2,GLM,conflict,conflict,0,0,
+prostate,P2,Visual + MedGemma,benign,benign,1,12,8.333333333333334
+prostate,P2,Visual + MedGemma,benign,borderline,0,12,0.0
+prostate,P2,Visual + MedGemma,benign,malignant,8,12,66.66666666666667
+prostate,P2,Visual + MedGemma,benign,missing,3,12,25.0
+prostate,P2,Visual + MedGemma,benign,uncertain,0,12,0.0
+prostate,P2,Visual + MedGemma,benign,conflict,0,12,0.0
+prostate,P2,Visual + MedGemma,borderline,benign,0,0,
+prostate,P2,Visual + MedGemma,borderline,borderline,0,0,
+prostate,P2,Visual + MedGemma,borderline,malignant,0,0,
+prostate,P2,Visual + MedGemma,borderline,missing,0,0,
+prostate,P2,Visual + MedGemma,borderline,uncertain,0,0,
+prostate,P2,Visual + MedGemma,borderline,conflict,0,0,
+prostate,P2,Visual + MedGemma,malignant,benign,0,47,0.0
+prostate,P2,Visual + MedGemma,malignant,borderline,0,47,0.0
+prostate,P2,Visual + MedGemma,malignant,malignant,33,47,70.2127659574468
+prostate,P2,Visual + MedGemma,malignant,missing,12,47,25.53191489361702
+prostate,P2,Visual + MedGemma,malignant,uncertain,2,47,4.25531914893617
+prostate,P2,Visual + MedGemma,malignant,conflict,0,47,0.0
+prostate,P2,Visual + MedGemma,missing,benign,0,3,0.0
+prostate,P2,Visual + MedGemma,missing,borderline,0,3,0.0
+prostate,P2,Visual + MedGemma,missing,malignant,3,3,100.0
+prostate,P2,Visual + MedGemma,missing,missing,0,3,0.0
+prostate,P2,Visual + MedGemma,missing,uncertain,0,3,0.0
+prostate,P2,Visual + MedGemma,missing,conflict,0,3,0.0
+prostate,P2,Visual + MedGemma,uncertain,benign,0,0,
+prostate,P2,Visual + MedGemma,uncertain,borderline,0,0,
+prostate,P2,Visual + MedGemma,uncertain,malignant,0,0,
+prostate,P2,Visual + MedGemma,uncertain,missing,0,0,
+prostate,P2,Visual + MedGemma,uncertain,uncertain,0,0,
+prostate,P2,Visual + MedGemma,uncertain,conflict,0,0,
+prostate,P2,Visual + MedGemma,conflict,benign,0,0,
+prostate,P2,Visual + MedGemma,conflict,borderline,0,0,
+prostate,P2,Visual + MedGemma,conflict,malignant,0,0,
+prostate,P2,Visual + MedGemma,conflict,missing,0,0,
+prostate,P2,Visual + MedGemma,conflict,uncertain,0,0,
+prostate,P2,Visual + MedGemma,conflict,conflict,0,0,
+prostate,P2,PathAgent,benign,benign,0,12,0.0
+prostate,P2,PathAgent,benign,borderline,0,12,0.0
+prostate,P2,PathAgent,benign,malignant,10,12,83.33333333333333
+prostate,P2,PathAgent,benign,missing,2,12,16.666666666666668
+prostate,P2,PathAgent,benign,uncertain,0,12,0.0
+prostate,P2,PathAgent,benign,conflict,0,12,0.0
+prostate,P2,PathAgent,borderline,benign,0,0,
+prostate,P2,PathAgent,borderline,borderline,0,0,
+prostate,P2,PathAgent,borderline,malignant,0,0,
+prostate,P2,PathAgent,borderline,missing,0,0,
+prostate,P2,PathAgent,borderline,uncertain,0,0,
+prostate,P2,PathAgent,borderline,conflict,0,0,
+prostate,P2,PathAgent,malignant,benign,0,47,0.0
+prostate,P2,PathAgent,malignant,borderline,0,47,0.0
+prostate,P2,PathAgent,malignant,malignant,42,47,89.36170212765957
+prostate,P2,PathAgent,malignant,missing,5,47,10.638297872340425
+prostate,P2,PathAgent,malignant,uncertain,0,47,0.0
+prostate,P2,PathAgent,malignant,conflict,0,47,0.0
+prostate,P2,PathAgent,missing,benign,0,3,0.0
+prostate,P2,PathAgent,missing,borderline,0,3,0.0
+prostate,P2,PathAgent,missing,malignant,3,3,100.0
+prostate,P2,PathAgent,missing,missing,0,3,0.0
+prostate,P2,PathAgent,missing,uncertain,0,3,0.0
+prostate,P2,PathAgent,missing,conflict,0,3,0.0
+prostate,P2,PathAgent,uncertain,benign,0,0,
+prostate,P2,PathAgent,uncertain,borderline,0,0,
+prostate,P2,PathAgent,uncertain,malignant,0,0,
+prostate,P2,PathAgent,uncertain,missing,0,0,
+prostate,P2,PathAgent,uncertain,uncertain,0,0,
+prostate,P2,PathAgent,uncertain,conflict,0,0,
+prostate,P2,PathAgent,conflict,benign,0,0,
+prostate,P2,PathAgent,conflict,borderline,0,0,
+prostate,P2,PathAgent,conflict,malignant,0,0,
+prostate,P2,PathAgent,conflict,missing,0,0,
+prostate,P2,PathAgent,conflict,uncertain,0,0,
+prostate,P2,PathAgent,conflict,conflict,0,0,
+prostate,P2,PRISM2,benign,benign,1,12,8.333333333333334
+prostate,P2,PRISM2,benign,borderline,0,12,0.0
+prostate,P2,PRISM2,benign,malignant,11,12,91.66666666666667
+prostate,P2,PRISM2,benign,missing,0,12,0.0
+prostate,P2,PRISM2,benign,uncertain,0,12,0.0
+prostate,P2,PRISM2,benign,conflict,0,12,0.0
+prostate,P2,PRISM2,borderline,benign,0,0,
+prostate,P2,PRISM2,borderline,borderline,0,0,
+prostate,P2,PRISM2,borderline,malignant,0,0,
+prostate,P2,PRISM2,borderline,missing,0,0,
+prostate,P2,PRISM2,borderline,uncertain,0,0,
+prostate,P2,PRISM2,borderline,conflict,0,0,
+prostate,P2,PRISM2,malignant,benign,0,47,0.0
+prostate,P2,PRISM2,malignant,borderline,0,47,0.0
+prostate,P2,PRISM2,malignant,malignant,45,47,95.74468085106383
+prostate,P2,PRISM2,malignant,missing,1,47,2.127659574468085
+prostate,P2,PRISM2,malignant,uncertain,0,47,0.0
+prostate,P2,PRISM2,malignant,conflict,1,47,2.127659574468085
+prostate,P2,PRISM2,missing,benign,0,3,0.0
+prostate,P2,PRISM2,missing,borderline,0,3,0.0
+prostate,P2,PRISM2,missing,malignant,3,3,100.0
+prostate,P2,PRISM2,missing,missing,0,3,0.0
+prostate,P2,PRISM2,missing,uncertain,0,3,0.0
+prostate,P2,PRISM2,missing,conflict,0,3,0.0
+prostate,P2,PRISM2,uncertain,benign,0,0,
+prostate,P2,PRISM2,uncertain,borderline,0,0,
+prostate,P2,PRISM2,uncertain,malignant,0,0,
+prostate,P2,PRISM2,uncertain,missing,0,0,
+prostate,P2,PRISM2,uncertain,uncertain,0,0,
+prostate,P2,PRISM2,uncertain,conflict,0,0,
+prostate,P2,PRISM2,conflict,benign,0,0,
+prostate,P2,PRISM2,conflict,borderline,0,0,
+prostate,P2,PRISM2,conflict,malignant,0,0,
+prostate,P2,PRISM2,conflict,missing,0,0,
+prostate,P2,PRISM2,conflict,uncertain,0,0,
+prostate,P2,PRISM2,conflict,conflict,0,0,
+prostate,P2,HistGen,benign,benign,0,12,0.0
+prostate,P2,HistGen,benign,borderline,0,12,0.0
+prostate,P2,HistGen,benign,malignant,9,12,75.0
+prostate,P2,HistGen,benign,missing,3,12,25.0
+prostate,P2,HistGen,benign,uncertain,0,12,0.0
+prostate,P2,HistGen,benign,conflict,0,12,0.0
+prostate,P2,HistGen,borderline,benign,0,0,
+prostate,P2,HistGen,borderline,borderline,0,0,
+prostate,P2,HistGen,borderline,malignant,0,0,
+prostate,P2,HistGen,borderline,missing,0,0,
+prostate,P2,HistGen,borderline,uncertain,0,0,
+prostate,P2,HistGen,borderline,conflict,0,0,
+prostate,P2,HistGen,malignant,benign,0,47,0.0
+prostate,P2,HistGen,malignant,borderline,0,47,0.0
+prostate,P2,HistGen,malignant,malignant,34,47,72.34042553191489
+prostate,P2,HistGen,malignant,missing,12,47,25.53191489361702
+prostate,P2,HistGen,malignant,uncertain,0,47,0.0
+prostate,P2,HistGen,malignant,conflict,1,47,2.127659574468085
+prostate,P2,HistGen,missing,benign,0,3,0.0
+prostate,P2,HistGen,missing,borderline,0,3,0.0
+prostate,P2,HistGen,missing,malignant,2,3,66.66666666666667
+prostate,P2,HistGen,missing,missing,1,3,33.333333333333336
+prostate,P2,HistGen,missing,uncertain,0,3,0.0
+prostate,P2,HistGen,missing,conflict,0,3,0.0
+prostate,P2,HistGen,uncertain,benign,0,0,
+prostate,P2,HistGen,uncertain,borderline,0,0,
+prostate,P2,HistGen,uncertain,malignant,0,0,
+prostate,P2,HistGen,uncertain,missing,0,0,
+prostate,P2,HistGen,uncertain,uncertain,0,0,
+prostate,P2,HistGen,uncertain,conflict,0,0,
+prostate,P2,HistGen,conflict,benign,0,0,
+prostate,P2,HistGen,conflict,borderline,0,0,
+prostate,P2,HistGen,conflict,malignant,0,0,
+prostate,P2,HistGen,conflict,missing,0,0,
+prostate,P2,HistGen,conflict,uncertain,0,0,
+prostate,P2,HistGen,conflict,conflict,0,0,
+prostate,P2,HistoGPT,benign,benign,0,12,0.0
+prostate,P2,HistoGPT,benign,borderline,0,12,0.0
+prostate,P2,HistoGPT,benign,malignant,3,12,25.0
+prostate,P2,HistoGPT,benign,missing,9,12,75.0
+prostate,P2,HistoGPT,benign,uncertain,0,12,0.0
+prostate,P2,HistoGPT,benign,conflict,0,12,0.0
+prostate,P2,HistoGPT,borderline,benign,0,0,
+prostate,P2,HistoGPT,borderline,borderline,0,0,
+prostate,P2,HistoGPT,borderline,malignant,0,0,
+prostate,P2,HistoGPT,borderline,missing,0,0,
+prostate,P2,HistoGPT,borderline,uncertain,0,0,
+prostate,P2,HistoGPT,borderline,conflict,0,0,
+prostate,P2,HistoGPT,malignant,benign,1,47,2.127659574468085
+prostate,P2,HistoGPT,malignant,borderline,0,47,0.0
+prostate,P2,HistoGPT,malignant,malignant,7,47,14.893617021276595
+prostate,P2,HistoGPT,malignant,missing,38,47,80.85106382978724
+prostate,P2,HistoGPT,malignant,uncertain,1,47,2.127659574468085
+prostate,P2,HistoGPT,malignant,conflict,0,47,0.0
+prostate,P2,HistoGPT,missing,benign,0,3,0.0
+prostate,P2,HistoGPT,missing,borderline,0,3,0.0
+prostate,P2,HistoGPT,missing,malignant,0,3,0.0
+prostate,P2,HistoGPT,missing,missing,3,3,100.0
+prostate,P2,HistoGPT,missing,uncertain,0,3,0.0
+prostate,P2,HistoGPT,missing,conflict,0,3,0.0
+prostate,P2,HistoGPT,uncertain,benign,0,0,
+prostate,P2,HistoGPT,uncertain,borderline,0,0,
+prostate,P2,HistoGPT,uncertain,malignant,0,0,
+prostate,P2,HistoGPT,uncertain,missing,0,0,
+prostate,P2,HistoGPT,uncertain,uncertain,0,0,
+prostate,P2,HistoGPT,uncertain,conflict,0,0,
+prostate,P2,HistoGPT,conflict,benign,0,0,
+prostate,P2,HistoGPT,conflict,borderline,0,0,
+prostate,P2,HistoGPT,conflict,malignant,0,0,
+prostate,P2,HistoGPT,conflict,missing,0,0,
+prostate,P2,HistoGPT,conflict,uncertain,0,0,
+prostate,P2,HistoGPT,conflict,conflict,0,0,
+prostate,P2,SO1_D1,benign,benign,0,12,0.0
+prostate,P2,SO1_D1,benign,borderline,0,12,0.0
+prostate,P2,SO1_D1,benign,malignant,12,12,100.0
+prostate,P2,SO1_D1,benign,missing,0,12,0.0
+prostate,P2,SO1_D1,benign,uncertain,0,12,0.0
+prostate,P2,SO1_D1,benign,conflict,0,12,0.0
+prostate,P2,SO1_D1,borderline,benign,0,0,
+prostate,P2,SO1_D1,borderline,borderline,0,0,
+prostate,P2,SO1_D1,borderline,malignant,0,0,
+prostate,P2,SO1_D1,borderline,missing,0,0,
+prostate,P2,SO1_D1,borderline,uncertain,0,0,
+prostate,P2,SO1_D1,borderline,conflict,0,0,
+prostate,P2,SO1_D1,malignant,benign,0,47,0.0
+prostate,P2,SO1_D1,malignant,borderline,0,47,0.0
+prostate,P2,SO1_D1,malignant,malignant,47,47,100.0
+prostate,P2,SO1_D1,malignant,missing,0,47,0.0
+prostate,P2,SO1_D1,malignant,uncertain,0,47,0.0
+prostate,P2,SO1_D1,malignant,conflict,0,47,0.0
+prostate,P2,SO1_D1,missing,benign,0,3,0.0
+prostate,P2,SO1_D1,missing,borderline,0,3,0.0
+prostate,P2,SO1_D1,missing,malignant,3,3,100.0
+prostate,P2,SO1_D1,missing,missing,0,3,0.0
+prostate,P2,SO1_D1,missing,uncertain,0,3,0.0
+prostate,P2,SO1_D1,missing,conflict,0,3,0.0
+prostate,P2,SO1_D1,uncertain,benign,0,0,
+prostate,P2,SO1_D1,uncertain,borderline,0,0,
+prostate,P2,SO1_D1,uncertain,malignant,0,0,
+prostate,P2,SO1_D1,uncertain,missing,0,0,
+prostate,P2,SO1_D1,uncertain,uncertain,0,0,
+prostate,P2,SO1_D1,uncertain,conflict,0,0,
+prostate,P2,SO1_D1,conflict,benign,0,0,
+prostate,P2,SO1_D1,conflict,borderline,0,0,
+prostate,P2,SO1_D1,conflict,malignant,0,0,
+prostate,P2,SO1_D1,conflict,missing,0,0,
+prostate,P2,SO1_D1,conflict,uncertain,0,0,
+prostate,P2,SO1_D1,conflict,conflict,0,0,
+prostate,P2,SO4_D1,benign,benign,0,12,0.0
+prostate,P2,SO4_D1,benign,borderline,0,12,0.0
+prostate,P2,SO4_D1,benign,malignant,12,12,100.0
+prostate,P2,SO4_D1,benign,missing,0,12,0.0
+prostate,P2,SO4_D1,benign,uncertain,0,12,0.0
+prostate,P2,SO4_D1,benign,conflict,0,12,0.0
+prostate,P2,SO4_D1,borderline,benign,0,0,
+prostate,P2,SO4_D1,borderline,borderline,0,0,
+prostate,P2,SO4_D1,borderline,malignant,0,0,
+prostate,P2,SO4_D1,borderline,missing,0,0,
+prostate,P2,SO4_D1,borderline,uncertain,0,0,
+prostate,P2,SO4_D1,borderline,conflict,0,0,
+prostate,P2,SO4_D1,malignant,benign,0,47,0.0
+prostate,P2,SO4_D1,malignant,borderline,0,47,0.0
+prostate,P2,SO4_D1,malignant,malignant,47,47,100.0
+prostate,P2,SO4_D1,malignant,missing,0,47,0.0
+prostate,P2,SO4_D1,malignant,uncertain,0,47,0.0
+prostate,P2,SO4_D1,malignant,conflict,0,47,0.0
+prostate,P2,SO4_D1,missing,benign,0,3,0.0
+prostate,P2,SO4_D1,missing,borderline,0,3,0.0
+prostate,P2,SO4_D1,missing,malignant,3,3,100.0
+prostate,P2,SO4_D1,missing,missing,0,3,0.0
+prostate,P2,SO4_D1,missing,uncertain,0,3,0.0
+prostate,P2,SO4_D1,missing,conflict,0,3,0.0
+prostate,P2,SO4_D1,uncertain,benign,0,0,
+prostate,P2,SO4_D1,uncertain,borderline,0,0,
+prostate,P2,SO4_D1,uncertain,malignant,0,0,
+prostate,P2,SO4_D1,uncertain,missing,0,0,
+prostate,P2,SO4_D1,uncertain,uncertain,0,0,
+prostate,P2,SO4_D1,uncertain,conflict,0,0,
+prostate,P2,SO4_D1,conflict,benign,0,0,
+prostate,P2,SO4_D1,conflict,borderline,0,0,
+prostate,P2,SO4_D1,conflict,malignant,0,0,
+prostate,P2,SO4_D1,conflict,missing,0,0,
+prostate,P2,SO4_D1,conflict,uncertain,0,0,
+prostate,P2,SO4_D1,conflict,conflict,0,0,
+colorectal,P1,Visual + Qwen,benign,benign,1,2,50.0
+colorectal,P1,Visual + Qwen,benign,borderline,0,2,0.0
+colorectal,P1,Visual + Qwen,benign,malignant,1,2,50.0
+colorectal,P1,Visual + Qwen,benign,missing,0,2,0.0
+colorectal,P1,Visual + Qwen,benign,uncertain,0,2,0.0
+colorectal,P1,Visual + Qwen,benign,conflict,0,2,0.0
+colorectal,P1,Visual + Qwen,borderline,benign,4,9,44.44444444444444
+colorectal,P1,Visual + Qwen,borderline,borderline,0,9,0.0
+colorectal,P1,Visual + Qwen,borderline,malignant,4,9,44.44444444444444
+colorectal,P1,Visual + Qwen,borderline,missing,1,9,11.11111111111111
+colorectal,P1,Visual + Qwen,borderline,uncertain,0,9,0.0
+colorectal,P1,Visual + Qwen,borderline,conflict,0,9,0.0
+colorectal,P1,Visual + Qwen,malignant,benign,0,1,0.0
+colorectal,P1,Visual + Qwen,malignant,borderline,0,1,0.0
+colorectal,P1,Visual + Qwen,malignant,malignant,1,1,100.0
+colorectal,P1,Visual + Qwen,malignant,missing,0,1,0.0
+colorectal,P1,Visual + Qwen,malignant,uncertain,0,1,0.0
+colorectal,P1,Visual + Qwen,malignant,conflict,0,1,0.0
+colorectal,P1,Visual + Qwen,missing,benign,0,1,0.0
+colorectal,P1,Visual + Qwen,missing,borderline,0,1,0.0
+colorectal,P1,Visual + Qwen,missing,malignant,1,1,100.0
+colorectal,P1,Visual + Qwen,missing,missing,0,1,0.0
+colorectal,P1,Visual + Qwen,missing,uncertain,0,1,0.0
+colorectal,P1,Visual + Qwen,missing,conflict,0,1,0.0
+colorectal,P1,Visual + Qwen,uncertain,benign,0,0,
+colorectal,P1,Visual + Qwen,uncertain,borderline,0,0,
+colorectal,P1,Visual + Qwen,uncertain,malignant,0,0,
+colorectal,P1,Visual + Qwen,uncertain,missing,0,0,
+colorectal,P1,Visual + Qwen,uncertain,uncertain,0,0,
+colorectal,P1,Visual + Qwen,uncertain,conflict,0,0,
+colorectal,P1,Visual + Qwen,conflict,benign,0,0,
+colorectal,P1,Visual + Qwen,conflict,borderline,0,0,
+colorectal,P1,Visual + Qwen,conflict,malignant,0,0,
+colorectal,P1,Visual + Qwen,conflict,missing,0,0,
+colorectal,P1,Visual + Qwen,conflict,uncertain,0,0,
+colorectal,P1,Visual + Qwen,conflict,conflict,0,0,
+colorectal,P1,DeepSeek,benign,benign,0,2,0.0
+colorectal,P1,DeepSeek,benign,borderline,0,2,0.0
+colorectal,P1,DeepSeek,benign,malignant,2,2,100.0
+colorectal,P1,DeepSeek,benign,missing,0,2,0.0
+colorectal,P1,DeepSeek,benign,uncertain,0,2,0.0
+colorectal,P1,DeepSeek,benign,conflict,0,2,0.0
+colorectal,P1,DeepSeek,borderline,benign,1,9,11.11111111111111
+colorectal,P1,DeepSeek,borderline,borderline,0,9,0.0
+colorectal,P1,DeepSeek,borderline,malignant,8,9,88.88888888888889
+colorectal,P1,DeepSeek,borderline,missing,0,9,0.0
+colorectal,P1,DeepSeek,borderline,uncertain,0,9,0.0
+colorectal,P1,DeepSeek,borderline,conflict,0,9,0.0
+colorectal,P1,DeepSeek,malignant,benign,0,1,0.0
+colorectal,P1,DeepSeek,malignant,borderline,0,1,0.0
+colorectal,P1,DeepSeek,malignant,malignant,1,1,100.0
+colorectal,P1,DeepSeek,malignant,missing,0,1,0.0
+colorectal,P1,DeepSeek,malignant,uncertain,0,1,0.0
+colorectal,P1,DeepSeek,malignant,conflict,0,1,0.0
+colorectal,P1,DeepSeek,missing,benign,0,1,0.0
+colorectal,P1,DeepSeek,missing,borderline,0,1,0.0
+colorectal,P1,DeepSeek,missing,malignant,0,1,0.0
+colorectal,P1,DeepSeek,missing,missing,1,1,100.0
+colorectal,P1,DeepSeek,missing,uncertain,0,1,0.0
+colorectal,P1,DeepSeek,missing,conflict,0,1,0.0
+colorectal,P1,DeepSeek,uncertain,benign,0,0,
+colorectal,P1,DeepSeek,uncertain,borderline,0,0,
+colorectal,P1,DeepSeek,uncertain,malignant,0,0,
+colorectal,P1,DeepSeek,uncertain,missing,0,0,
+colorectal,P1,DeepSeek,uncertain,uncertain,0,0,
+colorectal,P1,DeepSeek,uncertain,conflict,0,0,
+colorectal,P1,DeepSeek,conflict,benign,0,0,
+colorectal,P1,DeepSeek,conflict,borderline,0,0,
+colorectal,P1,DeepSeek,conflict,malignant,0,0,
+colorectal,P1,DeepSeek,conflict,missing,0,0,
+colorectal,P1,DeepSeek,conflict,uncertain,0,0,
+colorectal,P1,DeepSeek,conflict,conflict,0,0,
+colorectal,P1,GLM,benign,benign,1,2,50.0
+colorectal,P1,GLM,benign,borderline,0,2,0.0
+colorectal,P1,GLM,benign,malignant,0,2,0.0
+colorectal,P1,GLM,benign,missing,0,2,0.0
+colorectal,P1,GLM,benign,uncertain,0,2,0.0
+colorectal,P1,GLM,benign,conflict,1,2,50.0
+colorectal,P1,GLM,borderline,benign,5,9,55.55555555555556
+colorectal,P1,GLM,borderline,borderline,0,9,0.0
+colorectal,P1,GLM,borderline,malignant,0,9,0.0
+colorectal,P1,GLM,borderline,missing,1,9,11.11111111111111
+colorectal,P1,GLM,borderline,uncertain,1,9,11.11111111111111
+colorectal,P1,GLM,borderline,conflict,2,9,22.22222222222222
+colorectal,P1,GLM,malignant,benign,0,1,0.0
+colorectal,P1,GLM,malignant,borderline,0,1,0.0
+colorectal,P1,GLM,malignant,malignant,0,1,0.0
+colorectal,P1,GLM,malignant,missing,0,1,0.0
+colorectal,P1,GLM,malignant,uncertain,0,1,0.0
+colorectal,P1,GLM,malignant,conflict,1,1,100.0
+colorectal,P1,GLM,missing,benign,0,1,0.0
+colorectal,P1,GLM,missing,borderline,0,1,0.0
+colorectal,P1,GLM,missing,malignant,1,1,100.0
+colorectal,P1,GLM,missing,missing,0,1,0.0
+colorectal,P1,GLM,missing,uncertain,0,1,0.0
+colorectal,P1,GLM,missing,conflict,0,1,0.0
+colorectal,P1,GLM,uncertain,benign,0,0,
+colorectal,P1,GLM,uncertain,borderline,0,0,
+colorectal,P1,GLM,uncertain,malignant,0,0,
+colorectal,P1,GLM,uncertain,missing,0,0,
+colorectal,P1,GLM,uncertain,uncertain,0,0,
+colorectal,P1,GLM,uncertain,conflict,0,0,
+colorectal,P1,GLM,conflict,benign,0,0,
+colorectal,P1,GLM,conflict,borderline,0,0,
+colorectal,P1,GLM,conflict,malignant,0,0,
+colorectal,P1,GLM,conflict,missing,0,0,
+colorectal,P1,GLM,conflict,uncertain,0,0,
+colorectal,P1,GLM,conflict,conflict,0,0,
+colorectal,P1,Visual + MedGemma,benign,benign,0,2,0.0
+colorectal,P1,Visual + MedGemma,benign,borderline,0,2,0.0
+colorectal,P1,Visual + MedGemma,benign,malignant,1,2,50.0
+colorectal,P1,Visual + MedGemma,benign,missing,1,2,50.0
+colorectal,P1,Visual + MedGemma,benign,uncertain,0,2,0.0
+colorectal,P1,Visual + MedGemma,benign,conflict,0,2,0.0
+colorectal,P1,Visual + MedGemma,borderline,benign,0,9,0.0
+colorectal,P1,Visual + MedGemma,borderline,borderline,0,9,0.0
+colorectal,P1,Visual + MedGemma,borderline,malignant,6,9,66.66666666666667
+colorectal,P1,Visual + MedGemma,borderline,missing,3,9,33.333333333333336
+colorectal,P1,Visual + MedGemma,borderline,uncertain,0,9,0.0
+colorectal,P1,Visual + MedGemma,borderline,conflict,0,9,0.0
+colorectal,P1,Visual + MedGemma,malignant,benign,0,1,0.0
+colorectal,P1,Visual + MedGemma,malignant,borderline,0,1,0.0
+colorectal,P1,Visual + MedGemma,malignant,malignant,0,1,0.0
+colorectal,P1,Visual + MedGemma,malignant,missing,1,1,100.0
+colorectal,P1,Visual + MedGemma,malignant,uncertain,0,1,0.0
+colorectal,P1,Visual + MedGemma,malignant,conflict,0,1,0.0
+colorectal,P1,Visual + MedGemma,missing,benign,0,1,0.0
+colorectal,P1,Visual + MedGemma,missing,borderline,0,1,0.0
+colorectal,P1,Visual + MedGemma,missing,malignant,0,1,0.0
+colorectal,P1,Visual + MedGemma,missing,missing,1,1,100.0
+colorectal,P1,Visual + MedGemma,missing,uncertain,0,1,0.0
+colorectal,P1,Visual + MedGemma,missing,conflict,0,1,0.0
+colorectal,P1,Visual + MedGemma,uncertain,benign,0,0,
+colorectal,P1,Visual + MedGemma,uncertain,borderline,0,0,
+colorectal,P1,Visual + MedGemma,uncertain,malignant,0,0,
+colorectal,P1,Visual + MedGemma,uncertain,missing,0,0,
+colorectal,P1,Visual + MedGemma,uncertain,uncertain,0,0,
+colorectal,P1,Visual + MedGemma,uncertain,conflict,0,0,
+colorectal,P1,Visual + MedGemma,conflict,benign,0,0,
+colorectal,P1,Visual + MedGemma,conflict,borderline,0,0,
+colorectal,P1,Visual + MedGemma,conflict,malignant,0,0,
+colorectal,P1,Visual + MedGemma,conflict,missing,0,0,
+colorectal,P1,Visual + MedGemma,conflict,uncertain,0,0,
+colorectal,P1,Visual + MedGemma,conflict,conflict,0,0,
+colorectal,P1,PathAgent,benign,benign,0,2,0.0
+colorectal,P1,PathAgent,benign,borderline,0,2,0.0
+colorectal,P1,PathAgent,benign,malignant,2,2,100.0
+colorectal,P1,PathAgent,benign,missing,0,2,0.0
+colorectal,P1,PathAgent,benign,uncertain,0,2,0.0
+colorectal,P1,PathAgent,benign,conflict,0,2,0.0
+colorectal,P1,PathAgent,borderline,benign,0,9,0.0
+colorectal,P1,PathAgent,borderline,borderline,0,9,0.0
+colorectal,P1,PathAgent,borderline,malignant,7,9,77.77777777777777
+colorectal,P1,PathAgent,borderline,missing,2,9,22.22222222222222
+colorectal,P1,PathAgent,borderline,uncertain,0,9,0.0
+colorectal,P1,PathAgent,borderline,conflict,0,9,0.0
+colorectal,P1,PathAgent,malignant,benign,0,1,0.0
+colorectal,P1,PathAgent,malignant,borderline,0,1,0.0
+colorectal,P1,PathAgent,malignant,malignant,1,1,100.0
+colorectal,P1,PathAgent,malignant,missing,0,1,0.0
+colorectal,P1,PathAgent,malignant,uncertain,0,1,0.0
+colorectal,P1,PathAgent,malignant,conflict,0,1,0.0
+colorectal,P1,PathAgent,missing,benign,0,1,0.0
+colorectal,P1,PathAgent,missing,borderline,0,1,0.0
+colorectal,P1,PathAgent,missing,malignant,1,1,100.0
+colorectal,P1,PathAgent,missing,missing,0,1,0.0
+colorectal,P1,PathAgent,missing,uncertain,0,1,0.0
+colorectal,P1,PathAgent,missing,conflict,0,1,0.0
+colorectal,P1,PathAgent,uncertain,benign,0,0,
+colorectal,P1,PathAgent,uncertain,borderline,0,0,
+colorectal,P1,PathAgent,uncertain,malignant,0,0,
+colorectal,P1,PathAgent,uncertain,missing,0,0,
+colorectal,P1,PathAgent,uncertain,uncertain,0,0,
+colorectal,P1,PathAgent,uncertain,conflict,0,0,
+colorectal,P1,PathAgent,conflict,benign,0,0,
+colorectal,P1,PathAgent,conflict,borderline,0,0,
+colorectal,P1,PathAgent,conflict,malignant,0,0,
+colorectal,P1,PathAgent,conflict,missing,0,0,
+colorectal,P1,PathAgent,conflict,uncertain,0,0,
+colorectal,P1,PathAgent,conflict,conflict,0,0,
+colorectal,P1,PRISM2,benign,benign,1,2,50.0
+colorectal,P1,PRISM2,benign,borderline,0,2,0.0
+colorectal,P1,PRISM2,benign,malignant,0,2,0.0
+colorectal,P1,PRISM2,benign,missing,1,2,50.0
+colorectal,P1,PRISM2,benign,uncertain,0,2,0.0
+colorectal,P1,PRISM2,benign,conflict,0,2,0.0
+colorectal,P1,PRISM2,borderline,benign,7,9,77.77777777777777
+colorectal,P1,PRISM2,borderline,borderline,0,9,0.0
+colorectal,P1,PRISM2,borderline,malignant,0,9,0.0
+colorectal,P1,PRISM2,borderline,missing,2,9,22.22222222222222
+colorectal,P1,PRISM2,borderline,uncertain,0,9,0.0
+colorectal,P1,PRISM2,borderline,conflict,0,9,0.0
+colorectal,P1,PRISM2,malignant,benign,0,1,0.0
+colorectal,P1,PRISM2,malignant,borderline,0,1,0.0
+colorectal,P1,PRISM2,malignant,malignant,1,1,100.0
+colorectal,P1,PRISM2,malignant,missing,0,1,0.0
+colorectal,P1,PRISM2,malignant,uncertain,0,1,0.0
+colorectal,P1,PRISM2,malignant,conflict,0,1,0.0
+colorectal,P1,PRISM2,missing,benign,0,1,0.0
+colorectal,P1,PRISM2,missing,borderline,0,1,0.0
+colorectal,P1,PRISM2,missing,malignant,0,1,0.0
+colorectal,P1,PRISM2,missing,missing,1,1,100.0
+colorectal,P1,PRISM2,missing,uncertain,0,1,0.0
+colorectal,P1,PRISM2,missing,conflict,0,1,0.0
+colorectal,P1,PRISM2,uncertain,benign,0,0,
+colorectal,P1,PRISM2,uncertain,borderline,0,0,
+colorectal,P1,PRISM2,uncertain,malignant,0,0,
+colorectal,P1,PRISM2,uncertain,missing,0,0,
+colorectal,P1,PRISM2,uncertain,uncertain,0,0,
+colorectal,P1,PRISM2,uncertain,conflict,0,0,
+colorectal,P1,PRISM2,conflict,benign,0,0,
+colorectal,P1,PRISM2,conflict,borderline,0,0,
+colorectal,P1,PRISM2,conflict,malignant,0,0,
+colorectal,P1,PRISM2,conflict,missing,0,0,
+colorectal,P1,PRISM2,conflict,uncertain,0,0,
+colorectal,P1,PRISM2,conflict,conflict,0,0,
+colorectal,P1,HistGen,benign,benign,0,2,0.0
+colorectal,P1,HistGen,benign,borderline,0,2,0.0
+colorectal,P1,HistGen,benign,malignant,2,2,100.0
+colorectal,P1,HistGen,benign,missing,0,2,0.0
+colorectal,P1,HistGen,benign,uncertain,0,2,0.0
+colorectal,P1,HistGen,benign,conflict,0,2,0.0
+colorectal,P1,HistGen,borderline,benign,0,9,0.0
+colorectal,P1,HistGen,borderline,borderline,0,9,0.0
+colorectal,P1,HistGen,borderline,malignant,9,9,100.0
+colorectal,P1,HistGen,borderline,missing,0,9,0.0
+colorectal,P1,HistGen,borderline,uncertain,0,9,0.0
+colorectal,P1,HistGen,borderline,conflict,0,9,0.0
+colorectal,P1,HistGen,malignant,benign,0,1,0.0
+colorectal,P1,HistGen,malignant,borderline,0,1,0.0
+colorectal,P1,HistGen,malignant,malignant,1,1,100.0
+colorectal,P1,HistGen,malignant,missing,0,1,0.0
+colorectal,P1,HistGen,malignant,uncertain,0,1,0.0
+colorectal,P1,HistGen,malignant,conflict,0,1,0.0
+colorectal,P1,HistGen,missing,benign,0,1,0.0
+colorectal,P1,HistGen,missing,borderline,0,1,0.0
+colorectal,P1,HistGen,missing,malignant,1,1,100.0
+colorectal,P1,HistGen,missing,missing,0,1,0.0
+colorectal,P1,HistGen,missing,uncertain,0,1,0.0
+colorectal,P1,HistGen,missing,conflict,0,1,0.0
+colorectal,P1,HistGen,uncertain,benign,0,0,
+colorectal,P1,HistGen,uncertain,borderline,0,0,
+colorectal,P1,HistGen,uncertain,malignant,0,0,
+colorectal,P1,HistGen,uncertain,missing,0,0,
+colorectal,P1,HistGen,uncertain,uncertain,0,0,
+colorectal,P1,HistGen,uncertain,conflict,0,0,
+colorectal,P1,HistGen,conflict,benign,0,0,
+colorectal,P1,HistGen,conflict,borderline,0,0,
+colorectal,P1,HistGen,conflict,malignant,0,0,
+colorectal,P1,HistGen,conflict,missing,0,0,
+colorectal,P1,HistGen,conflict,uncertain,0,0,
+colorectal,P1,HistGen,conflict,conflict,0,0,
+colorectal,P1,HistoGPT,benign,benign,1,2,50.0
+colorectal,P1,HistoGPT,benign,borderline,0,2,0.0
+colorectal,P1,HistoGPT,benign,malignant,0,2,0.0
+colorectal,P1,HistoGPT,benign,missing,1,2,50.0
+colorectal,P1,HistoGPT,benign,uncertain,0,2,0.0
+colorectal,P1,HistoGPT,benign,conflict,0,2,0.0
+colorectal,P1,HistoGPT,borderline,benign,5,9,55.55555555555556
+colorectal,P1,HistoGPT,borderline,borderline,0,9,0.0
+colorectal,P1,HistoGPT,borderline,malignant,0,9,0.0
+colorectal,P1,HistoGPT,borderline,missing,3,9,33.333333333333336
+colorectal,P1,HistoGPT,borderline,uncertain,0,9,0.0
+colorectal,P1,HistoGPT,borderline,conflict,1,9,11.11111111111111
+colorectal,P1,HistoGPT,malignant,benign,0,1,0.0
+colorectal,P1,HistoGPT,malignant,borderline,0,1,0.0
+colorectal,P1,HistoGPT,malignant,malignant,1,1,100.0
+colorectal,P1,HistoGPT,malignant,missing,0,1,0.0
+colorectal,P1,HistoGPT,malignant,uncertain,0,1,0.0
+colorectal,P1,HistoGPT,malignant,conflict,0,1,0.0
+colorectal,P1,HistoGPT,missing,benign,0,1,0.0
+colorectal,P1,HistoGPT,missing,borderline,0,1,0.0
+colorectal,P1,HistoGPT,missing,malignant,0,1,0.0
+colorectal,P1,HistoGPT,missing,missing,1,1,100.0
+colorectal,P1,HistoGPT,missing,uncertain,0,1,0.0
+colorectal,P1,HistoGPT,missing,conflict,0,1,0.0
+colorectal,P1,HistoGPT,uncertain,benign,0,0,
+colorectal,P1,HistoGPT,uncertain,borderline,0,0,
+colorectal,P1,HistoGPT,uncertain,malignant,0,0,
+colorectal,P1,HistoGPT,uncertain,missing,0,0,
+colorectal,P1,HistoGPT,uncertain,uncertain,0,0,
+colorectal,P1,HistoGPT,uncertain,conflict,0,0,
+colorectal,P1,HistoGPT,conflict,benign,0,0,
+colorectal,P1,HistoGPT,conflict,borderline,0,0,
+colorectal,P1,HistoGPT,conflict,malignant,0,0,
+colorectal,P1,HistoGPT,conflict,missing,0,0,
+colorectal,P1,HistoGPT,conflict,uncertain,0,0,
+colorectal,P1,HistoGPT,conflict,conflict,0,0,
+colorectal,P1,SO1_D1,benign,benign,0,2,0.0
+colorectal,P1,SO1_D1,benign,borderline,0,2,0.0
+colorectal,P1,SO1_D1,benign,malignant,2,2,100.0
+colorectal,P1,SO1_D1,benign,missing,0,2,0.0
+colorectal,P1,SO1_D1,benign,uncertain,0,2,0.0
+colorectal,P1,SO1_D1,benign,conflict,0,2,0.0
+colorectal,P1,SO1_D1,borderline,benign,1,9,11.11111111111111
+colorectal,P1,SO1_D1,borderline,borderline,0,9,0.0
+colorectal,P1,SO1_D1,borderline,malignant,8,9,88.88888888888889
+colorectal,P1,SO1_D1,borderline,missing,0,9,0.0
+colorectal,P1,SO1_D1,borderline,uncertain,0,9,0.0
+colorectal,P1,SO1_D1,borderline,conflict,0,9,0.0
+colorectal,P1,SO1_D1,malignant,benign,0,1,0.0
+colorectal,P1,SO1_D1,malignant,borderline,0,1,0.0
+colorectal,P1,SO1_D1,malignant,malignant,1,1,100.0
+colorectal,P1,SO1_D1,malignant,missing,0,1,0.0
+colorectal,P1,SO1_D1,malignant,uncertain,0,1,0.0
+colorectal,P1,SO1_D1,malignant,conflict,0,1,0.0
+colorectal,P1,SO1_D1,missing,benign,0,1,0.0
+colorectal,P1,SO1_D1,missing,borderline,0,1,0.0
+colorectal,P1,SO1_D1,missing,malignant,1,1,100.0
+colorectal,P1,SO1_D1,missing,missing,0,1,0.0
+colorectal,P1,SO1_D1,missing,uncertain,0,1,0.0
+colorectal,P1,SO1_D1,missing,conflict,0,1,0.0
+colorectal,P1,SO1_D1,uncertain,benign,0,0,
+colorectal,P1,SO1_D1,uncertain,borderline,0,0,
+colorectal,P1,SO1_D1,uncertain,malignant,0,0,
+colorectal,P1,SO1_D1,uncertain,missing,0,0,
+colorectal,P1,SO1_D1,uncertain,uncertain,0,0,
+colorectal,P1,SO1_D1,uncertain,conflict,0,0,
+colorectal,P1,SO1_D1,conflict,benign,0,0,
+colorectal,P1,SO1_D1,conflict,borderline,0,0,
+colorectal,P1,SO1_D1,conflict,malignant,0,0,
+colorectal,P1,SO1_D1,conflict,missing,0,0,
+colorectal,P1,SO1_D1,conflict,uncertain,0,0,
+colorectal,P1,SO1_D1,conflict,conflict,0,0,
+colorectal,P1,SO4_D1,benign,benign,0,2,0.0
+colorectal,P1,SO4_D1,benign,borderline,0,2,0.0
+colorectal,P1,SO4_D1,benign,malignant,2,2,100.0
+colorectal,P1,SO4_D1,benign,missing,0,2,0.0
+colorectal,P1,SO4_D1,benign,uncertain,0,2,0.0
+colorectal,P1,SO4_D1,benign,conflict,0,2,0.0
+colorectal,P1,SO4_D1,borderline,benign,0,9,0.0
+colorectal,P1,SO4_D1,borderline,borderline,0,9,0.0
+colorectal,P1,SO4_D1,borderline,malignant,9,9,100.0
+colorectal,P1,SO4_D1,borderline,missing,0,9,0.0
+colorectal,P1,SO4_D1,borderline,uncertain,0,9,0.0
+colorectal,P1,SO4_D1,borderline,conflict,0,9,0.0
+colorectal,P1,SO4_D1,malignant,benign,0,1,0.0
+colorectal,P1,SO4_D1,malignant,borderline,0,1,0.0
+colorectal,P1,SO4_D1,malignant,malignant,1,1,100.0
+colorectal,P1,SO4_D1,malignant,missing,0,1,0.0
+colorectal,P1,SO4_D1,malignant,uncertain,0,1,0.0
+colorectal,P1,SO4_D1,malignant,conflict,0,1,0.0
+colorectal,P1,SO4_D1,missing,benign,0,1,0.0
+colorectal,P1,SO4_D1,missing,borderline,0,1,0.0
+colorectal,P1,SO4_D1,missing,malignant,1,1,100.0
+colorectal,P1,SO4_D1,missing,missing,0,1,0.0
+colorectal,P1,SO4_D1,missing,uncertain,0,1,0.0
+colorectal,P1,SO4_D1,missing,conflict,0,1,0.0
+colorectal,P1,SO4_D1,uncertain,benign,0,0,
+colorectal,P1,SO4_D1,uncertain,borderline,0,0,
+colorectal,P1,SO4_D1,uncertain,malignant,0,0,
+colorectal,P1,SO4_D1,uncertain,missing,0,0,
+colorectal,P1,SO4_D1,uncertain,uncertain,0,0,
+colorectal,P1,SO4_D1,uncertain,conflict,0,0,
+colorectal,P1,SO4_D1,conflict,benign,0,0,
+colorectal,P1,SO4_D1,conflict,borderline,0,0,
+colorectal,P1,SO4_D1,conflict,malignant,0,0,
+colorectal,P1,SO4_D1,conflict,missing,0,0,
+colorectal,P1,SO4_D1,conflict,uncertain,0,0,
+colorectal,P1,SO4_D1,conflict,conflict,0,0,
+colorectal,P2,Visual + Qwen,benign,benign,1,1,100.0
+colorectal,P2,Visual + Qwen,benign,borderline,0,1,0.0
+colorectal,P2,Visual + Qwen,benign,malignant,0,1,0.0
+colorectal,P2,Visual + Qwen,benign,missing,0,1,0.0
+colorectal,P2,Visual + Qwen,benign,uncertain,0,1,0.0
+colorectal,P2,Visual + Qwen,benign,conflict,0,1,0.0
+colorectal,P2,Visual + Qwen,borderline,benign,4,11,36.36363636363637
+colorectal,P2,Visual + Qwen,borderline,borderline,0,11,0.0
+colorectal,P2,Visual + Qwen,borderline,malignant,6,11,54.54545454545455
+colorectal,P2,Visual + Qwen,borderline,missing,1,11,9.090909090909092
+colorectal,P2,Visual + Qwen,borderline,uncertain,0,11,0.0
+colorectal,P2,Visual + Qwen,borderline,conflict,0,11,0.0
+colorectal,P2,Visual + Qwen,malignant,benign,0,1,0.0
+colorectal,P2,Visual + Qwen,malignant,borderline,0,1,0.0
+colorectal,P2,Visual + Qwen,malignant,malignant,1,1,100.0
+colorectal,P2,Visual + Qwen,malignant,missing,0,1,0.0
+colorectal,P2,Visual + Qwen,malignant,uncertain,0,1,0.0
+colorectal,P2,Visual + Qwen,malignant,conflict,0,1,0.0
+colorectal,P2,Visual + Qwen,missing,benign,0,0,
+colorectal,P2,Visual + Qwen,missing,borderline,0,0,
+colorectal,P2,Visual + Qwen,missing,malignant,0,0,
+colorectal,P2,Visual + Qwen,missing,missing,0,0,
+colorectal,P2,Visual + Qwen,missing,uncertain,0,0,
+colorectal,P2,Visual + Qwen,missing,conflict,0,0,
+colorectal,P2,Visual + Qwen,uncertain,benign,0,0,
+colorectal,P2,Visual + Qwen,uncertain,borderline,0,0,
+colorectal,P2,Visual + Qwen,uncertain,malignant,0,0,
+colorectal,P2,Visual + Qwen,uncertain,missing,0,0,
+colorectal,P2,Visual + Qwen,uncertain,uncertain,0,0,
+colorectal,P2,Visual + Qwen,uncertain,conflict,0,0,
+colorectal,P2,Visual + Qwen,conflict,benign,0,0,
+colorectal,P2,Visual + Qwen,conflict,borderline,0,0,
+colorectal,P2,Visual + Qwen,conflict,malignant,0,0,
+colorectal,P2,Visual + Qwen,conflict,missing,0,0,
+colorectal,P2,Visual + Qwen,conflict,uncertain,0,0,
+colorectal,P2,Visual + Qwen,conflict,conflict,0,0,
+colorectal,P2,DeepSeek,benign,benign,0,1,0.0
+colorectal,P2,DeepSeek,benign,borderline,0,1,0.0
+colorectal,P2,DeepSeek,benign,malignant,1,1,100.0
+colorectal,P2,DeepSeek,benign,missing,0,1,0.0
+colorectal,P2,DeepSeek,benign,uncertain,0,1,0.0
+colorectal,P2,DeepSeek,benign,conflict,0,1,0.0
+colorectal,P2,DeepSeek,borderline,benign,1,11,9.090909090909092
+colorectal,P2,DeepSeek,borderline,borderline,0,11,0.0
+colorectal,P2,DeepSeek,borderline,malignant,9,11,81.81818181818181
+colorectal,P2,DeepSeek,borderline,missing,1,11,9.090909090909092
+colorectal,P2,DeepSeek,borderline,uncertain,0,11,0.0
+colorectal,P2,DeepSeek,borderline,conflict,0,11,0.0
+colorectal,P2,DeepSeek,malignant,benign,0,1,0.0
+colorectal,P2,DeepSeek,malignant,borderline,0,1,0.0
+colorectal,P2,DeepSeek,malignant,malignant,1,1,100.0
+colorectal,P2,DeepSeek,malignant,missing,0,1,0.0
+colorectal,P2,DeepSeek,malignant,uncertain,0,1,0.0
+colorectal,P2,DeepSeek,malignant,conflict,0,1,0.0
+colorectal,P2,DeepSeek,missing,benign,0,0,
+colorectal,P2,DeepSeek,missing,borderline,0,0,
+colorectal,P2,DeepSeek,missing,malignant,0,0,
+colorectal,P2,DeepSeek,missing,missing,0,0,
+colorectal,P2,DeepSeek,missing,uncertain,0,0,
+colorectal,P2,DeepSeek,missing,conflict,0,0,
+colorectal,P2,DeepSeek,uncertain,benign,0,0,
+colorectal,P2,DeepSeek,uncertain,borderline,0,0,
+colorectal,P2,DeepSeek,uncertain,malignant,0,0,
+colorectal,P2,DeepSeek,uncertain,missing,0,0,
+colorectal,P2,DeepSeek,uncertain,uncertain,0,0,
+colorectal,P2,DeepSeek,uncertain,conflict,0,0,
+colorectal,P2,DeepSeek,conflict,benign,0,0,
+colorectal,P2,DeepSeek,conflict,borderline,0,0,
+colorectal,P2,DeepSeek,conflict,malignant,0,0,
+colorectal,P2,DeepSeek,conflict,missing,0,0,
+colorectal,P2,DeepSeek,conflict,uncertain,0,0,
+colorectal,P2,DeepSeek,conflict,conflict,0,0,
+colorectal,P2,GLM,benign,benign,0,1,0.0
+colorectal,P2,GLM,benign,borderline,0,1,0.0
+colorectal,P2,GLM,benign,malignant,0,1,0.0
+colorectal,P2,GLM,benign,missing,0,1,0.0
+colorectal,P2,GLM,benign,uncertain,0,1,0.0
+colorectal,P2,GLM,benign,conflict,1,1,100.0
+colorectal,P2,GLM,borderline,benign,6,11,54.54545454545455
+colorectal,P2,GLM,borderline,borderline,0,11,0.0
+colorectal,P2,GLM,borderline,malignant,1,11,9.090909090909092
+colorectal,P2,GLM,borderline,missing,1,11,9.090909090909092
+colorectal,P2,GLM,borderline,uncertain,1,11,9.090909090909092
+colorectal,P2,GLM,borderline,conflict,2,11,18.181818181818183
+colorectal,P2,GLM,malignant,benign,0,1,0.0
+colorectal,P2,GLM,malignant,borderline,0,1,0.0
+colorectal,P2,GLM,malignant,malignant,0,1,0.0
+colorectal,P2,GLM,malignant,missing,0,1,0.0
+colorectal,P2,GLM,malignant,uncertain,0,1,0.0
+colorectal,P2,GLM,malignant,conflict,1,1,100.0
+colorectal,P2,GLM,missing,benign,0,0,
+colorectal,P2,GLM,missing,borderline,0,0,
+colorectal,P2,GLM,missing,malignant,0,0,
+colorectal,P2,GLM,missing,missing,0,0,
+colorectal,P2,GLM,missing,uncertain,0,0,
+colorectal,P2,GLM,missing,conflict,0,0,
+colorectal,P2,GLM,uncertain,benign,0,0,
+colorectal,P2,GLM,uncertain,borderline,0,0,
+colorectal,P2,GLM,uncertain,malignant,0,0,
+colorectal,P2,GLM,uncertain,missing,0,0,
+colorectal,P2,GLM,uncertain,uncertain,0,0,
+colorectal,P2,GLM,uncertain,conflict,0,0,
+colorectal,P2,GLM,conflict,benign,0,0,
+colorectal,P2,GLM,conflict,borderline,0,0,
+colorectal,P2,GLM,conflict,malignant,0,0,
+colorectal,P2,GLM,conflict,missing,0,0,
+colorectal,P2,GLM,conflict,uncertain,0,0,
+colorectal,P2,GLM,conflict,conflict,0,0,
+colorectal,P2,Visual + MedGemma,benign,benign,0,1,0.0
+colorectal,P2,Visual + MedGemma,benign,borderline,0,1,0.0
+colorectal,P2,Visual + MedGemma,benign,malignant,0,1,0.0
+colorectal,P2,Visual + MedGemma,benign,missing,1,1,100.0
+colorectal,P2,Visual + MedGemma,benign,uncertain,0,1,0.0
+colorectal,P2,Visual + MedGemma,benign,conflict,0,1,0.0
+colorectal,P2,Visual + MedGemma,borderline,benign,0,11,0.0
+colorectal,P2,Visual + MedGemma,borderline,borderline,0,11,0.0
+colorectal,P2,Visual + MedGemma,borderline,malignant,7,11,63.63636363636363
+colorectal,P2,Visual + MedGemma,borderline,missing,4,11,36.36363636363637
+colorectal,P2,Visual + MedGemma,borderline,uncertain,0,11,0.0
+colorectal,P2,Visual + MedGemma,borderline,conflict,0,11,0.0
+colorectal,P2,Visual + MedGemma,malignant,benign,0,1,0.0
+colorectal,P2,Visual + MedGemma,malignant,borderline,0,1,0.0
+colorectal,P2,Visual + MedGemma,malignant,malignant,0,1,0.0
+colorectal,P2,Visual + MedGemma,malignant,missing,1,1,100.0
+colorectal,P2,Visual + MedGemma,malignant,uncertain,0,1,0.0
+colorectal,P2,Visual + MedGemma,malignant,conflict,0,1,0.0
+colorectal,P2,Visual + MedGemma,missing,benign,0,0,
+colorectal,P2,Visual + MedGemma,missing,borderline,0,0,
+colorectal,P2,Visual + MedGemma,missing,malignant,0,0,
+colorectal,P2,Visual + MedGemma,missing,missing,0,0,
+colorectal,P2,Visual + MedGemma,missing,uncertain,0,0,
+colorectal,P2,Visual + MedGemma,missing,conflict,0,0,
+colorectal,P2,Visual + MedGemma,uncertain,benign,0,0,
+colorectal,P2,Visual + MedGemma,uncertain,borderline,0,0,
+colorectal,P2,Visual + MedGemma,uncertain,malignant,0,0,
+colorectal,P2,Visual + MedGemma,uncertain,missing,0,0,
+colorectal,P2,Visual + MedGemma,uncertain,uncertain,0,0,
+colorectal,P2,Visual + MedGemma,uncertain,conflict,0,0,
+colorectal,P2,Visual + MedGemma,conflict,benign,0,0,
+colorectal,P2,Visual + MedGemma,conflict,borderline,0,0,
+colorectal,P2,Visual + MedGemma,conflict,malignant,0,0,
+colorectal,P2,Visual + MedGemma,conflict,missing,0,0,
+colorectal,P2,Visual + MedGemma,conflict,uncertain,0,0,
+colorectal,P2,Visual + MedGemma,conflict,conflict,0,0,
+colorectal,P2,PathAgent,benign,benign,0,1,0.0
+colorectal,P2,PathAgent,benign,borderline,0,1,0.0
+colorectal,P2,PathAgent,benign,malignant,1,1,100.0
+colorectal,P2,PathAgent,benign,missing,0,1,0.0
+colorectal,P2,PathAgent,benign,uncertain,0,1,0.0
+colorectal,P2,PathAgent,benign,conflict,0,1,0.0
+colorectal,P2,PathAgent,borderline,benign,0,11,0.0
+colorectal,P2,PathAgent,borderline,borderline,0,11,0.0
+colorectal,P2,PathAgent,borderline,malignant,9,11,81.81818181818181
+colorectal,P2,PathAgent,borderline,missing,2,11,18.181818181818183
+colorectal,P2,PathAgent,borderline,uncertain,0,11,0.0
+colorectal,P2,PathAgent,borderline,conflict,0,11,0.0
+colorectal,P2,PathAgent,malignant,benign,0,1,0.0
+colorectal,P2,PathAgent,malignant,borderline,0,1,0.0
+colorectal,P2,PathAgent,malignant,malignant,1,1,100.0
+colorectal,P2,PathAgent,malignant,missing,0,1,0.0
+colorectal,P2,PathAgent,malignant,uncertain,0,1,0.0
+colorectal,P2,PathAgent,malignant,conflict,0,1,0.0
+colorectal,P2,PathAgent,missing,benign,0,0,
+colorectal,P2,PathAgent,missing,borderline,0,0,
+colorectal,P2,PathAgent,missing,malignant,0,0,
+colorectal,P2,PathAgent,missing,missing,0,0,
+colorectal,P2,PathAgent,missing,uncertain,0,0,
+colorectal,P2,PathAgent,missing,conflict,0,0,
+colorectal,P2,PathAgent,uncertain,benign,0,0,
+colorectal,P2,PathAgent,uncertain,borderline,0,0,
+colorectal,P2,PathAgent,uncertain,malignant,0,0,
+colorectal,P2,PathAgent,uncertain,missing,0,0,
+colorectal,P2,PathAgent,uncertain,uncertain,0,0,
+colorectal,P2,PathAgent,uncertain,conflict,0,0,
+colorectal,P2,PathAgent,conflict,benign,0,0,
+colorectal,P2,PathAgent,conflict,borderline,0,0,
+colorectal,P2,PathAgent,conflict,malignant,0,0,
+colorectal,P2,PathAgent,conflict,missing,0,0,
+colorectal,P2,PathAgent,conflict,uncertain,0,0,
+colorectal,P2,PathAgent,conflict,conflict,0,0,
+colorectal,P2,PRISM2,benign,benign,0,1,0.0
+colorectal,P2,PRISM2,benign,borderline,0,1,0.0
+colorectal,P2,PRISM2,benign,malignant,0,1,0.0
+colorectal,P2,PRISM2,benign,missing,1,1,100.0
+colorectal,P2,PRISM2,benign,uncertain,0,1,0.0
+colorectal,P2,PRISM2,benign,conflict,0,1,0.0
+colorectal,P2,PRISM2,borderline,benign,8,11,72.72727272727273
+colorectal,P2,PRISM2,borderline,borderline,0,11,0.0
+colorectal,P2,PRISM2,borderline,malignant,0,11,0.0
+colorectal,P2,PRISM2,borderline,missing,3,11,27.272727272727273
+colorectal,P2,PRISM2,borderline,uncertain,0,11,0.0
+colorectal,P2,PRISM2,borderline,conflict,0,11,0.0
+colorectal,P2,PRISM2,malignant,benign,0,1,0.0
+colorectal,P2,PRISM2,malignant,borderline,0,1,0.0
+colorectal,P2,PRISM2,malignant,malignant,1,1,100.0
+colorectal,P2,PRISM2,malignant,missing,0,1,0.0
+colorectal,P2,PRISM2,malignant,uncertain,0,1,0.0
+colorectal,P2,PRISM2,malignant,conflict,0,1,0.0
+colorectal,P2,PRISM2,missing,benign,0,0,
+colorectal,P2,PRISM2,missing,borderline,0,0,
+colorectal,P2,PRISM2,missing,malignant,0,0,
+colorectal,P2,PRISM2,missing,missing,0,0,
+colorectal,P2,PRISM2,missing,uncertain,0,0,
+colorectal,P2,PRISM2,missing,conflict,0,0,
+colorectal,P2,PRISM2,uncertain,benign,0,0,
+colorectal,P2,PRISM2,uncertain,borderline,0,0,
+colorectal,P2,PRISM2,uncertain,malignant,0,0,
+colorectal,P2,PRISM2,uncertain,missing,0,0,
+colorectal,P2,PRISM2,uncertain,uncertain,0,0,
+colorectal,P2,PRISM2,uncertain,conflict,0,0,
+colorectal,P2,PRISM2,conflict,benign,0,0,
+colorectal,P2,PRISM2,conflict,borderline,0,0,
+colorectal,P2,PRISM2,conflict,malignant,0,0,
+colorectal,P2,PRISM2,conflict,missing,0,0,
+colorectal,P2,PRISM2,conflict,uncertain,0,0,
+colorectal,P2,PRISM2,conflict,conflict,0,0,
+colorectal,P2,HistGen,benign,benign,0,1,0.0
+colorectal,P2,HistGen,benign,borderline,0,1,0.0
+colorectal,P2,HistGen,benign,malignant,1,1,100.0
+colorectal,P2,HistGen,benign,missing,0,1,0.0
+colorectal,P2,HistGen,benign,uncertain,0,1,0.0
+colorectal,P2,HistGen,benign,conflict,0,1,0.0
+colorectal,P2,HistGen,borderline,benign,0,11,0.0
+colorectal,P2,HistGen,borderline,borderline,0,11,0.0
+colorectal,P2,HistGen,borderline,malignant,11,11,100.0
+colorectal,P2,HistGen,borderline,missing,0,11,0.0
+colorectal,P2,HistGen,borderline,uncertain,0,11,0.0
+colorectal,P2,HistGen,borderline,conflict,0,11,0.0
+colorectal,P2,HistGen,malignant,benign,0,1,0.0
+colorectal,P2,HistGen,malignant,borderline,0,1,0.0
+colorectal,P2,HistGen,malignant,malignant,1,1,100.0
+colorectal,P2,HistGen,malignant,missing,0,1,0.0
+colorectal,P2,HistGen,malignant,uncertain,0,1,0.0
+colorectal,P2,HistGen,malignant,conflict,0,1,0.0
+colorectal,P2,HistGen,missing,benign,0,0,
+colorectal,P2,HistGen,missing,borderline,0,0,
+colorectal,P2,HistGen,missing,malignant,0,0,
+colorectal,P2,HistGen,missing,missing,0,0,
+colorectal,P2,HistGen,missing,uncertain,0,0,
+colorectal,P2,HistGen,missing,conflict,0,0,
+colorectal,P2,HistGen,uncertain,benign,0,0,
+colorectal,P2,HistGen,uncertain,borderline,0,0,
+colorectal,P2,HistGen,uncertain,malignant,0,0,
+colorectal,P2,HistGen,uncertain,missing,0,0,
+colorectal,P2,HistGen,uncertain,uncertain,0,0,
+colorectal,P2,HistGen,uncertain,conflict,0,0,
+colorectal,P2,HistGen,conflict,benign,0,0,
+colorectal,P2,HistGen,conflict,borderline,0,0,
+colorectal,P2,HistGen,conflict,malignant,0,0,
+colorectal,P2,HistGen,conflict,missing,0,0,
+colorectal,P2,HistGen,conflict,uncertain,0,0,
+colorectal,P2,HistGen,conflict,conflict,0,0,
+colorectal,P2,HistoGPT,benign,benign,1,1,100.0
+colorectal,P2,HistoGPT,benign,borderline,0,1,0.0
+colorectal,P2,HistoGPT,benign,malignant,0,1,0.0
+colorectal,P2,HistoGPT,benign,missing,0,1,0.0
+colorectal,P2,HistoGPT,benign,uncertain,0,1,0.0
+colorectal,P2,HistoGPT,benign,conflict,0,1,0.0
+colorectal,P2,HistoGPT,borderline,benign,5,11,45.45454545454545
+colorectal,P2,HistoGPT,borderline,borderline,0,11,0.0
+colorectal,P2,HistoGPT,borderline,malignant,0,11,0.0
+colorectal,P2,HistoGPT,borderline,missing,5,11,45.45454545454545
+colorectal,P2,HistoGPT,borderline,uncertain,0,11,0.0
+colorectal,P2,HistoGPT,borderline,conflict,1,11,9.090909090909092
+colorectal,P2,HistoGPT,malignant,benign,0,1,0.0
+colorectal,P2,HistoGPT,malignant,borderline,0,1,0.0
+colorectal,P2,HistoGPT,malignant,malignant,1,1,100.0
+colorectal,P2,HistoGPT,malignant,missing,0,1,0.0
+colorectal,P2,HistoGPT,malignant,uncertain,0,1,0.0
+colorectal,P2,HistoGPT,malignant,conflict,0,1,0.0
+colorectal,P2,HistoGPT,missing,benign,0,0,
+colorectal,P2,HistoGPT,missing,borderline,0,0,
+colorectal,P2,HistoGPT,missing,malignant,0,0,
+colorectal,P2,HistoGPT,missing,missing,0,0,
+colorectal,P2,HistoGPT,missing,uncertain,0,0,
+colorectal,P2,HistoGPT,missing,conflict,0,0,
+colorectal,P2,HistoGPT,uncertain,benign,0,0,
+colorectal,P2,HistoGPT,uncertain,borderline,0,0,
+colorectal,P2,HistoGPT,uncertain,malignant,0,0,
+colorectal,P2,HistoGPT,uncertain,missing,0,0,
+colorectal,P2,HistoGPT,uncertain,uncertain,0,0,
+colorectal,P2,HistoGPT,uncertain,conflict,0,0,
+colorectal,P2,HistoGPT,conflict,benign,0,0,
+colorectal,P2,HistoGPT,conflict,borderline,0,0,
+colorectal,P2,HistoGPT,conflict,malignant,0,0,
+colorectal,P2,HistoGPT,conflict,missing,0,0,
+colorectal,P2,HistoGPT,conflict,uncertain,0,0,
+colorectal,P2,HistoGPT,conflict,conflict,0,0,
+colorectal,P2,SO1_D1,benign,benign,0,1,0.0
+colorectal,P2,SO1_D1,benign,borderline,0,1,0.0
+colorectal,P2,SO1_D1,benign,malignant,1,1,100.0
+colorectal,P2,SO1_D1,benign,missing,0,1,0.0
+colorectal,P2,SO1_D1,benign,uncertain,0,1,0.0
+colorectal,P2,SO1_D1,benign,conflict,0,1,0.0
+colorectal,P2,SO1_D1,borderline,benign,1,11,9.090909090909092
+colorectal,P2,SO1_D1,borderline,borderline,0,11,0.0
+colorectal,P2,SO1_D1,borderline,malignant,10,11,90.9090909090909
+colorectal,P2,SO1_D1,borderline,missing,0,11,0.0
+colorectal,P2,SO1_D1,borderline,uncertain,0,11,0.0
+colorectal,P2,SO1_D1,borderline,conflict,0,11,0.0
+colorectal,P2,SO1_D1,malignant,benign,0,1,0.0
+colorectal,P2,SO1_D1,malignant,borderline,0,1,0.0
+colorectal,P2,SO1_D1,malignant,malignant,1,1,100.0
+colorectal,P2,SO1_D1,malignant,missing,0,1,0.0
+colorectal,P2,SO1_D1,malignant,uncertain,0,1,0.0
+colorectal,P2,SO1_D1,malignant,conflict,0,1,0.0
+colorectal,P2,SO1_D1,missing,benign,0,0,
+colorectal,P2,SO1_D1,missing,borderline,0,0,
+colorectal,P2,SO1_D1,missing,malignant,0,0,
+colorectal,P2,SO1_D1,missing,missing,0,0,
+colorectal,P2,SO1_D1,missing,uncertain,0,0,
+colorectal,P2,SO1_D1,missing,conflict,0,0,
+colorectal,P2,SO1_D1,uncertain,benign,0,0,
+colorectal,P2,SO1_D1,uncertain,borderline,0,0,
+colorectal,P2,SO1_D1,uncertain,malignant,0,0,
+colorectal,P2,SO1_D1,uncertain,missing,0,0,
+colorectal,P2,SO1_D1,uncertain,uncertain,0,0,
+colorectal,P2,SO1_D1,uncertain,conflict,0,0,
+colorectal,P2,SO1_D1,conflict,benign,0,0,
+colorectal,P2,SO1_D1,conflict,borderline,0,0,
+colorectal,P2,SO1_D1,conflict,malignant,0,0,
+colorectal,P2,SO1_D1,conflict,missing,0,0,
+colorectal,P2,SO1_D1,conflict,uncertain,0,0,
+colorectal,P2,SO1_D1,conflict,conflict,0,0,
+colorectal,P2,SO4_D1,benign,benign,0,1,0.0
+colorectal,P2,SO4_D1,benign,borderline,0,1,0.0
+colorectal,P2,SO4_D1,benign,malignant,1,1,100.0
+colorectal,P2,SO4_D1,benign,missing,0,1,0.0
+colorectal,P2,SO4_D1,benign,uncertain,0,1,0.0
+colorectal,P2,SO4_D1,benign,conflict,0,1,0.0
+colorectal,P2,SO4_D1,borderline,benign,0,11,0.0
+colorectal,P2,SO4_D1,borderline,borderline,0,11,0.0
+colorectal,P2,SO4_D1,borderline,malignant,11,11,100.0
+colorectal,P2,SO4_D1,borderline,missing,0,11,0.0
+colorectal,P2,SO4_D1,borderline,uncertain,0,11,0.0
+colorectal,P2,SO4_D1,borderline,conflict,0,11,0.0
+colorectal,P2,SO4_D1,malignant,benign,0,1,0.0
+colorectal,P2,SO4_D1,malignant,borderline,0,1,0.0
+colorectal,P2,SO4_D1,malignant,malignant,1,1,100.0
+colorectal,P2,SO4_D1,malignant,missing,0,1,0.0
+colorectal,P2,SO4_D1,malignant,uncertain,0,1,0.0
+colorectal,P2,SO4_D1,malignant,conflict,0,1,0.0
+colorectal,P2,SO4_D1,missing,benign,0,0,
+colorectal,P2,SO4_D1,missing,borderline,0,0,
+colorectal,P2,SO4_D1,missing,malignant,0,0,
+colorectal,P2,SO4_D1,missing,missing,0,0,
+colorectal,P2,SO4_D1,missing,uncertain,0,0,
+colorectal,P2,SO4_D1,missing,conflict,0,0,
+colorectal,P2,SO4_D1,uncertain,benign,0,0,
+colorectal,P2,SO4_D1,uncertain,borderline,0,0,
+colorectal,P2,SO4_D1,uncertain,malignant,0,0,
+colorectal,P2,SO4_D1,uncertain,missing,0,0,
+colorectal,P2,SO4_D1,uncertain,uncertain,0,0,
+colorectal,P2,SO4_D1,uncertain,conflict,0,0,
+colorectal,P2,SO4_D1,conflict,benign,0,0,
+colorectal,P2,SO4_D1,conflict,borderline,0,0,
+colorectal,P2,SO4_D1,conflict,malignant,0,0,
+colorectal,P2,SO4_D1,conflict,missing,0,0,
+colorectal,P2,SO4_D1,conflict,uncertain,0,0,
+colorectal,P2,SO4_D1,conflict,conflict,0,0,

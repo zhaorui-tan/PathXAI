@@ -1,0 +1,8 @@
+organ,hospital_abbreviation,hospital_official_name,legacy_dataset_key,cases,official_name_source
+Breast,TTSH,Tan Tock Seng Hospital,TTSH,76,https://www.ttsh.com.sg/
+Prostate,ZSH,"Zhongshan Hospital, Fudan University",FDZS,12,https://shmc.fudan.edu.cn/eng/2094/list.htm
+Prostate,CHH,Changhai Hospital,SHCH,12,https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250530/18ca7fc1c4a94930b49d77bde8f50805.html
+Prostate,CZH,Shanghai Changzheng Hospital,SHCZ,12,https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250822/e4ef0658065b44dfaaed6522f6b02660.html
+Prostate,HBGH,Hebei General Hospital,HBRM,12,https://www.hbpphosp.cn/
+Prostate,JPH,Jiangsu Province Hospital,JSRM,14,https://english.njmu.edu.cn/_t965/6080/list.htm
+Colorectal,CZH,Shanghai Changzheng Hospital,SHCZ,14,https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250822/e4ef0658065b44dfaaed6522f6b02660.html

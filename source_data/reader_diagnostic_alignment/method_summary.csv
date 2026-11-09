@@ -1,0 +1,6 @@
+method,cases,ratings,no_minor_ratings,cancer_family_match_cases,cancer_family_match_matched_cases,cancer_family_match_no_minor_ratings,cancer_family_match_matched_no_minor_ratings,exact_diagnosis_match_cases,exact_diagnosis_match_matched_cases,exact_diagnosis_match_no_minor_ratings,exact_diagnosis_match_matched_no_minor_ratings,no_minor_pct,cancer_family_match_pct,cancer_family_match_among_no_minor_pct,exact_diagnosis_match_pct,exact_diagnosis_match_among_no_minor_pct
+MedGemma,132,264,232,132,14,232,27,99,4,168,7,87.87878787878788,10.606060606060606,11.637931034482758,4.040404040404041,4.166666666666667
+Qwen + H&E,132,264,193,132,102,193,150,99,65,146,98,73.10606060606061,77.27272727272727,77.72020725388602,65.65656565656566,67.12328767123287
+PLIP-guided Qwen,132,264,131,132,44,131,51,99,24,100,30,49.621212121212125,33.333333333333336,38.93129770992366,24.242424242424242,30.0
+PathXAI-Report (core),132,264,196,132,104,196,157,99,68,142,94,74.24242424242425,78.78787878787878,80.10204081632654,68.68686868686869,66.19718309859155
+PathXAI-Report,132,264,220,132,96,220,164,99,60,162,103,83.33333333333333,72.72727272727273,74.54545454545455,60.60606060606061,63.58024691358025

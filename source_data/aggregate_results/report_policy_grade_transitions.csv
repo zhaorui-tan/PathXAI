@@ -1,0 +1,68 @@
+scope,grading_system,comparator,target,reference_grade,comparator_prediction,target_prediction,count
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,1,1,NO_DEFINITE_GRADE,1
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,1,2,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,1,NO_DEFINITE_GRADE,1,1
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,1,NO_DEFINITE_GRADE,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,1,NO_DEFINITE_GRADE,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,1,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,2
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,2,2,2,18
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,2,2,NO_DEFINITE_GRADE,2
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,2,3,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,2,NO_DEFINITE_GRADE,2,33
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,2,NO_DEFINITE_GRADE,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,2,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,9
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,2,2,6
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,2,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,3,1,1
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,3,2,1
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,3,3,23
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,3,NO_DEFINITE_GRADE,2
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,NO_DEFINITE_GRADE,2,17
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,NO_DEFINITE_GRADE,3,26
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,NO_DEFINITE_GRADE,INCOMPATIBLE_SYSTEM,2
+456 common public cases; 174 applicable grades,histologic3,H&E only,PathXAI-Report,3,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,21
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,1,1,NO_DEFINITE_GRADE,1
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,1,2,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,1,NO_DEFINITE_GRADE,1,1
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,1,NO_DEFINITE_GRADE,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,1,NO_DEFINITE_GRADE,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,1,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,2,2,2,14
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,2,2,NO_DEFINITE_GRADE,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,2,3,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,2,3,NO_DEFINITE_GRADE,1
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,2,NO_DEFINITE_GRADE,2,37
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,2,NO_DEFINITE_GRADE,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,2,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,8
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,1,3,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,2,2,8
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,2,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,3,1,1
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,3,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,3,3,26
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,3,NO_DEFINITE_GRADE,3
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,NO_DEFINITE_GRADE,2,14
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,NO_DEFINITE_GRADE,3,21
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,NO_DEFINITE_GRADE,INCOMPATIBLE_SYSTEM,2
+456 common public cases; 174 applicable grades,histologic3,H&E + tissue statistics,PathXAI-Report,3,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,20
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,1,2,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,1,3,1,1
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,1,NO_DEFINITE_GRADE,2,2
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,1,NO_DEFINITE_GRADE,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,1,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,3
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,2,2,2,21
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,2,2,NO_DEFINITE_GRADE,4
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,2,3,3,1
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,2,3,NO_DEFINITE_GRADE,2
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,2,NO_DEFINITE_GRADE,2,32
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,2,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,5
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,1,NO_DEFINITE_GRADE,1
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,2,2,5
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,3,2,1
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,3,3,36
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,3,NO_DEFINITE_GRADE,4
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,NO_DEFINITE_GRADE,1,1
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,NO_DEFINITE_GRADE,2,18
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,NO_DEFINITE_GRADE,3,14
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,NO_DEFINITE_GRADE,INCOMPATIBLE_SYSTEM,2
+456 common public cases; 174 applicable grades,histologic3,H&E + segmentation overlays,PathXAI-Report,3,NO_DEFINITE_GRADE,NO_DEFINITE_GRADE,18

@@ -1,0 +1,384 @@
+[
+  {
+    "supplementary_table": "1",
+    "label": "tab:seg-label-mapping",
+    "files": [],
+    "description": "See the manuscript for the definition/protocol table."
+  },
+  {
+    "supplementary_table": "2",
+    "label": "tab:seg-optimization-settings",
+    "files": [],
+    "description": "See the manuscript for the definition/protocol table."
+  },
+  {
+    "supplementary_table": "3",
+    "label": "tab:private_hospital_sources",
+    "files": [
+      "aggregate_results/table8_private_hospital_sources.csv"
+    ],
+    "description": "Seven site\u2013hospital counts across six hospitals."
+  },
+  {
+    "supplementary_table": "4",
+    "label": "tab:public-cohort-metadata",
+    "files": [
+      "public_cohort_metadata/project_demographics.csv",
+      "public_cohort_metadata/summary.csv"
+    ],
+    "description": "Official GDC age/sex/race/ethnicity for the final456/1200 public cases and recoverable4055-slide barcode inventory; metadata-only description, no scoring changes."
+  },
+  {
+    "supplementary_table": "5",
+    "label": "tab:report-comparator-inputs",
+    "files": [],
+    "description": "See the manuscript for the definition/protocol table."
+  },
+  {
+    "supplementary_table": "6",
+    "label": "tab:report-component-comparisons",
+    "files": [],
+    "description": "See the manuscript for the definition/protocol table."
+  },
+  {
+    "supplementary_table": "7",
+    "label": "tab:report-metric-overview",
+    "files": [],
+    "description": "See the manuscript for the definition/protocol table."
+  },
+  {
+    "supplementary_table": "8",
+    "label": "tab:glossary",
+    "files": [],
+    "description": "See the manuscript for the definition/protocol table."
+  },
+  {
+    "supplementary_table": "9",
+    "label": "tab:report-primary-estimates",
+    "files": [
+      "report_primary_evaluation/public_summary.csv"
+    ],
+    "description": "Primary public evaluation on 1,200 cases, with applicable counts and intervals."
+  },
+  {
+    "supplementary_table": "10",
+    "label": "tab:report-primary-native",
+    "files": [
+      "report_primary_evaluation/native_summary.csv"
+    ],
+    "description": "Dedicated report generators on 215 shared public evaluation cases."
+  },
+  {
+    "supplementary_table": "11",
+    "label": "tab:report-primary-contrasts",
+    "files": [
+      "report_primary_evaluation/public_contrasts.csv",
+      "report_primary_evaluation/native_contrasts.csv"
+    ],
+    "description": "Paired comparisons in the public evaluation cohort."
+  },
+  {
+    "supplementary_table": "12",
+    "label": "tab:fixed-diagnosis-control",
+    "files": [
+      "fixed_diagnosis_control/development_selection.csv",
+      "fixed_diagnosis_control/method_summary.csv",
+      "fixed_diagnosis_control/paired_contrasts.csv",
+      "fixed_diagnosis_control/project_support.csv"
+    ],
+    "description": "Constant diagnosis chosen on 456 development cases and scored on 1200 public evaluation cases with unchanged family matching; all method contrasts."
+  },
+  {
+    "supplementary_table": "13.1\u201313.7",
+    "label": "tab:source_fig8",
+    "files": [
+      "aggregate_results/table3_fig8_public_report.csv"
+    ],
+    "description": "Public pooled cohort and source-specific reference comparisons, grade results and paired contrasts."
+  },
+  {
+    "supplementary_table": "14",
+    "label": "tab:report-grade-answering",
+    "files": [
+      "aggregate_results/report_grade_answering.csv"
+    ],
+    "description": "Overall grade accuracy, coverage, conditional accuracy, balanced accuracy and fixed Grade 2 control, by cohort and reference set."
+  },
+  {
+    "supplementary_table": "15",
+    "label": "tab:report-grade-agreement",
+    "files": [
+      "grade_agreement/summary.csv",
+      "grade_agreement/compatible_grade_confusion.csv",
+      "grade_agreement/prediction_systems.csv",
+      "grade_agreement/reference_availability.csv"
+    ],
+    "description": "Linear weighted grade kappa, coverage and overall accuracy by grading system and cancer/organ; reference availability and incompatible-answer counts."
+  },
+  {
+    "supplementary_table": "16",
+    "label": "tab:site-prior-sensitivity",
+    "files": [
+      "aggregate_results/public_case_selection.csv"
+    ],
+    "description": "Common exclusion of 51 cases with disease terms in site descriptions and one case with corrupt source WSI; source-data exclusion recorded in public_cohorts/source_data_exclusions.csv."
+  },
+  {
+    "supplementary_table": "17",
+    "label": "tab:report-training-overlap",
+    "files": [
+      "training_report_overlap/method_summary.csv",
+      "training_report_overlap/paired_contrasts.csv",
+      "training_report_overlap/per_cancer.csv",
+      "training_report_overlap/public_case_links.csv",
+      "training_report_overlap/split_inventory.csv",
+      "training_report_overlap/evaluation_case_membership.csv"
+    ],
+    "description": "Public reporting sensitivity after common exclusion of 25 cases linked to segmentation training pools; 1175 evaluation cases remain."
+  },
+  {
+    "supplementary_table": "18",
+    "label": "tab:contradiction_coverage",
+    "files": [
+      "aggregate_results/table9_contradiction_coverage.csv"
+    ],
+    "description": "Public finding F1, finding coverage, finding recall, finding contradiction rate and zero-assertion counts."
+  },
+  {
+    "supplementary_table": "19",
+    "label": "tab:finding-fixed-denominator",
+    "files": [
+      "finding_denominators/method_summary.csv"
+    ],
+    "description": "Equal-case and pooled E/D with finding F1, coverage, recall and fixed-polarity controls; unchanged extracted findings."
+  },
+  {
+    "supplementary_table": "20",
+    "label": "tab:finding-matched-contrasts",
+    "files": [
+      "finding_denominators/paired_fixed_denominator.csv",
+      "finding_denominators/paired_shared_findings.csv"
+    ],
+    "description": "Paired E/D differences and comparisons on identical case/finding pairs asserted by both methods."
+  },
+  {
+    "supplementary_table": "21",
+    "label": "tab:finding-reference-polarity",
+    "files": [
+      "finding_denominators/reference_polarities.csv",
+      "finding_denominators/development_majority_rule.csv"
+    ],
+    "description": "Reference present/absent counts and the per-finding fixed-polarity rule from development cases only."
+  },
+  {
+    "supplementary_table": "22.1\u201322.13",
+    "label": "tab:report-native-public",
+    "files": [
+      "aggregate_results/report_native_public.csv",
+      "aggregate_results/report_native_public_paired_contrasts.csv"
+    ],
+    "description": "HistGen/HistoGPT comparisons on 312 shared public cases and the 314-case HistGen sensitivity set."
+  },
+  {
+    "supplementary_table": "23",
+    "label": "tab:private-reference-agreement",
+    "files": [
+      "private_reference_agreement/agreement.csv",
+      "private_reference_agreement/contingencies.csv",
+      "private_reference_agreement/field_availability.csv",
+      "private_reference_agreement/grade_contingencies_by_organ.csv"
+    ],
+    "description": "Agreement between private reference sets P1/P2 on 152 cases, including nominal and weighted grade kappa; original Fig. 2 counts unchanged."
+  },
+  {
+    "supplementary_table": "24",
+    "label": "tab:report-benign-calls",
+    "files": [
+      "aggregate_results/private_reference_benign_malignant_calls.csv"
+    ],
+    "description": "Malignant predictions in reference-benign and borderline private cases; separate reference sets and complete denominators."
+  },
+  {
+    "supplementary_table": "25",
+    "label": "tab:private-malignancy-confusion",
+    "files": [
+      "private_malignancy/confusion_counts.csv",
+      "private_malignancy/prediction_counts_by_reference_and_organ.csv",
+      "private_malignancy/reference_composition.csv"
+    ],
+    "description": "Complete extracted malignancy categories for ten methods on 151 cases; separate reference sets and breast/prostate/colorectal strata."
+  },
+  {
+    "supplementary_table": "26.1\u201326.11",
+    "label": "tab:source_fig9",
+    "files": [
+      "aggregate_results/table4_fig9_private_reference.csv"
+    ],
+    "description": "Private shared-case and available-case estimates, separate references, grading and paired contrasts."
+  },
+  {
+    "supplementary_table": "27.1\u201327.8",
+    "label": "tab:report-native-private",
+    "files": [
+      "aggregate_results/report_native_private.csv",
+      "aggregate_results/report_native_private_paired_contrasts.csv"
+    ],
+    "description": "HistGen/HistoGPT private comparisons against separate references; method-level aggregates."
+  },
+  {
+    "supplementary_table": "28",
+    "label": "tab:source_fig10",
+    "files": [
+      "aggregate_results/table5_fig10_physician_ratings.csv"
+    ],
+    "description": "Pathologist ratings and report-content checks for 132 cases and 264 ratings per method."
+  },
+  {
+    "supplementary_table": "29",
+    "label": "tab:reader-agreement",
+    "files": [
+      "reader_agreement/correction_agreement.csv",
+      "reader_agreement/correction_contingency.csv",
+      "reader_agreement/rank_concordance.csv"
+    ],
+    "description": "Correction-category agreement and within-case rank concordance between the two readers; unchanged ratings."
+  },
+  {
+    "supplementary_table": "30",
+    "label": "tab:reader-diagnostic-alignment",
+    "files": [
+      "reader_diagnostic_alignment/method_summary.csv",
+      "reader_diagnostic_alignment/reader_crosstabs.csv",
+      "reader_diagnostic_alignment/literal_diagnosis_counts.csv"
+    ],
+    "description": "Original correction ratings and automated diagnostic matching on the same 132 cases; descriptive cross-tabulations."
+  },
+  {
+    "supplementary_table": "31.1\u201331.2",
+    "label": "tab:source_fig7",
+    "files": [
+      "aggregate_results/table2_fig7_four_policy.csv"
+    ],
+    "description": "Four-policy comparison on 456 shared cases, including absolute estimates and paired differences."
+  },
+  {
+    "supplementary_table": "32",
+    "label": "tab:tissue-context-sensitivity",
+    "files": [
+      "tissue_context_sensitivity/paired_contrasts.csv",
+      "tissue_context_sensitivity/diagnostic_transitions.csv",
+      "tissue_context_sensitivity/availability_counts.csv"
+    ],
+    "description": "Paired four-policy sensitivity on443 cases flagged as having available tissue-statistics context versus the primary456-case comparison; frozen r6 scores, pointwise paired bootstrap intervals and diagnostic transition counts."
+  },
+  {
+    "supplementary_table": "33",
+    "label": "tab:source_supp3",
+    "files": [
+      "aggregate_results/table7_suppfig3_report_ablation.csv",
+      "report_availability/workflow_coverage.csv",
+      "report_availability/workflow_configuration_coverage.csv"
+    ],
+    "description": "Report-policy contrasts on 42-, 432- and 456-case intersections, with metric-specific denominators and archived output/placeholder coverage."
+  },
+  {
+    "supplementary_table": "34",
+    "label": "tab:diagnostic-weight-sensitivity",
+    "files": [
+      "diagnostic_weight_sensitivity/method_summary.csv",
+      "diagnostic_weight_sensitivity/paired_contrasts.csv",
+      "diagnostic_weight_sensitivity/component_support.csv"
+    ],
+    "description": "Original and equal diagnostic-component weights, identical case sets and resampling; aggregate component support and all method comparisons."
+  },
+  {
+    "supplementary_table": "35.1\u201335.2",
+    "label": "tab:report-scope-sensitivity",
+    "files": [
+      "aggregate_results/report_entity_scope_sensitivity.json"
+    ],
+    "description": "Exact diagnosis match rate when final-summary diagnoses are included, with paired contrasts and recognized-summary exposure counts."
+  },
+  {
+    "supplementary_table": "36.1\u201336.2",
+    "label": "tab:cohort-scope-sensitivity",
+    "files": [
+      "aggregate_results/report_cohort_scope_sensitivity.json"
+    ],
+    "description": "Cancer family match rate when final-summary diagnoses are included, with paired contrasts."
+  },
+  {
+    "supplementary_table": "37",
+    "label": "tab:report-multiplicity",
+    "files": [
+      "report_multiplicity/paired_tests.csv"
+    ],
+    "description": "126 paired automated-report comparisons: differences, applicable counts, exact McNemar or paired-t tests, raw P values and one Holm family; primary scores and pointwise intervals unchanged."
+  },
+  {
+    "supplementary_table": "38",
+    "label": "tab:report-availability",
+    "files": [
+      "report_availability/availability.csv"
+    ],
+    "description": "Saved final-report availability using independently defined eligible cohorts; counts do not identify historical generation failures."
+  },
+  {
+    "supplementary_table": "39",
+    "label": "tab:report-unavailable-sensitivity",
+    "files": [
+      "report_availability/method_summary.csv",
+      "report_availability/paired_contrasts.csv"
+    ],
+    "description": "Shared-case, available-output and unavailable-as-zero sensitivity for four higher-is-better metrics; applicability preserved, absolute binary Wilson intervals and paired case-bootstrap intervals."
+  },
+  {
+    "supplementary_table": "40",
+    "label": "tab:report-stratification",
+    "files": [
+      "report_stratification/paired_contrasts.csv",
+      "report_stratification/stratum_contrasts.csv",
+      "report_stratification/method_strata.csv",
+      "report_stratification/cohort_composition.csv"
+    ],
+    "description": "126 paired case-equal comparisons with cancer-type/organ-stratified bootstrap intervals conditional on observed composition; subgroup counts and descriptive estimates, private aggregates only."
+  },
+  {
+    "supplementary_table": "41.1\u201341.4",
+    "label": "tab:source_seg",
+    "files": [
+      "aggregate_results/table1_fig4_segmentation.csv"
+    ],
+    "description": "Mean Dice, shared external comparisons, paired backbone gains and organ summaries underlying Fig. 5."
+  },
+  {
+    "supplementary_table": "42.1\u201342.2",
+    "label": "tab:seg-main-classes",
+    "files": [
+      "main_segmentation_classes/class_summary.csv",
+      "main_segmentation_classes/class_count_summary.csv",
+      "main_segmentation_classes/class_set_summary.csv",
+      "main_segmentation_classes/foreground_sample_summary.csv",
+      "main_segmentation_classes/primary_reconstruction.csv"
+    ],
+    "description": "Descriptive class-specific and single/multiple-reference-class Dice/IoU for all eight main segmentation methods, foreground-only sample means and unchanged original primary-point reconstruction."
+  },
+  {
+    "supplementary_table": "43",
+    "label": "tab:seg-shared-class",
+    "files": [
+      "segmentation_class_comparison/class_summary.csv",
+      "segmentation_class_comparison/class_set_summary.csv",
+      "segmentation_class_comparison/mixed_class_summary.csv"
+    ],
+    "description": "Foreground/background and mixed-class summaries for the shared external comparison; unchanged class-presence-conditioned predictions."
+  },
+  {
+    "supplementary_table": "44",
+    "label": "tab:source_supp2",
+    "files": [
+      "aggregate_results/table6_suppfig2_seg_ablation.csv"
+    ],
+    "description": "Training checkpoints, objective comparisons and refinement configurations."
+  }
+]

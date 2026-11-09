@@ -1,0 +1,277 @@
+scope,scenario,method,metric,n_cases,estimate,ci95_low,ci95_high,interval,unavailable_scored_zero
+native_evaluation,shared,HistGen,cohort_compatibility,215,0.39069767441860465,0.3279450638086474,0.45728758701868477,Wilson score,0
+native_evaluation,shared,HistGen,subtype,73,0.4246575342465753,0.31784191542578866,0.5390061953620611,Wilson score,0
+native_evaluation,shared,HistGen,finding_f1,173,0.1720524818790715,0.1318366363886595,0.21364368290668864,case bootstrap (4000),0
+native_evaluation,shared,HistGen,correct_fact_coverage,173,0.13637489677952105,0.10134633911368016,0.17485549132947978,case bootstrap (4000),0
+native_evaluation,shared,HistoGPT,cohort_compatibility,215,0.05116279069767442,0.02880548117041414,0.08927753180139712,Wilson score,0
+native_evaluation,shared,HistoGPT,subtype,73,0.0136986301369863,0.0024222514664838588,0.07359737270963818,Wilson score,0
+native_evaluation,shared,HistoGPT,finding_f1,173,0.11980456922653454,0.08432252958987063,0.15728254885769336,case bootstrap (4000),0
+native_evaluation,shared,HistoGPT,correct_fact_coverage,173,0.08849435728048444,0.06003303055326177,0.1173086980456923,case bootstrap (4000),0
+native_evaluation,shared,SO1_D1,cohort_compatibility,215,0.7348837209302326,0.6721350352808843,0.7893862895369762,Wilson score,0
+native_evaluation,shared,SO1_D1,subtype,73,0.589041095890411,0.4744922324418476,0.6946872729906935,Wilson score,0
+native_evaluation,shared,SO1_D1,finding_f1,173,0.4318928342049729,0.38091223965501425,0.4832066015230755,case bootstrap (4000),0
+native_evaluation,shared,SO1_D1,correct_fact_coverage,173,0.3584090283512249,0.31011423066336363,0.41101500137627306,case bootstrap (4000),0
+native_evaluation,shared,SO4_D1,cohort_compatibility,215,0.7767441860465116,0.7165002447364641,0.8272724052964604,Wilson score,0
+native_evaluation,shared,SO4_D1,subtype,73,0.6301369863013698,0.5154938517000784,0.7317685023936353,Wilson score,0
+native_evaluation,shared,SO4_D1,finding_f1,173,0.4326360216533627,0.3817670199100834,0.4858275988622809,case bootstrap (4000),0
+native_evaluation,shared,SO4_D1,correct_fact_coverage,173,0.36033581062482795,0.3108821910266997,0.41136801541425816,case bootstrap (4000),0
+native_evaluation,available,HistGen,cohort_compatibility,216,0.3888888888888889,0.32635960214812815,0.45530123535955297,Wilson score,0
+native_evaluation,available,HistGen,subtype,73,0.4246575342465753,0.31784191542578866,0.5390061953620611,Wilson score,0
+native_evaluation,available,HistGen,finding_f1,174,0.17106367451195037,0.13186006203247583,0.21215175150519977,case bootstrap (4000),0
+native_evaluation,available,HistGen,correct_fact_coverage,174,0.1355911330049261,0.10043787629994526,0.17467159277504102,case bootstrap (4000),0
+native_evaluation,available,HistoGPT,cohort_compatibility,216,0.05092592592592592,0.02867101264401302,0.08887487228286418,Wilson score,0
+native_evaluation,available,HistoGPT,subtype,73,0.0136986301369863,0.0024222514664838588,0.07359737270963818,Wilson score,0
+native_evaluation,available,HistoGPT,finding_f1,174,0.11911603721948548,0.08359776956759714,0.15541906130268202,case bootstrap (4000),0
+native_evaluation,available,HistoGPT,correct_fact_coverage,174,0.08798576902025178,0.05972769567597153,0.11812294745484402,case bootstrap (4000),0
+native_evaluation,available,SO1_D1,cohort_compatibility,217,0.7373271889400922,0.6750099287506822,0.7913880046356748,Wilson score,0
+native_evaluation,available,SO1_D1,subtype,73,0.589041095890411,0.4744922324418476,0.6946872729906935,Wilson score,0
+native_evaluation,available,SO1_D1,finding_f1,175,0.42981405895691605,0.37908446712018146,0.48084240362811786,case bootstrap (4000),0
+native_evaluation,available,SO1_D1,correct_fact_coverage,175,0.3571700680272109,0.3082020408163265,0.40601428571428577,case bootstrap (4000),0
+native_evaluation,available,SO4_D1,cohort_compatibility,217,0.7695852534562212,0.7091601590356029,0.820631668209094,Wilson score,0
+native_evaluation,available,SO4_D1,subtype,73,0.6301369863013698,0.5154938517000784,0.7317685023936353,Wilson score,0
+native_evaluation,available,SO4_D1,finding_f1,175,0.431501133786848,0.3780695011337868,0.4832384353741496,case bootstrap (4000),0
+native_evaluation,available,SO4_D1,correct_fact_coverage,175,0.36002721088435374,0.3113591836734693,0.4107380952380953,case bootstrap (4000),0
+native_evaluation,unavailable_zero,HistGen,cohort_compatibility,217,0.3870967741935484,0.32478949237294774,0.4533318791228631,Wilson score,1
+native_evaluation,unavailable_zero,HistGen,subtype,73,0.4246575342465753,0.31784191542578866,0.5390061953620611,Wilson score,0
+native_evaluation,unavailable_zero,HistGen,finding_f1,175,0.17008616780045352,0.1287891156462585,0.21397732426303853,case bootstrap (4000),1
+native_evaluation,unavailable_zero,HistGen,correct_fact_coverage,175,0.13481632653061223,0.09925170068027211,0.1735255102040816,case bootstrap (4000),1
+native_evaluation,unavailable_zero,HistoGPT,cohort_compatibility,217,0.05069124423963134,0.028537793849279475,0.08847582740955924,Wilson score,1
+native_evaluation,unavailable_zero,HistoGPT,subtype,73,0.0136986301369863,0.0024222514664838588,0.07359737270963818,Wilson score,0
+native_evaluation,unavailable_zero,HistoGPT,finding_f1,175,0.11843537414965985,0.08420034013605442,0.15566156462585032,case bootstrap (4000),1
+native_evaluation,unavailable_zero,HistoGPT,correct_fact_coverage,175,0.08748299319727891,0.06,0.11758061224489796,case bootstrap (4000),1
+native_evaluation,unavailable_zero,SO1_D1,cohort_compatibility,217,0.7373271889400922,0.6750099287506822,0.7913880046356748,Wilson score,0
+native_evaluation,unavailable_zero,SO1_D1,subtype,73,0.589041095890411,0.4744922324418476,0.6946872729906935,Wilson score,0
+native_evaluation,unavailable_zero,SO1_D1,finding_f1,175,0.42981405895691605,0.37973945578231294,0.4814589569160997,case bootstrap (4000),0
+native_evaluation,unavailable_zero,SO1_D1,correct_fact_coverage,175,0.3571700680272109,0.309537074829932,0.4059057823129251,case bootstrap (4000),0
+native_evaluation,unavailable_zero,SO4_D1,cohort_compatibility,217,0.7695852534562212,0.7091601590356029,0.820631668209094,Wilson score,0
+native_evaluation,unavailable_zero,SO4_D1,subtype,73,0.6301369863013698,0.5154938517000784,0.7317685023936353,Wilson score,0
+native_evaluation,unavailable_zero,SO4_D1,finding_f1,175,0.431501133786848,0.37951734693877553,0.48325306122448974,case bootstrap (4000),0
+native_evaluation,unavailable_zero,SO4_D1,correct_fact_coverage,175,0.36002721088435374,0.31091768707483,0.41200068027210884,case bootstrap (4000),0
+private_P1,shared,Visual + Qwen,cohort_compatibility,121,0.8925619834710744,0.8248348380619106,0.9361303164421355,Wilson score,0
+private_P1,shared,Visual + Qwen,subtype,135,0.5407407407407407,0.4567139794723165,0.6225130762892186,Wilson score,0
+private_P1,shared,Visual + Qwen,finding_f1,150,0.7155555555555554,0.6588888888888889,0.768888888888889,case bootstrap (4000),0
+private_P1,shared,Visual + Qwen,correct_fact_coverage,150,0.68,0.62,0.7366666666666667,case bootstrap (4000),0
+private_P1,shared,DeepSeek,cohort_compatibility,121,0.9090909090909091,0.8445270273318659,0.9484787652565609,Wilson score,0
+private_P1,shared,DeepSeek,subtype,135,0.6,0.5156981593276376,0.6787682502688573,Wilson score,0
+private_P1,shared,DeepSeek,finding_f1,150,0.6644444444444444,0.6144444444444443,0.7144444444444443,case bootstrap (4000),0
+private_P1,shared,DeepSeek,correct_fact_coverage,150,0.6166666666666667,0.5666666666666667,0.6666666666666666,case bootstrap (4000),0
+private_P1,shared,GLM,cohort_compatibility,121,0.6446280991735537,0.5561013965854266,0.7242541866529061,Wilson score,0
+private_P1,shared,GLM,subtype,135,0.42962962962962964,0.3492130043432204,0.5139402629777645,Wilson score,0
+private_P1,shared,GLM,finding_f1,150,0.6311111111111111,0.5733333333333334,0.6877777777777777,case bootstrap (4000),0
+private_P1,shared,GLM,correct_fact_coverage,150,0.5666666666666667,0.5033333333333333,0.6233333333333333,case bootstrap (4000),0
+private_P1,shared,Visual + MedGemma,cohort_compatibility,121,0.04132231404958678,0.017777486075125137,0.09309480708330535,Wilson score,0
+private_P1,shared,Visual + MedGemma,subtype,135,0.02962962962962963,0.011581456715444326,0.07370617221956058,Wilson score,0
+private_P1,shared,Visual + MedGemma,finding_f1,150,0.38444444444444437,0.32888888888888884,0.4388888888888889,case bootstrap (4000),0
+private_P1,shared,Visual + MedGemma,correct_fact_coverage,150,0.3566666666666667,0.30666666666666664,0.4066666666666667,case bootstrap (4000),0
+private_P1,shared,PathAgent,cohort_compatibility,121,0.8842975206611571,0.8151300267053524,0.9298148087565034,Wilson score,0
+private_P1,shared,PathAgent,subtype,135,0.32592592592592595,0.25262820411276876,0.4088561939970362,Wilson score,0
+private_P1,shared,PathAgent,finding_f1,150,0.31111111111111106,0.25777777777777783,0.36444444444444446,case bootstrap (4000),0
+private_P1,shared,PathAgent,correct_fact_coverage,150,0.23333333333333334,0.19333333333333333,0.2733333333333333,case bootstrap (4000),0
+private_P1,shared,PRISM2,cohort_compatibility,121,0.6446280991735537,0.5561013965854266,0.7242541866529061,Wilson score,0
+private_P1,shared,PRISM2,subtype,135,0.5481481481481482,0.46402334538322926,0.6296086296076759,Wilson score,0
+private_P1,shared,HistGen,cohort_compatibility,121,0.08264462809917356,0.045509049437406586,0.14546483893197612,Wilson score,0
+private_P1,shared,HistGen,subtype,135,0.05185185185185185,0.025341171985529154,0.10316121463758576,Wilson score,0
+private_P1,shared,HistGen,finding_f1,150,0.2122222222222222,0.16333333333333333,0.2622222222222222,case bootstrap (4000),0
+private_P1,shared,HistGen,correct_fact_coverage,150,0.16,0.12333333333333334,0.19666666666666666,case bootstrap (4000),0
+private_P1,shared,HistoGPT,cohort_compatibility,121,0.0,0.0,0.03077069794747827,Wilson score,0
+private_P1,shared,HistoGPT,subtype,135,0.0,0.0,0.02766795201752491,Wilson score,0
+private_P1,shared,HistoGPT,finding_f1,150,0.09222222222222222,0.056666666666666664,0.13333333333333333,case bootstrap (4000),0
+private_P1,shared,HistoGPT,correct_fact_coverage,150,0.07333333333333333,0.043333333333333335,0.10666666666666667,case bootstrap (4000),0
+private_P1,shared,SO1_D1,cohort_compatibility,121,0.9338842975206612,0.8749464696996738,0.9661202800153244,Wilson score,0
+private_P1,shared,SO1_D1,subtype,135,0.5777777777777777,0.4934416129305894,0.6578100389777954,Wilson score,0
+private_P1,shared,SO1_D1,finding_f1,150,0.6733333333333333,0.62,0.7255555555555556,case bootstrap (4000),0
+private_P1,shared,SO1_D1,correct_fact_coverage,150,0.64,0.5833333333333334,0.6933333333333334,case bootstrap (4000),0
+private_P1,shared,SO4_D1,cohort_compatibility,121,0.9338842975206612,0.8749464696996738,0.9661202800153244,Wilson score,0
+private_P1,shared,SO4_D1,subtype,135,0.674074074074074,0.5911438060029638,0.7473717958872311,Wilson score,0
+private_P1,shared,SO4_D1,finding_f1,150,0.7655555555555555,0.7155555555555555,0.8166666666666667,case bootstrap (4000),0
+private_P1,shared,SO4_D1,correct_fact_coverage,150,0.75,0.6933333333333334,0.8033333333333333,case bootstrap (4000),0
+private_P1,available,Visual + Qwen,cohort_compatibility,121,0.8925619834710744,0.8248348380619106,0.9361303164421355,Wilson score,0
+private_P1,available,Visual + Qwen,subtype,136,0.5367647058823529,0.4531024006562899,0.6184071508338879,Wilson score,0
+private_P1,available,Visual + Qwen,finding_f1,151,0.7141280353200882,0.6578366445916114,0.7693156732891832,case bootstrap (4000),0
+private_P1,available,Visual + Qwen,correct_fact_coverage,151,0.6788079470198676,0.6225165562913907,0.7350993377483444,case bootstrap (4000),0
+private_P1,available,DeepSeek,cohort_compatibility,121,0.9090909090909091,0.8445270273318659,0.9484787652565609,Wilson score,0
+private_P1,available,DeepSeek,subtype,136,0.5955882352941176,0.5115780049623248,0.6743468289121374,Wilson score,0
+private_P1,available,DeepSeek,finding_f1,151,0.6600441501103752,0.6103752759381897,0.7108167770419426,case bootstrap (4000),0
+private_P1,available,DeepSeek,correct_fact_coverage,151,0.6125827814569537,0.5629139072847682,0.6655629139072847,case bootstrap (4000),0
+private_P1,available,GLM,cohort_compatibility,121,0.6446280991735537,0.5561013965854266,0.7242541866529061,Wilson score,0
+private_P1,available,GLM,subtype,135,0.42962962962962964,0.3492130043432204,0.5139402629777645,Wilson score,0
+private_P1,available,GLM,finding_f1,150,0.6311111111111111,0.571111111111111,0.6888888888888888,case bootstrap (4000),0
+private_P1,available,GLM,correct_fact_coverage,150,0.5666666666666667,0.5099166666666667,0.6233333333333333,case bootstrap (4000),0
+private_P1,available,Visual + MedGemma,cohort_compatibility,121,0.04132231404958678,0.017777486075125137,0.09309480708330535,Wilson score,0
+private_P1,available,Visual + MedGemma,subtype,136,0.029411764705882353,0.011495862973155337,0.07318187795256928,Wilson score,0
+private_P1,available,Visual + MedGemma,finding_f1,151,0.3818984547461369,0.3289183222958057,0.43929359823399544,case bootstrap (4000),0
+private_P1,available,Visual + MedGemma,correct_fact_coverage,151,0.3543046357615894,0.304635761589404,0.40728476821192056,case bootstrap (4000),0
+private_P1,available,PathAgent,cohort_compatibility,121,0.8842975206611571,0.8151300267053524,0.9298148087565034,Wilson score,0
+private_P1,available,PathAgent,subtype,136,0.3235294117647059,0.2506882448444934,0.40606590800265324,Wilson score,0
+private_P1,available,PathAgent,finding_f1,151,0.30905077262693154,0.2560706401766005,0.3620309050772627,case bootstrap (4000),0
+private_P1,available,PathAgent,correct_fact_coverage,151,0.23178807947019867,0.19205298013245034,0.271523178807947,case bootstrap (4000),0
+private_P1,available,PRISM2,cohort_compatibility,121,0.6446280991735537,0.5561013965854266,0.7242541866529061,Wilson score,0
+private_P1,available,PRISM2,subtype,136,0.5514705882352942,0.46761428387490483,0.6324990882113443,Wilson score,0
+private_P1,available,HistGen,cohort_compatibility,121,0.08264462809917356,0.045509049437406586,0.14546483893197612,Wilson score,0
+private_P1,available,HistGen,subtype,136,0.051470588235294115,0.025153173635273883,0.10243029818455737,Wilson score,0
+private_P1,available,HistGen,finding_f1,151,0.21081677704194257,0.1633278145695364,0.26048565121412803,case bootstrap (4000),0
+private_P1,available,HistGen,correct_fact_coverage,151,0.15894039735099338,0.12251655629139073,0.19536423841059603,case bootstrap (4000),0
+private_P1,available,HistoGPT,cohort_compatibility,121,0.0,0.0,0.03077069794747827,Wilson score,0
+private_P1,available,HistoGPT,subtype,136,0.0,0.0,0.027470099733582408,Wilson score,0
+private_P1,available,HistoGPT,finding_f1,151,0.09161147902869757,0.05518763796909491,0.13134657836644592,case bootstrap (4000),0
+private_P1,available,HistoGPT,correct_fact_coverage,151,0.0728476821192053,0.04304635761589404,0.10596026490066225,case bootstrap (4000),0
+private_P1,available,SO1_D1,cohort_compatibility,121,0.9338842975206612,0.8749464696996738,0.9661202800153244,Wilson score,0
+private_P1,available,SO1_D1,subtype,136,0.5735294117647058,0.48951512709991035,0.6535039758804451,Wilson score,0
+private_P1,available,SO1_D1,finding_f1,151,0.6688741721854304,0.6125827814569537,0.7229580573951434,case bootstrap (4000),0
+private_P1,available,SO1_D1,correct_fact_coverage,151,0.6357615894039735,0.5794701986754967,0.6920529801324503,case bootstrap (4000),0
+private_P1,available,SO4_D1,cohort_compatibility,121,0.9338842975206612,0.8749464696996738,0.9661202800153244,Wilson score,0
+private_P1,available,SO4_D1,subtype,136,0.6691176470588235,0.5863474458739514,0.7425964909808663,Wilson score,0
+private_P1,available,SO4_D1,finding_f1,151,0.760485651214128,0.7075055187637969,0.8112582781456954,case bootstrap (4000),0
+private_P1,available,SO4_D1,correct_fact_coverage,151,0.7450331125827815,0.6887417218543046,0.7980132450331126,case bootstrap (4000),0
+private_P1,unavailable_zero,Visual + Qwen,cohort_compatibility,121,0.8925619834710744,0.8248348380619106,0.9361303164421355,Wilson score,0
+private_P1,unavailable_zero,Visual + Qwen,subtype,136,0.5367647058823529,0.4531024006562899,0.6184071508338879,Wilson score,0
+private_P1,unavailable_zero,Visual + Qwen,finding_f1,151,0.7141280353200882,0.6578366445916114,0.7671081677704193,case bootstrap (4000),0
+private_P1,unavailable_zero,Visual + Qwen,correct_fact_coverage,151,0.6788079470198676,0.6225165562913907,0.7317880794701986,case bootstrap (4000),0
+private_P1,unavailable_zero,DeepSeek,cohort_compatibility,121,0.9090909090909091,0.8445270273318659,0.9484787652565609,Wilson score,0
+private_P1,unavailable_zero,DeepSeek,subtype,136,0.5955882352941176,0.5115780049623248,0.6743468289121374,Wilson score,0
+private_P1,unavailable_zero,DeepSeek,finding_f1,151,0.6600441501103752,0.6092439293598233,0.7108443708609273,case bootstrap (4000),0
+private_P1,unavailable_zero,DeepSeek,correct_fact_coverage,151,0.6125827814569537,0.5628311258278146,0.6622516556291391,case bootstrap (4000),0
+private_P1,unavailable_zero,GLM,cohort_compatibility,121,0.6446280991735537,0.5561013965854266,0.7242541866529061,Wilson score,0
+private_P1,unavailable_zero,GLM,subtype,136,0.4264705882352941,0.3464960241195548,0.5104848729000895,Wilson score,1
+private_P1,unavailable_zero,GLM,finding_f1,151,0.6269315673289183,0.5684326710816777,0.6854304635761589,case bootstrap (4000),1
+private_P1,unavailable_zero,GLM,correct_fact_coverage,151,0.5629139072847682,0.5066225165562914,0.6192052980132451,case bootstrap (4000),1
+private_P1,unavailable_zero,Visual + MedGemma,cohort_compatibility,121,0.04132231404958678,0.017777486075125137,0.09309480708330535,Wilson score,0
+private_P1,unavailable_zero,Visual + MedGemma,subtype,136,0.029411764705882353,0.011495862973155337,0.07318187795256928,Wilson score,0
+private_P1,unavailable_zero,Visual + MedGemma,finding_f1,151,0.3818984547461369,0.32781456953642385,0.43598233995584984,case bootstrap (4000),0
+private_P1,unavailable_zero,Visual + MedGemma,correct_fact_coverage,151,0.3543046357615894,0.30132450331125826,0.40728476821192056,case bootstrap (4000),0
+private_P1,unavailable_zero,PathAgent,cohort_compatibility,121,0.8842975206611571,0.8151300267053524,0.9298148087565034,Wilson score,0
+private_P1,unavailable_zero,PathAgent,subtype,136,0.3235294117647059,0.2506882448444934,0.40606590800265324,Wilson score,0
+private_P1,unavailable_zero,PathAgent,finding_f1,151,0.30905077262693154,0.2560706401766004,0.3620309050772627,case bootstrap (4000),0
+private_P1,unavailable_zero,PathAgent,correct_fact_coverage,151,0.23178807947019867,0.19205298013245034,0.271523178807947,case bootstrap (4000),0
+private_P1,unavailable_zero,PRISM2,cohort_compatibility,121,0.6446280991735537,0.5561013965854266,0.7242541866529061,Wilson score,0
+private_P1,unavailable_zero,PRISM2,subtype,136,0.5514705882352942,0.46761428387490483,0.6324990882113443,Wilson score,0
+private_P1,unavailable_zero,HistGen,cohort_compatibility,121,0.08264462809917356,0.045509049437406586,0.14546483893197612,Wilson score,0
+private_P1,unavailable_zero,HistGen,subtype,136,0.051470588235294115,0.025153173635273883,0.10243029818455737,Wilson score,0
+private_P1,unavailable_zero,HistGen,finding_f1,151,0.21081677704194257,0.16335540838852095,0.260485651214128,case bootstrap (4000),0
+private_P1,unavailable_zero,HistGen,correct_fact_coverage,151,0.15894039735099338,0.12251655629139073,0.19536423841059603,case bootstrap (4000),0
+private_P1,unavailable_zero,HistoGPT,cohort_compatibility,121,0.0,0.0,0.03077069794747827,Wilson score,0
+private_P1,unavailable_zero,HistoGPT,subtype,136,0.0,0.0,0.027470099733582408,Wilson score,0
+private_P1,unavailable_zero,HistoGPT,finding_f1,151,0.09161147902869757,0.056291390728476824,0.13134657836644592,case bootstrap (4000),0
+private_P1,unavailable_zero,HistoGPT,correct_fact_coverage,151,0.0728476821192053,0.04304635761589404,0.10596026490066225,case bootstrap (4000),0
+private_P1,unavailable_zero,SO1_D1,cohort_compatibility,121,0.9338842975206612,0.8749464696996738,0.9661202800153244,Wilson score,0
+private_P1,unavailable_zero,SO1_D1,subtype,136,0.5735294117647058,0.48951512709991035,0.6535039758804451,Wilson score,0
+private_P1,unavailable_zero,SO1_D1,finding_f1,151,0.6688741721854304,0.6147902869757174,0.7240894039735101,case bootstrap (4000),0
+private_P1,unavailable_zero,SO1_D1,correct_fact_coverage,151,0.6357615894039735,0.5794701986754967,0.6920529801324503,case bootstrap (4000),0
+private_P1,unavailable_zero,SO4_D1,cohort_compatibility,121,0.9338842975206612,0.8749464696996738,0.9661202800153244,Wilson score,0
+private_P1,unavailable_zero,SO4_D1,subtype,136,0.6691176470588235,0.5863474458739514,0.7425964909808663,Wilson score,0
+private_P1,unavailable_zero,SO4_D1,finding_f1,151,0.760485651214128,0.706401766004415,0.8123620309050772,case bootstrap (4000),0
+private_P1,unavailable_zero,SO4_D1,correct_fact_coverage,151,0.7450331125827815,0.6920529801324503,0.7980132450331126,case bootstrap (4000),0
+private_P2,shared,Visual + Qwen,cohort_compatibility,123,0.8943089430894309,0.8275473125649303,0.9371868753090938,Wilson score,0
+private_P2,shared,Visual + Qwen,subtype,136,0.5441176470588235,0.4603495271019867,0.6254619346862266,Wilson score,0
+private_P2,shared,Visual + Qwen,finding_f1,151,0.7328918322295805,0.6765949227373067,0.7880849889624725,case bootstrap (4000),0
+private_P2,shared,Visual + Qwen,correct_fact_coverage,151,0.6997792494481236,0.6423841059602649,0.7549668874172185,case bootstrap (4000),0
+private_P2,shared,DeepSeek,cohort_compatibility,123,0.9024390243902439,0.8371946459754585,0.9433072571124632,Wilson score,0
+private_P2,shared,DeepSeek,subtype,136,0.5588235294117647,0.47489674410116867,0.6395185382831157,Wilson score,0
+private_P2,shared,DeepSeek,finding_f1,151,0.6909492273730684,0.6379690949227372,0.7406181015452539,case bootstrap (4000),0
+private_P2,shared,DeepSeek,correct_fact_coverage,151,0.6467991169977925,0.5938189845474613,0.6997792494481235,case bootstrap (4000),0
+private_P2,shared,GLM,cohort_compatibility,123,0.6504065040650406,0.5627429700102609,0.728959761446841,Wilson score,0
+private_P2,shared,GLM,subtype,136,0.4338235294117647,0.3534798001050564,0.5178030072126235,Wilson score,0
+private_P2,shared,GLM,finding_f1,151,0.6470198675496688,0.5869757174392936,0.706401766004415,case bootstrap (4000),0
+private_P2,shared,GLM,correct_fact_coverage,151,0.5883002207505519,0.5264900662251656,0.6490066225165563,case bootstrap (4000),0
+private_P2,shared,Visual + MedGemma,cohort_compatibility,123,0.04065040650406504,0.01748635648148216,0.09163773393331442,Wilson score,0
+private_P2,shared,Visual + MedGemma,subtype,136,0.029411764705882353,0.011495862973155337,0.07318187795256928,Wilson score,0
+private_P2,shared,Visual + MedGemma,finding_f1,151,0.4282560706401765,0.3675496688741722,0.4900662251655629,case bootstrap (4000),0
+private_P2,shared,Visual + MedGemma,correct_fact_coverage,151,0.40397350993377484,0.3487858719646799,0.4646799116997792,case bootstrap (4000),0
+private_P2,shared,PathAgent,cohort_compatibility,123,0.8861788617886179,0.8179893170669815,0.9309771555931453,Wilson score,0
+private_P2,shared,PathAgent,subtype,136,0.3161764705882353,0.24399413765382028,0.39845810489529077,Wilson score,0
+private_P2,shared,PathAgent,finding_f1,151,0.33112582781456956,0.2759381898454746,0.3885761589403976,case bootstrap (4000),0
+private_P2,shared,PathAgent,correct_fact_coverage,151,0.26158940397350994,0.2152317880794702,0.3079470198675497,case bootstrap (4000),0
+private_P2,shared,PRISM2,cohort_compatibility,123,0.6341463414634146,0.546161728963728,0.7140055720655792,Wilson score,0
+private_P2,shared,PRISM2,subtype,136,0.5220588235294118,0.43866080425645243,0.6042449266376544,Wilson score,0
+private_P2,shared,HistGen,cohort_compatibility,123,0.08130081300813008,0.044758872239892986,0.14320379424439061,Wilson score,0
+private_P2,shared,HistGen,subtype,136,0.051470588235294115,0.025153173635273883,0.10243029818455737,Wilson score,0
+private_P2,shared,HistGen,finding_f1,151,0.2152317880794702,0.1655353200883002,0.26710816777041946,case bootstrap (4000),0
+private_P2,shared,HistGen,correct_fact_coverage,151,0.16887417218543047,0.12582781456953643,0.2119205298013245,case bootstrap (4000),0
+private_P2,shared,HistoGPT,cohort_compatibility,123,0.0,0.0,0.030285514345309572,Wilson score,0
+private_P2,shared,HistoGPT,subtype,136,0.0,0.0,0.027470099733582408,Wilson score,0
+private_P2,shared,HistoGPT,finding_f1,151,0.09492273730684327,0.05849889624724061,0.1357615894039735,case bootstrap (4000),0
+private_P2,shared,HistoGPT,correct_fact_coverage,151,0.076158940397351,0.046357615894039736,0.10927152317880795,case bootstrap (4000),0
+private_P2,shared,SO1_D1,cohort_compatibility,123,0.9349593495934959,0.8768954003237401,0.966677363619771,Wilson score,0
+private_P2,shared,SO1_D1,subtype,136,0.5588235294117647,0.47489674410116867,0.6395185382831157,Wilson score,0
+private_P2,shared,SO1_D1,finding_f1,151,0.7094922737306842,0.6598233995584989,0.7591666666666668,case bootstrap (4000),0
+private_P2,shared,SO1_D1,correct_fact_coverage,151,0.6754966887417219,0.6214128035320088,0.7284768211920529,case bootstrap (4000),0
+private_P2,shared,SO4_D1,cohort_compatibility,123,0.9349593495934959,0.8768954003237401,0.966677363619771,Wilson score,0
+private_P2,shared,SO4_D1,subtype,136,0.6764705882352942,0.5939340919973467,0.7493117551555065,Wilson score,0
+private_P2,shared,SO4_D1,finding_f1,151,0.7889624724061811,0.7368598233995584,0.839078366445916,case bootstrap (4000),0
+private_P2,shared,SO4_D1,correct_fact_coverage,151,0.7726269315673289,0.7207505518763797,0.8245033112582781,case bootstrap (4000),0
+private_P2,available,Visual + Qwen,cohort_compatibility,123,0.8943089430894309,0.8275473125649303,0.9371868753090938,Wilson score,0
+private_P2,available,Visual + Qwen,subtype,137,0.5401459854014599,0.4567345143559192,0.6213674883647721,Wilson score,0
+private_P2,available,Visual + Qwen,finding_f1,152,0.7313596491228069,0.6765350877192983,0.7835526315789473,case bootstrap (4000),0
+private_P2,available,Visual + Qwen,correct_fact_coverage,152,0.6984649122807017,0.6392543859649122,0.7543859649122806,case bootstrap (4000),0
+private_P2,available,DeepSeek,cohort_compatibility,123,0.9024390243902439,0.8371946459754585,0.9433072571124632,Wilson score,0
+private_P2,available,DeepSeek,subtype,137,0.5547445255474452,0.4711584215549716,0.6353443094277895,Wilson score,0
+private_P2,available,DeepSeek,finding_f1,152,0.6864035087719298,0.6337719298245614,0.7357456140350878,case bootstrap (4000),0
+private_P2,available,DeepSeek,correct_fact_coverage,152,0.6425438596491229,0.5888157894736842,0.6951754385964911,case bootstrap (4000),0
+private_P2,available,GLM,cohort_compatibility,123,0.6504065040650406,0.5627429700102609,0.728959761446841,Wilson score,0
+private_P2,available,GLM,subtype,136,0.4338235294117647,0.3534798001050564,0.5178030072126235,Wilson score,0
+private_P2,available,GLM,finding_f1,151,0.6470198675496688,0.5882947019867548,0.7039735099337748,case bootstrap (4000),0
+private_P2,available,GLM,correct_fact_coverage,151,0.5883002207505519,0.5309050772626931,0.6490066225165563,case bootstrap (4000),0
+private_P2,available,Visual + MedGemma,cohort_compatibility,123,0.04065040650406504,0.01748635648148216,0.09163773393331442,Wilson score,0
+private_P2,available,Visual + MedGemma,subtype,137,0.029197080291970802,0.011411525162847307,0.07266498838540794,Wilson score,0
+private_P2,available,Visual + MedGemma,finding_f1,152,0.425438596491228,0.3683936403508772,0.4857456140350877,case bootstrap (4000),0
+private_P2,available,Visual + MedGemma,correct_fact_coverage,152,0.40131578947368424,0.3442708333333333,0.4616228070175438,case bootstrap (4000),0
+private_P2,available,PathAgent,cohort_compatibility,123,0.8861788617886179,0.8179893170669815,0.9309771555931453,Wilson score,0
+private_P2,available,PathAgent,subtype,137,0.31386861313868614,0.24213652873085828,0.3957541859277543,Wilson score,0
+private_P2,available,PathAgent,finding_f1,152,0.3289473684210526,0.2741228070175438,0.3859649122807017,case bootstrap (4000),0
+private_P2,available,PathAgent,correct_fact_coverage,152,0.2598684210526316,0.21052631578947367,0.3059210526315789,case bootstrap (4000),0
+private_P2,available,PRISM2,cohort_compatibility,123,0.6341463414634146,0.546161728963728,0.7140055720655792,Wilson score,0
+private_P2,available,PRISM2,subtype,137,0.5255474452554745,0.4423797445910452,0.6073215298675766,Wilson score,0
+private_P2,available,HistGen,cohort_compatibility,123,0.08130081300813008,0.044758872239892986,0.14320379424439061,Wilson score,0
+private_P2,available,HistGen,subtype,137,0.051094890510948905,0.02496794443140947,0.10170966150995021,Wilson score,0
+private_P2,available,HistGen,finding_f1,152,0.2138157894736842,0.16447368421052633,0.2653782894736843,case bootstrap (4000),0
+private_P2,available,HistGen,correct_fact_coverage,152,0.16776315789473684,0.125,0.21052631578947367,case bootstrap (4000),0
+private_P2,available,HistoGPT,cohort_compatibility,123,0.0,0.0,0.030285514345309572,Wilson score,0
+private_P2,available,HistoGPT,subtype,137,0.0,1.734723475976807e-18,0.027275057024116055,Wilson score,0
+private_P2,available,HistoGPT,finding_f1,152,0.09429824561403508,0.05701754385964912,0.13157894736842105,case bootstrap (4000),0
+private_P2,available,HistoGPT,correct_fact_coverage,152,0.0756578947368421,0.046052631578947366,0.10855263157894737,case bootstrap (4000),0
+private_P2,available,SO1_D1,cohort_compatibility,123,0.9349593495934959,0.8768954003237401,0.966677363619771,Wilson score,0
+private_P2,available,SO1_D1,subtype,137,0.5547445255474452,0.4711584215549716,0.6353443094277895,Wilson score,0
+private_P2,available,SO1_D1,finding_f1,152,0.7048245614035087,0.6513157894736842,0.753075657894737,case bootstrap (4000),0
+private_P2,available,SO1_D1,correct_fact_coverage,152,0.6710526315789473,0.6173245614035088,0.7236842105263158,case bootstrap (4000),0
+private_P2,available,SO4_D1,cohort_compatibility,123,0.9349593495934959,0.8768954003237401,0.966677363619771,Wilson score,0
+private_P2,available,SO4_D1,subtype,137,0.6715328467153284,0.5891489046040097,0.744559652475308,Wilson score,0
+private_P2,available,SO4_D1,finding_f1,152,0.7837719298245615,0.7313541666666666,0.8333333333333333,case bootstrap (4000),0
+private_P2,available,SO4_D1,correct_fact_coverage,152,0.7675438596491228,0.7116228070175438,0.8190789473684209,case bootstrap (4000),0
+private_P2,unavailable_zero,Visual + Qwen,cohort_compatibility,123,0.8943089430894309,0.8275473125649303,0.9371868753090938,Wilson score,0
+private_P2,unavailable_zero,Visual + Qwen,subtype,137,0.5401459854014599,0.4567345143559192,0.6213674883647721,Wilson score,0
+private_P2,unavailable_zero,Visual + Qwen,finding_f1,152,0.7313596491228069,0.674780701754386,0.7861842105263158,case bootstrap (4000),0
+private_P2,unavailable_zero,Visual + Qwen,correct_fact_coverage,152,0.6984649122807017,0.6425164473684211,0.7554824561403507,case bootstrap (4000),0
+private_P2,unavailable_zero,DeepSeek,cohort_compatibility,123,0.9024390243902439,0.8371946459754585,0.9433072571124632,Wilson score,0
+private_P2,unavailable_zero,DeepSeek,subtype,137,0.5547445255474452,0.4711584215549716,0.6353443094277895,Wilson score,0
+private_P2,unavailable_zero,DeepSeek,finding_f1,152,0.6864035087719298,0.6337719298245613,0.7357456140350876,case bootstrap (4000),0
+private_P2,unavailable_zero,DeepSeek,correct_fact_coverage,152,0.6425438596491229,0.5877192982456141,0.694078947368421,case bootstrap (4000),0
+private_P2,unavailable_zero,GLM,cohort_compatibility,123,0.6504065040650406,0.5627429700102609,0.728959761446841,Wilson score,0
+private_P2,unavailable_zero,GLM,subtype,137,0.4306569343065693,0.3507485737599213,0.514347966995248,Wilson score,1
+private_P2,unavailable_zero,GLM,finding_f1,152,0.6427631578947368,0.5802631578947368,0.7017543859649122,case bootstrap (4000),1
+private_P2,unavailable_zero,GLM,correct_fact_coverage,152,0.5844298245614036,0.5219298245614036,0.643640350877193,case bootstrap (4000),1
+private_P2,unavailable_zero,Visual + MedGemma,cohort_compatibility,123,0.04065040650406504,0.01748635648148216,0.09163773393331442,Wilson score,0
+private_P2,unavailable_zero,Visual + MedGemma,subtype,137,0.029197080291970802,0.011411525162847307,0.07266498838540794,Wilson score,0
+private_P2,unavailable_zero,Visual + MedGemma,finding_f1,152,0.425438596491228,0.3662280701754386,0.4857456140350877,case bootstrap (4000),0
+private_P2,unavailable_zero,Visual + MedGemma,correct_fact_coverage,152,0.40131578947368424,0.3442982456140351,0.45833333333333326,case bootstrap (4000),0
+private_P2,unavailable_zero,PathAgent,cohort_compatibility,123,0.8861788617886179,0.8179893170669815,0.9309771555931453,Wilson score,0
+private_P2,unavailable_zero,PathAgent,subtype,137,0.31386861313868614,0.24213652873085828,0.3957541859277543,Wilson score,0
+private_P2,unavailable_zero,PathAgent,finding_f1,152,0.3289473684210526,0.26973684210526316,0.3859649122807017,case bootstrap (4000),0
+private_P2,unavailable_zero,PathAgent,correct_fact_coverage,152,0.2598684210526316,0.2138157894736842,0.3059210526315789,case bootstrap (4000),0
+private_P2,unavailable_zero,PRISM2,cohort_compatibility,123,0.6341463414634146,0.546161728963728,0.7140055720655792,Wilson score,0
+private_P2,unavailable_zero,PRISM2,subtype,137,0.5255474452554745,0.4423797445910452,0.6073215298675766,Wilson score,0
+private_P2,unavailable_zero,HistGen,cohort_compatibility,123,0.08130081300813008,0.044758872239892986,0.14320379424439061,Wilson score,0
+private_P2,unavailable_zero,HistGen,subtype,137,0.051094890510948905,0.02496794443140947,0.10170966150995021,Wilson score,0
+private_P2,unavailable_zero,HistGen,finding_f1,152,0.2138157894736842,0.16337719298245612,0.26644736842105265,case bootstrap (4000),0
+private_P2,unavailable_zero,HistGen,correct_fact_coverage,152,0.16776315789473684,0.12828947368421054,0.21052631578947367,case bootstrap (4000),0
+private_P2,unavailable_zero,HistoGPT,cohort_compatibility,123,0.0,0.0,0.030285514345309572,Wilson score,0
+private_P2,unavailable_zero,HistoGPT,subtype,137,0.0,1.734723475976807e-18,0.027275057024116055,Wilson score,0
+private_P2,unavailable_zero,HistoGPT,finding_f1,152,0.09429824561403508,0.05811403508771929,0.1359923245614036,case bootstrap (4000),0
+private_P2,unavailable_zero,HistoGPT,correct_fact_coverage,152,0.0756578947368421,0.046052631578947366,0.10855263157894737,case bootstrap (4000),0
+private_P2,unavailable_zero,SO1_D1,cohort_compatibility,123,0.9349593495934959,0.8768954003237401,0.966677363619771,Wilson score,0
+private_P2,unavailable_zero,SO1_D1,subtype,137,0.5547445255474452,0.4711584215549716,0.6353443094277895,Wilson score,0
+private_P2,unavailable_zero,SO1_D1,finding_f1,152,0.7048245614035087,0.6528399122807018,0.7543859649122806,case bootstrap (4000),0
+private_P2,unavailable_zero,SO1_D1,correct_fact_coverage,152,0.6710526315789473,0.618421052631579,0.7225877192982457,case bootstrap (4000),0
+private_P2,unavailable_zero,SO4_D1,cohort_compatibility,123,0.9349593495934959,0.8768954003237401,0.966677363619771,Wilson score,0
+private_P2,unavailable_zero,SO4_D1,subtype,137,0.6715328467153284,0.5891489046040097,0.744559652475308,Wilson score,0
+private_P2,unavailable_zero,SO4_D1,finding_f1,152,0.7837719298245615,0.7320175438596491,0.8342105263157894,case bootstrap (4000),0
+private_P2,unavailable_zero,SO4_D1,correct_fact_coverage,152,0.7675438596491228,0.7138157894736842,0.8191063596491228,case bootstrap (4000),0

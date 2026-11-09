@@ -1,0 +1,41 @@
+cohort,characteristic,value,denominator,percent
+public_development456,cases,456,,
+public_evaluation1200,cases,1200,,
+public_development456,age_available,453,456,99.34210526315789
+public_evaluation1200,age_available,1198,1200,99.83333333333333
+public_development456,age_median,59.0,,
+public_evaluation1200,age_median,58.0,,
+public_development456,age_missing,3,456,0.6578947368421053
+public_evaluation1200,age_missing,2,1200,0.16666666666666666
+public_development456,age_obfuscated,5,456,1.0964912280701755
+public_evaluation1200,age_obfuscated,12,1200,1.0
+public_development456,sex_female,204,456,44.73684210526316
+public_evaluation1200,sex_female,569,1200,47.416666666666664
+public_development456,sex_male,252,456,55.26315789473684
+public_evaluation1200,sex_male,631,1200,52.583333333333336
+public_development456,race_white,316,456,69.29824561403508
+public_evaluation1200,race_white,912,1200,76.0
+public_development456,race_black or african american,44,456,9.649122807017545
+public_evaluation1200,race_black or african american,107,1200,8.916666666666666
+public_development456,race_asian,40,456,8.771929824561404
+public_evaluation1200,race_asian,96,1200,8.0
+public_development456,race_american indian or alaska native,0,456,0.0
+public_evaluation1200,race_american indian or alaska native,5,1200,0.4166666666666667
+public_development456,race_missing,56,456,12.280701754385966
+public_evaluation1200,race_missing,80,1200,6.666666666666667
+public_development456,ethnicity_hispanic or latino,15,456,3.289473684210526
+public_evaluation1200,ethnicity_hispanic or latino,67,1200,5.583333333333333
+public_development456,ethnicity_not hispanic or latino,308,456,67.54385964912281
+public_evaluation1200,ethnicity_not hispanic or latino,899,1200,74.91666666666667
+public_development456,ethnicity_missing,133,456,29.166666666666668
+public_evaluation1200,ethnicity_missing,234,1200,19.5
+public_development456,slides_total,934,,
+public_evaluation1200,slides_total,3121,,
+public_development456,slides_DX,405,934,43.36188436830835
+public_evaluation1200,slides_DX,1337,3121,42.83883370714515
+public_development456,slides_TS,374,934,40.04282655246253
+public_evaluation1200,slides_TS,1339,3121,42.90291573213714
+public_development456,slides_BS,150,934,16.059957173447536
+public_evaluation1200,slides_BS,433,3121,13.873758410765781
+public_development456,slides_MS,5,934,0.5353319057815846
+public_evaluation1200,slides_MS,12,3121,0.3844921499519385

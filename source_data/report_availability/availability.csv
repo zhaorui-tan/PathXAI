@@ -1,0 +1,33 @@
+scope,method,eligible_cases,available_outputs,unavailable_outputs,shared_cases
+public_evaluation,Visual + Qwen,1200,1200,0,1200
+public_evaluation,DeepSeek,1200,1200,0,1200
+public_evaluation,GLM,1200,1200,0,1200
+public_evaluation,Visual + MedGemma,1200,1200,0,1200
+public_evaluation,PathAgent,1200,1200,0,1200
+public_evaluation,PRISM2,1200,1200,0,1200
+public_evaluation,SO1_D1,1200,1200,0,1200
+public_evaluation,SO4_D1,1200,1200,0,1200
+native_evaluation,HistGen,217,216,1,215
+native_evaluation,HistoGPT,217,216,1,215
+native_evaluation,SO1_D1,217,217,0,215
+native_evaluation,SO4_D1,217,217,0,215
+private_P1,Visual + Qwen,152,152,0,151
+private_P1,DeepSeek,152,152,0,151
+private_P1,GLM,152,151,1,151
+private_P1,Visual + MedGemma,152,152,0,151
+private_P1,PathAgent,152,152,0,151
+private_P1,PRISM2,152,152,0,151
+private_P1,HistGen,152,152,0,151
+private_P1,HistoGPT,152,152,0,151
+private_P1,SO1_D1,152,152,0,151
+private_P1,SO4_D1,152,152,0,151
+private_P2,Visual + Qwen,152,152,0,151
+private_P2,DeepSeek,152,152,0,151
+private_P2,GLM,152,151,1,151
+private_P2,Visual + MedGemma,152,152,0,151
+private_P2,PathAgent,152,152,0,151
+private_P2,PRISM2,152,152,0,151
+private_P2,HistGen,152,152,0,151
+private_P2,HistoGPT,152,152,0,151
+private_P2,SO1_D1,152,152,0,151
+private_P2,SO4_D1,152,152,0,151

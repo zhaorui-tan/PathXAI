@@ -1,0 +1,47 @@
+scope,strata_kind,stratum,n_cases,proportion
+public_evaluation1200,TCGA cancer type,TCGA-ACC,29,0.024166666666666666
+public_evaluation1200,TCGA cancer type,TCGA-BLCA,132,0.11
+public_evaluation1200,TCGA cancer type,TCGA-BRCA,132,0.11
+public_evaluation1200,TCGA cancer type,TCGA-CESC,132,0.11
+public_evaluation1200,TCGA cancer type,TCGA-CHOL,12,0.01
+public_evaluation1200,TCGA cancer type,TCGA-COAD,3,0.0025
+public_evaluation1200,TCGA cancer type,TCGA-DLBC,17,0.014166666666666666
+public_evaluation1200,TCGA cancer type,TCGA-ESCA,129,0.1075
+public_evaluation1200,TCGA cancer type,TCGA-HNSC,132,0.11
+public_evaluation1200,TCGA cancer type,TCGA-KICH,62,0.051666666666666666
+public_evaluation1200,TCGA cancer type,TCGA-KIRC,132,0.11
+public_evaluation1200,TCGA cancer type,TCGA-KIRP,132,0.11
+public_evaluation1200,TCGA cancer type,TCGA-LGG,131,0.10916666666666666
+public_evaluation1200,TCGA cancer type,TCGA-LIHC,1,0.0008333333333333334
+public_evaluation1200,TCGA cancer type,TCGA-LUAD,1,0.0008333333333333334
+public_evaluation1200,TCGA cancer type,TCGA-MESO,2,0.0016666666666666668
+public_evaluation1200,TCGA cancer type,TCGA-OV,1,0.0008333333333333334
+public_evaluation1200,TCGA cancer type,TCGA-PCPG,6,0.005
+public_evaluation1200,TCGA cancer type,TCGA-PRAD,3,0.0025
+public_evaluation1200,TCGA cancer type,TCGA-SKCM,3,0.0025
+public_evaluation1200,TCGA cancer type,TCGA-UCEC,2,0.0016666666666666668
+public_evaluation1200,TCGA cancer type,TCGA-UVM,6,0.005
+native_evaluation215,TCGA cancer type,TCGA-ACC,27,0.12558139534883722
+native_evaluation215,TCGA cancer type,TCGA-BLCA,24,0.11162790697674418
+native_evaluation215,TCGA cancer type,TCGA-BRCA,19,0.08837209302325581
+native_evaluation215,TCGA cancer type,TCGA-CESC,11,0.05116279069767442
+native_evaluation215,TCGA cancer type,TCGA-CHOL,2,0.009302325581395349
+native_evaluation215,TCGA cancer type,TCGA-COAD,1,0.004651162790697674
+native_evaluation215,TCGA cancer type,TCGA-DLBC,5,0.023255813953488372
+native_evaluation215,TCGA cancer type,TCGA-ESCA,42,0.19534883720930232
+native_evaluation215,TCGA cancer type,TCGA-HNSC,10,0.046511627906976744
+native_evaluation215,TCGA cancer type,TCGA-KICH,2,0.009302325581395349
+native_evaluation215,TCGA cancer type,TCGA-KIRC,6,0.027906976744186046
+native_evaluation215,TCGA cancer type,TCGA-KIRP,19,0.08837209302325581
+native_evaluation215,TCGA cancer type,TCGA-LGG,39,0.1813953488372093
+native_evaluation215,TCGA cancer type,TCGA-LIHC,1,0.004651162790697674
+native_evaluation215,TCGA cancer type,TCGA-LUAD,1,0.004651162790697674
+native_evaluation215,TCGA cancer type,TCGA-PRAD,2,0.009302325581395349
+native_evaluation215,TCGA cancer type,TCGA-SKCM,3,0.013953488372093023
+native_evaluation215,TCGA cancer type,TCGA-UCEC,1,0.004651162790697674
+private_shared151_P1,organ,breast,76,0.5033112582781457
+private_shared151_P1,organ,colorectal,13,0.08609271523178808
+private_shared151_P1,organ,prostate,62,0.4105960264900662
+private_shared151_P2,organ,breast,76,0.5033112582781457
+private_shared151_P2,organ,colorectal,13,0.08609271523178808
+private_shared151_P2,organ,prostate,62,0.4105960264900662

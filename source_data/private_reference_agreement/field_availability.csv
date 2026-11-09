@@ -1,0 +1,7 @@
+field,cohort_cases,neither,p1_only,p2_only,both,incompatible_grade_system
+broad,152,29,0,0,123,0
+subtype,152,6,9,10,127,0
+malignancy,152,3,0,4,145,0
+invasion,152,1,4,7,140,0
+necrosis,152,1,15,1,135,0
+grade,152,75,1,1,75,0

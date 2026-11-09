@@ -1,0 +1,21 @@
+scope,left_method,right_method,metric,n_pairs,both_correct,corrected,new_mismatch,both_incorrect
+all456,SR1_old,Visual + Qwen,cohort_compatibility,456,308,37,18,93
+all456,SR1_old,Visual + Qwen,subtype,352,201,32,16,103
+all456,SO0_new,Visual + Qwen,cohort_compatibility,456,289,35,37,95
+all456,SO0_new,Visual + Qwen,subtype,352,190,29,27,106
+all456,SO4_D1,SR1_old,cohort_compatibility,456,311,39,34,72
+all456,SO4_D1,SR1_old,subtype,352,201,32,32,87
+all456,SO4_D1,SO0_new,cohort_compatibility,456,305,45,19,87
+all456,SO4_D1,SO0_new,subtype,352,200,33,19,100
+all456,SO4_D1,Visual + Qwen,cohort_compatibility,456,297,53,29,77
+all456,SO4_D1,Visual + Qwen,subtype,352,193,40,24,95
+available443,SR1_old,Visual + Qwen,cohort_compatibility,443,304,36,18,85
+available443,SR1_old,Visual + Qwen,subtype,340,196,32,16,96
+available443,SO0_new,Visual + Qwen,cohort_compatibility,443,285,34,37,87
+available443,SO0_new,Visual + Qwen,subtype,340,186,29,26,99
+available443,SO4_D1,SR1_old,cohort_compatibility,443,308,38,32,65
+available443,SO4_D1,SR1_old,subtype,340,198,32,30,80
+available443,SO4_D1,SO0_new,cohort_compatibility,443,301,45,18,79
+available443,SO4_D1,SO0_new,subtype,340,197,33,18,92
+available443,SO4_D1,Visual + Qwen,cohort_compatibility,443,294,52,28,69
+available443,SO4_D1,Visual + Qwen,subtype,340,190,40,22,88

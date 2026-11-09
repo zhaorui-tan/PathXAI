@@ -1,0 +1,10 @@
+comparison,configuration,eligible_common_records,dry_run_placeholders,nonplaceholder_records,shared_scored_cases
+Evidence organization,SS5,45,3,42,42
+Evidence organization,SS6,45,1,44,42
+Evidence organization,SS7,45,1,44,42
+Image acquisition,SS7,456,16,440,432
+Image acquisition,SS20,456,15,441,432
+Image acquisition,SS21,456,8,448,432
+Report writing,SO1,456,0,456,456
+Report writing,SO3,456,0,456,456
+Report writing,SO4,456,0,456,456
