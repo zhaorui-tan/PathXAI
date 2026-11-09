@@ -18,7 +18,16 @@ Open the executed notebooks, generated reports and step-by-step execution trajec
 | TCGA-08-0516 | PathXAI(core), SO1 | **[Open Core trajectory — 22 calls](https://zhaorui-tan.github.io/PathXAI/traces/TCGA-08-0516_SO1.html)** |
 | TCGA-08-0516 | PathXAI, SO4/Full | **[Open Full trajectory — 33 calls](https://zhaorui-tan.github.io/PathXAI/traces/TCGA-08-0516_SO4.html)** |
 
-**Trajectories:** Follow the diagnostic workflow call by call, with the input images, full prompts, model outputs and token usage. Thinking was disabled in these runs; the pages show the recorded workflow and generated explanations, with no internal reasoning text returned. [Trajectory overview](https://zhaorui-tan.github.io/PathXAI/traces/) · [Run settings and case-selection notes](examples/traces/README.md).
+### What a trajectory shows
+
+A trajectory records the sequence of model calls made while generating a report for one case. It lets you inspect how the workflow progresses from tissue assessment through diagnostic candidates and reinspection to the final report:
+
+- **Inputs to each call:** the images sent to the model and the full prompt, including the site and any tissue statistics, prior outputs or retrieved knowledge supplied at that step.
+- **Intermediate and final outputs:** broad-lineage and subtype assessments, diagnostic candidates, evidence-sufficiency judgments, claim checks, and report drafting or revision.
+- **Progression through the workflow:** the initial pass, any reinspection rounds and the final pass. Stage, pass and branch labels are inferred from prompts, call order and saved checkpoint presence.
+- **Resource use:** token usage and elapsed time for each model call.
+
+Use the **Requests** sidebar to jump to a step, expand its prompt and output, or click an input image to enlarge it. Thinking was disabled in these runs, so the pages contain the recorded inputs, outputs and explicit explanations returned by the model; no internal reasoning text was returned. [Trajectory overview](https://zhaorui-tan.github.io/PathXAI/traces/) · [Run settings and case-selection notes](examples/traces/README.md).
 
 **Notebook/report example:** The TCGA-OR-A5LL notebooks use refined D1 segmentation and six pinned source slides. The main [PathXAI_report.ipynb](PathXAI_report.ipynb) contains the executed SO4 workflow and its outputs; the completed notebooks preserve the SO1 and SO4 executions. Each HTML report is linked to its run by the published provenance and checksums. [Execution summary](docs/RESULT_COMPARISON.md) · [All examples](https://zhaorui-tan.github.io/PathXAI/) · [Example details](examples/README.md) · [Pages publishing guide](docs/PAGES.md). For offline viewing, download the repository and open [`examples/index.html`](examples/index.html).
 
@@ -66,6 +75,7 @@ Original PathXAI code is licensed under the [Creative Commons Attribution-NonCom
 This license applies to PathXAI's original code. Third-party code and adaptations subject to upstream terms, model checkpoints, datasets and externally sourced assets retain their respective licenses and access conditions. In particular, the published D1 adapter bundle retains its [SAM License](model_release/upload_ready/LICENSE); the code license does not relicense those weights. See [third-party notices](docs/THIRD_PARTY_NOTICES.md).
 
 PathXAI is research software, not a medical device or a clinical diagnostic service.
+
 
 
 
