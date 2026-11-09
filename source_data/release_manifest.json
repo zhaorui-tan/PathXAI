@@ -2,14 +2,15 @@
   "release_date": "2026-11-09",
   "preprint": "https://arxiv.org/abs/2611.09117",
   "csv_files": 95,
-  "numerical_values_unchanged": true,
+  "matches_current_local_source_data": true,
+  "evaluator_version": "eval_v4_report_only_20261109_r7",
   "private_data_scope": "aggregate statistics only",
   "files": [
     {
       "file": "aggregate_results/fig3_joint_criterion.csv",
       "rows": 5,
-      "sha256": "145e01edc2f7f2bf783adc5a08b2782e8aafdc2d76b52f217ded3312bce2051c",
-      "source_sha256": "912f82c45777b7ae8f82e749dc0f7af9220d7da7f062f2f99b28ef3a1a4720f6",
+      "sha256": "b13149a26ba2e2da020ec622ba76151d472729f89e18b4306a4cdcdf4761070d",
+      "source_sha256": "dec605426033bf5b11cfd4b618f9a47676dbeef343fd82a92bcacae8285a21cd",
       "removed_provenance_columns": []
     },
     {
@@ -56,30 +57,30 @@
     },
     {
       "file": "aggregate_results/report_eval_v4_aggregate_summary.csv",
-      "rows": 2114,
-      "sha256": "106b38265c78f6ca909f83cc030ab4b081d04a99819496857a8d1dc9c70f6340",
-      "source_sha256": "b6b72613114aaaa39728358f21c9eaf3f74725aaed2a2ef441d798d4751b5f46",
+      "rows": 2177,
+      "sha256": "d5c4a0eb135ce7dd150ab772ca5df5734b3a287632d500f869cd2b65c7c81a40",
+      "source_sha256": "a91a7a1e89a90e1d2d54a0f44be229b59556e945a2711c498e1e260b38e035de",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_eval_v4_grade_class_support.csv",
-      "rows": 2505,
-      "sha256": "b8fcab9bd494b28f97475257f8a0c0edbabc86fa0224dfc3774442173ff6a56a",
-      "source_sha256": "8035d0bf19d044ad461c0320a9532257caf88191fd466ac7e5f159fc1ee8e9c2",
+      "rows": 2506,
+      "sha256": "3863adad7ca20e4247f5d5908d66d02e971d41b43a898e4cd4b098412283cf26",
+      "source_sha256": "39e327263e711e7f871a6e5c9f86bee4f6e294aba58e2288d47f007c7d06edea",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_eval_v4_grade_confusion.csv",
-      "rows": 745,
-      "sha256": "6316cff1659124a29fb96800514ba02bea57d44de2f22934fedf3ebabf6f8ba5",
-      "source_sha256": "2cbe2b12bcddfb83630ab8d38b616d54987dd64f983449b1047d71f5b1119461",
+      "rows": 784,
+      "sha256": "a01fc862d6fb74ac4e790afae7af9da7340d2a210886998d3e623518f3247557",
+      "source_sha256": "1940cfcd58acd611708651b1dbdf8e693ef0cc0575a2c74406c758c75d1779d8",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_eval_v4_paired_contrasts.csv",
-      "rows": 1468,
-      "sha256": "d0f4a46d0f0e3d8a381b267a336a3d925df93b423643c3d4d87177f365416e9b",
-      "source_sha256": "c80e64bdeff5adbab425b554a7fe94afa54b1c78ea98ec79150dc14c704ae0d7",
+      "rows": 1486,
+      "sha256": "d5cc633e0184c2dd3ad02d309d15ffbb580e1a9cc7c4d14b44229a3913e34c98",
+      "source_sha256": "c4dba9bb118e98874f86b3c60a0f00a9e4a41f11095435422f5e03ed8cf928c3",
       "removed_provenance_columns": [
         "paired_case_ids_sha256"
       ]
@@ -87,22 +88,22 @@
     {
       "file": "aggregate_results/report_eval_v4_per_cancer_public.csv",
       "rows": 9664,
-      "sha256": "a593d20ad1536f39dd2fef631ea25b2f4c3b9334dc65d5ef24b0e6e8fd29c538",
-      "source_sha256": "bd2ef409823ef7bb9ad0510d05c017858793efe649ade21cb6f205f576e3d6bb",
+      "sha256": "b020da71749ad188376a69f4fc00a651c3ff7ce75267a4f72f069fccda5b280c",
+      "source_sha256": "43beee2d720f2d49534cab041ac16744f0952dd0cb513a67e6e0280943017715",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_grade_answering.csv",
-      "rows": 84,
-      "sha256": "60d823070ee0db3e25a97cbbaf80871f3f162135d87c968d952c49a15c759bbc",
-      "source_sha256": "60d823070ee0db3e25a97cbbaf80871f3f162135d87c968d952c49a15c759bbc",
+      "rows": 91,
+      "sha256": "914ec4a8b040939ac6834379fa5f966743837e589d8e7c2d15bbf9cba70738fb",
+      "source_sha256": "914ec4a8b040939ac6834379fa5f966743837e589d8e7c2d15bbf9cba70738fb",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_native_private.csv",
       "rows": 304,
-      "sha256": "bedaeeed97c9484bb3aaafc3634d2d3ee48485b9b262c167f97983a9f2fdf7ce",
-      "source_sha256": "62e8f02338043a0da4d7c1b9949fe283c6c57e0abb426a4995829e1d1d6f6499",
+      "sha256": "069f275f6b59aa1fdc9876d469aeb81833e68d38ecb48ab40b4e73c6dc549d20",
+      "source_sha256": "ed3ca00a5a4020f48abeda8527ae48a55f0ad38cc2b6e34e6786596a752b8fa7",
       "removed_provenance_columns": [
         "ci_source_path"
       ]
@@ -110,29 +111,29 @@
     {
       "file": "aggregate_results/report_native_private_paired_contrasts.csv",
       "rows": 136,
-      "sha256": "6141d4608fb677a3f60ae2bc4181a64da5ad85d9abce8102100ced078ab33dc9",
-      "source_sha256": "6141d4608fb677a3f60ae2bc4181a64da5ad85d9abce8102100ced078ab33dc9",
+      "sha256": "5f7edac72b82c1149a52799b528608792e2b9b936a4d14ab7070b5cf4ec9553b",
+      "source_sha256": "5f7edac72b82c1149a52799b528608792e2b9b936a4d14ab7070b5cf4ec9553b",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_native_public.csv",
       "rows": 217,
-      "sha256": "eb0646b3f9ce6630bc24f2c72a0b50361e2ff6fd92601e1e941c1e4cb82f6f92",
-      "source_sha256": "eb0646b3f9ce6630bc24f2c72a0b50361e2ff6fd92601e1e941c1e4cb82f6f92",
+      "sha256": "42e36ff644ebef2b5e86b9529ec2e23e542008ce92cdefb0c30b864b8ea3a551",
+      "source_sha256": "42e36ff644ebef2b5e86b9529ec2e23e542008ce92cdefb0c30b864b8ea3a551",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_native_public_paired_contrasts.csv",
       "rows": 63,
-      "sha256": "6a908facaedbfe7a575c720d4754ead83a1241e9cca6fc46372fc0d9ed23af7b",
-      "source_sha256": "6a908facaedbfe7a575c720d4754ead83a1241e9cca6fc46372fc0d9ed23af7b",
+      "sha256": "5463a4a255937e4eedfed4be47d04895c7c1bf08730a724fd7feab0ef91102ba",
+      "source_sha256": "5463a4a255937e4eedfed4be47d04895c7c1bf08730a724fd7feab0ef91102ba",
       "removed_provenance_columns": []
     },
     {
       "file": "aggregate_results/report_policy_grade_transitions.csv",
-      "rows": 67,
-      "sha256": "9386bb459ebfdf3d17f0ba86383481a39d8ea4c71ef3ecbf670ee719dbfce870",
-      "source_sha256": "8c9988d559d6d174fca71d8b55645ed5303b59866c6ce163d9b9038cc43c8bf6",
+      "rows": 100,
+      "sha256": "7ea0fde25c9ba5a434802b7cb090bfd460b9f1ebfd3a5783419e0f8757793a08",
+      "source_sha256": "7ea0fde25c9ba5a434802b7cb090bfd460b9f1ebfd3a5783419e0f8757793a08",
       "removed_provenance_columns": []
     },
     {
@@ -160,18 +161,18 @@
     },
     {
       "file": "aggregate_results/table2_fig7_four_policy.csv",
-      "rows": 240,
-      "sha256": "24e57691be20158fcc4bf11c0be8fc93d1110ced1a63a2aefbf42d13cfb71eaa",
-      "source_sha256": "71f086d012cd224369ab86c69897310e217737eaca52482e308a93073ca7f9be",
+      "rows": 256,
+      "sha256": "6bfb8a71da16a6af0cf0a4fb051793ec5da72439f8471b9f7c026dc9a5964848",
+      "source_sha256": "566b6a78c45f11206c5fd2061fe50952dade95092c3de160e5db2de53d68f2fc",
       "removed_provenance_columns": [
         "paired_case_ids_sha256"
       ]
     },
     {
       "file": "aggregate_results/table3_fig8_public_report.csv",
-      "rows": 1212,
-      "sha256": "333f0409db3cbc6722efada2d6d34e7e8fa393c06ceb05b71e292bbe404253eb",
-      "source_sha256": "90ddb6a38baa84d58805e39ab94c8ae87efe697e2d2d40e367e9954355b94e5a",
+      "rows": 1266,
+      "sha256": "089fa7f102c4038f02822ea35bff0fe3fd2f47611cddb62c2991446e01be0661",
+      "source_sha256": "6df5a872e1bed53346f7479788a13e63439b75b8a4f3b3c2382c134ae31e4fc6",
       "removed_provenance_columns": [
         "paired_case_ids_sha256"
       ]
@@ -179,15 +180,17 @@
     {
       "file": "aggregate_results/table4_fig9_private_reference.csv",
       "rows": 1728,
-      "sha256": "b376b17802981102d7201c7b6c1c75f35b0f4fb75037e8a7ddfb1cbae7fafb2e",
-      "source_sha256": "1bff1034da447f0439fd3e7ad4c69366f54a3f5817e874f7d3ca297e9b3af87a",
-      "removed_provenance_columns": []
+      "sha256": "30076550dcb7b93c8f46d48a44c60f3b197a26e7398ff2aa91ad4cd5a118784f",
+      "source_sha256": "6aebd1a803da45bb61dc5245ce567f759e111b048550fd1d9a02a69fcdc89cc9",
+      "removed_provenance_columns": [
+        "paired_case_ids_sha256"
+      ]
     },
     {
       "file": "aggregate_results/table5_fig10_physician_ratings.csv",
       "rows": 60,
-      "sha256": "bdc70db2d16bc574aa152210ea75b82a44d6aefbedbf16d2951278979ae9a52f",
-      "source_sha256": "f9ebbae30630e630f47009e938d3590c359f996a31a1653ac56b80f86de6aab2",
+      "sha256": "9f193a72227722b2f63f5f53072731839c8b70fd9b9dba20781f85cccb8a029f",
+      "source_sha256": "288159a9defa8ffac985b9e525f2c997b8f879ce134969268b95dfaf997e4b7a",
       "removed_provenance_columns": [
         "provenance"
       ]
@@ -203,9 +206,9 @@
     },
     {
       "file": "aggregate_results/table7_suppfig3_report_ablation.csv",
-      "rows": 402,
-      "sha256": "4407dc94367cfa296bdc3d768a753e6c8d28f5d768806c3d7052993e01672e71",
-      "source_sha256": "6ffbf6393b84122802e7b6852d24ce621eeeead573ad0845f6ffbb0a83c2bc23",
+      "rows": 413,
+      "sha256": "f1fa7fec5e26ee85ea7dc06a330860bcc0112e0af62f96bfd815d7010f3eb838",
+      "source_sha256": "3891de20d4a7cc7342c8ec7762539b7303edd39a2beb319e888656d73265d49e",
       "removed_provenance_columns": [
         "paired_case_ids_sha256"
       ]
@@ -221,7 +224,7 @@
       "file": "aggregate_results/table9_contradiction_coverage.csv",
       "rows": 32,
       "sha256": "c80a4e7a5921f277344e324f7185430e6fc52c2e2ce0ef9e374522e96c3d942b",
-      "source_sha256": "c67307dac06fafb95509e791b37c223a936e674828200f4c3c5b8e477d5f1fc0",
+      "source_sha256": "c80a4e7a5921f277344e324f7185430e6fc52c2e2ce0ef9e374522e96c3d942b",
       "removed_provenance_columns": []
     },
     {
@@ -326,30 +329,30 @@
     },
     {
       "file": "grade_agreement/compatible_grade_confusion.csv",
-      "rows": 11931,
-      "sha256": "c0d5fb2b3a19b267fd6765d6b252af2657e2c42d86f8055efe4cf82e08f545a4",
-      "source_sha256": "c0d5fb2b3a19b267fd6765d6b252af2657e2c42d86f8055efe4cf82e08f545a4",
+      "rows": 11000,
+      "sha256": "93daf664a4ea86771ede2bc2192e462ae0a6499bcabc813ed2c38ec63b7c73c8",
+      "source_sha256": "93daf664a4ea86771ede2bc2192e462ae0a6499bcabc813ed2c38ec63b7c73c8",
       "removed_provenance_columns": []
     },
     {
       "file": "grade_agreement/prediction_systems.csv",
-      "rows": 1874,
-      "sha256": "f3fc2caf952da8cfb6f9473afe8738a115537943dd426b5072948720f8449b36",
-      "source_sha256": "f3fc2caf952da8cfb6f9473afe8738a115537943dd426b5072948720f8449b36",
+      "rows": 1786,
+      "sha256": "d10d157c37d091c0a3ede3f2bd74dd3b3a18b64cdf55ec50f6b634e36a0c25c8",
+      "source_sha256": "d10d157c37d091c0a3ede3f2bd74dd3b3a18b64cdf55ec50f6b634e36a0c25c8",
       "removed_provenance_columns": []
     },
     {
       "file": "grade_agreement/reference_availability.csv",
       "rows": 639,
-      "sha256": "b127daa033df94e7ebd4ebad7f86df0bc91287a75fd8d012ef89efc506634f2b",
-      "source_sha256": "b127daa033df94e7ebd4ebad7f86df0bc91287a75fd8d012ef89efc506634f2b",
+      "sha256": "501549126206f3538892a9ed91f78cc97c02c48ca09bf627fb27d324b9e2accf",
+      "source_sha256": "501549126206f3538892a9ed91f78cc97c02c48ca09bf627fb27d324b9e2accf",
       "removed_provenance_columns": []
     },
     {
       "file": "grade_agreement/summary.csv",
-      "rows": 831,
-      "sha256": "7edcfa94d2ced72f45f56cb585fe55e4889b8afd0e6cbdb877857d864403be66",
-      "source_sha256": "7edcfa94d2ced72f45f56cb585fe55e4889b8afd0e6cbdb877857d864403be66",
+      "rows": 824,
+      "sha256": "73def9610762de4d03acf6b800b6de0ea2a13fc84dd48c624465aaed2b6d3c20",
+      "source_sha256": "73def9610762de4d03acf6b800b6de0ea2a13fc84dd48c624465aaed2b6d3c20",
       "removed_provenance_columns": []
     },
     {
@@ -554,8 +557,8 @@
     {
       "file": "report_primary_evaluation/native_contrasts.csv",
       "rows": 42,
-      "sha256": "7109a2733a1ea078adec5d30a047e0eaef0cb292ae1831eda50e9e7bca78b50d",
-      "source_sha256": "8e8c642b4e44f88674baec35cd8550f748c0e325363e2f20bf7672967f57fd6e",
+      "sha256": "5daa6fd66a0195fdc9bd99cc6590de9b2a55566b2382b90b06d917d5f77f0872",
+      "source_sha256": "34914b703f60e5e5a744585af0d7af38bce30887ce7666772269b87030800243",
       "removed_provenance_columns": [
         "paired_case_ids_sha256"
       ]
@@ -563,15 +566,15 @@
     {
       "file": "report_primary_evaluation/native_summary.csv",
       "rows": 124,
-      "sha256": "0f4b8ab8ef6074f14ebaf36ad3d2d64c823848993d7d45a8247c6eb73802492e",
-      "source_sha256": "2455c80b6b4be95caba7cb64907d8edbe161c64d6a4aeeb4c547868122a5c24e",
+      "sha256": "e7f6c2d78aa795bea01e47f66fd34292d4c50b0f5aa07e06a802bf1a482f4edd",
+      "source_sha256": "0a666f46f0f109a6171f0bb9cd5865883738fbb49bd0593991c5fa8ba341d9b1",
       "removed_provenance_columns": []
     },
     {
       "file": "report_primary_evaluation/public_contrasts.csv",
-      "rows": 162,
-      "sha256": "536be0ab1185e32cd117385374ff055f0cb18a9364222f3e8e68982337a9f6d7",
-      "source_sha256": "df32b42578aef0378c67d8402a5d1223aef8800be4189d4938f8f09ee8bc24bc",
+      "rows": 168,
+      "sha256": "92f08ecc720c9bebf47d4d735aa8216f140a639238c97366082cf43929bdc8a4",
+      "source_sha256": "e36bf97bb2969f655d67bddc2e6609c056a525c6958b1667558d2db141420edc",
       "removed_provenance_columns": [
         "paired_case_ids_sha256"
       ]
@@ -586,8 +589,8 @@
     {
       "file": "report_primary_evaluation/public_summary.csv",
       "rows": 144,
-      "sha256": "b36b19679cc81a3fd343d8f70e0b006b24833f7a20e16d18a955c07de8be8a80",
-      "source_sha256": "b0c08aef4597ef115ad0829d17b0b654d00946f22dc9ee3bb146f254a8e0f770",
+      "sha256": "5dd034a9188e4ea842ec44cf4524de7ca9a46537bb5c50777d4f45d677764823",
+      "source_sha256": "7da5f781147a78b20df6bb724c97216cdbf2b514342c1afae17bdfbe05dd7d43",
       "removed_provenance_columns": []
     },
     {

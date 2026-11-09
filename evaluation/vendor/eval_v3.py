@@ -13,9 +13,8 @@ from typing import Any
 
 VERSION = "eval_v3_report_only_20260915_r3"
 DIAGNOSIS_WEIGHTS = {"broad": .35, "subtype": .35, "malignancy": .15}
-GRADE_RANGES = {"histologic3": (1, 3), "nuclear3": (1, 3),
-                "who4": (1, 4), "fuhrman4": (1, 4), "isup5": (1, 5),
-                "gleason10": (2, 10)}
+from . import grade_v4
+GRADE_RANGES = grade_v4.RANGES
 
 HEADINGS = {
     "specimen/site": "site", "site": "site", "specimen": "site",
@@ -596,76 +595,8 @@ def structured_binary(text: str, key: str) -> dict:
     return finding(text, key)
 
 
-def grade(lines: list[tuple[str, str]], explicit: str | None = None) -> dict:
-    """Keep grading systems separate; morphology alone is not overall grade."""
-    hits = []
-    primary_invasive = bool(re.search(r'\binvasive\b', diagnosis_scope(lines), re.I))
-    selected = [("grade", explicit)] if explicit is not None else lines
-    for section, line in selected:
-        if section in ("excluded", "site"):
-            continue
-        for c in clauses(line):
-            if HYPOTHETICAL.search(c) or re.search(r"dysplasia|intraepithelial lesion|\bincidental\b", c, re.I):
-                continue
-            if primary_invasive and re.search(r'\bin situ\b|\b[dl]cis\b', c, re.I) and not re.search(r'\binvasive\b', c, re.I):
-                continue
-            # Enumerations of required grading components are not a grade claim.
-            if re.search(r"nuclear (?:features|atypia)|high.power|mitotic count|tubule formation", c, re.I) and not re.search(r"grade\s*(?:[1-4]|i{1,3}v?)\b|nottingham", c, re.I):
-                continue
-            system = ("isup5" if re.search(r"isup|grade group", c, re.I) else
-                      "fuhrman4" if re.search(r"fuhrman", c, re.I) else
-                      "who4" if re.search(r"\bwho\b", c, re.I) else
-                      "gleason10" if re.search(r"gleason", c, re.I) else
-                      "histologic3" if re.search(r"\bsbr\b|nottingham|elston|fnclcc|overall grade|histolog(?:ic|ical) grade", c, re.I) else
-                      "nuclear3" if re.search(r"nuclear grade", c, re.I) else "histologic3")
-            candidates = []
-            for m in re.finditer(r"\b(?:grade(?: group)?|fuhrman|gleason(?: score)?)\s*[:=]?\s*(10|[1-9]|iv|iii|ii|i)\b", c, re.I):
-                if system == 'isup5' and m.group().lower().startswith('gleason'):
-                    continue
-                raw = m.group(1).lower()
-                value = {"i": 1, "ii": 2, "iii": 3, "iv": 4}.get(raw, int(raw) if raw.isdigit() else 0)
-                if system == "gleason10" and re.match(r"\s*\+", c[m.end():]):
-                    pair = re.match(r"\s*\+\s*([1-5])", c[m.end():])
-                    if pair:
-                        value += int(pair.group(1))
-                candidates.append((value, m))
-            if not candidates and system in ("histologic3", "nuclear3"):
-                if section == 'grade':
-                    candidates.extend((int(m.group(1)), m) for m in re.finditer(r'\bG([1-3])\b', c, re.I))
-                for value, pattern in [(1, r"\blow[ -]grade\b|\bwell[ -]differentiated\b"),
-                                       (2, r"\bintermediate[ -]grade\b|\bmoderately[ -]differentiated\b"),
-                                       (3, r"\bhigh[ -]grade\b|\bpoorly[ -]differentiated\b")]:
-                    candidates.extend((value, m) for m in re.finditer(pattern, c, re.I))
-            for value, m in candidates:
-                # Do not infer overall grade from isolated nuclear morphology.
-                if section == "morphology" and not re.search(r"(?:histologic|histological|nottingham|fuhrman|who|gleason|isup|nuclear) grade|grade\s*:", c, re.I):
-                    continue
-                p = polarity(c, m.start(), m.end())
-                lo, hi = GRADE_RANGES[system]
-                status = "asserted" if p == "present" and lo <= value <= hi else "uncertain"
-                hits.append(dict(value=f"{system}:{value}", ordinal=value, system=system,
-                                 status=status, text=c, priority=int(section == 'grade' or bool(re.match(r"grade\s*:", c, re.I)))))
-            if re.match(r"grade\s*:\s*(?:not assessable|not specified|cannot|unknown)", c, re.I):
-                hits.append(dict(value=None, status="uncertain", text=c, priority=1))
-    # Explicit overall grade takes precedence over adjectives in diagnosis.
-    overall = [h for h in hits if h.get('system', 'histologic3') != 'nuclear3']
-    if overall:
-        hits_for_score = overall
-    else:
-        hits_for_score = hits
-    priority = [h for h in hits_for_score if h.get('priority')]
-    if priority:
-        hits_for_score = priority
-    result = resolve(hits_for_score)
-    if any(h['value'] is None for h in hits_for_score):
-        result.update(value=None, status='uncertain')
-    result['evidence'] = hits
-    if result['value']:
-        system, value = result['value'].split(':')
-        result.update(system=system, ordinal=int(value), bounds=list(GRADE_RANGES[system]))
-    else:
-        result.update(system=None, ordinal=None, bounds=None)
-    return result
+def grade(lines, explicit=None):
+    return grade_v4.extract("\n".join(line for _, line in lines), explicit=explicit)
 
 
 def extract(text: str) -> dict:
@@ -674,7 +605,7 @@ def extract(text: str) -> dict:
     evidence = "\n".join(t for s, t in lines if s not in ("site", "excluded"))
     findings = {key: finding(evidence, key) for key in FINDINGS}
     return dict(diagnosis_text=dx, subtype=entity(dx), broad=broad_type(dx),
-                malignancy=malignancy(dx), grade=grade(lines), findings=findings,
+                malignancy=malignancy(dx), grade=grade_v4.extract(text), findings=findings,
                 sections=[dict(section=s, text=t) for s, t in lines])
 
 
@@ -750,16 +681,7 @@ def evaluate(report: str, ref: dict, *, reference_text: str = '', diagnosis_only
     metrics = {k: fields[k]['score'] for k in fields}
     metrics['diagnosis'] = sum(metrics[k]*w for k, w in available.items())/sum(available.values()) if available else None
     fields.update({k: score_field(pred['findings'][k], ref['findings'][k]) for k in ('invasion', 'necrosis')})
-    g = score_field(pred['grade'], ref['grade'])
-    same_system = pred['grade']['system'] == ref['grade']['system'] and pred['grade']['system'] is not None
-    g.update(system=ref['grade']['system'], prediction_system=pred['grade']['system'],
-             ordinal_reference=ref['grade']['ordinal'], ordinal_prediction=pred['grade']['ordinal'],
-             compatible_coverage=bool(g['covered'] and same_system), ordinal_score=None)
-    if g['applicable']:
-        lo, hi = ref['grade']['bounds']
-        g['ordinal_score'] = 1-abs(pred['grade']['ordinal']-ref['grade']['ordinal'])/(hi-lo) if same_system and g['covered'] else 0.0
-        g['always_high_exact'] = float(ref['grade']['ordinal'] == hi)
-        g['always_high_ordinal'] = 1-abs(hi-ref['grade']['ordinal'])/(hi-lo)
+    g = grade_v4.score(pred['grade'], ref['grade'])
     fields['grade'] = g
     metrics.update(invasion=fields['invasion']['score'], necrosis=fields['necrosis']['score'],
                    grade_exact=g['score'], grade_ordinal=g['ordinal_score'],

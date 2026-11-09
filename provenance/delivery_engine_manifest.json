@@ -43,12 +43,12 @@
     },
     {
       "path": "baselines/current/manifest.json",
-      "sha256": "29a893cd9c5368065d3588b373ddbc161eb41e965085e4430699ce27ab86dab2",
-      "bytes": 93567
+      "sha256": "96118c1a5b6240c7b79efb905ff751722c1b036abc1cc8fdb4665f188a2cdfe0",
+      "bytes": 89544
     },
     {
       "path": "baselines/current/manifest.sha256",
-      "sha256": "30a3bb2af421dcc6459ce19f800962d84ace2ff5137a693b97509305f83028e0",
+      "sha256": "0e5bc818ece866438afe47ec58d80b785317153fb8c95d1e9c811303fc646dce",
       "bytes": 80
     },
     {
@@ -1002,41 +1002,6 @@
       "bytes": 4450
     },
     {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/__init__.py",
-      "sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
-      "bytes": 26
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/diagnostic_hierarchy.py",
-      "sha256": "a04039bd183538e748900a551b1aae4554a6c70c02d3e1082696fe573e55ca47",
-      "bytes": 23505
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/pathology_metrics.py",
-      "sha256": "0cf6046ac296e4d1e7368c9ff5e4a8e33f89b579f035a1cd7c450589bba96dfa",
-      "bytes": 20160
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/pipeline_eval.py",
-      "sha256": "388688d73cec0f7bd4f050391ce6770197f99a8e3d5dd67c76405fb4f93e645d",
-      "bytes": 1087
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/reference_cleaner.py",
-      "sha256": "8a969fd21b4c738dd6a778d938fcf5c3d7ee46acab8fc9d249f11e24a391aac5",
-      "bytes": 15836
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/report_text_metrics.py",
-      "sha256": "edee43da42838d4c02526830cbf636228e2cbe6c2c08c07b03f6bacc9b1fa3b5",
-      "bytes": 36302
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/evaluation/staged_metrics.py",
-      "sha256": "0ef9d374ffe7e23f75ee5f72cc438b16273211651b13ff0dd8439873cb3388b9",
-      "bytes": 17273
-    },
-    {
       "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v1/pathxai_agent/knowledge/__init__.py",
       "sha256": "d8e2d49aad571b649a859f21cc91f686b7d1dc1ef63fbf84e1a65308a46f3d76",
       "bytes": 35
@@ -1155,11 +1120,6 @@
       "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/eval_v2.py",
       "sha256": "6813d2f12b5bb20a5d6605e5a7e798f9c123695e7f5d786bd1cf2fa12c7b440a",
       "bytes": 12614
-    },
-    {
-      "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/eval_v3.py",
-      "sha256": "56b52da4e022aa8f1bbf232470664be2fc8c73dee866d540f2137f1e8b6d1a23",
-      "bytes": 28577
     },
     {
       "path": "baselines/current/source_snapshot/archives/tcga_so1_so4_a5bridge_508_20260920/code/v2/pathxai_agent_v2/eval/metrics.py",
@@ -1407,41 +1367,6 @@
       "bytes": 4450
     },
     {
-      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/__init__.py",
-      "sha256": "f4265be9812a42fcbe10682769c95597946c675929ffc2a3693e9848bf67796c",
-      "bytes": 26
-    },
-    {
-      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/diagnostic_hierarchy.py",
-      "sha256": "a04039bd183538e748900a551b1aae4554a6c70c02d3e1082696fe573e55ca47",
-      "bytes": 23505
-    },
-    {
-      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/pathology_metrics.py",
-      "sha256": "0cf6046ac296e4d1e7368c9ff5e4a8e33f89b579f035a1cd7c450589bba96dfa",
-      "bytes": 20160
-    },
-    {
-      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/pipeline_eval.py",
-      "sha256": "388688d73cec0f7bd4f050391ce6770197f99a8e3d5dd67c76405fb4f93e645d",
-      "bytes": 1087
-    },
-    {
-      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/reference_cleaner.py",
-      "sha256": "8a969fd21b4c738dd6a778d938fcf5c3d7ee46acab8fc9d249f11e24a391aac5",
-      "bytes": 15836
-    },
-    {
-      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/report_text_metrics.py",
-      "sha256": "edee43da42838d4c02526830cbf636228e2cbe6c2c08c07b03f6bacc9b1fa3b5",
-      "bytes": 36302
-    },
-    {
-      "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/evaluation/staged_metrics.py",
-      "sha256": "0ef9d374ffe7e23f75ee5f72cc438b16273211651b13ff0dd8439873cb3388b9",
-      "bytes": 17273
-    },
-    {
       "path": "baselines/current/source_snapshot/v1/src/pathxai_agent/knowledge/__init__.py",
       "sha256": "d8e2d49aad571b649a859f21cc91f686b7d1dc1ef63fbf84e1a65308a46f3d76",
       "bytes": 35
@@ -1565,11 +1490,6 @@
       "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/eval_v2.py",
       "sha256": "6813d2f12b5bb20a5d6605e5a7e798f9c123695e7f5d786bd1cf2fa12c7b440a",
       "bytes": 12614
-    },
-    {
-      "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/eval_v3.py",
-      "sha256": "56b52da4e022aa8f1bbf232470664be2fc8c73dee866d540f2137f1e8b6d1a23",
-      "bytes": 28577
     },
     {
       "path": "baselines/current/source_snapshot/v2/src/pathxai_agent_v2/eval/metrics.py",

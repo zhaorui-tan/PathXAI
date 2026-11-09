@@ -1,6 +1,6 @@
 method,endpoint,cases,ratings,success_count,estimate,ci95_low,ci95_high
 MedGemma,no/minor correction AND output check AND all applicable fields answered,132,264,82,0.3106060606060606,0.23106060606060605,0.39015151515151514
-Qwen + H&E,no/minor correction AND output check AND all applicable fields answered,132,264,91,0.3446969696969697,0.2765151515151515,0.4166666666666667
+Qwen + H&E,no/minor correction AND output check AND all applicable fields answered,132,264,95,0.35984848484848486,0.2916666666666667,0.4318181818181818
 PLIP-guided Qwen,no/minor correction AND output check AND all applicable fields answered,132,264,37,0.14015151515151514,0.09848484848484848,0.1856060606060606
-PathXAI-Report (core),no/minor correction AND output check AND all applicable fields answered,132,264,99,0.375,0.29924242424242425,0.44696969696969696
-PathXAI-Report,no/minor correction AND output check AND all applicable fields answered,132,264,163,0.6174242424242424,0.5416666666666666,0.6931818181818182
+PathXAI-Report (core),no/minor correction AND output check AND all applicable fields answered,132,264,105,0.3977272727272727,0.32575757575757575,0.4696969696969697
+PathXAI-Report,no/minor correction AND output check AND all applicable fields answered,132,264,164,0.6212121212121212,0.5454545454545454,0.696969696969697

@@ -86,7 +86,7 @@
       "fixed_diagnosis_control/paired_contrasts.csv",
       "fixed_diagnosis_control/project_support.csv"
     ],
-    "description": "Constant diagnosis chosen on 456 development cases and scored on 1200 public evaluation cases with unchanged family matching; all method contrasts."
+    "description": "Constant diagnosis chosen on 456 cases used for PathXAI-Report pipeline development and scored on 1200 public evaluation cases with unchanged family matching; all method contrasts."
   },
   {
     "supplementary_table": "13.1\u201313.7",
@@ -168,7 +168,7 @@
       "finding_denominators/reference_polarities.csv",
       "finding_denominators/development_majority_rule.csv"
     ],
-    "description": "Reference present/absent counts and the per-finding fixed-polarity rule from development cases only."
+    "description": "Reference present/absent counts and the per-finding fixed-polarity rule from cases used for PathXAI-Report pipeline development only."
   },
   {
     "supplementary_table": "22.1\u201322.13",

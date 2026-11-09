@@ -3,7 +3,7 @@
 Numerical results for the manuscript revision dated **9 November 2026**.
 The [preprint record](https://arxiv.org/abs/2611.09117) may display an earlier version until its replacement is announced.
 
-These files reproduce existing analysis outputs; no reports were regenerated and no scoring rules were changed for this release. Estimates, confidence intervals, counts and statistical definitions retain their manuscript values. Non-data provenance fields (internal source paths and case-list hashes) are omitted.
+These files contain the current manuscript analysis outputs using evaluator eval_v4_report_only_20261109_r7. Existing reports were rescored after correcting grade extraction; grade-related values and dependent completeness endpoints were regenerated. No reports were generated for this update. Diagnosis and morphology scores are unchanged. Estimates, confidence intervals, counts and statistical definitions match the current manuscript. Non-data provenance fields (internal source paths and case-list hashes) are omitted.
 
 ## Find the results
 

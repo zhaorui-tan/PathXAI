@@ -16,7 +16,7 @@ from . import diagnostic_text
 from . import subtype_ontology_v4 as ontology
 from .tcga_ground_truth import ground_truth_for
 
-VERSION = "eval_v4_report_only_20261104_r6_candidate"
+VERSION = "eval_v4_report_only_20261109_r7"
 DIAGNOSIS_WEIGHTS = dict(legacy.DIAGNOSIS_WEIGHTS)
 EXTRA_EXCLUDED = {"clinical history", "history", "clinical information", "past medical history",
                   "previous diagnosis", "prior diagnosis", "patient history"}
@@ -177,6 +177,9 @@ def reference(text, *, structured=None, cohort=None, cancer_type=None, site=None
         cohort = ground_truth_for(cancer_type)
     result = legacy.reference(text, structured=structured, cohort=cohort)
     context = ontology.organ_context(cancer_type, site)
+    result["grade"] = legacy.grade_v4.extract(text, context=context,
+        explicit=str(structured.get("grade") or "") if structured is not None else None,
+        primary_diagnosis=str(structured.get("primary_diagnosis") or "") if structured is not None else None)
     if structured is not None:
         subtype_text = str(structured.get("histologic_subtype") or "").strip()
         primary_text = str(structured.get("primary_diagnosis") or "").strip()
@@ -295,6 +298,7 @@ def evaluate(report, ref, *, reference_text="", diagnosis_only=False, narrative_
                                    reference_evidence=meta["subtype"]["evidence"],
                                    strict_reason=strict["reason"],
                                    v3_subtype_was_cohort_compatibility=bool(ref.get("cohort_aliases") is not None))
+    update_grade_result(result, legacy.grade_v4.extract(report, context=meta["context"]), ref["grade"])
     flags = result.setdefault("qa_flags", [])
     if not strict["applicable"]:
         flags.append("v4_subtype_"+strict["reason"])
@@ -302,4 +306,49 @@ def evaluate(report, ref, *, reference_text="", diagnosis_only=False, narrative_
         flags.append("v4_subtype_prediction_"+prediction["status"])
     if not compatibility["applicable"] and str(meta["cancer_type"] or "").upper().startswith("TCGA-"):
         flags.append("v4_no_supported_tcga_cohort")
+    return result
+
+
+def update_grade_result(result, prediction_grade, reference_grade):
+    """Replace only grades and dependent completeness in a report evaluation."""
+    old = deepcopy(result["fields"]["grade"])
+    g = legacy.grade_v4.score(prediction_grade, reference_grade)
+    diagnosis_only = result.get("diagnosis_only", result["fields"]["invasion"].get("capability_assessed") is False)
+    if diagnosis_only:
+        g["capability_assessed"] = False
+    result["prediction"]["grade"] = deepcopy(prediction_grade)
+    result["reference"]["grade"] = deepcopy(reference_grade)
+    result["fields"]["grade"] = g
+    result["metrics"].update(grade_exact=g["score"] if not diagnosis_only else None,
+        grade_ordinal=g["ordinal_score"] if not diagnosis_only else None,
+        grade_coverage=float(g["compatible_coverage"]) if g["applicable"] and not diagnosis_only else None)
+    denominators = result.setdefault("quality_denominators", {})
+    # Legacy completeness retains its original diagnostic applicability; change
+    # only the grade contribution to its numerator and denominator.
+    previous = result["metrics"].get("reference_coverage")
+    n_old = denominators.get("eligible_structured_fields")
+    if n_old is None:
+        # Archived compact rows omit the legacy denominator. Reconstruct it
+        # from the legacy reference fields, whose original subtype target is
+        # recorded independently from the v4 entity target.
+        reference = result["reference"]
+        legacy_subtype = (reference.get("report_diagnosis", {}).get("subtype")
+                          if not reference.get("cohort_aliases") else {"status":"asserted","value":"cohort"})
+        if legacy_subtype is None:
+            legacy_subtype = reference["subtype"]
+        values = [reference[k] for k in ("broad", "malignancy")] + [legacy_subtype]
+        values += [reference["findings"][k] for k in ("invasion", "necrosis")]
+        n_old = sum(v["status"] == "asserted" and v["value"] is not None for v in values) + int(old["applicable"])
+    n_new = n_old - int(old["applicable"]) + int(g["applicable"])
+    if previous is not None and not diagnosis_only:
+        numerator = round(previous*n_old) - int(old["applicable"] and old["covered"]) + int(g["applicable"] and g["covered"])
+        result["metrics"]["reference_coverage"] = numerator/n_new if n_new else None
+    denominators["eligible_structured_fields"] = n_new
+    assessed = [result["fields"][k] for k in (*DIAGNOSIS_WEIGHTS, "invasion", "necrosis", "grade")
+                if result["fields"][k]["applicable"]]
+    denominators["eligible_structured_fields_v4"] = len(assessed)
+    result["metrics"]["reference_coverage_v4"] = sum(f["covered"] for f in assessed)/len(assessed) if assessed and not diagnosis_only else None
+    result["qa_flags"] = [x for x in result.get("qa_flags", []) if not x.startswith(("prediction.grade.","reference.grade."))]
+    for role, grade in (("prediction",prediction_grade),("reference",reference_grade)):
+        if grade["status"] != "asserted": result["qa_flags"].append(role+".grade."+grade["status"])
     return result

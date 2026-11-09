@@ -8,11 +8,11 @@ bootstrap_replicates,bootstrap_seed,ci95_high,ci95_low,ci_method,ci_status,estim
 4000,20260831,0.8769662990196079,0.8491220588235294,case_percentile_bootstrap,available,0.8630147058823529,mean_of_metric_applicable_case_values,DeepSeek,diagnosis,22,1200,public_expansion1200,ok
 4000,20260831,0.8587254901960785,0.8312254901960785,case_percentile_bootstrap,available,0.8449999999999999,mean_of_metric_applicable_case_values,DeepSeek,diagnosis_cohort,22,1200,public_expansion1200,ok
 4000,20260831,0.44433886797477573,0.398228844180449,case_percentile_bootstrap,available,0.42092098807244244,mean_of_metric_applicable_case_values,DeepSeek,finding_f1,22,997,public_expansion1200,ok
-0,,0.6604545995970253,0.5836842455841902,clopper_pearson,available,0.6226415094339622,mean_of_metric_applicable_case_values,DeepSeek,grade_coverage,17,636,public_expansion1200,ok
+0,,0.6575579499043757,0.5801670717486136,clopper_pearson,available,0.6194267515923567,mean_of_metric_applicable_case_values,DeepSeek,grade_coverage,17,628,public_expansion1200,ok
 0,,0.6662207365205888,0.5899981818322851,clopper_pearson,available,0.6287051482059283,mean_of_metric_applicable_case_values,DeepSeek,invasion,19,641,public_expansion1200,ok
 0,,0.903280475538809,0.8664708853505303,clopper_pearson,available,0.8858333333333334,mean_of_metric_applicable_case_values,DeepSeek,malignancy,22,1200,public_expansion1200,ok
 0,,0.5086112369224253,0.394307742430114,clopper_pearson,available,0.45098039215686275,mean_of_metric_applicable_case_values,DeepSeek,necrosis,15,306,public_expansion1200,ok
-4000,20260831,0.8657086805555555,0.8401805555555556,case_percentile_bootstrap,available,0.8531944444444444,mean_of_metric_applicable_case_values,DeepSeek,reference_coverage_v4,22,1200,public_expansion1200,ok
+4000,20260831,0.8650729166666667,0.8396944444444445,case_percentile_bootstrap,available,0.8526388888888888,mean_of_metric_applicable_case_values,DeepSeek,reference_coverage_v4,22,1200,public_expansion1200,ok
 4000,20260831,0.17334902602423344,0.16701538586988976,case_percentile_bootstrap,available,0.17016567968144083,mean_of_metric_applicable_case_values,DeepSeek,rouge1_f1,22,1200,public_expansion1200,ok
 4000,20260831,0.01857348431967624,0.017305392091173696,case_percentile_bootstrap,available,0.01792752335786214,mean_of_metric_applicable_case_values,DeepSeek,rouge2_f1,22,1200,public_expansion1200,ok
 0,,0.6419177928958856,0.5623715139752707,clopper_pearson,available,0.6026490066225165,mean_of_metric_applicable_case_values,DeepSeek,subtype,19,604,public_expansion1200,ok
@@ -26,11 +26,11 @@ bootstrap_replicates,bootstrap_seed,ci95_high,ci95_low,ci_method,ci_status,estim
 4000,20260831,0.7943600490196079,0.7554553921568627,case_percentile_bootstrap,available,0.7749558823529411,mean_of_metric_applicable_case_values,GLM,diagnosis,22,1200,public_expansion1200,ok
 4000,20260831,0.7642169117647059,0.7262745098039215,case_percentile_bootstrap,available,0.745,mean_of_metric_applicable_case_values,GLM,diagnosis_cohort,22,1200,public_expansion1200,ok
 4000,20260831,0.46471202749663126,0.4185415481654198,case_percentile_bootstrap,available,0.4416108353921794,mean_of_metric_applicable_case_values,GLM,finding_f1,22,997,public_expansion1200,ok
-0,,0.5956586239856425,0.5170211795573993,clopper_pearson,available,0.5566037735849056,mean_of_metric_applicable_case_values,GLM,grade_coverage,17,636,public_expansion1200,ok
+0,,0.6060359568275855,0.527090390859253,clopper_pearson,available,0.5668789808917197,mean_of_metric_applicable_case_values,GLM,grade_coverage,17,628,public_expansion1200,ok
 0,,0.6874703882246963,0.6122276172407808,clopper_pearson,available,0.6505460218408736,mean_of_metric_applicable_case_values,GLM,invasion,19,641,public_expansion1200,ok
 0,,0.8254739136318907,0.7796957276114639,clopper_pearson,available,0.8033333333333333,mean_of_metric_applicable_case_values,GLM,malignancy,22,1200,public_expansion1200,ok
 0,,0.39593028809224584,0.2869440601343306,clopper_pearson,available,0.33986928104575165,mean_of_metric_applicable_case_values,GLM,necrosis,15,306,public_expansion1200,ok
-4000,20260831,0.8196809027777777,0.7895690972222222,case_percentile_bootstrap,available,0.8046944444444445,mean_of_metric_applicable_case_values,GLM,reference_coverage_v4,22,1200,public_expansion1200,ok
+4000,20260831,0.80480625,0.7741652777777778,case_percentile_bootstrap,available,0.7895,mean_of_metric_applicable_case_values,GLM,reference_coverage_v4,22,1200,public_expansion1200,ok
 4000,20260831,0.19419114923988912,0.186003095719112,case_percentile_bootstrap,available,0.18993334748430582,mean_of_metric_applicable_case_values,GLM,rouge1_f1,22,1200,public_expansion1200,ok
 4000,20260831,0.021483057048031523,0.020097915324435903,case_percentile_bootstrap,available,0.02077704675778338,mean_of_metric_applicable_case_values,GLM,rouge2_f1,22,1200,public_expansion1200,ok
 0,,0.5996457239893824,0.5189740963506675,clopper_pearson,available,0.5596026490066225,mean_of_metric_applicable_case_values,GLM,subtype,19,604,public_expansion1200,ok
@@ -62,11 +62,11 @@ bootstrap_replicates,bootstrap_seed,ci95_high,ci95_low,ci_method,ci_status,estim
 4000,20260831,0.871633455882353,0.8479261029411765,case_percentile_bootstrap,available,0.8600686274509803,mean_of_metric_applicable_case_values,PathAgent,diagnosis,22,1200,public_expansion1200,ok
 4000,20260831,0.7776960784313726,0.7529399509803921,case_percentile_bootstrap,available,0.7656372549019608,mean_of_metric_applicable_case_values,PathAgent,diagnosis_cohort,22,1200,public_expansion1200,ok
 4000,20260831,0.24035332187037298,0.19840097673974302,case_percentile_bootstrap,available,0.21886691821496235,mean_of_metric_applicable_case_values,PathAgent,finding_f1,22,997,public_expansion1200,ok
-0,,0.8115000415223793,0.7456257116547934,clopper_pearson,available,0.779874213836478,mean_of_metric_applicable_case_values,PathAgent,grade_coverage,17,636,public_expansion1200,ok
+0,,0.7849332612056477,0.7158663826776116,clopper_pearson,available,0.7515923566878981,mean_of_metric_applicable_case_values,PathAgent,grade_coverage,17,628,public_expansion1200,ok
 0,,0.3141125095488104,0.2433317881895205,clopper_pearson,available,0.27769110764430577,mean_of_metric_applicable_case_values,PathAgent,invasion,19,641,public_expansion1200,ok
 0,,0.9936074522031889,0.9805027206360435,clopper_pearson,available,0.9883333333333333,mean_of_metric_applicable_case_values,PathAgent,malignancy,22,1200,public_expansion1200,ok
 0,,0.18096905650296563,0.1007439522735861,clopper_pearson,available,0.13725490196078433,mean_of_metric_applicable_case_values,PathAgent,necrosis,15,306,public_expansion1200,ok
-4000,20260831,0.8624722222222222,0.8440687499999999,case_percentile_bootstrap,available,0.8532777777777778,mean_of_metric_applicable_case_values,PathAgent,reference_coverage_v4,22,1200,public_expansion1200,ok
+4000,20260831,0.8625708333333333,0.8443055555555555,case_percentile_bootstrap,available,0.8533611111111111,mean_of_metric_applicable_case_values,PathAgent,reference_coverage_v4,22,1200,public_expansion1200,ok
 4000,20260831,0.10159610058903236,0.09633623500737022,case_percentile_bootstrap,available,0.09904628325973436,mean_of_metric_applicable_case_values,PathAgent,rouge1_f1,22,1200,public_expansion1200,ok
 4000,20260831,0.01422568472637284,0.012908835366012627,case_percentile_bootstrap,available,0.013556466535398411,mean_of_metric_applicable_case_values,PathAgent,rouge2_f1,22,1200,public_expansion1200,ok
 0,,0.4326011973383992,0.3532245909806493,clopper_pearson,available,0.3923841059602649,mean_of_metric_applicable_case_values,PathAgent,subtype,19,604,public_expansion1200,ok
@@ -80,11 +80,11 @@ bootstrap_replicates,bootstrap_seed,ci95_high,ci95_low,ci_method,ci_status,estim
 4000,20260831,0.892936274509804,0.8697547794117647,case_percentile_bootstrap,available,0.8816127450980392,mean_of_metric_applicable_case_values,SO1_D1,diagnosis,22,1200,public_expansion1200,ok
 4000,20260831,0.8588725490196077,0.8344117647058823,case_percentile_bootstrap,available,0.8467156862745098,mean_of_metric_applicable_case_values,SO1_D1,diagnosis_cohort,22,1200,public_expansion1200,ok
 4000,20260831,0.4900562202480457,0.4434766203372021,case_percentile_bootstrap,available,0.46697552976389484,mean_of_metric_applicable_case_values,SO1_D1,finding_f1,22,997,public_expansion1200,ok
-0,,0.498748014483866,0.41987209719362684,clopper_pearson,available,0.4591194968553459,mean_of_metric_applicable_case_values,SO1_D1,grade_coverage,17,636,public_expansion1200,ok
+0,,0.5032668614989397,0.42383055827048366,clopper_pearson,available,0.46337579617834396,mean_of_metric_applicable_case_values,SO1_D1,grade_coverage,17,628,public_expansion1200,ok
 0,,0.761145077580723,0.6907272735258353,clopper_pearson,available,0.7269890795631825,mean_of_metric_applicable_case_values,SO1_D1,invasion,19,641,public_expansion1200,ok
 0,,0.9301633079607438,0.897768252616037,clopper_pearson,available,0.915,mean_of_metric_applicable_case_values,SO1_D1,malignancy,22,1200,public_expansion1200,ok
 0,,0.7532815516132615,0.6479740724819033,clopper_pearson,available,0.7026143790849673,mean_of_metric_applicable_case_values,SO1_D1,necrosis,15,306,public_expansion1200,ok
-4000,20260831,0.8755694444444445,0.8555270833333333,case_percentile_bootstrap,available,0.8655694444444445,mean_of_metric_applicable_case_values,SO1_D1,reference_coverage_v4,22,1200,public_expansion1200,ok
+4000,20260831,0.8762781249999999,0.8562482638888889,case_percentile_bootstrap,available,0.8663888888888888,mean_of_metric_applicable_case_values,SO1_D1,reference_coverage_v4,22,1200,public_expansion1200,ok
 4000,20260831,0.19360874584818835,0.1862006044437268,case_percentile_bootstrap,available,0.1898691758750661,mean_of_metric_applicable_case_values,SO1_D1,rouge1_f1,22,1200,public_expansion1200,ok
 4000,20260831,0.022659849722287597,0.021123483851842716,case_percentile_bootstrap,available,0.02188682370299645,mean_of_metric_applicable_case_values,SO1_D1,rouge2_f1,22,1200,public_expansion1200,ok
 0,,0.6208200997284097,0.5406345258065477,clopper_pearson,available,0.5811258278145696,mean_of_metric_applicable_case_values,SO1_D1,subtype,19,604,public_expansion1200,ok
@@ -98,11 +98,11 @@ bootstrap_replicates,bootstrap_seed,ci95_high,ci95_low,ci_method,ci_status,estim
 4000,20260831,0.9084373774509803,0.8871660539215686,case_percentile_bootstrap,available,0.8977549019607842,mean_of_metric_applicable_case_values,SO4_D1,diagnosis,22,1200,public_expansion1200,ok
 4000,20260831,0.8801960784313724,0.8580882352941177,case_percentile_bootstrap,available,0.8690686274509805,mean_of_metric_applicable_case_values,SO4_D1,diagnosis_cohort,22,1200,public_expansion1200,ok
 4000,20260831,0.5110460548311601,0.46449109232459285,case_percentile_bootstrap,available,0.4876422919552308,mean_of_metric_applicable_case_values,SO4_D1,finding_f1,22,997,public_expansion1200,ok
-0,,0.6389352274078606,0.5613840787800406,clopper_pearson,available,0.60062893081761,mean_of_metric_applicable_case_values,SO4_D1,grade_coverage,17,636,public_expansion1200,ok
+0,,0.6606657086843486,0.5833985968313216,clopper_pearson,available,0.6226114649681529,mean_of_metric_applicable_case_values,SO4_D1,grade_coverage,17,628,public_expansion1200,ok
 0,,0.8174074376204581,0.752473172209273,clopper_pearson,available,0.7862714508580343,mean_of_metric_applicable_case_values,SO4_D1,invasion,19,641,public_expansion1200,ok
 0,,0.9339633813506424,0.9022791652739073,clopper_pearson,available,0.9191666666666667,mean_of_metric_applicable_case_values,SO4_D1,malignancy,22,1200,public_expansion1200,ok
 0,,0.7037041539393176,0.5940063857796842,clopper_pearson,available,0.6503267973856209,mean_of_metric_applicable_case_values,SO4_D1,necrosis,15,306,public_expansion1200,ok
-4000,20260831,0.9085562499999998,0.8906378472222224,case_percentile_bootstrap,available,0.8997916666666667,mean_of_metric_applicable_case_values,SO4_D1,reference_coverage_v4,22,1200,public_expansion1200,ok
+4000,20260831,0.9115003472222222,0.8933746527777777,case_percentile_bootstrap,available,0.9025694444444444,mean_of_metric_applicable_case_values,SO4_D1,reference_coverage_v4,22,1200,public_expansion1200,ok
 4000,20260831,0.19223304664648205,0.18474495009554087,case_percentile_bootstrap,available,0.18840229546320808,mean_of_metric_applicable_case_values,SO4_D1,rouge1_f1,22,1200,public_expansion1200,ok
 4000,20260831,0.022435643222709106,0.020835878570861888,case_percentile_bootstrap,available,0.021628368097796943,mean_of_metric_applicable_case_values,SO4_D1,rouge2_f1,22,1200,public_expansion1200,ok
 0,,0.6613228689463853,0.5825059998751467,clopper_pearson,available,0.6225165562913907,mean_of_metric_applicable_case_values,SO4_D1,subtype,19,604,public_expansion1200,ok
@@ -116,11 +116,11 @@ bootstrap_replicates,bootstrap_seed,ci95_high,ci95_low,ci_method,ci_status,estim
 4000,20260831,0.5698549019607844,0.5252639705882353,case_percentile_bootstrap,available,0.5468823529411765,mean_of_metric_applicable_case_values,Visual + MedGemma,diagnosis,22,1200,public_expansion1200,ok
 4000,20260831,0.4465220588235294,0.41352941176470587,case_percentile_bootstrap,available,0.4301470588235295,mean_of_metric_applicable_case_values,Visual + MedGemma,diagnosis_cohort,22,1200,public_expansion1200,ok
 4000,20260831,0.39701905319132,0.35116406759962426,case_percentile_bootstrap,available,0.3743667510467911,mean_of_metric_applicable_case_values,Visual + MedGemma,finding_f1,22,997,public_expansion1200,ok
-0,,0.5003228029381879,0.42142730206658574,clopper_pearson,available,0.4606918238993711,mean_of_metric_applicable_case_values,Visual + MedGemma,grade_coverage,17,636,public_expansion1200,ok
+0,,0.48251178163764946,0.4033798866383942,clopper_pearson,available,0.4426751592356688,mean_of_metric_applicable_case_values,Visual + MedGemma,grade_coverage,17,628,public_expansion1200,ok
 0,,0.6311345346666368,0.5536540291585037,clopper_pearson,available,0.592823712948518,mean_of_metric_applicable_case_values,Visual + MedGemma,invasion,19,641,public_expansion1200,ok
 0,,0.6908748636935691,0.6366512819439172,clopper_pearson,available,0.6641666666666667,mean_of_metric_applicable_case_values,Visual + MedGemma,malignancy,22,1200,public_expansion1200,ok
 0,,0.6216632503042072,0.5077779360935302,clopper_pearson,available,0.565359477124183,mean_of_metric_applicable_case_values,Visual + MedGemma,necrosis,15,306,public_expansion1200,ok
-4000,20260831,0.69593125,0.6559565972222222,case_percentile_bootstrap,available,0.6755000000000001,mean_of_metric_applicable_case_values,Visual + MedGemma,reference_coverage_v4,22,1200,public_expansion1200,ok
+4000,20260831,0.6961965277777777,0.656332986111111,case_percentile_bootstrap,available,0.67625,mean_of_metric_applicable_case_values,Visual + MedGemma,reference_coverage_v4,22,1200,public_expansion1200,ok
 4000,20260831,0.13414079026636522,0.12740497009075913,case_percentile_bootstrap,available,0.13083330063398718,mean_of_metric_applicable_case_values,Visual + MedGemma,rouge1_f1,22,1200,public_expansion1200,ok
 4000,20260831,0.011097495263536452,0.009966729389643773,case_percentile_bootstrap,available,0.01052707271432712,mean_of_metric_applicable_case_values,Visual + MedGemma,rouge2_f1,22,1200,public_expansion1200,ok
 0,,0.08345093620187953,0.04349454172193728,clopper_pearson,available,0.061258278145695365,mean_of_metric_applicable_case_values,Visual + MedGemma,subtype,19,604,public_expansion1200,ok
@@ -134,11 +134,11 @@ bootstrap_replicates,bootstrap_seed,ci95_high,ci95_low,ci_method,ci_status,estim
 4000,20260831,0.8971524509803921,0.8748476715686274,case_percentile_bootstrap,available,0.8860196078431373,mean_of_metric_applicable_case_values,Visual + Qwen,diagnosis,22,1200,public_expansion1200,ok
 4000,20260831,0.8600980392156862,0.8353431372549021,case_percentile_bootstrap,available,0.8477941176470588,mean_of_metric_applicable_case_values,Visual + Qwen,diagnosis_cohort,22,1200,public_expansion1200,ok
 4000,20260831,0.4541692320829734,0.4063129920063219,case_percentile_bootstrap,available,0.43016531557153415,mean_of_metric_applicable_case_values,Visual + Qwen,finding_f1,22,997,public_expansion1200,ok
-0,,0.40033686008555713,0.3242247425155986,clopper_pearson,available,0.36163522012578614,mean_of_metric_applicable_case_values,Visual + Qwen,grade_coverage,17,636,public_expansion1200,ok
+0,,0.3939317282939799,0.3176291054754171,clopper_pearson,available,0.35509554140127386,mean_of_metric_applicable_case_values,Visual + Qwen,grade_coverage,17,628,public_expansion1200,ok
 0,,0.7506917443992296,0.6794417227689538,clopper_pearson,available,0.7160686427457098,mean_of_metric_applicable_case_values,Visual + Qwen,invasion,19,641,public_expansion1200,ok
 0,,0.9232950879986116,0.8896763441946431,clopper_pearson,available,0.9075,mean_of_metric_applicable_case_values,Visual + Qwen,malignancy,22,1200,public_expansion1200,ok
 0,,0.48893695466179515,0.37514984283683506,clopper_pearson,available,0.43137254901960786,mean_of_metric_applicable_case_values,Visual + Qwen,necrosis,15,306,public_expansion1200,ok
-4000,20260831,0.8555569444444445,0.8336663194444446,case_percentile_bootstrap,available,0.8444583333333333,mean_of_metric_applicable_case_values,Visual + Qwen,reference_coverage_v4,22,1200,public_expansion1200,ok
+4000,20260831,0.8555576388888887,0.8336666666666667,case_percentile_bootstrap,available,0.8445555555555556,mean_of_metric_applicable_case_values,Visual + Qwen,reference_coverage_v4,22,1200,public_expansion1200,ok
 4000,20260831,0.18623149518519524,0.1791228957450991,case_percentile_bootstrap,available,0.1826346068563602,mean_of_metric_applicable_case_values,Visual + Qwen,rouge1_f1,22,1200,public_expansion1200,ok
 4000,20260831,0.021323256763728246,0.01984147245661539,case_percentile_bootstrap,available,0.020583394000379066,mean_of_metric_applicable_case_values,Visual + Qwen,rouge2_f1,22,1200,public_expansion1200,ok
 0,,0.6289437655608972,0.5489857541224241,clopper_pearson,available,0.5894039735099338,mean_of_metric_applicable_case_values,Visual + Qwen,subtype,19,604,public_expansion1200,ok

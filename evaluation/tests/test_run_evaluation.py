@@ -40,12 +40,12 @@ class ReportEvaluationTests(unittest.TestCase):
             report.write_text("<main><h2>Diagnosis</h2><p>Clear cell renal cell carcinoma.</p></main>", encoding="utf-8")
             reference.write_text("Diagnosis: Clear cell renal cell carcinoma.", encoding="utf-8")
             result = evaluate_paths(report, reference, cancer_type="TCGA-KIRC")
-        self.assertEqual(result["schema"], "eval_v4_report_only_20261104_r6_candidate")
+        self.assertEqual(result["schema"], "eval_v4_report_only_20261109_r7")
         self.assertEqual(result["fields"]["subtype"]["score"], 1.0)
         self.assertEqual(result["fields"]["cohort_compatibility"]["score"], 1.0)
         self.assertEqual(result["run_metadata"]["cancer_type_context"], "TCGA-KIRC")
         self.assertEqual(len(result["run_metadata"]["reference_sha256"]), 64)
-        self.assertEqual(len(result["run_metadata"]["evaluator_source_sha256"]), 5)
+        self.assertEqual(len(result["run_metadata"]["evaluator_source_sha256"]), 6)
         self.assertIn("diagnostic_text.py", result["run_metadata"]["evaluator_source_sha256"])
 
 

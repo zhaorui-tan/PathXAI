@@ -1,6 +1,6 @@
 # Report evaluation
 
-This package runs the frozen manuscript report evaluator locally using only the Python standard library. It makes no model/API calls and generates no reports. The five modules in `evaluation/vendor/` are byte-identical to `evidence/report_eval_v4_20261104_r6/code/`, selected by the manuscript publication completion receipt dated 2026-11-05. The exact internal version is `eval_v4_report_only_20261104_r6_candidate`; the `candidate` suffix is retained for reproducibility and identifies the frozen manuscript implementation. `evaluation/version.json` records all five source hashes.
+This package runs the current manuscript report evaluator locally using only the Python standard library. It makes no model/API calls and generates no reports. The six implementation modules in `evaluation/vendor/` match the manuscript revision `eval_v4_report_only_20261109_r7`. `evaluation/version.json` records their source hashes. This revision corrects grade extraction and rescores existing reports; diagnosis and morphology rules are unchanged.
 
 ## Inputs and run
 
@@ -48,6 +48,14 @@ Additional diagnostic composites are retained: `metrics.diagnosis` (also `manusc
 Missing, uncertain and conflicting predictions are counted separately. Assertions on undocumented reference findings are unverified; they are not included in A/C/E. **The manuscript Finding contradiction rate is `manuscript_metrics.findings.contradiction_asserted` (E/A).** The preserved legacy `metrics.contradiction_rate` uses D as its denominator; it is not the manuscript Finding contradiction rate.
 
 `manuscript_metrics.grade` retains per-case exact, ordinal and compatible-coverage outputs. **Balanced grade accuracy** (`class_balanced_grade`) requires a cohort: within each grading system, compute exact correctness within each represented reference grade, then average those grade-specific accuracies equally. Missing/incompatible predictions count as incorrect; grading systems are reported separately. A single report/reference pair cannot determine that cohort score, so this wrapper returns `null` for it. Per-case exact and ordinal values are sensitivity inputs. This package does not add cohort aggregation or confidence interval estimation. Individual output cannot provide a cohort percentage or its confidence interval; those require the applicable case set and the manuscript's metric-specific interval procedure.
+
+## Grade extraction
+
+The same rules apply to reference and generated reports. Anatomy distinguishes renal WHO/ISUP grades (1–4) from prostate ISUP Grade Groups (1–5), scopes explicit primary-lesion sections and excludes grades of another organ. Four-tier and three-tier nuclear grades remain separate. Generic grades are not converted into named systems based on the reference.
+
+Numeric and descriptive ranges remain uncertain; their endpoints are not exact grades. Unavailable, conflicting and hypothetical grades do not provide a definite answer. A definite grade is retained when a hedged repetition gives the same value, but a different possible value or range remains ambiguous. Explicit Gleason and prostate Grade Group values are retained separately without numerical conversion; the reference Grade Group is used when both are recorded.
+
+Per-case outputs retain extraction evidence and per-system assertions. Grade-dependent completeness uses the corrected fields. Unassessable reference grades are inapplicable; missing or incompatible predictions receive zero on eligible cases. Thus zero agreement can reflect missing answers or a different grading system as well as an incorrect value.
 
 ## Interpretation and provenance
 

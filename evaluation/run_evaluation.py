@@ -133,7 +133,7 @@ def evaluate_paths(report_path: Path, reference_path: Path, *, cancer_type: str 
         "reference_sha256": _sha256(reference_path),
         "evaluator_source_sha256": {
             name: _sha256(Path(__file__).resolve().parent / "vendor" / name)
-            for name in ("eval_v3.py", "eval_v4.py", "diagnostic_text.py", "subtype_ontology_v4.py", "tcga_ground_truth.py")
+            for name in ("eval_v3.py", "eval_v4.py", "grade_v4.py", "diagnostic_text.py", "subtype_ontology_v4.py", "tcga_ground_truth.py")
         },
         "manuscript_metrics_source_sha256": _sha256(Path(__file__).resolve().parent / "manuscript_metrics.py"),
         "cancer_type_context": cancer_type,

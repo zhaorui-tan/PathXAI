@@ -1,640 +1,640 @@
-scope,method,stratum,cohort_cases,reference_grade_available,reference_grade_unavailable,histologic3,nuclear3,fuhrman4,who4,isup5,gleason10
-public_development456,DeepSeek,ALL,456,191,265,174,1,12,4,0,0
-public_development456,DeepSeek,TCGA-ACC,17,4,13,3,0,1,0,0,0
-public_development456,DeepSeek,TCGA-BLCA,17,17,0,17,0,0,0,0,0
-public_development456,DeepSeek,TCGA-BRCA,17,9,8,9,0,0,0,0,0
-public_development456,DeepSeek,TCGA-CESC,17,11,6,11,0,0,0,0,0
-public_development456,DeepSeek,TCGA-COAD,16,12,4,12,0,0,0,0,0
-public_development456,DeepSeek,TCGA-DLBC,17,1,16,1,0,0,0,0,0
-public_development456,DeepSeek,TCGA-ESCA,17,14,3,14,0,0,0,0,0
-public_development456,DeepSeek,TCGA-HNSC,17,15,2,15,0,0,0,0,0
-public_development456,DeepSeek,TCGA-KICH,17,0,17,0,0,0,0,0,0
-public_development456,DeepSeek,TCGA-KIRC,17,5,12,0,0,5,0,0,0
-public_development456,DeepSeek,TCGA-KIRP,17,7,10,1,0,6,0,0,0
-public_development456,DeepSeek,TCGA-LGG,17,5,12,1,0,0,4,0,0
-public_development456,DeepSeek,TCGA-LIHC,17,7,10,7,0,0,0,0,0
-public_development456,DeepSeek,TCGA-LUAD,17,10,7,10,0,0,0,0,0
-public_development456,DeepSeek,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_development456,DeepSeek,TCGA-MESO,15,0,15,0,0,0,0,0,0
-public_development456,DeepSeek,TCGA-OV,17,13,4,13,0,0,0,0,0
-public_development456,DeepSeek,TCGA-PRAD,17,12,5,12,0,0,0,0,0
-public_development456,DeepSeek,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_development456,DeepSeek,TCGA-SKCM,17,0,17,0,0,0,0,0,0
-public_development456,DeepSeek,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_development456,DeepSeek,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_development456,DeepSeek,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_development456,DeepSeek,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_development456,DeepSeek,TCGA-UCEC,17,6,11,5,1,0,0,0,0
-public_development456,DeepSeek,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_development456,DeepSeek,TCGA-UVM,17,0,17,0,0,0,0,0,0
-public_development456,GLM,ALL,456,191,265,174,1,12,4,0,0
-public_development456,GLM,TCGA-ACC,17,4,13,3,0,1,0,0,0
-public_development456,GLM,TCGA-BLCA,17,17,0,17,0,0,0,0,0
-public_development456,GLM,TCGA-BRCA,17,9,8,9,0,0,0,0,0
-public_development456,GLM,TCGA-CESC,17,11,6,11,0,0,0,0,0
-public_development456,GLM,TCGA-COAD,16,12,4,12,0,0,0,0,0
-public_development456,GLM,TCGA-DLBC,17,1,16,1,0,0,0,0,0
-public_development456,GLM,TCGA-ESCA,17,14,3,14,0,0,0,0,0
-public_development456,GLM,TCGA-HNSC,17,15,2,15,0,0,0,0,0
-public_development456,GLM,TCGA-KICH,17,0,17,0,0,0,0,0,0
-public_development456,GLM,TCGA-KIRC,17,5,12,0,0,5,0,0,0
-public_development456,GLM,TCGA-KIRP,17,7,10,1,0,6,0,0,0
-public_development456,GLM,TCGA-LGG,17,5,12,1,0,0,4,0,0
-public_development456,GLM,TCGA-LIHC,17,7,10,7,0,0,0,0,0
-public_development456,GLM,TCGA-LUAD,17,10,7,10,0,0,0,0,0
-public_development456,GLM,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_development456,GLM,TCGA-MESO,15,0,15,0,0,0,0,0,0
-public_development456,GLM,TCGA-OV,17,13,4,13,0,0,0,0,0
-public_development456,GLM,TCGA-PRAD,17,12,5,12,0,0,0,0,0
-public_development456,GLM,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_development456,GLM,TCGA-SKCM,17,0,17,0,0,0,0,0,0
-public_development456,GLM,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_development456,GLM,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_development456,GLM,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_development456,GLM,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_development456,GLM,TCGA-UCEC,17,6,11,5,1,0,0,0,0
-public_development456,GLM,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_development456,GLM,TCGA-UVM,17,0,17,0,0,0,0,0,0
-public_development456,PathAgent,ALL,456,191,265,174,1,12,4,0,0
-public_development456,PathAgent,TCGA-ACC,17,4,13,3,0,1,0,0,0
-public_development456,PathAgent,TCGA-BLCA,17,17,0,17,0,0,0,0,0
-public_development456,PathAgent,TCGA-BRCA,17,9,8,9,0,0,0,0,0
-public_development456,PathAgent,TCGA-CESC,17,11,6,11,0,0,0,0,0
-public_development456,PathAgent,TCGA-COAD,16,12,4,12,0,0,0,0,0
-public_development456,PathAgent,TCGA-DLBC,17,1,16,1,0,0,0,0,0
-public_development456,PathAgent,TCGA-ESCA,17,14,3,14,0,0,0,0,0
-public_development456,PathAgent,TCGA-HNSC,17,15,2,15,0,0,0,0,0
-public_development456,PathAgent,TCGA-KICH,17,0,17,0,0,0,0,0,0
-public_development456,PathAgent,TCGA-KIRC,17,5,12,0,0,5,0,0,0
-public_development456,PathAgent,TCGA-KIRP,17,7,10,1,0,6,0,0,0
-public_development456,PathAgent,TCGA-LGG,17,5,12,1,0,0,4,0,0
-public_development456,PathAgent,TCGA-LIHC,17,7,10,7,0,0,0,0,0
-public_development456,PathAgent,TCGA-LUAD,17,10,7,10,0,0,0,0,0
-public_development456,PathAgent,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_development456,PathAgent,TCGA-MESO,15,0,15,0,0,0,0,0,0
-public_development456,PathAgent,TCGA-OV,17,13,4,13,0,0,0,0,0
-public_development456,PathAgent,TCGA-PRAD,17,12,5,12,0,0,0,0,0
-public_development456,PathAgent,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_development456,PathAgent,TCGA-SKCM,17,0,17,0,0,0,0,0,0
-public_development456,PathAgent,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_development456,PathAgent,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_development456,PathAgent,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_development456,PathAgent,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_development456,PathAgent,TCGA-UCEC,17,6,11,5,1,0,0,0,0
-public_development456,PathAgent,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_development456,PathAgent,TCGA-UVM,17,0,17,0,0,0,0,0,0
-public_development456,SO1_D1,ALL,456,191,265,174,1,12,4,0,0
-public_development456,SO1_D1,TCGA-ACC,17,4,13,3,0,1,0,0,0
-public_development456,SO1_D1,TCGA-BLCA,17,17,0,17,0,0,0,0,0
-public_development456,SO1_D1,TCGA-BRCA,17,9,8,9,0,0,0,0,0
-public_development456,SO1_D1,TCGA-CESC,17,11,6,11,0,0,0,0,0
-public_development456,SO1_D1,TCGA-COAD,16,12,4,12,0,0,0,0,0
-public_development456,SO1_D1,TCGA-DLBC,17,1,16,1,0,0,0,0,0
-public_development456,SO1_D1,TCGA-ESCA,17,14,3,14,0,0,0,0,0
-public_development456,SO1_D1,TCGA-HNSC,17,15,2,15,0,0,0,0,0
-public_development456,SO1_D1,TCGA-KICH,17,0,17,0,0,0,0,0,0
-public_development456,SO1_D1,TCGA-KIRC,17,5,12,0,0,5,0,0,0
-public_development456,SO1_D1,TCGA-KIRP,17,7,10,1,0,6,0,0,0
-public_development456,SO1_D1,TCGA-LGG,17,5,12,1,0,0,4,0,0
-public_development456,SO1_D1,TCGA-LIHC,17,7,10,7,0,0,0,0,0
-public_development456,SO1_D1,TCGA-LUAD,17,10,7,10,0,0,0,0,0
-public_development456,SO1_D1,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_development456,SO1_D1,TCGA-MESO,15,0,15,0,0,0,0,0,0
-public_development456,SO1_D1,TCGA-OV,17,13,4,13,0,0,0,0,0
-public_development456,SO1_D1,TCGA-PRAD,17,12,5,12,0,0,0,0,0
-public_development456,SO1_D1,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_development456,SO1_D1,TCGA-SKCM,17,0,17,0,0,0,0,0,0
-public_development456,SO1_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_development456,SO1_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_development456,SO1_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_development456,SO1_D1,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_development456,SO1_D1,TCGA-UCEC,17,6,11,5,1,0,0,0,0
-public_development456,SO1_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_development456,SO1_D1,TCGA-UVM,17,0,17,0,0,0,0,0,0
-public_development456,SO4_D1,ALL,456,191,265,174,1,12,4,0,0
-public_development456,SO4_D1,TCGA-ACC,17,4,13,3,0,1,0,0,0
-public_development456,SO4_D1,TCGA-BLCA,17,17,0,17,0,0,0,0,0
-public_development456,SO4_D1,TCGA-BRCA,17,9,8,9,0,0,0,0,0
-public_development456,SO4_D1,TCGA-CESC,17,11,6,11,0,0,0,0,0
-public_development456,SO4_D1,TCGA-COAD,16,12,4,12,0,0,0,0,0
-public_development456,SO4_D1,TCGA-DLBC,17,1,16,1,0,0,0,0,0
-public_development456,SO4_D1,TCGA-ESCA,17,14,3,14,0,0,0,0,0
-public_development456,SO4_D1,TCGA-HNSC,17,15,2,15,0,0,0,0,0
-public_development456,SO4_D1,TCGA-KICH,17,0,17,0,0,0,0,0,0
-public_development456,SO4_D1,TCGA-KIRC,17,5,12,0,0,5,0,0,0
-public_development456,SO4_D1,TCGA-KIRP,17,7,10,1,0,6,0,0,0
-public_development456,SO4_D1,TCGA-LGG,17,5,12,1,0,0,4,0,0
-public_development456,SO4_D1,TCGA-LIHC,17,7,10,7,0,0,0,0,0
-public_development456,SO4_D1,TCGA-LUAD,17,10,7,10,0,0,0,0,0
-public_development456,SO4_D1,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_development456,SO4_D1,TCGA-MESO,15,0,15,0,0,0,0,0,0
-public_development456,SO4_D1,TCGA-OV,17,13,4,13,0,0,0,0,0
-public_development456,SO4_D1,TCGA-PRAD,17,12,5,12,0,0,0,0,0
-public_development456,SO4_D1,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_development456,SO4_D1,TCGA-SKCM,17,0,17,0,0,0,0,0,0
-public_development456,SO4_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_development456,SO4_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_development456,SO4_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_development456,SO4_D1,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_development456,SO4_D1,TCGA-UCEC,17,6,11,5,1,0,0,0,0
-public_development456,SO4_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_development456,SO4_D1,TCGA-UVM,17,0,17,0,0,0,0,0,0
-public_development456,Visual + MedGemma,ALL,456,191,265,174,1,12,4,0,0
-public_development456,Visual + MedGemma,TCGA-ACC,17,4,13,3,0,1,0,0,0
-public_development456,Visual + MedGemma,TCGA-BLCA,17,17,0,17,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-BRCA,17,9,8,9,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-CESC,17,11,6,11,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-COAD,16,12,4,12,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-DLBC,17,1,16,1,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-ESCA,17,14,3,14,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-HNSC,17,15,2,15,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-KICH,17,0,17,0,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-KIRC,17,5,12,0,0,5,0,0,0
-public_development456,Visual + MedGemma,TCGA-KIRP,17,7,10,1,0,6,0,0,0
-public_development456,Visual + MedGemma,TCGA-LGG,17,5,12,1,0,0,4,0,0
-public_development456,Visual + MedGemma,TCGA-LIHC,17,7,10,7,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-LUAD,17,10,7,10,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-MESO,15,0,15,0,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-OV,17,13,4,13,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-PRAD,17,12,5,12,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-SKCM,17,0,17,0,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-UCEC,17,6,11,5,1,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_development456,Visual + MedGemma,TCGA-UVM,17,0,17,0,0,0,0,0,0
-public_development456,Visual + Qwen,ALL,456,191,265,174,1,12,4,0,0
-public_development456,Visual + Qwen,TCGA-ACC,17,4,13,3,0,1,0,0,0
-public_development456,Visual + Qwen,TCGA-BLCA,17,17,0,17,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-BRCA,17,9,8,9,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-CESC,17,11,6,11,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-COAD,16,12,4,12,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-DLBC,17,1,16,1,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-ESCA,17,14,3,14,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-HNSC,17,15,2,15,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-KICH,17,0,17,0,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-KIRC,17,5,12,0,0,5,0,0,0
-public_development456,Visual + Qwen,TCGA-KIRP,17,7,10,1,0,6,0,0,0
-public_development456,Visual + Qwen,TCGA-LGG,17,5,12,1,0,0,4,0,0
-public_development456,Visual + Qwen,TCGA-LIHC,17,7,10,7,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-LUAD,17,10,7,10,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-MESO,15,0,15,0,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-OV,17,13,4,13,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-PRAD,17,12,5,12,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-SKCM,17,0,17,0,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-UCEC,17,6,11,5,1,0,0,0,0
-public_development456,Visual + Qwen,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_development456,Visual + Qwen,TCGA-UVM,17,0,17,0,0,0,0,0,0
-public_evaluation1200,DeepSeek,ALL,1200,636,564,497,20,95,21,1,2
-public_evaluation1200,DeepSeek,TCGA-ACC,29,12,17,11,0,1,0,0,0
-public_evaluation1200,DeepSeek,TCGA-BLCA,132,90,42,89,0,0,0,0,1
-public_evaluation1200,DeepSeek,TCGA-BRCA,132,72,60,67,5,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-CESC,132,73,59,73,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-COAD,3,3,0,3,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-DLBC,17,0,17,0,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-ESCA,129,64,65,64,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-HNSC,132,94,38,94,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-KICH,62,31,31,9,4,18,0,0,0
-public_evaluation1200,DeepSeek,TCGA-KIRC,132,51,81,9,7,35,0,0,0
-public_evaluation1200,DeepSeek,TCGA-KIRP,132,73,59,28,3,41,0,1,0
-public_evaluation1200,DeepSeek,TCGA-LGG,131,57,74,36,0,0,21,0,0
-public_evaluation1200,DeepSeek,TCGA-LIHC,1,1,0,1,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-LUAD,1,1,0,1,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-MESO,2,0,2,0,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-OV,1,1,0,1,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-PRAD,3,2,1,1,0,0,0,0,1
-public_evaluation1200,DeepSeek,TCGA-SKCM,3,0,3,0,0,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-UCEC,2,2,0,1,1,0,0,0,0
-public_evaluation1200,DeepSeek,TCGA-UVM,6,0,6,0,0,0,0,0,0
-public_evaluation1200,GLM,ALL,1200,636,564,497,20,95,21,1,2
-public_evaluation1200,GLM,TCGA-ACC,29,12,17,11,0,1,0,0,0
-public_evaluation1200,GLM,TCGA-BLCA,132,90,42,89,0,0,0,0,1
-public_evaluation1200,GLM,TCGA-BRCA,132,72,60,67,5,0,0,0,0
-public_evaluation1200,GLM,TCGA-CESC,132,73,59,73,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-COAD,3,3,0,3,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-DLBC,17,0,17,0,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-ESCA,129,64,65,64,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-HNSC,132,94,38,94,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-KICH,62,31,31,9,4,18,0,0,0
-public_evaluation1200,GLM,TCGA-KIRC,132,51,81,9,7,35,0,0,0
-public_evaluation1200,GLM,TCGA-KIRP,132,73,59,28,3,41,0,1,0
-public_evaluation1200,GLM,TCGA-LGG,131,57,74,36,0,0,21,0,0
-public_evaluation1200,GLM,TCGA-LIHC,1,1,0,1,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-LUAD,1,1,0,1,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-MESO,2,0,2,0,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-OV,1,1,0,1,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-PRAD,3,2,1,1,0,0,0,0,1
-public_evaluation1200,GLM,TCGA-SKCM,3,0,3,0,0,0,0,0,0
-public_evaluation1200,GLM,TCGA-UCEC,2,2,0,1,1,0,0,0,0
-public_evaluation1200,GLM,TCGA-UVM,6,0,6,0,0,0,0,0,0
-public_evaluation1200,PathAgent,ALL,1200,636,564,497,20,95,21,1,2
-public_evaluation1200,PathAgent,TCGA-ACC,29,12,17,11,0,1,0,0,0
-public_evaluation1200,PathAgent,TCGA-BLCA,132,90,42,89,0,0,0,0,1
-public_evaluation1200,PathAgent,TCGA-BRCA,132,72,60,67,5,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-CESC,132,73,59,73,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-COAD,3,3,0,3,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-DLBC,17,0,17,0,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-ESCA,129,64,65,64,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-HNSC,132,94,38,94,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-KICH,62,31,31,9,4,18,0,0,0
-public_evaluation1200,PathAgent,TCGA-KIRC,132,51,81,9,7,35,0,0,0
-public_evaluation1200,PathAgent,TCGA-KIRP,132,73,59,28,3,41,0,1,0
-public_evaluation1200,PathAgent,TCGA-LGG,131,57,74,36,0,0,21,0,0
-public_evaluation1200,PathAgent,TCGA-LIHC,1,1,0,1,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-LUAD,1,1,0,1,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-MESO,2,0,2,0,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-OV,1,1,0,1,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-PRAD,3,2,1,1,0,0,0,0,1
-public_evaluation1200,PathAgent,TCGA-SKCM,3,0,3,0,0,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-UCEC,2,2,0,1,1,0,0,0,0
-public_evaluation1200,PathAgent,TCGA-UVM,6,0,6,0,0,0,0,0,0
-public_evaluation1200,SO1_D1,ALL,1200,636,564,497,20,95,21,1,2
-public_evaluation1200,SO1_D1,TCGA-ACC,29,12,17,11,0,1,0,0,0
-public_evaluation1200,SO1_D1,TCGA-BLCA,132,90,42,89,0,0,0,0,1
-public_evaluation1200,SO1_D1,TCGA-BRCA,132,72,60,67,5,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-CESC,132,73,59,73,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-COAD,3,3,0,3,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-DLBC,17,0,17,0,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-ESCA,129,64,65,64,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-HNSC,132,94,38,94,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-KICH,62,31,31,9,4,18,0,0,0
-public_evaluation1200,SO1_D1,TCGA-KIRC,132,51,81,9,7,35,0,0,0
-public_evaluation1200,SO1_D1,TCGA-KIRP,132,73,59,28,3,41,0,1,0
-public_evaluation1200,SO1_D1,TCGA-LGG,131,57,74,36,0,0,21,0,0
-public_evaluation1200,SO1_D1,TCGA-LIHC,1,1,0,1,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-LUAD,1,1,0,1,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-MESO,2,0,2,0,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-OV,1,1,0,1,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-PRAD,3,2,1,1,0,0,0,0,1
-public_evaluation1200,SO1_D1,TCGA-SKCM,3,0,3,0,0,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-UCEC,2,2,0,1,1,0,0,0,0
-public_evaluation1200,SO1_D1,TCGA-UVM,6,0,6,0,0,0,0,0,0
-public_evaluation1200,SO4_D1,ALL,1200,636,564,497,20,95,21,1,2
-public_evaluation1200,SO4_D1,TCGA-ACC,29,12,17,11,0,1,0,0,0
-public_evaluation1200,SO4_D1,TCGA-BLCA,132,90,42,89,0,0,0,0,1
-public_evaluation1200,SO4_D1,TCGA-BRCA,132,72,60,67,5,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-CESC,132,73,59,73,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-COAD,3,3,0,3,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-DLBC,17,0,17,0,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-ESCA,129,64,65,64,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-HNSC,132,94,38,94,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-KICH,62,31,31,9,4,18,0,0,0
-public_evaluation1200,SO4_D1,TCGA-KIRC,132,51,81,9,7,35,0,0,0
-public_evaluation1200,SO4_D1,TCGA-KIRP,132,73,59,28,3,41,0,1,0
-public_evaluation1200,SO4_D1,TCGA-LGG,131,57,74,36,0,0,21,0,0
-public_evaluation1200,SO4_D1,TCGA-LIHC,1,1,0,1,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-LUAD,1,1,0,1,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-MESO,2,0,2,0,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-OV,1,1,0,1,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-PRAD,3,2,1,1,0,0,0,0,1
-public_evaluation1200,SO4_D1,TCGA-SKCM,3,0,3,0,0,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-UCEC,2,2,0,1,1,0,0,0,0
-public_evaluation1200,SO4_D1,TCGA-UVM,6,0,6,0,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,ALL,1200,636,564,497,20,95,21,1,2
-public_evaluation1200,Visual + MedGemma,TCGA-ACC,29,12,17,11,0,1,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-BLCA,132,90,42,89,0,0,0,0,1
-public_evaluation1200,Visual + MedGemma,TCGA-BRCA,132,72,60,67,5,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-CESC,132,73,59,73,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-COAD,3,3,0,3,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-DLBC,17,0,17,0,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-ESCA,129,64,65,64,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-HNSC,132,94,38,94,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-KICH,62,31,31,9,4,18,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-KIRC,132,51,81,9,7,35,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-KIRP,132,73,59,28,3,41,0,1,0
-public_evaluation1200,Visual + MedGemma,TCGA-LGG,131,57,74,36,0,0,21,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-LIHC,1,1,0,1,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-LUAD,1,1,0,1,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-MESO,2,0,2,0,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-OV,1,1,0,1,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-PRAD,3,2,1,1,0,0,0,0,1
-public_evaluation1200,Visual + MedGemma,TCGA-SKCM,3,0,3,0,0,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-UCEC,2,2,0,1,1,0,0,0,0
-public_evaluation1200,Visual + MedGemma,TCGA-UVM,6,0,6,0,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,ALL,1200,636,564,497,20,95,21,1,2
-public_evaluation1200,Visual + Qwen,TCGA-ACC,29,12,17,11,0,1,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-BLCA,132,90,42,89,0,0,0,0,1
-public_evaluation1200,Visual + Qwen,TCGA-BRCA,132,72,60,67,5,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-CESC,132,73,59,73,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-COAD,3,3,0,3,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-DLBC,17,0,17,0,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-ESCA,129,64,65,64,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-HNSC,132,94,38,94,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-KICH,62,31,31,9,4,18,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-KIRC,132,51,81,9,7,35,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-KIRP,132,73,59,28,3,41,0,1,0
-public_evaluation1200,Visual + Qwen,TCGA-LGG,131,57,74,36,0,0,21,0,0
-public_evaluation1200,Visual + Qwen,TCGA-LIHC,1,1,0,1,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-LUAD,1,1,0,1,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-MESO,2,0,2,0,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-OV,1,1,0,1,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-PRAD,3,2,1,1,0,0,0,0,1
-public_evaluation1200,Visual + Qwen,TCGA-SKCM,3,0,3,0,0,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-UCEC,2,2,0,1,1,0,0,0,0
-public_evaluation1200,Visual + Qwen,TCGA-UVM,6,0,6,0,0,0,0,0,0
-public_combined1656,DeepSeek,ALL,1656,827,829,671,21,107,25,1,2
-public_combined1656,DeepSeek,TCGA-ACC,46,16,30,14,0,2,0,0,0
-public_combined1656,DeepSeek,TCGA-BLCA,149,107,42,106,0,0,0,0,1
-public_combined1656,DeepSeek,TCGA-BRCA,149,81,68,76,5,0,0,0,0
-public_combined1656,DeepSeek,TCGA-CESC,149,84,65,84,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-COAD,19,15,4,15,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-DLBC,34,1,33,1,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-ESCA,146,78,68,78,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-HNSC,149,109,40,109,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-KICH,79,31,48,9,4,18,0,0,0
-public_combined1656,DeepSeek,TCGA-KIRC,149,56,93,9,7,40,0,0,0
-public_combined1656,DeepSeek,TCGA-KIRP,149,80,69,29,3,47,0,1,0
-public_combined1656,DeepSeek,TCGA-LGG,148,62,86,37,0,0,25,0,0
-public_combined1656,DeepSeek,TCGA-LIHC,18,8,10,8,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-LUAD,18,11,7,11,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-MESO,17,0,17,0,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-OV,18,14,4,14,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-PRAD,20,14,6,13,0,0,0,0,1
-public_combined1656,DeepSeek,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-SKCM,20,0,20,0,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-UCEC,19,8,11,6,2,0,0,0,0
-public_combined1656,DeepSeek,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_combined1656,DeepSeek,TCGA-UVM,23,0,23,0,0,0,0,0,0
-public_combined1656,GLM,ALL,1656,827,829,671,21,107,25,1,2
-public_combined1656,GLM,TCGA-ACC,46,16,30,14,0,2,0,0,0
-public_combined1656,GLM,TCGA-BLCA,149,107,42,106,0,0,0,0,1
-public_combined1656,GLM,TCGA-BRCA,149,81,68,76,5,0,0,0,0
-public_combined1656,GLM,TCGA-CESC,149,84,65,84,0,0,0,0,0
-public_combined1656,GLM,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_combined1656,GLM,TCGA-COAD,19,15,4,15,0,0,0,0,0
-public_combined1656,GLM,TCGA-DLBC,34,1,33,1,0,0,0,0,0
-public_combined1656,GLM,TCGA-ESCA,146,78,68,78,0,0,0,0,0
-public_combined1656,GLM,TCGA-HNSC,149,109,40,109,0,0,0,0,0
-public_combined1656,GLM,TCGA-KICH,79,31,48,9,4,18,0,0,0
-public_combined1656,GLM,TCGA-KIRC,149,56,93,9,7,40,0,0,0
-public_combined1656,GLM,TCGA-KIRP,149,80,69,29,3,47,0,1,0
-public_combined1656,GLM,TCGA-LGG,148,62,86,37,0,0,25,0,0
-public_combined1656,GLM,TCGA-LIHC,18,8,10,8,0,0,0,0,0
-public_combined1656,GLM,TCGA-LUAD,18,11,7,11,0,0,0,0,0
-public_combined1656,GLM,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_combined1656,GLM,TCGA-MESO,17,0,17,0,0,0,0,0,0
-public_combined1656,GLM,TCGA-OV,18,14,4,14,0,0,0,0,0
-public_combined1656,GLM,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_combined1656,GLM,TCGA-PRAD,20,14,6,13,0,0,0,0,1
-public_combined1656,GLM,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_combined1656,GLM,TCGA-SKCM,20,0,20,0,0,0,0,0,0
-public_combined1656,GLM,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_combined1656,GLM,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_combined1656,GLM,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_combined1656,GLM,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_combined1656,GLM,TCGA-UCEC,19,8,11,6,2,0,0,0,0
-public_combined1656,GLM,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_combined1656,GLM,TCGA-UVM,23,0,23,0,0,0,0,0,0
-public_combined1656,PathAgent,ALL,1656,827,829,671,21,107,25,1,2
-public_combined1656,PathAgent,TCGA-ACC,46,16,30,14,0,2,0,0,0
-public_combined1656,PathAgent,TCGA-BLCA,149,107,42,106,0,0,0,0,1
-public_combined1656,PathAgent,TCGA-BRCA,149,81,68,76,5,0,0,0,0
-public_combined1656,PathAgent,TCGA-CESC,149,84,65,84,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-COAD,19,15,4,15,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-DLBC,34,1,33,1,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-ESCA,146,78,68,78,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-HNSC,149,109,40,109,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-KICH,79,31,48,9,4,18,0,0,0
-public_combined1656,PathAgent,TCGA-KIRC,149,56,93,9,7,40,0,0,0
-public_combined1656,PathAgent,TCGA-KIRP,149,80,69,29,3,47,0,1,0
-public_combined1656,PathAgent,TCGA-LGG,148,62,86,37,0,0,25,0,0
-public_combined1656,PathAgent,TCGA-LIHC,18,8,10,8,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-LUAD,18,11,7,11,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-MESO,17,0,17,0,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-OV,18,14,4,14,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-PRAD,20,14,6,13,0,0,0,0,1
-public_combined1656,PathAgent,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-SKCM,20,0,20,0,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-UCEC,19,8,11,6,2,0,0,0,0
-public_combined1656,PathAgent,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_combined1656,PathAgent,TCGA-UVM,23,0,23,0,0,0,0,0,0
-public_combined1656,SO1_D1,ALL,1656,827,829,671,21,107,25,1,2
-public_combined1656,SO1_D1,TCGA-ACC,46,16,30,14,0,2,0,0,0
-public_combined1656,SO1_D1,TCGA-BLCA,149,107,42,106,0,0,0,0,1
-public_combined1656,SO1_D1,TCGA-BRCA,149,81,68,76,5,0,0,0,0
-public_combined1656,SO1_D1,TCGA-CESC,149,84,65,84,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-COAD,19,15,4,15,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-DLBC,34,1,33,1,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-ESCA,146,78,68,78,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-HNSC,149,109,40,109,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-KICH,79,31,48,9,4,18,0,0,0
-public_combined1656,SO1_D1,TCGA-KIRC,149,56,93,9,7,40,0,0,0
-public_combined1656,SO1_D1,TCGA-KIRP,149,80,69,29,3,47,0,1,0
-public_combined1656,SO1_D1,TCGA-LGG,148,62,86,37,0,0,25,0,0
-public_combined1656,SO1_D1,TCGA-LIHC,18,8,10,8,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-LUAD,18,11,7,11,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-MESO,17,0,17,0,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-OV,18,14,4,14,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-PRAD,20,14,6,13,0,0,0,0,1
-public_combined1656,SO1_D1,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-SKCM,20,0,20,0,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-UCEC,19,8,11,6,2,0,0,0,0
-public_combined1656,SO1_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_combined1656,SO1_D1,TCGA-UVM,23,0,23,0,0,0,0,0,0
-public_combined1656,SO4_D1,ALL,1656,827,829,671,21,107,25,1,2
-public_combined1656,SO4_D1,TCGA-ACC,46,16,30,14,0,2,0,0,0
-public_combined1656,SO4_D1,TCGA-BLCA,149,107,42,106,0,0,0,0,1
-public_combined1656,SO4_D1,TCGA-BRCA,149,81,68,76,5,0,0,0,0
-public_combined1656,SO4_D1,TCGA-CESC,149,84,65,84,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-COAD,19,15,4,15,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-DLBC,34,1,33,1,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-ESCA,146,78,68,78,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-HNSC,149,109,40,109,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-KICH,79,31,48,9,4,18,0,0,0
-public_combined1656,SO4_D1,TCGA-KIRC,149,56,93,9,7,40,0,0,0
-public_combined1656,SO4_D1,TCGA-KIRP,149,80,69,29,3,47,0,1,0
-public_combined1656,SO4_D1,TCGA-LGG,148,62,86,37,0,0,25,0,0
-public_combined1656,SO4_D1,TCGA-LIHC,18,8,10,8,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-LUAD,18,11,7,11,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-MESO,17,0,17,0,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-OV,18,14,4,14,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-PRAD,20,14,6,13,0,0,0,0,1
-public_combined1656,SO4_D1,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-SKCM,20,0,20,0,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-UCEC,19,8,11,6,2,0,0,0,0
-public_combined1656,SO4_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_combined1656,SO4_D1,TCGA-UVM,23,0,23,0,0,0,0,0,0
-public_combined1656,Visual + MedGemma,ALL,1656,827,829,671,21,107,25,1,2
-public_combined1656,Visual + MedGemma,TCGA-ACC,46,16,30,14,0,2,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-BLCA,149,107,42,106,0,0,0,0,1
-public_combined1656,Visual + MedGemma,TCGA-BRCA,149,81,68,76,5,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-CESC,149,84,65,84,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-COAD,19,15,4,15,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-DLBC,34,1,33,1,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-ESCA,146,78,68,78,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-HNSC,149,109,40,109,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-KICH,79,31,48,9,4,18,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-KIRC,149,56,93,9,7,40,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-KIRP,149,80,69,29,3,47,0,1,0
-public_combined1656,Visual + MedGemma,TCGA-LGG,148,62,86,37,0,0,25,0,0
-public_combined1656,Visual + MedGemma,TCGA-LIHC,18,8,10,8,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-LUAD,18,11,7,11,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-MESO,17,0,17,0,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-OV,18,14,4,14,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-PRAD,20,14,6,13,0,0,0,0,1
-public_combined1656,Visual + MedGemma,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-SKCM,20,0,20,0,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-UCEC,19,8,11,6,2,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_combined1656,Visual + MedGemma,TCGA-UVM,23,0,23,0,0,0,0,0,0
-public_combined1656,Visual + Qwen,ALL,1656,827,829,671,21,107,25,1,2
-public_combined1656,Visual + Qwen,TCGA-ACC,46,16,30,14,0,2,0,0,0
-public_combined1656,Visual + Qwen,TCGA-BLCA,149,107,42,106,0,0,0,0,1
-public_combined1656,Visual + Qwen,TCGA-BRCA,149,81,68,76,5,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-CESC,149,84,65,84,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-CHOL,12,9,3,9,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-COAD,19,15,4,15,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-DLBC,34,1,33,1,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-ESCA,146,78,68,78,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-HNSC,149,109,40,109,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-KICH,79,31,48,9,4,18,0,0,0
-public_combined1656,Visual + Qwen,TCGA-KIRC,149,56,93,9,7,40,0,0,0
-public_combined1656,Visual + Qwen,TCGA-KIRP,149,80,69,29,3,47,0,1,0
-public_combined1656,Visual + Qwen,TCGA-LGG,148,62,86,37,0,0,25,0,0
-public_combined1656,Visual + Qwen,TCGA-LIHC,18,8,10,8,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-LUAD,18,11,7,11,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-LUSC,17,11,6,11,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-MESO,17,0,17,0,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-OV,18,14,4,14,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-PCPG,6,0,6,0,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-PRAD,20,14,6,13,0,0,0,0,1
-public_combined1656,Visual + Qwen,TCGA-READ,17,13,4,13,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-SKCM,20,0,20,0,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-STAD,17,13,4,13,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-TGCT,17,1,16,1,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-THCA,17,1,16,1,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-THYM,17,2,15,2,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-UCEC,19,8,11,6,2,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-UCS,17,2,15,2,0,0,0,0,0
-public_combined1656,Visual + Qwen,TCGA-UVM,23,0,23,0,0,0,0,0,0
-private_shared151_P002,DeepSeek,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,DeepSeek,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,DeepSeek,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,DeepSeek,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,GLM,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,GLM,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,GLM,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,GLM,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,HistGen,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,HistGen,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,HistGen,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,HistGen,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,HistoGPT,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,HistoGPT,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,HistoGPT,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,HistoGPT,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,PathAgent,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,PathAgent,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,PathAgent,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,PathAgent,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,SO1_D1,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,SO1_D1,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,SO1_D1,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,SO1_D1,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,SO4_D1,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,SO4_D1,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,SO4_D1,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,SO4_D1,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,Visual + MedGemma,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,Visual + MedGemma,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,Visual + MedGemma,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,Visual + MedGemma,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P002,Visual + Qwen,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P002,Visual + Qwen,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P002,Visual + Qwen,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P002,Visual + Qwen,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,DeepSeek,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,DeepSeek,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,DeepSeek,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,DeepSeek,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,GLM,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,GLM,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,GLM,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,GLM,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,HistGen,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,HistGen,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,HistGen,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,HistGen,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,HistoGPT,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,HistoGPT,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,HistoGPT,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,HistoGPT,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,PathAgent,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,PathAgent,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,PathAgent,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,PathAgent,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,SO1_D1,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,SO1_D1,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,SO1_D1,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,SO1_D1,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,SO4_D1,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,SO4_D1,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,SO4_D1,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,SO4_D1,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,Visual + MedGemma,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,Visual + MedGemma,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,Visual + MedGemma,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,Visual + MedGemma,prostate,62,0,62,0,0,0,0,0,0
-private_shared151_P200,Visual + Qwen,ALL,151,76,75,76,0,0,0,0,0
-private_shared151_P200,Visual + Qwen,breast,76,75,1,75,0,0,0,0,0
-private_shared151_P200,Visual + Qwen,colorectal,13,1,12,1,0,0,0,0,0
-private_shared151_P200,Visual + Qwen,prostate,62,0,62,0,0,0,0,0,0
+scope,method,stratum,cohort_cases,reference_grade_available,reference_grade_unavailable,histologic3,nuclear3,nuclear4,renal_isup4,fuhrman4,who4,isup5,gleason10
+public_development456,DeepSeek,ALL,456,185,271,168,1,0,0,12,4,0,0
+public_development456,DeepSeek,TCGA-ACC,17,4,13,3,0,0,0,1,0,0,0
+public_development456,DeepSeek,TCGA-BLCA,17,17,0,17,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-BRCA,17,7,10,7,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-CESC,17,11,6,11,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-COAD,16,12,4,12,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-DLBC,17,1,16,1,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-ESCA,17,14,3,14,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-HNSC,17,14,3,14,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-KICH,17,0,17,0,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-KIRC,17,5,12,0,0,0,0,5,0,0,0
+public_development456,DeepSeek,TCGA-KIRP,17,6,11,0,0,0,0,6,0,0,0
+public_development456,DeepSeek,TCGA-LGG,17,5,12,1,0,0,0,0,4,0,0
+public_development456,DeepSeek,TCGA-LIHC,17,7,10,7,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-LUAD,17,10,7,10,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-MESO,15,0,15,0,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-OV,17,13,4,13,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-PRAD,17,12,5,12,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-SKCM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-UCEC,17,6,11,5,1,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_development456,DeepSeek,TCGA-UVM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,GLM,ALL,456,185,271,168,1,0,0,12,4,0,0
+public_development456,GLM,TCGA-ACC,17,4,13,3,0,0,0,1,0,0,0
+public_development456,GLM,TCGA-BLCA,17,17,0,17,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-BRCA,17,7,10,7,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-CESC,17,11,6,11,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-COAD,16,12,4,12,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-DLBC,17,1,16,1,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-ESCA,17,14,3,14,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-HNSC,17,14,3,14,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-KICH,17,0,17,0,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-KIRC,17,5,12,0,0,0,0,5,0,0,0
+public_development456,GLM,TCGA-KIRP,17,6,11,0,0,0,0,6,0,0,0
+public_development456,GLM,TCGA-LGG,17,5,12,1,0,0,0,0,4,0,0
+public_development456,GLM,TCGA-LIHC,17,7,10,7,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-LUAD,17,10,7,10,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-MESO,15,0,15,0,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-OV,17,13,4,13,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-PRAD,17,12,5,12,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-SKCM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-UCEC,17,6,11,5,1,0,0,0,0,0,0
+public_development456,GLM,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_development456,GLM,TCGA-UVM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,PathAgent,ALL,456,185,271,168,1,0,0,12,4,0,0
+public_development456,PathAgent,TCGA-ACC,17,4,13,3,0,0,0,1,0,0,0
+public_development456,PathAgent,TCGA-BLCA,17,17,0,17,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-BRCA,17,7,10,7,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-CESC,17,11,6,11,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-COAD,16,12,4,12,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-DLBC,17,1,16,1,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-ESCA,17,14,3,14,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-HNSC,17,14,3,14,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-KICH,17,0,17,0,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-KIRC,17,5,12,0,0,0,0,5,0,0,0
+public_development456,PathAgent,TCGA-KIRP,17,6,11,0,0,0,0,6,0,0,0
+public_development456,PathAgent,TCGA-LGG,17,5,12,1,0,0,0,0,4,0,0
+public_development456,PathAgent,TCGA-LIHC,17,7,10,7,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-LUAD,17,10,7,10,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-MESO,15,0,15,0,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-OV,17,13,4,13,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-PRAD,17,12,5,12,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-SKCM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-UCEC,17,6,11,5,1,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_development456,PathAgent,TCGA-UVM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,SO1_D1,ALL,456,185,271,168,1,0,0,12,4,0,0
+public_development456,SO1_D1,TCGA-ACC,17,4,13,3,0,0,0,1,0,0,0
+public_development456,SO1_D1,TCGA-BLCA,17,17,0,17,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-BRCA,17,7,10,7,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-CESC,17,11,6,11,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-COAD,16,12,4,12,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-DLBC,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-ESCA,17,14,3,14,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-HNSC,17,14,3,14,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-KICH,17,0,17,0,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-KIRC,17,5,12,0,0,0,0,5,0,0,0
+public_development456,SO1_D1,TCGA-KIRP,17,6,11,0,0,0,0,6,0,0,0
+public_development456,SO1_D1,TCGA-LGG,17,5,12,1,0,0,0,0,4,0,0
+public_development456,SO1_D1,TCGA-LIHC,17,7,10,7,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-LUAD,17,10,7,10,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-MESO,15,0,15,0,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-OV,17,13,4,13,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-PRAD,17,12,5,12,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-SKCM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-UCEC,17,6,11,5,1,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_development456,SO1_D1,TCGA-UVM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,SO4_D1,ALL,456,185,271,168,1,0,0,12,4,0,0
+public_development456,SO4_D1,TCGA-ACC,17,4,13,3,0,0,0,1,0,0,0
+public_development456,SO4_D1,TCGA-BLCA,17,17,0,17,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-BRCA,17,7,10,7,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-CESC,17,11,6,11,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-COAD,16,12,4,12,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-DLBC,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-ESCA,17,14,3,14,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-HNSC,17,14,3,14,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-KICH,17,0,17,0,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-KIRC,17,5,12,0,0,0,0,5,0,0,0
+public_development456,SO4_D1,TCGA-KIRP,17,6,11,0,0,0,0,6,0,0,0
+public_development456,SO4_D1,TCGA-LGG,17,5,12,1,0,0,0,0,4,0,0
+public_development456,SO4_D1,TCGA-LIHC,17,7,10,7,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-LUAD,17,10,7,10,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-MESO,15,0,15,0,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-OV,17,13,4,13,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-PRAD,17,12,5,12,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-SKCM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-UCEC,17,6,11,5,1,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_development456,SO4_D1,TCGA-UVM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,ALL,456,185,271,168,1,0,0,12,4,0,0
+public_development456,Visual + MedGemma,TCGA-ACC,17,4,13,3,0,0,0,1,0,0,0
+public_development456,Visual + MedGemma,TCGA-BLCA,17,17,0,17,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-BRCA,17,7,10,7,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-CESC,17,11,6,11,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-COAD,16,12,4,12,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-DLBC,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-ESCA,17,14,3,14,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-HNSC,17,14,3,14,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-KICH,17,0,17,0,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-KIRC,17,5,12,0,0,0,0,5,0,0,0
+public_development456,Visual + MedGemma,TCGA-KIRP,17,6,11,0,0,0,0,6,0,0,0
+public_development456,Visual + MedGemma,TCGA-LGG,17,5,12,1,0,0,0,0,4,0,0
+public_development456,Visual + MedGemma,TCGA-LIHC,17,7,10,7,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-LUAD,17,10,7,10,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-MESO,15,0,15,0,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-OV,17,13,4,13,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-PRAD,17,12,5,12,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-SKCM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-UCEC,17,6,11,5,1,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_development456,Visual + MedGemma,TCGA-UVM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,ALL,456,185,271,168,1,0,0,12,4,0,0
+public_development456,Visual + Qwen,TCGA-ACC,17,4,13,3,0,0,0,1,0,0,0
+public_development456,Visual + Qwen,TCGA-BLCA,17,17,0,17,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-BRCA,17,7,10,7,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-CESC,17,11,6,11,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-COAD,16,12,4,12,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-DLBC,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-ESCA,17,14,3,14,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-HNSC,17,14,3,14,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-KICH,17,0,17,0,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-KIRC,17,5,12,0,0,0,0,5,0,0,0
+public_development456,Visual + Qwen,TCGA-KIRP,17,6,11,0,0,0,0,6,0,0,0
+public_development456,Visual + Qwen,TCGA-LGG,17,5,12,1,0,0,0,0,4,0,0
+public_development456,Visual + Qwen,TCGA-LIHC,17,7,10,7,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-LUAD,17,10,7,10,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-MESO,15,0,15,0,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-OV,17,13,4,13,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-PRAD,17,12,5,12,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-SKCM,17,0,17,0,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-UCEC,17,6,11,5,1,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_development456,Visual + Qwen,TCGA-UVM,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,ALL,1200,628,572,472,11,13,1,106,24,0,1
+public_evaluation1200,DeepSeek,TCGA-ACC,29,12,17,11,0,0,0,1,0,0,0
+public_evaluation1200,DeepSeek,TCGA-BLCA,132,85,47,85,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-BRCA,132,70,62,60,10,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-CESC,132,72,60,72,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-COAD,3,3,0,3,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-DLBC,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-ESCA,129,63,66,63,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-HNSC,132,92,40,92,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-KICH,62,30,32,7,0,2,0,21,0,0,0
+public_evaluation1200,DeepSeek,TCGA-KIRC,132,53,79,7,0,9,0,37,0,0,0
+public_evaluation1200,DeepSeek,TCGA-KIRP,132,73,59,23,0,2,1,47,0,0,0
+public_evaluation1200,DeepSeek,TCGA-LGG,131,60,71,36,0,0,0,0,24,0,0
+public_evaluation1200,DeepSeek,TCGA-LIHC,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-LUAD,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-MESO,2,0,2,0,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-OV,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-PRAD,3,2,1,1,0,0,0,0,0,0,1
+public_evaluation1200,DeepSeek,TCGA-SKCM,3,0,3,0,0,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-UCEC,2,2,0,1,1,0,0,0,0,0,0
+public_evaluation1200,DeepSeek,TCGA-UVM,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,GLM,ALL,1200,628,572,472,11,13,1,106,24,0,1
+public_evaluation1200,GLM,TCGA-ACC,29,12,17,11,0,0,0,1,0,0,0
+public_evaluation1200,GLM,TCGA-BLCA,132,85,47,85,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-BRCA,132,70,62,60,10,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-CESC,132,72,60,72,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-COAD,3,3,0,3,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-DLBC,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-ESCA,129,63,66,63,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-HNSC,132,92,40,92,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-KICH,62,30,32,7,0,2,0,21,0,0,0
+public_evaluation1200,GLM,TCGA-KIRC,132,53,79,7,0,9,0,37,0,0,0
+public_evaluation1200,GLM,TCGA-KIRP,132,73,59,23,0,2,1,47,0,0,0
+public_evaluation1200,GLM,TCGA-LGG,131,60,71,36,0,0,0,0,24,0,0
+public_evaluation1200,GLM,TCGA-LIHC,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-LUAD,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-MESO,2,0,2,0,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-OV,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-PRAD,3,2,1,1,0,0,0,0,0,0,1
+public_evaluation1200,GLM,TCGA-SKCM,3,0,3,0,0,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-UCEC,2,2,0,1,1,0,0,0,0,0,0
+public_evaluation1200,GLM,TCGA-UVM,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,ALL,1200,628,572,472,11,13,1,106,24,0,1
+public_evaluation1200,PathAgent,TCGA-ACC,29,12,17,11,0,0,0,1,0,0,0
+public_evaluation1200,PathAgent,TCGA-BLCA,132,85,47,85,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-BRCA,132,70,62,60,10,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-CESC,132,72,60,72,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-COAD,3,3,0,3,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-DLBC,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-ESCA,129,63,66,63,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-HNSC,132,92,40,92,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-KICH,62,30,32,7,0,2,0,21,0,0,0
+public_evaluation1200,PathAgent,TCGA-KIRC,132,53,79,7,0,9,0,37,0,0,0
+public_evaluation1200,PathAgent,TCGA-KIRP,132,73,59,23,0,2,1,47,0,0,0
+public_evaluation1200,PathAgent,TCGA-LGG,131,60,71,36,0,0,0,0,24,0,0
+public_evaluation1200,PathAgent,TCGA-LIHC,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-LUAD,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-MESO,2,0,2,0,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-OV,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-PRAD,3,2,1,1,0,0,0,0,0,0,1
+public_evaluation1200,PathAgent,TCGA-SKCM,3,0,3,0,0,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-UCEC,2,2,0,1,1,0,0,0,0,0,0
+public_evaluation1200,PathAgent,TCGA-UVM,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,ALL,1200,628,572,472,11,13,1,106,24,0,1
+public_evaluation1200,SO1_D1,TCGA-ACC,29,12,17,11,0,0,0,1,0,0,0
+public_evaluation1200,SO1_D1,TCGA-BLCA,132,85,47,85,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-BRCA,132,70,62,60,10,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-CESC,132,72,60,72,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-COAD,3,3,0,3,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-DLBC,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-ESCA,129,63,66,63,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-HNSC,132,92,40,92,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-KICH,62,30,32,7,0,2,0,21,0,0,0
+public_evaluation1200,SO1_D1,TCGA-KIRC,132,53,79,7,0,9,0,37,0,0,0
+public_evaluation1200,SO1_D1,TCGA-KIRP,132,73,59,23,0,2,1,47,0,0,0
+public_evaluation1200,SO1_D1,TCGA-LGG,131,60,71,36,0,0,0,0,24,0,0
+public_evaluation1200,SO1_D1,TCGA-LIHC,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-LUAD,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-MESO,2,0,2,0,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-OV,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-PRAD,3,2,1,1,0,0,0,0,0,0,1
+public_evaluation1200,SO1_D1,TCGA-SKCM,3,0,3,0,0,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-UCEC,2,2,0,1,1,0,0,0,0,0,0
+public_evaluation1200,SO1_D1,TCGA-UVM,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,ALL,1200,628,572,472,11,13,1,106,24,0,1
+public_evaluation1200,SO4_D1,TCGA-ACC,29,12,17,11,0,0,0,1,0,0,0
+public_evaluation1200,SO4_D1,TCGA-BLCA,132,85,47,85,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-BRCA,132,70,62,60,10,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-CESC,132,72,60,72,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-COAD,3,3,0,3,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-DLBC,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-ESCA,129,63,66,63,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-HNSC,132,92,40,92,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-KICH,62,30,32,7,0,2,0,21,0,0,0
+public_evaluation1200,SO4_D1,TCGA-KIRC,132,53,79,7,0,9,0,37,0,0,0
+public_evaluation1200,SO4_D1,TCGA-KIRP,132,73,59,23,0,2,1,47,0,0,0
+public_evaluation1200,SO4_D1,TCGA-LGG,131,60,71,36,0,0,0,0,24,0,0
+public_evaluation1200,SO4_D1,TCGA-LIHC,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-LUAD,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-MESO,2,0,2,0,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-OV,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-PRAD,3,2,1,1,0,0,0,0,0,0,1
+public_evaluation1200,SO4_D1,TCGA-SKCM,3,0,3,0,0,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-UCEC,2,2,0,1,1,0,0,0,0,0,0
+public_evaluation1200,SO4_D1,TCGA-UVM,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,ALL,1200,628,572,472,11,13,1,106,24,0,1
+public_evaluation1200,Visual + MedGemma,TCGA-ACC,29,12,17,11,0,0,0,1,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-BLCA,132,85,47,85,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-BRCA,132,70,62,60,10,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-CESC,132,72,60,72,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-COAD,3,3,0,3,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-DLBC,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-ESCA,129,63,66,63,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-HNSC,132,92,40,92,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-KICH,62,30,32,7,0,2,0,21,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-KIRC,132,53,79,7,0,9,0,37,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-KIRP,132,73,59,23,0,2,1,47,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-LGG,131,60,71,36,0,0,0,0,24,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-LIHC,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-LUAD,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-MESO,2,0,2,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-OV,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-PRAD,3,2,1,1,0,0,0,0,0,0,1
+public_evaluation1200,Visual + MedGemma,TCGA-SKCM,3,0,3,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-UCEC,2,2,0,1,1,0,0,0,0,0,0
+public_evaluation1200,Visual + MedGemma,TCGA-UVM,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,ALL,1200,628,572,472,11,13,1,106,24,0,1
+public_evaluation1200,Visual + Qwen,TCGA-ACC,29,12,17,11,0,0,0,1,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-BLCA,132,85,47,85,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-BRCA,132,70,62,60,10,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-CESC,132,72,60,72,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-COAD,3,3,0,3,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-DLBC,17,0,17,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-ESCA,129,63,66,63,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-HNSC,132,92,40,92,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-KICH,62,30,32,7,0,2,0,21,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-KIRC,132,53,79,7,0,9,0,37,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-KIRP,132,73,59,23,0,2,1,47,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-LGG,131,60,71,36,0,0,0,0,24,0,0
+public_evaluation1200,Visual + Qwen,TCGA-LIHC,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-LUAD,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-MESO,2,0,2,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-OV,1,1,0,1,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-PRAD,3,2,1,1,0,0,0,0,0,0,1
+public_evaluation1200,Visual + Qwen,TCGA-SKCM,3,0,3,0,0,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-UCEC,2,2,0,1,1,0,0,0,0,0,0
+public_evaluation1200,Visual + Qwen,TCGA-UVM,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,ALL,1656,813,843,640,12,13,1,118,28,0,1
+public_combined1656,DeepSeek,TCGA-ACC,46,16,30,14,0,0,0,2,0,0,0
+public_combined1656,DeepSeek,TCGA-BLCA,149,102,47,102,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-BRCA,149,77,72,67,10,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-CESC,149,83,66,83,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-COAD,19,15,4,15,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-DLBC,34,1,33,1,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-ESCA,146,77,69,77,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-HNSC,149,106,43,106,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-KICH,79,30,49,7,0,2,0,21,0,0,0
+public_combined1656,DeepSeek,TCGA-KIRC,149,58,91,7,0,9,0,42,0,0,0
+public_combined1656,DeepSeek,TCGA-KIRP,149,79,70,23,0,2,1,53,0,0,0
+public_combined1656,DeepSeek,TCGA-LGG,148,65,83,37,0,0,0,0,28,0,0
+public_combined1656,DeepSeek,TCGA-LIHC,18,8,10,8,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-LUAD,18,11,7,11,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-MESO,17,0,17,0,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-OV,18,14,4,14,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-PRAD,20,14,6,13,0,0,0,0,0,0,1
+public_combined1656,DeepSeek,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-SKCM,20,0,20,0,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-UCEC,19,8,11,6,2,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_combined1656,DeepSeek,TCGA-UVM,23,0,23,0,0,0,0,0,0,0,0
+public_combined1656,GLM,ALL,1656,813,843,640,12,13,1,118,28,0,1
+public_combined1656,GLM,TCGA-ACC,46,16,30,14,0,0,0,2,0,0,0
+public_combined1656,GLM,TCGA-BLCA,149,102,47,102,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-BRCA,149,77,72,67,10,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-CESC,149,83,66,83,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-COAD,19,15,4,15,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-DLBC,34,1,33,1,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-ESCA,146,77,69,77,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-HNSC,149,106,43,106,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-KICH,79,30,49,7,0,2,0,21,0,0,0
+public_combined1656,GLM,TCGA-KIRC,149,58,91,7,0,9,0,42,0,0,0
+public_combined1656,GLM,TCGA-KIRP,149,79,70,23,0,2,1,53,0,0,0
+public_combined1656,GLM,TCGA-LGG,148,65,83,37,0,0,0,0,28,0,0
+public_combined1656,GLM,TCGA-LIHC,18,8,10,8,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-LUAD,18,11,7,11,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-MESO,17,0,17,0,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-OV,18,14,4,14,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-PRAD,20,14,6,13,0,0,0,0,0,0,1
+public_combined1656,GLM,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-SKCM,20,0,20,0,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-UCEC,19,8,11,6,2,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_combined1656,GLM,TCGA-UVM,23,0,23,0,0,0,0,0,0,0,0
+public_combined1656,PathAgent,ALL,1656,813,843,640,12,13,1,118,28,0,1
+public_combined1656,PathAgent,TCGA-ACC,46,16,30,14,0,0,0,2,0,0,0
+public_combined1656,PathAgent,TCGA-BLCA,149,102,47,102,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-BRCA,149,77,72,67,10,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-CESC,149,83,66,83,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-COAD,19,15,4,15,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-DLBC,34,1,33,1,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-ESCA,146,77,69,77,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-HNSC,149,106,43,106,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-KICH,79,30,49,7,0,2,0,21,0,0,0
+public_combined1656,PathAgent,TCGA-KIRC,149,58,91,7,0,9,0,42,0,0,0
+public_combined1656,PathAgent,TCGA-KIRP,149,79,70,23,0,2,1,53,0,0,0
+public_combined1656,PathAgent,TCGA-LGG,148,65,83,37,0,0,0,0,28,0,0
+public_combined1656,PathAgent,TCGA-LIHC,18,8,10,8,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-LUAD,18,11,7,11,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-MESO,17,0,17,0,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-OV,18,14,4,14,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-PRAD,20,14,6,13,0,0,0,0,0,0,1
+public_combined1656,PathAgent,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-SKCM,20,0,20,0,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-UCEC,19,8,11,6,2,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_combined1656,PathAgent,TCGA-UVM,23,0,23,0,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,ALL,1656,813,843,640,12,13,1,118,28,0,1
+public_combined1656,SO1_D1,TCGA-ACC,46,16,30,14,0,0,0,2,0,0,0
+public_combined1656,SO1_D1,TCGA-BLCA,149,102,47,102,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-BRCA,149,77,72,67,10,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-CESC,149,83,66,83,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-COAD,19,15,4,15,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-DLBC,34,1,33,1,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-ESCA,146,77,69,77,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-HNSC,149,106,43,106,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-KICH,79,30,49,7,0,2,0,21,0,0,0
+public_combined1656,SO1_D1,TCGA-KIRC,149,58,91,7,0,9,0,42,0,0,0
+public_combined1656,SO1_D1,TCGA-KIRP,149,79,70,23,0,2,1,53,0,0,0
+public_combined1656,SO1_D1,TCGA-LGG,148,65,83,37,0,0,0,0,28,0,0
+public_combined1656,SO1_D1,TCGA-LIHC,18,8,10,8,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-LUAD,18,11,7,11,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-MESO,17,0,17,0,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-OV,18,14,4,14,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-PRAD,20,14,6,13,0,0,0,0,0,0,1
+public_combined1656,SO1_D1,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-SKCM,20,0,20,0,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-UCEC,19,8,11,6,2,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_combined1656,SO1_D1,TCGA-UVM,23,0,23,0,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,ALL,1656,813,843,640,12,13,1,118,28,0,1
+public_combined1656,SO4_D1,TCGA-ACC,46,16,30,14,0,0,0,2,0,0,0
+public_combined1656,SO4_D1,TCGA-BLCA,149,102,47,102,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-BRCA,149,77,72,67,10,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-CESC,149,83,66,83,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-COAD,19,15,4,15,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-DLBC,34,1,33,1,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-ESCA,146,77,69,77,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-HNSC,149,106,43,106,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-KICH,79,30,49,7,0,2,0,21,0,0,0
+public_combined1656,SO4_D1,TCGA-KIRC,149,58,91,7,0,9,0,42,0,0,0
+public_combined1656,SO4_D1,TCGA-KIRP,149,79,70,23,0,2,1,53,0,0,0
+public_combined1656,SO4_D1,TCGA-LGG,148,65,83,37,0,0,0,0,28,0,0
+public_combined1656,SO4_D1,TCGA-LIHC,18,8,10,8,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-LUAD,18,11,7,11,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-MESO,17,0,17,0,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-OV,18,14,4,14,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-PRAD,20,14,6,13,0,0,0,0,0,0,1
+public_combined1656,SO4_D1,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-SKCM,20,0,20,0,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-UCEC,19,8,11,6,2,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_combined1656,SO4_D1,TCGA-UVM,23,0,23,0,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,ALL,1656,813,843,640,12,13,1,118,28,0,1
+public_combined1656,Visual + MedGemma,TCGA-ACC,46,16,30,14,0,0,0,2,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-BLCA,149,102,47,102,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-BRCA,149,77,72,67,10,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-CESC,149,83,66,83,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-COAD,19,15,4,15,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-DLBC,34,1,33,1,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-ESCA,146,77,69,77,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-HNSC,149,106,43,106,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-KICH,79,30,49,7,0,2,0,21,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-KIRC,149,58,91,7,0,9,0,42,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-KIRP,149,79,70,23,0,2,1,53,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-LGG,148,65,83,37,0,0,0,0,28,0,0
+public_combined1656,Visual + MedGemma,TCGA-LIHC,18,8,10,8,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-LUAD,18,11,7,11,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-MESO,17,0,17,0,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-OV,18,14,4,14,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-PRAD,20,14,6,13,0,0,0,0,0,0,1
+public_combined1656,Visual + MedGemma,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-SKCM,20,0,20,0,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-UCEC,19,8,11,6,2,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_combined1656,Visual + MedGemma,TCGA-UVM,23,0,23,0,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,ALL,1656,813,843,640,12,13,1,118,28,0,1
+public_combined1656,Visual + Qwen,TCGA-ACC,46,16,30,14,0,0,0,2,0,0,0
+public_combined1656,Visual + Qwen,TCGA-BLCA,149,102,47,102,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-BRCA,149,77,72,67,10,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-CESC,149,83,66,83,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-CHOL,12,8,4,8,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-COAD,19,15,4,15,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-DLBC,34,1,33,1,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-ESCA,146,77,69,77,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-HNSC,149,106,43,106,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-KICH,79,30,49,7,0,2,0,21,0,0,0
+public_combined1656,Visual + Qwen,TCGA-KIRC,149,58,91,7,0,9,0,42,0,0,0
+public_combined1656,Visual + Qwen,TCGA-KIRP,149,79,70,23,0,2,1,53,0,0,0
+public_combined1656,Visual + Qwen,TCGA-LGG,148,65,83,37,0,0,0,0,28,0,0
+public_combined1656,Visual + Qwen,TCGA-LIHC,18,8,10,8,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-LUAD,18,11,7,11,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-LUSC,17,10,7,10,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-MESO,17,0,17,0,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-OV,18,14,4,14,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-PCPG,6,0,6,0,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-PRAD,20,14,6,13,0,0,0,0,0,0,1
+public_combined1656,Visual + Qwen,TCGA-READ,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-SKCM,20,0,20,0,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-STAD,17,13,4,13,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-TGCT,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-THCA,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-THYM,17,1,16,1,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-UCEC,19,8,11,6,2,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-UCS,17,2,15,2,0,0,0,0,0,0,0
+public_combined1656,Visual + Qwen,TCGA-UVM,23,0,23,0,0,0,0,0,0,0,0
+private_shared151_P002,DeepSeek,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,DeepSeek,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,DeepSeek,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,DeepSeek,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,GLM,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,GLM,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,GLM,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,GLM,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,HistGen,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,HistGen,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,HistGen,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,HistGen,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,HistoGPT,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,HistoGPT,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,HistoGPT,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,HistoGPT,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,PathAgent,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,PathAgent,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,PathAgent,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,PathAgent,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,SO1_D1,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,SO1_D1,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,SO1_D1,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,SO1_D1,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,SO4_D1,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,SO4_D1,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,SO4_D1,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,SO4_D1,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,Visual + MedGemma,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,Visual + MedGemma,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,Visual + MedGemma,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,Visual + MedGemma,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P002,Visual + Qwen,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P002,Visual + Qwen,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P002,Visual + Qwen,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P002,Visual + Qwen,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,DeepSeek,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,DeepSeek,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,DeepSeek,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,DeepSeek,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,GLM,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,GLM,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,GLM,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,GLM,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,HistGen,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,HistGen,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,HistGen,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,HistGen,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,HistoGPT,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,HistoGPT,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,HistoGPT,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,HistoGPT,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,PathAgent,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,PathAgent,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,PathAgent,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,PathAgent,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,SO1_D1,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,SO1_D1,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,SO1_D1,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,SO1_D1,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,SO4_D1,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,SO4_D1,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,SO4_D1,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,SO4_D1,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,Visual + MedGemma,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,Visual + MedGemma,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,Visual + MedGemma,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,Visual + MedGemma,prostate,62,0,62,0,0,0,0,0,0,0,0
+private_shared151_P200,Visual + Qwen,ALL,151,76,75,76,0,0,0,0,0,0,0
+private_shared151_P200,Visual + Qwen,breast,76,75,1,75,0,0,0,0,0,0,0
+private_shared151_P200,Visual + Qwen,colorectal,13,1,12,1,0,0,0,0,0,0,0
+private_shared151_P200,Visual + Qwen,prostate,62,0,62,0,0,0,0,0,0,0,0
