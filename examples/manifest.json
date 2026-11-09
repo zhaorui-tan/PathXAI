@@ -58,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1414,
-      "sha256": "cb2245bf48995027f368f0f85e4f466d8218dbf1bb19f66e47a22fd93acc3890"
+      "bytes": 1990,
+      "sha256": "008292dd36927dba183070f5066e96bf1d5507e542192dc4f54e4317de7ae937"
     },
     {
       "path": "SO1/generated_long_report.txt",
@@ -243,8 +243,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 5014,
-      "sha256": "de44cb8235a2ef7292f35d6f157cfc6a3cc18fd7330e33688cccb8ac492cee8c"
+      "bytes": 5336,
+      "sha256": "19d4993c7fae149f046073a2f6fbb317bc51f2317f6947c8334ee108a06566b4"
     },
     {
       "path": "notebooks/SO1_completed.ipynb",
@@ -255,7 +255,48 @@
       "path": "notebooks/SO4_completed.ipynb",
       "bytes": 28853,
       "sha256": "ce1be289b5fef6bb146da08a43caa420a411d7ad8024d5e41a33864a671ebdc0"
+    },
+    {
+      "path": "traces/README.md",
+      "bytes": 8085,
+      "sha256": "716e0aa8aff095f451c4635feb0485d0a325d59e21eff05f0390636339919708"
+    },
+    {
+      "path": "traces/TCGA-08-0516_SO1.html",
+      "bytes": 3349331,
+      "sha256": "e6654e16d485f8848ca491f1ccbf9e07d02a6a3ff3b82b8ca37c87b158fa2f0f"
+    },
+    {
+      "path": "traces/TCGA-08-0516_SO4.html",
+      "bytes": 4486440,
+      "sha256": "4d78d67dffe3ded2052e25c446ea856820073a1fac14095135eb236903bb20f3"
+    },
+    {
+      "path": "traces/TCGA-OR-A5JI_SO1.html",
+      "bytes": 3176058,
+      "sha256": "351078f0b5e0bd5f9125df11331a66c0d8113829711c1143a446777e1686edef"
+    },
+    {
+      "path": "traces/TCGA-OR-A5JI_SO4.html",
+      "bytes": 3182280,
+      "sha256": "bf073080981e3779969c8be9634045c489d5ea179eb233657255f3d61f31f2f3"
+    },
+    {
+      "path": "traces/index.html",
+      "bytes": 4297,
+      "sha256": "96d57b44ea88172c23a07764387c3a2f73b149727e7c647f0c588da117d003c3"
+    },
+    {
+      "path": "traces/manifest.json",
+      "bytes": 1492,
+      "sha256": "6f18f24071e0718039001a5a9c05a6c3c01b87c2b70e06d52fddd73b0597818b"
+    },
+    {
+      "path": "traces/selection/tcga_never_included_primary_dx.csv",
+      "bytes": 39028,
+      "sha256": "4bfa24d5d72c92b77129e237545c8cba6e6870ff9b304dc7b14cd248c4236e7f"
     }
   ],
-  "scope": "Public TCGA example outputs only; no original WSI, model weights or credentials."
+  "scope": "Public TCGA example outputs only; no original WSI, model weights or credentials.",
+  "execution_trajectories": "traces/manifest.json"
 }

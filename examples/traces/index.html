@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PathXAI · Execution trajectories</title><style>
+    :root{color-scheme:light;--ink:#153b36;--muted:#526b66;--line:#d6e2dc;--paper:#f6f8f4;--green:#146858}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,sans-serif}
+    main{max-width:1080px;margin:auto;padding:58px 26px 34px}.eyebrow{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:700}
+    h1{font-size:clamp(34px,5vw,58px);line-height:1.12;letter-spacing:-.04em;margin:18px 0 22px;max-width:800px}h2{font-size:28px;margin:14px 0 8px}p{margin:0 0 18px}.intro{max-width:730px;font-size:20px;color:var(--muted)}
+    .meta{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 34px}.meta span{padding:6px 12px;border:1px solid var(--line);border-radius:30px;font-size:13px}
+    .cards{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{display:flex;flex-direction:column;background:white;border:1px solid var(--line);border-radius:16px;padding:30px}.label{font-size:13px;color:var(--green);font-weight:700}.card p{color:var(--muted)}.card .details{font-size:14px;margin-bottom:26px}.actions{margin-top:auto;display:flex;flex-direction:column;gap:12px}
+    a{color:var(--green);text-underline-offset:4px}.button{background:var(--green);color:white;text-align:center;padding:13px 18px;text-decoration:none;border-radius:8px;font-weight:650}.button:hover{background:#0d5043}.secondary{text-align:center;font-size:14px}a:focus-visible{outline:3px solid #d99b29;outline-offset:4px}
+    .note{padding:28px 0;border-bottom:1px solid var(--line);color:var(--muted);font-size:15px}.note h2{font-size:20px;color:var(--ink)}footer{padding-top:22px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+    @media(max-width:650px){main{padding:35px 20px}.cards{grid-template-columns:1fr}.card{padding:24px}.intro{font-size:18px}}
+  </style></head><body><main>
+<div class="eyebrow">PathXAI · Recorded execution</div><h1>Follow each model call.</h1>
+<p class="intro">Explore the input images, prompts, outputs and token usage across four saved Core and Full runs.</p>
+<div class="meta"><span>2 public TCGA cases</span><span>Qwen3.6-27B · Q6_K</span><span>Added 9 November 2026</span></div>
+<section class="cards" aria-label="Execution trajectories"><article class="card"><div class="label">Existing development case</div><h2>TCGA-OR-A5JI</h2>
+<p>Known site: Adrenal gland / adrenocortical tissue.</p><p class="details">SO1/Core: 22 requests · SO4/Full: 22 requests</p>
+<div class="actions"><a class="button" href="TCGA-OR-A5JI_SO1.html">Open Core trajectory →</a><a class="button" href="TCGA-OR-A5JI_SO4.html">Open Full trajectory →</a></div></article><article class="card"><div class="label">Randomly selected GDC case</div><h2>TCGA-08-0516</h2>
+<p>Known site: Brain.</p><p class="details">SO1/Core: 22 requests · SO4/Full: 33 requests</p>
+<div class="actions"><a class="button" href="TCGA-08-0516_SO1.html">Open Core trajectory →</a><a class="button" href="TCGA-08-0516_SO4.html">Open Full trajectory →</a></div></article></section>
+<section class="note"><h2>Reading these trajectories</h2><p>Each self-contained page contains the recorded model inputs and outputs in call order. Thinking was disabled, so no internal reasoning text was returned. Stage and branch labels were inferred from prompts, call order and saved checkpoints.</p>
+<p>TCGA-OR-A5JI belongs to the 456-case PathXAI-Report pipeline development subset. TCGA-08-0516 was randomly selected from a GDC candidate pool outside the recorded case inventory. These runs illustrate execution; they are not cohort-level performance estimates.</p>
+<p><a href="https://github.com/zhaorui-tan/PathXAI/blob/main/examples/traces/README.md">Run settings, selection and interpretation notes</a> · <a href="selection/tcga_never_included_primary_dx.csv">Candidate list (742 cases)</a></p></section>
+<footer><a href="../index.html">All examples</a><a href="manifest.json">File checksums</a><a href="https://github.com/zhaorui-tan/PathXAI">Source and tutorial</a></footer>
+</main></body></html>

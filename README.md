@@ -18,6 +18,10 @@ The linked notebooks execute PathXAI(core) and PathXAI inference for TCGA-OR-A5L
 
 **Qwen output variability:** Report wording and details may vary with the Qwen model version, deployment configuration and sampling parameters. Repeated runs may produce different outputs even with the same input slides.
 
+### Recorded execution trajectories
+
+[Browse four additional trajectories](https://zhaorui-tan.github.io/PathXAI/traces/) for TCGA-OR-A5JI (an existing development case) and TCGA-08-0516 (a randomly selected GDC case), each with SO1/Core and SO4/Full runs. The pages show input images, prompts, model outputs and token usage for each call. See [run settings and selection notes](examples/traces/README.md). Thinking was disabled; no internal reasoning text was returned.
+
 ## Quick start
 
 1. From the checkout root, run `python3 scripts/fetch_medsam_source.py` to prepare the external MedSAM3 runtime source required by segmentation. This uses the pinned upstream source and tutorial patches; it needs network access but does not download model weights or require a GPU. Run it before environment import checks or opening the notebook. See [installation](docs/INSTALLATION.md).
@@ -60,5 +64,6 @@ Original PathXAI code is licensed under the [Creative Commons Attribution-NonCom
 This license applies to PathXAI's original code. Third-party code and adaptations subject to upstream terms, model checkpoints, datasets and externally sourced assets retain their respective licenses and access conditions. In particular, the published D1 adapter bundle retains its [SAM License](model_release/upload_ready/LICENSE); the code license does not relicense those weights. See [third-party notices](docs/THIRD_PARTY_NOTICES.md).
 
 PathXAI is research software, not a medical device or a clinical diagnostic service.
+
 
 
