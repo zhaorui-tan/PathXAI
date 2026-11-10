@@ -33,6 +33,21 @@ Use the **Requests** sidebar to jump to a step, expand its prompt and output, or
 
 **Qwen output variability:** Report wording and details may vary with the Qwen model version, deployment configuration and sampling parameters. Repeated runs may produce different outputs even with the same input slides.
 
+## Estimated setup time
+
+No separate installation of PathXAI is required; the code is run directly from the repository. **Estimated environment setup time is approximately 1 hour**, assuming a compatible Linux system with Conda and NVIDIA drivers already installed and a stable internet connection. This is an author-provided estimate, not a measured benchmark. Model and dataset downloads, access approval, and API service deployment are excluded; actual setup time depends on the system and network.
+
+## Demo runtime
+
+The recorded TCGA-OR-A5LL example uses six source WSIs and 20 pinned candidate ROIs in the documented Linux/NVIDIA-GPU environment with a configured Qwen API.
+
+| Configuration | Pipeline runtime | Notebook runtime |
+| --- | ---: | ---: |
+| PathXAI(core) | 515.7 s (8.6 min) | 794.3 s (13.2 min) |
+| PathXAI | 574.6 s (9.6 min) | 939.9 s (15.7 min) |
+
+These are observed single-case runtimes, provided as a guide to the expected demo runtime under comparable conditions; they are not cohort averages or CPU-only desktop benchmarks. Runtime varies with GPU and API performance, the input slides, reinspection and cache state. The recorded runs used existing environments and a previously downloaded, checksum-verified adapter. They do not measure fresh installation or model-access approval time. See the [execution details](docs/VALIDATION.md) and [machine-readable timing records](provenance/validation_results.json).
+
 ## Quick start
 
 1. From the checkout root, run `python3 scripts/fetch_medsam_source.py` to prepare the external MedSAM3 runtime source required by segmentation. This uses the pinned upstream source and tutorial patches; it needs network access but does not download model weights or require a GPU. Run it before environment import checks or opening the notebook. See [installation](docs/INSTALLATION.md).
@@ -75,6 +90,7 @@ Original PathXAI code is licensed under the [Creative Commons Attribution-NonCom
 This license applies to PathXAI's original code. Third-party code and adaptations subject to upstream terms, model checkpoints, datasets and externally sourced assets retain their respective licenses and access conditions. In particular, the published D1 adapter bundle retains its [SAM License](model_release/upload_ready/LICENSE); the code license does not relicense those weights. See [third-party notices](docs/THIRD_PARTY_NOTICES.md).
 
 PathXAI is research software, not a medical device or a clinical diagnostic service.
+
 
 
 

@@ -4,6 +4,10 @@ PathXAI uses two Python interpreters. The tested inference setup is Linux with a
 
 The commands below describe the versions observed in the project’s installed `conch` and `medsam` environments on the Linux host, with added notebook/HTML dependencies. The import checks used those existing environments and the frozen source shipped under `vendor/report_engine/baselines/current/source_snapshot/`, together with the separately prepared MedSAM3 runtime source described below. They did not recreate either environment from scratch. Both Torch interpreters reported CUDA 13.0 and `torch.cuda.is_available() == true`. The import checker itself runs no model inference. Environment import checks alone do not establish full WSI-to-report inference. See [VALIDATION.md](VALIDATION.md) for the documented validation scope.
 
+## Estimated setup time
+
+No separate installation of PathXAI is required; the code is run directly from the repository. **Estimated environment setup time is approximately 1 hour**, assuming a compatible Linux system with Conda and NVIDIA drivers already installed and a stable internet connection. This is an author-provided estimate, not a measured benchmark. Model and dataset downloads, access approval, and API service deployment are excluded; actual setup time depends on the system and network.
+
 ## Prepare the external MedSAM3 source
 
 From the tutorial checkout root, run this once before running environment import checks or opening the notebook:
@@ -88,3 +92,4 @@ The checker imports the modules used by the worker paths, reports Python/Torch/T
 The tutorial validation environment adds Notebook server `7.6.4`, `ipykernel` `7.3.0`, and `lxml` `6.1.3` to the existing pipeline environment. The recorded inference runs used a real Jupyter kernel; the Notebook server was installed afterward for the delivery environment check. The environment files have not been independently recreated or clean-install tested, so treat them as pinned setup specifications rather than a claim of a clean-room installation test.
 
 The CUDA wheel commands follow PyTorch’s official installation matrix for the observed version pairs: [PyTorch previous-version commands](https://pytorch.org/get-started/previous-versions/). The selected CUDA 13.0 wheel does not install or guarantee a compatible NVIDIA driver; use a host with a driver that supports that runtime for GPU inference.
+
